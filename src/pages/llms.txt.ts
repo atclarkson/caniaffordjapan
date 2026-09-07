@@ -20,7 +20,7 @@ export const GET: APIRoute = async ({ site, url }) => {
     "",
     `> ${siteData.description}`,
     "",
-    `This site is published in ${locales.length} languages: ` +
+    `This site is published in ${locales.length} language${locales.length === 1 ? "" : "s"}: ` +
       locales
         .map((locale) => `${localeMeta[locale].label} (${absolute(localizePath("/", locale))})`)
         .join(", ") +
@@ -29,13 +29,13 @@ export const GET: APIRoute = async ({ site, url }) => {
   ];
 
   const core: [string, string][] = [
-    ["/", "the editorial home: featured post, latest notes, topics and writers"],
+    ["/", "the home page: featured post, latest posts, topics and authors"],
     ["/blog/", "every published post, newest first, paginated nine to a page"],
     ["/topics/", "the topic index; each topic has its own paginated archive"],
-    ["/authors/", "the people who write here, one page per byline"],
-    ["/about/", "how the studio works and why the notes are published"],
-    ["/contact/", "how to reach the studio"],
-    ["/legal/", "publisher, host and how to report a problem"],
+    ["/authors/", "the family members who write here, one page per byline"],
+    ["/about/", "who the Clarkson family is and why real prices are published"],
+    ["/contact/", "how to reach the family"],
+    ["/legal/", "publisher, host, and how to report a problem"],
   ];
 
   for (const locale of locales) {
