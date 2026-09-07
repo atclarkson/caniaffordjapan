@@ -42,11 +42,11 @@ const ACCENT_2 = token("coral-400", "#ff7a59");
 
 // title : ce qui s'affiche en enorme. eyebrow : la petite ligne au-dessus.
 const PAGES = [
-  { slug: "default", eyebrow: "Reef Notes", title: "The notebook, not the portfolio." },
-  { slug: "blog", eyebrow: "Reef Notes · Posts", title: "What we learn while building sites." },
-  { slug: "topics", eyebrow: "Reef Notes · Topics", title: "Every note, sorted by subject." },
-  { slug: "about", eyebrow: "Reef Notes · About", title: "A two-person studio that writes it down." },
-  { slug: "contact", eyebrow: "Reef Notes · Contact", title: "Tell us what you are building." },
+  { slug: "default", eyebrow: "Can I Afford Japan?", title: "Real prices, real trips." },
+  { slug: "blog", eyebrow: "Can I Afford Japan? · Posts", title: "Every post, priced out." },
+  { slug: "topics", eyebrow: "Can I Afford Japan? · Topics", title: "Browse by topic." },
+  { slug: "about", eyebrow: "Can I Afford Japan? · About", title: "The family behind the posts." },
+  { slug: "contact", eyebrow: "Can I Afford Japan? · Contact", title: "Tell us what we got wrong." },
 ];
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -102,7 +102,7 @@ function svgTemplate({ eyebrow, title }) {
   ${text}
 
   <path d="M 90 520 q 30 -26 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="${ACCENT}" stroke-width="7" stroke-linecap="round"/>
-  <text x="1110" y="560" text-anchor="end" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="26" fill="${DEEP_SOFT}">reef.alohapixel.app</text>
+  <text x="1110" y="560" text-anchor="end" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="26" fill="${DEEP_SOFT}">caniaffordjapan.com</text>
 </svg>`;
 }
 
