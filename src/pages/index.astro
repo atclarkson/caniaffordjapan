@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+<BaseLayout
+  title="Can I Afford Japan? — Real prices for an affordable Japan trip"
+  description="A family's honest, photo-backed guide to what's actually free or cheap in Japan — temples, food, transit, and day trips, with real receipts."
+>
+  <p class="meta">A running, honest answer to "can we actually afford this trip?" — written from our own trips to Japan, with real photos and real prices.</p>
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <a href={`/posts/${post.slug}/`}>
+          <h2>{post.data.title}</h2>
+        </a>
+        <p class="meta">{post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        <p>{post.data.description}</p>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
