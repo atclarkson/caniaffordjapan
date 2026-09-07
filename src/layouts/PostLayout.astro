@@ -14,10 +14,14 @@ const { title, description, pubDate, heroImage, heroAlt, tags } = Astro.props;
 const dateStr = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 <BaseLayout title={`${title} | Can I Afford Japan?`} description={description} image={heroImage}>
-  <article>
-    <p class="meta">{dateStr}{tags.length > 0 && <> · {tags.join(', ')}</>}</p>
-    <h1>{title}</h1>
-    <img src={heroImage} alt={heroAlt} width="960" height="640" style="width:100%;height:auto;object-fit:cover;" />
-    <slot />
+  <article class="post shell">
+    <div class="post-head">
+      <p class="meta">{dateStr}{tags.length > 0 && <> · {tags.join(', ')}</>}</p>
+      <h1>{title}</h1>
+    </div>
+    <img class="post-hero" src={heroImage} alt={heroAlt} loading="eager" />
+    <div class="prose">
+      <slot />
+    </div>
   </article>
 </BaseLayout>

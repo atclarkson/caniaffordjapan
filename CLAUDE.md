@@ -34,7 +34,11 @@ a cheap meal, a transit hack, a lodging comparison, a day-trip cost breakdown.
   story. Use real photos inline via `<figure><img .../><figcaption>...`.
   One H1 only (rendered by the layout from `title` — don't repeat it as a
   heading in the body); use `##` for sections.
-- Include a rough cost table where it makes sense (a markdown table is fine).
+- For two or more photos side by side, wrap them in `<div class="gallery">`
+  with plain `<figure>` children (no inline `style` — the `.gallery` class in
+  `src/styles/global.css` already handles the grid and mobile stacking).
+- Include a rough cost table where it makes sense — a plain markdown table is
+  fine, `.prose table` in global.css styles it automatically.
 
 ## Affiliate links
 
