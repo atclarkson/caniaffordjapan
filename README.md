@@ -1,55 +1,66 @@
 # Can I Afford Japan?
 
-A lightweight blog (Astro, static output) answering the question everyone
-asks before a Japan trip: what does this actually cost? Real photos, real
-prices, from the Clarkson family's own trips.
+A family travel blog answering the question everyone asks before a Japan
+trip: what does this actually cost? Real photos, real prices, from the
+Clarkson family's own trips.
+
+Built on [Reef](https://github.com/alohapixelcom-hash/reef), a free,
+MIT licensed Astro blog theme by Aloha Pixel, then rebranded and stripped
+down to English only for this site. See `NOTICE.md` and `THIRD-PARTY.md` for
+what that license covers.
 
 ## Stack
 
-- [Astro](https://astro.build) — static site generator, content collections
-  for posts (`src/content/posts/*.md` / `*.mdx`).
-- Hosted on **Cloudflare Pages**, auto-deploying on every push to `main`.
-- No backend, no database — just markdown + images.
+- [Astro](https://astro.build) 7, static output, content collections for
+  posts, authors, and topics under `src/data/`.
+- Tailwind CSS 4, MDX for posts that embed a component (like the affiliate
+  booking box).
+- pnpm, pinned in `package.json` via `packageManager`. Use pnpm, not npm,
+  the lockfile and the native build steps (sharp, esbuild) depend on it.
+- Hosted on **Cloudflare Workers** (static assets), auto deploying on every
+  push to `main`.
 
 ## Local development
 
 ```
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-## Deploying (one-time setup)
+## Deploying
 
-This repo isn't connected to Cloudflare Pages yet. To connect it:
+This repo is connected to Cloudflare Workers Builds already. One thing to
+check in the Cloudflare dashboard: the project's build command needs to be
+`pnpm build`, not `npm run build` (it may have been set to the npm version
+before this repo switched to pnpm). Deploy command stays `npx wrangler
+deploy`, it reads `wrangler.jsonc` at the repo root, which points at the
+static `dist/` output.
 
-1. In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect
-   to Git**, pick `atclarkson/caniaffordjapan`.
-2. Build settings: framework preset **Astro**, build command `npm run
-   build`, output directory `dist`.
-3. Deploy. Cloudflare gives you a `*.pages.dev` URL immediately.
-4. **Custom domain**: once `caniaffordjapan.com` is registered, add it under
-   the Pages project's **Custom domains** tab. If the domain's nameservers
-   are on Cloudflare, this is a couple of clicks; otherwise Cloudflare will
-   give you a CNAME to add at your registrar.
+Once `caniaffordjapan.com` is registered, add it under the Workers
+project's custom domains. If the domain's nameservers are on Cloudflare,
+that's a couple of clicks; otherwise Cloudflare gives you a CNAME to add at
+your registrar.
 
-After that, every push to `main` (including the daily automated posts)
-deploys automatically — nothing else to do.
+After that, every push to `main`, including the daily automated posts,
+deploys automatically.
 
 ## Affiliate links
 
-`src/data/affiliates.ts` centralizes the Klook / GetYourGuide / Expedia link
-logic. Right now `pending: true` on each provider, so links go straight to
-the provider's site with no tracking — no partner IDs exist yet. Once you
-have affiliate/partner accounts with each:
+`src/data/affiliates.ts` centralizes the Klook, GetYourGuide, and Expedia
+link logic. Right now `pending: true` on each provider, so links go
+straight to the provider's site with no tracking, no partner IDs exist yet.
+Once you have affiliate or partner accounts with each:
 
 1. Update `src/data/affiliates.ts` with the real tracking link format.
 2. Set `pending: false` for that provider.
 3. Add the site as a media property in whatever affiliate network each
-   program runs on (e.g. this account already has an Impact.com account —
-   worth checking if any of the three run through it before signing up
+   program runs on (this account already has an Impact.com account, worth
+   checking if any of the three run through it before signing up
    separately).
 
 ## Content
 
-See `CLAUDE.md` for the full content/style guide — it's what drives the
-daily automated post.
+See `CLAUDE.md` for the full content and style guide, it's what drives the
+daily automated post. See `AGENTS.md` for the theme's own engineering
+conventions if you're changing layout or components rather than writing a
+post.

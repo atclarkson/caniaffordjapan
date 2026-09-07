@@ -1,0 +1,11 @@
+{
+  "name": "The Clarksons",
+  "role": "Adam, Lindsay, and their three kids",
+  "bio": "Adam and Lindsay travel with their three kids, Lily, Cora, and Harper, and have been back to Japan more times than they can count. Every post here comes from a trip they actually took, with a real price attached.",
+  "avatar": "../../../assets/authors/the-clarksons.jpg",
+  "links": [
+    { "label": "Adam and Linds", "href": "https://www.adamandlinds.com/" },
+    { "label": "The Worldschool Journal", "href": "https://blog.adamandlinds.com/" },
+    { "label": "YouTube", "href": "https://www.youtube.com/channel/UCj0i52MS0IQwvPvXVmcZ9OA" }
+  ]
+}

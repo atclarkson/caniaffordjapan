@@ -1,0 +1,45 @@
+---
+// src/components/Post/AffiliateBox.astro - booking callout dropped into a post body (MDX only).
+// Built from the theme's own Card + Button primitives so it matches the rest
+// of the site instead of introducing a one-off style. See src/data/affiliates.ts
+// and CLAUDE.md "Affiliate links" for how pending vs. real links work.
+import { Card, CardContent, CardHeader, CardTitle } from "@components/ui/card";
+import { Button } from "@components/ui/button";
+import { Icon } from "@components/svg/icons";
+import { affiliates, type Provider } from "@data/affiliates";
+
+interface Props {
+  heading: string;
+  query: string;
+  providers?: Provider[];
+}
+
+const { heading, query, providers = ["klook", "getyourguide", "expedia"] } = Astro.props;
+const anyPending = providers.some((p) => affiliates[p].pending);
+---
+
+<Card class="my-8 not-prose">
+  <CardHeader>
+    <CardTitle as="h3" class="text-lg">{heading}</CardTitle>
+  </CardHeader>
+  <CardContent>
+    {
+      anyPending && (
+        <p class="text-muted-foreground mb-4 text-sm">
+          Links below go straight to the provider, not affiliate links yet. We'll mark it clearly
+          here once our partnerships are live (see our <a href="/legal/" class="underline">legal notice</a>).
+        </p>
+      )
+    }
+    <div class="flex flex-wrap gap-2">
+      {
+        providers.map((p) => (
+          <Button href={affiliates[p].searchUrl(query)} target="_blank" rel="noopener noreferrer" variant="primary" size="sm">
+            <Icon name="link" size={15} />
+            Search on {affiliates[p].label}
+          </Button>
+        ))
+      }
+    </div>
+  </CardContent>
+</Card>

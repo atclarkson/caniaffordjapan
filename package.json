@@ -3,16 +3,39 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
+  "description": "Can I Afford Japan? - a family travel blog on real, photo-backed prices for a Japan trip. Built on the Reef Astro theme by Aloha Pixel (MIT licensed).",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "scripts": {
+    "build": "node scripts/favicon.mjs && astro build",
+    "check": "astro check",
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "lint:house": "node scripts/house.mjs",
+    "og": "node scripts/og.mjs",
+    "poster": "node scripts/poster.mjs",
+    "preview": "astro preview",
+    "rebrand": "node scripts/rebrand.mjs",
+    "test": "node scripts/checks.mjs",
+    "verify": "node scripts/verify.mjs",
+    "favicon": "node scripts/favicon.mjs"
   },
   "dependencies": {
-    "astro": "^4.16.0",
-    "@astrojs/mdx": "^3.1.3"
+    "@astrojs/mdx": "^7.0.0",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource-variable/space-grotesk": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^7.3.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwind-variants": "^3.2.2",
+    "tailwindcss": "^4.3.2"
   },
   "devDependencies": {
-    "wrangler": "^3.90.0"
+    "@astrojs/check": "^0.9.9",
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.3",
+    "typescript": "^5.9.0"
   }
 }

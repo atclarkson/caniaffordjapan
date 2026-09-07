@@ -1,0 +1,110 @@
+---
+// src/pages/[...locale]/index.astro - l'accueil editorial : ouverture, billet a la une, notes recentes, sujets, signatures, mot du studio et invitation a s'abonner.
+//
+// L'accueil d'un blog n'est pas une page commerciale : il n'y a ni preuve sociale,
+// ni tarifs, ni bandeau de logos. Un lecteur arrive pour savoir s'il y a quelque
+// chose a lire, et la reponse doit tenir dans le premier ecran et demi.
+//
+// Toutes les listes sont calculees ICI, une seule fois. Les sections recoivent
+// des tableaux deja tries : aucune d'elles ne relit une collection, donc rien ne
+// peut trier differemment d'une section a l'autre.
+import Footer from "@components/Sections/Global/Footer.astro";
+import Navbar from "@components/Sections/Global/Navbar.astro";
+import FeaturedPost from "@components/Sections/Home/FeaturedPost.astro";
+import StudioNote from "@components/Sections/Home/StudioNote.astro";
+import Hero from "@components/Sections/Home/Hero.astro";
+import LatestPosts from "@components/Sections/Home/LatestPosts.astro";
+import NewsletterInvite from "@components/Sections/Home/NewsletterInvite.astro";
+import TopicMarquee from "@components/Sections/Home/TopicMarquee.astro";
+import TopicStrip from "@components/Sections/Home/TopicStrip.astro";
+import WritersStrip from "@components/Sections/Home/WritersStrip.astro";
+import siteData from "@config/siteData.json";
+import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
+import { getLocalizedCollection } from "@i18n/content";
+import { getResolvedPosts, getSortedTopics } from "@js/posts";
+import { organization, website } from "@js/schema";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+// Une seule page source, une sortie par langue : / et /fr/.
+export const getStaticPaths = localePaths;
+
+const locale = getLocale(Astro);
+const t = useTranslations(locale);
+
+const posts = await getResolvedPosts(locale);
+
+// Le garde-fou "un seul billet a la une" vit ici : le schema ne peut pas
+// compter les autres fichiers, mais la page les voit tous. Si personne n'a
+// leve le drapeau, le plus recent prend la place.
+const featured = posts.find((entry) => entry.post.data.featured) ?? posts.at(0);
+const latest = posts.filter((entry) => entry !== featured).slice(0, 6);
+
+const topics = await getSortedTopics(locale);
+const authors = (await getLocalizedCollection("authors", locale)).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name),
+);
+
+// Un seul passage sur les billets pour les deux compteurs : compter dans les
+// sections obligerait a leur passer la liste complete, qu'elles n'affichent pas.
+const topicCounts: Record<string, number> = {};
+const authorCounts: Record<string, number> = {};
+for (const entry of posts) {
+  topicCounts[entry.topicSlug] = (topicCounts[entry.topicSlug] ?? 0) + 1;
+  authorCounts[entry.authorSlug] = (authorCounts[entry.authorSlug] ?? 0) + 1;
+}
+
+// Le compte de ce qu'il y a a lire, dans l'ordre des libelles de heroLedger :
+// billets publies, sujets, membres de la famille (5, fixe : Adam, Lindsay,
+// Lily, Cora, Harper). Le troisieme chiffre n'a rien a voir avec le contenu,
+// c'est voulu : locales.length vaudrait 1 depuis que le site est anglais
+// seul, et "1 languages" est le genre de detail qui trahit un theme repeint.
+const ledger = [posts.length, topics.length, 5] as const;
+
+const title = t.home.metaTitle;
+const description = t.home.metaDescription;
+
+const base = Astro.site ?? Astro.url;
+const siteUrl = new URL(localizePath("/", locale), base).href;
+const schemas = [
+  organization({
+    name: siteData.name,
+    url: siteUrl,
+    sameAs: siteData.author.twitter ? [`https://x.com/${siteData.author.twitter}`] : undefined,
+  }),
+  website({ name: siteData.name, url: siteUrl, description }),
+];
+---
+
+<BaseLayout {title} {description}>
+  <Fragment slot="head">
+    {
+      schemas.map((node) => (
+        <script is:inline type="application/ld+json" set:html={JSON.stringify(node)} />
+      ))
+    }
+  </Fragment>
+
+  <Navbar />
+
+  <main id="content">
+    <Hero {ledger} />
+    {/* La bande defilante mord les deux bords juste sous le hero : c'est elle
+        qui casse la largeur de panneau du premier ecran et lance le rythme de
+        la page. Elle porte les vrais sujets, pas des mots decoratifs. */}
+    <TopicMarquee {topics} counts={topicCounts} />
+    {featured && <FeaturedPost entry={featured} />}
+    {/* StudioNote plutot que FilmScene (la video scroll-scrubbee) : ce
+        composant depend d'une video Pexels distante que ce site ne remplace
+        pas par la sienne, et un bloc statique dit la meme chose sans le
+        risque d'un ecran noir si la video ne charge pas. */}
+    <StudioNote />
+    {latest.length > 0 && <LatestPosts posts={latest} />}
+    <TopicStrip {topics} counts={topicCounts} />
+    <WritersStrip {authors} counts={authorCounts} />
+    <NewsletterInvite />
+  </main>
+
+  {/* La bande d'inscription de l'accueil porte deja l'ancre et le formulaire :
+      le pied de page n'en remet pas un second deux ecrans plus bas. */}
+  <Footer newsletter={false} />
+</BaseLayout>
