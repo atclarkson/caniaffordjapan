@@ -22,7 +22,10 @@ a cheap meal, a transit hack, a lodging comparison, a day trip cost
 breakdown.
 
 1. Check `src/data/posts/en/` for existing slugs and topics so you don't
-   repeat one already covered.
+   repeat one already covered. Also check `docs/klook-priority-activities.md`
+   for the site owner's stated priority list ("Not yet covered" section),
+   pick from there first if nothing more time sensitive is a better fit for
+   today.
 2. Pull real material from the AL_Vault MCP tools, never invent details or
    use stock photography:
    - `get_destinations` to see what cities and neighborhoods have unused
@@ -117,6 +120,22 @@ partner IDs there without the site owner's say so.
   needs an Expedia link more specific than the storefront and no override
   was given, use the storefront fallback and say so in your summary rather
   than inventing a URL.
+- When a post is about one specific Klook activity you have a real activity
+  page URL for (like a row in a Klook affiliate export, see
+  `docs/klook-priority-activities.md`), don't use `AffiliateBox`'s generic
+  search link. Import `klookRedirect` from `@data/affiliates` and wrap the
+  real activity page URL directly, `klookRedirect("https://www.klook.com/en-US/activity/...")`,
+  it converts far better than a search results page.
+- `<KlookCodeBox href={...} />` (`@components/Post/KlookCodeBox.astro`)
+  shows the real ADAMANDLINDSKLOOK offers from `src/data/klookCode.ts`. Use
+  it instead of typing out discount terms by hand, that file is the single
+  source of truth so every post that cites it stays correct if terms
+  change. `href` should be a real Klook link for that post's activity
+  (`klookRedirect(...)` or `affiliates.klook.searchUrl(...)`), the code is
+  typed at checkout, but the click-through still needs to carry our
+  tracking. Never add an offer to `klookCode.ts` that isn't confirmed by
+  the site owner from the actual dashboard, and drop an offer once its
+  "redeem before" date has passed rather than leaving it to go stale.
 
 ## Images
 

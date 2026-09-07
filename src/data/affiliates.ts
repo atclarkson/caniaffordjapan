@@ -25,13 +25,17 @@ const GYG_PARTNER_ID = "AJE5L0O";
 // generated deep link (see the file header above).
 const EXPEDIA_SHOP_URL = "https://expedia.com/shop/adamandlinds";
 
+// Wraps any klook.com URL (a search page, or a specific activity page) in
+// the affiliate redirect. Use this directly when a post has a real activity
+// page to link to, it converts far better than a generic search link.
+export function klookRedirect(targetUrl: string): string {
+  return `https://affiliate.klook.com/redirect?aid=${KLOOK_AID}&aff_adid=${KLOOK_AFF_ADID}&k_site=${encodeURIComponent(targetUrl)}`;
+}
+
 export const affiliates: Record<Provider, { label: string; searchUrl: (query: string) => string }> = {
   klook: {
     label: "Klook",
-    searchUrl: (query) => {
-      const target = `https://www.klook.com/search/result/?query=${encodeURIComponent(query)}`;
-      return `https://affiliate.klook.com/redirect?aid=${KLOOK_AID}&aff_adid=${KLOOK_AFF_ADID}&k_site=${encodeURIComponent(target)}`;
-    },
+    searchUrl: (query) => klookRedirect(`https://www.klook.com/search/result/?query=${encodeURIComponent(query)}`),
   },
   getyourguide: {
     label: "GetYourGuide",

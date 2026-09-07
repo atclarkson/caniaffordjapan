@@ -1,0 +1,50 @@
+---
+// src/components/Post/KlookCodeBox.astro - shows the real ADAMANDLINDSKLOOK offers (MDX only).
+// Terms live in src/data/klookCode.ts, this component only renders them, it
+// never hardcodes a discount number itself so a post can't drift from the
+// dashboard. `href` should be a real Klook link for this post's activity via
+// klookRedirect(), not the bare klook.com homepage, the code still needs a
+// real affiliate click-through for tracking even though it's typed at checkout.
+import { Card, CardContent, CardHeader, CardTitle } from "@components/ui/card";
+import { Button } from "@components/ui/button";
+import { Icon } from "@components/svg/icons";
+import { KLOOK_CODE, KLOOK_CODE_OFFERS } from "@data/klookCode";
+
+interface Props {
+  href: string;
+  heading?: string;
+}
+
+const { href, heading = `Klook code: ${KLOOK_CODE}` } = Astro.props;
+---
+
+<Card class="my-8 not-prose">
+  <CardHeader>
+    <CardTitle as="h3" class="text-lg">{heading}</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <p class="text-muted-foreground mb-4 text-sm">
+      Click through to Klook below, then enter code <strong class="text-foreground">{KLOOK_CODE}</strong> at
+      checkout. This is a real affiliate code, we may earn a commission on the booking too, at no extra
+      cost to you. See our <a href="/legal/" class="underline">legal notice</a>.
+    </p>
+    <ul class="mb-4 flex flex-col gap-3">
+      {
+        KLOOK_CODE_OFFERS.map((offer) => (
+          <li class="border-border rounded-lg border p-3 text-sm">
+            <p class="text-foreground font-semibold">
+              {offer.discount}, {offer.label}
+            </p>
+            <p class="text-muted-foreground mt-1">
+              {offer.terms} Valid through {offer.redeemBefore}.
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+    <Button href={href} target="_blank" rel="noopener noreferrer sponsored" variant="primary" size="sm">
+      <Icon name="link" size={15} />
+      Book on Klook
+    </Button>
+  </CardContent>
+</Card>
