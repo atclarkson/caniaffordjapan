@@ -90,16 +90,33 @@ JSON file there only if a post genuinely doesn't fit any existing one
 
 ## Affiliate links
 
-- `src/data/affiliates.ts` holds the base URL and query builder per provider
-  (Klook, GetYourGuide, Expedia) and a `pending` flag.
-- Until the site owner adds real partner or tracking IDs there, these stay
-  plain, non monetized search links. Do not fabricate tracking params or
-  claim compensation that doesn't exist yet.
-- Use `<AffiliateBox heading="..." query="..." />` (import from
-  `@components/Post/AffiliateBox.astro`, only works in `.mdx` posts) rather
-  than hand rolled links, so a future link format change only has to happen
-  in one place. It already marks itself as non affiliate while `pending` is
-  true and links to `/legal/`, which carries the disclosure section.
+Real affiliate accounts are wired up for Klook, GetYourGuide, and Expedia.
+`src/data/affiliates.ts` holds the real link builders, do not edit the
+partner IDs there without the site owner's say so.
+
+- In an `.mdx` post, use `<AffiliateBox heading="..." query="..." />`
+  (import from `@components/Post/AffiliateBox.astro`) rather than hand
+  rolled links. It builds real Klook and GetYourGuide search links from
+  `query` automatically and always shows the affiliate disclosure line.
+- Expedia has no query based link formula (their affiliate tool hands out
+  one off deep links per search, not a template), so `AffiliateBox`
+  defaults to the account's general storefront for Expedia. If the site
+  owner gives you a specific generated Expedia deep link for a post's
+  topic, pass it via `overrides`, for example:
+  `<AffiliateBox heading="..." query="..." overrides={{ expedia: "https://expedia.com/affiliates/..." }} />`.
+  Otherwise leave `overrides` out and the storefront fallback is used, that's
+  fine, it's still a real tracked link.
+- For a Tokyo focused post, `<BookingWidgets />` (same import path pattern,
+  `@components/Post/BookingWidgets.astro`) embeds the real Klook and
+  GetYourGuide widgets instead of plain buttons. It's currently hardcoded to
+  Tokyo (GYG location id 193), there's no generic version. Don't reuse it
+  for a post about another city without a real widget snippet for that
+  city from the site owner first, a copy paste with the wrong location id
+  would be wrong, not just suboptimal.
+- Never fabricate a partner ID, tracking param, or deep link. If a post
+  needs an Expedia link more specific than the storefront and no override
+  was given, use the storefront fallback and say so in your summary rather
+  than inventing a URL.
 
 ## Images
 

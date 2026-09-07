@@ -46,17 +46,17 @@ deploys automatically.
 
 ## Affiliate links
 
-`src/data/affiliates.ts` centralizes the Klook, GetYourGuide, and Expedia
-link logic. Right now `pending: true` on each provider, so links go
-straight to the provider's site with no tracking, no partner IDs exist yet.
-Once you have affiliate or partner accounts with each:
+`src/data/affiliates.ts` centralizes the Klook and GetYourGuide link
+formulas (both build a real tracked link from any search query) and
+Expedia's account storefront fallback (Expedia's affiliate tool hands out
+one off deep links per search, there's no query based formula for it). A
+post can override any of these per provider, see `AffiliateBox`'s
+`overrides` prop and CLAUDE.md's "Affiliate links" section.
 
-1. Update `src/data/affiliates.ts` with the real tracking link format.
-2. Set `pending: false` for that provider.
-3. Add the site as a media property in whatever affiliate network each
-   program runs on (this account already has an Impact.com account, worth
-   checking if any of the three run through it before signing up
-   separately).
+To add or rotate a partner ID, edit the constants at the top of
+`src/data/affiliates.ts`. To add a widget for a new city (currently only
+Tokyo is wired up, in `BookingWidgets.astro`), get a fresh widget snippet
+from that partner's dashboard, don't reuse Tokyo's location id.
 
 ## Content
 

@@ -2,7 +2,7 @@
 // src/components/Post/AffiliateBox.astro - booking callout dropped into a post body (MDX only).
 // Built from the theme's own Card + Button primitives so it matches the rest
 // of the site instead of introducing a one-off style. See src/data/affiliates.ts
-// and CLAUDE.md "Affiliate links" for how pending vs. real links work.
+// and CLAUDE.md "Affiliate links".
 import { Card, CardContent, CardHeader, CardTitle } from "@components/ui/card";
 import { Button } from "@components/ui/button";
 import { Icon } from "@components/svg/icons";
@@ -12,10 +12,17 @@ interface Props {
   heading: string;
   query: string;
   providers?: Provider[];
+  /** Post-specific override, e.g. a real Expedia deep link generated for
+   * this exact search rather than the generic account storefront fallback. */
+  overrides?: Partial<Record<Provider, string>>;
 }
 
-const { heading, query, providers = ["klook", "getyourguide", "expedia"] } = Astro.props;
-const anyPending = providers.some((p) => affiliates[p].pending);
+const {
+  heading,
+  query,
+  providers = ["klook", "getyourguide", "expedia"],
+  overrides = {},
+} = Astro.props;
 ---
 
 <Card class="my-8 not-prose">
@@ -23,18 +30,20 @@ const anyPending = providers.some((p) => affiliates[p].pending);
     <CardTitle as="h3" class="text-lg">{heading}</CardTitle>
   </CardHeader>
   <CardContent>
-    {
-      anyPending && (
-        <p class="text-muted-foreground mb-4 text-sm">
-          Links below go straight to the provider, not affiliate links yet. We'll mark it clearly
-          here once our partnerships are live (see our <a href="/legal/" class="underline">legal notice</a>).
-        </p>
-      )
-    }
+    <p class="text-muted-foreground mb-4 text-sm">
+      These are affiliate links. We may earn a commission if you book through them, at no extra
+      cost to you. See our <a href="/legal/" class="underline">legal notice</a>.
+    </p>
     <div class="flex flex-wrap gap-2">
       {
         providers.map((p) => (
-          <Button href={affiliates[p].searchUrl(query)} target="_blank" rel="noopener noreferrer" variant="primary" size="sm">
+          <Button
+            href={overrides[p] ?? affiliates[p].searchUrl(query)}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            variant="primary"
+            size="sm"
+          >
             <Icon name="link" size={15} />
             Search on {affiliates[p].label}
           </Button>

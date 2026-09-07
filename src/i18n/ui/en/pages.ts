@@ -238,7 +238,7 @@ export const enPages = {
       },
       {
         title: "Affiliate disclosure",
-        body: "We're working on affiliate partnerships with booking platforms including Klook, GetYourGuide, and Expedia. Until a partnership is finalized, any link to those sites on this blog is a plain, non-monetized link. Once a partnership is live, links using it are clearly marked as affiliate links in the post itself, and we may earn a small commission if you book through them, at no extra cost to you. We only ever link to places, tours, or hotels we'd genuinely recommend based on our own trips; the affiliate relationship never decides what we cover.",
+        body: "This site participates in affiliate programs with Klook, GetYourGuide, and Expedia. Booking links and widgets from those partners on this blog are affiliate links, and we may earn a small commission if you book through them, at no extra cost to you. We only ever link to places, tours, or hotels we'd genuinely recommend based on our own trips; the affiliate relationship never decides what we cover.",
       },
     ],
   },

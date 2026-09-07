@@ -30,7 +30,7 @@ const en: LegalPages = {
       },
       {
         title: "Affiliate links",
-        body: "Some links on this site go to booking partners such as Klook, GetYourGuide, or Expedia. If a link is a paid affiliate link, it is marked as such on the post and on our legal notice page. Those partners may set their own cookies once you click through; their privacy policies cover what happens on their site, not ours.",
+        body: "This site participates in affiliate programs with Klook, GetYourGuide, and Expedia. Booking links and widgets from those partners are affiliate links, and each one says so where it appears. Those partners may set their own cookies once you click through or interact with an embedded widget; their privacy policies cover what happens on their site, not ours.",
       },
       {
         title: "The email list",

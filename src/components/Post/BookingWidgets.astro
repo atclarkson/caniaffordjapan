@@ -1,0 +1,53 @@
+---
+// src/components/Post/BookingWidgets.astro - embedded Klook and GetYourGuide widgets (MDX only).
+// Unlike AffiliateBox (plain buttons to a search/city page), these render the
+// providers' own rich widgets inline. Both are location-locked to Tokyo right
+// now (GYG city id 193): a post about another city needs its own widget
+// snippets from the affiliate dashboards before this component can be reused
+// there, there's no generic query-based version of these like AffiliateBox has.
+//
+// Not verified rendering live in this environment (both are third-party
+// scripts that need real browser + network access) - check the live site
+// after deploy.
+---
+
+<div class="not-prose my-8 grid gap-6 sm:grid-cols-2">
+  <div>
+    <ins
+      class="klk-aff-widget"
+      data-adid="1420306"
+      data-lang=""
+      data-currency=""
+      data-cardH="126"
+      data-padding="92"
+      data-lgH="470"
+      data-edgeValue="655"
+      data-cid="28"
+      data-tid="-1"
+      data-amount="4"
+      data-prod="dynamic_widget"
+    >
+      <a href="https://www.klook.com/">Klook.com</a>
+    </ins>
+    <script is:inline type="text/javascript">
+      (function (d, sc, u) {
+        var s = d.createElement(sc),
+          p = d.getElementsByTagName(sc)[0];
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = u;
+        p.parentNode.insertBefore(s, p);
+      })(document, "script", "https://affiliate.klook.com/widget/fetch-iframe-init.js");
+    </script>
+  </div>
+
+  <div
+    data-gyg-href="https://widget.getyourguide.com/default/city.frame"
+    data-gyg-location-id="193"
+    data-gyg-locale-code="en-US"
+    data-gyg-widget="city"
+    data-gyg-partner-id="AJE5L0O"
+  >
+  </div>
+  <script is:inline async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js"></script>
+</div>

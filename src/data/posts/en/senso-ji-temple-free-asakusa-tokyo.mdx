@@ -12,6 +12,7 @@ draft: false
 ---
 
 import AffiliateBox from "@components/Post/AffiliateBox.astro";
+import BookingWidgets from "@components/Post/BookingWidgets.astro";
 
 Short answer, since it's the one people actually search for: **yes, Senso-ji is free.** No entry fee, no ticket booth, no timed-entry app. You walk in through the Kaminarimon gate, you walk out whenever you want, and it costs you nothing. It's Tokyo's oldest temple, it's lit up every night, and it is, hands down, one of the best free things to do anywhere in the city.
 
@@ -60,8 +61,14 @@ If you want to splurge instead, Asakusa also has excellent yakiniku. We did a gr
 
 So a full evening, temple, walking the shopping street, and a real dinner, lands somewhere around $20 per person if you keep it casual, before you've spent a cent on "things to do."
 
-<AffiliateBox heading="Want a guided version of this evening?" query="Asakusa Senso-ji Tokyo" />
+<AffiliateBox
+  heading="Want a guided version of this evening?"
+  query="Asakusa Senso-ji Tokyo"
+  overrides={{ expedia: "https://expedia.com/affiliates/hotel-search-sensoji-temple.Zg12evI" }}
+/>
 
 If you'd rather not wing it, a guided Asakusa food or night walking tour is an easy way to hit Senso-ji plus a few local spots we didn't get to. And if you're building out a Tokyo itinerary around this, Asakusa itself is a solid, walkable home base, worth comparing against staying near Shibuya or Shinjuku.
+
+<BookingWidgets />
 
 We'll keep adding real, priced-out days like this one as we go. Osaka, Nara, Hakone, and more are next.
