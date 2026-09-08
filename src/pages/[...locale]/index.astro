@@ -14,7 +14,6 @@ import FeaturedPost from "@components/Sections/Home/FeaturedPost.astro";
 import StudioNote from "@components/Sections/Home/StudioNote.astro";
 import Hero from "@components/Sections/Home/Hero.astro";
 import LatestPosts from "@components/Sections/Home/LatestPosts.astro";
-import NewsletterInvite from "@components/Sections/Home/NewsletterInvite.astro";
 import TopicMarquee from "@components/Sections/Home/TopicMarquee.astro";
 import TopicStrip from "@components/Sections/Home/TopicStrip.astro";
 import WritersStrip from "@components/Sections/Home/WritersStrip.astro";
@@ -101,10 +100,9 @@ const schemas = [
     {latest.length > 0 && <LatestPosts posts={latest} />}
     <TopicStrip {topics} counts={topicCounts} />
     <WritersStrip {authors} counts={authorCounts} />
-    <NewsletterInvite />
   </main>
 
-  {/* La bande d'inscription de l'accueil porte deja l'ancre et le formulaire :
-      le pied de page n'en remet pas un second deux ecrans plus bas. */}
-  <Footer newsletter={false} />
+  {/* NewsletterInvite removed for now, no signup provider wired up (see
+      Footer.astro's `newsletter` prop, defaults to false site-wide). */}
+  <Footer />
 </BaseLayout>

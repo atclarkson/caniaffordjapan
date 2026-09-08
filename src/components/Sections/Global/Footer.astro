@@ -17,15 +17,14 @@ import { fmt, getLocale, localePrefix, useTranslations } from "@i18n";
 
 type Props = {
   /**
-   * Faux quand la page porte deja sa propre bande d'inscription (l'accueil).
-   * Le pied de page lui cede alors le formulaire ET l'ancre #newsletter :
-   * deux formulaires identiques a deux ecrans d'ecart ne doublent pas les
-   * inscriptions, ils donnent l'impression d'une page recopiee.
+   * Defaults to false: the newsletter form has no provider wired up behind
+   * it, hidden site-wide for now. Pass `newsletter` explicitly true on a
+   * page once a real signup provider is connected.
    */
   newsletter?: boolean;
 };
 
-const { newsletter = true }: Props = Astro.props;
+const { newsletter = false }: Props = Astro.props;
 
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
