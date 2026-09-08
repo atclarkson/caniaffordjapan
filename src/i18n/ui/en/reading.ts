@@ -40,7 +40,7 @@ export const enReading = {
     navLabel: "Post navigation",
     keepReading: "Keep reading",
     keepReadingAccent: "reading",
-    keepReadingLede: "Three more posts from the same trip, picked by topic and not by an algorithm.",
+    keepReadingLede: "Three more posts from the same trip.",
     keepReadingCta: "All posts",
     aboutAuthor: "About the author",
     moreFromAuthor: "More from {name}",
@@ -61,8 +61,7 @@ export const enReading = {
     eyebrow: "Archive",
     title: "Everything we have written",
     accent: "Everything",
-    lede:
-      "The full archive, newest first. Thirty seconds of scrolling beats a search box when you do not yet know what you are looking for.",
+    lede: "Every post, newest first.",
     /** Suffixe de titre des pages 2 et suivantes. */
     pageSuffix: "page {n}",
     /** Libelle accessible de la grille : elle n'a pas de titre visible propre. */
@@ -85,8 +84,7 @@ export const enReading = {
   newsletter: {
     title: "New posts, by email",
     accent: "email",
-    lede:
-      "A short note when we publish something new. No tracking pixel, no drip sequence, one click to leave for good.",
+    lede: "A short note when we publish something new.",
     emailLabel: "Your email",
     placeholder: "you@example.com",
     submit: "Subscribe",

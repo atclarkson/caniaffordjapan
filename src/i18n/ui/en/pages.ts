@@ -33,8 +33,7 @@ export const enPages = {
     latestCta: "Browse all posts",
     topicsTitle: "What we keep coming back to",
     topicsAccent: "coming back",
-    topicsLede:
-      "Every post belongs to exactly one topic, so you can read a whole thread (Tokyo, budget food, day trips) without wading through the rest.",
+    topicsLede: "Tokyo, budget food, free attractions, transit, and day trips.",
     topicsCta: "See all topics",
     authorsTitle: "Who writes here",
     authorsAccent: "writes",
@@ -114,15 +113,13 @@ export const enPages = {
   // prestataire d'envoi a la place de son utilisateur. La copie, elle, est prete.
   contact: {
     metaTitle: "Contact",
-    metaDescription:
-      "A question about a post, a correction, or something we should cover. One inbox, read by a person, answered within a few days.",
+    metaDescription: "A question about a post, a correction, or something we should cover.",
     eyebrow: "Contact",
-    title: "Write to us, we read all of it",
-    accent: "all",
-    lede:
-      "A correction, a question about a price, a place we should cover next: it lands in the same inbox and a person answers it. No ticket number, no autoresponder.",
+    title: "Get in touch",
+    accent: "touch",
+    lede: "A correction, a question about a price, a place we should cover next, send it over.",
     directTitle: "Email us",
-    directLede: "The fastest way to reach us. We read everything that comes in.",
+    directLede: "The fastest way to reach us.",
     directCta: "Email us",
     nextTitle: "What happens next",
     nextSteps: [
@@ -140,8 +137,7 @@ export const enPages = {
     eyebrow: "Topics",
     title: "What we keep coming back to",
     accent: "coming back",
-    lede:
-      "Every post belongs to exactly one topic. Pick a thread and read it end to end, oldest first if you want the trips in order.",
+    lede: "Cities, budget food, free attractions, transit, and day trips.",
     /** {count} vient du nombre d'articles publies dans le sujet. */
     countLabel: "{count} posts",
     countOne: "1 post",
@@ -175,13 +171,11 @@ export const enPages = {
   // zero requete, zero service tiers, et le theme reste 100% statique.
   search: {
     metaTitle: "Search",
-    metaDescription:
-      "Search every post on Can I Afford Japan? by title, summary, topic or tag. It runs in your browser: nothing is sent to a server and nothing is logged.",
+    metaDescription: "Search every post on Can I Afford Japan? by title, summary, topic or tag.",
     eyebrow: "Search",
     title: "Find it again",
     accent: "again",
-    lede:
-      "Search covers titles, summaries, topics and tags. It runs in your browser, so nothing leaves the page and it keeps working offline once loaded.",
+    lede: "Search covers titles, summaries, topics, and tags.",
     placeholder: "Search posts, topics and tags",
     label: "Search the blog",
     shortcut: "Press / to search",
