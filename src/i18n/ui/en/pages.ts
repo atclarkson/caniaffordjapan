@@ -51,12 +51,59 @@ export const enPages = {
   about: {
     metaTitle: "About us",
     metaDescription:
-      "Adam, Lindsay, and their three kids travel to Japan a lot, and are always looking for ways to save money on it.",
+      "Adam, Lindsay, and their three girls have been full-time travelers since 2022, and Japan is the country they keep coming back to.",
     eyebrow: "About",
-    title: "We travel to Japan a lot",
+    title: "We keep coming back to Japan",
     accent: "Japan",
     lede:
-      "Adam, Lindsay, and their three kids, Lily, Cora, and Harper. We're always looking for ways to save money on our trips, and this site tracks what things actually cost.",
+      "Adam, Lindsay, and their three girls, Lily, Cora, and Harper. Full-time travelers since 2022, and Japan is the one place they never seem to leave for long.",
+    storyTitle: "The short version",
+    storyAccent: "short",
+    storyParagraphs: [
+      "In May 2022, Adam and Lindsay sold their house in Indiana, packed five bags, and left with three kids aged 6, 5, and 2. It was supposed to be a one year trip. Four years and more than 33 countries later, they're still going, worldschooling the girls along the way.",
+      "Japan wasn't the first stop, but it's the one that stuck. After a first trip in 2022 and a longer one in 2023, they kept coming back: months at a time in Osaka and Fukuoka, repeat trips to Tokyo, enough visits that Japan is now Cora and Harper's favorite country in the world.",
+      "This site is the real prices from those trips. What a temple actually costs (nothing). What dinner actually costs. What a discount code actually gets you. No guessing.",
+    ],
+    stats: [
+      { value: "33+", label: "countries visited" },
+      { value: "2022", label: "full-time since" },
+      { value: "5", label: "in the family" },
+    ],
+    familyTitle: "Meet the family",
+    familyAccent: "family",
+    familyLede: "Five people, one shared passport stamp collection.",
+    family: [
+      {
+        name: "Adam",
+        role: "Filming, editing, and the tech side",
+        bio: "Background in software engineering, traded it for full-time travel in May 2022. Handles the camera and the code editor in roughly equal measure.",
+        favorite: "Favorite country: Italy",
+      },
+      {
+        name: "Lindsay",
+        role: "Trip planning",
+        bio: "Plans every itinerary the family runs, and now does the same for other families as a certified travel advisor.",
+        favorite: "Favorite country: Japan",
+      },
+      {
+        name: "Lily",
+        role: "The eldest",
+        bio: "Keeps a running rank of every country they've visited and will try anything on the menu at least once.",
+        favorite: "Favorite country: England",
+      },
+      {
+        name: "Cora",
+        role: "The middle",
+        bio: "Shy until she isn't, and once she decides you're her people, you're her people for life.",
+        favorite: "Favorite country: Japan",
+      },
+      {
+        name: "Harper",
+        role: "The youngest",
+        bio: "Was two years old when the family left Indiana and has never really known anything else.",
+        favorite: "Favorite country: Japan",
+      },
+    ],
     contactTitle: "Get in touch",
     contactLede: "A question about a post, a correction, or something we should cover? Tell us what's on your mind.",
     contactCta: "Get in touch",

@@ -1,8 +1,9 @@
 ---
-// src/pages/[...locale]/about.astro - a propos : une intro courte, pas une histoire d'equipe.
+// src/pages/[...locale]/about.astro - a propos : qui est cette famille, d'ou viennent les photos, pourquoi le Japon.
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
 import PageHero from "@components/Sections/Global/PageHero.astro";
+import SectionHeader from "@components/Sections/Global/SectionHeader.astro";
 import { Icon } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
 import { getSiteRoutes } from "@config/navData.json.ts";
@@ -33,6 +34,39 @@ const schemas = [
     { name: t.about.metaTitle, url: new URL(localizePath("/about/", locale), base).href },
   ]),
 ];
+
+// Real photos from the family's own trip archive (AL_Vault), not stock.
+const MEDIA = "https://media.adamandlinds.com/photos/large";
+const heroPhoto = {
+  src: `${MEDIA}/1ba379fa-320e-4084-8438-550820a99b75.jpg`,
+  alt: "A family of five wearing matching pink smocks, blue aprons, green rubber boots, and face masks sit on a yellow bench in a tiled room while holding small otters in their laps.",
+};
+const storyPhoto = {
+  src: `${MEDIA}/fbdb69e7-a654-43b9-be09-0f1b654e34ce.jpg`,
+  alt: "A family of five takes a selfie inside Super Nintendo World, each holding up their personalized Mii entry cards, with a giant Mario brick column visible in the background.",
+};
+const familyPhotos: Record<string, { src: string; alt: string }> = {
+  Adam: {
+    src: `${MEDIA}/2b363f21-9847-485a-8d79-08eefbc6de33.jpg`,
+    alt: "Adam stands smiling next to a bronze zodiac statue on a stone pedestal in the Rose Garden at Ba Na Hills, holding a camera and wearing a light blue shirt.",
+  },
+  Lindsay: {
+    src: `${MEDIA}/3584c42f-fa3b-49ee-a3bc-72207a4dc6ae.jpg`,
+    alt: "A woman and a young girl smile inside a cable car gondola at Ba Na Hills.",
+  },
+  Lily: {
+    src: `${MEDIA}/7f0e3f2f-5567-44a2-8ab2-356958d3e78d.jpg`,
+    alt: "A young girl with glasses and a green backpack stands smiling in front of a bronze zodiac statue in a garden courtyard.",
+  },
+  Cora: {
+    src: `${MEDIA}/e5542b37-48fc-45c8-9453-a3b127e379dc.jpg`,
+    alt: "A young girl stands in front of a bronze mermaid statue on a sunlit hotel terrace, holding a stuffed animal.",
+  },
+  Harper: {
+    src: `${MEDIA}/bba3e9a8-c756-4ff8-92e9-17c189960761.jpg`,
+    alt: "A young girl stands in front of a large bronze samurai statue, looking down at a notebook in her hands.",
+  },
+};
 ---
 
 <BaseLayout {title} {description}>
@@ -55,7 +89,91 @@ const schemas = [
       crumbs={[{ label: t.about.metaTitle }]}
     />
 
-    <section class="bg-surface border-border border-t" aria-labelledby="work-title">
+    <section class="container-page pb-4">
+      <img
+        src={heroPhoto.src}
+        alt={heroPhoto.alt}
+        width="1280"
+        height="960"
+        class="border-border w-full rounded-card border object-cover"
+        style="aspect-ratio: 16 / 10;"
+        loading="eager"
+      />
+    </section>
+
+    <section class="container-page py-14 md:py-20" aria-labelledby="story-title">
+      <SectionHeader
+        as="h2"
+        headingId="story-title"
+        title={t.about.storyTitle}
+        accentWord={t.about.storyAccent}
+      />
+      <div class="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start">
+        <div class="prose prose-dropcap">
+          {t.about.storyParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <img
+          src={storyPhoto.src}
+          alt={storyPhoto.alt}
+          width="960"
+          height="1280"
+          class="border-border hidden rounded-card border object-cover lg:block"
+          style="aspect-ratio: 3 / 4;"
+          loading="lazy"
+        />
+      </div>
+
+      <dl class="border-border mt-12 grid grid-cols-3 divide-x divide-border border-y py-8 text-center">
+        {
+          t.about.stats.map((stat) => (
+            <div class="flex flex-col gap-1 px-2">
+              <dt class="sr-only">{stat.label}</dt>
+              <dd class="font-display text-display-sm md:text-display-md text-foreground">{stat.value}</dd>
+              <dd class="text-muted-foreground text-xs tracking-[0.1em] uppercase md:text-sm">{stat.label}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+
+    <section class="bg-surface border-border border-y" aria-labelledby="family-title">
+      <div class="container-page py-16 md:py-24">
+        <SectionHeader
+          as="h2"
+          headingId="family-title"
+          title={t.about.familyTitle}
+          accentWord={t.about.familyAccent}
+          lede={t.about.familyLede}
+        />
+        <ul class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {
+            t.about.family.map((member) => (
+              <li class="bg-card border-border flex flex-col overflow-hidden rounded-card border">
+                <img
+                  src={familyPhotos[member.name].src}
+                  alt={familyPhotos[member.name].alt}
+                  width="960"
+                  height="1280"
+                  class="w-full object-cover"
+                  style="aspect-ratio: 4 / 5;"
+                  loading="lazy"
+                />
+                <div class="flex flex-1 flex-col gap-2 p-5">
+                  <h3 class="font-display text-foreground text-lg font-semibold">{member.name}</h3>
+                  <p class="text-muted-foreground text-sm font-medium">{member.role}</p>
+                  <p class="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
+                  <p class="text-accent-text mt-auto pt-2 text-xs font-semibold tracking-[0.04em] uppercase">
+                    {member.favorite}
+                  </p>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="border-border border-t" aria-labelledby="work-title">
       <div class="container-page flex flex-col items-start gap-5 py-16 md:py-24">
         <h2 id="work-title" class="font-display text-display-sm md:text-display-md text-foreground">
           {t.about.contactTitle}
