@@ -40,54 +40,25 @@ export const enPages = {
     authorsAccent: "writes",
     authorsLede: "One family, five people, more trips to Japan than we can count.",
     authorsCta: "Meet the family",
-    aboutTitle: "The family behind the posts",
+    aboutTitle: "About the family",
     aboutAccent: "family",
     aboutLede:
-      "Adam, Lindsay, and their three kids, Lily, Cora, and Harper. Every post comes out of a trip we actually took.",
-    aboutCta: "How we do this",
+      "Adam, Lindsay, and their three kids, Lily, Cora, and Harper. We travel to Japan a lot, and we're always looking for ways to save money on it.",
+    aboutCta: "About us",
   },
 
   // --- A propos ------------------------------------------------------------
   about: {
     metaTitle: "About us",
     metaDescription:
-      "Who writes Can I Afford Japan?, how we travel, what we cover, and why every post carries a real price instead of a guess.",
+      "Adam, Lindsay, and their three kids travel to Japan a lot, and are always looking for ways to save money on it.",
     eyebrow: "About",
-    title: "A family that writes down what things cost",
-    accent: "cost",
+    title: "We travel to Japan a lot",
+    accent: "Japan",
     lede:
-      "We're Adam and Lindsay Clarkson, traveling with our three kids. Can I Afford Japan? is where the real numbers end up, because the useful part of a trip report is almost never the photo.",
-    storyTitle: "How this started",
-    storyAccent: "started",
-    storyParagraphs: [
-      "Every time we planned another trip to Japan, the same question came up before anything else: can we actually afford this? Not in the abstract, but down to the yen: this temple, this dinner, this train ticket.",
-      "We kept the answers in trip notes, texts to family, and a pile of photos nobody else ever saw. Every time a friend asked what a trip like ours actually cost, the answer was already half-written somewhere.",
-      "Can I Afford Japan? is that pile of notes, cleaned up. Some posts are about something that turned out to be free. Some are a full cost breakdown for one evening out. All of them come from a trip we actually took, with the kids actually there.",
-    ],
-    valuesTitle: "How we do this",
-    valuesAccent: "do this",
-    valuesLede: "Three rules we have not found a good reason to break yet.",
-    values: [
-      {
-        title: "Real prices, not estimates",
-        text: "If we didn't pay for it ourselves, on an actual trip, it doesn't get a number attached in a post.",
-      },
-      {
-        title: "Real photos, not stock",
-        text: "Every photo on this site is one of ours, from the trip the post is actually about.",
-      },
-      {
-        title: "Free is worth saying clearly",
-        text: "A lot of the best things we've done in Japan cost nothing. We say so up front instead of burying it under a booking link.",
-      },
-    ],
-    writersTitle: "The five of us",
-    writersAccent: "five",
-    writersLede: "Short bios, and everything each of us has shown up in.",
-    writersCta: "All authors",
+      "Adam, Lindsay, and their three kids, Lily, Cora, and Harper. We're always looking for ways to save money on our trips, and this site tracks what things actually cost.",
     contactTitle: "Get in touch",
-    contactLede:
-      "A question about a post, a correction, or just want to compare notes on a Japan trip? Tell us what's on your mind.",
+    contactLede: "A question about a post, a correction, or something we should cover? Tell us what's on your mind.",
     contactCta: "Get in touch",
   },
 
