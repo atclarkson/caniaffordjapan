@@ -154,7 +154,7 @@ export const enPages = {
     eyebrow: "Authors",
     title: "Who writes here",
     accent: "writes",
-    lede: "One family writes this blog together, under one byline. It links to every post they've published here.",
+    lede: "One family writes this blog together.",
     roleLabel: "Role",
     linksLabel: "Elsewhere",
     postsBy: "Posts by {name}",
