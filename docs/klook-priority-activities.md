@@ -20,6 +20,11 @@ current price rather than quoting these in a post.
   `klook-discount-code-adamandlindsklook.mdx`, terms live in
   `src/data/klookCode.ts`.
 
+Also published, outside this list: `nintendo-museum-uji-ticket-price-lottery.mdx`,
+real photos from an April 2026 family trip. Not a Klook or GYG bookable item
+(official lottery ticket system only, confirmed via web search), so it uses
+`AffiliateBox` for general Kyoto day tours rather than a direct activity link.
+
 ## Not yet covered, in priority order
 
 - teamLab Botanical Garden Osaka, activity id 73632, was $11.49, 4.4 stars,
