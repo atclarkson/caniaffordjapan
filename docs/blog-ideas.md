@@ -34,19 +34,7 @@ delete it.
   subway car photos), so this may end up store bought info plus
   whatever real IC card top up receipts or photos the family can find,
   worth checking again before writing.
-- **Getting connected in Japan: eSIM vs physical SIM vs pocket wifi.**
-  Unblocked 2026-09-11, real telecom affiliate accounts now live in
-  `src/data/telecomAffiliates.ts` (Airalo, Airhub, Holafly, Japan
-  Wireless, Nomad, Simlocal, amigo eSIM, Sim Options, Ubigi). Japan
-  Wireless is the most Japan specific of the group (SIM, eSIM, and
-  pocket wifi rental, not just eSIM), worth confirming its current
-  lineup and leading with it rather than treating every provider as
-  interchangeable. Needs: current pricing for each option (verify via
-  each provider's own site, don't quote stale numbers), and honest
-  framing of who each option actually suits (a solo short trip vs a
-  family that needs one shared hotspot vs someone keeping their home
-  number active).
-
 ## Done
 
-(none yet)
+- **Getting connected in Japan: eSIM vs physical SIM vs pocket wifi.**
+  Published 2026-09-11 as `esim-vs-sim-vs-pocket-wifi-japan`.
