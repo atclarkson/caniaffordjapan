@@ -35,7 +35,9 @@ breakdown.
    repeat one already covered. Also check `docs/klook-priority-activities.md`
    for the site owner's stated priority list ("Not yet covered" section),
    pick from there first if nothing more time sensitive is a better fit for
-   today.
+   today. If nothing there fits, check `docs/blog-ideas.md`, the site
+   owner's running backlog of ideas, and move the one you use to that
+   file's "Done" section with a link to the new post once it's published.
 2. Pull real material from the AL_Vault MCP tools, never invent details or
    use stock photography:
    - `get_destinations` to see what cities and neighborhoods have unused
