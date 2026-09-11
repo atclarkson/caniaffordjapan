@@ -34,6 +34,17 @@ delete it.
   subway car photos), so this may end up store bought info plus
   whatever real IC card top up receipts or photos the family can find,
   worth checking again before writing.
+- **BLOCKED, do not write yet: getting connected in Japan.** eSIM vs
+  physical SIM vs pocket wifi hotspot rental, what each actually costs
+  and who it makes sense for. The site owner explicitly said not to
+  start this until they've provided the relevant affiliate accounts,
+  do not draft or publish this post off a generic search link or off
+  the `ADAMANDLINDS` eSIM code from the family's separate
+  esimdiscountcodes.com site, that's a different business's affiliate
+  setup and not confirmed to apply here. Wait for the site owner to
+  either say "go" or hand over specific provider/affiliate details for
+  caniaffordjapan.com, same as how Klook/GYG/Expedia were wired up in
+  `src/data/affiliates.ts`.
 
 ## Done
 
