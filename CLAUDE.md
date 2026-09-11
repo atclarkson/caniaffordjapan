@@ -151,6 +151,20 @@ partner IDs there without the site owner's say so.
   tracking. Never add an offer to `klookCode.ts` that isn't confirmed by
   the site owner from the actual dashboard, and drop an offer once its
   "redeem before" date has passed rather than leaving it to go stale.
+- Telecom affiliates (eSIM, physical SIM, pocket wifi) live in
+  `src/data/telecomAffiliates.ts`, added 2026-09-11 for the "getting
+  connected in Japan" post: Airalo, Airhub, Holafly, Japan Wireless,
+  Nomad, Simlocal, amigo eSIM, Sim Options, Ubigi. Same rule as Klook:
+  do not edit the codes or links there without the site owner's say so,
+  and do not invent a discount or commission term that isn't already in
+  that file. There's no shared component for these yet (unlike
+  `AffiliateBox`/`KlookCodeBox`), link to `.url` directly and quote
+  `.terms` in the post's own prose rather than hand typing the numbers.
+  `docs/affiliates-reference.md` has the rest of the family's affiliate
+  accounts across their other sites, reference only, most of it has no
+  reason to appear on this site unless a specific post is genuinely
+  about that thing (and Insurance entries there require a disclaimer
+  and can't be phrased as a recommendation, see that doc).
 
 ## Images
 
