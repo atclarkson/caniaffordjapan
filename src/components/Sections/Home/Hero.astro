@@ -21,8 +21,21 @@
 //
 // La scene reste sombre dans les deux themes (.deep-scene, voir global.css).
 // Un cadre qui blanchit en mode clair perd ses halos et ses lueurs de bordure :
-// il perd donc l'image, et le premier ecran redevient une page de texte.
-import heroVague from "../../../assets/home-hero.jpg";
+// il perd donc l'image, et le premier ecran redevient une page de texte. Le
+// voile de lecture et le degrade restent donc identiques dans les deux cas
+// ci-dessous : seule LA PHOTO change, jamais l'habillage du cadre.
+//
+// DEUX PHOTOS, UNE PAR THEME. Senso-ji la nuit pour le sombre, un autre
+// pagode de Tokyo en plein jour pour le clair (aucune photo de jour de
+// Senso-ji lui-meme n'existe dans le fonds familial au moment ou ceci est
+// ecrit, a remplacer des qu'une vraie photo de jour de Senso-ji existe).
+// Le clair etant le theme par defaut (voir ThemeInit.astro), c'est LA PHOTO
+// DE JOUR qui charge en eager + haute priorite ; la photo de nuit charge en
+// lazy, priorite normale, invisible tant que .dark n'est pas pose sur
+// <html>. Livrer les deux en eager doublerait le poids du premier ecran
+// pour la majorite des visiteurs qui ne verront jamais la version sombre.
+import heroDay from "../../../assets/home-hero-day.jpg";
+import heroNight from "../../../assets/home-hero-night.jpg";
 import { Icon } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
 import { getSiteRoutes } from "@config/navData.json.ts";
@@ -89,7 +102,7 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
         Astro fabrique un PNG de secours par palier, soit pres de vingt
         megaoctets de fichiers que personne ne telechargera jamais. */}
     <Picture
-      src={heroVague}
+      src={heroDay}
       formats={["avif"]}
       fallbackFormat="webp"
       alt=""
@@ -97,7 +110,18 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
       sizes="100vw"
       loading="eager"
       fetchpriority="high"
-      class="pointer-events-none absolute inset-0 size-full object-cover object-[center_62%]"
+      class="hero-photo-day pointer-events-none absolute inset-0 size-full object-cover object-[center_62%]"
+      aria-hidden="true"
+    />
+    <Picture
+      src={heroNight}
+      formats={["avif"]}
+      fallbackFormat="webp"
+      alt=""
+      widths={[720, 800, 1200, 1920, 2560]}
+      sizes="100vw"
+      loading="lazy"
+      class="hero-photo-night pointer-events-none absolute inset-0 size-full object-cover object-[center_62%]"
       aria-hidden="true"
     />
 
@@ -233,6 +257,19 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
 </div>
 
 <style>
+  /* Une seule des deux photos est visible a la fois. .dark vit sur <html>
+   * (voir ThemeInit.astro), donc :global() est necessaire : le scope de
+   * style d'Astro ne verrait jamais un ancetre hors du composant sinon. */
+  .hero-photo-night {
+    display: none;
+  }
+  :global(html.dark) .hero-photo-day {
+    display: none;
+  }
+  :global(html.dark) .hero-photo-night {
+    display: block;
+  }
+
   /* Le voile horizontal, ecrit ici plutot qu'en utilitaires de degrade : c'est
    * la seule facon d'en donner une seconde version sous une media query sans
    * faire dependre le resultat de l'ordre d'emission des feuilles. Les valeurs
