@@ -13,6 +13,8 @@ draft: false
 
 import AffiliateBox from "@components/Post/AffiliateBox.astro";
 import BookingWidgets from "@components/Post/BookingWidgets.astro";
+import KlookCodeBox from "@components/Post/KlookCodeBox.astro";
+import { affiliates } from "@data/affiliates";
 
 Short answer, since it's the one people actually search for: **yes, Senso-ji is free.** No entry fee, no ticket booth, no timed-entry app. You walk in through the Kaminarimon gate, you walk out whenever you want, and it costs you nothing. It's Tokyo's oldest temple, it's lit up every night, and it is, hands down, one of the best free things to do anywhere in the city.
 
@@ -66,6 +68,10 @@ So a full evening, temple, walking the shopping street, and a real dinner, lands
   query="Asakusa Senso-ji Tokyo"
   overrides={{ expedia: "https://expedia.com/affiliates/hotel-search-sensoji-temple.Zg12evI" }}
 />
+
+Booking a tour through Klook? Our code <strong>ADAMANDLINDSKLOOK</strong> is worth entering at checkout even outside our usual teamLab posts, once a Klook cart crosses $50 the general new or existing user tiers kick in:
+
+<KlookCodeBox href={affiliates.klook.searchUrl("Asakusa Senso-ji Tokyo")} />
 
 If you'd rather not wing it, a guided Asakusa food or night walking tour is an easy way to hit Senso-ji plus a few local spots we didn't get to. And if you're building out a Tokyo itinerary around this, Asakusa itself is a solid, walkable home base, worth comparing against staying near Shibuya or Shinjuku.
 

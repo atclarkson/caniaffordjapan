@@ -12,6 +12,8 @@ draft: false
 ---
 
 import AffiliateBox from "@components/Post/AffiliateBox.astro";
+import KlookCodeBox from "@components/Post/KlookCodeBox.astro";
+import { affiliates } from "@data/affiliates";
 
 Adult tickets to the Nintendo Museum in Uji are 3,300 yen, about $21 at current rates. Ages 12 to 17 are 2,200 yen, ages 6 to 11 are 1,100 yen. That part is simple. The part that trips people up is that you cannot walk up and buy one. There is no box office. Every ticket is assigned through a monthly lottery on Nintendo's own site, and if you do not plan around that, the museum will not fit into your trip no matter how much you're willing to pay.
 
@@ -76,5 +78,9 @@ JR Uji Station is closer to the town's famous tea shops but a 30 minute walk fro
   heading="Filling out the rest of a Uji or Kyoto day"
   query="Kyoto day tour"
 />
+
+Whatever you book through Klook for the rest of the day, our code <strong>ADAMANDLINDSKLOOK</strong> is worth entering at checkout, the general new or existing user tiers apply to any cart over $50, not just the specific activities we've named it on elsewhere:
+
+<KlookCodeBox href={affiliates.klook.searchUrl("Kyoto day tour")} />
 
 Uji is also where a lot of Japan's matcha comes from, so pairing the museum with a tea house or a Byodo-in Temple stop nearby turns one lottery ticket into a full day out, worth planning around if you're already making the trip out from Kyoto or Osaka.

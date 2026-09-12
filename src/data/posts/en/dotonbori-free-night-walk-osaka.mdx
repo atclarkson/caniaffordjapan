@@ -12,6 +12,8 @@ draft: false
 ---
 
 import AffiliateBox from "@components/Post/AffiliateBox.astro";
+import KlookCodeBox from "@components/Post/KlookCodeBox.astro";
+import { affiliates } from "@data/affiliates";
 
 Walking Dotonbori at night doesn't cost anything, and it's still one of the best things we've done anywhere in Japan. The canal, the wall of neon signs, the giant mechanical crab and blowfish hanging over the street, and the famous Glico Man billboard: none of it has a ticket, a gate, or a reason to rush past it.
 
@@ -56,6 +58,10 @@ Free canal, but the family still needs to eat, and this is where Dotonbori and S
 The walk itself is the whole reason to come. Dinner is optional, and the price of it is entirely up to how many rounds you order, not the neighborhood charging you to be in it.
 
 <AffiliateBox heading="Planning a stop in Osaka?" query="Dotonbori Osaka" />
+
+Booking anything through Klook for the trip, our code <strong>ADAMANDLINDSKLOOK</strong> is worth entering at checkout, the general new or existing user tiers apply once a cart crosses $50, not just the specific activities we've named it on elsewhere:
+
+<KlookCodeBox href={affiliates.klook.searchUrl("Dotonbori Osaka")} />
 
 If you want a guided angle on this instead of wandering it yourself, a Dotonbori food tour is a common way to hit a handful of counters in one night without guessing which line is worth standing in. And if Osaka is part of a bigger Japan trip, it's an easy pair with a day trip to Kyoto or Nara, both close enough to do without changing hotels.
 

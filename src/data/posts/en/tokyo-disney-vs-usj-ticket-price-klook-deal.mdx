@@ -12,6 +12,7 @@ draft: false
 ---
 
 import { klookRedirect } from "@data/affiliates";
+import KlookCodeBox from "@components/Post/KlookCodeBox.astro";
 
 We've done both. Tokyo Disneyland and DisneySea in September 2025, and Universal Studios Japan enough times that one of the photos below is captioned "for the fourth time." Neither park has one ticket price. Both use date based pricing that moves with the calendar, so the number you see depends entirely on which day you pick.
 
@@ -45,7 +46,11 @@ We book both through Klook rather than the parks' own sites, same idea as everyt
 
 <a href={klookRedirect("https://www.klook.com/en-US/activity/695-tokyo-disney-resort-1-day-pass-tokyo/")}>Tokyo Disney Resort 1-Day Passport on Klook</a> for Disneyland or DisneySea, and <a href={klookRedirect("https://www.klook.com/en-US/activity/168914-have-fun-in-kansai-premium/")}>the Have Fun in Kansai Premium Pass on Klook</a> for Universal Studios Japan, which bundles USJ admission with a Harry Potter or Minions express pass pick, a themed popcorn bucket, and a choice of extra Kansai attractions like the Umeda Sky Building or an Osaka Castle moat cruise.
 
-Our ADAMANDLINDSKLOOK code does not currently cover either of these per Klook's own dashboard terms (it's confirmed for teamLab, Shinkansen tickets, SHIBUYA SKY, and a handful of others, not Disney or USJ), so we're not going to pretend otherwise here. Klook is running a fall flash sale across theme parks as of this writing (September 12, 2026, with a few days left on it), worth checking the current price against the ranges above before you book.
+Neither park is on the 1% "selected things to do" tier of our own code, that list is teamLab, Shinkansen tickets, SHIBUYA SKY, and a handful of others, not Disney or USJ. But a single 1-day ticket at either park already clears the $50 minimum for the general tiers below, so the code is still worth entering at checkout:
+
+<KlookCodeBox href={klookRedirect("https://www.klook.com/en-US/activity/695-tokyo-disney-resort-1-day-pass-tokyo/")} />
+
+Klook is also running a fall flash sale across theme parks as of this writing (September 12, 2026, with a few days left on it), worth checking the current price against the ranges above before you book.
 
 <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
   <figure>

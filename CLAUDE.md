@@ -151,6 +151,21 @@ partner IDs there without the site owner's say so.
   tracking. Never add an offer to `klookCode.ts` that isn't confirmed by
   the site owner from the actual dashboard, and drop an offer once its
   "redeem before" date has passed rather than leaving it to go stale.
+- ALWAYS include `<KlookCodeBox>` on every post that links to Klook at
+  all, not just posts about an activity on the 1% "selected things to
+  do" tier. The site owner's own words: people search for
+  "ADAMANDLINDSKLOOK" by name, so the code needs to show up everywhere
+  Klook does. The two general tiers (10% off for a new Klook user, 3%
+  off for an existing one) have no activity restriction, only a $50
+  cart minimum, so they genuinely apply on top of a plain `AffiliateBox`
+  or `BookingWidgets` Klook link too, not only on posts using
+  `klookRedirect` for a specific activity. Say plainly when an activity
+  isn't on the 1% list (don't imply it is), but still note the general
+  tiers apply once the cart clears $50, that's true and it's exactly
+  the gap a 2026-09-12 post first got wrong before being corrected.
+  This does not extend to posts with no Klook link at all (an eSIM
+  comparison, a restaurant bill, an arcade write-up), don't force one
+  in where there's nothing to book through Klook in the first place.
 - Telecom affiliates (eSIM, physical SIM, pocket wifi) live in
   `src/data/telecomAffiliates.ts`, added 2026-09-11 for the "getting
   connected in Japan" post: Airalo, Airhub, Holafly, Japan Wireless,
