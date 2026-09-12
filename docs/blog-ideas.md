@@ -11,23 +11,26 @@ delete it.
 
 ## Ideas
 
-- **Asakusa sumo dinner or experience, with the Klook code.** A real,
-  current lead as of 2026-09-12: a Klook marketing email (fall flash
-  sale, forwarded by the site owner) featured "Tokyo Ginza Sumo
-  Experience," 50% off, 4.8 stars, 10K+ booked. That's Ginza, not
-  Asakusa, note the correct neighborhood rather than defaulting to the
-  original idea's guess. The email had no clickable links (it was a
-  flattened print-to-PDF), so find the real Klook activity page URL
-  independently (web search "site:klook.com Tokyo Ginza Sumo
-  Experience" worked for the Disney/USJ post, same approach here)
-  before using klookRedirect. Needs: a real family visit to check in
-  AL_Vault before writing anything, don't write this from the
-  marketing email alone, and confirm whether ADAMANDLINDSKLOOK
-  actually covers it (it did not cover Disney or USJ, don't assume it
-  covers this either without checking `src/data/klookCode.ts`'s
-  confirmed list). Flash sale discounts like the 50% off seen in the
-  email are time limited, verify the current rate before publishing
-  rather than quoting September's number.
+- **BLOCKED, no real material yet: Ginza sumo experience, with the
+  Klook code.** A real, current lead as of 2026-09-12: a Klook
+  marketing email (fall flash sale, forwarded by the site owner)
+  featured "Tokyo Ginza Sumo Experience," 50% off, 4.8 stars, 10K+
+  booked. That's Ginza, not Asakusa, note the correct neighborhood
+  rather than the original idea's guess. Checked AL_Vault on
+  2026-09-12 (`search_photos text: "sumo"`), zero results, the family
+  has never actually done this. Per the site's own rule, real trips
+  only, don't write this from the marketing email alone. Stays
+  blocked until there's a real visit to draw from. If one happens: the
+  email had no clickable links (a flattened print-to-PDF), find the
+  real Klook activity page URL independently (web search
+  "site:klook.com Tokyo Ginza Sumo Experience" worked for the
+  Disney/USJ post) before using klookRedirect, and note that
+  ADAMANDLINDSKLOOK's general new/existing user tiers apply to any
+  Klook cart over $50 regardless of activity, only the separate 1%
+  tier is restricted to the named list in `klookCode.ts`, so the code
+  is worth including either way. Flash sale discounts like the 50%
+  off seen in the email are time limited, verify the current rate
+  before publishing rather than quoting September's number.
 - **Suica vs Pasmo vs other IC cards.** What the different transit IC
   cards actually are, whether it matters which one a visitor gets, and
   what using one costs versus buying single tickets. This is the transit
@@ -45,3 +48,10 @@ delete it.
 - **Disney (Tokyo Disneyland/DisneySea) and USJ, with Klook.** Published
   2026-09-12 as `tokyo-disney-vs-usj-ticket-price-klook-deal`, prompted
   by the same Klook flash sale email as the sumo idea above.
+- **Hakone Free Pass, is it worth it.** Not from this backlog, came up
+  while looking for today's material after the sumo idea turned out to
+  have no real photos. Published 2026-09-12 as
+  `hakone-free-pass-worth-it-cost-breakdown`, real photos from a 2023
+  trip with the grandparents (extended family, first time they've
+  shown up on this site). Fills the `day-trips` topic's own listed
+  Hakone mention.
