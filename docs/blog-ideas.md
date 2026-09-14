@@ -31,16 +31,6 @@ delete it.
   is worth including either way. Flash sale discounts like the 50%
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
-- **Suica vs Pasmo vs other IC cards.** What the different transit IC
-  cards actually are, whether it matters which one a visitor gets, and
-  what using one costs versus buying single tickets. This is the transit
-  topic's first real candidate (`src/data/topics/en/transit.json` has
-  zero posts so far). Needs: real photos are thin in AL_Vault right now
-  for this specific angle (checked 2026-09-10, only a couple of loose
-  subway car photos), so this may end up store bought info plus
-  whatever real IC card top up receipts or photos the family can find,
-  worth checking again before writing.
-
 ## Done
 
 - **Getting connected in Japan: eSIM vs physical SIM vs pocket wifi.**
@@ -55,3 +45,15 @@ delete it.
   trip with the grandparents (extended family, first time they've
   shown up on this site). Fills the `day-trips` topic's own listed
   Hakone mention.
+- **Tokyo's otter cafe.** Not from this backlog either, found while
+  looking for that day's material. Published 2026-09-13 as
+  `otter-cafe-harajuku-shibuya-tokyo-cost`, 22 completely unused real
+  photos from a September 2025 visit.
+- **Suica vs Pasmo vs other IC cards.** Published 2026-09-14 as
+  `suica-pasmo-icoca-ic-card-japan`, the transit topic's first post.
+  Real photo material turned out to be there after all (checked again
+  with broader tag search rather than just text search), five real
+  train and subway riding photos. No physical card in hand in any of
+  them, so the post leans on real riding moments rather than a photo
+  of the card itself, and covers ICOCA too since that's the Kansai
+  card and most of our trips are Osaka based.
