@@ -67,6 +67,13 @@
   --color-coral-800: #4a2012;
   --color-coral-900: #3b1a10;
 
+  /* --- Palette : Sceau ---------------------------------------------------
+   * Deux encres reservees a la marque compacte. Le papier chaud et le
+   * vermillon sourd donnent au favicon l'allure d'un hanko pose sur du washi,
+   * sans ajouter une nouvelle couleur d'action dans l'interface. */
+  --color-seal-paper: #f4ead8;
+  --color-seal-ink: #b33a2f;
+
   /* --- Palette : Recif ---------------------------------------------------
    * Le second accent : une aigue-marine franche, plus bleue que le lagon
    * d'Aloha, qui est vert. Les deux themes sont voisins et doivent se
@@ -176,6 +183,8 @@
    * partagees entre les themes de la maison ne doivent jamais citer le nom
    * d'une couleur de marque, sinon elles cessent d'etre portables. */
   --color-scrim: var(--reef-scrim);
+  --color-mark-ground: var(--reef-mark-ground);
+  --color-mark-ink: var(--reef-mark-ink);
 
   /* Les ombres passent par inline, donc par var() : c'est la seule facon
    * qu'elles ont de changer entre le clair et le sombre. Tailwind v4 fige les
@@ -250,6 +259,8 @@
   --reef-ring: var(--color-reef-600);
   --reef-surface: var(--color-paper-100);
   --reef-scrim: var(--color-ink-950);
+  --reef-mark-ground: var(--color-seal-paper);
+  --reef-mark-ink: var(--color-seal-ink);
 
   /* En clair, une ombre portee suffit, teintee de l'encre du theme et jamais
    * noire : une ombre neutre sur un fond bleute le grise, et la page perd le

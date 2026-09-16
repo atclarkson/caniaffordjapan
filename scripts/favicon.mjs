@@ -63,12 +63,14 @@ function resolveToken(name, scope, depth = 0) {
   throw new Error(`tokens.css : jeton --${name} introuvable, le favicon ne peut pas etre peint`);
 }
 
-const groundDark = resolveToken("color-background", darkBlock);
-const wave = resolveToken("color-accent", darkBlock);
-const crest = resolveToken("color-primary", darkBlock);
+const markGround = resolveToken("color-mark-ground", darkBlock);
+const markInk = resolveToken("color-mark-ink", darkBlock);
 
-/* Le dessin de la marque. Une ancre schematique posee sur sa ligne d'horizon. */
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="${groundDark}"/><path d="M32 52V26" stroke="${wave}" stroke-width="7" stroke-linecap="round"/><path d="M32 34 22 24M32 38l10-10" stroke="${wave}" stroke-width="6" stroke-linecap="round"/><path d="M14 52h36" stroke="${crest}" stroke-width="5" stroke-linecap="round" opacity="0.9"/></svg>`;
+/* Le dessin de la marque. Un disque vermillon legerement irregulier evoque
+ * l'encre d'un hanko et le soleil japonais. Le yen est taille en reserve dans
+ * le disque : deux formes, une seule encre, et aucun detail qui disparait a
+ * seize pixels. */
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="${markGround}"/><path d="M32 8.5C44.8 8.8 54.6 18.1 55.3 30.8c.8 13.1-8.8 23.6-21.9 24.7-13.5 1.1-24.2-8-24.7-21.5C8.2 20.2 18.2 8.2 32 8.5Z" fill="${markInk}"/><path d="m18.5 19.5 4.7-3.8L32 27.4l8.8-11.7 4.7 3.8-10.4 13.2v1.7h8v5.2h-8v3h8v5.2h-8v7.3h-6.2v-7.3h-8v-5.2h8v-3h-8v-5.2h8v-1.7L18.5 19.5Z" fill="${markGround}"/></svg>`;
 
 /**
  * Assemble un .ico a partir de PNG deja encodes.
