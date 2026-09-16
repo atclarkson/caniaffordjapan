@@ -97,6 +97,20 @@ broken or duplicating a covered topic.
   `<figure>` children (mobile first: one column by default, two from the
   `sm` breakpoint up). In body photos can stay on the AL_Vault CDN
   (`large_url`), they don't need to be downloaded like the cover does.
+- Real family photos come first, always. When a post would genuinely
+  benefit from a reference image AL_Vault has nothing for (a product shot
+  of a physical card, a specific object, something to illustrate rather
+  than narrate), Wikimedia Commons is fair game as supplementary material.
+  Query the MediaWiki API directly rather than trusting a search summary:
+  `https://commons.wikimedia.org/w/api.php?action=query&titles=File:X.jpg&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=800&format=json`
+  returns a `thumburl` on `thumb.wikimedia.org` (reliable) plus the
+  `Artist`, `LicenseShortName`, and `UsageTerms` fields for attribution
+  (full-res `upload.wikimedia.org` URLs guessed by hand tend to 429 or
+  400). Download it into `public/reference/` and reference it as an
+  absolute path (`/reference/<file>.jpg`), not the AL_Vault CDN. Caption
+  it plainly: `Photo: <Artist>, <License>, via Wikimedia Commons` linking
+  the file's Commons page. Cite it and move on, no disclaimer about not
+  having taken the photo yourself.
 
 ## Topics
 
