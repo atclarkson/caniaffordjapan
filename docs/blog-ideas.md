@@ -57,3 +57,11 @@ delete it.
   them, so the post leans on real riding moments rather than a photo
   of the card itself, and covers ICOCA too since that's the Kansai
   card and most of our trips are Osaka based.
+- **Free neighborhood playgrounds.** Not from this backlog, found while
+  looking for today's material after the next three Klook priority
+  activities (teamLab Botanical Garden Osaka, Forest Fukuoka, Future
+  Park Okinawa) all turned out to have no real photos. Published
+  2026-09-16 as `japan-neighborhood-playgrounds-free-tokyo`, real
+  photos from an extended 2024 stay in Katsushika, a residential Tokyo
+  ward the site hadn't covered before. First post under a genuinely new
+  angle (everyday neighborhood life, not a named attraction).

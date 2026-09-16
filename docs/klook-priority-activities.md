@@ -29,12 +29,18 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 
 - teamLab Botanical Garden Osaka, activity id 73632, was $11.49, 4.4 stars,
   7,266 reviews. Nagai Botanical Garden, Osaka. Pairs naturally with the
-  `osaka` topic.
+  `osaka` topic. Checked AL_Vault on 2026-09-16, zero photos for this
+  specific spot, the family hasn't been. Stays here until there's a real
+  visit.
 - teamLab Forest Fukuoka, activity id 51227, was $15.35, 4.7 stars, 1,638
   reviews. Inside the BOSS E.ZO FUKUOKA complex. Fukuoka doesn't have a
-  topic yet, add one if this gets written.
+  topic yet, add one if this gets written. Checked AL_Vault on 2026-09-16,
+  the family's only Fukuoka material is 1 photo and 2 videos from a June
+  2023 trip, not enough to confirm they actually visited this specific
+  attraction, don't write it from a guess.
 - teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
-  443 reviews. Naha. Also has no topic yet.
+  443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
+  2026-09-16, zero Okinawa content of any kind, the family has never been.
 - Klook Pass Greater Tokyo, activity id 74574, was $42.15, 4.4 stars, 6,480
   reviews. A multi-attraction pass that includes teamLab Borderless or
   Planets as one of the redeemable options, worth its own cost breakdown
