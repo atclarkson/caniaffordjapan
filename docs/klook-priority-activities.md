@@ -41,12 +41,21 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 - teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
   443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
   2026-09-16, zero Okinawa content of any kind, the family has never been.
-- Klook Pass Greater Tokyo, activity id 74574, was $42.15, 4.4 stars, 6,480
-  reviews. A multi-attraction pass that includes teamLab Borderless or
-  Planets as one of the redeemable options, worth its own cost breakdown
-  post (is the pass actually cheaper than booking separately).
 - Klook Pass Kansai, activity id 91434, was $35.25, 4.5 stars, 1,077
   reviews. Same idea as the Tokyo pass, for Osaka/Kyoto/Kobe.
+
+## Done, outside this list's original scope
+
+- Klook Pass Greater Tokyo, activity id 74574. Published 2026-09-17 as
+  `klook-pass-greater-tokyo-worth-it`, real family photos of Skytree
+  and Tokyo Tower (exterior/street level, not the paid decks
+  specifically, noted honestly in the post). Ran real current-price
+  math against the pass's tiers (sourced from adamandlinds.com,
+  flagged as possibly stale) and found the 3-attraction tier doesn't
+  actually beat booking Skytree + Tokyo Tower + teamLab Planets
+  separately at current 2026 prices, only becomes a real deal once an
+  expensive premium add-on (Disney, Warner Bros. Studio Tour, etc.) is
+  in the mix. Honest, not a sales pitch for the pass.
 
 ## Before checking used_in and picking a slug or angle
 
