@@ -33,7 +33,13 @@ export default defineConfig({
     // JavaScript. C'est le principal argument d'un theme de blog.
     mdx(),
     sitemap({
-      filter: (page) => !["/404/", "/examples/"].some((p) => page.includes(p)),
+      // /search/ et les pages d'archive au dela de la 1 (/blog/2/, /topics/x/2/,
+      // ...) portent deja noindex (BaseHead) et, pour /search/, un Disallow
+      // robots.txt : les lister ici envoie un signal contradictoire a Google
+      // (soumises au sitemap, mais bloquees ou exclues a l'exploration).
+      filter: (page) =>
+        !["/404/", "/examples/", "/search/"].some((p) => page.includes(p)) &&
+        !/\/\d+\/$/.test(page),
       // Le sitemap porte les memes alternatives que les balises hreflang du
       // head : Google recoupe les deux, et un desaccord fait ignorer les deux.
       i18n: { defaultLocale: "en", locales: { en: "en" } },
