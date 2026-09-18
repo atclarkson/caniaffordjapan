@@ -41,8 +41,11 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 - teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
   443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
   2026-09-16, zero Okinawa content of any kind, the family has never been.
-- Klook Pass Kansai, activity id 91434, was $35.25, 4.5 stars, 1,077
-  reviews. Same idea as the Tokyo pass, for Osaka/Kyoto/Kobe.
+## Not yet covered
+
+Nothing left on this list has real family photos to draw from (see
+the entries above). Recheck AL_Vault periodically in case that
+changes with a future trip.
 
 ## Done, outside this list's original scope
 
@@ -56,6 +59,15 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
   separately at current 2026 prices, only becomes a real deal once an
   expensive premium add-on (Disney, Warner Bros. Studio Tour, etc.) is
   in the mix. Honest, not a sales pitch for the pass.
+- Klook Pass Kansai, activity id 91434. Published 2026-09-18 as
+  `klook-pass-kansai-worth-it`. No real photos for the standard-tier
+  attractions themselves (teamLab Botanical Garden Osaka, HARUKAS 300,
+  Umeda Sky Building), said so plainly in the post, but real current
+  prices for all three show the pass's entry tier actually does edge
+  out booking them separately, unlike the Tokyo pass. Used real,
+  plentiful USJ photos (14 unused) to illustrate the premium side,
+  where an expensive attraction is what makes the bigger savings show
+  up, same pattern as Tokyo.
 
 ## Before checking used_in and picking a slug or angle
 
