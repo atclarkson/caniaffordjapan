@@ -65,3 +65,11 @@ delete it.
   photos from an extended 2024 stay in Katsushika, a residential Tokyo
   ward the site hadn't covered before. First post under a genuinely new
   angle (everyday neighborhood life, not a named attraction).
+- **Nihon Minkaen, Kawasaki's open-air folk museum.** Not from this
+  backlog, found while looking for today's material after confirming
+  the Klook priority list is fully exhausted (checked 2026-09-18).
+  Published 2026-09-19 as `nihon-minkaen-kawasaki-folk-museum-cost`,
+  21 real unused photos from a November 2023 visit, the first post
+  set in Kawasaki. No Klook or GYG listing exists for it (small
+  municipal museum, gate tickets only), so no AffiliateBox, consistent
+  with the site's own rule not to force one in.
