@@ -73,3 +73,10 @@ delete it.
   set in Kawasaki. No Klook or GYG listing exists for it (small
   municipal museum, gate tickets only), so no AffiliateBox, consistent
   with the site's own rule not to force one in.
+- **A Yomiuri Giants game at Tokyo Dome.** Not from this backlog,
+  found while looking for today's material. Published 2026-09-20 as
+  `yomiuri-giants-tokyo-dome-baseball-game-cost`, real photos from a
+  September 2025 game with Lily and Harper, the first post in Bunkyo
+  and the first sports post on the site. Real Klook listing exists
+  (activity 22618, match ticket plus a supporting towel), so this one
+  gets the full AffiliateBox and KlookCodeBox treatment.
