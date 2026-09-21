@@ -80,3 +80,12 @@ delete it.
   and the first sports post on the site. Real Klook listing exists
   (activity 22618, match ticket plus a supporting towel), so this one
   gets the full AffiliateBox and KlookCodeBox treatment.
+- **Free things to see in Shinjuku: Godzilla's head and a torii
+  tunnel.** Not from this backlog, found while looking for today's
+  material. Published 2026-09-21 as
+  `shinjuku-free-godzilla-torii-tunnel`, real photos from two separate
+  2023 visits (the Godzilla head, Hanazono Shrine's torii tunnel), the
+  first post set in Shinjuku. Confirmed via web search that the
+  close-up hotel terrace view of Godzilla is currently not open to the
+  public, said so plainly rather than repeating outdated advice, and
+  described only the free street-level viewing.
