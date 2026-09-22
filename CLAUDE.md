@@ -27,12 +27,15 @@ prints even if the text inside them is stale demo copy nobody checked.
 
 ## Daily article routine
 
-One new post per day about something affordable in Japan: a free attraction,
-a cheap meal, a transit hack, a lodging comparison, a day trip cost
-breakdown.
+Two new posts per day about something affordable in Japan: a free
+attraction, a cheap meal, a transit hack, a lodging comparison, a day trip
+cost breakdown. The daily trigger fires twice (currently 14:00 and 20:00
+UTC), each firing writes one complete post start to finish, don't try to
+batch both into a single firing.
 
 1. Check `src/data/posts/en/` for existing slugs and topics so you don't
-   repeat one already covered. Also check `docs/klook-priority-activities.md`
+   repeat one already covered (including anything published earlier the
+   same day by the first firing). Also check `docs/klook-priority-activities.md`
    for the site owner's stated priority list ("Not yet covered" section),
    pick from there first if nothing more time sensitive is a better fit for
    today. If nothing there fits, check `docs/blog-ideas.md`, the site
@@ -40,7 +43,12 @@ breakdown.
    file's "Done" section with a link to the new post once it's published.
    Skip any idea marked BLOCKED there, it means the site owner said not
    to write it yet, usually because it needs affiliate info or some
-   other input only they can provide.
+   other input only they can provide. Once both of those are exhausted
+   (expect this to happen often now that output has doubled), fall back to
+   fresh AL_Vault exploration: check `get_destinations` for cities with
+   unused photo counts the site hasn't covered yet, the way several posts
+   already published this way (Hakone, the otter cafe, Nihon Minkaen, the
+   Yomiuri Giants post, and others).
 2. Pull real material from the AL_Vault MCP tools, never invent details or
    use stock photography:
    - `get_destinations` to see what cities and neighborhoods have unused
@@ -52,20 +60,47 @@ breakdown.
      story context: what else happened that day, what things cost.
 3. Pick or create a topic (see "Topics" below) and confirm the author stays
    `en/the-clarksons` unless the site owner has added someone else.
-4. Write the post (see "Post format" below).
-5. Download the cover photo locally (see "Images" below). This is required:
+4. Write the post (see "Post format" and "Length" below).
+5. Before writing the affiliate section, actually check whether a real
+   link applies (see "Affiliate links" below) rather than skipping it by
+   default. Most posts about anything bookable should end up with a real
+   Klook, GetYourGuide, Expedia, or telecom link, and any post that links
+   to Klook at all gets `<KlookCodeBox>`, no exceptions. This is how the
+   site makes money, treat it as a required step, not an optional one.
+6. Download the cover photo locally (see "Images" below). This is required:
    the build fails without it.
-6. Run `pnpm install` if needed, then `pnpm build` and `pnpm check`. Both
+7. Run `pnpm install` if needed, then `pnpm build` and `pnpm check`. Both
    must be clean before you commit.
-7. Call `mark_photo_used` on every vault photo uuid you used (cover and any
+8. Call `mark_photo_used` on every vault photo uuid you used (cover and any
    in body photos), with `post_slug` set to the new post's slug.
-8. Commit straight to `main` (message: `Add post: <title>`) and push. No PR,
+9. Commit straight to `main` (message: `Add post: <title>`) and push. No PR,
    no review step. Cloudflare auto deploys on push.
 
 If you hit something you can't resolve alone (the build is broken by
 something other than your own change, or you genuinely can't find any new
 unused material), stop and leave a clear note rather than pushing something
 broken or duplicating a covered topic.
+
+## Length
+
+Aim for roughly 700 to 1,100 words in the body (headers, table cells, and
+captions count), landing around a 3 to 5 minute read at a normal pace.
+That's longer than most of this site's early posts, which ran closer to a
+2 minute read, so don't stop at the first honest paragraph the way earlier
+posts sometimes did: add a section that was previously left out rather than
+padding existing sentences. Good ways to genuinely earn the extra length,
+not just stretch it:
+- A "how to get there" or "getting there" section with real transit
+  times/fares if the post doesn't already have one.
+- A second real cost angle (what a family actually spent that day, not
+  just the one headline ticket price).
+- More of the real story around the visit if AL_Vault has journal entries
+  or extra photos that didn't make the first draft.
+- A closing "was it worth it" or practical-tips section if the post
+  doesn't already end with one.
+Never hit the target by inventing a detail that isn't real, restating the
+same fact in different words, or adding filler transitions. A shorter post
+that's fully honest beats a longer one that pads.
 
 ## Post format
 
@@ -121,6 +156,19 @@ JSON file there only if a post genuinely doesn't fit any existing one
 `reef`, or `ink`, and `order`).
 
 ## Affiliate links
+
+This is how the site makes money, the site owner has said so directly.
+Default to including a real affiliate link and, if it links to Klook at
+all, `<KlookCodeBox>`. Treat "does an affiliate link genuinely fit this
+post" as a question you actively check for every post, not something you
+skip by default. The only posts that should ship with no affiliate link
+at all are ones where nothing on the page is genuinely bookable through
+Klook, GetYourGuide, Expedia, or a telecom partner (a free shrine with no
+paid add-on, a transit-card explainer, a restaurant bill), and even those
+are worth a second look before assuming there's nothing: a free
+attraction post can often still carry a relevant `<AffiliateBox>` for a
+nearby paid activity or a general city search if one genuinely fits the
+post's own topic, don't force an unrelated one in just to have a link.
 
 Real affiliate accounts are wired up for Klook, GetYourGuide, and Expedia.
 `src/data/affiliates.ts` holds the real link builders, do not edit the
