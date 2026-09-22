@@ -89,3 +89,12 @@ delete it.
   close-up hotel terrace view of Godzilla is currently not open to the
   public, said so plainly rather than repeating outdated advice, and
   described only the free street-level viewing.
+- **Tennoji Zoo, Osaka.** Not from this backlog, found while looking
+  for material for the first post under the new 2x/day schedule.
+  Published 2026-09-22 as `tennoji-zoo-osaka-ticket-price-annual-pass`,
+  real photos from three separate 2026 visits (Feb, March, April),
+  first zoo post on the site. Real current price (jumped 500 to 800
+  yen in July 2026, confirmed via osaka-info.jp) plus real annual pass
+  break-even math using the family's own three-visit count. Real Klook
+  listing (activity 168730), full AffiliateBox and KlookCodeBox. First
+  post written to the new ~700-1,100 word length target (713 words).
