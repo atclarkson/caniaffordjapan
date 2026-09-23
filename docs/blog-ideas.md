@@ -107,3 +107,13 @@ delete it.
   real history (1912 origin, WWII scrapping, 1956 rebuild) and the
   kushikatsu no-double-dip rule for extra length. Real Klook listing
   (activity 76766), full AffiliateBox and KlookCodeBox. 755 words.
+- **Yokohama: Cup Noodles Museum and Sankeien Garden.** Not from this
+  backlog, found while looking for material for the 20:00 UTC firing.
+  Published 2026-09-23 as
+  `yokohama-cup-noodles-museum-sankeien-garden-cost`, real photos from
+  a November 2023 visit (only 6 total Yokohama photos existed, used
+  4), the first post set in Yokohama. Two real attractions in one
+  post: Cup Noodles Museum (500 yen, 500 more for the custom cup
+  workshop) and Sankeien Garden (900 yen), plus a free bonus stop (the
+  illuminated Yokohama sign). Real Klook listings for both (activity
+  146096 and 85615), full AffiliateBox and KlookCodeBox. 722 words.
