@@ -98,3 +98,12 @@ delete it.
   break-even math using the family's own three-visit count. Real Klook
   listing (activity 168730), full AffiliateBox and KlookCodeBox. First
   post written to the new ~700-1,100 word length target (713 words).
+- **Tsutenkaku Tower and Shinsekai, Osaka.** Not from this backlog,
+  found while looking for material for the 14:00 UTC firing. Published
+  2026-09-23 as `tsutenkaku-tower-shinsekai-osaka-cost`, real photos
+  from two 2026 visits (Feb blue hour, March daytime), all street
+  level, said plainly that we haven't gone up the tower ourselves yet.
+  Real current pricing (1,200 yen adult, 400 yen elementary/JHS) plus
+  real history (1912 origin, WWII scrapping, 1956 rebuild) and the
+  kushikatsu no-double-dip rule for extra length. Real Klook listing
+  (activity 76766), full AffiliateBox and KlookCodeBox. 755 words.
