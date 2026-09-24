@@ -129,3 +129,18 @@ delete it.
   the pond's lotus-section island. Real Klook listing for the zoo
   ticket (activity 136354), full AffiliateBox and KlookCodeBox. 764
   words.
+- **What Tokyo Disneyland and DisneySea cost beyond the ticket.** Not
+  from this backlog, found while looking for material for the 20:00
+  UTC firing after both priority sources were exhausted again. The
+  site already had a ticket-price comparison post
+  (`tokyo-disney-vs-usj-ticket-price-klook-deal`), so this one takes a
+  different angle: real transit, snack, and souvenir costs from the
+  same September 2025 two-day trip, using 5 previously unused photos
+  (17 of the 21 Urayasu photos had never been used). Published
+  2026-09-24 as `tokyo-disney-extra-costs-snacks-monorail-souvenirs`,
+  real current pricing for the JR Keiyo Line fare, the Disney Resort
+  Line monorail (300 yen single ride, 700 yen day pass), the Mickey
+  Ice Bar (400 yen), and popcorn/souvenir bucket pricing. Reuses the
+  real Klook ticket listing (activity 695) since the admission itself
+  is still genuinely bookable, full AffiliateBox and KlookCodeBox. 742
+  words.
