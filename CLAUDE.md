@@ -27,15 +27,15 @@ prints even if the text inside them is stale demo copy nobody checked.
 
 ## Daily article routine
 
-Two new posts per day about something affordable in Japan: a free
+Four new posts per day about something affordable in Japan: a free
 attraction, a cheap meal, a transit hack, a lodging comparison, a day trip
-cost breakdown. The daily trigger fires twice (currently 14:00 and 20:00
-UTC), each firing writes one complete post start to finish, don't try to
-batch both into a single firing.
+cost breakdown. The daily trigger fires four times (currently 02:00,
+08:00, 14:00, and 20:00 UTC), each firing writes one complete post start
+to finish, don't try to batch more than one into a single firing.
 
 1. Check `src/data/posts/en/` for existing slugs and topics so you don't
    repeat one already covered (including anything published earlier the
-   same day by the first firing). Also check `docs/klook-priority-activities.md`
+   same day by an earlier firing). Also check `docs/klook-priority-activities.md`
    for the site owner's stated priority list ("Not yet covered" section),
    pick from there first if nothing more time sensitive is a better fit for
    today. If nothing there fits, check `docs/blog-ideas.md`, the site
@@ -44,7 +44,7 @@ batch both into a single firing.
    Skip any idea marked BLOCKED there, it means the site owner said not
    to write it yet, usually because it needs affiliate info or some
    other input only they can provide. Once both of those are exhausted
-   (expect this to happen often now that output has doubled), fall back to
+   (expect this often at 4x/day pacing), fall back to
    fresh AL_Vault exploration: check `get_destinations` for cities with
    unused photo counts the site hasn't covered yet, the way several posts
    already published this way (Hakone, the otter cafe, Nihon Minkaen, the
