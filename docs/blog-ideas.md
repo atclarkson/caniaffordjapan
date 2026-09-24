@@ -117,3 +117,15 @@ delete it.
   workshop) and Sankeien Garden (900 yen), plus a free bonus stop (the
   illuminated Yokohama sign). Real Klook listings for both (activity
   146096 and 85615), full AffiliateBox and KlookCodeBox. 722 words.
+- **Ueno Zoo and Shinobazu Pond boats, Tokyo.** Not from this backlog,
+  found while looking for material for the first post under the newly
+  synced 4x/day schedule. Published 2026-09-24 as
+  `ueno-zoo-shinobazu-pond-boats-tokyo-cost`, real photos from a
+  Halloween 2023 visit, the first post set in Taito ward and the first
+  post on the site to note the pandas left Ueno Zoo for China in
+  January 2026 rather than repeat outdated info. Real current pricing
+  for both the zoo (600 yen adult) and the three Shinobazu Pond boat
+  types (600 to 700 yen), plus a free bonus stop at Bentendo Temple on
+  the pond's lotus-section island. Real Klook listing for the zoo
+  ticket (activity 136354), full AffiliateBox and KlookCodeBox. 764
+  words.
