@@ -144,3 +144,16 @@ delete it.
   real Klook ticket listing (activity 695) since the admission itself
   is still genuinely bookable, full AffiliateBox and KlookCodeBox. 742
   words.
+- **Street Kart Tokyo: costumed go-karting past Skytree.** Not from
+  this backlog, found while looking for material for the 02:00 UTC
+  firing after both priority sources were exhausted again, via fresh
+  AL_Vault exploration into Sumida ward (13 photos, none used before).
+  Published 2026-09-25 as
+  `street-kart-tokyo-costume-go-kart-skytree-cost`, real photos from a
+  November 2023 date night (Pikachu and My Melody costumes) while the
+  grandparents watched the girls, the first post set in Sumida. Real
+  current price range (10,000 to 17,500 yen depending on route/length)
+  and the International Driving Permit requirement, plus the real,
+  verified MariCar-to-Street-Kart rebrand history after Nintendo's
+  lawsuit. Real Klook listing (activity 15628), full AffiliateBox and
+  KlookCodeBox. 735 words.
