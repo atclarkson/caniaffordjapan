@@ -170,3 +170,23 @@ delete it.
   pancake 2,090 yen, curry 1,598 yen). Real Klook listing for the cafe
   reservation (activity 216315), full AffiliateBox and KlookCodeBox.
   742 words.
+- **Doraemon Time Square and Hello Kitty Japan, DiverCity Tokyo Plaza,
+  Odaiba.** Not from this backlog, found while looking for material
+  for the 14:00 UTC firing after both priority sources were exhausted
+  again, via fresh AL_Vault exploration into Koto ward, confirmed
+  against a real family YouTube video from the same day ("ODAIBA DAY
+  TRIP! Boat Cruise, Life-Sized Gundam & Arcades"). Published
+  2026-09-25 as `doraemon-time-square-hello-kitty-divercity-odaiba`,
+  real photos from a May 2024 day trip, the first post set in Koto.
+  Both the Doraemon bench statues and the Hello Kitty Japan store are
+  free to enter. Caught and corrected an outdated-info trap during
+  research: Odaiba's famous Unicorn Gundam statue's display run ended
+  August 31, 2026 and is no longer there, said so plainly rather than
+  writing it up as a current attraction, matching the site's Ueno
+  panda and Shinjuku Godzilla precedent. No photos of the Gundam or
+  the arcades exist in the vault from this trip, so neither is
+  described beyond honest mention, with an honest cross-reference to
+  the existing Round1 pricing post for the arcade angle. Real Klook
+  listing for the Asakusa-to-Odaiba water bus cruise (activity 24275)
+  as a genuine "getting there" option, full AffiliateBox and
+  KlookCodeBox. 767 words.
