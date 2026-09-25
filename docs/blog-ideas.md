@@ -190,3 +190,17 @@ delete it.
   listing for the Asakusa-to-Odaiba water bus cruise (activity 24275)
   as a genuine "getting there" option, full AffiliateBox and
   KlookCodeBox. 767 words.
+- **Tokyo Tower: Main Deck vs Top Deck.** Not from this backlog, found
+  while looking for material for the 20:00 UTC firing after both
+  priority sources were exhausted again, via fresh AL_Vault
+  exploration into Minato ward. Published 2026-09-25 as
+  `tokyo-tower-main-deck-top-deck-cost`, real photos from a June 2024
+  visit (the same day as the existing teamLab Borderless post), the
+  first dedicated Tokyo Tower post on the site (previously only
+  mentioned in passing in the Klook Pass Greater Tokyo post). Said
+  plainly that we haven't gone up ourselves, matching the Tsutenkaku
+  post's precedent. Real current pricing for both decks (Main Deck
+  1,500 yen, Top Deck Tour 3,300 yen web price), the free Foot Town
+  complex at the base, and the real aviation-law reason for the
+  red-and-white paint job. Real Klook listing (activity 4911), full
+  AffiliateBox and KlookCodeBox. 719 words.
