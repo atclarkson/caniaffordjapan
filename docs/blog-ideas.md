@@ -157,3 +157,16 @@ delete it.
   verified MariCar-to-Street-Kart rebrand history after Nintendo's
   lawsuit. Real Klook listing (activity 15628), full AffiliateBox and
   KlookCodeBox. 735 words.
+- **Pokémon Center Tokyo DX and Sanrioworld Ginza.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing
+  after both priority sources were exhausted again, via fresh AL_Vault
+  exploration into Chuo ward. Published 2026-09-25 as
+  `pokemon-center-tokyo-dx-sanrio-ginza-cost`, real photos from three
+  separate visits (Pokémon Center Oct 2023, Sanrio June 2024 and Sept
+  2025), the first post set in Chuo. Both locations are free to enter,
+  so the post leans honest about that rather than inventing
+  merchandise prices; the real bookable cost is the Pokémon Cafe
+  reservation next door, with real current menu prices (souffle
+  pancake 2,090 yen, curry 1,598 yen). Real Klook listing for the cafe
+  reservation (activity 216315), full AffiliateBox and KlookCodeBox.
+  742 words.
