@@ -223,3 +223,16 @@ delete it.
   product exists for this topic (it's retail tax mechanics, not an
   activity), so no AffiliateBox, consistent with the site's own rule
   not to force one in. 827 words.
+- **Tokyo Metro Museum (Chikahaku), Edogawa.** Not from this backlog,
+  found while looking for material for the 08:00 UTC firing after both
+  priority sources were exhausted again, via fresh AL_Vault exploration
+  into Edogawa ward. Published 2026-09-26 as
+  `tokyo-metro-museum-edogawa-chikahaku-cost`, real photos from a
+  November 2023 visit, the first post set in Edogawa. Real current
+  pricing (220 yen adult, 100 yen child), Car 1001 (Japan's first
+  subway car, 1927, an Important Cultural Property), the driving
+  simulators, the Metro Panorama diorama, and an honest cost comparison
+  against Saitama's much pricier Railway Museum (1,600 yen). No direct
+  Klook listing exists for the museum itself, so the AffiliateBox links
+  the genuinely relevant Tokyo Subway Ticket (unlimited rides) instead,
+  full AffiliateBox and KlookCodeBox. 763 words.
