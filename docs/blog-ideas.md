@@ -251,5 +251,21 @@ delete it.
   separate 900 yen Tempozan Ferris Wheel, said plainly that we watched
   it from below rather than riding it. Real Klook listing (activity
   598), full AffiliateBox and KlookCodeBox. 726 words. This same April
-  2026 trip also has unused USJ, Osaka waterfront, and Tennoji Zoo
-  revisit photos left to mine for future posts.
+  2026 trip also has unused Osaka waterfront and Tennoji Zoo revisit
+  photos left to mine for future posts.
+- **USJ Express Pass, is it worth it.** Not from this backlog, found
+  while looking for material for the 20:00 UTC firing, drawing on the
+  same previously unexplored April 2026 Osaka trip's USJ photos (the
+  family's fourth USJ visit). Published 2026-09-26 as
+  `usj-express-pass-worth-it-cost`, a genuinely different angle from
+  the existing `tokyo-disney-vs-usj-ticket-price-klook-deal` post,
+  which already covers base ticket pricing; this one is entirely about
+  the Express Pass add-on. Real current pricing (Express 4: 9,500 to
+  20,000 yen, Express 7: 11,500 to 26,000 yen), honest breakeven math
+  on time saved vs cost, free alternatives (Single Rider lines,
+  Reserve and Ride, timed-entry tickets), and real Minion Park history
+  (opened 2017, Villain-Con Minion Blast added 2025). No specific past
+  purchase decision claimed since the vault has no record either way,
+  consistent with the site's rule against inventing details. Real
+  Klook listing (activity 3407), full AffiliateBox and KlookCodeBox.
+  857 words.
