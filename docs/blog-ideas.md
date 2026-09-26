@@ -236,3 +236,20 @@ delete it.
   Klook listing exists for the museum itself, so the AffiliateBox links
   the genuinely relevant Tokyo Subway Ticket (unlimited rides) instead,
   full AffiliateBox and KlookCodeBox. 763 words.
+- **Osaka Aquarium Kaiyukan and Tempozan Harbor Village.** Not from
+  this backlog, found while looking for material for the 14:00 UTC
+  firing after both priority sources were exhausted again, via fresh
+  AL_Vault exploration turning up a completely unexplored April 2026
+  Osaka trip (56 photos in that date range, all previously unused).
+  Published 2026-09-26 as
+  `osaka-aquarium-kaiyukan-tempozan-harbor-village-cost`, the first
+  Kaiyukan post on the site. Free half: the Tempozan Harbor Village
+  waterfront plaza's giant crab photo-op sculptures and the Little
+  Mermaid statue. Paid half: real current dynamic pricing (2,400 to
+  2,700 yen adult), the Pacific Ocean tank's whale sharks (Kaiyukan
+  was only the second aquarium in the world to keep them), and the
+  separate 900 yen Tempozan Ferris Wheel, said plainly that we watched
+  it from below rather than riding it. Real Klook listing (activity
+  598), full AffiliateBox and KlookCodeBox. 726 words. This same April
+  2026 trip also has unused USJ, Osaka waterfront, and Tennoji Zoo
+  revisit photos left to mine for future posts.
