@@ -204,3 +204,22 @@ delete it.
   complex at the base, and the real aviation-law reason for the
   red-and-white paint job. Real Klook listing (activity 4911), full
   AffiliateBox and KlookCodeBox. 719 words.
+- **Japan's tax-free shopping system, from a real receipt.** Not from
+  this backlog, found while looking for material for the 02:00 UTC
+  firing after both priority sources were exhausted again, via fresh
+  AL_Vault exploration into Chiba (previously checked and set aside as
+  uncaptioned; a closer look this time turned up a legible real
+  receipt photo). Published 2026-09-26 as
+  `japan-tax-free-shopping-bic-camera-receipt`, a real December 2023
+  Bic Camera receipt (Chiba Ekimae store) showing a genuine 50,998 yen
+  purchase with the consumption tax line at 0 yen, the first post set
+  in Chiba and the first post built around a receipt rather than a
+  destination. Caught a real, dated fact worth flagging proactively:
+  Japan's tax-free system changes from immediate at-register exemption
+  to a pay-first-refund-later model on November 1, 2026, a few weeks
+  after this post's publish date, so the post explains today's system
+  from the real receipt and states the coming change plainly rather
+  than only describing the current process. No genuinely bookable
+  product exists for this topic (it's retail tax mechanics, not an
+  activity), so no AffiliateBox, consistent with the site's own rule
+  not to force one in. 827 words.
