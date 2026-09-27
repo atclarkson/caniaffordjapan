@@ -269,3 +269,19 @@ delete it.
   consistent with the site's rule against inventing details. Real
   Klook listing (activity 3407), full AffiliateBox and KlookCodeBox.
   857 words.
+- **Ogimachi Sakura Festival, Osaka.** Not from this backlog, found
+  while looking for material for the 02:00 UTC firing, drawing on the
+  same extended April 2026 Osaka stay (the family was based there for
+  weeks, not just a single trip), this time the April 3-5 cherry
+  blossom festival at Ogimachi Park. Published 2026-09-27 as
+  `ogimachi-sakura-festival-osaka-cherry-blossom-cost`, the first post
+  covering this festival. Free viewing and stage performances, real
+  current pricing for the paid extras (2,000 yen beer garden, 300-700
+  yen festival kakigori, 4,400 yen sky lantern, 5,000 yen premium
+  tatami seating), and an honest comparison against Osaka's bigger,
+  more crowded sakura spots (Osaka Castle Park, Kema Sakuranomiya).
+  Real Klook listing for the premium seating package (activity
+  200945), full AffiliateBox and KlookCodeBox. 718 words. The same
+  extended Osaka stay still has unused Tennoji Zoo revisit, Dotonbori
+  night-out, Easter market, and optician-visit photos for future
+  posts.
