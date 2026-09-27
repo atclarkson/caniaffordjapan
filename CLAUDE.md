@@ -83,27 +83,86 @@ broken or duplicating a covered topic.
 
 ## Length
 
-Aim for roughly 700 to 1,100 words in the body (headers, table cells, and
-captions count), landing around a 3 to 5 minute read at a normal pace.
-That's longer than most of this site's early posts, which ran closer to a
-2 minute read, so don't stop at the first honest paragraph the way earlier
-posts sometimes did: add a section that was previously left out rather than
-padding existing sentences. Good ways to genuinely earn the extra length,
+Every post defaulting to the same 700-1,100 word band reads as one long
+post repeated 40 times, even when the topics differ. Roll for length
+before drafting instead of assuming the usual target:
+
+```
+python3 -c "import random; print(random.randint(1,6))"
+```
+
+| # | Tier | Word count | Read time |
+|---|---|---|---|
+| 1 | Quick hit | 450-600 | ~2 min |
+| 2 | Short | 600-800 | ~2-3 min |
+| 3 | Standard | 800-1,000 | ~3-4 min |
+| 4 | Long | 1,000-1,300 | ~4-5 min |
+| 5 | Deep dive | 1,300-1,600 | ~5-6 min |
+| 6 | Extended feature | 1,600-2,000 | ~6-8 min |
+
+Note the tier you rolled in the `docs/blog-ideas.md` entry for that post
+(e.g. "length tier 2") so future firings can see the actual spread rather
+than guessing at it. A tier this material can't honestly support is a
+signal to pick different material, not to pad: a single-attraction post
+with one real photo and no second cost angle belongs at tier 1 or 2, not
+stretched to tier 5. If the roll lands somewhere the real material can't
+reach without inventing detail, restating the same fact, or adding filler
+transitions, say so in the blog-ideas.md entry and land short instead.
+Good ways to genuinely earn a longer tier when the material supports it,
 not just stretch it:
 - A "how to get there" or "getting there" section with real transit
   times/fares if the post doesn't already have one.
-- A second real cost angle (what a family actually spent that day, not
-  just the one headline ticket price).
+- A second real cost angle (what a family spent that day, not just the
+  one headline ticket price).
 - More of the real story around the visit if AL_Vault has journal entries
   or extra photos that didn't make the first draft.
 - A closing "was it worth it" or practical-tips section if the post
   doesn't already end with one.
-Never hit the target by inventing a detail that isn't real, restating the
-same fact in different words, or adding filler transitions. A shorter post
-that's fully honest beats a longer one that pads.
+A shorter post that's fully honest beats a longer one that pads.
 
 ## Post format
 
+Roll for a format before drafting the title or the outline, the same way
+you now roll for length:
+
+```
+python3 -c "import random; print(random.randint(1,15))"
+```
+
+| # | Format |
+|---|---|
+| 1 | Price-first, no verb in the title: state the number directly ("Tokyo Tower: 1,500 Yen Up, Free From the Street"). Open the body with the one-line answer, no scene-setting first. |
+| 2 | Free-vs-paid split: title frames the divide up front ("What's Free at X, and What Isn't"). Body structured as two clear halves. |
+| 3 | Question title: "Is X Worth It?" / "Should You Book X?" Build to a verdict, don't give away the answer in paragraph one. |
+| 4 | Myth-correction: lead with an outdated assumption you're correcting ("The [Old Thing] Isn't There Anymore"). Only use this one when there's a real, verified correction to make, never invent a myth to knock down. |
+| 5 | Narrative-first, cost as payoff: title is a scene or moment, not a cost statement. Open with the story; the price info arrives a few paragraphs in, not the first line. |
+| 6 | Head-to-head comparison: title pits two real options against each other ("X or Y: Which One's Worth Your Yen"). Parallel sections, one per option, then a verdict. |
+| 7 | Artifact-driven: built around one real physical thing, a receipt, a ticket, a menu. Title names the artifact, not the venue ("What Our Bic Camera Receipt Shows"). |
+| 8 | Itemized breakdown: title promises a list ("Everything We Paid For at X, Line by Line"). Body is a literal walkthrough, not prose-first. |
+| 9 | Heads-up / warning framing: title flags a trap before it happens ("The One Thing That Catches People Out at X"). |
+| 10 | Budget-tier framing: cheap version vs splurge version of the same thing, side by side. |
+| 11 | Time or season anchored: title anchors to when it happened ("A Rainy Tuesday at X", "Cherry Blossom Season at X"). Open with the specific day, weather, or season, not a generic intro. |
+| 12 | Family-logistics framing: centers the practical parenting angle ("Doing X With Three Kids Under 10"). |
+| 13 | History-led: open with a real, surprising historical fact about the place, cost is the payoff in the second half. |
+| 14 | Direct address: title speaks straight to the reader's situation ("Planning a Trip to X? Here's the Real Number"). |
+| 15 | Plain declarative: flat, factual title, no hook at all ("X: Ticket Prices, Hours, and Getting There"). Let the content carry it. |
+
+Note which number you rolled in the `docs/blog-ideas.md` entry for that
+post. If the roll doesn't fit the material at all (format 4 with nothing
+to correct, format 6 with only one real option to compare), it's fine to
+reroll once and say so in that entry, but don't quietly default back to
+whichever format was used last time just because it's comfortable. Across
+a run of posts these should visibly differ from each other, not read as
+the same "what does X actually cost" template with the city name swapped.
+
+- "Actually" and "genuinely" are worn out on this site, not banned outright
+  but treat them as crutch words: cut them by default, and if a draft
+  reaches for either more than once, that's a signal to restructure the
+  sentence rather than let it stand. State the number plainly, or frame it
+  as a correction against what other guides say, instead of reaching for
+  "actually" to signal surprise. Before drafting a title, skim the last 2
+  or 3 published posts, if either word shows up in one of them, don't use
+  it in this one's title.
 - File: `src/data/posts/en/<kebab-case-slug>.mdx` if the post uses
   `<AffiliateBox>`, otherwise plain `.md` is fine.
 - Frontmatter (see `src/content.config.ts` for the exact schema):
@@ -121,9 +180,11 @@ that's fully honest beats a longer one that pads.
     highlights); set the previous featured post back to false when you
     feature a new one
   - `draft`: false to publish
-- Lead with the practical answer (is it free, what does it cost) before the
-  story. Use one H1 only (the layout renders `title`, don't repeat it as a
-  heading in the body); use `##` for sections.
+- Default to leading with the practical answer (is it free, what does it
+  cost) before the story, unless the rolled format above calls for a
+  different opening (narrative-first, history-led, and myth-correction all
+  deliberately delay it). Use one H1 only (the layout renders `title`,
+  don't repeat it as a heading in the body); use `##` for sections.
 - A markdown table works fine for a cost breakdown, the theme's prose
   styles handle it.
 - For a single photo, a plain `<figure><img src="..." alt="..." /><figcaption>...</figcaption></figure>`
