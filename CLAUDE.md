@@ -149,11 +149,26 @@ that's fully honest beats a longer one that pads.
 
 ## Topics
 
-One topic per post, chosen from `src/data/topics/en/`: `tokyo`, `osaka`,
-`free-attractions`, `budget-food`, `day-trips`, `transit`. Add a new topic
-JSON file there only if a post genuinely doesn't fit any existing one
-(fields: `name`, `description`, `accent` which must be one of `coral`,
-`reef`, or `ink`, and `order`).
+One topic per post, chosen from `src/data/topics/en/`. As of this rewrite:
+`tokyo`, `osaka`, `kyoto`, `day-trips`, `theme-parks`, `teamlab`,
+`towers-observation-decks`, `animals-wildlife`, `museums`, `shopping`,
+`free-attractions`, `unexpected-costs`, `transit`, `deals`, `budget-food`.
+
+Don't default to whichever broad geography topic (`tokyo`, `osaka`) is
+closest just because it's familiar. Pick whichever topic actually describes
+the post best, geography or theme, the same way `teamlab` and
+`towers-observation-decks` exist instead of every teamLab or tower post
+sitting under `tokyo`. If a post is about a specific attraction type
+(a zoo, a theme park, a tower, a museum, a shop) or a specific place
+outside Tokyo/Osaka that will plausibly get more posts (a city, a region),
+create a new topic JSON file rather than filing it under the nearest
+geography bucket, the same way `kyoto` exists for `nintendo-museum-uji`
+rather than folding it into `day-trips`. Only reuse `tokyo` or `osaka`
+for posts that are genuinely just "a thing in that city" with no more
+specific theme or place to attach to. Fields: `name`, `description`,
+`accent` (must be one of `coral`, `reef`, or `ink`), and `order` (pick a
+number that fits its rough position in the existing list rather than
+always appending at the end).
 
 ## Affiliate links
 
