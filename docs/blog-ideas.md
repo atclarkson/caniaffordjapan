@@ -283,5 +283,20 @@ delete it.
   Real Klook listing for the premium seating package (activity
   200945), full AffiliateBox and KlookCodeBox. 718 words. The same
   extended Osaka stay still has unused Tennoji Zoo revisit, Dotonbori
-  night-out, Easter market, and optician-visit photos for future
-  posts.
+  night-out, and Easter market photos for future posts.
+- **What an eye exam and glasses cost in Japan.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing,
+  drawing on the same extended April 2026 Osaka stay, this time a real
+  unplanned errand rather than an attraction: Lily needed an eye exam
+  and possibly new glasses while we were there. Published 2026-09-27
+  as `japan-optician-eye-exam-glasses-cost`, the first post built
+  around an unexpected/logistics cost rather than a destination or
+  attraction. Real current pricing across Japan's three big walk-in
+  optician chains (JINS 5,500-13,200 yen, Zoff three flat tiers,
+  OWNDAYS 9,800-25,300 yen), free no-appointment eye exams, same-day
+  turnaround, and a real comparison against typical uninsured US eye
+  exam and glasses costs. Deliberately did not name which specific
+  chain the photographed store was (couldn't verify the exact chain
+  from the storefront branding alone), consistent with the site's rule
+  against asserting unverified specifics. No AffiliateBox, nothing on
+  this page is genuinely bookable. 724 words.
