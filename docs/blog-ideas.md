@@ -281,9 +281,18 @@ delete it.
   tatami seating), and an honest comparison against Osaka's bigger,
   more crowded sakura spots (Osaka Castle Park, Kema Sakuranomiya).
   Real Klook listing for the premium seating package (activity
-  200945), full AffiliateBox and KlookCodeBox. 718 words. The same
-  extended Osaka stay still has unused Tennoji Zoo revisit, Dotonbori
-  night-out, and Easter market photos for future posts.
+  200945), full AffiliateBox and KlookCodeBox. 718 words. Correction
+  from an earlier note: the "Dotonbori night-out" photos from this
+  same stay turned out to already be used (in the existing
+  `dotonbori-free-night-walk-osaka` post from before this stretch),
+  not fresh material as originally logged. What's actually still
+  unused from this stay: Tennoji Zoo revisit photos (that post already
+  exists too, so this would only work as an update to it, not a new
+  post) and an Easter market visit with no identifiable venue name, too
+  thin to verify pricing for honestly. Kyoto city itself (not Uji) has
+  zero real photos in the vault, only 2 videos, so the new `kyoto`
+  topic can't get a second post from existing material until a real
+  Kyoto trip happens.
 - **What an eye exam and glasses cost in Japan.** Not from this
   backlog, found while looking for material for the 08:00 UTC firing,
   drawing on the same extended April 2026 Osaka stay, this time a real
@@ -300,3 +309,20 @@ delete it.
   from the storefront branding alone), consistent with the site's rule
   against asserting unverified specifics. No AffiliateBox, nothing on
   this page is genuinely bookable. 724 words.
+- **MOOOSH Squishy, Harajuku.** Not from this backlog, found while
+  looking for material for the 14:00 UTC firing after both priority
+  sources were exhausted and the Osaka leftovers turned out to be
+  either already used or too thin to verify (see correction above),
+  via fresh AL_Vault exploration into Shibuya's remaining unused
+  photos (otter cafe material already covered, but one uncaptioned
+  2024 photo turned out to be a real, distinct venue). Published
+  2026-09-27 as `mooosh-squishy-harajuku-cost`, the first post on
+  iBLOOM's MOOOSH Squishy store, real photos from a June 2024 visit
+  (only 1 real photo existed for this venue, used as both cover and
+  the single inline image, a thinner-than-usual photo set but the
+  venue itself checked out as real and well documented). Real current
+  pricing (mini squishies and gacha around 400 yen), the numbered-
+  ticket queue system tourists don't expect, and real iBLOOM brand
+  history. No Klook/GYG listing exists for a specialty retail shop
+  like this, so no AffiliateBox, consistent with the site's rule. 701
+  words.
