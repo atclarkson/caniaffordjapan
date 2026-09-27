@@ -326,3 +326,20 @@ delete it.
   history. No Klook/GYG listing exists for a specialty retail shop
   like this, so no AffiliateBox, consistent with the site's rule. 701
   words.
+- **Tokyo Dome stadium beer, is it worth it.** Not from this backlog,
+  found while looking for material for the 20:00 UTC firing, via fresh
+  AL_Vault exploration into Bunkyo's remaining unused photos: a second,
+  previously unexplored Yomiuri Giants game from May 2024 (different
+  date than the existing `yomiuri-giants-tokyo-dome-baseball-game-cost`
+  post), with a real photo of a vendor-poured stadium beer the earlier
+  post didn't have. First post written under the new rolled
+  format/length system in CLAUDE.md: rolled length tier 1 (quick hit,
+  450-600 words) and format 3 (question title, build to a verdict).
+  Published 2026-09-27 as `tokyo-dome-stadium-beer-price-worth-it`,
+  469 words. Real price history (800 to 1,000 yen, effective March
+  2026, per Tokyo Dome's own pricing notice) rather than just quoting
+  the 2024 price our photo was taken at, plus real vendor-commission
+  and souvenir-cup detail. Reuses the existing Yomiuri Giants Klook
+  match-ticket link (activity 22618) since it's the same real,
+  bookable product, full AffiliateBox and KlookCodeBox. Zero uses of
+  "actually" or "genuinely," per the new crutch-word guidance.
