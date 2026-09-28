@@ -394,3 +394,35 @@ delete it.
   full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
   "genuinely" in the published body (one caught and cut from a draft
   description line).
+- **Supermarket drink prices, Shibamata.** Not from this backlog, found
+  while looking for material for the 14:00 UTC firing. Both priority
+  sources (klook-priority-activities.md, blog-ideas.md backlog) were
+  exhausted (the three remaining teamLab priority items are all
+  BLOCKED on real photos, the one blog-ideas.md idea is BLOCKED too),
+  so went straight to fresh AL_Vault exploration. Checked several
+  unmined cities (Sumida, Minato, more of Osaka) before landing on
+  this one: a single real photo, previously flagged as too thin for a
+  post on its own (a June 2024 cold-drink shelf at a neighborhood
+  supermarket in Shibamata, Katsushika, with legible yen price tags:
+  99 for amazake and vegetable juice, 169-179 for smoothies, around
+  199 for juice cartons). Rolled length tier 4 (long, 1,000-1,300)
+  and format 8 (itemized breakdown) from CLAUDE.md's system; format 8
+  didn't have a clean fit on the first two real candidates checked (an
+  unidentifiable yakiniku restaurant's A5 wagyu platter, Nipponbashi,
+  no receipt or confirmable chain name; Popcorn Papa's Tempozan shop,
+  no current reliable pricing found via web search, only a stale 2013
+  figure), used the one allowed reroll, landed on 8 again, and on
+  reconsideration realized the discarded fridge photo was actually the
+  best fit for "itemized, literal walkthrough" of anything found today
+  since the real prices are printed directly on the shelf tags.
+  Published 2026-09-28 as `supermarket-drink-prices-shibamata-tokyo`,
+  1,005 words, first post under the newly created `budget-food` city
+  angle for Katsushika/Shibamata (no dedicated Shibamata content
+  existed before this). Cited real, current, sourced vending-machine
+  and convenience-store pricing (130-210 yen per 500ml bottle, per a
+  2026 news search on post-2025 price hikes) as honest comparison
+  context, and real, verified Shibamata/Taishakuten/Tora-san
+  neighborhood history via web search, both cross-checked before
+  writing rather than assumed. No AffiliateBox, a supermarket isn't a
+  bookable product. Zero uses of "actually" or "genuinely" in the
+  published body (two caught and cut from drafts).
