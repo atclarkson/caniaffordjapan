@@ -365,3 +365,32 @@ delete it.
   numbers from the existing teppanyaki post rather than re-deriving
   them. No AffiliateBox, restaurant meals aren't a Klook/GYG bookable
   product, same as the original teppanyaki post.
+- **Street Kart Asakusa (costumed go-kart tour).** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing.
+  First candidate was a single isolated convenience-store drink-fridge
+  photo (Shibamata, Katsushika, June 2024, real yen prices visible on
+  the tags) with no other photos, journal entries, or context from the
+  same stop, too thin to honestly carry the rolled tier-4 length, so
+  it was set aside rather than padded (per the CLAUDE.md instruction
+  to land short or find different material when the roll doesn't fit,
+  chose the latter here since better material existed unexplored).
+  Found instead a full, entirely unused batch of real photos from a
+  November 2023 Street Kart (formerly MariCar) costumed go-kart tour
+  through Nishi-Asakusa: Adam as Pikachu, Lindsay as My Melody, the
+  safety briefing, the kart itself, and the family watching from the
+  sidewalk since the girls are too young to hold the license the
+  activity legally requires. Rolled length tier 4 (long, 1,000-1,300
+  words) and format 15 (plain declarative title, no hook) from
+  CLAUDE.md's system. Published 2026-09-28 as
+  `street-kart-asakusa-costume-license-cost`, 1,034 words. Verified
+  current pricing directly from Street Kart's own Asakusa booking page
+  (5,000-6,000 yen for early slots, 12,000+ yen regular price, 45
+  minutes to an hour, 50,000 yen damage deductible) rather than
+  reusing the family's 2023 price memory, and confirmed the real,
+  well-documented Nintendo lawsuit history behind the MariCar-to-
+  Street-Kart rebrand (50 million yen judgment, upheld by Japan's
+  Supreme Court) via web search before including it. Real Klook
+  listing exists for this exact Asakusa location (activity 92775),
+  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (one caught and cut from a draft
+  description line).
