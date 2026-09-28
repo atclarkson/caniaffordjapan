@@ -343,3 +343,25 @@ delete it.
   match-ticket link (activity 22618) since it's the same real,
   bookable product, full AffiliateBox and KlookCodeBox. Zero uses of
   "actually" or "genuinely," per the new crutch-word guidance.
+- **Cheap family restaurant lunch vs the $300 teppanyaki splurge.** Not
+  from this backlog, found while looking for material for the 02:00
+  UTC firing, via fresh AL_Vault exploration turning up two real,
+  previously unused casual-restaurant meals from the extended April
+  2026 Osaka stay. Rolled length tier 4 (long, 1,000-1,300 words) and
+  format 10 (budget-tier framing) from CLAUDE.md's new system; format
+  10 didn't have a clean real pairing on the first roll (searched for
+  a kaiten-zushi vs high-end sushi angle, found nothing usable), used
+  the one allowed reroll, landed on 10 again, and on a second look
+  realized the real pairing was already sitting in the vault: a cheap
+  family-restaurant lunch against the site's own existing teppanyaki
+  splurge post. Published 2026-09-28 as
+  `budget-vs-splurge-dinner-osaka-family-restaurant-teppanyaki`, 1,060
+  words, the first post under the `budget-food` topic (empty until
+  now). Didn't identify the exact chain from the photo, said so
+  plainly, and cited Saizeriya's real, well-documented pricing (400
+  yen pizza, 100 yen wine, prices barely moved since 1973 per a 2026
+  Bloomberg piece) as the known example of the category rather than
+  asserting our specific meal was there. Cross-references the real
+  numbers from the existing teppanyaki post rather than re-deriving
+  them. No AffiliateBox, restaurant meals aren't a Klook/GYG bookable
+  product, same as the original teppanyaki post.
