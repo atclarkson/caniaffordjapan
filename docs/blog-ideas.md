@@ -230,3 +230,32 @@ provenance on a post published before 2026-09-27.
   real sections (a "what changes after a week in one neighborhood"
   logistics angle, and a real cost-range synthesis across both
   dinners) rather than padding existing paragraphs.
+- **Birthday at USJ with three kids.** Not from this backlog, found
+  while looking for material for the 14:00 UTC firing. Both priority
+  sources exhausted again. Checked Shibuya first (25 photos, but
+  almost entirely the otter cafe, already has its own dedicated
+  cost-and-logistics post, too thin a delta for a new one) before
+  finding this: 8 unused photos from Cora's 9th birthday at USJ,
+  April 2026, that the site's existing USJ posts (Express Pass,
+  Disney-vs-USJ ticket pricing) hadn't touched. Rolled length tier 4
+  (long, 1,000-1,300) and format 12 (family-logistics framing) from
+  CLAUDE.md's system. Published 2026-09-29 as
+  `birthday-at-universal-studios-japan-three-kids`, 1,094 words,
+  topic `en/theme-parks`. Deliberately skipped re-deriving ticket
+  pricing since the site already covers that; this one centers the
+  practical parenting angle instead: three kids with different ride
+  tolerances, splitting the birthday celebration across a home day
+  (cake, gifts) and a separate park day, and treating the Hello
+  Kitty stop as a shared win rather than a birthday-only moment so
+  the other two didn't feel sidelined. Verified USJ's real birthday
+  perks via web search before including them (free stickers on
+  request; a Club Universal Birthday Discount Ticket program, up to
+  6 tickets per birthday member, valid in the birth month or the
+  month before; a separate 4-year-old's pass with real discounted
+  pricing), explicitly didn't claim the family used any specific one
+  of these since the vault has no record either way. Reuses the
+  existing Kansai Premium Pass Klook listing (activity 168914,
+  bundles USJ admission, express pass, and a popcorn bucket) from
+  the Disney-vs-USJ post since it's the same real, bookable product,
+  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (3 caught and cut from a draft).
