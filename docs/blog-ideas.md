@@ -173,3 +173,30 @@ provenance on a post published before 2026-09-27.
   entries (2026-09-11 through the MOOOSH Squishy post) got moved to
   the new `docs/blog-ideas-archive.md`, nothing deleted, just
   relocated to stay under the cap.
+- **Izakaya yakitori night vs A5 wagyu yakiniku, Osaka.** Not from
+  this backlog, found while looking for material for the 02:00 UTC
+  firing. Both priority sources exhausted again (same three BLOCKED
+  teamLab items, same BLOCKED sumo idea). Checked Ota (Haneda-area
+  playground photos, too thin and overlaps the existing free-
+  playgrounds post) and Narita (all airport arrival/departure photos,
+  no real attraction content) first, both dead ends, before going back
+  into Osaka's still-large unused pool. Rolled length tier 4 (long,
+  1,000-1,300 words) and format 10 (budget-tier framing) again from
+  CLAUDE.md's system, same format as the family-restaurant-vs-
+  teppanyaki post, but a genuinely different real pairing this time:
+  two casual izakaya/yakitori nights (June 2023 and March 2026, one
+  with the Watsons) against a separate A5 wagyu yakiniku dinner
+  (February 2026, Nipponbashi), none of these five photos used
+  before. Published 2026-09-29 as
+  `izakaya-yakitori-vs-a5-wagyu-yakiniku-osaka`, 1,067 words. Real
+  current pricing researched via web search rather than guessed:
+  yakitori 100-300 yen a skewer, Torikizoku's flat 390 yen menu as a
+  chain example, izakaya draft beer 500-800 yen, and Osaka's real
+  three-tier yakiniku market (under 5,000 yen all-you-can-eat,
+  ~10,000 yen mid-range, 10,000-20,000+ yen high-end A5). Didn't
+  claim an exact total for the wagyu dinner since there's no receipt,
+  said so plainly and gave the real per-person range instead. No
+  AffiliateBox, restaurant meals aren't Klook/GYG bookable, same as
+  every other real-meal post on the site. Zero uses of "actually" or
+  "genuinely" in the published body (two caught and cut from a
+  draft).
