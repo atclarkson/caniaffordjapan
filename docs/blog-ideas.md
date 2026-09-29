@@ -259,3 +259,29 @@ provenance on a post published before 2026-09-27.
   the Disney-vs-USJ post since it's the same real, bookable product,
   full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
   "genuinely" in the published body (3 caught and cut from a draft).
+- **Tokyo Station's Marunouchi dome ceilings, free.** Not from this
+  backlog, found while looking for material for the 20:00 UTC firing.
+  Both priority sources exhausted again. Rolled length tier 2 (short,
+  600-800 words) and format 14 (direct address) from CLAUDE.md's
+  system. Checked Chiyoda (only 5 photos total) almost as an
+  afterthought and found 4 real unused November 2023 photos of the
+  Marunouchi side of Tokyo Station, including a straight-up shot of
+  one of the restored dome ceilings, never covered on the site
+  before. Published 2026-09-29 as
+  `tokyo-station-marunouchi-dome-ceilings-free`, 697 words, topic
+  `en/free-attractions`. Verified real history via web search before
+  writing: 1914 opening, Kingo Tatsuno, the 1945 air raid that
+  destroyed the original domes, the October 2012 restoration that
+  rebuilt them, and confirmed the domes are freely viewable in the
+  public concourse (no ticket needed) as distinct from the paid
+  Tokyo Station Gallery in the same building (1,600 yen adult).
+  Caught and flagged a popular but disputed claim rather than
+  repeating it as fact: guidebooks often say Tatsuno modeled the
+  station on Amsterdam Centraal, but Tatsuno himself denied this and
+  architectural historians dispute it, said so plainly instead of
+  passing along the neat-sounding version, consistent with the
+  site's pattern of catching outdated or shaky claims (Ueno pandas,
+  Shinjuku Godzilla). No AffiliateBox, nothing on the page is a
+  bookable product (the free domes aren't a ticket, and no Klook/GYG
+  listing exists for the station itself). Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from a draft).
