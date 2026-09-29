@@ -200,3 +200,33 @@ provenance on a post published before 2026-09-27.
   every other real-meal post on the site. Zero uses of "actually" or
   "genuinely" in the published body (two caught and cut from a
   draft).
+- **Ten days in Asakusa, September 2025.** Not from this backlog,
+  found while looking for material for the 08:00 UTC firing. Both
+  priority sources exhausted again. Rolled length tier 6 (extended
+  feature, 1,600-2,000 words, second time this tier has come up) and
+  format 11 (time/season anchored) from CLAUDE.md's system. Checked a
+  thin Easter-market lead first (2 photos, no identifiable venue,
+  already flagged too thin in an earlier entry) and the leftover Uji
+  photos (all from the same visit the existing Nintendo Museum post
+  already covers), both dead ends, before finding a rich unused
+  cluster: 19 real photos from an extended ten-day September 2025
+  Asakusa stay, only some of which the site's original Senso-ji post
+  (migrated from before this routine existed) already drew from.
+  Deliberately built this post around the OTHER nights from that same
+  stay rather than re-covering the temple visit: a first-night
+  yakitori dinner, a pink-frog-mascot detour, two separate quiet-
+  side-street Skytree views, a closer look at the grill-it-yourself
+  wagyu night the Senso-ji post only mentioned in passing, and a real
+  subscriber-recognizes-us-on-the-street moment. Published
+  2026-09-29 as `ten-days-in-asakusa-september-2025`, 1,647 words,
+  topic `en/tokyo`. Cross-referenced the site's own existing posts
+  honestly rather than re-deriving numbers: the Senso-ji post's
+  Torikizoku pricing, and yesterday's Osaka izakaya-vs-wagyu post's
+  A5 yakiniku price range, applied to this different grill-yourself
+  format. No AffiliateBox, this is a neighborhood/lifestyle piece,
+  nothing on the page is a single bookable product. First draft ran
+  to 985 words with 2 uses of "actually"/"genuinely"; fixed the
+  crutch words and earned the rest of tier 6 honestly with two new
+  real sections (a "what changes after a week in one neighborhood"
+  logistics angle, and a real cost-range synthesis across both
+  dinners) rather than padding existing paragraphs.
