@@ -311,3 +311,29 @@ provenance on a post published before 2026-09-27.
   natural next real, bookable step after this walk, full
   AffiliateBox and KlookCodeBox. Zero uses of "actually" or
   "genuinely" in the published body (2 caught and cut from a draft).
+- **Kids' haircut, real cost mid-trip.** Not from this backlog, found
+  while looking for material for the 08:00 UTC firing. Both priority
+  sources exhausted again. Rolled length tier 5 (deep dive,
+  1,300-1,600) and format 14 (direct address) from CLAUDE.md's
+  system. Found while re-checking Katsushika's still-large unused
+  pool (37 total photos, most already mined across three earlier
+  posts): a genuinely unused angle, a July 2024 kids' haircut stop at
+  a regular neighborhood salon, 5 real photos, never touched before.
+  Published 2026-09-30 as `kids-haircut-cost-japan-mid-trip`, 1,302
+  words, topic `en/unexpected-costs` (pairs with the existing eye-
+  exam post, both real "life admin abroad" errands rather than
+  attractions). Real current pricing researched via web search:
+  Japan kids' cuts 2,500-4,400 yen (age-tiered, some after-3pm
+  discounts), adult neighborhood salons 4,000-7,000 yen, QB House's
+  1,350 yen/10-minute no-reservation cut as the real budget option,
+  and honest US comparison ($15-40 typical) showing no real savings
+  story either way. Confirmed and included the real no-tipping norm
+  at Japanese salons. Named CHOKKIN'S as the well-known category
+  example of a dedicated kids' salon chain without claiming our
+  photos were taken there (no branding visible in any of the 5
+  photos, consistent with the site's rule against asserting
+  unverified specifics). No AffiliateBox, nothing on the page is
+  Klook/GYG bookable, same as the eye-exam post. Zero uses of
+  "actually" or "genuinely" in the published body (4 caught and cut
+  from a draft, first pass ran short at 744 words and was expanded
+  honestly with new real sections, not padding).
