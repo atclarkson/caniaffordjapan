@@ -285,3 +285,29 @@ provenance on a post published before 2026-09-27.
   bookable product (the free domes aren't a ticket, and no Klook/GYG
   listing exists for the station itself). Zero uses of "actually" or
   "genuinely" in the published body (2 caught and cut from a draft).
+- **Universal CityWalk Osaka with three kids.** Not from this
+  backlog, found while looking for material for the 02:00 UTC firing
+  (2026-09-30). Both priority sources exhausted again. Checked Tajiri
+  (2 photos, both airport transit, not a real attraction) before
+  finding this: 3 unused photos from an April 2026 rainy evening at
+  Universal CityWalk Osaka, the free shopping strip between Universal
+  City Station and the USJ gates, sitting right alongside the same
+  trip's Kaiyukan and USJ material without overlapping either.
+  Rolled length tier 3 (standard, 800-1,000) and format 12 (family-
+  logistics framing) again from CLAUDE.md's system, same format as
+  yesterday's USJ birthday post but a completely different real
+  angle and location. Published 2026-09-30 as
+  `universal-citywalk-osaka-three-kids`, 866 words, topic
+  `en/theme-parks`. Confirmed via web search that Bubba Gump Shrimp
+  Co.'s real Osaka location is the 5th floor of CityWalk (not
+  Dotonbori, an earlier guess that turned out wrong once the photo
+  metadata and a location search were cross-checked), cited real
+  current menu pricing (1,780 to 4,520 yen) from the chain's own
+  site. Deliberately did not name the restaurant behind the giant
+  tuna sculpture since it couldn't be confirmed with confidence,
+  consistent with the site's rule against asserting unverified
+  specifics. Reuses the same Kansai Premium Pass Klook listing
+  (activity 168914) as yesterday's post since USJ admission is the
+  natural next real, bookable step after this walk, full
+  AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from a draft).
