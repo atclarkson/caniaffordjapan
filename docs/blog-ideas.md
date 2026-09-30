@@ -337,3 +337,30 @@ provenance on a post published before 2026-09-27.
   "actually" or "genuinely" in the published body (4 caught and cut
   from a draft, first pass ran short at 744 words and was expanded
   honestly with new real sections, not padding).
+- **Cheap plush haul vs official Sanrio plush.** Not from this
+  backlog, found while looking for material for the 14:00 UTC firing.
+  Both priority sources exhausted again. Rolled length tier 3
+  (standard, 800-1,000) and format 9 (heads-up/warning framing) at
+  first, but nothing in the remaining unmined material (scattered
+  Katsushika singles, mostly private home-life photos: a kid's
+  birthday party, kids' artwork) fit a real trap/warning story, used
+  the one allowed reroll and landed on format 10 (budget-tier) again.
+  Found a real unused Shinsaibashisuji plush-shop photo (March 2026,
+  Osaka) and paired it with a legitimate reuse of an existing Sanrio/
+  Ginza plush photo from the Pokemon Center post for the splurge
+  side. Published 2026-09-30 as
+  `cheap-plush-vs-official-sanrio-plush-japan`, 862 words, topic
+  `en/shopping`. No receipt for the budget-side purchase, said so
+  plainly rather than inventing a number, initially misidentified the
+  specific shop as "Moffmo" from an address match, caught via a
+  follow-up search that Moffmo is reported permanently closed as of
+  March 2025 (before our March 2026 photo), so backed off to
+  describing it generically as an unbranded specialty shop rather
+  than asserting a shop name that couldn't actually be confirmed
+  still open. Real current tiered pricing for the splurge side
+  sourced directly from Sanrio's own Japan shop (Standard S ~1,350
+  yen through 3L ~13,400 yen). Cross-referenced the site's own
+  tax-free shopping post rather than re-deriving that system. No
+  AffiliateBox, nothing on the page is Klook/GYG bookable. Zero uses
+  of "actually" or "genuinely" in the published body (1 caught and
+  cut from a draft).
