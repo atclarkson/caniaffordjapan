@@ -303,3 +303,43 @@ need provenance on a post published before 2026-09-30.
   body (2 caught and cut from drafts, first pass ran short at 769
   words and was expanded honestly with a family-logistics paragraph
   and a real "Getting there" section rather than padding).
+- **Halloween costumes, Mario/Luigi/Peach, and what Halloween in
+  Japan actually is.** Not from this backlog, found while looking for
+  material for the 14:00 UTC firing. Both priority sources exhausted
+  again (same three BLOCKED teamLab items, same BLOCKED Ginza sumo
+  idea). Rolled length tier 5 (deep dive, 1,300-1,600 words) and
+  format 10 (budget-tier framing) at first; format 10 had no clean
+  cheap-vs-splurge pairing in the freshly found material (a single
+  free neighborhood playground, Iriya Minami Park in Taito, with no
+  paired paid attraction to contrast it against, and the site already
+  has a dedicated free-playgrounds post), used the one allowed reroll
+  and landed on format 12 (family-logistics framing). Found 17
+  previously unused photos from the same Halloween 2023 Ueno Park day
+  the site's `ueno-zoo-shinobazu-pond-boats-tokyo-cost` post already
+  covers for pricing, including three completely fresh angles that
+  post didn't touch: individual Mario, Luigi, and Peach costume
+  photos, the second (yellow) swan boat, and a shot of all three girls
+  together in costume at the zoo. Published 2026-10-01 as
+  `halloween-costumes-cost-tokyo-ueno-zoo-shinobazu`, 1,300 words,
+  first post under the newly created `unexpected-costs`-adjacent
+  Halloween angle, topic `en/unexpected-costs`. Deliberately
+  cross-referenced the existing post's real zoo/boat pricing rather
+  than re-deriving it, and centered new material instead: real,
+  sourced history of Halloween in Japan (expat-only through the
+  1980s, grew via Tokyo Disney/USJ parades in the late 1990s, Shibuya
+  street gathering first recorded 2011, no door-to-door trick-or-
+  treating tradition), real current Don Quijote (1,500-5,000 yen
+  costume sets) and Village Vanguard (2,000-8,000 yen) pricing without
+  claiming either store was where these specific costumes came from
+  (no receipt), a genuinely current and newsworthy detail (Shibuya's
+  2026 Halloween discouraged by the ward after a permanent nighttime
+  drinking ban), and a second real cost angle contrasting Tokyo
+  Disney's Halloween season (included in admission, but peak-date
+  variable pricing up to 12,400 yen, a real cross-reference to this
+  same day's earlier Beast's Castle post). No AffiliateBox, costume
+  shopping and the already-ticketed zoo/boats aren't a new bookable
+  product for this specific post. Zero uses of "actually" or
+  "genuinely" in the published body (3 caught and cut from drafts,
+  first pass ran short at 796 words and was expanded honestly with a
+  Shibuya-2026 section, a packing-vs-buying logistics section, and the
+  Tokyo Disney cost contrast, rather than padding).
