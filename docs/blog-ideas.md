@@ -275,3 +275,31 @@ need provenance on a post published before 2026-09-30.
   first pass ran short at 873 words and was expanded honestly with two
   new real sections, a ride-story walkthrough and a two-castles/family-
   logistics angle, rather than padding existing paragraphs).
+- **Nihon Minkaen, free activities vs the paid extras.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing.
+  Both priority sources exhausted again (same three BLOCKED teamLab
+  items, same BLOCKED Ginza sumo idea). Rolled length tier 4 (long,
+  1,000-1,300 words) and format 2 (free-vs-paid split) from CLAUDE.md's
+  system. Checked Chiba (5 unused but unidentifiable street photos,
+  too thin) and Ota (Haneda departure shots plus 4 previously-flagged-
+  too-thin Heiwanomorikoen park photos) before going back to
+  Kawasaki's Nihon Minkaen cluster, which already has a dedicated
+  admission-price post from 2026-09-19 but turned out to have a deep
+  unused pool (17 of its 21 photos) showing the grounds' free hands-on
+  activities (a shoulder yoke, ring toss, straw costumes) that the
+  original post only mentioned in passing. Published 2026-10-01 as
+  `nihon-minkaen-free-activities-vs-paid-extras-kawasaki`, 1,016
+  words, topic `en/museums`, deliberately a different angle and a
+  different slug from the existing post per the site's own
+  cross-post rule. Verified real current pricing via web search before
+  writing: the indigo dyeing workshop's per-item rates (1,320 to 3,850
+  yen for pre-made items, a separate per-gram rate for bringing your
+  own fabric), and Sobadokoro Shirakawa-go's real soba menu (600 to
+  800 yen), plus the genuinely useful detail that the restaurant has
+  its own entrance and doesn't require museum admission at all. No
+  AffiliateBox, same as the original post, a municipal museum's
+  hands-on grounds and an a-la-carte restaurant aren't Klook/GYG
+  bookable. Zero uses of "actually" or "genuinely" in the published
+  body (2 caught and cut from drafts, first pass ran short at 769
+  words and was expanded honestly with a family-logistics paragraph
+  and a real "Getting there" section rather than padding).
