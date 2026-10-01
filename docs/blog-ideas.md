@@ -343,3 +343,32 @@ need provenance on a post published before 2026-09-30.
   first pass ran short at 796 words and was expanded honestly with a
   Shibuya-2026 section, a packing-vs-buying logistics section, and the
   Tokyo Disney cost contrast, rather than padding).
+- **A British pub above the Abeno shopping complex, Osaka.** Not from
+  this backlog, found while looking for material for the 20:00 UTC
+  firing. Both priority sources exhausted again (same three BLOCKED
+  teamLab items, same BLOCKED Ginza sumo idea). Rolled length tier 2
+  (short, 600-800 words) and format 5 (narrative-first, cost as
+  payoff) from CLAUDE.md's system. Checked a thin single-photo rainy-
+  night-walk lead (2026-04-15, Osaka) first, too thin on its own, then
+  found this: 3 unused photos from an April 8 2026 evening, the same
+  day the site's existing eye-exam post already draws its Lily's-
+  optician photos from, but a genuinely untouched later part of that
+  same day, an English-style pub found by chance on an upper floor of
+  the Abeno shopping complex. Published 2026-10-01 as
+  `pub-above-abeno-shopping-complex-osaka-cost`, 638 words, topic
+  `en/osaka`. No receipt for the pub stop, said so plainly rather than
+  inventing a total, and instead researched the real, well-documented
+  HUB pub chain as the known category example (pints 900-1,100 yen,
+  daily 5-7pm happy hour at 950 yen with a free food dish) without
+  claiming our specific pub was HUB, consistent with the site's rule
+  against asserting unverified specifics. Added real verified detail
+  on Abeno Harukas itself, the 300-meter tower the shopping complex
+  sits inside, Japan's tallest building from 2014 until Azabudai
+  Hills' Mori JP Tower passed it in 2023, a genuine cross-reference to
+  this same day's earlier Beast's Castle post which also covers
+  Azabudai Hills. No AffiliateBox, pub dining isn't Klook/GYG
+  bookable, same as every other real-meal post on the site. Zero uses
+  of "actually" or "genuinely" in the published body (2 caught and cut
+  from drafts, first pass ran short at 436 words and was expanded
+  honestly with the Abeno Harukas history section and a longer close
+  rather than padding).
