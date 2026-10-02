@@ -349,3 +349,34 @@ need provenance on a post published before 2026-09-30.
   expanded honestly with a "more than just food" section on the
   market's shopping side and current crowd timing, rather than
   padding).
+- **Captain Line ferry, USJ to Kaiyukan.** Not from this backlog,
+  found while looking for material for the 20:00 UTC firing. Both
+  priority sources exhausted again (same three BLOCKED teamLab items,
+  same BLOCKED Ginza sumo idea). Rolled length tier 2 (short, 600-800
+  words) and format 2 (free-vs-paid split) from CLAUDE.md's system.
+  Checked the free side of Tempozan/Kaiyukan first (crab sculptures,
+  Little Mermaid statue) but the existing
+  `osaka-aquarium-kaiyukan-tempozan-harbor-village-cost` post already
+  covers that exact free-vs-paid split directly, too close to re-tread.
+  Found a genuinely different angle instead: 2 unused photos from the
+  same April 2026 Kaiyukan day, a ferry terminal face-cutout board and
+  a docked cruise ship, both from a stop the photo timestamps and
+  locations place squarely between an early lunch and the Kaiyukan
+  visit, exactly matching Captain Line's real Universal City Port to
+  Kaiyukan West Pier ferry route. Published 2026-10-02 as
+  `capt-line-ferry-usj-kaiyukan-osaka-cost`, 605 words, topic
+  `en/transit`. Found a real, bookable Klook listing for this exact
+  ferry (activity 131122), full AffiliateBox and KlookCodeBox, the
+  first post to cover this specific transit option rather than re-
+  deriving Kaiyukan's admission price. Verified real current fares
+  (900-1,100 yen one-way, ~1,700 yen round trip) and added a genuine
+  extra fact found during research: the Tempozan passenger cruise
+  terminal visible in the cruise-ship photo had only just reopened in
+  an expanded form in 2024, confirmed via web search rather than
+  assumed from the photo alone. No overclaiming on whether the family
+  definitely rode this specific ferry (no boarding pass photo), but
+  the chronology and exact terminal match made it an honest, well-
+  supported connection rather than a guess. Zero uses of "actually" or
+  "genuinely" in the published body (first pass ran short at 387
+  words, expanded honestly with a land-route comparison section and a
+  longer close rather than padding).
