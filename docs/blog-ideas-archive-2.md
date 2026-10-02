@@ -174,3 +174,114 @@ one past the cap.
   every other real-meal post on the site. Zero uses of "actually" or
   "genuinely" in the published body (two caught and cut from a
   draft).
+- **Ten days in Asakusa, September 2025.** Not from this backlog,
+  found while looking for material for the 08:00 UTC firing. Both
+  priority sources exhausted again. Rolled length tier 6 (extended
+  feature, 1,600-2,000 words, second time this tier has come up) and
+  format 11 (time/season anchored) from CLAUDE.md's system. Checked a
+  thin Easter-market lead first (2 photos, no identifiable venue,
+  already flagged too thin in an earlier entry) and the leftover Uji
+  photos (all from the same visit the existing Nintendo Museum post
+  already covers), both dead ends, before finding a rich unused
+  cluster: 19 real photos from an extended ten-day September 2025
+  Asakusa stay, only some of which the site's original Senso-ji post
+  (migrated from before this routine existed) already drew from.
+  Deliberately built this post around the OTHER nights from that same
+  stay rather than re-covering the temple visit: a first-night
+  yakitori dinner, a pink-frog-mascot detour, two separate quiet-
+  side-street Skytree views, a closer look at the grill-it-yourself
+  wagyu night the Senso-ji post only mentioned in passing, and a real
+  subscriber-recognizes-us-on-the-street moment. Published
+  2026-09-29 as `ten-days-in-asakusa-september-2025`, 1,647 words,
+  topic `en/tokyo`. Cross-referenced the site's own existing posts
+  honestly rather than re-deriving numbers: the Senso-ji post's
+  Torikizoku pricing, and yesterday's Osaka izakaya-vs-wagyu post's
+  A5 yakiniku price range, applied to this different grill-yourself
+  format. No AffiliateBox, this is a neighborhood/lifestyle piece,
+  nothing on the page is a single bookable product. First draft ran
+  to 985 words with 2 uses of "actually"/"genuinely"; fixed the
+  crutch words and earned the rest of tier 6 honestly with two new
+  real sections (a "what changes after a week in one neighborhood"
+  logistics angle, and a real cost-range synthesis across both
+  dinners) rather than padding existing paragraphs.
+- **Birthday at USJ with three kids.** Not from this backlog, found
+  while looking for material for the 14:00 UTC firing. Both priority
+  sources exhausted again. Checked Shibuya first (25 photos, but
+  almost entirely the otter cafe, already has its own dedicated
+  cost-and-logistics post, too thin a delta for a new one) before
+  finding this: 8 unused photos from Cora's 9th birthday at USJ,
+  April 2026, that the site's existing USJ posts (Express Pass,
+  Disney-vs-USJ ticket pricing) hadn't touched. Rolled length tier 4
+  (long, 1,000-1,300) and format 12 (family-logistics framing) from
+  CLAUDE.md's system. Published 2026-09-29 as
+  `birthday-at-universal-studios-japan-three-kids`, 1,094 words,
+  topic `en/theme-parks`. Deliberately skipped re-deriving ticket
+  pricing since the site already covers that; this one centers the
+  practical parenting angle instead: three kids with different ride
+  tolerances, splitting the birthday celebration across a home day
+  (cake, gifts) and a separate park day, and treating the Hello
+  Kitty stop as a shared win rather than a birthday-only moment so
+  the other two didn't feel sidelined. Verified USJ's real birthday
+  perks via web search before including them (free stickers on
+  request; a Club Universal Birthday Discount Ticket program, up to
+  6 tickets per birthday member, valid in the birth month or the
+  month before; a separate 4-year-old's pass with real discounted
+  pricing), explicitly didn't claim the family used any specific one
+  of these since the vault has no record either way. Reuses the
+  existing Kansai Premium Pass Klook listing (activity 168914,
+  bundles USJ admission, express pass, and a popcorn bucket) from
+  the Disney-vs-USJ post since it's the same real, bookable product,
+  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (3 caught and cut from a draft).
+- **Tokyo Station's Marunouchi dome ceilings, free.** Not from this
+  backlog, found while looking for material for the 20:00 UTC firing.
+  Both priority sources exhausted again. Rolled length tier 2 (short,
+  600-800 words) and format 14 (direct address) from CLAUDE.md's
+  system. Checked Chiyoda (only 5 photos total) almost as an
+  afterthought and found 4 real unused November 2023 photos of the
+  Marunouchi side of Tokyo Station, including a straight-up shot of
+  one of the restored dome ceilings, never covered on the site
+  before. Published 2026-09-29 as
+  `tokyo-station-marunouchi-dome-ceilings-free`, 697 words, topic
+  `en/free-attractions`. Verified real history via web search before
+  writing: 1914 opening, Kingo Tatsuno, the 1945 air raid that
+  destroyed the original domes, the October 2012 restoration that
+  rebuilt them, and confirmed the domes are freely viewable in the
+  public concourse (no ticket needed) as distinct from the paid
+  Tokyo Station Gallery in the same building (1,600 yen adult).
+  Caught and flagged a popular but disputed claim rather than
+  repeating it as fact: guidebooks often say Tatsuno modeled the
+  station on Amsterdam Centraal, but Tatsuno himself denied this and
+  architectural historians dispute it, said so plainly instead of
+  passing along the neat-sounding version, consistent with the
+  site's pattern of catching outdated or shaky claims (Ueno pandas,
+  Shinjuku Godzilla). No AffiliateBox, nothing on the page is a
+  bookable product (the free domes aren't a ticket, and no Klook/GYG
+  listing exists for the station itself). Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from a draft).
+- **Universal CityWalk Osaka with three kids.** Not from this
+  backlog, found while looking for material for the 02:00 UTC firing
+  (2026-09-30). Both priority sources exhausted again. Checked Tajiri
+  (2 photos, both airport transit, not a real attraction) before
+  finding this: 3 unused photos from an April 2026 rainy evening at
+  Universal CityWalk Osaka, the free shopping strip between Universal
+  City Station and the USJ gates, sitting right alongside the same
+  trip's Kaiyukan and USJ material without overlapping either.
+  Rolled length tier 3 (standard, 800-1,000) and format 12 (family-
+  logistics framing) again from CLAUDE.md's system, same format as
+  yesterday's USJ birthday post but a completely different real
+  angle and location. Published 2026-09-30 as
+  `universal-citywalk-osaka-three-kids`, 866 words, topic
+  `en/theme-parks`. Confirmed via web search that Bubba Gump Shrimp
+  Co.'s real Osaka location is the 5th floor of CityWalk (not
+  Dotonbori, an earlier guess that turned out wrong once the photo
+  metadata and a location search were cross-checked), cited real
+  current menu pricing (1,780 to 4,520 yen) from the chain's own
+  site. Deliberately did not name the restaurant behind the giant
+  tuna sculpture since it couldn't be confirmed with confidence,
+  consistent with the site's rule against asserting unverified
+  specifics. Reuses the same Kansai Premium Pass Klook listing
+  (activity 168914) as yesterday's post since USJ admission is the
+  natural next real, bookable step after this walk, full
+  AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from a draft).
