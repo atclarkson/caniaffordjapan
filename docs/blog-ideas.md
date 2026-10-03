@@ -357,3 +357,31 @@ need provenance on a post published before 2026-09-30.
   pass ran short at 294 words and was expanded honestly with a real
   redemption-window mechanics section and a longer verdict rather
   than padding.
+- **Cherry blossoms vs hydrangeas, two free flower seasons.** 14:00 UTC
+  firing. Both priority sources exhausted again. Checked smaller
+  unused pools (Chiyoda, Matsudo, Narashino leftovers) before finding
+  two previously-unused real hydrangea photos from a Shibamata,
+  Katsushika street, June 14 2024 (uuids 2d02296f and 25255c44).
+  Rolled length tier 4 (1,000-1,300 words) and format 6 (head-to-head)
+  from CLAUDE.md's system, no reroll needed. Paired the new hydrangea
+  material against the existing Ogimachi Sakura Festival post rather
+  than re-deriving its numbers, cross-referencing the festival's real
+  free-park/paid-extras split (beer garden 2,000 yen, sky lanterns
+  4,400 yen, activity 200945) honestly instead of redoing that
+  research. Added real hanami history (Nara-period plum-blossom
+  origin, Emperor Saga's 812 CE garden party, Tokugawa-era public
+  planting in 1600s Edo) and real ajisai history (Man'yōshū 8th
+  century mention, soil-acidity color shift, wabi-sabi symbolism) to
+  give both sides equal depth. Flagged Tokyo's Bunkyo Hydrangea
+  Festival and Kamakura's Meigetsu-in (2,500 bushes, 500 yen plus 500
+  yen inner sanctuary) as real paid alternatives to our own unplanned
+  street find, explicitly not field tested. Published 2026-10-03 as
+  `cherry-blossoms-vs-hydrangeas-free-flower-seasons-japan`, 1,008
+  words, topic `en/free-attractions`. One "genuinely" caught and cut
+  from a draft paragraph (changed to "real"), zero uses of "actually"
+  or "genuinely" in the published body. First pass ran short at 640
+  words and was expanded honestly in three stages (hanami history,
+  family-logistics contrast, Meigetsu-in paid-alternative detail)
+  rather than padding. Full AffiliateBox and KlookCodeBox reused from
+  the existing Ogimachi post (activity 200945), no new Klook research
+  needed since the activity was already verified there.
