@@ -329,3 +329,31 @@ need provenance on a post published before 2026-09-30.
   caught and cut from a draft, first pass ran short at 584 words and
   was expanded honestly with a transit section and a real Hideyoshi/
   Billiken contrast section rather than padding).
+- **Klook Pass Tokyo vs Kansai, a direct comparison.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing.
+  Both priority sources exhausted again (same three BLOCKED teamLab
+  items, same BLOCKED Ginza sumo idea). Rolled length tier 1 (quick
+  hit, 450-600 words) and format 6 (head-to-head) from CLAUDE.md's
+  system. Checked several smaller unused pools first (an owl-cafe
+  text search, Hakone's remaining 4 photos, Tokyo city-level tags)
+  before realizing the site already had two separate, fully
+  researched Klook Pass posts (Greater Tokyo, Kansai) that had never
+  been directly compared to each other, a legitimate head-to-head
+  without needing new unused photos, reusing two already-published
+  real photos (the Skytree cherry-blossom family shot, a USJ coaster
+  shot) rather than re-shooting ground already covered. Published
+  2026-10-03 as `klook-pass-tokyo-vs-kansai-which-saves-more`, 460
+  words, topic `en/deals`. Cross-referenced both existing posts'
+  real numbers honestly rather than re-deriving them (Tokyo's 2-7
+  attraction tiers and 90 day redemption window vs Kansai's 3-8
+  tiers and tighter 30 day window, Kansai's standard-tier modest real
+  edge vs Tokyo's rough break-even, and the shared pattern that an
+  expensive premium attraction, Disney/Warner Bros. for Tokyo, USJ
+  for Kansai, is what actually makes either pass pay off). Full
+  AffiliateBox for both passes (activity 74574, activity 91434) and
+  one KlookCodeBox, consistent with the site's practice of including
+  the code once per post regardless of how many Klook links appear.
+  Zero uses of "actually" or "genuinely" in the published body, first
+  pass ran short at 294 words and was expanded honestly with a real
+  redemption-window mechanics section and a longer verdict rather
+  than padding.
