@@ -39,91 +39,6 @@ need provenance on a post published before 2026-09-30.
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Kids' haircut, real cost mid-trip.** Not from this backlog, found
-  while looking for material for the 08:00 UTC firing. Both priority
-  sources exhausted again. Rolled length tier 5 (deep dive,
-  1,300-1,600) and format 14 (direct address) from CLAUDE.md's
-  system. Found while re-checking Katsushika's still-large unused
-  pool (37 total photos, most already mined across three earlier
-  posts): a genuinely unused angle, a July 2024 kids' haircut stop at
-  a regular neighborhood salon, 5 real photos, never touched before.
-  Published 2026-09-30 as `kids-haircut-cost-japan-mid-trip`, 1,302
-  words, topic `en/unexpected-costs` (pairs with the existing eye-
-  exam post, both real "life admin abroad" errands rather than
-  attractions). Real current pricing researched via web search:
-  Japan kids' cuts 2,500-4,400 yen (age-tiered, some after-3pm
-  discounts), adult neighborhood salons 4,000-7,000 yen, QB House's
-  1,350 yen/10-minute no-reservation cut as the real budget option,
-  and honest US comparison ($15-40 typical) showing no real savings
-  story either way. Confirmed and included the real no-tipping norm
-  at Japanese salons. Named CHOKKIN'S as the well-known category
-  example of a dedicated kids' salon chain without claiming our
-  photos were taken there (no branding visible in any of the 5
-  photos, consistent with the site's rule against asserting
-  unverified specifics). No AffiliateBox, nothing on the page is
-  Klook/GYG bookable, same as the eye-exam post. Zero uses of
-  "actually" or "genuinely" in the published body (4 caught and cut
-  from a draft, first pass ran short at 744 words and was expanded
-  honestly with new real sections, not padding).
-- **Cheap plush haul vs official Sanrio plush.** Not from this
-  backlog, found while looking for material for the 14:00 UTC firing.
-  Both priority sources exhausted again. Rolled length tier 3
-  (standard, 800-1,000) and format 9 (heads-up/warning framing) at
-  first, but nothing in the remaining unmined material (scattered
-  Katsushika singles, mostly private home-life photos: a kid's
-  birthday party, kids' artwork) fit a real trap/warning story, used
-  the one allowed reroll and landed on format 10 (budget-tier) again.
-  Found a real unused Shinsaibashisuji plush-shop photo (March 2026,
-  Osaka) and paired it with a legitimate reuse of an existing Sanrio/
-  Ginza plush photo from the Pokemon Center post for the splurge
-  side. Published 2026-09-30 as
-  `cheap-plush-vs-official-sanrio-plush-japan`, 862 words, topic
-  `en/shopping`. No receipt for the budget-side purchase, said so
-  plainly rather than inventing a number, initially misidentified the
-  specific shop as "Moffmo" from an address match, caught via a
-  follow-up search that Moffmo is reported permanently closed as of
-  March 2025 (before our March 2026 photo), so backed off to
-  describing it generically as an unbranded specialty shop rather
-  than asserting a shop name that couldn't actually be confirmed
-  still open. Real current tiered pricing for the splurge side
-  sourced directly from Sanrio's own Japan shop (Standard S ~1,350
-  yen through 3L ~13,400 yen). Cross-referenced the site's own
-  tax-free shopping post rather than re-deriving that system. No
-  AffiliateBox, nothing on the page is Klook/GYG bookable. Zero uses
-  of "actually" or "genuinely" in the published body (1 caught and
-  cut from a draft).
-- **Ueno Zoo vs Tennoji Zoo, head-to-head.** Not from this backlog,
-  found while looking for material for the 20:00 UTC firing. Both
-  priority sources exhausted again. Before starting, `docs/blog-
-  ideas.md` itself was over the house-lint cap again (366 lines);
-  split the single `blog-ideas-archive.md` into numbered
-  `blog-ideas-archive-1.md` and `-2.md` this time, since the old
-  single archive file had also grown past 400 lines from the last
-  split's overflow, and left a short stub at the old filename
-  pointing to the numbered ones so nothing links to a dead path.
-  Rolled length tier 6 (extended feature, 1,600-2,000, third time
-  this tier has come up) and format 6 (head-to-head comparison) from
-  CLAUDE.md's system. Realized both Ueno Zoo and Tennoji Zoo, each
-  with its own existing dedicated post, had large unused photo pools
-  left over (a 23-photo Halloween 2023 Ueno batch that the original
-  post only drew 3 photos from; a 17-photo Tennoji batch across
-  three 2026 visits with similar leftover depth), enough real fresh
-  material for a genuine head-to-head rather than just re-linking
-  the two existing posts. Published 2026-09-30 as
-  `ueno-zoo-vs-tennoji-zoo-osaka-tokyo`, 1,611 words, topic
-  `en/animals-wildlife`. Cross-referenced real pricing from both
-  existing posts (Ueno 600 yen, Tennoji 800 yen after a July 2026
-  increase, the annual pass break-even math) rather than re-deriving
-  it, and added real new research on top: each zoo's founding year
-  and history (Ueno 1882, Japan's first zoo; Tennoji 1915, Japan's
-  third), and real transit access for both. Verdict was honestly
-  "depends which city you're in," not a forced winner, since the two
-  zoos are in different cities and aren't really competing for the
-  same trip. Real Klook listings for both zoos already existed from
-  their individual posts (activity 136354, activity 168730), reused
-  both, full AffiliateBox and KlookCodeBox for each. Zero uses of
-  "actually" or "genuinely" in the published body (3 caught and cut
-  from drafts).
 - **Beast's Castle, Tokyo Disneyland, and its pandemic-era opening.**
   Not from this backlog, found while looking for material for the
   02:00 UTC firing. Both priority sources exhausted again (same three
@@ -380,3 +295,37 @@ need provenance on a post published before 2026-09-30.
   "genuinely" in the published body (first pass ran short at 387
   words, expanded honestly with a land-route comparison section and a
   longer close rather than padding).
+- **Osaka Castle vs Tsutenkaku, two towers never climbed.** Not from
+  this backlog, found while looking for material for the 02:00 UTC
+  firing. Before starting, this file was at 382 lines; moved the
+  three oldest "Done" entries (Kids' Haircut through Ueno vs Tennoji
+  Zoo) into `docs/blog-ideas-archive-2.md` (now at 372 lines, will
+  need its own `-3.md` split soon) rather than waiting for an actual
+  overflow. Both priority sources exhausted again (same three BLOCKED
+  teamLab items, same BLOCKED Ginza sumo idea). Rolled length tier 3
+  (standard, 800-1,000 words) and format 7 (artifact-driven) at
+  first; checked for a real physical-object centerpiece (ticket,
+  receipt, menu) across several destinations, nothing unused fit, used
+  the one allowed reroll and landed on format 6 (head-to-head). Found
+  2 real unused Osaka Castle park photos (March 2026) with no existing
+  dedicated post, and realized both Osaka Castle and the already-
+  published Tsutenkaku post share the same honest "never actually went
+  up" status, a clean real comparison rather than a forced pairing.
+  Published 2026-10-03 as `osaka-castle-vs-tsutenkaku-tower-osaka`,
+  801 words, topic `en/towers-observation-decks`. Verified real
+  history for both towers via web search: Osaka Castle's 1583 Hideyoshi
+  original, the 1931 concrete reconstruction that survived WWII air
+  raids, and real current admission (1,200 yen adult, 600 yen student);
+  cross-referenced Tsutenkaku's already-published real pricing and
+  1956 rebuild history rather than re-deriving it. Added real
+  transit detail (9.6 km apart, ~40 minutes by subway or JR Loop Line)
+  to honestly flag these aren't an easy same-day pair, unlike
+  Tsutenkaku's existing pairing with Tennoji Zoo. Verified Billiken's
+  real American 1908 origin (Florence Pretz) before including it as a
+  contrast to Hideyoshi's real history. Real Klook listings for both
+  (activity 30110 for the castle, reused activity 76766 for Tsutenkaku
+  from its own post), full AffiliateBox and KlookCodeBox for each.
+  Zero uses of "actually" or "genuinely" in the published body (1
+  caught and cut from a draft, first pass ran short at 584 words and
+  was expanded honestly with a transit section and a real Hideyoshi/
+  Billiken contrast section rather than padding).
