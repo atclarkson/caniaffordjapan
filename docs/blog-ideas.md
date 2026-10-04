@@ -357,3 +357,34 @@ need provenance on a post published before 2026-10-03 (20:00 UTC).
   sections, Tokyo Dome's construction history, the corrected Lucky 7
   tradition, the league-structure explainer, and a getting-there/
   packing section, rather than padding).
+- **Shinjuku Gyoen, the hanami spot that charges admission.** 08:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Checked Yokohama (2 unused photos, both near-duplicates of
+  the already-covered Sankeien Garden visit), Sakai (several unused
+  photos but all from the same Feb 2026 birthday dinner already
+  covered twice), Kawasaki (a Nihon Minkaen-adjacent cluster, too
+  similar to two already-published posts), and Shinjuku's own May
+  2024 cluster (an evening out with friends, no identifiable venue to
+  anchor a cost angle) before finding a single real unused photo
+  tagged Shibuya but geolocated to Shinjuku Gyoen National Garden,
+  March 19 2023, the family's first cherry blossom season in Japan.
+  Only one photo, so leaned on real research the way the Ameyoko and
+  Chausuyama posts did. Rolled length tier 3 (standard, 800-1,000
+  words) and format 5 (narrative-first, cost as payoff) from
+  CLAUDE.md's system, no reroll needed. Published 2026-10-04 as
+  `shinjuku-gyoen-cherry-blossom-garden-admission-cost`, 837 words,
+  topic `en/tokyo`. The real angle: unlike the site's existing free
+  hanami posts (Ogimachi Festival, the hydrangeas-vs-sakura
+  comparison), Shinjuku Gyoen actually charges admission (500 yen
+  adult, free under 15, 250 yen student/senior), and the real history
+  explains why: Tokugawa-era Naito family land from 1590, a 1772
+  formal garden, an Imperial-era 1906 Henri Martinet redesign into
+  three garden styles, the Imperial hanami tradition moving there in
+  1917, not opened to the public until May 1949. Verified a real
+  bookable Klook listing (activity 141988) via web search, full
+  AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from drafts,
+  first pass ran short at 590 words and was expanded honestly with a
+  garden-styles/staggered-bloom section and a getting-there section
+  rather than padding).
