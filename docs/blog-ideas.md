@@ -318,3 +318,42 @@ need provenance on a post published before 2026-10-03 (20:00 UTC).
   honestly with the Peace Island history section, a water-crossing
   packing note, and the neighborhood-playground comparison, rather
   than padding).
+- **A different Tokyo Dome game: Chunichi Dragons vs. the Giants.**
+  02:00 UTC firing (2026-10-04). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Minato (Tokyo Tower/teamLab
+  Borderless leftovers, already covered), Koto and Chiyoda (single
+  leftover photos each, too thin alone), and Shinagawa (a single 2023
+  restaurant photo) before finding a real 9-photo unused cluster in
+  Bunkyo: a May 22, 2024 evening game at Tokyo Dome, the same date
+  the site's existing `tokyo-dome-stadium-beer-price-worth-it` post
+  already draws two photos from, but a genuinely different slice of
+  the same evening. The scoreboard in one unused photo confirmed a
+  real, different detail neither existing Tokyo Dome post mentions:
+  this was a Chunichi Dragons vs. Giants game, Chunichi won 4-2.
+  Rolled length tier 6 (deep dive, 1,600-2,000 words) and format 11
+  (time/season anchored) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-04 as
+  `tokyo-dome-chunichi-dragons-giants-family-evening-game`, 1,622
+  words, topic `en/tokyo`. Deliberately didn't re-derive seat or beer
+  pricing, both already covered honestly elsewhere on the site, and
+  centered new real material instead: Chunichi Dragons franchise
+  history (founded 1936 as the Nagoya Club, settled on "Dragons" in
+  1954), a real player ID off a fan's jersey (Kento Fujishima, #54,
+  drafted 2016, still on the roster, verified via web search before
+  naming him), Tokyo Dome's own 1988 "Big Egg" construction history
+  (Japan's first domed stadium, air-supported roof), NPB's Central/
+  Pacific League structure, and the real Lucky 7 towel tradition
+  specific to Giants home games (corrected mid-draft after initial
+  research wrongly assumed a balloon release; re-verified that Tokyo
+  Dome's indoor roof means the Giants use towels, not balloons, tying
+  back honestly to the supporting-towel bundle already mentioned in
+  the site's other Giants post). Reused the existing Yomiuri Giants
+  match ticket Klook listing (activity 22618) since it covers any
+  home date regardless of opponent, full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut from drafts, first pass ran short
+  at 877 words and was expanded honestly across four new real
+  sections, Tokyo Dome's construction history, the corrected Lucky 7
+  tradition, the league-structure explainer, and a getting-there/
+  packing section, rather than padding).
