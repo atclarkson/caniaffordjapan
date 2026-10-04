@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-03 (20:00 UTC).
+need provenance on a post published before 2026-10-02.
 
 ## Ideas
 
@@ -39,65 +39,6 @@ need provenance on a post published before 2026-10-03 (20:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A British pub above the Abeno shopping complex, Osaka.** Not from
-  this backlog, found while looking for material for the 20:00 UTC
-  firing. Both priority sources exhausted again (same three BLOCKED
-  teamLab items, same BLOCKED Ginza sumo idea). Rolled length tier 2
-  (short, 600-800 words) and format 5 (narrative-first, cost as
-  payoff) from CLAUDE.md's system. Checked a thin single-photo rainy-
-  night-walk lead (2026-04-15, Osaka) first, too thin on its own, then
-  found this: 3 unused photos from an April 8 2026 evening, the same
-  day the site's existing eye-exam post already draws its Lily's-
-  optician photos from, but a genuinely untouched later part of that
-  same day, an English-style pub found by chance on an upper floor of
-  the Abeno shopping complex. Published 2026-10-01 as
-  `pub-above-abeno-shopping-complex-osaka-cost`, 638 words, topic
-  `en/osaka`. No receipt for the pub stop, said so plainly rather than
-  inventing a total, and instead researched the real, well-documented
-  HUB pub chain as the known category example (pints 900-1,100 yen,
-  daily 5-7pm happy hour at 950 yen with a free food dish) without
-  claiming our specific pub was HUB, consistent with the site's rule
-  against asserting unverified specifics. Added real verified detail
-  on Abeno Harukas itself, the 300-meter tower the shopping complex
-  sits inside, Japan's tallest building from 2014 until Azabudai
-  Hills' Mori JP Tower passed it in 2023, a genuine cross-reference to
-  this same day's earlier Beast's Castle post which also covers
-  Azabudai Hills. No AffiliateBox, pub dining isn't Klook/GYG
-  bookable, same as every other real-meal post on the site. Zero uses
-  of "actually" or "genuinely" in the published body (2 caught and cut
-  from drafts, first pass ran short at 436 words and was expanded
-  honestly with the Abeno Harukas history section and a longer close
-  rather than padding).
-- **HOKUHOKU teppan dinner, Katsushika.** Not from this backlog, found
-  while looking for material for the 02:00 UTC firing (2026-10-02).
-  Before starting, this file was at 399 lines, one short of the
-  house-lint cap; moved the four oldest "Done" entries (Ten Days in
-  Asakusa through Universal CityWalk Osaka) into
-  `docs/blog-ideas-archive-2.md`, which had room (176 lines), rather
-  than waiting for an actual overflow. Both priority sources exhausted
-  again (same three BLOCKED teamLab items, same BLOCKED Ginza sumo
-  idea). Rolled length tier 2 (short,
-  600-800 words) and format 4 (myth-correction) at first; format 4 had
-  no real, verified myth to correct in anything found (checked Sakai's
-  remaining unused teppanyaki/mall photos, Shinjuku's Nishi-Shinjuku
-  and Kabukicho leftovers, Uji's remaining Nintendo Museum photos, all
-  either too thin or already fully covered by an existing post), used
-  the one allowed reroll and landed on format 12 (family-logistics)
-  again. Found a real, identifiable neighborhood restaurant in
-  Katsushika's large remaining unused pool: a branded glass reading
-  "HOKU HOKU" led to a real, current teppan restaurant near Keisei
-  Takasago Station. Published 2026-10-02 as
-  `hokuhoku-teppan-dinner-katsushika-three-kids`, 659 words, first
-  post under topic `en/budget-food` for this specific neighborhood.
-  No receipt for the exact night, but matched a real current HOKUHOKU
-  menu item, garlic rice at 650 yen, to the exact dish photographed,
-  and cited the restaurant's other real published prices (500 to
-  1,850 yen per dish, ~3,000 yen average per person) rather than
-  guessing. No AffiliateBox, a neighborhood restaurant isn't
-  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
-  published body (2 caught and cut from a draft, first pass ran short
-  at 554 words and was expanded honestly with a "Getting there"
-  section rather than padding).
 - **Juicy gyoza coaster, Chausuyama/Tennoji, Osaka.** Not from this
   backlog, found while looking for material for the 08:00 UTC firing.
   Both priority sources exhausted again (same three BLOCKED teamLab
@@ -388,3 +329,35 @@ need provenance on a post published before 2026-10-03 (20:00 UTC).
   first pass ran short at 590 words and was expanded honestly with a
   garden-styles/staggered-bloom section and a getting-there section
   rather than padding).
+- **Harper's 5th birthday cake, a nameplate and a two-tier price.**
+  14:00 UTC firing. Before starting, this file was at 390 lines;
+  moved the two oldest "Done" entries (A British Pub Above Abeno
+  through HOKUHOKU) into `docs/blog-ideas-archive-3.md` (now at 179
+  lines) rather than waiting for an actual overflow. Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Checked Yokohama, Sakai,
+  Kawasaki, and Shinjuku clusters first (all either near-duplicates of
+  already-published posts or too thin), then found a rich 6-photo
+  unused cluster in Katsushika: Harper's 5th birthday, June 25, 2024,
+  a home party with a custom Sanrio-themed cake bearing a personalized
+  "HAPPY BIRTHDAY Harper" nameplate. Rolled length tier 5 (deep dive,
+  1,300-1,600 words) and format 7 (artifact-driven, the nameplate
+  itself as the artifact) from CLAUDE.md's system, no reroll needed,
+  the first clean format-7 fit after it failed twice earlier this
+  week. Published 2026-10-04 as
+  `harper-5th-birthday-cake-nameplate-japan-cake-cost`, 1,333 words,
+  topic `en/budget-food`. No receipt for this specific cake, said so
+  plainly, and instead researched the real two-tier cake category it
+  belongs to: Japan's basic strawberry shortcake (400-600 yen,
+  tracing to Fujiya's 1910 Yokohama founding and 1920s introduction of
+  the format) versus a custom character cake (from 4,000 yen via
+  Cake.jp's real official Sanrio Custom Cake Maker collaboration).
+  Added real Sanrio company history (founded 1960 as the Yamanashi
+  Silk Center, renamed 1973, Hello Kitty designed 1974 by Yuko
+  Shimizu) to explain the licensing cost behind the price gap. No
+  AffiliateBox, a home-ordered specialty cake isn't Klook/GYG
+  bookable. Zero uses of "actually" or "genuinely" in the published
+  body (4 caught and cut from drafts, first pass ran short at 879
+  words and was expanded honestly with the Fujiya history section,
+  the Sanrio licensing section, and a longer close, rather than
+  padding).
