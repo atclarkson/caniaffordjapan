@@ -266,3 +266,37 @@ one past the cap.
   "genuinely" in the published body (first pass ran short at 387
   words, expanded honestly with a land-route comparison section and a
   longer close rather than padding).
+- **Osaka Castle vs Tsutenkaku, two towers never climbed.** Not from
+  this backlog, found while looking for material for the 02:00 UTC
+  firing. Before starting, this file was at 382 lines; moved the
+  three oldest "Done" entries (Kids' Haircut through Ueno vs Tennoji
+  Zoo) into `docs/blog-ideas-archive-2.md` (now at 372 lines, will
+  need its own `-3.md` split soon) rather than waiting for an actual
+  overflow. Both priority sources exhausted again (same three BLOCKED
+  teamLab items, same BLOCKED Ginza sumo idea). Rolled length tier 3
+  (standard, 800-1,000 words) and format 7 (artifact-driven) at
+  first; checked for a real physical-object centerpiece (ticket,
+  receipt, menu) across several destinations, nothing unused fit, used
+  the one allowed reroll and landed on format 6 (head-to-head). Found
+  2 real unused Osaka Castle park photos (March 2026) with no existing
+  dedicated post, and realized both Osaka Castle and the already-
+  published Tsutenkaku post share the same honest "never actually went
+  up" status, a clean real comparison rather than a forced pairing.
+  Published 2026-10-03 as `osaka-castle-vs-tsutenkaku-tower-osaka`,
+  801 words, topic `en/towers-observation-decks`. Verified real
+  history for both towers via web search: Osaka Castle's 1583 Hideyoshi
+  original, the 1931 concrete reconstruction that survived WWII air
+  raids, and real current admission (1,200 yen adult, 600 yen student);
+  cross-referenced Tsutenkaku's already-published real pricing and
+  1956 rebuild history rather than re-deriving it. Added real
+  transit detail (9.6 km apart, ~40 minutes by subway or JR Loop Line)
+  to honestly flag these aren't an easy same-day pair, unlike
+  Tsutenkaku's existing pairing with Tennoji Zoo. Verified Billiken's
+  real American 1908 origin (Florence Pretz) before including it as a
+  contrast to Hideyoshi's real history. Real Klook listings for both
+  (activity 30110 for the castle, reused activity 76766 for Tsutenkaku
+  from its own post), full AffiliateBox and KlookCodeBox for each.
+  Zero uses of "actually" or "genuinely" in the published body (1
+  caught and cut from a draft, first pass ran short at 584 words and
+  was expanded honestly with a transit section and a real Hideyoshi/
+  Billiken contrast section rather than padding).
