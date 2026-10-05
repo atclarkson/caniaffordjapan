@@ -177,3 +177,61 @@ one past the cap.
   published body (2 caught and cut from a draft, first pass ran short
   at 554 words and was expanded honestly with a "Getting there"
   section rather than padding).
+- **Juicy gyoza coaster, Chausuyama/Tennoji, Osaka.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing.
+  Both priority sources exhausted again (same three BLOCKED teamLab
+  items, same BLOCKED Ginza sumo idea). Rolled length tier 1 (quick
+  hit, 450-600 words) and format 10 (budget-tier framing) from
+  CLAUDE.md's system. Checked Narashino (a single unused Round1 photo,
+  a different location than the already-covered Sakai one but too
+  thin alone and the topic's already covered), Yokohama and Nara
+  (both down to single leftover photos from already-fully-covered
+  visits), Chiyoda and Matsudo (a handful of unused but too-generic
+  single shots, station platforms and a bookstore staircase) before
+  finding this: a single real, unused photo of a restaurant coaster in
+  Chausuyama, Tennoji, printed with real English branding ("The Juicy
+  Gyoza Manufactory") that matched cleanly to a real chain, Nikujiru
+  Gyoza no Dandadan. Published 2026-10-02 as
+  `juicy-gyoza-tennoji-chausuyama-osaka-cost`, 532 words, topic
+  `en/budget-food`. Interpreted the budget-tier format as cheap vs
+  splurge within the same restaurant's real menu rather than forcing
+  a second venue: the signature gyoza (616 yen/6 pieces) plus a cheap
+  side for a ~1,500 yen lunch, versus adding basashi (1,078-1,518 yen)
+  and a second round for the restaurant's own stated ~3,500 yen
+  dinner average. No receipt for the specific night, said so plainly.
+  Added real, verified history on Chausuyama itself, the actual 1615
+  Battle of Tennoji site (Sanada Yukimura's position, the Siege of
+  Osaka's final battle), a genuine tie between the restaurant's
+  neighborhood name and real Japanese history. No AffiliateBox,
+  restaurant meals aren't Klook/GYG bookable. Zero uses of "actually"
+  or "genuinely" in the published body (1 caught and cut from a
+  draft, first pass ran short at 409 words and was expanded honestly
+  with the Chausuyama history section rather than padding).
+- **Ameyoko's disputed name origin, Ueno.** Not from this backlog,
+  found while looking for material for the 14:00 UTC firing. Both
+  priority sources exhausted again (same three BLOCKED teamLab items,
+  same BLOCKED Ginza sumo idea). Rolled length tier 2 (short, 600-800
+  words) and format 4 (myth-correction) from CLAUDE.md's system, the
+  format's first real fit after it failed to find one in the last two
+  firings' material. Found a single unused June 2024 photo of the
+  family at an Ameyoko food stall counter (coordinates matched the
+  market exactly), thin alone but enough once paired with real
+  research. Published 2026-10-02 as
+  `ameyoko-name-origin-ueno-food-stalls-cost`, 615 words, topic
+  `en/budget-food`. The "correction" here is softer than the site's
+  usual outdated-fact catches (Ueno pandas, Shinjuku Godzilla, Tokyo
+  Station's Amsterdam myth): Ameyoko's name is commonly explained as
+  short for "America Yokocho" alone, but real historians also credit
+  ameya (candy shop) as an equally supported origin from the same
+  postwar black-market period, the true derivation is disputed, not
+  settled the way most write-ups present it. Real current kaisendon
+  pricing researched via web search: Minatoya's 500 yen bowls and
+  750/450 yen Tokumori-don, the market's general 600-1,000 yen range,
+  and Yoshiike Shokudo's 2,700 yen upscale option, as real category
+  pricing since there's no receipt from the family's own stop. No
+  AffiliateBox, street food stalls aren't Klook/GYG bookable. Zero
+  uses of "actually" or "genuinely" in the published body (3 caught
+  and cut from drafts, first pass ran short at 425 words and was
+  expanded honestly with a "more than just food" section on the
+  market's shopping side and current crowd timing, rather than
+  padding).
