@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-02 (08:00 UTC).
+need provenance on a post published before 2026-10-02 (20:00 UTC).
 
 ## Ideas
 
@@ -39,37 +39,6 @@ need provenance on a post published before 2026-10-02 (08:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Captain Line ferry, USJ to Kaiyukan.** Not from this backlog,
-  found while looking for material for the 20:00 UTC firing. Both
-  priority sources exhausted again (same three BLOCKED teamLab items,
-  same BLOCKED Ginza sumo idea). Rolled length tier 2 (short, 600-800
-  words) and format 2 (free-vs-paid split) from CLAUDE.md's system.
-  Checked the free side of Tempozan/Kaiyukan first (crab sculptures,
-  Little Mermaid statue) but the existing
-  `osaka-aquarium-kaiyukan-tempozan-harbor-village-cost` post already
-  covers that exact free-vs-paid split directly, too close to re-tread.
-  Found a genuinely different angle instead: 2 unused photos from the
-  same April 2026 Kaiyukan day, a ferry terminal face-cutout board and
-  a docked cruise ship, both from a stop the photo timestamps and
-  locations place squarely between an early lunch and the Kaiyukan
-  visit, exactly matching Captain Line's real Universal City Port to
-  Kaiyukan West Pier ferry route. Published 2026-10-02 as
-  `capt-line-ferry-usj-kaiyukan-osaka-cost`, 605 words, topic
-  `en/transit`. Found a real, bookable Klook listing for this exact
-  ferry (activity 131122), full AffiliateBox and KlookCodeBox, the
-  first post to cover this specific transit option rather than re-
-  deriving Kaiyukan's admission price. Verified real current fares
-  (900-1,100 yen one-way, ~1,700 yen round trip) and added a genuine
-  extra fact found during research: the Tempozan passenger cruise
-  terminal visible in the cruise-ship photo had only just reopened in
-  an expanded form in 2024, confirmed via web search rather than
-  assumed from the photo alone. No overclaiming on whether the family
-  definitely rode this specific ferry (no boarding pass photo), but
-  the chronology and exact terminal match made it an honest, well-
-  supported connection rather than a guess. Zero uses of "actually" or
-  "genuinely" in the published body (first pass ran short at 387
-  words, expanded honestly with a land-route comparison section and a
-  longer close rather than padding).
 - **Osaka Castle vs Tsutenkaku, two towers never climbed.** Not from
   this backlog, found while looking for material for the 02:00 UTC
   firing. Before starting, this file was at 382 lines; moved the
@@ -370,3 +339,35 @@ need provenance on a post published before 2026-10-02 (08:00 UTC).
   honestly with the Iriya history section, a packing/logistics
   section, and a longer three-way park comparison, rather than
   padding).
+- **Thanksgiving in a Tokyo apartment, chicken instead of turkey.**
+  08:00 UTC firing. After publishing, this file hit exactly 400
+  lines, the house-lint cap; moved the oldest remaining "Done" entry
+  (Captain Line ferry) into `docs/blog-ideas-archive-3.md` (now at
+  268 lines) to leave margin for the next firing rather than sitting
+  right at the limit. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). Continued scanning the large Taito pool and found a
+  rich 8-photo unused cluster: November 23 2023, Thanksgiving Day
+  itself, Lindsay's parents visiting and a full holiday meal cooked
+  in the family's small Taito apartment kitchen. A genuinely
+  different kind of post for the site, a real-life-abroad grocery
+  and cooking story rather than an attraction or restaurant, in the
+  vein of the existing eye-exam and haircut posts. Rolled length
+  tier 2 (short, 600-800 words) and format 5 (narrative-first, cost
+  as payoff) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-05 as `thanksgiving-dinner-tokyo-apartment-turkey-chicken-cost`,
+  712 words, topic `en/unexpected-costs`. Verified real current
+  turkey pricing in Japan via web search before writing: not a
+  standard supermarket item, available only through specialty
+  importers (Costco, National Azabu, Nissin World Delicatessen, The
+  Meat Guy, The Flying Pig), running roughly 8,000 yen for a small
+  2kg bird up to 11,000-12,000+ yen for a large one. Added a second
+  real detail, canned cranberry sauce and pie-ready canned pumpkin
+  also aren't standard supermarket stock, found instead at
+  import-focused chains like Kaldi and Seijo Ishii, with kabocha
+  flagged honestly as a real but different pumpkin substitute. No
+  AffiliateBox, home cooking and grocery shopping aren't Klook/GYG
+  bookable. Zero uses of "actually" or "genuinely" in the published
+  body (2 caught and cut from drafts, first pass ran short at 554
+  words and was expanded honestly with the missing-ingredients
+  section rather than padding).
