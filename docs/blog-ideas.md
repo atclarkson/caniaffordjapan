@@ -370,3 +370,27 @@ need provenance on a post published before 2026-10-03 (02:00 UTC).
   from drafts, first pass ran short at 663 words and was expanded
   honestly with the Utsunomiya history section and the frozen-gyoza
   ubiquity section, rather than padding).
+- **Kappabashi, Tokyo's free fake-food street.** 20:00 UTC firing.
+  Both priority sources exhausted again (same BLOCKED Ginza sumo
+  idea, all three teamLab items still without real photos). Continued
+  scanning the large Taito pool and found a real, named destination
+  from location coordinates alone: 3 unused October 29 2023 photos
+  geolocated to Nishi-Asakusa 3, matching Kappabashi Dougu-gai, the
+  famous plastic-food-sample kitchenware street, identified before
+  any caption or alt text confirmed it. Rolled length tier 3
+  (standard, 800-1,000 words) and format 3 (question title, build to
+  a verdict) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-05 as `kappabashi-kitchen-town-plastic-food-samples-worth-it`,
+  846 words, topic `en/free-attractions`. Verified real details via
+  web search: the free 800 meter, ~170-shop street between Ueno and
+  Asakusa, its kappa-folklore name origin, real souvenir/workshop
+  pricing (500 yen keychains up to 100,000 yen full pieces, 2,500 yen
+  40-minute workshops), the Niimi building's 11-meter 1982 chef-head
+  landmark, and the real 1932 Takizo Iwasaki wax-omurice origin story
+  behind the whole sampuru industry. Found a real, bookable Klook
+  listing for a food-sample-making workshop in nearby Asakusa
+  (activity 133025), full AffiliateBox and KlookCodeBox. Zero uses of
+  "actually" or "genuinely" in the published body (3 caught and cut
+  from drafts, first pass ran short at 489 words and was expanded
+  honestly with the Iwasaki origin-story section and a getting-there
+  section, rather than padding).
