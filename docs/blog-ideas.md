@@ -366,3 +366,31 @@ need provenance on a post published before 2026-10-03 (20:00 UTC).
   published body (3 caught and cut from drafts, first pass ran short
   at 515 words and was expanded honestly with the Starck-credibility
   section and a getting-there section, rather than padding).
+- **A Kappabashi knife, cheap vs splurge.** 14:00 UTC firing. Both
+  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
+  three teamLab items still without real photos). Continued scanning
+  Taito's remaining unused clusters and found a single real knife
+  photo, November 21 2023, geolocated to the same Nishi-Asakusa 3
+  neighborhood as the site's existing Kappabashi plastic-food post,
+  a different visit, a genuinely different Kappabashi product line
+  (kitchen knives, not food samples). Rolled length tier 2 (short,
+  600-800 words) and format 10 (budget-tier framing) from CLAUDE.md's
+  system, no reroll needed. Published 2026-10-06 as
+  `kappabashi-knife-shop-price-cheap-vs-splurge-cost`, 808 words,
+  topic `en/shopping`. No receipt for this specific knife, said so
+  plainly rather than guessing its price tier, and instead researched
+  the real current knife-shop pricing range: 5,000-15,000 yen entry
+  level (Kamata's 5,000 yen bundle with a whetstone and certificate),
+  15,000-40,000 yen professional grade (17,800-23,100 yen stainless
+  santoku pricing across 6 shops, April 2026), and handmade/custom
+  work climbing past 500,000 yen. Cross-referenced the site's
+  existing tax-free shopping post honestly (the 5,000 yen pre-tax
+  minimum lines up with Kappabashi's own cheap tier) rather than
+  re-deriving that system. Added real single-bevel vs double-bevel
+  and santoku ("three virtues") detail. Found a real, directly
+  relevant bookable Klook listing (activity 121829, a knife-store
+  visit paired with a history tour), full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut from drafts, first pass ran short
+  at 519 words and was expanded honestly with the tax-free
+  cross-reference and the bevel-type section, rather than padding).
