@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-03 (14:00 UTC).
+need provenance on a post published before 2026-10-03 (20:00 UTC).
 
 ## Ideas
 
@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-03 (14:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Heiwa no Mori Park, Ota, free rope-climbing area vs the paid
-  40-obstacle course.** 20:00 UTC firing. Before starting, this file
-  was at 387 lines; moved the three oldest "Done" entries (Beast's
-  Castle through Halloween costumes) into a new
-  `docs/blog-ideas-archive-3.md` rather than waiting for an actual
-  overflow, since `archive-2.md` was already flagged as near its own
-  cap. Both priority sources exhausted again (same BLOCKED Ginza sumo
-  idea, all three teamLab Klook-priority items still without real
-  photos). Checked Narita (airport/flight-departure photos, no
-  attraction content), Tajiri (2 photos, also airport/transit-day),
-  and Chiba's two unused clusters (a luggage-loading shot and an
-  identifiable izakaya/skyline/pizza-dinner set, none of it a single
-  coherent destination) before finding 4 previously-unused October
-  2023 photos in Ota: real rope-climbing-structure shots at Heiwa no
-  Mori Koen, a cluster an earlier firing's notes had flagged as too
-  thin but that held up as its own post once paired with real
-  research. Rolled length tier 5 (deep dive, 1,300-1,600 words) and
-  format 9 (heads-up/warning framing) from CLAUDE.md's system, no
-  reroll needed. Published 2026-10-03 as
-  `heiwa-no-mori-park-ota-free-vs-paid-obstacle-course`, 1,312 words,
-  topic `en/free-attractions`. Verified real current pricing and
-  structure via web search: a free equipment area for under-
-  elementary kids (Mammoth Slide, Spider Log, Hope Box, Snake Diving)
-  sitting right next to a paid 40-obstacle Field Athletic course (360
-  yen adult/high schooler, 100 yen child, roughly ages 8-13, closed
-  Mondays), and used the real age split between the two areas as the
-  format's honest "catches people out" hook rather than inventing a
-  myth. Added real, verified history: the park sits on Heiwajima
-  ("Peace Island"), reclaimed land that held the Tokyo Main POW Camp
-  during WWII and briefly detained war-crimes suspects afterward,
-  with the park itself opened in 1982 and named for Ota Ward's own
-  1984 Peace City Declaration. Cross-referenced the site's existing
-  `japan-neighborhood-playgrounds-free-tokyo` post honestly rather
-  than re-covering the same ground, framing this as a different
-  category of free destination entirely. No AffiliateBox, a municipal
-  park athletic field isn't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (4 caught and cut
-  from drafts, first pass ran short at 905 words and was expanded
-  honestly with the Peace Island history section, a water-crossing
-  packing note, and the neighborhood-playground comparison, rather
-  than padding).
 - **A different Tokyo Dome game: Chunichi Dragons vs. the Giants.**
   02:00 UTC firing (2026-10-04). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -376,3 +335,34 @@ need provenance on a post published before 2026-10-03 (14:00 UTC).
   "actually" or "genuinely" in the published body, first pass ran
   short at 484 words and was expanded honestly with the Tokyo Tower
   broadcasting-handover section rather than padding.
+- **The Asahi "golden poop" building, and the real Sumida River
+  cruise next to it.** 08:00 UTC firing. After adding this entry the
+  file hit 405 lines, over the cap; moved the Heiwa no Mori Park
+  entry into `docs/blog-ideas-archive-3.md`, now at 399 lines and
+  will need its own `-4.md` split next time it's touched. Both
+  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
+  three teamLab
+  items still without real photos). Continued scanning Taito and
+  found a real unused May 29 2024 photo geolocated to Hanakawado 1,
+  right at the Asahi Group building/Azumabashi, plus a same-day boat
+  photo on the Sumida River with Skytree visible. Rolled length
+  tier 2 (short, 600-800 words) and format 4 (myth-correction) from
+  CLAUDE.md's system, no reroll needed. Published 2026-10-06 as
+  `asahi-flamme-dor-sumida-river-cruise-cost`, 708 words, topic
+  `en/tokyo`. The real correction: the golden sculpture everyone
+  nicknames the "golden poop" is officially the Flamme d'Or, designed
+  by Philippe Starck (completed 1989, 44m long, 360 tons), meant to
+  represent a flame, not a joke, sitting on the site of the former
+  Azumabashi Brewery (1903-1985). Added real Starck credibility
+  detail (the Juicy Salif, the Louis Ghost Chair) and the building's
+  real glass-block night-lighting design. Verified real current
+  Sumida River water bus pricing from Asakusa (2,000/1,000 yen to
+  Odaiba, 1,180/470 yen to Hamarikyu, 1,000/500 yen to Hinode Pier)
+  and the real Leiji Matsumoto design credit for the Himiko/Hotaluna
+  boats. Found a real bookable Klook listing (activity 24275), full
+  AffiliateBox and KlookCodeBox. Only used 1 of the 2 unused photos,
+  the boat shot didn't earn its place once the sculpture became the
+  clear angle. Zero uses of "actually" or "genuinely" in the
+  published body (3 caught and cut from drafts, first pass ran short
+  at 515 words and was expanded honestly with the Starck-credibility
+  section and a getting-there section, rather than padding).
