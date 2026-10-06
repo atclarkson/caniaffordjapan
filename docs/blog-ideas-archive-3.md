@@ -300,3 +300,59 @@ one past the cap.
   caught and cut from a draft, first pass ran short at 584 words and
   was expanded honestly with a transit section and a real Hideyoshi/
   Billiken contrast section rather than padding).
+- **Klook Pass Tokyo vs Kansai, a direct comparison.** Not from this
+  backlog, found while looking for material for the 08:00 UTC firing.
+  Both priority sources exhausted again (same three BLOCKED teamLab
+  items, same BLOCKED Ginza sumo idea). Rolled length tier 1 (quick
+  hit, 450-600 words) and format 6 (head-to-head) from CLAUDE.md's
+  system. Checked several smaller unused pools first (an owl-cafe
+  text search, Hakone's remaining 4 photos, Tokyo city-level tags)
+  before realizing the site already had two separate, fully
+  researched Klook Pass posts (Greater Tokyo, Kansai) that had never
+  been directly compared to each other, a legitimate head-to-head
+  without needing new unused photos, reusing two already-published
+  real photos (the Skytree cherry-blossom family shot, a USJ coaster
+  shot) rather than re-shooting ground already covered. Published
+  2026-10-03 as `klook-pass-tokyo-vs-kansai-which-saves-more`, 460
+  words, topic `en/deals`. Cross-referenced both existing posts'
+  real numbers honestly rather than re-deriving them (Tokyo's 2-7
+  attraction tiers and 90 day redemption window vs Kansai's 3-8
+  tiers and tighter 30 day window, Kansai's standard-tier modest real
+  edge vs Tokyo's rough break-even, and the shared pattern that an
+  expensive premium attraction, Disney/Warner Bros. for Tokyo, USJ
+  for Kansai, is what actually makes either pass pay off). Full
+  AffiliateBox for both passes (activity 74574, activity 91434) and
+  one KlookCodeBox, consistent with the site's practice of including
+  the code once per post regardless of how many Klook links appear.
+  Zero uses of "actually" or "genuinely" in the published body, first
+  pass ran short at 294 words and was expanded honestly with a real
+  redemption-window mechanics section and a longer verdict rather
+  than padding.
+- **Cherry blossoms vs hydrangeas, two free flower seasons.** 14:00 UTC
+  firing. Both priority sources exhausted again. Checked smaller
+  unused pools (Chiyoda, Matsudo, Narashino leftovers) before finding
+  two previously-unused real hydrangea photos from a Shibamata,
+  Katsushika street, June 14 2024 (uuids 2d02296f and 25255c44).
+  Rolled length tier 4 (1,000-1,300 words) and format 6 (head-to-head)
+  from CLAUDE.md's system, no reroll needed. Paired the new hydrangea
+  material against the existing Ogimachi Sakura Festival post rather
+  than re-deriving its numbers, cross-referencing the festival's real
+  free-park/paid-extras split (beer garden 2,000 yen, sky lanterns
+  4,400 yen, activity 200945) honestly instead of redoing that
+  research. Added real hanami history (Nara-period plum-blossom
+  origin, Emperor Saga's 812 CE garden party, Tokugawa-era public
+  planting in 1600s Edo) and real ajisai history (Man'yōshū 8th
+  century mention, soil-acidity color shift, wabi-sabi symbolism) to
+  give both sides equal depth. Flagged Tokyo's Bunkyo Hydrangea
+  Festival and Kamakura's Meigetsu-in (2,500 bushes, 500 yen plus 500
+  yen inner sanctuary) as real paid alternatives to our own unplanned
+  street find, explicitly not field tested. Published 2026-10-03 as
+  `cherry-blossoms-vs-hydrangeas-free-flower-seasons-japan`, 1,008
+  words, topic `en/free-attractions`. One "genuinely" caught and cut
+  from a draft paragraph (changed to "real"), zero uses of "actually"
+  or "genuinely" in the published body. First pass ran short at 640
+  words and was expanded honestly in three stages (hanami history,
+  family-logistics contrast, Meigetsu-in paid-alternative detail)
+  rather than padding. Full AffiliateBox and KlookCodeBox reused from
+  the existing Ogimachi post (activity 200945), no new Klook research
+  needed since the activity was already verified there.

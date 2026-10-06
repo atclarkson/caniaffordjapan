@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-03 (02:00 UTC).
+need provenance on a post published before 2026-10-03 (14:00 UTC).
 
 ## Ideas
 
@@ -39,62 +39,6 @@ need provenance on a post published before 2026-10-03 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Klook Pass Tokyo vs Kansai, a direct comparison.** Not from this
-  backlog, found while looking for material for the 08:00 UTC firing.
-  Both priority sources exhausted again (same three BLOCKED teamLab
-  items, same BLOCKED Ginza sumo idea). Rolled length tier 1 (quick
-  hit, 450-600 words) and format 6 (head-to-head) from CLAUDE.md's
-  system. Checked several smaller unused pools first (an owl-cafe
-  text search, Hakone's remaining 4 photos, Tokyo city-level tags)
-  before realizing the site already had two separate, fully
-  researched Klook Pass posts (Greater Tokyo, Kansai) that had never
-  been directly compared to each other, a legitimate head-to-head
-  without needing new unused photos, reusing two already-published
-  real photos (the Skytree cherry-blossom family shot, a USJ coaster
-  shot) rather than re-shooting ground already covered. Published
-  2026-10-03 as `klook-pass-tokyo-vs-kansai-which-saves-more`, 460
-  words, topic `en/deals`. Cross-referenced both existing posts'
-  real numbers honestly rather than re-deriving them (Tokyo's 2-7
-  attraction tiers and 90 day redemption window vs Kansai's 3-8
-  tiers and tighter 30 day window, Kansai's standard-tier modest real
-  edge vs Tokyo's rough break-even, and the shared pattern that an
-  expensive premium attraction, Disney/Warner Bros. for Tokyo, USJ
-  for Kansai, is what actually makes either pass pay off). Full
-  AffiliateBox for both passes (activity 74574, activity 91434) and
-  one KlookCodeBox, consistent with the site's practice of including
-  the code once per post regardless of how many Klook links appear.
-  Zero uses of "actually" or "genuinely" in the published body, first
-  pass ran short at 294 words and was expanded honestly with a real
-  redemption-window mechanics section and a longer verdict rather
-  than padding.
-- **Cherry blossoms vs hydrangeas, two free flower seasons.** 14:00 UTC
-  firing. Both priority sources exhausted again. Checked smaller
-  unused pools (Chiyoda, Matsudo, Narashino leftovers) before finding
-  two previously-unused real hydrangea photos from a Shibamata,
-  Katsushika street, June 14 2024 (uuids 2d02296f and 25255c44).
-  Rolled length tier 4 (1,000-1,300 words) and format 6 (head-to-head)
-  from CLAUDE.md's system, no reroll needed. Paired the new hydrangea
-  material against the existing Ogimachi Sakura Festival post rather
-  than re-deriving its numbers, cross-referencing the festival's real
-  free-park/paid-extras split (beer garden 2,000 yen, sky lanterns
-  4,400 yen, activity 200945) honestly instead of redoing that
-  research. Added real hanami history (Nara-period plum-blossom
-  origin, Emperor Saga's 812 CE garden party, Tokugawa-era public
-  planting in 1600s Edo) and real ajisai history (Man'yōshū 8th
-  century mention, soil-acidity color shift, wabi-sabi symbolism) to
-  give both sides equal depth. Flagged Tokyo's Bunkyo Hydrangea
-  Festival and Kamakura's Meigetsu-in (2,500 bushes, 500 yen plus 500
-  yen inner sanctuary) as real paid alternatives to our own unplanned
-  street find, explicitly not field tested. Published 2026-10-03 as
-  `cherry-blossoms-vs-hydrangeas-free-flower-seasons-japan`, 1,008
-  words, topic `en/free-attractions`. One "genuinely" caught and cut
-  from a draft paragraph (changed to "real"), zero uses of "actually"
-  or "genuinely" in the published body. First pass ran short at 640
-  words and was expanded honestly in three stages (hanami history,
-  family-logistics contrast, Meigetsu-in paid-alternative detail)
-  rather than padding. Full AffiliateBox and KlookCodeBox reused from
-  the existing Ogimachi post (activity 200945), no new Klook research
-  needed since the activity was already verified there.
 - **Heiwa no Mori Park, Ota, free rope-climbing area vs the paid
   40-obstacle course.** 20:00 UTC firing. Before starting, this file
   was at 387 lines; moved the three oldest "Done" entries (Beast's
@@ -394,3 +338,41 @@ need provenance on a post published before 2026-10-03 (02:00 UTC).
   from drafts, first pass ran short at 489 words and was expanded
   honestly with the Iwasaki origin-story section and a getting-there
   section, rather than padding).
+- **Tokyo Skytree, a real gap in the site's own coverage.** 02:00 UTC
+  firing (2026-10-06). Before starting, this file was at 396 lines,
+  right at the house-lint cap; moved the two oldest "Done" entries
+  (Osaka Castle vs Tsutenkaku through Klook Pass Tokyo vs Kansai) into
+  `docs/blog-ideas-archive-3.md` rather than waiting for an actual
+  overflow. After adding this entry the file hit 403 lines, over the
+  cap again; moved one more entry (Cherry Blossoms vs Hydrangeas) into
+  the same archive file, now at 358 lines and will need its own
+  `-4.md` split soon. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all
+  three teamLab items still without real photos). Checked Katsushika's
+  remaining thin clusters, a Hanakawado night-bridge photo, and a
+  near-duplicate Senso-ji pagoda night shot before noticing the site
+  had never actually published a dedicated Tokyo Skytree post despite
+  it appearing in the background of an existing street-kart post, a
+  real coverage gap worth filling directly. Found 2 unused night
+  photos of Skytree lit in a special illumination pattern (Nov 30
+  2023, from the family's own apartment window). Rolled length tier 2
+  (short, 600-800 words) and format 13 (history-led) from CLAUDE.md's
+  system, no reroll needed. Published 2026-10-06 as
+  `tokyo-skytree-tembo-deck-ticket-price-cost`, 625 words, topic
+  `en/towers-observation-decks`. Verified real history via web search:
+  the 634.0 meter height as deliberate wordplay on "Musashi," the
+  region's old province name; construction 2006-2012, 585,000
+  workers, completed on a leap day; built specifically because Tokyo
+  Tower's 332.9 meters could no longer clear newer high-rises for
+  digital broadcasting, fully taking over broadcasting duties in 2013
+  (cross-referenced the site's existing Tokyo Tower post's height
+  figure for consistency rather than re-deriving it). Verified real
+  current dynamic pricing (in effect since April 2026): Tembo Deck
+  1,800-2,300 yen adult, combo with Tembo Galleria 3,000-3,800 yen,
+  kids from 900/1,500 yen, plus a 500 yen walk-up counter fee. Honestly
+  flagged the illumination pattern in the photo as unidentified rather
+  than guessing which campaign it marked. Real bookable Klook listing
+  (activity 41352), full AffiliateBox and KlookCodeBox. Zero uses of
+  "actually" or "genuinely" in the published body, first pass ran
+  short at 484 words and was expanded honestly with the Tokyo Tower
+  broadcasting-handover section rather than padding.
