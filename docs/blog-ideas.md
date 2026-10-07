@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-04 (14:00 UTC).
+need provenance on a post published before 2026-10-04 (20:00 UTC).
 
 ## Ideas
 
@@ -39,40 +39,6 @@ need provenance on a post published before 2026-10-04 (14:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Ueno Toshogu Shrine, the free pagoda view beside the paid zoo
-  ticket.** 20:00 UTC firing. Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Checked Katsushika's remaining unused
-  clusters first (a Father's Day card-making moment, generic railway
-  crossing shots, a single unidentified gyoza plate, balloon animals
-  with no context) but none held up as a full cost-angle post on
-  their own. Switched to a systematic scan of the large, under-mined
-  Taito pool (118 photos) and found a single real unused photo: the
-  whole family at Ueno Park's five-story pagoda, November 19 2023,
-  a destination none of the site's existing Ueno posts (the zoo, the
-  fire museum) had covered. Only one photo, leaned on real research
-  the way the Ameyoko and Shinjuku Gyoen posts did. Rolled length
-  tier 3 (standard, 800-1,000 words) and format 2 (free-vs-paid
-  split) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-04 as `ueno-toshogu-shrine-free-pagoda-paid-peony-garden-cost`,
-  911 words, topic `en/free-attractions`. The real angle: the pagoda
-  (donated 1631 by Toshikatsu Doi, rebuilt after an early fire) now
-  sits inside Ueno Zoo's fence line but is visible for free from
-  Toshogu Shrine's own outer grounds, alongside 250 daimyo-donated
-  lanterns (48 of them Important Cultural Properties), while the
-  shrine's inner hall (500 yen) and seasonal peony garden (700 yen)
-  are real separate paid sections. Added real shrine history (1627
-  founding, 1651 rebuild by Tokugawa Iemitsu honoring Tokugawa
-  Ieyasu) and Kan'eiji Temple's own history (founded 1625, nearly
-  destroyed in the 1868 Boshin War, its grounds becoming one of
-  Japan's first Western-style public parks in 1873). Cross-referenced
-  the site's existing Ueno Zoo post's real 600 yen admission honestly
-  rather than re-deriving it. No AffiliateBox, no bookable Klook
-  ticket exists for this shrine (checked), only destination guide
-  pages. Zero uses of "actually" or "genuinely" in the published body,
-  first pass ran short at 576 words and was expanded honestly with
-  the free-lanterns detail, the shrine-dedication section, and a
-  getting-there/zoo-pairing section, rather than padding.
 - **Iriya Minami Park, a free playground worth planning around.**
   02:00 UTC firing (2026-10-05). Before starting, this file was at
   397 lines, right at the house-lint cap; moved the two oldest "Done"
@@ -366,3 +332,43 @@ need provenance on a post published before 2026-10-04 (14:00 UTC).
   matching sections rather than leaving the mark inaccurate. Zero
   uses of "actually" or "genuinely" in the published body (1 caught
   and cut from the opening paragraph).
+- **Tokyo Solamachi, the free mall Skytree's own ticket post never
+  covered.** 14:00 UTC firing. Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Nara (7-photo pool, but 5 of 7
+  already used by the existing dedicated Nara post, the 2 remaining
+  unused photos same-day near-duplicates of what's published,
+  skipped), Shibuya (25 photos, nearly all from the already-covered
+  otter cafe visit), and Katsushika's remaining unused clusters
+  (previewed 11 candidates, all either Father's Day cards, a
+  railway crossing, home-life ephemera, or extra Harper's-birthday
+  shots already covered, confirmed thin via `preview_photo` rather
+  than trusting alt-text alone) before finding 3 real unused Sumida
+  photos geolocated to Oshiage, right at Skytree's own base: cherry
+  blossoms framing the tower (March 2023), a beer at street level
+  (June 2024), and the Kura Sushi flagship's lantern walkway (June
+  2024), 3 separate real visits. Rolled length tier 4 (long,
+  1,000-1,300 words) and format 11 (time/season anchored) from
+  CLAUDE.md's system; format 11 didn't fit material spanning 3
+  different real visits over 15 months rather than one anchored day,
+  rerolled once per CLAUDE.md's allowance and landed on format 13
+  (history-led). Published 2026-10-07 as
+  `tokyo-solamachi-free-shopping-kura-sushi-skytree-base`, 977 words
+  (just under the tier 4 floor, genuinely couldn't stretch further
+  without padding, said so here), topic `en/towers-observation-decks`.
+  The real hook: Tokyo Solamachi (312 shops, free admission) opened
+  the exact same day as the tower itself, May 22 2012, not a later
+  add-on. Verified Kura Sushi's Oshiage flagship is a real title
+  holder, the world's largest conveyor-belt sushi restaurant (834
+  sqm, 277 seats, 2 floors), real 110-150 yen plate pricing, and a
+  location-specific Bikkura Pon detail (two capsule toys per 5
+  plates here, versus the usual one elsewhere). Added real Sumida
+  Aquarium (2,700 yen adult) and Planetarium Tenku (1,500 yen adult)
+  pricing as the "what else costs money here" cross-reference, and
+  the real free Jikkenbashi reflection-photo bridge (built 1939) for
+  the ground-level Skytree view. Cross-referenced the existing
+  Skytree ticket post's dynamic pricing honestly rather than
+  re-deriving it, reused the same real Klook activity listing
+  (41352) since it's the same tower's ticket, full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut from section headings).

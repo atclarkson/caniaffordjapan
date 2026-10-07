@@ -152,3 +152,37 @@ one past the cap.
   words and was expanded honestly with the Fujiya history section,
   the Sanrio licensing section, and a longer close, rather than
   padding).
+- **Ueno Toshogu Shrine, the free pagoda view beside the paid zoo
+  ticket.** 20:00 UTC firing. Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Katsushika's remaining unused
+  clusters first (a Father's Day card-making moment, generic railway
+  crossing shots, a single unidentified gyoza plate, balloon animals
+  with no context) but none held up as a full cost-angle post on
+  their own. Switched to a systematic scan of the large, under-mined
+  Taito pool (118 photos) and found a single real unused photo: the
+  whole family at Ueno Park's five-story pagoda, November 19 2023,
+  a destination none of the site's existing Ueno posts (the zoo, the
+  fire museum) had covered. Only one photo, leaned on real research
+  the way the Ameyoko and Shinjuku Gyoen posts did. Rolled length
+  tier 3 (standard, 800-1,000 words) and format 2 (free-vs-paid
+  split) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-04 as `ueno-toshogu-shrine-free-pagoda-paid-peony-garden-cost`,
+  911 words, topic `en/free-attractions`. The real angle: the pagoda
+  (donated 1631 by Toshikatsu Doi, rebuilt after an early fire) now
+  sits inside Ueno Zoo's fence line but is visible for free from
+  Toshogu Shrine's own outer grounds, alongside 250 daimyo-donated
+  lanterns (48 of them Important Cultural Properties), while the
+  shrine's inner hall (500 yen) and seasonal peony garden (700 yen)
+  are real separate paid sections. Added real shrine history (1627
+  founding, 1651 rebuild by Tokugawa Iemitsu honoring Tokugawa
+  Ieyasu) and Kan'eiji Temple's own history (founded 1625, nearly
+  destroyed in the 1868 Boshin War, its grounds becoming one of
+  Japan's first Western-style public parks in 1873). Cross-referenced
+  the site's existing Ueno Zoo post's real 600 yen admission honestly
+  rather than re-deriving it. No AffiliateBox, no bookable Klook
+  ticket exists for this shrine (checked), only destination guide
+  pages. Zero uses of "actually" or "genuinely" in the published body,
+  first pass ran short at 576 words and was expanded honestly with
+  the free-lanterns detail, the shrine-dedication section, and a
+  getting-there/zoo-pairing section, rather than padding.
