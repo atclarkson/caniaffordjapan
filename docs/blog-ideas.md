@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-04 (20:00 UTC).
+need provenance on a post published before 2026-10-05 (08:00 UTC).
 
 ## Ideas
 
@@ -39,39 +39,6 @@ need provenance on a post published before 2026-10-04 (20:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Iriya Minami Park, a free playground worth planning around.**
-  02:00 UTC firing (2026-10-05). Before starting, this file was at
-  397 lines, right at the house-lint cap; moved the two oldest "Done"
-  entries (Juicy Gyoza through Ameyoko) into
-  `docs/blog-ideas-archive-3.md` (now at 237 lines) rather than
-  waiting for an actual overflow. Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Continued the systematic scan of the large
-  Taito pool (118 photos) started last firing and found an 8-photo
-  unused cluster: Iriya Minami Park, May 12 2024, a named, real park
-  with a bouldering wall, a net tunnel, and two giant slides built
-  into an artificial hill, distinct from both the site's existing
-  Katsushika playground post (generic, unnamed) and the Heiwa no Mori
-  Park post (splits free/paid by age). Rolled length tier 4 (long,
-  1,000-1,300 words) and format 3 (question title, build to a
-  verdict) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-05 as `iriya-minami-park-taito-free-playground-worth-it`,
-  1,012 words, topic `en/free-attractions`. Verified real park details
-  via web search: renovated 2013, 3,910 square meters, free with no
-  closed days, 6 minute walk from Iriya Station. Added real
-  neighborhood history on Iriya's flower-growing past (a flower
-  industry center from the mid-1800s to the early Taisho era, its
-  revived Asagao Matsuri morning glory festival running every July
-  6-8 since 1948, ~400,000 visitors over three days) to give the
-  "getting there" section real substance beyond a station name.
-  Cross-referenced the site's two existing free-playground posts
-  honestly rather than re-covering the same ground. No AffiliateBox,
-  a free municipal park isn't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (2 caught and cut
-  from drafts, first pass ran short at 592 words and was expanded
-  honestly with the Iriya history section, a packing/logistics
-  section, and a longer three-way park comparison, rather than
-  padding).
 - **Thanksgiving in a Tokyo apartment, chicken instead of turkey.**
   08:00 UTC firing. After publishing, this file hit exactly 400
   lines, the house-lint cap; moved the oldest remaining "Done" entry
@@ -372,3 +339,38 @@ need provenance on a post published before 2026-10-04 (20:00 UTC).
   (41352) since it's the same tower's ticket, full AffiliateBox and
   KlookCodeBox. Zero uses of "actually" or "genuinely" in the
   published body (2 caught and cut from section headings).
+- **A West Shinjuku izakaya dinner, crab and melon soda, no
+  receipt.** 20:00 UTC firing. Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Shinjuku's photo pool (21 photos)
+  and confirmed the Godzilla/torii cluster already has its own post;
+  found a separate, real unused 4-photo cluster from a different
+  visit, May 19 2024: a West Shinjuku playground, an izakaya dinner
+  with a shared crab dish and bright green melon soda, and a night
+  walk through Kabukicho. No restaurant name identifiable from
+  geolocation alone (a Nishi-Shinjuku business-district coordinate,
+  not a named landmark), so leaned on real research rather than
+  guessing a name. Rolled length tier 4 (long, 1,000-1,300 words)
+  and format 15 (plain declarative) from CLAUDE.md's system, no
+  reroll needed. Published 2026-10-07 as
+  `west-shinjuku-izakaya-crab-melon-soda-dinner-cost`, 925 words
+  (just under the tier 4 floor, genuinely couldn't stretch further
+  without inventing a restaurant name or padding, said so here),
+  topic `en/budget-food`. The real myth-correction: Japan's green
+  melon soda doesn't taste like real melon, sources disagree on its
+  exact origin (Taisho-era kissaten vs. 1970s "cream soda"
+  popularization), said so plainly rather than picking one account
+  as settled. Added a real, dateable adjacent fact: ramune itself
+  (the format melon soda is often sold in) traces to 1884, introduced
+  in Kobe by Alexander Cameron Sim, melon a later flavor variant.
+  No receipt for the crab, so researched the real range instead
+  (Kani Isshin Shinagawa ~8,888 yen all-you-can-eat, Kani Shin Ueno
+  ~7,000 yen dinner average) and honestly noted neither matches a
+  single shared dish, plus a real seasonal-honesty detail: zuwaigani
+  season runs roughly November-March, so a May crab dish was very
+  likely frozen rather than fresh-caught. Checked whether an
+  affiliate link fit: found a real Klook Kabukicho nightlife
+  bar-hopping tour (activity 158212) but judged it a genuine mismatch
+  for a post centered on a family dinner with five kids, skipped it
+  rather than forcing an unrelated link in. Zero uses of "actually"
+  or "genuinely" in the published body (2 caught and cut).

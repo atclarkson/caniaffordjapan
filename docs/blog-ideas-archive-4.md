@@ -186,3 +186,36 @@ one past the cap.
   first pass ran short at 576 words and was expanded honestly with
   the free-lanterns detail, the shrine-dedication section, and a
   getting-there/zoo-pairing section, rather than padding.
+- **Iriya Minami Park, a free playground worth planning around.**
+  02:00 UTC firing (2026-10-05). Before starting, this file was at
+  397 lines, right at the house-lint cap; moved the two oldest "Done"
+  entries (Juicy Gyoza through Ameyoko) into
+  `docs/blog-ideas-archive-3.md` (now at 237 lines) rather than
+  waiting for an actual overflow. Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Continued the systematic scan of the large
+  Taito pool (118 photos) started last firing and found an 8-photo
+  unused cluster: Iriya Minami Park, May 12 2024, a named, real park
+  with a bouldering wall, a net tunnel, and two giant slides built
+  into an artificial hill, distinct from both the site's existing
+  Katsushika playground post (generic, unnamed) and the Heiwa no Mori
+  Park post (splits free/paid by age). Rolled length tier 4 (long,
+  1,000-1,300 words) and format 3 (question title, build to a
+  verdict) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-05 as `iriya-minami-park-taito-free-playground-worth-it`,
+  1,012 words, topic `en/free-attractions`. Verified real park details
+  via web search: renovated 2013, 3,910 square meters, free with no
+  closed days, 6 minute walk from Iriya Station. Added real
+  neighborhood history on Iriya's flower-growing past (a flower
+  industry center from the mid-1800s to the early Taisho era, its
+  revived Asagao Matsuri morning glory festival running every July
+  6-8 since 1948, ~400,000 visitors over three days) to give the
+  "getting there" section real substance beyond a station name.
+  Cross-referenced the site's two existing free-playground posts
+  honestly rather than re-covering the same ground. No AffiliateBox,
+  a free municipal park isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (2 caught and cut
+  from drafts, first pass ran short at 592 words and was expanded
+  honestly with the Iriya history section, a packing/logistics
+  section, and a longer three-way park comparison, rather than
+  padding).
