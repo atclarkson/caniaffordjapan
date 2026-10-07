@@ -120,3 +120,35 @@ one past the cap.
   first pass ran short at 590 words and was expanded honestly with a
   garden-styles/staggered-bloom section and a getting-there section
   rather than padding).
+- **Harper's 5th birthday cake, a nameplate and a two-tier price.**
+  14:00 UTC firing. Before starting, this file was at 390 lines;
+  moved the two oldest "Done" entries (A British Pub Above Abeno
+  through HOKUHOKU) into `docs/blog-ideas-archive-3.md` (now at 179
+  lines) rather than waiting for an actual overflow. Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Checked Yokohama, Sakai,
+  Kawasaki, and Shinjuku clusters first (all either near-duplicates of
+  already-published posts or too thin), then found a rich 6-photo
+  unused cluster in Katsushika: Harper's 5th birthday, June 25, 2024,
+  a home party with a custom Sanrio-themed cake bearing a personalized
+  "HAPPY BIRTHDAY Harper" nameplate. Rolled length tier 5 (deep dive,
+  1,300-1,600 words) and format 7 (artifact-driven, the nameplate
+  itself as the artifact) from CLAUDE.md's system, no reroll needed,
+  the first clean format-7 fit after it failed twice earlier this
+  week. Published 2026-10-04 as
+  `harper-5th-birthday-cake-nameplate-japan-cake-cost`, 1,333 words,
+  topic `en/budget-food`. No receipt for this specific cake, said so
+  plainly, and instead researched the real two-tier cake category it
+  belongs to: Japan's basic strawberry shortcake (400-600 yen,
+  tracing to Fujiya's 1910 Yokohama founding and 1920s introduction of
+  the format) versus a custom character cake (from 4,000 yen via
+  Cake.jp's real official Sanrio Custom Cake Maker collaboration).
+  Added real Sanrio company history (founded 1960 as the Yamanashi
+  Silk Center, renamed 1973, Hello Kitty designed 1974 by Yuko
+  Shimizu) to explain the licensing cost behind the price gap. No
+  AffiliateBox, a home-ordered specialty cake isn't Klook/GYG
+  bookable. Zero uses of "actually" or "genuinely" in the published
+  body (4 caught and cut from drafts, first pass ran short at 879
+  words and was expanded honestly with the Fujiya history section,
+  the Sanrio licensing section, and a longer close, rather than
+  padding).
