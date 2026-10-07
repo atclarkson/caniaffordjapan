@@ -50,3 +50,73 @@ one past the cap.
   first pass ran short at 873 words and was expanded honestly with two
   new real sections, a ride-story walkthrough and a two-castles/family-
   logistics angle, rather than padding existing paragraphs).
+- **A different Tokyo Dome game: Chunichi Dragons vs. the Giants.**
+  02:00 UTC firing (2026-10-04). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Minato (Tokyo Tower/teamLab
+  Borderless leftovers, already covered), Koto and Chiyoda (single
+  leftover photos each, too thin alone), and Shinagawa (a single 2023
+  restaurant photo) before finding a real 9-photo unused cluster in
+  Bunkyo: a May 22, 2024 evening game at Tokyo Dome, the same date
+  the site's existing `tokyo-dome-stadium-beer-price-worth-it` post
+  already draws two photos from, but a genuinely different slice of
+  the same evening. The scoreboard in one unused photo confirmed a
+  real, different detail neither existing Tokyo Dome post mentions:
+  this was a Chunichi Dragons vs. Giants game, Chunichi won 4-2.
+  Rolled length tier 6 (deep dive, 1,600-2,000 words) and format 11
+  (time/season anchored) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-04 as
+  `tokyo-dome-chunichi-dragons-giants-family-evening-game`, 1,622
+  words, topic `en/tokyo`. Deliberately didn't re-derive seat or beer
+  pricing, both already covered honestly elsewhere on the site, and
+  centered new real material instead: Chunichi Dragons franchise
+  history (founded 1936 as the Nagoya Club, settled on "Dragons" in
+  1954), a real player ID off a fan's jersey (Kento Fujishima, #54,
+  drafted 2016, still on the roster, verified via web search before
+  naming him), Tokyo Dome's own 1988 "Big Egg" construction history
+  (Japan's first domed stadium, air-supported roof), NPB's Central/
+  Pacific League structure, and the real Lucky 7 towel tradition
+  specific to Giants home games (corrected mid-draft after initial
+  research wrongly assumed a balloon release; re-verified that Tokyo
+  Dome's indoor roof means the Giants use towels, not balloons, tying
+  back honestly to the supporting-towel bundle already mentioned in
+  the site's other Giants post). Reused the existing Yomiuri Giants
+  match ticket Klook listing (activity 22618) since it covers any
+  home date regardless of opponent, full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut from drafts, first pass ran short
+  at 877 words and was expanded honestly across four new real
+  sections, Tokyo Dome's construction history, the corrected Lucky 7
+  tradition, the league-structure explainer, and a getting-there/
+  packing section, rather than padding).
+- **Shinjuku Gyoen, the hanami spot that charges admission.** 08:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Checked Yokohama (2 unused photos, both near-duplicates of
+  the already-covered Sankeien Garden visit), Sakai (several unused
+  photos but all from the same Feb 2026 birthday dinner already
+  covered twice), Kawasaki (a Nihon Minkaen-adjacent cluster, too
+  similar to two already-published posts), and Shinjuku's own May
+  2024 cluster (an evening out with friends, no identifiable venue to
+  anchor a cost angle) before finding a single real unused photo
+  tagged Shibuya but geolocated to Shinjuku Gyoen National Garden,
+  March 19 2023, the family's first cherry blossom season in Japan.
+  Only one photo, so leaned on real research the way the Ameyoko and
+  Chausuyama posts did. Rolled length tier 3 (standard, 800-1,000
+  words) and format 5 (narrative-first, cost as payoff) from
+  CLAUDE.md's system, no reroll needed. Published 2026-10-04 as
+  `shinjuku-gyoen-cherry-blossom-garden-admission-cost`, 837 words,
+  topic `en/tokyo`. The real angle: unlike the site's existing free
+  hanami posts (Ogimachi Festival, the hydrangeas-vs-sakura
+  comparison), Shinjuku Gyoen actually charges admission (500 yen
+  adult, free under 15, 250 yen student/senior), and the real history
+  explains why: Tokugawa-era Naito family land from 1590, a 1772
+  formal garden, an Imperial-era 1906 Henri Martinet redesign into
+  three garden styles, the Imperial hanami tradition moving there in
+  1917, not opened to the public until May 1949. Verified a real
+  bookable Klook listing (activity 141988) via web search, full
+  AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from drafts,
+  first pass ran short at 590 words and was expanded honestly with a
+  garden-styles/staggered-bloom section and a getting-there section
+  rather than padding).
