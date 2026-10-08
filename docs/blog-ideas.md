@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-06 (08:00 UTC).
+need provenance on a post published before 2026-10-06 (14:00 UTC).
 
 ## Ideas
 
@@ -39,37 +39,6 @@ need provenance on a post published before 2026-10-06 (08:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The Asahi "golden poop" building, and the real Sumida River
-  cruise next to it.** 08:00 UTC firing. After adding this entry the
-  file hit 405 lines, over the cap; moved the Heiwa no Mori Park
-  entry into `docs/blog-ideas-archive-3.md`, now at 399 lines and
-  will need its own `-4.md` split next time it's touched. Both
-  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
-  three teamLab
-  items still without real photos). Continued scanning Taito and
-  found a real unused May 29 2024 photo geolocated to Hanakawado 1,
-  right at the Asahi Group building/Azumabashi, plus a same-day boat
-  photo on the Sumida River with Skytree visible. Rolled length
-  tier 2 (short, 600-800 words) and format 4 (myth-correction) from
-  CLAUDE.md's system, no reroll needed. Published 2026-10-06 as
-  `asahi-flamme-dor-sumida-river-cruise-cost`, 708 words, topic
-  `en/tokyo`. The real correction: the golden sculpture everyone
-  nicknames the "golden poop" is officially the Flamme d'Or, designed
-  by Philippe Starck (completed 1989, 44m long, 360 tons), meant to
-  represent a flame, not a joke, sitting on the site of the former
-  Azumabashi Brewery (1903-1985). Added real Starck credibility
-  detail (the Juicy Salif, the Louis Ghost Chair) and the building's
-  real glass-block night-lighting design. Verified real current
-  Sumida River water bus pricing from Asakusa (2,000/1,000 yen to
-  Odaiba, 1,180/470 yen to Hamarikyu, 1,000/500 yen to Hinode Pier)
-  and the real Leiji Matsumoto design credit for the Himiko/Hotaluna
-  boats. Found a real bookable Klook listing (activity 24275), full
-  AffiliateBox and KlookCodeBox. Only used 1 of the 2 unused photos,
-  the boat shot didn't earn its place once the sculpture became the
-  clear angle. Zero uses of "actually" or "genuinely" in the
-  published body (3 caught and cut from drafts, first pass ran short
-  at 515 words and was expanded honestly with the Starck-credibility
-  section and a getting-there section, rather than padding).
 - **A Kappabashi knife, cheap vs splurge.** 14:00 UTC firing. Both
   priority sources exhausted again (same BLOCKED Ginza sumo idea, all
   three teamLab items still without real photos). Continued scanning
@@ -361,3 +330,34 @@ need provenance on a post published before 2026-10-06 (08:00 UTC).
   (activity 1410, 3M+ booked) to add as a genuine affiliate fit,
   full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
   "genuinely" in the published body (2 caught and cut).
+- **Ginza's main street has been car-free on weekends since 1970.**
+  20:00 UTC firing. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, ironically, all three teamLab items still
+  without real photos). Checked Chuo ward's small pool (6 photos) and
+  found a real unused photo, the family standing in the middle of a
+  closed-off Ginza street, March 21 2023; the only other unused
+  photo in the pool was a Pokemon Center overflow shot from a visit
+  the existing Pokemon Center post already covers, skipped as a
+  near-duplicate. Rolled length tier 2 (short, 600-800 words) and
+  format 13 (history-led) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-08 as
+  `ginza-hokosha-tengoku-pedestrian-paradise-free`, 631 words, topic
+  `en/free-attractions`. The real hook: Chuo-dori closes to cars
+  every weekend and public holiday, noon-5pm, a tradition called
+  Hokosha Tengoku (Hokoten) dating to August 1970, Japan's first
+  "pedestrian paradise." Solved a real puzzle honestly: the photo is
+  dated a Tuesday, explained by verifying March 21 2023 was Vernal
+  Equinox Day, a genuine Japanese national holiday whose date is
+  recalculated by astronomical observation each February rather than
+  fixed on the calendar. Added real, honestly-hedged "Gin-bura" slang
+  history (two competing, undocumented origin stories) and the
+  annual Gin-bura Festival. Cross-referenced the site's existing
+  Pokemon Center and Sanrio-plush Ginza posts honestly rather than
+  re-deriving Ginza's cost reputation. No specific klook.com activity
+  URL could be confirmed for a Ginza walking tour despite checking,
+  so used AffiliateBox's query-based Klook search link instead of a
+  fabricated deep link (per CLAUDE.md's rule against inventing URLs),
+  and added KlookCodeBox pointing at that same real search URL via
+  `affiliates.klook.searchUrl()` since any Klook link at all requires
+  the code box. Zero uses of "actually" or "genuinely" in the
+  published body.
