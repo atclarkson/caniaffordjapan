@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-05 (20:00 UTC).
+need provenance on a post published before 2026-10-06 (08:00 UTC).
 
 ## Ideas
 
@@ -39,68 +39,6 @@ need provenance on a post published before 2026-10-05 (20:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Kappabashi, Tokyo's free fake-food street.** 20:00 UTC firing.
-  Both priority sources exhausted again (same BLOCKED Ginza sumo
-  idea, all three teamLab items still without real photos). Continued
-  scanning the large Taito pool and found a real, named destination
-  from location coordinates alone: 3 unused October 29 2023 photos
-  geolocated to Nishi-Asakusa 3, matching Kappabashi Dougu-gai, the
-  famous plastic-food-sample kitchenware street, identified before
-  any caption or alt text confirmed it. Rolled length tier 3
-  (standard, 800-1,000 words) and format 3 (question title, build to
-  a verdict) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-05 as `kappabashi-kitchen-town-plastic-food-samples-worth-it`,
-  846 words, topic `en/free-attractions`. Verified real details via
-  web search: the free 800 meter, ~170-shop street between Ueno and
-  Asakusa, its kappa-folklore name origin, real souvenir/workshop
-  pricing (500 yen keychains up to 100,000 yen full pieces, 2,500 yen
-  40-minute workshops), the Niimi building's 11-meter 1982 chef-head
-  landmark, and the real 1932 Takizo Iwasaki wax-omurice origin story
-  behind the whole sampuru industry. Found a real, bookable Klook
-  listing for a food-sample-making workshop in nearby Asakusa
-  (activity 133025), full AffiliateBox and KlookCodeBox. Zero uses of
-  "actually" or "genuinely" in the published body (3 caught and cut
-  from drafts, first pass ran short at 489 words and was expanded
-  honestly with the Iwasaki origin-story section and a getting-there
-  section, rather than padding).
-- **Tokyo Skytree, a real gap in the site's own coverage.** 02:00 UTC
-  firing (2026-10-06). Before starting, this file was at 396 lines,
-  right at the house-lint cap; moved the two oldest "Done" entries
-  (Osaka Castle vs Tsutenkaku through Klook Pass Tokyo vs Kansai) into
-  `docs/blog-ideas-archive-3.md` rather than waiting for an actual
-  overflow. After adding this entry the file hit 403 lines, over the
-  cap again; moved one more entry (Cherry Blossoms vs Hydrangeas) into
-  the same archive file, now at 358 lines and will need its own
-  `-4.md` split soon. Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all
-  three teamLab items still without real photos). Checked Katsushika's
-  remaining thin clusters, a Hanakawado night-bridge photo, and a
-  near-duplicate Senso-ji pagoda night shot before noticing the site
-  had never actually published a dedicated Tokyo Skytree post despite
-  it appearing in the background of an existing street-kart post, a
-  real coverage gap worth filling directly. Found 2 unused night
-  photos of Skytree lit in a special illumination pattern (Nov 30
-  2023, from the family's own apartment window). Rolled length tier 2
-  (short, 600-800 words) and format 13 (history-led) from CLAUDE.md's
-  system, no reroll needed. Published 2026-10-06 as
-  `tokyo-skytree-tembo-deck-ticket-price-cost`, 625 words, topic
-  `en/towers-observation-decks`. Verified real history via web search:
-  the 634.0 meter height as deliberate wordplay on "Musashi," the
-  region's old province name; construction 2006-2012, 585,000
-  workers, completed on a leap day; built specifically because Tokyo
-  Tower's 332.9 meters could no longer clear newer high-rises for
-  digital broadcasting, fully taking over broadcasting duties in 2013
-  (cross-referenced the site's existing Tokyo Tower post's height
-  figure for consistency rather than re-deriving it). Verified real
-  current dynamic pricing (in effect since April 2026): Tembo Deck
-  1,800-2,300 yen adult, combo with Tembo Galleria 3,000-3,800 yen,
-  kids from 900/1,500 yen, plus a 500 yen walk-up counter fee. Honestly
-  flagged the illumination pattern in the photo as unidentified rather
-  than guessing which campaign it marked. Real bookable Klook listing
-  (activity 41352), full AffiliateBox and KlookCodeBox. Zero uses of
-  "actually" or "genuinely" in the published body, first pass ran
-  short at 484 words and was expanded honestly with the Tokyo Tower
-  broadcasting-handover section rather than padding.
 - **The Asahi "golden poop" building, and the real Sumida River
   cruise next to it.** 08:00 UTC firing. After adding this entry the
   file hit 405 lines, over the cap; moved the Heiwa no Mori Park
@@ -385,3 +323,41 @@ need provenance on a post published before 2026-10-05 (20:00 UTC).
   it's the same real bookable ticket, full AffiliateBox and
   KlookCodeBox. Zero uses of "actually" or "genuinely" in the
   published body (3 caught and cut from drafts).
+- **A Mario welcome sign and a paid lounge at Narita Airport.** 14:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Checked Sakai (all remaining unused photos overflow from
+  the already-covered Lindsay's-40th teppanyaki dinner and Round1),
+  then found a genuinely untouched city: Narita, 10 photos, mostly
+  flight/departure shots already covered by an existing post, but 2
+  real unused photos stood out, a Mario-themed "Welcome to Japan"
+  escalator display (May 2024) and a paid airport lounge stop
+  (December 2023, different trip). Rolled length tier 6 (extended
+  feature, 1,600-2,000 words) and format 5 (narrative-first, cost as
+  payoff) from CLAUDE.md's system, no reroll needed. Tier 6 didn't
+  fully hold up: even after substantial real research (Narita's
+  Sanrizuka Struggle history, the still-unresolved Takao Shito
+  farmland holdout, real lounge and transit pricing, a real Klook
+  Skyliner listing), 2 photos topped out at 985 words honestly,
+  documented here rather than padding further. Published 2026-10-08
+  as `narita-airport-mario-sign-lounge-history-transit-cost`, topic
+  `en/transit`. Honestly hedged the Mario sign: web search confirmed
+  only a real but temporary 2-day June 2022 Nintendo Check In
+  promotion, not a permanent fixture, so the post says plainly we
+  can't confirm whether our May 2024 photo shows the same display
+  extended, a second run, or something else entirely. Honestly
+  ranged the lounge cost too (1,600-13,200 yen depending on lounge
+  and airline) since the specific lounge in the photo isn't
+  identifiable. Added real, verified Sanrizuka Struggle history
+  (1966 opposition league founding, 3 police deaths in a 1971
+  expropriation, the March 1978 control tower occupation delaying
+  opening roughly 2 months) and the real, still-unresolved Takao
+  Shito case (a farmer's land forcing runway B's taxiway to bend
+  around his plot, a 2022 eviction order, 2023 skirmishes, current
+  status unconfirmed past early 2023, said so plainly). Added real
+  current transit pricing across 4 real options (Skyliner, Narita
+  Express, limousine bus, and the budget Keisei-plus-JR-transfer
+  combo). Found a real, well-established Klook Skyliner listing
+  (activity 1410, 3M+ booked) to add as a genuine affiliate fit,
+  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut).
