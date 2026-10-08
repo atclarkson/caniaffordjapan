@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-05 (14:00 UTC).
+need provenance on a post published before 2026-10-05 (20:00 UTC).
 
 ## Ideas
 
@@ -39,39 +39,6 @@ need provenance on a post published before 2026-10-05 (14:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Tiger Gyoza Hall, Asakusa, how recent gyoza actually is.** 14:00
-  UTC firing. After adding this entry the file briefly hit 402 lines,
-  over the house-lint cap; moved the oldest remaining "Done" entry
-  (Osaka Castle vs Tsutenkaku) into `docs/blog-ideas-archive-3.md`
-  (now at 302 lines) to get back under it. Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Continued scanning the large
-  Taito pool and found a real,
-  named restaurant in an early-trip cluster: Tiger Gyoza Hall in
-  Asakusa, October 24 2023, identified from a tiger mural visible in
-  3 unused photos. Rolled length tier 4 (long, 1,000-1,300 words)
-  and format 4 (myth-correction) from CLAUDE.md's system, no reroll
-  needed, a clean fit after the format struggled to find real
-  material in several earlier firings. Published 2026-10-05 as
-  `tiger-gyoza-hall-asakusa-gyoza-history-cost`, 1,041 words, topic
-  `en/budget-food`. The real correction: gyoza feels like an ancient
-  part of Japanese cuisine but only became a Japanese staple after
-  WWII, brought back by repatriates returning from Manchuria in the
-  late 1940s. Verified the restaurant's real signature Banana Gyoza
-  (named for shape, not flavor) and real pricing (~1,000 yen a meal,
-  11:30am-10:30pm, 3 min from Tawaramachi or Asakusa stations) via
-  web search. Added real, honestly-hedged history on Utsunomiya's
-  "Gyoza City" branding (a popular but unproven 14th Division/
-  Manchuria origin legend, an actual 1990 civic marketing campaign
-  behind the "highest consumption" claim) and a note on frozen
-  supermarket gyoza's everyday ubiquity today. Cross-referenced the
-  site's two existing Osaka gyoza posts honestly, a different city
-  and restaurant rather than a near-duplicate. No AffiliateBox, a
-  sit-down restaurant meal isn't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (4 caught and cut
-  from drafts, first pass ran short at 663 words and was expanded
-  honestly with the Utsunomiya history section and the frozen-gyoza
-  ubiquity section, rather than padding).
 - **Kappabashi, Tokyo's free fake-food street.** 20:00 UTC firing.
   Both priority sources exhausted again (same BLOCKED Ginza sumo
   idea, all three teamLab items still without real photos). Continued
@@ -383,3 +350,38 @@ need provenance on a post published before 2026-10-05 (14:00 UTC).
   bookable (an apartment view, two unnamed casual restaurants). Zero
   uses of "actually" or "genuinely" in the published body (2 caught
   and cut from drafts).
+- **Is DisneySea's theming worth it without riding anything.** 08:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Scanned the Urayasu pool (21 photos) and found 2 real
+  unused photos from a September 2025 DisneySea day, distinct from
+  what the existing Beast's Castle, ticket-price, and extra-costs
+  posts already used: Arabian Coast's domed architecture and Mount
+  Prometheus, the park's volcano, lit up at night. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 3 (question
+  title, build to a verdict) from CLAUDE.md's system, no reroll
+  needed. Published 2026-10-08 as
+  `disneysea-ports-of-call-theming-worth-it-without-rides`, 918
+  words (landed short of tier 5's floor, 2 photos genuinely couldn't
+  stretch further without restating facts, said so here rather than
+  padding), topic `en/theme-parks`. The real hook: DisneySea has no
+  "lands" like every other Disney park, just 7 original fictional
+  "ports of call," opened 2001-09-04 after roughly 3 years of
+  construction at a real 335 billion yen cost. Added real Mount
+  Prometheus detail (189 feet, 750,000 sq ft of sculpted rockwork,
+  10 rocket boosters producing real 50-foot flames, houses 2 real
+  rides) and real Fantasy Springs detail (the 2024 eighth port, 320
+  billion yen, 140,000 sqm, Frozen/Tangled/Peter Pan themed areas)
+  including the one detail that directly answers the post's own
+  question: a standard ticket gives free walking access to the
+  whole Fantasy Springs area, only the 3 specific rides inside cost
+  extra (2,000 yen each via Premier Access). Added real, honestly
+  caveated 2024 attendance context (12.4 million visitors, 7th most
+  visited theme park worldwide per independent estimates, Disney
+  itself publishes no official park-level figures). Cross-referenced
+  the site's existing Disney-vs-USJ ticket pricing (7,900-10,900 yen)
+  honestly rather than re-deriving it. Reused the existing Tokyo
+  Disney Resort 1-Day Passport Klook listing (activity 695) since
+  it's the same real bookable ticket, full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (3 caught and cut from drafts).

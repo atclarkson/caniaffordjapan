@@ -251,3 +251,36 @@ one past the cap.
   body (2 caught and cut from drafts, first pass ran short at 554
   words and was expanded honestly with the missing-ingredients
   section rather than padding).
+- **Tiger Gyoza Hall, Asakusa, how recent gyoza actually is.** 14:00
+  UTC firing. After adding this entry the file briefly hit 402 lines,
+  over the house-lint cap; moved the oldest remaining "Done" entry
+  (Osaka Castle vs Tsutenkaku) into `docs/blog-ideas-archive-3.md`
+  (now at 302 lines) to get back under it. Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Continued scanning the large
+  Taito pool and found a real,
+  named restaurant in an early-trip cluster: Tiger Gyoza Hall in
+  Asakusa, October 24 2023, identified from a tiger mural visible in
+  3 unused photos. Rolled length tier 4 (long, 1,000-1,300 words)
+  and format 4 (myth-correction) from CLAUDE.md's system, no reroll
+  needed, a clean fit after the format struggled to find real
+  material in several earlier firings. Published 2026-10-05 as
+  `tiger-gyoza-hall-asakusa-gyoza-history-cost`, 1,041 words, topic
+  `en/budget-food`. The real correction: gyoza feels like an ancient
+  part of Japanese cuisine but only became a Japanese staple after
+  WWII, brought back by repatriates returning from Manchuria in the
+  late 1940s. Verified the restaurant's real signature Banana Gyoza
+  (named for shape, not flavor) and real pricing (~1,000 yen a meal,
+  11:30am-10:30pm, 3 min from Tawaramachi or Asakusa stations) via
+  web search. Added real, honestly-hedged history on Utsunomiya's
+  "Gyoza City" branding (a popular but unproven 14th Division/
+  Manchuria origin legend, an actual 1990 civic marketing campaign
+  behind the "highest consumption" claim) and a note on frozen
+  supermarket gyoza's everyday ubiquity today. Cross-referenced the
+  site's two existing Osaka gyoza posts honestly, a different city
+  and restaurant rather than a near-duplicate. No AffiliateBox, a
+  sit-down restaurant meal isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (4 caught and cut
+  from drafts, first pass ran short at 663 words and was expanded
+  honestly with the Utsunomiya history section and the frozen-gyoza
+  ubiquity section, rather than padding).
