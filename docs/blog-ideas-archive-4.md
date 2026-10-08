@@ -219,3 +219,35 @@ one past the cap.
   honestly with the Iriya history section, a packing/logistics
   section, and a longer three-way park comparison, rather than
   padding).
+- **Thanksgiving in a Tokyo apartment, chicken instead of turkey.**
+  08:00 UTC firing. After publishing, this file hit exactly 400
+  lines, the house-lint cap; moved the oldest remaining "Done" entry
+  (Captain Line ferry) into `docs/blog-ideas-archive-3.md` (now at
+  268 lines) to leave margin for the next firing rather than sitting
+  right at the limit. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). Continued scanning the large Taito pool and found a
+  rich 8-photo unused cluster: November 23 2023, Thanksgiving Day
+  itself, Lindsay's parents visiting and a full holiday meal cooked
+  in the family's small Taito apartment kitchen. A genuinely
+  different kind of post for the site, a real-life-abroad grocery
+  and cooking story rather than an attraction or restaurant, in the
+  vein of the existing eye-exam and haircut posts. Rolled length
+  tier 2 (short, 600-800 words) and format 5 (narrative-first, cost
+  as payoff) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-05 as `thanksgiving-dinner-tokyo-apartment-turkey-chicken-cost`,
+  712 words, topic `en/unexpected-costs`. Verified real current
+  turkey pricing in Japan via web search before writing: not a
+  standard supermarket item, available only through specialty
+  importers (Costco, National Azabu, Nissin World Delicatessen, The
+  Meat Guy, The Flying Pig), running roughly 8,000 yen for a small
+  2kg bird up to 11,000-12,000+ yen for a large one. Added a second
+  real detail, canned cranberry sauce and pie-ready canned pumpkin
+  also aren't standard supermarket stock, found instead at
+  import-focused chains like Kaldi and Seijo Ishii, with kabocha
+  flagged honestly as a real but different pumpkin substitute. No
+  AffiliateBox, home cooking and grocery shopping aren't Klook/GYG
+  bookable. Zero uses of "actually" or "genuinely" in the published
+  body (2 caught and cut from drafts, first pass ran short at 554
+  words and was expanded honestly with the missing-ingredients
+  section rather than padding).

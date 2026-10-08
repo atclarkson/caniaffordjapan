@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-05 (08:00 UTC).
+need provenance on a post published before 2026-10-05 (14:00 UTC).
 
 ## Ideas
 
@@ -39,38 +39,6 @@ need provenance on a post published before 2026-10-05 (08:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Thanksgiving in a Tokyo apartment, chicken instead of turkey.**
-  08:00 UTC firing. After publishing, this file hit exactly 400
-  lines, the house-lint cap; moved the oldest remaining "Done" entry
-  (Captain Line ferry) into `docs/blog-ideas-archive-3.md` (now at
-  268 lines) to leave margin for the next firing rather than sitting
-  right at the limit. Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all three teamLab items still without
-  real photos). Continued scanning the large Taito pool and found a
-  rich 8-photo unused cluster: November 23 2023, Thanksgiving Day
-  itself, Lindsay's parents visiting and a full holiday meal cooked
-  in the family's small Taito apartment kitchen. A genuinely
-  different kind of post for the site, a real-life-abroad grocery
-  and cooking story rather than an attraction or restaurant, in the
-  vein of the existing eye-exam and haircut posts. Rolled length
-  tier 2 (short, 600-800 words) and format 5 (narrative-first, cost
-  as payoff) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-05 as `thanksgiving-dinner-tokyo-apartment-turkey-chicken-cost`,
-  712 words, topic `en/unexpected-costs`. Verified real current
-  turkey pricing in Japan via web search before writing: not a
-  standard supermarket item, available only through specialty
-  importers (Costco, National Azabu, Nissin World Delicatessen, The
-  Meat Guy, The Flying Pig), running roughly 8,000 yen for a small
-  2kg bird up to 11,000-12,000+ yen for a large one. Added a second
-  real detail, canned cranberry sauce and pie-ready canned pumpkin
-  also aren't standard supermarket stock, found instead at
-  import-focused chains like Kaldi and Seijo Ishii, with kabocha
-  flagged honestly as a real but different pumpkin substitute. No
-  AffiliateBox, home cooking and grocery shopping aren't Klook/GYG
-  bookable. Zero uses of "actually" or "genuinely" in the published
-  body (2 caught and cut from drafts, first pass ran short at 554
-  words and was expanded honestly with the missing-ingredients
-  section rather than padding).
 - **Tiger Gyoza Hall, Asakusa, how recent gyoza actually is.** 14:00
   UTC firing. After adding this entry the file briefly hit 402 lines,
   over the house-lint cap; moved the oldest remaining "Done" entry
@@ -374,3 +342,44 @@ need provenance on a post published before 2026-10-05 (08:00 UTC).
   for a post centered on a family dinner with five kids, skipped it
   rather than forcing an unrelated link in. Zero uses of "actually"
   or "genuinely" in the published body (2 caught and cut).
+- **An ordinary evening in Chiba: a free Mount Fuji view, pizza, and
+  a beer.** 02:00 UTC firing (2026-10-08). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Kawasaki's remaining
+  Nihon Minkaen-adjacent cluster (two existing posts already cover
+  that site thoroughly, including a "travel friends" meetup with no
+  real cost angle), Bunkyo (Tokyo Dome overflow already covered
+  twice, one thin unrelated train selfie), and Minato (teamLab
+  Borderless and Tokyo Tower overflow, both already covered)
+  before finding a real, previously untouched city: Chiba, a
+  December 2023 apartment stay, 4 unused photos across two separate
+  evenings. Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 10 (budget-tier framing) from CLAUDE.md's
+  system. Neither fit: tier 6 would have required inventing detail
+  for an evening with no receipts and no named venues, and format 10
+  needs a cheap-vs-splurge pair of the same thing, which this mixed
+  material (a view, a pizza, a beer) doesn't have. Rerolled format
+  once per CLAUDE.md's allowance, landed on format 14 (direct
+  address). For length, picked different, broader material instead
+  of forcing the original single-photo idea (a Fuji view alone)
+  into tier 6, then still landed well short of even that broadened
+  tier 6 roll once drafted honestly, said so here rather than
+  padding. Published 2026-10-08 as
+  `chiba-apartment-pizza-beer-mount-fuji-view-cost`, 634 words (tier
+  2 territory), topic `en/unexpected-costs`. Verified Mount Fuji's
+  real visibility from Chiba via web search: roughly 120-130 km
+  straight-line distance, confirmed by multiple sources plus a
+  direct coordinate estimate, the Boso Peninsula's low elevation
+  giving an unobstructed sightline, winter air clarity helping.
+  Found a second unused photo from the same window showing an
+  unidentified industrial night scene and said plainly we don't know
+  what it is rather than guessing a landmark. No receipts for the
+  pizza or the beer, researched real honest benchmarks instead: casual
+  Japanese pizza spots commonly run 1,200-2,500 yen (with the real
+  "Japanese large equals Western medium" sizing quirk flagged), and
+  Tokyo's own government CPI "beer, eating out" index at 667 yen for
+  January 2026, clearly labeled as an index figure rather than a
+  specific menu price. No AffiliateBox, nothing on the page is
+  bookable (an apartment view, two unnamed casual restaurants). Zero
+  uses of "actually" or "genuinely" in the published body (2 caught
+  and cut from drafts).
