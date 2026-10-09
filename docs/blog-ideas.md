@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-06 (20:00 UTC).
+need provenance on a post published before 2026-10-07 (02:00 UTC).
 
 ## Ideas
 
@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-06 (20:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A free Easter market near Osaka Castle, found by accident.** 02:00
-  UTC firing (2026-10-07). Before starting, this file was at 396
-  lines, right at the house-lint cap; moved the two oldest "Done"
-  entries (Chunichi Dragons through Shinjuku Gyoen) into
-  `docs/blog-ideas-archive-4.md` (now at 122 lines) rather than
-  waiting for an actual overflow. Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). The prior 20:00 UTC (2026-10-06) firing never
-  completed a post, picked back up here rather than losing the lead:
-  pivoted to the Osaka pool (99 photos) after Taito was declared
-  exhausted, and found 2 real unused photos, April 5 2026, geolocated
-  to Hoenzaka/Uehonmachi-nishi, Osaka, an unnamed neighborhood pop-up
-  with bunny ears and a person in a full pink rabbit costume. Rolled
-  length tier 6 (extended feature, 1,600-2,000 words) and format 5
-  (narrative-first, cost as payoff) from CLAUDE.md's system. Tier 6
-  didn't hold up honestly: a single unnamed afternoon market with 2
-  photos and no official details couldn't reach 1,600 words without
-  inventing detail or restating facts, so it landed at 1,126 words
-  instead (said so here per CLAUDE.md's own guidance rather than
-  padding to the rolled tier). Published 2026-10-07 as
-  `easter-market-near-osaka-castle-japan-holiday`, topic
-  `en/free-attractions`. The real angle: Easter isn't a public
-  holiday in Japan and never has been, no religious footprint here,
-  but it shows up anyway in pieces, real examples verified via web
-  search (Nestle Japan's bunny-packaged Easter KitKat 12-pack at 540
-  yen, Universal Studios Japan's seasonal "Universal Easter
-  Celebration" included in regular gate admission). Found via
-  geolocation that the market sat under a kilometer, about 820
-  meters, from Osaka Castle (calculated directly from both locations'
-  coordinates), and added a genuinely separate real fact to explain
-  the timing: Ogimachi Park's own real Sakura Festival ran the exact
-  same weekend, April 3-5 2026, a different park a few kilometers
-  away, showing spring pop-up markets are common in Osaka regardless
-  of Easter. Cross-referenced the site's existing Osaka Castle post's
-  real 1,200 yen tower admission and existing Disney-vs-USJ post's
-  real USJ gate pricing (8,900-11,900 yen adult) honestly rather than
-  re-deriving either. Reused the existing Osaka Castle ticket Klook
-  listing (activity 30110) since the castle is a genuine nearby paid
-  option, full AffiliateBox and KlookCodeBox. Zero uses of "actually"
-  or "genuinely" in the published body (4 caught and cut from drafts,
-  two in headings simplified away rather than reworded).
 - **The home birthday party nobody photographed for the USJ post.**
   08:00 UTC firing. Both priority sources exhausted again (same
   BLOCKED Ginza sumo idea, all three teamLab items still without
@@ -384,3 +343,36 @@ need provenance on a post published before 2026-10-06 (20:00 UTC).
   activity, and the relevant affiliate link already lives on the
   post this one cross-references. Zero uses of "actually" or
   "genuinely" in the published body (1 caught and cut from a draft).
+- **Japan's clear vinyl umbrella, real history and lost-and-found
+  numbers.** 08:00 UTC firing (2026-10-09). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Urayasu's remaining
+  Disneyland/DisneySea material (castle and tree-stump photos, all
+  risking heavy overlap with the existing ticket-price, extra-costs,
+  Beast's Castle, and DisneySea-ports posts) before pivoting to a
+  single real unused Osaka photo near the family's own apartment: a
+  rainy-night street walk under a clear vinyl umbrella, no
+  identifiable landmark. Rolled length tier 5 (deep dive, 1,300-1,600
+  words) and format 15 (plain declarative) from CLAUDE.md's system,
+  no reroll needed. Published 2026-10-09 as
+  `japan-clear-vinyl-umbrella-cost-history-lost-and-found`, 825
+  words (landed short of tier 5, an everyday object with one photo
+  and no attraction genuinely couldn't stretch further without
+  padding even after real research, said so here), topic
+  `en/unexpected-costs`. The real material: wagasa, Japan's
+  pre-plastic oiled-paper folding umbrella, real Edo-period history
+  (Gifu alone shipping an estimated 520,000 a year to Edo at its
+  peak, a single umbrella taking months to make but lasting up to a
+  decade) and its real Meiji-era decline once Western umbrellas
+  arrived. Added the clear umbrella's own honestly-hedged origin (two
+  competing, undocumented 1958 stories), real current convenience
+  store pricing (300-1,000 yen), real konbini restocking behavior at
+  the first sign of rain, and real, striking lost-and-found numbers:
+  Tokyo police took in roughly 300,000 umbrellas in one recent year
+  with only 3,700 ever reclaimed (about 1 percent), Nagoya Railroad's
+  FY2025 figures showing a similar pattern. Added real umbrella
+  vending/rental-machine options (roughly 500 yen to buy, or a real
+  Tokyo sharing service at 140 yen/24hr or 280 yen/month). No
+  AffiliateBox, an everyday umbrella isn't Klook/GYG bookable. Zero
+  uses of "actually" or "genuinely" in the published body (5 caught
+  and cut from drafts).

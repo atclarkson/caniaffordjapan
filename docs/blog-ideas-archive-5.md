@@ -69,3 +69,44 @@ one past the cap.
   published body (2 caught and cut from drafts, first pass ran short
   at 519 words and was expanded honestly with the tax-free
   cross-reference and the bevel-type section, rather than padding).
+- **A free Easter market near Osaka Castle, found by accident.** 02:00
+  UTC firing (2026-10-07). Before starting, this file was at 396
+  lines, right at the house-lint cap; moved the two oldest "Done"
+  entries (Chunichi Dragons through Shinjuku Gyoen) into
+  `docs/blog-ideas-archive-4.md` (now at 122 lines) rather than
+  waiting for an actual overflow. Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). The prior 20:00 UTC (2026-10-06) firing never
+  completed a post, picked back up here rather than losing the lead:
+  pivoted to the Osaka pool (99 photos) after Taito was declared
+  exhausted, and found 2 real unused photos, April 5 2026, geolocated
+  to Hoenzaka/Uehonmachi-nishi, Osaka, an unnamed neighborhood pop-up
+  with bunny ears and a person in a full pink rabbit costume. Rolled
+  length tier 6 (extended feature, 1,600-2,000 words) and format 5
+  (narrative-first, cost as payoff) from CLAUDE.md's system. Tier 6
+  didn't hold up honestly: a single unnamed afternoon market with 2
+  photos and no official details couldn't reach 1,600 words without
+  inventing detail or restating facts, so it landed at 1,126 words
+  instead (said so here per CLAUDE.md's own guidance rather than
+  padding to the rolled tier). Published 2026-10-07 as
+  `easter-market-near-osaka-castle-japan-holiday`, topic
+  `en/free-attractions`. The real angle: Easter isn't a public
+  holiday in Japan and never has been, no religious footprint here,
+  but it shows up anyway in pieces, real examples verified via web
+  search (Nestle Japan's bunny-packaged Easter KitKat 12-pack at 540
+  yen, Universal Studios Japan's seasonal "Universal Easter
+  Celebration" included in regular gate admission). Found via
+  geolocation that the market sat under a kilometer, about 820
+  meters, from Osaka Castle (calculated directly from both locations'
+  coordinates), and added a genuinely separate real fact to explain
+  the timing: Ogimachi Park's own real Sakura Festival ran the exact
+  same weekend, April 3-5 2026, a different park a few kilometers
+  away, showing spring pop-up markets are common in Osaka regardless
+  of Easter. Cross-referenced the site's existing Osaka Castle post's
+  real 1,200 yen tower admission and existing Disney-vs-USJ post's
+  real USJ gate pricing (8,900-11,900 yen adult) honestly rather than
+  re-deriving either. Reused the existing Osaka Castle ticket Klook
+  listing (activity 30110) since the castle is a genuine nearby paid
+  option, full AffiliateBox and KlookCodeBox. Zero uses of "actually"
+  or "genuinely" in the published body (4 caught and cut from drafts,
+  two in headings simplified away rather than reworded).
