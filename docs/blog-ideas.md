@@ -39,46 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Tokyo Solamachi, the free mall Skytree's own ticket post never
-  covered.** 14:00 UTC firing. Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Checked Nara (7-photo pool, but 5 of 7
-  already used by the existing dedicated Nara post, the 2 remaining
-  unused photos same-day near-duplicates of what's published,
-  skipped), Shibuya (25 photos, nearly all from the already-covered
-  otter cafe visit), and Katsushika's remaining unused clusters
-  (previewed 11 candidates, all either Father's Day cards, a
-  railway crossing, home-life ephemera, or extra Harper's-birthday
-  shots already covered, confirmed thin via `preview_photo` rather
-  than trusting alt-text alone) before finding 3 real unused Sumida
-  photos geolocated to Oshiage, right at Skytree's own base: cherry
-  blossoms framing the tower (March 2023), a beer at street level
-  (June 2024), and the Kura Sushi flagship's lantern walkway (June
-  2024), 3 separate real visits. Rolled length tier 4 (long,
-  1,000-1,300 words) and format 11 (time/season anchored) from
-  CLAUDE.md's system; format 11 didn't fit material spanning 3
-  different real visits over 15 months rather than one anchored day,
-  rerolled once per CLAUDE.md's allowance and landed on format 13
-  (history-led). Published 2026-10-07 as
-  `tokyo-solamachi-free-shopping-kura-sushi-skytree-base`, 977 words
-  (just under the tier 4 floor, genuinely couldn't stretch further
-  without padding, said so here), topic `en/towers-observation-decks`.
-  The real hook: Tokyo Solamachi (312 shops, free admission) opened
-  the exact same day as the tower itself, May 22 2012, not a later
-  add-on. Verified Kura Sushi's Oshiage flagship is a real title
-  holder, the world's largest conveyor-belt sushi restaurant (834
-  sqm, 277 seats, 2 floors), real 110-150 yen plate pricing, and a
-  location-specific Bikkura Pon detail (two capsule toys per 5
-  plates here, versus the usual one elsewhere). Added real Sumida
-  Aquarium (2,700 yen adult) and Planetarium Tenku (1,500 yen adult)
-  pricing as the "what else costs money here" cross-reference, and
-  the real free Jikkenbashi reflection-photo bridge (built 1939) for
-  the ground-level Skytree view. Cross-referenced the existing
-  Skytree ticket post's dynamic pricing honestly rather than
-  re-deriving it, reused the same real Klook activity listing
-  (41352) since it's the same tower's ticket, full AffiliateBox and
-  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
-  published body (2 caught and cut from section headings).
 - **A West Shinjuku izakaya dinner, crab and melon soda, no
   receipt.** 20:00 UTC firing. Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -382,3 +342,48 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Flamme d'Or post's Sumida River cruise link instead of duplicating
   either. Zero uses of "actually" or "genuinely" in the published body
   (2 caught and cut from drafts).
+- **JR Haruka vs Nankai Rapi:t, the two trains to Kansai Airport.**
+  20:00 UTC firing (2026-10-09). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked two never-before-explored city pools,
+  Ota (4 unused photos, but all but one were overflow from the
+  already-covered Heiwa no Mori Park post, the remaining one a
+  same-location same-day near-duplicate, skipped) and Sumida ward
+  itself (the one unused standout, a grandparents-and-Skytree night
+  photo from the same November 17 2023 visit as this site's just-
+  published Sumida River Walk post, skipped to avoid repeating the
+  same day's story twice in one day), before finding 2 real unused
+  photos in a brand new, never-covered location: Tajiri, the town
+  Kansai Airport itself sits in, dated May 5 2026, a real departure
+  day flying out to Vietnam on a Vietnam Airlines premium cabin seat.
+  Rolled length tier 5 (deep dive, 1,300-1,600 words) and format 6
+  (head-to-head comparison) from CLAUDE.md's system, no reroll
+  needed, a genuine real comparison existed (Haruka vs Rapi:t is an
+  established real travel-guide comparison, confirmed independently
+  via search). Published 2026-10-09 as
+  `haruka-vs-rapit-kansai-airport-train-cost`, 1,271 words (landed
+  just under tier 5's floor after three genuine expansions, a KIX
+  engineering-history section, a departure-tax section, and a
+  family-of-5 cost table, two photos with no transit receipt
+  couldn't stretch further without padding, said so here), topic
+  `en/transit`. No receipt for which train the family actually took
+  that morning, said so plainly rather than guessing, and researched
+  real current fares for both instead: Nankai Rapi:t from Namba
+  (1,490-1,700 yen, April 2026 revision, most reliable figures
+  found), JR Haruka from Shin-Osaka/Kyoto (genuinely disputed across
+  sources, 1,830 to 3,000+ yen, hedged honestly, plus the real
+  foreign-visitor 1,800 yen discount ticket and the ICOCA&HARUKA
+  3,000 yen bundle), the cheaper Nankai Airport Express (970 yen,
+  no reservation), and the limousine bus (also disputed, 1,000-1,880
+  yen). Added real Kansai Airport history (opened September 4 1994,
+  built on an artificial island, Renzo Piano's Terminal 1, the
+  island's real, well documented ongoing sinking problem) and Japan's
+  real International Tourist Tax (1,000 yen per departing passenger
+  since January 2019, folded into airfare). Found a real, independently
+  corroborated Klook listing for the limousine bus (activity 18203,
+  4.8 stars, 7,700+ reviews, confirmed across 3 separate Klook locale
+  URLs in search results after a direct fetch was blocked), full
+  AffiliateBox and KlookCodeBox, verified the real redirect URL and
+  ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
+  Zero uses of "actually" or "genuinely" in the published body (4
+  caught and cut from drafts).
