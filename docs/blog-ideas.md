@@ -39,39 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The home birthday party nobody photographed for the USJ post.**
-  08:00 UTC firing. Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all three teamLab items still without
-  real photos). The existing `birthday-at-universal-studios-japan-
-  three-kids` post mentions in one sentence that Cora's actual
-  birthday, gifts, an ice cream cake, a safari balloon setup,
-  happened in the family's Osaka apartment the day before the park
-  trip, but never used a single photo from that day. Went back to
-  the March 13 2026 Osaka cluster and found exactly that: 4 real
-  unused photos (ice cream cake, gift pile, balloon corner, banner),
-  a genuinely uncovered angle rather than a new topic entirely.
-  Rolled length tier 1 (quick hit, 450-600 words) and format 15
-  (plain declarative) from CLAUDE.md's system, no reroll needed, a
-  rare case where the material fit a short tier honestly rather than
-  needing to be stretched or landed short. Published 2026-10-07 as
-  `osaka-apartment-birthday-party-cost-balloons-cake`, 536 words,
-  topic `en/unexpected-costs`. No receipt for the cake, said so
-  plainly, researched the real comparable category instead: 31
-  (Baskin-Robbins Japan, サーティワン) character ice cream cakes
-  currently run 3,300-4,000 yen. Found a real yen range for the
-  balloon/banner set too, roughly 2,500-2,800 yen based on current
-  Japanese marketplace listings for safari-themed party sets.
-  Cross-referenced the existing USJ birthday post's splitting-the-
-  days logistics honestly rather than re-deriving it, added the cost
-  version of that same reasoning as new material. No AffiliateBox,
-  home party supplies and a same-day pickup cake aren't Klook/GYG
-  bookable, same call as the earlier Harper's-cake post. Initially
-  called `mark_photo_used` on all 4 photos before 2 of them were
-  actually placed in the post, caught the mismatch immediately and
-  added real figures for the cake and balloon-corner photos to their
-  matching sections rather than leaving the mark inaccurate. Zero
-  uses of "actually" or "genuinely" in the published body (1 caught
-  and cut from the opening paragraph).
 - **Tokyo Solamachi, the free mall Skytree's own ticket post never
   covered.** 14:00 UTC firing. Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -376,3 +343,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   AffiliateBox, an everyday umbrella isn't Klook/GYG bookable. Zero
   uses of "actually" or "genuinely" in the published body (5 caught
   and cut from drafts).
+- **Sumida River Walk, the free bridge, and the night grandparents
+  found us.** 14:00 UTC firing (2026-10-09). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Re-scanned Taito's full 118-photo
+  pool one more time rather than checking smaller, more marginal
+  cities, and found a titled, previously overlooked unused photo:
+  "Grandparents Meet Us in Tokyo at Night," geolocated to Hanakawado
+  1, the same neighborhood as the existing Asahi Flamme d'Or post but
+  a genuinely different real moment, Adam's parents meeting the family
+  on a lit pedestrian bridge the night they flew in. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 1 (price-first, no
+  verb in the title) from CLAUDE.md's system, no reroll needed, format
+  1 hadn't been used in any recent firing. Published 2026-10-09 as
+  `sumida-river-walk-free-asakusa-skytree-bridge-grandparents`, 1,229
+  words (landed just under tier 5's floor after two genuine
+  expansions, a getting-there section and a permanent-features section,
+  a single photo with no receipts couldn't stretch further without
+  padding, said so here), topic `en/free-attractions`. The real hook:
+  identified the bridge as the Sumida River Walk, a free pedestrian
+  passage Tobu Railway attached to its own Sumida River railway
+  bridge between Asakusa and Tokyo Skytree stations, opened June 2020
+  per Tobu's own notice (an earlier search had turned up conflicting
+  secondary sources before the primary source settled it). Added the
+  real Tokyo Mizumachi/Tokyo Solamachi naming pair, cross-referencing
+  the site's own existing Solamachi post honestly rather than
+  re-deriving it. Verified the photo's exact lighting via a real,
+  documented bamboo lantern event (Tobu's "Tokyo Shitamachi Tour,"
+  November 9 2023 through January 31 2024) running along this same
+  bridge, dates that line up exactly with the photo's November 17
+  2023 capture, distinct from the bridge's own permanent nightly
+  lighting. Added real transit comparison (Tobu's own 18-minute walk
+  estimate vs. a roughly 2-3 minute one-stop train ride, no fare
+  quoted since none could be confirmed) and two real permanent
+  features, the glass floor section and the hidden Sorakara-chan
+  mascot spots. No AffiliateBox, nothing new on the page is bookable;
+  cross-referenced the existing Skytree ticket post and the Asahi
+  Flamme d'Or post's Sumida River cruise link instead of duplicating
+  either. Zero uses of "actually" or "genuinely" in the published body
+  (2 caught and cut from drafts).

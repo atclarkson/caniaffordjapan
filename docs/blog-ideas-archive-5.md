@@ -110,3 +110,36 @@ one past the cap.
   option, full AffiliateBox and KlookCodeBox. Zero uses of "actually"
   or "genuinely" in the published body (4 caught and cut from drafts,
   two in headings simplified away rather than reworded).
+- **The home birthday party nobody photographed for the USJ post.**
+  08:00 UTC firing. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). The existing `birthday-at-universal-studios-japan-
+  three-kids` post mentions in one sentence that Cora's actual
+  birthday, gifts, an ice cream cake, a safari balloon setup,
+  happened in the family's Osaka apartment the day before the park
+  trip, but never used a single photo from that day. Went back to
+  the March 13 2026 Osaka cluster and found exactly that: 4 real
+  unused photos (ice cream cake, gift pile, balloon corner, banner),
+  a genuinely uncovered angle rather than a new topic entirely.
+  Rolled length tier 1 (quick hit, 450-600 words) and format 15
+  (plain declarative) from CLAUDE.md's system, no reroll needed, a
+  rare case where the material fit a short tier honestly rather than
+  needing to be stretched or landed short. Published 2026-10-07 as
+  `osaka-apartment-birthday-party-cost-balloons-cake`, 536 words,
+  topic `en/unexpected-costs`. No receipt for the cake, said so
+  plainly, researched the real comparable category instead: 31
+  (Baskin-Robbins Japan, サーティワン) character ice cream cakes
+  currently run 3,300-4,000 yen. Found a real yen range for the
+  balloon/banner set too, roughly 2,500-2,800 yen based on current
+  Japanese marketplace listings for safari-themed party sets.
+  Cross-referenced the existing USJ birthday post's splitting-the-
+  days logistics honestly rather than re-deriving it, added the cost
+  version of that same reasoning as new material. No AffiliateBox,
+  home party supplies and a same-day pickup cake aren't Klook/GYG
+  bookable, same call as the earlier Harper's-cake post. Initially
+  called `mark_photo_used` on all 4 photos before 2 of them were
+  actually placed in the post, caught the mismatch immediately and
+  added real figures for the cake and balloon-corner photos to their
+  matching sections rather than leaving the mark inaccurate. Zero
+  uses of "actually" or "genuinely" in the published body (1 caught
+  and cut from the opening paragraph).
