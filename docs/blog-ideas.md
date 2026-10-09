@@ -14,7 +14,7 @@ The archive files themselves get the same treatment once they fill up,
 start a new `-N.md` rather than letting any single one grow past the cap.
 `docs/blog-ideas-archive.md` (no number) is a stub pointing here, its
 content lives in the numbered files now. Check the archive files if you
-need provenance on a post published before 2026-10-06 (14:00 UTC).
+need provenance on a post published before 2026-10-06 (20:00 UTC).
 
 ## Ideas
 
@@ -39,34 +39,6 @@ need provenance on a post published before 2026-10-06 (14:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A Kappabashi knife, cheap vs splurge.** 14:00 UTC firing. Both
-  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
-  three teamLab items still without real photos). Continued scanning
-  Taito's remaining unused clusters and found a single real knife
-  photo, November 21 2023, geolocated to the same Nishi-Asakusa 3
-  neighborhood as the site's existing Kappabashi plastic-food post,
-  a different visit, a genuinely different Kappabashi product line
-  (kitchen knives, not food samples). Rolled length tier 2 (short,
-  600-800 words) and format 10 (budget-tier framing) from CLAUDE.md's
-  system, no reroll needed. Published 2026-10-06 as
-  `kappabashi-knife-shop-price-cheap-vs-splurge-cost`, 808 words,
-  topic `en/shopping`. No receipt for this specific knife, said so
-  plainly rather than guessing its price tier, and instead researched
-  the real current knife-shop pricing range: 5,000-15,000 yen entry
-  level (Kamata's 5,000 yen bundle with a whetstone and certificate),
-  15,000-40,000 yen professional grade (17,800-23,100 yen stainless
-  santoku pricing across 6 shops, April 2026), and handmade/custom
-  work climbing past 500,000 yen. Cross-referenced the site's
-  existing tax-free shopping post honestly (the 5,000 yen pre-tax
-  minimum lines up with Kappabashi's own cheap tier) rather than
-  re-deriving that system. Added real single-bevel vs double-bevel
-  and santoku ("three virtues") detail. Found a real, directly
-  relevant bookable Klook listing (activity 121829, a knife-store
-  visit paired with a history tour), full AffiliateBox and
-  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
-  published body (2 caught and cut from drafts, first pass ran short
-  at 519 words and was expanded honestly with the tax-free
-  cross-reference and the bevel-type section, rather than padding).
 - **A free Easter market near Osaka Castle, found by accident.** 02:00
   UTC firing (2026-10-07). Before starting, this file was at 396
   lines, right at the house-lint cap; moved the two oldest "Done"
@@ -361,3 +333,54 @@ need provenance on a post published before 2026-10-06 (14:00 UTC).
   `affiliates.klook.searchUrl()` since any Klook link at all requires
   the code box. Zero uses of "actually" or "genuinely" in the
   published body.
+- **Tempozan Bridge's real seasonal lighting colors.** 02:00 UTC
+  firing (2026-10-09). Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). This firing's search was unusually long: checked
+  Yokohama (the one unused photo was another angle of the same
+  illuminated YOKOHAMA sign the existing Cup Noodles/Sankeien post
+  already uses), Koto (the only unused photo was the Unicorn Gundam
+  statue at DiverCity, disqualified outright, the existing Doraemon/
+  Odaiba post already states plainly that statue's display run ended
+  August 31 2026 and writing a fresh "go see it free" post today
+  would be stale, wrong information), Hakone (the remaining unused
+  photos were either Lake Ashi pirate-ship overflow or a weaker
+  angle of the Hakone Shrine floating torii the existing Hakone Free
+  Pass post already covers with a better photo), Uji (all remaining
+  unused photos were overflow from exhibits the existing Nintendo
+  Museum post already shows), Chiyoda and Matsudo (single thin,
+  unidentifiable photos, no real angle) before finding a real lead
+  back in Osaka's own pool: an unused night photo from the family's
+  Osaka apartment window showing both the Tempozan Ferris Wheel and,
+  behind it, a cable-stayed bridge lit entirely pink. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 6 (head-to-head
+  comparison) from CLAUDE.md's system. Format 6 didn't fit once
+  checked against the existing Kaiyukan/Tempozan post, which already
+  covers the Ferris Wheel's real 900 yen price in its own "third
+  option" section, a true head-to-head would have re-derived that
+  rather than adding anything new, so a second AffiliateBox pointing
+  at the same ticket the existing post already covers didn't belong
+  here either. Rerolled format once per CLAUDE.md's allowance,
+  landed on format 15 (plain declarative). Published 2026-10-09 as
+  `tempozan-bridge-seasonal-colors-osaka-free-view`, 695 words
+  (landed well short of tier 5, a single photo of a bridge genuinely
+  couldn't stretch further without padding even after real research,
+  said so here), topic `en/free-attractions`. The real hook,
+  verified via Japanese-language web search after the photo's own AI
+  caption misnamed the bridge: Tempozan Bridge (640m cable-stayed,
+  crossing the Ajikawa River) runs a real, documented seasonal LED
+  lighting scheme, sakura pink in spring, light blue in summer, gold
+  in autumn, warm white in winter, and the photo's April 23 2026 date
+  lines up exactly with its pink spring color. Added real context on
+  why the bridge briefly ran different colors during the 2025 Osaka
+  Expo (a special blue/red/white scheme that ended with the Expo in
+  October 2025) and real history on the Ajikawa River itself (dug
+  1684 as a flood-control channel, became Osaka Port's gateway,
+  the port's own founding dated to July 15 1868). Said plainly that
+  the bridge's own opening year couldn't be confirmed rather than
+  guessing. Cross-referenced the existing Kaiyukan/Tempozan post's
+  real 900 yen Ferris Wheel price honestly instead of re-deriving it.
+  No AffiliateBox, the post is about a free view, not a bookable
+  activity, and the relevant affiliate link already lives on the
+  post this one cross-references. Zero uses of "actually" or
+  "genuinely" in the published body (1 caught and cut from a draft).
