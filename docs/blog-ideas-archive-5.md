@@ -218,3 +218,44 @@ one past the cap.
   for a post centered on a family dinner with five kids, skipped it
   rather than forcing an unrelated link in. Zero uses of "actually"
   or "genuinely" in the published body (2 caught and cut).
+- **An ordinary evening in Chiba: a free Mount Fuji view, pizza, and
+  a beer.** 02:00 UTC firing (2026-10-08). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Kawasaki's remaining
+  Nihon Minkaen-adjacent cluster (two existing posts already cover
+  that site thoroughly, including a "travel friends" meetup with no
+  real cost angle), Bunkyo (Tokyo Dome overflow already covered
+  twice, one thin unrelated train selfie), and Minato (teamLab
+  Borderless and Tokyo Tower overflow, both already covered)
+  before finding a real, previously untouched city: Chiba, a
+  December 2023 apartment stay, 4 unused photos across two separate
+  evenings. Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 10 (budget-tier framing) from CLAUDE.md's
+  system. Neither fit: tier 6 would have required inventing detail
+  for an evening with no receipts and no named venues, and format 10
+  needs a cheap-vs-splurge pair of the same thing, which this mixed
+  material (a view, a pizza, a beer) doesn't have. Rerolled format
+  once per CLAUDE.md's allowance, landed on format 14 (direct
+  address). For length, picked different, broader material instead
+  of forcing the original single-photo idea (a Fuji view alone)
+  into tier 6, then still landed well short of even that broadened
+  tier 6 roll once drafted honestly, said so here rather than
+  padding. Published 2026-10-08 as
+  `chiba-apartment-pizza-beer-mount-fuji-view-cost`, 634 words (tier
+  2 territory), topic `en/unexpected-costs`. Verified Mount Fuji's
+  real visibility from Chiba via web search: roughly 120-130 km
+  straight-line distance, confirmed by multiple sources plus a
+  direct coordinate estimate, the Boso Peninsula's low elevation
+  giving an unobstructed sightline, winter air clarity helping.
+  Found a second unused photo from the same window showing an
+  unidentified industrial night scene and said plainly we don't know
+  what it is rather than guessing a landmark. No receipts for the
+  pizza or the beer, researched real honest benchmarks instead: casual
+  Japanese pizza spots commonly run 1,200-2,500 yen (with the real
+  "Japanese large equals Western medium" sizing quirk flagged), and
+  Tokyo's own government CPI "beer, eating out" index at 667 yen for
+  January 2026, clearly labeled as an index figure rather than a
+  specific menu price. No AffiliateBox, nothing on the page is
+  bookable (an apartment view, two unnamed casual restaurants). Zero
+  uses of "actually" or "genuinely" in the published body (2 caught
+  and cut from drafts).

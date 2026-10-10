@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **An ordinary evening in Chiba: a free Mount Fuji view, pizza, and
-  a beer.** 02:00 UTC firing (2026-10-08). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Checked Kawasaki's remaining
-  Nihon Minkaen-adjacent cluster (two existing posts already cover
-  that site thoroughly, including a "travel friends" meetup with no
-  real cost angle), Bunkyo (Tokyo Dome overflow already covered
-  twice, one thin unrelated train selfie), and Minato (teamLab
-  Borderless and Tokyo Tower overflow, both already covered)
-  before finding a real, previously untouched city: Chiba, a
-  December 2023 apartment stay, 4 unused photos across two separate
-  evenings. Rolled length tier 6 (extended feature, 1,600-2,000
-  words) and format 10 (budget-tier framing) from CLAUDE.md's
-  system. Neither fit: tier 6 would have required inventing detail
-  for an evening with no receipts and no named venues, and format 10
-  needs a cheap-vs-splurge pair of the same thing, which this mixed
-  material (a view, a pizza, a beer) doesn't have. Rerolled format
-  once per CLAUDE.md's allowance, landed on format 14 (direct
-  address). For length, picked different, broader material instead
-  of forcing the original single-photo idea (a Fuji view alone)
-  into tier 6, then still landed well short of even that broadened
-  tier 6 roll once drafted honestly, said so here rather than
-  padding. Published 2026-10-08 as
-  `chiba-apartment-pizza-beer-mount-fuji-view-cost`, 634 words (tier
-  2 territory), topic `en/unexpected-costs`. Verified Mount Fuji's
-  real visibility from Chiba via web search: roughly 120-130 km
-  straight-line distance, confirmed by multiple sources plus a
-  direct coordinate estimate, the Boso Peninsula's low elevation
-  giving an unobstructed sightline, winter air clarity helping.
-  Found a second unused photo from the same window showing an
-  unidentified industrial night scene and said plainly we don't know
-  what it is rather than guessing a landmark. No receipts for the
-  pizza or the beer, researched real honest benchmarks instead: casual
-  Japanese pizza spots commonly run 1,200-2,500 yen (with the real
-  "Japanese large equals Western medium" sizing quirk flagged), and
-  Tokyo's own government CPI "beer, eating out" index at 667 yen for
-  January 2026, clearly labeled as an index figure rather than a
-  specific menu price. No AffiliateBox, nothing on the page is
-  bookable (an apartment view, two unnamed casual restaurants). Zero
-  uses of "actually" or "genuinely" in the published body (2 caught
-  and cut from drafts).
 - **Is DisneySea's theming worth it without riding anything.** 08:00
   UTC firing. Both priority sources exhausted again (same BLOCKED
   Ginza sumo idea, all three teamLab items still without real
@@ -388,3 +347,49 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   than a direct, independently confirmed listing, skipped rather than
   using an unconfirmed link, no AffiliateBox. Zero uses of "actually"
   or "genuinely" in the published body (2 caught and cut from drafts).
+- **Tombori River Cruise, the paid boat view the existing free
+  Dotonbori walk post never covered.** 08:00 UTC firing (2026-10-10).
+  Both priority sources exhausted again (same BLOCKED Ginza sumo
+  idea, all three teamLab items still without real photos). Checked
+  Shibuya, Chuo, Bunkyo, and Minato fully this firing, all confirmed
+  exhausted (otter cafe overflow, already-used Ginza material, three
+  separate Tokyo Dome visits all already covered by 3 existing posts,
+  teamLab Borderless overflow). Checked Katsushika's remaining
+  unused photos in full (home-life ephemera, Father's Day-style
+  drawings, a thin indoor balloon-animal photo geolocated to
+  Shibamata that turned out to significantly overlap the existing
+  Shibamata supermarket post's own Tora-san/Taishakuten history,
+  skipped as a near-duplicate rather than written around) and Narita
+  (unused photos all overlap the existing airport post or repeat
+  yesterday's flying-out-of-Japan theme with a different airport,
+  skipped for thematic repetition). Found the real lead back in
+  Osaka's own 99-photo pool, scanned in full: a real, previously
+  unused June 8 2023 photo on a boat deck in front of the Glico Man
+  sign, a different real visit and a different vantage point than
+  the existing free Dotonbori walk post (which only uses April 2026
+  street-level photos). Confirmed via alt text and research this is
+  the Tombori River Cruise, a real paid boat tour, genuinely distinct
+  from the free walk already published. Rolled length tier 4 (long,
+  1,000-1,300 words) and format 6 (head-to-head comparison) from
+  CLAUDE.md's system, no reroll needed, a real comparison existed
+  (paid boat vs. the site's own free walk post). Published
+  2026-10-10 as `tombori-river-cruise-vs-free-dotonbori-walk-osaka`,
+  1,062 words, topic `en/osaka`. Pricing for the cruise was
+  inconsistent across official tourism sources (900-2,000 yen for
+  an adult ticket), said so plainly rather than picking one number.
+  Added a real myth-correction found during research: the canal's
+  popular "funded by a generous merchant named Yasui Doton" origin
+  story was formally ruled fictional in a real 1965 court case
+  brought by a descendant of one of the canal's actual builders,
+  still repeated as fact by some tourism sites regardless. Added
+  real Glico Man sign history (first installed 1935, current sixth
+  version switched to LED in 2014) and the Kani Doraku giant crab
+  sign's own real 1960 install date on the same bridge. Cross-
+  referenced the site's existing Osaka Castle (1,200 yen) and
+  Disney-vs-USJ (8,900-11,900 yen) pricing honestly rather than
+  re-deriving either. Found a real, independently corroborated Klook
+  listing (activity 176566, 4.1 stars, 40K+ booked, confirmed across
+  multiple locale URLs), full AffiliateBox and KlookCodeBox, verified
+  the real redirect URL and ADAMANDLINDSKLOOK code both landed
+  correctly in the built HTML. Zero uses of "actually" or "genuinely"
+  in the published body (4 caught and cut from drafts).
