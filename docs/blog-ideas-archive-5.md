@@ -332,3 +332,34 @@ one past the cap.
   (activity 1410, 3M+ booked) to add as a genuine affiliate fit,
   full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
   "genuinely" in the published body (2 caught and cut).
+- **Ginza's main street has been car-free on weekends since 1970.**
+  20:00 UTC firing. Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, ironically, all three teamLab items still
+  without real photos). Checked Chuo ward's small pool (6 photos) and
+  found a real unused photo, the family standing in the middle of a
+  closed-off Ginza street, March 21 2023; the only other unused
+  photo in the pool was a Pokemon Center overflow shot from a visit
+  the existing Pokemon Center post already covers, skipped as a
+  near-duplicate. Rolled length tier 2 (short, 600-800 words) and
+  format 13 (history-led) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-08 as
+  `ginza-hokosha-tengoku-pedestrian-paradise-free`, 631 words, topic
+  `en/free-attractions`. The real hook: Chuo-dori closes to cars
+  every weekend and public holiday, noon-5pm, a tradition called
+  Hokosha Tengoku (Hokoten) dating to August 1970, Japan's first
+  "pedestrian paradise." Solved a real puzzle honestly: the photo is
+  dated a Tuesday, explained by verifying March 21 2023 was Vernal
+  Equinox Day, a genuine Japanese national holiday whose date is
+  recalculated by astronomical observation each February rather than
+  fixed on the calendar. Added real, honestly-hedged "Gin-bura" slang
+  history (two competing, undocumented origin stories) and the
+  annual Gin-bura Festival. Cross-referenced the site's existing
+  Pokemon Center and Sanrio-plush Ginza posts honestly rather than
+  re-deriving Ginza's cost reputation. No specific klook.com activity
+  URL could be confirmed for a Ginza walking tour despite checking,
+  so used AffiliateBox's query-based Klook search link instead of a
+  fabricated deep link (per CLAUDE.md's rule against inventing URLs),
+  and added KlookCodeBox pointing at that same real search URL via
+  `affiliates.klook.searchUrl()` since any Klook link at all requires
+  the code box. Zero uses of "actually" or "genuinely" in the
+  published body.

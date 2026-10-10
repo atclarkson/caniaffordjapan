@@ -39,37 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Ginza's main street has been car-free on weekends since 1970.**
-  20:00 UTC firing. Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, ironically, all three teamLab items still
-  without real photos). Checked Chuo ward's small pool (6 photos) and
-  found a real unused photo, the family standing in the middle of a
-  closed-off Ginza street, March 21 2023; the only other unused
-  photo in the pool was a Pokemon Center overflow shot from a visit
-  the existing Pokemon Center post already covers, skipped as a
-  near-duplicate. Rolled length tier 2 (short, 600-800 words) and
-  format 13 (history-led) from CLAUDE.md's system, no reroll needed.
-  Published 2026-10-08 as
-  `ginza-hokosha-tengoku-pedestrian-paradise-free`, 631 words, topic
-  `en/free-attractions`. The real hook: Chuo-dori closes to cars
-  every weekend and public holiday, noon-5pm, a tradition called
-  Hokosha Tengoku (Hokoten) dating to August 1970, Japan's first
-  "pedestrian paradise." Solved a real puzzle honestly: the photo is
-  dated a Tuesday, explained by verifying March 21 2023 was Vernal
-  Equinox Day, a genuine Japanese national holiday whose date is
-  recalculated by astronomical observation each February rather than
-  fixed on the calendar. Added real, honestly-hedged "Gin-bura" slang
-  history (two competing, undocumented origin stories) and the
-  annual Gin-bura Festival. Cross-referenced the site's existing
-  Pokemon Center and Sanrio-plush Ginza posts honestly rather than
-  re-deriving Ginza's cost reputation. No specific klook.com activity
-  URL could be confirmed for a Ginza walking tour despite checking,
-  so used AffiliateBox's query-based Klook search link instead of a
-  fabricated deep link (per CLAUDE.md's rule against inventing URLs),
-  and added KlookCodeBox pointing at that same real search URL via
-  `affiliates.klook.searchUrl()` since any Klook link at all requires
-  the code box. Zero uses of "actually" or "genuinely" in the
-  published body.
 - **Tempozan Bridge's real seasonal lighting colors.** 02:00 UTC
   firing (2026-10-09). Both priority sources exhausted again (same
   BLOCKED Ginza sumo idea, all three teamLab items still without
@@ -361,3 +330,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   real on Klook, no AffiliateBox, a retail walk-in isn't a bookable
   activity. Zero uses of "actually" or "genuinely" in the published
   body (6 caught and cut from drafts).
+- **Japan's Denny's isn't the Denny's anyone back home grew up
+  with.** 20:00 UTC firing (2026-10-10). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Narashino's single
+  unused Round1 photo first (a genuinely different real location
+  than the one the existing Round1 post covers) but set it aside,
+  the existing post's pricing is explicitly nationwide, a second
+  Round1 post with only a different storefront photo would read as
+  the same template with the city swapped. Went back to Taito's
+  118-photo pool and scanned well beyond the titled photos found in
+  earlier firings, previewing roughly 20 previously unexamined
+  "IMG_XXXX" photos across Oct-Dec 2023 and June-July 2024 clusters.
+  Found and ruled out a rich Halloween/Shinobazu Pond swan-boat day
+  (Oct 31 2023) already thoroughly covered by two existing posts
+  (`halloween-costumes-cost-tokyo-ueno-zoo-shinobazu` and
+  `ueno-zoo-shinobazu-pond-boats-tokyo-cost`), confirmed via direct
+  photo-UUID comparison rather than guessing from dates alone before
+  finding a real, unused October 7 2023 photo of a Denny's storefront
+  sign in Asakusa, a topic only ever mentioned in passing (one
+  sentence) in an existing famiresu-chains post, never its own piece.
+  Rolled length tier 2 (short, 600-800 words) and format 12
+  (family-logistics framing) from CLAUDE.md's system, no reroll
+  needed. Published 2026-10-10 as
+  `dennys-japan-not-american-menu-cost`, 652 words, topic
+  `en/budget-food`. The real correction: Denny's Japan started in
+  1973 as an Ito-Yokado licensing deal with the American chain
+  (first store, Yokohama, 1974), menu kept close to the US original
+  under contract until Denny's Japan bought the trademark outright
+  in 1984, free to diverge from that point on; today's menu runs on
+  hamburg steak, curry rice, omurice, and tonkatsu, not a Grand Slam.
+  Flagged a found 680 yen hamburg-set price as an old, undated-enough
+  reference point rather than current, and noted a real June 2025
+  menu revision (40 items repriced) without guessing new figures.
+  Added a real 2022 detail (soy-meat swap option, +50 yen) and a real
+  sibling-brand parallel (7-Eleven Japan, same Ito-Yokado/Seven & i
+  lineage, same import-then-reinvent pattern). No AffiliateBox, a
+  family restaurant dinner isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (1 caught and cut
+  from a section heading).
