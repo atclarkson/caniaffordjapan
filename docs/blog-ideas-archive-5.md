@@ -259,3 +259,76 @@ one past the cap.
   bookable (an apartment view, two unnamed casual restaurants). Zero
   uses of "actually" or "genuinely" in the published body (2 caught
   and cut from drafts).
+- **Is DisneySea's theming worth it without riding anything.** 08:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Scanned the Urayasu pool (21 photos) and found 2 real
+  unused photos from a September 2025 DisneySea day, distinct from
+  what the existing Beast's Castle, ticket-price, and extra-costs
+  posts already used: Arabian Coast's domed architecture and Mount
+  Prometheus, the park's volcano, lit up at night. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 3 (question
+  title, build to a verdict) from CLAUDE.md's system, no reroll
+  needed. Published 2026-10-08 as
+  `disneysea-ports-of-call-theming-worth-it-without-rides`, 918
+  words (landed short of tier 5's floor, 2 photos genuinely couldn't
+  stretch further without restating facts, said so here rather than
+  padding), topic `en/theme-parks`. The real hook: DisneySea has no
+  "lands" like every other Disney park, just 7 original fictional
+  "ports of call," opened 2001-09-04 after roughly 3 years of
+  construction at a real 335 billion yen cost. Added real Mount
+  Prometheus detail (189 feet, 750,000 sq ft of sculpted rockwork,
+  10 rocket boosters producing real 50-foot flames, houses 2 real
+  rides) and real Fantasy Springs detail (the 2024 eighth port, 320
+  billion yen, 140,000 sqm, Frozen/Tangled/Peter Pan themed areas)
+  including the one detail that directly answers the post's own
+  question: a standard ticket gives free walking access to the
+  whole Fantasy Springs area, only the 3 specific rides inside cost
+  extra (2,000 yen each via Premier Access). Added real, honestly
+  caveated 2024 attendance context (12.4 million visitors, 7th most
+  visited theme park worldwide per independent estimates, Disney
+  itself publishes no official park-level figures). Cross-referenced
+  the site's existing Disney-vs-USJ ticket pricing (7,900-10,900 yen)
+  honestly rather than re-deriving it. Reused the existing Tokyo
+  Disney Resort 1-Day Passport Klook listing (activity 695) since
+  it's the same real bookable ticket, full AffiliateBox and
+  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
+  published body (3 caught and cut from drafts).
+- **A Mario welcome sign and a paid lounge at Narita Airport.** 14:00
+  UTC firing. Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Checked Sakai (all remaining unused photos overflow from
+  the already-covered Lindsay's-40th teppanyaki dinner and Round1),
+  then found a genuinely untouched city: Narita, 10 photos, mostly
+  flight/departure shots already covered by an existing post, but 2
+  real unused photos stood out, a Mario-themed "Welcome to Japan"
+  escalator display (May 2024) and a paid airport lounge stop
+  (December 2023, different trip). Rolled length tier 6 (extended
+  feature, 1,600-2,000 words) and format 5 (narrative-first, cost as
+  payoff) from CLAUDE.md's system, no reroll needed. Tier 6 didn't
+  fully hold up: even after substantial real research (Narita's
+  Sanrizuka Struggle history, the still-unresolved Takao Shito
+  farmland holdout, real lounge and transit pricing, a real Klook
+  Skyliner listing), 2 photos topped out at 985 words honestly,
+  documented here rather than padding further. Published 2026-10-08
+  as `narita-airport-mario-sign-lounge-history-transit-cost`, topic
+  `en/transit`. Honestly hedged the Mario sign: web search confirmed
+  only a real but temporary 2-day June 2022 Nintendo Check In
+  promotion, not a permanent fixture, so the post says plainly we
+  can't confirm whether our May 2024 photo shows the same display
+  extended, a second run, or something else entirely. Honestly
+  ranged the lounge cost too (1,600-13,200 yen depending on lounge
+  and airline) since the specific lounge in the photo isn't
+  identifiable. Added real, verified Sanrizuka Struggle history
+  (1966 opposition league founding, 3 police deaths in a 1971
+  expropriation, the March 1978 control tower occupation delaying
+  opening roughly 2 months) and the real, still-unresolved Takao
+  Shito case (a farmer's land forcing runway B's taxiway to bend
+  around his plot, a 2022 eviction order, 2023 skirmishes, current
+  status unconfirmed past early 2023, said so plainly). Added real
+  current transit pricing across 4 real options (Skyliner, Narita
+  Express, limousine bus, and the budget Keisei-plus-JR-transfer
+  combo). Found a real, well-established Klook Skyliner listing
+  (activity 1410, 3M+ booked) to add as a genuine affiliate fit,
+  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut).

@@ -39,79 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Is DisneySea's theming worth it without riding anything.** 08:00
-  UTC firing. Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Scanned the Urayasu pool (21 photos) and found 2 real
-  unused photos from a September 2025 DisneySea day, distinct from
-  what the existing Beast's Castle, ticket-price, and extra-costs
-  posts already used: Arabian Coast's domed architecture and Mount
-  Prometheus, the park's volcano, lit up at night. Rolled length
-  tier 5 (deep dive, 1,300-1,600 words) and format 3 (question
-  title, build to a verdict) from CLAUDE.md's system, no reroll
-  needed. Published 2026-10-08 as
-  `disneysea-ports-of-call-theming-worth-it-without-rides`, 918
-  words (landed short of tier 5's floor, 2 photos genuinely couldn't
-  stretch further without restating facts, said so here rather than
-  padding), topic `en/theme-parks`. The real hook: DisneySea has no
-  "lands" like every other Disney park, just 7 original fictional
-  "ports of call," opened 2001-09-04 after roughly 3 years of
-  construction at a real 335 billion yen cost. Added real Mount
-  Prometheus detail (189 feet, 750,000 sq ft of sculpted rockwork,
-  10 rocket boosters producing real 50-foot flames, houses 2 real
-  rides) and real Fantasy Springs detail (the 2024 eighth port, 320
-  billion yen, 140,000 sqm, Frozen/Tangled/Peter Pan themed areas)
-  including the one detail that directly answers the post's own
-  question: a standard ticket gives free walking access to the
-  whole Fantasy Springs area, only the 3 specific rides inside cost
-  extra (2,000 yen each via Premier Access). Added real, honestly
-  caveated 2024 attendance context (12.4 million visitors, 7th most
-  visited theme park worldwide per independent estimates, Disney
-  itself publishes no official park-level figures). Cross-referenced
-  the site's existing Disney-vs-USJ ticket pricing (7,900-10,900 yen)
-  honestly rather than re-deriving it. Reused the existing Tokyo
-  Disney Resort 1-Day Passport Klook listing (activity 695) since
-  it's the same real bookable ticket, full AffiliateBox and
-  KlookCodeBox. Zero uses of "actually" or "genuinely" in the
-  published body (3 caught and cut from drafts).
-- **A Mario welcome sign and a paid lounge at Narita Airport.** 14:00
-  UTC firing. Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Checked Sakai (all remaining unused photos overflow from
-  the already-covered Lindsay's-40th teppanyaki dinner and Round1),
-  then found a genuinely untouched city: Narita, 10 photos, mostly
-  flight/departure shots already covered by an existing post, but 2
-  real unused photos stood out, a Mario-themed "Welcome to Japan"
-  escalator display (May 2024) and a paid airport lounge stop
-  (December 2023, different trip). Rolled length tier 6 (extended
-  feature, 1,600-2,000 words) and format 5 (narrative-first, cost as
-  payoff) from CLAUDE.md's system, no reroll needed. Tier 6 didn't
-  fully hold up: even after substantial real research (Narita's
-  Sanrizuka Struggle history, the still-unresolved Takao Shito
-  farmland holdout, real lounge and transit pricing, a real Klook
-  Skyliner listing), 2 photos topped out at 985 words honestly,
-  documented here rather than padding further. Published 2026-10-08
-  as `narita-airport-mario-sign-lounge-history-transit-cost`, topic
-  `en/transit`. Honestly hedged the Mario sign: web search confirmed
-  only a real but temporary 2-day June 2022 Nintendo Check In
-  promotion, not a permanent fixture, so the post says plainly we
-  can't confirm whether our May 2024 photo shows the same display
-  extended, a second run, or something else entirely. Honestly
-  ranged the lounge cost too (1,600-13,200 yen depending on lounge
-  and airline) since the specific lounge in the photo isn't
-  identifiable. Added real, verified Sanrizuka Struggle history
-  (1966 opposition league founding, 3 police deaths in a 1971
-  expropriation, the March 1978 control tower occupation delaying
-  opening roughly 2 months) and the real, still-unresolved Takao
-  Shito case (a farmer's land forcing runway B's taxiway to bend
-  around his plot, a 2022 eviction order, 2023 skirmishes, current
-  status unconfirmed past early 2023, said so plainly). Added real
-  current transit pricing across 4 real options (Skyliner, Narita
-  Express, limousine bus, and the budget Keisei-plus-JR-transfer
-  combo). Found a real, well-established Klook Skyliner listing
-  (activity 1410, 3M+ booked) to add as a genuine affiliate fit,
-  full AffiliateBox and KlookCodeBox. Zero uses of "actually" or
-  "genuinely" in the published body (2 caught and cut).
 - **Ginza's main street has been car-free on weekends since 1970.**
   20:00 UTC firing. Both priority sources exhausted again (same
   BLOCKED Ginza sumo idea, ironically, all three teamLab items still
@@ -393,3 +320,44 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   the real redirect URL and ADAMANDLINDSKLOOK code both landed
   correctly in the built HTML. Zero uses of "actually" or "genuinely"
   in the published body (4 caught and cut from drafts).
+- **The Copic Official Shop in Tokyo, a marker-pricing trap most
+  first-timers miss.** 14:00 UTC firing (2026-10-10). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Continued scanning
+  Osaka's 99-photo pool (confirmed the Tennoji Zoo overflow across 3
+  separate real visits and the Kaiyukan overflow both fully saturated
+  by 2 existing zoo posts and the existing aquarium post, skipped a
+  thin solo glasses try-on photo that overlapped the existing
+  optician post's theme) before checking several small, previously
+  untouched single-photo cities: Ichikawa (1 photo, thin), Narashino
+  (1 photo, a different real Round1 location than the one the
+  existing Round1 post already covers, but set aside this firing in
+  favor of a stronger lead), Shinagawa (1 photo, thin), and the
+  city-level "Tokyo" tag (2 photos), where a real, previously unused
+  March 2023 photo stood out: Lily discovering the Copic Official
+  Shop storefront, a flagship art-supply retailer never touched on
+  the site. Rolled length tier 3 (standard, 800-1,000 words) and
+  format 9 (heads-up/warning framing) from CLAUDE.md's system, no
+  reroll needed, a real trap existed in the material (Copic's cheap
+  tier doesn't carry the full color range). Published 2026-10-10 as
+  `copic-official-shop-tokyo-marker-price-trap`, 861 words, topic
+  `en/shopping`. The real warning: Copic Ciao (330 yen) and Copic
+  Sketch (495 yen) share the same ink and nibs, but Ciao only comes
+  in 180 colors against Sketch's full 358, a real permanent
+  limitation rather than a restock gap; Copic Classic runs 638 yen
+  with a different dual-nib format. All three prices confirmed
+  current post a real February 2026 Japan-wide price increase. Added
+  real refill economics (one ink bottle restocks a Sketch up to 12
+  times, a Ciao up to 9) and real company history (Too Corporation's
+  roots as a 1919 Shibuya stationery shop founded by Soyo Ishii, the
+  Copic marker line itself launched 1987 with 71 colors, the name
+  derived from "copies"). Added an honestly-hedged US-vs-Japan price
+  comparison (one US retailer's $5.59-7.99 listing against Japan's
+  495 yen Sketch price, flagged as a single data point, not a full
+  market survey) and said plainly the exact Tokyo shop address
+  couldn't be confirmed from research, pointing to Too Corporation's
+  own store locator rather than guessing one. Checked for a genuine
+  affiliate fit (a stationery/art-supply tour) and found nothing
+  real on Klook, no AffiliateBox, a retail walk-in isn't a bookable
+  activity. Zero uses of "actually" or "genuinely" in the published
+  body (6 caught and cut from drafts).
