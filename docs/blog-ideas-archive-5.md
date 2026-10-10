@@ -183,3 +183,38 @@ one past the cap.
   (41352) since it's the same tower's ticket, full AffiliateBox and
   KlookCodeBox. Zero uses of "actually" or "genuinely" in the
   published body (2 caught and cut from section headings).
+- **A West Shinjuku izakaya dinner, crab and melon soda, no
+  receipt.** 20:00 UTC firing. Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Shinjuku's photo pool (21 photos)
+  and confirmed the Godzilla/torii cluster already has its own post;
+  found a separate, real unused 4-photo cluster from a different
+  visit, May 19 2024: a West Shinjuku playground, an izakaya dinner
+  with a shared crab dish and bright green melon soda, and a night
+  walk through Kabukicho. No restaurant name identifiable from
+  geolocation alone (a Nishi-Shinjuku business-district coordinate,
+  not a named landmark), so leaned on real research rather than
+  guessing a name. Rolled length tier 4 (long, 1,000-1,300 words)
+  and format 15 (plain declarative) from CLAUDE.md's system, no
+  reroll needed. Published 2026-10-07 as
+  `west-shinjuku-izakaya-crab-melon-soda-dinner-cost`, 925 words
+  (just under the tier 4 floor, genuinely couldn't stretch further
+  without inventing a restaurant name or padding, said so here),
+  topic `en/budget-food`. The real myth-correction: Japan's green
+  melon soda doesn't taste like real melon, sources disagree on its
+  exact origin (Taisho-era kissaten vs. 1970s "cream soda"
+  popularization), said so plainly rather than picking one account
+  as settled. Added a real, dateable adjacent fact: ramune itself
+  (the format melon soda is often sold in) traces to 1884, introduced
+  in Kobe by Alexander Cameron Sim, melon a later flavor variant.
+  No receipt for the crab, so researched the real range instead
+  (Kani Isshin Shinagawa ~8,888 yen all-you-can-eat, Kani Shin Ueno
+  ~7,000 yen dinner average) and honestly noted neither matches a
+  single shared dish, plus a real seasonal-honesty detail: zuwaigani
+  season runs roughly November-March, so a May crab dish was very
+  likely frozen rather than fresh-caught. Checked whether an
+  affiliate link fit: found a real Klook Kabukicho nightlife
+  bar-hopping tour (activity 158212) but judged it a genuine mismatch
+  for a post centered on a family dinner with five kids, skipped it
+  rather than forcing an unrelated link in. Zero uses of "actually"
+  or "genuinely" in the published body (2 caught and cut).

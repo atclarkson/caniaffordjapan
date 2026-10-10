@@ -39,41 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A West Shinjuku izakaya dinner, crab and melon soda, no
-  receipt.** 20:00 UTC firing. Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Checked Shinjuku's photo pool (21 photos)
-  and confirmed the Godzilla/torii cluster already has its own post;
-  found a separate, real unused 4-photo cluster from a different
-  visit, May 19 2024: a West Shinjuku playground, an izakaya dinner
-  with a shared crab dish and bright green melon soda, and a night
-  walk through Kabukicho. No restaurant name identifiable from
-  geolocation alone (a Nishi-Shinjuku business-district coordinate,
-  not a named landmark), so leaned on real research rather than
-  guessing a name. Rolled length tier 4 (long, 1,000-1,300 words)
-  and format 15 (plain declarative) from CLAUDE.md's system, no
-  reroll needed. Published 2026-10-07 as
-  `west-shinjuku-izakaya-crab-melon-soda-dinner-cost`, 925 words
-  (just under the tier 4 floor, genuinely couldn't stretch further
-  without inventing a restaurant name or padding, said so here),
-  topic `en/budget-food`. The real myth-correction: Japan's green
-  melon soda doesn't taste like real melon, sources disagree on its
-  exact origin (Taisho-era kissaten vs. 1970s "cream soda"
-  popularization), said so plainly rather than picking one account
-  as settled. Added a real, dateable adjacent fact: ramune itself
-  (the format melon soda is often sold in) traces to 1884, introduced
-  in Kobe by Alexander Cameron Sim, melon a later flavor variant.
-  No receipt for the crab, so researched the real range instead
-  (Kani Isshin Shinagawa ~8,888 yen all-you-can-eat, Kani Shin Ueno
-  ~7,000 yen dinner average) and honestly noted neither matches a
-  single shared dish, plus a real seasonal-honesty detail: zuwaigani
-  season runs roughly November-March, so a May crab dish was very
-  likely frozen rather than fresh-caught. Checked whether an
-  affiliate link fit: found a real Klook Kabukicho nightlife
-  bar-hopping tour (activity 158212) but judged it a genuine mismatch
-  for a post centered on a family dinner with five kids, skipped it
-  rather than forcing an unrelated link in. Zero uses of "actually"
-  or "genuinely" in the published body (2 caught and cut).
 - **An ordinary evening in Chiba: a free Mount Fuji view, pizza, and
   a beer.** 02:00 UTC firing (2026-10-08). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -387,3 +352,39 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
   Zero uses of "actually" or "genuinely" in the published body (4
   caught and cut from drafts).
+- **Tokyo's ginkgo trees, a free apartment-window autumn view.**
+  02:00 UTC firing (2026-10-10). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Shibuya (25 photos, confirmed almost
+  entirely otter cafe overflow from the already-covered visit, plus 2
+  older already-used photos) and Chuo (6 photos, all but one already
+  used, the remaining unused one a same-cluster overflow shot from an
+  already-covered Ginza visit, skipped) before returning to an unused
+  Taito photo identified but not used in an earlier firing: a straight-
+  down apartment-window view of a small, unnamed neighborhood park in
+  full autumn color, November 29 2023, no attraction, no receipt, just
+  a real seasonal moment. Rolled length tier 3 (standard, 800-1,000
+  words) and format 15 (plain declarative) from CLAUDE.md's system, no
+  reroll needed, material genuinely supported the tier without forcing
+  it. Published 2026-10-10 as
+  `tokyo-ginkgo-autumn-colors-free-view-apartment`, 900 words, topic
+  `en/free-attractions`. Couldn't identify the park's own name from
+  geolocation alone, said so plainly rather than guessing. The real
+  hook: the photo's November 29 date lands almost exactly inside
+  Tokyo's documented average ginkgo peak window (commonly cited around
+  November 26-27), confirmed via web search rather than assumed.
+  Added real, honestly-hedged history (ginkgo has been Tokyo's
+  official tree since November 8 1996, the reason why isn't officially
+  documented, roadside prevalence and pollution tolerance are the most
+  commonly cited explanations, not confirmed fact), a real Hiroshima
+  "survivor tree" (hibakujumoku) fact, and a real, slightly irreverent
+  detail about female ginkgo fruit's butyric-acid smell and why cities
+  favor male street plantings. Cross-referenced 3 real named public
+  ginkgo spots (Meiji Jingu Gaien's icho-namiki, Showa Kinen Park,
+  Hikarigaoka Park) as free alternatives rather than claiming the
+  family's own photo was any of them. Checked for a genuine affiliate
+  fit (an autumn-foliage tour) and found only one unverified,
+  0-review Klook listing surfaced through a third-party blog rather
+  than a direct, independently confirmed listing, skipped rather than
+  using an unconfirmed link, no AffiliateBox. Zero uses of "actually"
+  or "genuinely" in the published body (2 caught and cut from drafts).
