@@ -39,45 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Sumida River Walk, the free bridge, and the night grandparents
-  found us.** 14:00 UTC firing (2026-10-09). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Re-scanned Taito's full 118-photo
-  pool one more time rather than checking smaller, more marginal
-  cities, and found a titled, previously overlooked unused photo:
-  "Grandparents Meet Us in Tokyo at Night," geolocated to Hanakawado
-  1, the same neighborhood as the existing Asahi Flamme d'Or post but
-  a genuinely different real moment, Adam's parents meeting the family
-  on a lit pedestrian bridge the night they flew in. Rolled length
-  tier 5 (deep dive, 1,300-1,600 words) and format 1 (price-first, no
-  verb in the title) from CLAUDE.md's system, no reroll needed, format
-  1 hadn't been used in any recent firing. Published 2026-10-09 as
-  `sumida-river-walk-free-asakusa-skytree-bridge-grandparents`, 1,229
-  words (landed just under tier 5's floor after two genuine
-  expansions, a getting-there section and a permanent-features section,
-  a single photo with no receipts couldn't stretch further without
-  padding, said so here), topic `en/free-attractions`. The real hook:
-  identified the bridge as the Sumida River Walk, a free pedestrian
-  passage Tobu Railway attached to its own Sumida River railway
-  bridge between Asakusa and Tokyo Skytree stations, opened June 2020
-  per Tobu's own notice (an earlier search had turned up conflicting
-  secondary sources before the primary source settled it). Added the
-  real Tokyo Mizumachi/Tokyo Solamachi naming pair, cross-referencing
-  the site's own existing Solamachi post honestly rather than
-  re-deriving it. Verified the photo's exact lighting via a real,
-  documented bamboo lantern event (Tobu's "Tokyo Shitamachi Tour,"
-  November 9 2023 through January 31 2024) running along this same
-  bridge, dates that line up exactly with the photo's November 17
-  2023 capture, distinct from the bridge's own permanent nightly
-  lighting. Added real transit comparison (Tobu's own 18-minute walk
-  estimate vs. a roughly 2-3 minute one-stop train ride, no fare
-  quoted since none could be confirmed) and two real permanent
-  features, the glass floor section and the hidden Sorakara-chan
-  mascot spots. No AffiliateBox, nothing new on the page is bookable;
-  cross-referenced the existing Skytree ticket post and the Asahi
-  Flamme d'Or post's Sumida River cruise link instead of duplicating
-  either. Zero uses of "actually" or "genuinely" in the published body
-  (2 caught and cut from drafts).
 - **JR Haruka vs Nankai Rapi:t, the two trains to Kansai Airport.**
   20:00 UTC firing (2026-10-09). Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -366,3 +327,37 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   verified the real redirect URL and ADAMANDLINDSKLOOK code both
   landed correctly in the built HTML. Zero uses of "actually" or
   "genuinely" in the published body (7 caught and cut from drafts).
+- **The Tokyo Fire Museum's dress-up corner, the gap the existing
+  review left open.** 14:00 UTC firing (2026-10-11). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Continued scanning
+  Shinjuku's pool and found 2 real unused photos from the same June 7
+  2024 visit the existing `tokyo-fire-museum-yotsuya-free-with-kids`
+  post already covers, confirmed via direct photo-UUID comparison
+  that these 2 (kids in firefighter costumes) are genuinely different
+  from the 4 the existing post uses (trucks, helicopter), a real,
+  previously undocumented third-floor dress-up corner and simulator
+  wing the original review never mentioned. Rolled length tier 6
+  (extended feature, 1,600-2,000 words) and format 10 (budget-tier
+  framing) from CLAUDE.md's system; format 10 didn't fit, nothing at
+  a free museum has a cheap-vs-splurge pair to compare, rerolled once
+  per CLAUDE.md's allowance and landed on format 6 (head-to-head),
+  used honestly as the two wings of the same museum (vehicles vs.
+  dress-up/simulator) rather than a price comparison. Published
+  2026-10-11 as `tokyo-fire-museum-dress-up-corner-simulator-free`,
+  636 words (landed well short of tier 6, a deliberately narrow
+  gap-filling piece with only 2 photos, pushing further would have
+  meant re-deriving the hours/accessibility/history content the
+  existing review already covers, said so here rather than padding
+  or repeating), topic `en/free-attractions`. Confirmed via web
+  search the dress-up corner and fire-extinguishing/driving simulator
+  are real, documented features of the museum's third floor. Added
+  real context connecting it to Tokyo's broader, genuine network of
+  free hands-on disaster-prevention learning centers (the Tokyo Fire
+  Department's own Ikebukuro Life Safety Learning Center and Honjo
+  center), tied to Japan's real earthquake/fire risk and early
+  school-age disaster education. Deliberately did not repeat the
+  existing post's hours, accessibility, or history sections, pointed
+  to that post instead. No AffiliateBox, a free municipal museum
+  wing isn't Klook/GYG bookable. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from drafts).
