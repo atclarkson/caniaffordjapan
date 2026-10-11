@@ -39,39 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Japan's clear vinyl umbrella, real history and lost-and-found
-  numbers.** 08:00 UTC firing (2026-10-09). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Checked Urayasu's remaining
-  Disneyland/DisneySea material (castle and tree-stump photos, all
-  risking heavy overlap with the existing ticket-price, extra-costs,
-  Beast's Castle, and DisneySea-ports posts) before pivoting to a
-  single real unused Osaka photo near the family's own apartment: a
-  rainy-night street walk under a clear vinyl umbrella, no
-  identifiable landmark. Rolled length tier 5 (deep dive, 1,300-1,600
-  words) and format 15 (plain declarative) from CLAUDE.md's system,
-  no reroll needed. Published 2026-10-09 as
-  `japan-clear-vinyl-umbrella-cost-history-lost-and-found`, 825
-  words (landed short of tier 5, an everyday object with one photo
-  and no attraction genuinely couldn't stretch further without
-  padding even after real research, said so here), topic
-  `en/unexpected-costs`. The real material: wagasa, Japan's
-  pre-plastic oiled-paper folding umbrella, real Edo-period history
-  (Gifu alone shipping an estimated 520,000 a year to Edo at its
-  peak, a single umbrella taking months to make but lasting up to a
-  decade) and its real Meiji-era decline once Western umbrellas
-  arrived. Added the clear umbrella's own honestly-hedged origin (two
-  competing, undocumented 1958 stories), real current convenience
-  store pricing (300-1,000 yen), real konbini restocking behavior at
-  the first sign of rain, and real, striking lost-and-found numbers:
-  Tokyo police took in roughly 300,000 umbrellas in one recent year
-  with only 3,700 ever reclaimed (about 1 percent), Nagoya Railroad's
-  FY2025 figures showing a similar pattern. Added real umbrella
-  vending/rental-machine options (roughly 500 yen to buy, or a real
-  Tokyo sharing service at 140 yen/24hr or 280 yen/month). No
-  AffiliateBox, an everyday umbrella isn't Klook/GYG bookable. Zero
-  uses of "actually" or "genuinely" in the published body (5 caught
-  and cut from drafts).
 - **Sumida River Walk, the free bridge, and the night grandparents
   found us.** 14:00 UTC firing (2026-10-09). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -356,3 +323,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
   Zero uses of "actually" or "genuinely" in the published body (4
   caught and cut from drafts).
+- **Golden Gai's 500-1,000 yen seat charge, the thing that catches
+  first-timers off guard.** 08:00 UTC firing (2026-10-11). Both
+  priority sources exhausted again (same BLOCKED Ginza sumo idea,
+  all three teamLab items still without real photos). Confirmed
+  Taito fully exhausted this firing (the one remaining unused titled
+  photo, an illuminated pagoda at night from the same November 17
+  2023 evening as the already-published Sumida River Walk post,
+  overlaps the existing dedicated Senso-ji temple post, which already
+  uses two near-identical illuminated-pagoda-at-night photos). Pivoted
+  to Shinjuku's 21-photo pool and found a real, previously unused
+  November 26 2023 cluster geolocated to Kabukicho 1, a different
+  date and venue entirely from the existing Godzilla/torii post
+  (March 2023) and the just-published West Shinjuku izakaya post
+  (May 2024). Confirmed via coordinates the cluster sits inside
+  Golden Gai specifically, a well-known district only ever mentioned
+  in passing (one sentence, giving the station exit) in the West
+  Shinjuku post, never its own piece. Rolled length tier 3 (standard,
+  800-1,000 words) and format 1 (price-first, no verb in the title)
+  from CLAUDE.md's system, no reroll needed. Published 2026-10-11 as
+  `golden-gai-shinjuku-seat-charge-cost`, 894 words, topic
+  `en/budget-food`, using all 3 real unused photos from the cluster
+  (the alley at night plus two separate bar interiors). The real
+  hook: most Golden Gai bars charge a real 500-1,000 yen per-person
+  seat/table charge before a single drink arrives (up to 4,000 yen at
+  pricier bars), on top of 800-1,200 yen average drinks, a cost
+  structure invisible from outside since most bars carry no posted
+  English menu. Added real, documented history (the district's real
+  origin as a 1945 post-war black market relocated by Occupation
+  forces, not originally a drinking district at all, the shift to
+  izakaya-style bars only coming after a 1958 prostitution ban),
+  real scale (roughly 280-300 individually run tiny bars across six
+  named alleys plus a seventh cross-lane, confirmed real lane names),
+  and a real practical tip (cash-preferred, look for "Foreigners
+  Welcome" signage). Cross-referenced the West Shinjuku post's real
+  Shinjuku Station exit detail (Central East Exit vs South Exit)
+  honestly rather than re-deriving it. Reused the real Klook
+  Kabukicho nightlife bar-hopping tour (activity 158212) that the
+  West Shinjuku post had found but judged a mismatch for a
+  family-with-five-kids post, a genuine fit here since this post's
+  own photos are adults-only, full AffiliateBox and KlookCodeBox,
+  verified the real redirect URL and ADAMANDLINDSKLOOK code both
+  landed correctly in the built HTML. Zero uses of "actually" or
+  "genuinely" in the published body (7 caught and cut from drafts).

@@ -69,3 +69,36 @@ more recent entries. When this file nears 400 lines too, start
   published body (2 caught and cut from drafts, first pass ran short
   at 519 words and was expanded honestly with the tax-free
   cross-reference and the bevel-type section, rather than padding).
+- **Japan's clear vinyl umbrella, real history and lost-and-found
+  numbers.** 08:00 UTC firing (2026-10-09). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Urayasu's remaining
+  Disneyland/DisneySea material (castle and tree-stump photos, all
+  risking heavy overlap with the existing ticket-price, extra-costs,
+  Beast's Castle, and DisneySea-ports posts) before pivoting to a
+  single real unused Osaka photo near the family's own apartment: a
+  rainy-night street walk under a clear vinyl umbrella, no
+  identifiable landmark. Rolled length tier 5 (deep dive, 1,300-1,600
+  words) and format 15 (plain declarative) from CLAUDE.md's system,
+  no reroll needed. Published 2026-10-09 as
+  `japan-clear-vinyl-umbrella-cost-history-lost-and-found`, 825
+  words (landed short of tier 5, an everyday object with one photo
+  and no attraction genuinely couldn't stretch further without
+  padding even after real research, said so here), topic
+  `en/unexpected-costs`. The real material: wagasa, Japan's
+  pre-plastic oiled-paper folding umbrella, real Edo-period history
+  (Gifu alone shipping an estimated 520,000 a year to Edo at its
+  peak, a single umbrella taking months to make but lasting up to a
+  decade) and its real Meiji-era decline once Western umbrellas
+  arrived. Added the clear umbrella's own honestly-hedged origin (two
+  competing, undocumented 1958 stories), real current convenience
+  store pricing (300-1,000 yen), real konbini restocking behavior at
+  the first sign of rain, and real, striking lost-and-found numbers:
+  Tokyo police took in roughly 300,000 umbrellas in one recent year
+  with only 3,700 ever reclaimed (about 1 percent), Nagoya Railroad's
+  FY2025 figures showing a similar pattern. Added real umbrella
+  vending/rental-machine options (roughly 500 yen to buy, or a real
+  Tokyo sharing service at 140 yen/24hr or 280 yen/month). No
+  AffiliateBox, an everyday umbrella isn't Klook/GYG bookable. Zero
+  uses of "actually" or "genuinely" in the published body (5 caught
+  and cut from drafts).
