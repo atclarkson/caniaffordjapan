@@ -39,57 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Tempozan Bridge's real seasonal lighting colors.** 02:00 UTC
-  firing (2026-10-09). Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all three teamLab items still without
-  real photos). This firing's search was unusually long: checked
-  Yokohama (the one unused photo was another angle of the same
-  illuminated YOKOHAMA sign the existing Cup Noodles/Sankeien post
-  already uses), Koto (the only unused photo was the Unicorn Gundam
-  statue at DiverCity, disqualified outright, the existing Doraemon/
-  Odaiba post already states plainly that statue's display run ended
-  August 31 2026 and writing a fresh "go see it free" post today
-  would be stale, wrong information), Hakone (the remaining unused
-  photos were either Lake Ashi pirate-ship overflow or a weaker
-  angle of the Hakone Shrine floating torii the existing Hakone Free
-  Pass post already covers with a better photo), Uji (all remaining
-  unused photos were overflow from exhibits the existing Nintendo
-  Museum post already shows), Chiyoda and Matsudo (single thin,
-  unidentifiable photos, no real angle) before finding a real lead
-  back in Osaka's own pool: an unused night photo from the family's
-  Osaka apartment window showing both the Tempozan Ferris Wheel and,
-  behind it, a cable-stayed bridge lit entirely pink. Rolled length
-  tier 5 (deep dive, 1,300-1,600 words) and format 6 (head-to-head
-  comparison) from CLAUDE.md's system. Format 6 didn't fit once
-  checked against the existing Kaiyukan/Tempozan post, which already
-  covers the Ferris Wheel's real 900 yen price in its own "third
-  option" section, a true head-to-head would have re-derived that
-  rather than adding anything new, so a second AffiliateBox pointing
-  at the same ticket the existing post already covers didn't belong
-  here either. Rerolled format once per CLAUDE.md's allowance,
-  landed on format 15 (plain declarative). Published 2026-10-09 as
-  `tempozan-bridge-seasonal-colors-osaka-free-view`, 695 words
-  (landed well short of tier 5, a single photo of a bridge genuinely
-  couldn't stretch further without padding even after real research,
-  said so here), topic `en/free-attractions`. The real hook,
-  verified via Japanese-language web search after the photo's own AI
-  caption misnamed the bridge: Tempozan Bridge (640m cable-stayed,
-  crossing the Ajikawa River) runs a real, documented seasonal LED
-  lighting scheme, sakura pink in spring, light blue in summer, gold
-  in autumn, warm white in winter, and the photo's April 23 2026 date
-  lines up exactly with its pink spring color. Added real context on
-  why the bridge briefly ran different colors during the 2025 Osaka
-  Expo (a special blue/red/white scheme that ended with the Expo in
-  October 2025) and real history on the Ajikawa River itself (dug
-  1684 as a flood-control channel, became Osaka Port's gateway,
-  the port's own founding dated to July 15 1868). Said plainly that
-  the bridge's own opening year couldn't be confirmed rather than
-  guessing. Cross-referenced the existing Kaiyukan/Tempozan post's
-  real 900 yen Ferris Wheel price honestly instead of re-deriving it.
-  No AffiliateBox, the post is about a free view, not a bookable
-  activity, and the relevant affiliate link already lives on the
-  post this one cross-references. Zero uses of "actually" or
-  "genuinely" in the published body (1 caught and cut from a draft).
 - **Japan's clear vinyl umbrella, real history and lost-and-found
   numbers.** 08:00 UTC firing (2026-10-09). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -369,3 +318,41 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   family restaurant dinner isn't Klook/GYG bookable. Zero uses of
   "actually" or "genuinely" in the published body (1 caught and cut
   from a section heading).
+- **A5 wagyu yakiniku in Asakusa, what the grade actually means.**
+  02:00 UTC firing (2026-10-11). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Continued scanning Taito's 118-photo pool
+  well beyond the titled photos, previewing roughly a dozen more
+  previously unexamined May 2024 "IMG_XXXX" photos (all confirmed
+  thin or overflow: Iriya Minami Park playground repeats, a Sumida
+  River boat photo already evaluated and deliberately left unused in
+  the Asahi Flamme d'Or post, apartment Skytree views) before
+  returning to a lead identified but not used in an earlier firing:
+  a real unused November 15 2023 photo of wagyu on a yakiniku grill,
+  geolocated to Asakusa 1, no restaurant name or receipt attached.
+  Rolled length tier 2 (short, 600-800 words) and format 15 (plain
+  declarative) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-11 as `a5-wagyu-yakiniku-asakusa-grading-cost`, 649 words,
+  topic `en/budget-food`. No receipt for this specific meal, said so
+  plainly, researched the real A5 grading system instead: a letter
+  yield grade (A requires 72%+) and a separate 1-5 quality grade set
+  by the lowest of four sub-scores (marbling, color, firmness, fat
+  quality), with marbling itself scored on a 1-12 Beef Marbling
+  Score where a 5 requires BMS 8+, the whole system run by the Japan
+  Meat Grading Association. Added real, legally-grounded context
+  that "wagyu" itself is a regulated label (Japan's 2007 MAFF
+  guidelines restrict it to four official breeds, Japanese Black/
+  Kuroge Washu alone accounting for roughly 98% of all wagyu,
+  non-qualifying cattle required to be labeled kokusangyu instead).
+  For pricing, found a real but dated (listing undated past ~2018)
+  Asakusa value-course reference point (Hirakuen, from 3,000 yen,
+  flagged as possibly stale) and real current comparable Tokyo
+  wagyu-yakiniku course pricing elsewhere in the city (8,000-11,000
+  yen, Akihabara/Ginza/Akasaka) for honest range context rather than
+  claiming a number for the specific photographed meal. Found a
+  real, relevant Klook listing (Tokori Wagyu BBQ, activity 87974,
+  Asakusa among its locations, family-friendly per reviews), full
+  AffiliateBox and KlookCodeBox, verified the real redirect URL and
+  ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
+  Zero uses of "actually" or "genuinely" in the published body (4
+  caught and cut from drafts).
