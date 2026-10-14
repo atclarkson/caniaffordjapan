@@ -33,11 +33,14 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
   specific spot, the family hasn't been. Stays here until there's a real
   visit.
 - teamLab Forest Fukuoka, activity id 51227, was $15.35, 4.7 stars, 1,638
-  reviews. Inside the BOSS E.ZO FUKUOKA complex. Fukuoka doesn't have a
-  topic yet, add one if this gets written. Checked AL_Vault on 2026-09-16,
-  the family's only Fukuoka material is 1 photo and 2 videos from a June
-  2023 trip, not enough to confirm they actually visited this specific
-  attraction, don't write it from a guess.
+  reviews. Inside the BOSS E.ZO FUKUOKA complex. A `fukuoka` topic now
+  exists (added 2026-10-14 for the PayPay Dome baseball post). Checked
+  AL_Vault again on 2026-10-14: the family's confirmed June 2023
+  Fukuoka material (1 photo, 2 vlogs, now used in that baseball post)
+  is a Hawks game and general trip footage, nothing that confirms a
+  visit to this specific teamLab location. Stays here until there's
+  real material for this attraction specifically, don't write it from
+  the baseball visit alone.
 - teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
   443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
   2026-09-16, zero Okinawa content of any kind, the family has never been.

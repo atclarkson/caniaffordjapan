@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The Copic Official Shop in Tokyo, a marker-pricing trap most
-  first-timers miss.** 14:00 UTC firing (2026-10-10). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Continued scanning
-  Osaka's 99-photo pool (confirmed the Tennoji Zoo overflow across 3
-  separate real visits and the Kaiyukan overflow both fully saturated
-  by 2 existing zoo posts and the existing aquarium post, skipped a
-  thin solo glasses try-on photo that overlapped the existing
-  optician post's theme) before checking several small, previously
-  untouched single-photo cities: Ichikawa (1 photo, thin), Narashino
-  (1 photo, a different real Round1 location than the one the
-  existing Round1 post already covers, but set aside this firing in
-  favor of a stronger lead), Shinagawa (1 photo, thin), and the
-  city-level "Tokyo" tag (2 photos), where a real, previously unused
-  March 2023 photo stood out: Lily discovering the Copic Official
-  Shop storefront, a flagship art-supply retailer never touched on
-  the site. Rolled length tier 3 (standard, 800-1,000 words) and
-  format 9 (heads-up/warning framing) from CLAUDE.md's system, no
-  reroll needed, a real trap existed in the material (Copic's cheap
-  tier doesn't carry the full color range). Published 2026-10-10 as
-  `copic-official-shop-tokyo-marker-price-trap`, 861 words, topic
-  `en/shopping`. The real warning: Copic Ciao (330 yen) and Copic
-  Sketch (495 yen) share the same ink and nibs, but Ciao only comes
-  in 180 colors against Sketch's full 358, a real permanent
-  limitation rather than a restock gap; Copic Classic runs 638 yen
-  with a different dual-nib format. All three prices confirmed
-  current post a real February 2026 Japan-wide price increase. Added
-  real refill economics (one ink bottle restocks a Sketch up to 12
-  times, a Ciao up to 9) and real company history (Too Corporation's
-  roots as a 1919 Shibuya stationery shop founded by Soyo Ishii, the
-  Copic marker line itself launched 1987 with 71 colors, the name
-  derived from "copies"). Added an honestly-hedged US-vs-Japan price
-  comparison (one US retailer's $5.59-7.99 listing against Japan's
-  495 yen Sketch price, flagged as a single data point, not a full
-  market survey) and said plainly the exact Tokyo shop address
-  couldn't be confirmed from research, pointing to Too Corporation's
-  own store locator rather than guessing one. Checked for a genuine
-  affiliate fit (a stationery/art-supply tour) and found nothing
-  real on Klook, no AffiliateBox, a retail walk-in isn't a bookable
-  activity. Zero uses of "actually" or "genuinely" in the published
-  body (6 caught and cut from drafts).
 - **Japan's Denny's isn't the Denny's anyone back home grew up
   with.** 20:00 UTC firing (2026-10-10). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -379,3 +338,45 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   cross-referenced the existing Express Pass post's own wait-time math
   rather than re-deriving it. Zero uses of "actually" or "genuinely"
   in the published body (3 caught and cut from drafts).
+- **PayPay Dome Fukuoka vs Tokyo Dome, our actual first baseball game
+  in Japan.** 20:00 UTC firing (2026-10-14). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea; rechecked teamLab
+  specifically, no change). AL_Vault fallback: `get_destinations`
+  showed Fukuoka had grown from the priority doc's "1 photo and 2
+  videos" note to a confirmed real lead, 1 new unused photo ("Asahi
+  Beers at a Fukuoka Hawks Game," July 5 2023, just Adam and Lindsay,
+  no kids) plus the same 2 existing vlogs (154 Fukuoka First
+  Impressions, 155 First Baseball Game in Japan), confirming via
+  `get_trip` this was a real visit, not a guess, and that the vlog
+  title explicitly predates every Tokyo Dome post already on this
+  site (all 3 draw from 2024-2025 visits). Rolled length tier 4 (long,
+  1,000-1,300 words) and format 12 (family-logistics framing) from
+  CLAUDE.md's system; format 12 didn't fit at all, the real material
+  is an adults-only date night with no kids present, rerolled once
+  per the site's own allowance and landed on format 6 (head-to-head
+  comparison), which fit genuinely (PayPay Dome vs the site's own
+  3 existing Tokyo Dome posts, a real comparison). No topic existed
+  for Fukuoka yet (flagged as a to-do in the priority doc's own
+  Fukuoka entry), added `src/data/topics/en/fukuoka.json` (order 4,
+  right after the other city-geography topics). Published 2026-10-14
+  as `paypay-dome-fukuoka-vs-tokyo-dome-baseball-cost`, 1,117 words,
+  topic `en/fukuoka`. Cross-referenced the existing Yomiuri Giants
+  post's own Tokyo Dome seat-tier pricing honestly rather than
+  re-deriving it. Added real PayPay Dome history (opened 1993 as
+  Fukuoka Dome, Japan's first retractable-roof stadium and the only
+  one until Es Con Field Hokkaido in 2023, reported 76 billion yen
+  build cost, Hawks moved from Osaka under Daiei, SoftBank bought the
+  team in 2005), the real current "Mizuho PayPay Dome" sponsor name,
+  and the Hawks' real championship record (12 Japan Series titles as
+  of 2025, third-most in NPB history, a real 2017-2020 four-peat).
+  Added real transit (Fukuoka City Subway Airport/Kuko Line to
+  Tojinmachi Station, 10-12 minute walk from Exit 3, or game-day
+  shuttle buses from Hakata Station). Honestly hedged 2026 ticket
+  pricing as reseller figures rather than official, and said plainly
+  there's no itemized receipt from the actual 2023 night. Found a
+  real, independently corroborated Klook listing (activity 135264,
+  4.9 stars, 371 reviews, 10K+ booked, confirmed across en-US and
+  en-MY locale URLs), full AffiliateBox and KlookCodeBox. Zero uses
+  of "actually" or "genuinely" in the published body (4 caught and
+  cut from drafts, two added during a genuine length expansion from
+  an initial 890-word draft).

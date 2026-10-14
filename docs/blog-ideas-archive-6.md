@@ -268,3 +268,44 @@ more recent entries. When this file nears 400 lines too, start
   the real redirect URL and ADAMANDLINDSKLOOK code both landed
   correctly in the built HTML. Zero uses of "actually" or "genuinely"
   in the published body (4 caught and cut from drafts).
+- **The Copic Official Shop in Tokyo, a marker-pricing trap most
+  first-timers miss.** 14:00 UTC firing (2026-10-10). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Continued scanning
+  Osaka's 99-photo pool (confirmed the Tennoji Zoo overflow across 3
+  separate real visits and the Kaiyukan overflow both fully saturated
+  by 2 existing zoo posts and the existing aquarium post, skipped a
+  thin solo glasses try-on photo that overlapped the existing
+  optician post's theme) before checking several small, previously
+  untouched single-photo cities: Ichikawa (1 photo, thin), Narashino
+  (1 photo, a different real Round1 location than the one the
+  existing Round1 post already covers, but set aside this firing in
+  favor of a stronger lead), Shinagawa (1 photo, thin), and the
+  city-level "Tokyo" tag (2 photos), where a real, previously unused
+  March 2023 photo stood out: Lily discovering the Copic Official
+  Shop storefront, a flagship art-supply retailer never touched on
+  the site. Rolled length tier 3 (standard, 800-1,000 words) and
+  format 9 (heads-up/warning framing) from CLAUDE.md's system, no
+  reroll needed, a real trap existed in the material (Copic's cheap
+  tier doesn't carry the full color range). Published 2026-10-10 as
+  `copic-official-shop-tokyo-marker-price-trap`, 861 words, topic
+  `en/shopping`. The real warning: Copic Ciao (330 yen) and Copic
+  Sketch (495 yen) share the same ink and nibs, but Ciao only comes
+  in 180 colors against Sketch's full 358, a real permanent
+  limitation rather than a restock gap; Copic Classic runs 638 yen
+  with a different dual-nib format. All three prices confirmed
+  current post a real February 2026 Japan-wide price increase. Added
+  real refill economics (one ink bottle restocks a Sketch up to 12
+  times, a Ciao up to 9) and real company history (Too Corporation's
+  roots as a 1919 Shibuya stationery shop founded by Soyo Ishii, the
+  Copic marker line itself launched 1987 with 71 colors, the name
+  derived from "copies"). Added an honestly-hedged US-vs-Japan price
+  comparison (one US retailer's $5.59-7.99 listing against Japan's
+  495 yen Sketch price, flagged as a single data point, not a full
+  market survey) and said plainly the exact Tokyo shop address
+  couldn't be confirmed from research, pointing to Too Corporation's
+  own store locator rather than guessing one. Checked for a genuine
+  affiliate fit (a stationery/art-supply tour) and found nothing
+  real on Klook, no AffiliateBox, a retail walk-in isn't a bookable
+  activity. Zero uses of "actually" or "genuinely" in the published
+  body (6 caught and cut from drafts).
