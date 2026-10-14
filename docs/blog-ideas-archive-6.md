@@ -186,3 +186,39 @@ more recent entries. When this file nears 400 lines too, start
   ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
   Zero uses of "actually" or "genuinely" in the published body (4
   caught and cut from drafts).
+- **Tokyo's ginkgo trees, a free apartment-window autumn view.**
+  02:00 UTC firing (2026-10-10). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Checked Shibuya (25 photos, confirmed almost
+  entirely otter cafe overflow from the already-covered visit, plus 2
+  older already-used photos) and Chuo (6 photos, all but one already
+  used, the remaining unused one a same-cluster overflow shot from an
+  already-covered Ginza visit, skipped) before returning to an unused
+  Taito photo identified but not used in an earlier firing: a straight-
+  down apartment-window view of a small, unnamed neighborhood park in
+  full autumn color, November 29 2023, no attraction, no receipt, just
+  a real seasonal moment. Rolled length tier 3 (standard, 800-1,000
+  words) and format 15 (plain declarative) from CLAUDE.md's system, no
+  reroll needed, material genuinely supported the tier without forcing
+  it. Published 2026-10-10 as
+  `tokyo-ginkgo-autumn-colors-free-view-apartment`, 900 words, topic
+  `en/free-attractions`. Couldn't identify the park's own name from
+  geolocation alone, said so plainly rather than guessing. The real
+  hook: the photo's November 29 date lands almost exactly inside
+  Tokyo's documented average ginkgo peak window (commonly cited around
+  November 26-27), confirmed via web search rather than assumed.
+  Added real, honestly-hedged history (ginkgo has been Tokyo's
+  official tree since November 8 1996, the reason why isn't officially
+  documented, roadside prevalence and pollution tolerance are the most
+  commonly cited explanations, not confirmed fact), a real Hiroshima
+  "survivor tree" (hibakujumoku) fact, and a real, slightly irreverent
+  detail about female ginkgo fruit's butyric-acid smell and why cities
+  favor male street plantings. Cross-referenced 3 real named public
+  ginkgo spots (Meiji Jingu Gaien's icho-namiki, Showa Kinen Park,
+  Hikarigaoka Park) as free alternatives rather than claiming the
+  family's own photo was any of them. Checked for a genuine affiliate
+  fit (an autumn-foliage tour) and found only one unverified,
+  0-review Klook listing surfaced through a third-party blog rather
+  than a direct, independently confirmed listing, skipped rather than
+  using an unconfirmed link, no AffiliateBox. Zero uses of "actually"
+  or "genuinely" in the published body (2 caught and cut from drafts).
