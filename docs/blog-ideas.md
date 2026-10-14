@@ -39,51 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **JR Haruka vs Nankai Rapi:t, the two trains to Kansai Airport.**
-  20:00 UTC firing (2026-10-09). Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Checked two never-before-explored city pools,
-  Ota (4 unused photos, but all but one were overflow from the
-  already-covered Heiwa no Mori Park post, the remaining one a
-  same-location same-day near-duplicate, skipped) and Sumida ward
-  itself (the one unused standout, a grandparents-and-Skytree night
-  photo from the same November 17 2023 visit as this site's just-
-  published Sumida River Walk post, skipped to avoid repeating the
-  same day's story twice in one day), before finding 2 real unused
-  photos in a brand new, never-covered location: Tajiri, the town
-  Kansai Airport itself sits in, dated May 5 2026, a real departure
-  day flying out to Vietnam on a Vietnam Airlines premium cabin seat.
-  Rolled length tier 5 (deep dive, 1,300-1,600 words) and format 6
-  (head-to-head comparison) from CLAUDE.md's system, no reroll
-  needed, a genuine real comparison existed (Haruka vs Rapi:t is an
-  established real travel-guide comparison, confirmed independently
-  via search). Published 2026-10-09 as
-  `haruka-vs-rapit-kansai-airport-train-cost`, 1,271 words (landed
-  just under tier 5's floor after three genuine expansions, a KIX
-  engineering-history section, a departure-tax section, and a
-  family-of-5 cost table, two photos with no transit receipt
-  couldn't stretch further without padding, said so here), topic
-  `en/transit`. No receipt for which train the family actually took
-  that morning, said so plainly rather than guessing, and researched
-  real current fares for both instead: Nankai Rapi:t from Namba
-  (1,490-1,700 yen, April 2026 revision, most reliable figures
-  found), JR Haruka from Shin-Osaka/Kyoto (genuinely disputed across
-  sources, 1,830 to 3,000+ yen, hedged honestly, plus the real
-  foreign-visitor 1,800 yen discount ticket and the ICOCA&HARUKA
-  3,000 yen bundle), the cheaper Nankai Airport Express (970 yen,
-  no reservation), and the limousine bus (also disputed, 1,000-1,880
-  yen). Added real Kansai Airport history (opened September 4 1994,
-  built on an artificial island, Renzo Piano's Terminal 1, the
-  island's real, well documented ongoing sinking problem) and Japan's
-  real International Tourist Tax (1,000 yen per departing passenger
-  since January 2019, folded into airfare). Found a real, independently
-  corroborated Klook listing for the limousine bus (activity 18203,
-  4.8 stars, 7,700+ reviews, confirmed across 3 separate Klook locale
-  URLs in search results after a direct fetch was blocked), full
-  AffiliateBox and KlookCodeBox, verified the real redirect URL and
-  ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
-  Zero uses of "actually" or "genuinely" in the published body (4
-  caught and cut from drafts).
 - **Tokyo's ginkgo trees, a free apartment-window autumn view.**
   02:00 UTC firing (2026-10-10). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -393,3 +348,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   honestly rather than re-deriving either. No AffiliateBox, a retail
   clothing purchase isn't Klook/GYG bookable. Zero uses of "actually"
   or "genuinely" in the published body.
+- **Zauo, the catch-your-own-dinner restaurant in Namba.** 02:00 UTC
+  firing (2026-10-14). Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without real
+  photos). AL_Vault fallback: checked several smaller, previously
+  under-explored city pools first (Katsushika's 37 photos turned out
+  to be mostly home-life material, already-covered Harper's birthday
+  cake overflow, and kids' artwork, nothing blog-worthy; Minato,
+  Bunkyo, Sakai, Nara, Yokohama, Chuo, Koto, Narita, and Chiba were
+  all overflow from already-published events or too thin/unidentifiable
+  to anchor a post; Shibuya's 25 photos are entirely otter cafe
+  overflow). Found the real lead in Osaka's video catalog rather than
+  its photos: a real, previously unused 27-second family short titled
+  "Fun night at Zauo Fishing Restaurant in Osaka, Japan," filmed at
+  the Namba location sometime between late May and late June 2023 (no
+  exact date confirmed, no journal entry for the window, said so
+  plainly rather than guessing a specific day). No AL_Vault still
+  photos exist for this visit at all (checked `search_photos text:
+  "zauo"`, zero results), so the cover image is a direct download of
+  the video's own real thumbnail (Lindsay helping one of the girls
+  bait a line over the tank) rather than a vault photo, and the body
+  embeds the actual short via youtube-nocookie iframe, the same
+  pattern as the existing Nara post's embedded video. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 4 (myth-correction)
+  from CLAUDE.md's system, no reroll needed, a real correction existed
+  (multiple sources confirm there's no catch-and-release at Zauo, once
+  a fish is netted it's sold and cooked, which is not how a first-time
+  visitor would assume a restaurant fishing game works). Published
+  2026-10-14 as `zauo-fishing-restaurant-osaka-catch-your-own-fish-cost`,
+  1,300 words, topic `en/budget-food`. Real researched pricing
+  (Fish Corner catches 400-1,000 yen, larger species into the
+  thousands, lobster at market rate, 1,000-5,000 yen total per person),
+  honestly flagged the one point sources disagree on (rod rental
+  quoted as both free and 100-110 yen depending on the source, no
+  receipt either way to settle it). Added a real "getting there"
+  section (Namba Walk's underground connection from Namba Station to
+  Nihonbashi Station) and a real "wider chain" section (Fukuoka as the
+  original location, Namba as the Kansai main store, Shinjuku's 2003
+  opening and boat-in-tank room, Shibuya's own 4,980 yen set course),
+  both genuine expansions rather than padding, needed to honestly reach
+  tier 5 after the first pass landed at 997 words. No AL_Vault photo
+  to mark used (video only), so `mark_photo_used` was not called for
+  this post. Could not find a Klook or GetYourGuide listing for Zauo
+  itself, used a general `<AffiliateBox>` Dotonbori food tour search
+  link instead since it genuinely fits the same neighborhood and topic,
+  plus `<KlookCodeBox>` since that search link is still a real Klook
+  link. Zero uses of "actually" or "genuinely" in the published body (2
+  caught and cut from drafts).
