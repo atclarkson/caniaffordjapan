@@ -39,52 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Tombori River Cruise, the paid boat view the existing free
-  Dotonbori walk post never covered.** 08:00 UTC firing (2026-10-10).
-  Both priority sources exhausted again (same BLOCKED Ginza sumo
-  idea, all three teamLab items still without real photos). Checked
-  Shibuya, Chuo, Bunkyo, and Minato fully this firing, all confirmed
-  exhausted (otter cafe overflow, already-used Ginza material, three
-  separate Tokyo Dome visits all already covered by 3 existing posts,
-  teamLab Borderless overflow). Checked Katsushika's remaining
-  unused photos in full (home-life ephemera, Father's Day-style
-  drawings, a thin indoor balloon-animal photo geolocated to
-  Shibamata that turned out to significantly overlap the existing
-  Shibamata supermarket post's own Tora-san/Taishakuten history,
-  skipped as a near-duplicate rather than written around) and Narita
-  (unused photos all overlap the existing airport post or repeat
-  yesterday's flying-out-of-Japan theme with a different airport,
-  skipped for thematic repetition). Found the real lead back in
-  Osaka's own 99-photo pool, scanned in full: a real, previously
-  unused June 8 2023 photo on a boat deck in front of the Glico Man
-  sign, a different real visit and a different vantage point than
-  the existing free Dotonbori walk post (which only uses April 2026
-  street-level photos). Confirmed via alt text and research this is
-  the Tombori River Cruise, a real paid boat tour, genuinely distinct
-  from the free walk already published. Rolled length tier 4 (long,
-  1,000-1,300 words) and format 6 (head-to-head comparison) from
-  CLAUDE.md's system, no reroll needed, a real comparison existed
-  (paid boat vs. the site's own free walk post). Published
-  2026-10-10 as `tombori-river-cruise-vs-free-dotonbori-walk-osaka`,
-  1,062 words, topic `en/osaka`. Pricing for the cruise was
-  inconsistent across official tourism sources (900-2,000 yen for
-  an adult ticket), said so plainly rather than picking one number.
-  Added a real myth-correction found during research: the canal's
-  popular "funded by a generous merchant named Yasui Doton" origin
-  story was formally ruled fictional in a real 1965 court case
-  brought by a descendant of one of the canal's actual builders,
-  still repeated as fact by some tourism sites regardless. Added
-  real Glico Man sign history (first installed 1935, current sixth
-  version switched to LED in 2014) and the Kani Doraku giant crab
-  sign's own real 1960 install date on the same bridge. Cross-
-  referenced the site's existing Osaka Castle (1,200 yen) and
-  Disney-vs-USJ (8,900-11,900 yen) pricing honestly rather than
-  re-deriving either. Found a real, independently corroborated Klook
-  listing (activity 176566, 4.1 stars, 40K+ booked, confirmed across
-  multiple locale URLs), full AffiliateBox and KlookCodeBox, verified
-  the real redirect URL and ADAMANDLINDSKLOOK code both landed
-  correctly in the built HTML. Zero uses of "actually" or "genuinely"
-  in the published body (4 caught and cut from drafts).
 - **The Copic Official Shop in Tokyo, a marker-pricing trap most
   first-timers miss.** 14:00 UTC firing (2026-10-10). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -384,3 +338,44 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   short cross-reference to this post instead. Both posts rebuilt,
   rechecked, and relinted clean, zero new uses of "actually" or
   "genuinely" in either (1 caught and cut from the correction).
+- **The Wizarding World of Harry Potter at USJ, opening day to now.**
+  14:00 UTC firing (2026-10-14). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos, rechecked specifically against the new Osaka upload
+  wave with `search_photos text: "teamLab"` and `"botanical"`, no
+  match). AL_Vault fallback found a second real cluster inside the
+  same new-upload wave that surfaced the Zauo correction earlier
+  today: 8 previously unused photos from a full June 7 2023 morning
+  and afternoon at USJ's Wizarding World of Harry Potter (Ollivander's
+  wand shop, Hogsmeade village, Hogwarts Castle, the Forbidden Journey
+  queue, plus one Mel's Drive-In night shot from elsewhere in the
+  park), none overlapping any of this site's existing USJ posts (the
+  birthday, ticket-comparison, and Express Pass posts all draw from a
+  separate March 2026 visit instead, confirmed by comparing photo
+  UUIDs directly). Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 13 (history-led) from CLAUDE.md's system, no
+  reroll needed, a real opening-day history existed to lead with
+  (Prime Minister Shinzo Abe at the July 15 2014 opening ceremony, a
+  reported $500 million investment, confirmed independently via
+  search rather than assumed). Published 2026-10-14 as
+  `wizarding-world-harry-potter-usj-osaka-cost`, 1,630 words, topic
+  `en/theme-parks`. Real pricing with honest date-hedging throughout:
+  Butterbeer's 2014 launch price (500 yen paper cup, 1,000 yen
+  souvenir mug) and a later premium metal mug (3,980-4,500 yen,
+  sources disagree on the exact year and figure), an interactive wand
+  at 5,500 yen including tax (confirmed current, not a separate
+  ceremony fee on top), Three Broomsticks mains around 3,000 yen.
+  Added real, verified detail not available from guessing: Flight of
+  the Hippogriff's actual height rule (122cm standard, 92cm with a
+  supervising companion, 16 riders per car, about 2 minutes), the
+  real JR Yumesaki/Sakurajima Line route from Osaka Station (12
+  minutes, 180 yen direct, or a same-platform transfer via Nishikujo),
+  and the real July 2024 tenth-anniversary Hogwarts Castle Walk
+  feature as a reason a return visit can differ from this one. Reused
+  a real, already-verified Klook listing from this site's own earlier
+  Disney-vs-USJ post (activity 168914, Have Fun in Kansai Premium,
+  bundles USJ admission with a Harry Potter or Minions express pass)
+  rather than inventing a new one, full AffiliateBox and KlookCodeBox,
+  cross-referenced the existing Express Pass post's own wait-time math
+  rather than re-deriving it. Zero uses of "actually" or "genuinely"
+  in the published body (3 caught and cut from drafts).
