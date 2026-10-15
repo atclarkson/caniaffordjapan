@@ -43,12 +43,25 @@ to finish, don't try to batch more than one into a single firing.
    file's "Done" section with a link to the new post once it's published.
    Skip any idea marked BLOCKED there, it means the site owner said not
    to write it yet, usually because it needs affiliate info or some
-   other input only they can provide. Once both of those are exhausted
-   (expect this often at 4x/day pacing), fall back to
-   fresh AL_Vault exploration: check `get_destinations` for cities with
+   other input only they can provide. If nothing there fits either, move
+   to AL_Vault exploration: check `get_destinations` for cities with
    unused photo counts the site hasn't covered yet, the way several posts
    already published this way (Hakone, the otter cafe, Nihon Minkaen, the
-   Yomiuri Giants post, and others).
+   Yomiuri Giants post, and others). This doesn't mean working through
+   every city in `get_destinations` one by one until none are left, that's
+   more effort than a single firing needs. A handful of promising-looking
+   pools (the biggest unused counts, or ones tied to a date/story you
+   already have some context on) is a reasonable look; the moment
+   something genuinely good turns up, a real unused photo or video with a
+   clear angle, go write it rather than continuing to audit every
+   remaining pool for completeness. Not every post has to come from
+   AL_Vault either: a real, useful topic the site hasn't covered yet
+   (gear, connectivity, packing, general Japan logistics) is fair game
+   for a firing on its own, written from real researched facts and the
+   site's own real affiliate accounts rather than a vault photo. Only
+   stop and report back empty-handed if you've given AL_Vault a genuine
+   look and nothing, vault-sourced or otherwise, turned up anything
+   worth writing.
 2. Pull real material from the AL_Vault MCP tools, never invent details or
    use stock photography:
    - `get_destinations` to see what cities and neighborhoods have unused
@@ -77,9 +90,10 @@ to finish, don't try to batch more than one into a single firing.
    no review step. Cloudflare auto deploys on push.
 
 If you hit something you can't resolve alone (the build is broken by
-something other than your own change, or you genuinely can't find any new
-unused material), stop and leave a clear note rather than pushing something
-broken or duplicating a covered topic.
+something other than your own change, or a real, honest look turns up
+nothing worth writing), stop and leave a clear note rather than pushing
+something broken or duplicating a covered topic. That's a last resort, not
+the default outcome of a normal firing.
 
 ## Length
 
