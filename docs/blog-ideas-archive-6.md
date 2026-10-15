@@ -348,3 +348,41 @@ more recent entries. When this file nears 400 lines too, start
   family restaurant dinner isn't Klook/GYG bookable. Zero uses of
   "actually" or "genuinely" in the published body (1 caught and cut
   from a section heading).
+- **A5 wagyu yakiniku in Asakusa, what the grade actually means.**
+  02:00 UTC firing (2026-10-11). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Continued scanning Taito's 118-photo pool
+  well beyond the titled photos, previewing roughly a dozen more
+  previously unexamined May 2024 "IMG_XXXX" photos (all confirmed
+  thin or overflow: Iriya Minami Park playground repeats, a Sumida
+  River boat photo already evaluated and deliberately left unused in
+  the Asahi Flamme d'Or post, apartment Skytree views) before
+  returning to a lead identified but not used in an earlier firing:
+  a real unused November 15 2023 photo of wagyu on a yakiniku grill,
+  geolocated to Asakusa 1, no restaurant name or receipt attached.
+  Rolled length tier 2 (short, 600-800 words) and format 15 (plain
+  declarative) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-11 as `a5-wagyu-yakiniku-asakusa-grading-cost`, 649 words,
+  topic `en/budget-food`. No receipt for this specific meal, said so
+  plainly, researched the real A5 grading system instead: a letter
+  yield grade (A requires 72%+) and a separate 1-5 quality grade set
+  by the lowest of four sub-scores (marbling, color, firmness, fat
+  quality), with marbling itself scored on a 1-12 Beef Marbling
+  Score where a 5 requires BMS 8+, the whole system run by the Japan
+  Meat Grading Association. Added real, legally-grounded context
+  that "wagyu" itself is a regulated label (Japan's 2007 MAFF
+  guidelines restrict it to four official breeds, Japanese Black/
+  Kuroge Washu alone accounting for roughly 98% of all wagyu,
+  non-qualifying cattle required to be labeled kokusangyu instead).
+  For pricing, found a real but dated (listing undated past ~2018)
+  Asakusa value-course reference point (Hirakuen, from 3,000 yen,
+  flagged as possibly stale) and real current comparable Tokyo
+  wagyu-yakiniku course pricing elsewhere in the city (8,000-11,000
+  yen, Akihabara/Ginza/Akasaka) for honest range context rather than
+  claiming a number for the specific photographed meal. Found a
+  real, relevant Klook listing (Tokori Wagyu BBQ, activity 87974,
+  Asakusa among its locations, family-friendly per reviews), full
+  AffiliateBox and KlookCodeBox, verified the real redirect URL and
+  ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
+  Zero uses of "actually" or "genuinely" in the published body (4
+  caught and cut from drafts).

@@ -39,44 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A5 wagyu yakiniku in Asakusa, what the grade actually means.**
-  02:00 UTC firing (2026-10-11). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Continued scanning Taito's 118-photo pool
-  well beyond the titled photos, previewing roughly a dozen more
-  previously unexamined May 2024 "IMG_XXXX" photos (all confirmed
-  thin or overflow: Iriya Minami Park playground repeats, a Sumida
-  River boat photo already evaluated and deliberately left unused in
-  the Asahi Flamme d'Or post, apartment Skytree views) before
-  returning to a lead identified but not used in an earlier firing:
-  a real unused November 15 2023 photo of wagyu on a yakiniku grill,
-  geolocated to Asakusa 1, no restaurant name or receipt attached.
-  Rolled length tier 2 (short, 600-800 words) and format 15 (plain
-  declarative) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-11 as `a5-wagyu-yakiniku-asakusa-grading-cost`, 649 words,
-  topic `en/budget-food`. No receipt for this specific meal, said so
-  plainly, researched the real A5 grading system instead: a letter
-  yield grade (A requires 72%+) and a separate 1-5 quality grade set
-  by the lowest of four sub-scores (marbling, color, firmness, fat
-  quality), with marbling itself scored on a 1-12 Beef Marbling
-  Score where a 5 requires BMS 8+, the whole system run by the Japan
-  Meat Grading Association. Added real, legally-grounded context
-  that "wagyu" itself is a regulated label (Japan's 2007 MAFF
-  guidelines restrict it to four official breeds, Japanese Black/
-  Kuroge Washu alone accounting for roughly 98% of all wagyu,
-  non-qualifying cattle required to be labeled kokusangyu instead).
-  For pricing, found a real but dated (listing undated past ~2018)
-  Asakusa value-course reference point (Hirakuen, from 3,000 yen,
-  flagged as possibly stale) and real current comparable Tokyo
-  wagyu-yakiniku course pricing elsewhere in the city (8,000-11,000
-  yen, Akihabara/Ginza/Akasaka) for honest range context rather than
-  claiming a number for the specific photographed meal. Found a
-  real, relevant Klook listing (Tokori Wagyu BBQ, activity 87974,
-  Asakusa among its locations, family-friendly per reviews), full
-  AffiliateBox and KlookCodeBox, verified the real redirect URL and
-  ADAMANDLINDSKLOOK code both landed correctly in the built HTML.
-  Zero uses of "actually" or "genuinely" in the published body (4
-  caught and cut from drafts).
 - **Golden Gai's 500-1,000 yen seat charge, the thing that catches
   first-timers off guard.** 08:00 UTC firing (2026-10-11). Both
   priority sources exhausted again (same BLOCKED Ginza sumo idea,
@@ -390,3 +352,41 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   elsewhere, an unidentified restaurant, a free informal meetup).
   Zero uses of "actually" or "genuinely" in the published body (1
   caught and cut from the first draft).
+- **The TravelSpend budgeting app, our first non-AL_Vault-sourced
+  post.** 14:00 UTC firing (2026-10-15). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea), and a quick
+  `get_destinations` check found zero new uploads since the prior
+  firing (Osaka still at 133). Per the site owner's own loosening of
+  CLAUDE.md's routine earlier today (no longer required to work
+  through every AL_Vault city before considering other options),
+  checked `docs/affiliates-reference.md` for a real, on-topic,
+  not-yet-covered affiliate category instead: Travel Spend, a budget
+  tracking app, fit the site's own core premise ("what does this
+  actually cost") better than any gear tangent would. Real terms from
+  that doc (code ADAMANDLINDS, 50% off the annual plan, real URL
+  https://get.travelspend.app/?o=adamandlinds), cross-checked against
+  the family's own existing review on adamandlinds.com (fetched
+  directly after a stale cached URL 404'd, found the live one via
+  search) for accurate feature/pricing detail rather than guessing:
+  manual entry only (no bank connection, a deliberate design choice,
+  not a missing feature), free vs Premium split (cost splitting,
+  analytics, multi-trip, cloud sync are Premium-only), and a real,
+  specifically Japan-located anecdote, a two-week Tokyo stay with
+  relatives where the split-cost feature tracked who owed whom.
+  Rolled length tier 1 (quick hit, 450-600 words) and format 4
+  (myth-correction) from CLAUDE.md's system, no reroll needed, a real
+  correction existed (the obvious assumption is that a budget app
+  auto-syncs with your bank like Mint or YNAB; TravelSpend
+  deliberately doesn't). Published 2026-10-15 as
+  `travelspend-app-tracking-japan-trip-costs`, 512 words, topic
+  `en/deals`. Honestly hedged the $19.99/year figure as TravelSpend's
+  own FAQ number with regional variance noted, per the source review's
+  own inconsistency on exact pricing. Reused the same real Narita
+  airport cover photo already used on the eSIM/pocket-wifi post
+  (reuse across posts is fine per CLAUDE.md), no new AL_Vault photo
+  needed since this post isn't sourced from a specific vault moment.
+  No Klook/GYG link, this is a telecom-style miscellaneous affiliate
+  (not in `telecomAffiliates.ts`, which only covers connectivity
+  providers), linked directly per CLAUDE.md's pattern for affiliates
+  with no shared component. Zero uses of "actually" or "genuinely" in
+  the published body (3 caught and cut from drafts).
