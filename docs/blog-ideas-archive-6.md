@@ -309,3 +309,42 @@ more recent entries. When this file nears 400 lines too, start
   real on Klook, no AffiliateBox, a retail walk-in isn't a bookable
   activity. Zero uses of "actually" or "genuinely" in the published
   body (6 caught and cut from drafts).
+- **Japan's Denny's isn't the Denny's anyone back home grew up
+  with.** 20:00 UTC firing (2026-10-10). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Checked Narashino's single
+  unused Round1 photo first (a genuinely different real location
+  than the one the existing Round1 post covers) but set it aside,
+  the existing post's pricing is explicitly nationwide, a second
+  Round1 post with only a different storefront photo would read as
+  the same template with the city swapped. Went back to Taito's
+  118-photo pool and scanned well beyond the titled photos found in
+  earlier firings, previewing roughly 20 previously unexamined
+  "IMG_XXXX" photos across Oct-Dec 2023 and June-July 2024 clusters.
+  Found and ruled out a rich Halloween/Shinobazu Pond swan-boat day
+  (Oct 31 2023) already thoroughly covered by two existing posts
+  (`halloween-costumes-cost-tokyo-ueno-zoo-shinobazu` and
+  `ueno-zoo-shinobazu-pond-boats-tokyo-cost`), confirmed via direct
+  photo-UUID comparison rather than guessing from dates alone before
+  finding a real, unused October 7 2023 photo of a Denny's storefront
+  sign in Asakusa, a topic only ever mentioned in passing (one
+  sentence) in an existing famiresu-chains post, never its own piece.
+  Rolled length tier 2 (short, 600-800 words) and format 12
+  (family-logistics framing) from CLAUDE.md's system, no reroll
+  needed. Published 2026-10-10 as
+  `dennys-japan-not-american-menu-cost`, 652 words, topic
+  `en/budget-food`. The real correction: Denny's Japan started in
+  1973 as an Ito-Yokado licensing deal with the American chain
+  (first store, Yokohama, 1974), menu kept close to the US original
+  under contract until Denny's Japan bought the trademark outright
+  in 1984, free to diverge from that point on; today's menu runs on
+  hamburg steak, curry rice, omurice, and tonkatsu, not a Grand Slam.
+  Flagged a found 680 yen hamburg-set price as an old, undated-enough
+  reference point rather than current, and noted a real June 2025
+  menu revision (40 items repriced) without guessing new figures.
+  Added a real 2022 detail (soy-meat swap option, +50 yen) and a real
+  sibling-brand parallel (7-Eleven Japan, same Ito-Yokado/Seven & i
+  lineage, same import-then-reinvent pattern). No AffiliateBox, a
+  family restaurant dinner isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (1 caught and cut
+  from a section heading).

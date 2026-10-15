@@ -39,45 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Japan's Denny's isn't the Denny's anyone back home grew up
-  with.** 20:00 UTC firing (2026-10-10). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Checked Narashino's single
-  unused Round1 photo first (a genuinely different real location
-  than the one the existing Round1 post covers) but set it aside,
-  the existing post's pricing is explicitly nationwide, a second
-  Round1 post with only a different storefront photo would read as
-  the same template with the city swapped. Went back to Taito's
-  118-photo pool and scanned well beyond the titled photos found in
-  earlier firings, previewing roughly 20 previously unexamined
-  "IMG_XXXX" photos across Oct-Dec 2023 and June-July 2024 clusters.
-  Found and ruled out a rich Halloween/Shinobazu Pond swan-boat day
-  (Oct 31 2023) already thoroughly covered by two existing posts
-  (`halloween-costumes-cost-tokyo-ueno-zoo-shinobazu` and
-  `ueno-zoo-shinobazu-pond-boats-tokyo-cost`), confirmed via direct
-  photo-UUID comparison rather than guessing from dates alone before
-  finding a real, unused October 7 2023 photo of a Denny's storefront
-  sign in Asakusa, a topic only ever mentioned in passing (one
-  sentence) in an existing famiresu-chains post, never its own piece.
-  Rolled length tier 2 (short, 600-800 words) and format 12
-  (family-logistics framing) from CLAUDE.md's system, no reroll
-  needed. Published 2026-10-10 as
-  `dennys-japan-not-american-menu-cost`, 652 words, topic
-  `en/budget-food`. The real correction: Denny's Japan started in
-  1973 as an Ito-Yokado licensing deal with the American chain
-  (first store, Yokohama, 1974), menu kept close to the US original
-  under contract until Denny's Japan bought the trademark outright
-  in 1984, free to diverge from that point on; today's menu runs on
-  hamburg steak, curry rice, omurice, and tonkatsu, not a Grand Slam.
-  Flagged a found 680 yen hamburg-set price as an old, undated-enough
-  reference point rather than current, and noted a real June 2025
-  menu revision (40 items repriced) without guessing new figures.
-  Added a real 2022 detail (soy-meat swap option, +50 yen) and a real
-  sibling-brand parallel (7-Eleven Japan, same Ito-Yokado/Seven & i
-  lineage, same import-then-reinvent pattern). No AffiliateBox, a
-  family restaurant dinner isn't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (1 caught and cut
-  from a section heading).
 - **A5 wagyu yakiniku in Asakusa, what the grade actually means.**
   02:00 UTC firing (2026-10-11). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -380,3 +341,52 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   of "actually" or "genuinely" in the published body (4 caught and
   cut from drafts, two added during a genuine length expansion from
   an initial 890-word draft).
+- **A worldschool meetup day in Kawasaki, lunch to Nihon Minkaen to
+  a real Worldschool Pop-Up Hub gathering.** 02:00 UTC firing
+  (2026-10-15). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, rechecked `search_photos text: "sumo"`, zero
+  results). No new AL_Vault uploads since the prior firing (Osaka
+  still at 133 photos, no pig cafe material yet). Re-scanned Osaka's
+  full 133-photo pool for anything missed (confirmed the Little
+  Mermaid statue photo would duplicate the existing Tempozan post,
+  which already describes that exact statue in prose, skipped as a
+  near-duplicate) before re-checking Kawasaki and Urayasu in full
+  despite both being marked exhausted in an earlier segment of this
+  routine's work. Urayasu confirmed still fully DisneySea/Disneyland
+  overflow, re-exhausted. Kawasaki's remaining unused photos are
+  mostly Nihon Minkaen overflow (already covered by 2 existing
+  posts), but 2 of them stood out: a restaurant lunch at 13:07,
+  earlier the same day as the museum visit (geolocated to Masugata
+  7-chome, Kawasaki, not the museum's own soba restaurant per the
+  existing posts' own "we didn't eat there that day" line, and not
+  identifiable from the photo, so left unnamed and honestly
+  estimated), and a friends-meetup photo at 15:27-15:28 whose own
+  original filename ("Some friends, Lindsay, and Adam sitting
+  together after meeting at a worldschool popup hub at Ikuta Ryokuchi
+  Park in Kawasaki Japan November 3 2023.png") revealed a genuinely
+  new angle neither existing Minkaen post touches: a real named
+  community, the Worldschool Pop-Up Hub (run by the Carlson family),
+  confirmed independently via search rather than taken on faith from
+  the filename alone. Rolled length tier 3 (standard, 800-1,000
+  words) and format 8 (itemized breakdown) from CLAUDE.md's system,
+  no reroll needed, the day genuinely had 3 real line items to
+  itemize. Published 2026-10-15 as
+  `worldschool-popup-hub-kawasaki-day-cost`, 819 words, topic
+  `en/unexpected-costs`. Cross-referenced both existing Nihon Minkaen
+  posts' own 550 yen admission honestly rather than re-deriving it.
+  Researched and clearly distinguished the real, informal, free
+  Worldschool Pop-Up Hub (week-long city gatherings, Tokyo among past
+  stops alongside Bangkok, Chiang Mai, Lisbon, Rome, Berlin, no
+  central ticketing, found via the Carlsons' own site/blog/social
+  channels) from a separate, unrelated paid product with a similar
+  pitch, "World School Camp" (hotels, private transport, guided
+  itineraries, a real fee), a genuine myth-correction-style detail
+  worth getting right rather than conflating the two. No receipt for
+  the unidentified lunch restaurant, used an honestly-hedged general
+  Kawasaki casual-lunch price range instead of guessing a number.
+  Checked for a genuine affiliate fit and found none, consistent with
+  both existing Minkaen posts also carrying no AffiliateBox, nothing
+  on this page is bookable (a municipal museum already priced
+  elsewhere, an unidentified restaurant, a free informal meetup).
+  Zero uses of "actually" or "genuinely" in the published body (1
+  caught and cut from the first draft).
