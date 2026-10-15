@@ -39,49 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Golden Gai's 500-1,000 yen seat charge, the thing that catches
-  first-timers off guard.** 08:00 UTC firing (2026-10-11). Both
-  priority sources exhausted again (same BLOCKED Ginza sumo idea,
-  all three teamLab items still without real photos). Confirmed
-  Taito fully exhausted this firing (the one remaining unused titled
-  photo, an illuminated pagoda at night from the same November 17
-  2023 evening as the already-published Sumida River Walk post,
-  overlaps the existing dedicated Senso-ji temple post, which already
-  uses two near-identical illuminated-pagoda-at-night photos). Pivoted
-  to Shinjuku's 21-photo pool and found a real, previously unused
-  November 26 2023 cluster geolocated to Kabukicho 1, a different
-  date and venue entirely from the existing Godzilla/torii post
-  (March 2023) and the just-published West Shinjuku izakaya post
-  (May 2024). Confirmed via coordinates the cluster sits inside
-  Golden Gai specifically, a well-known district only ever mentioned
-  in passing (one sentence, giving the station exit) in the West
-  Shinjuku post, never its own piece. Rolled length tier 3 (standard,
-  800-1,000 words) and format 1 (price-first, no verb in the title)
-  from CLAUDE.md's system, no reroll needed. Published 2026-10-11 as
-  `golden-gai-shinjuku-seat-charge-cost`, 894 words, topic
-  `en/budget-food`, using all 3 real unused photos from the cluster
-  (the alley at night plus two separate bar interiors). The real
-  hook: most Golden Gai bars charge a real 500-1,000 yen per-person
-  seat/table charge before a single drink arrives (up to 4,000 yen at
-  pricier bars), on top of 800-1,200 yen average drinks, a cost
-  structure invisible from outside since most bars carry no posted
-  English menu. Added real, documented history (the district's real
-  origin as a 1945 post-war black market relocated by Occupation
-  forces, not originally a drinking district at all, the shift to
-  izakaya-style bars only coming after a 1958 prostitution ban),
-  real scale (roughly 280-300 individually run tiny bars across six
-  named alleys plus a seventh cross-lane, confirmed real lane names),
-  and a real practical tip (cash-preferred, look for "Foreigners
-  Welcome" signage). Cross-referenced the West Shinjuku post's real
-  Shinjuku Station exit detail (Central East Exit vs South Exit)
-  honestly rather than re-deriving it. Reused the real Klook
-  Kabukicho nightlife bar-hopping tour (activity 158212) that the
-  West Shinjuku post had found but judged a mismatch for a
-  family-with-five-kids post, a genuine fit here since this post's
-  own photos are adults-only, full AffiliateBox and KlookCodeBox,
-  verified the real redirect URL and ADAMANDLINDSKLOOK code both
-  landed correctly in the built HTML. Zero uses of "actually" or
-  "genuinely" in the published body (7 caught and cut from drafts).
 - **The Tokyo Fire Museum's dress-up corner, the gap the existing
   review left open.** 14:00 UTC firing (2026-10-11). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -390,3 +347,35 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   providers), linked directly per CLAUDE.md's pattern for affiliates
   with no shared component. Zero uses of "actually" or "genuinely" in
   the published body (3 caught and cut from drafts).
+- **Japan's child car seat law, taxis vs rental cars.** 20:00 UTC
+  firing (2026-10-15). Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea), a quick `get_destinations` check found
+  zero new uploads since the prior firing (Osaka still at 133).
+  Checked `docs/affiliates-reference.md` again for another real,
+  not-yet-covered, on-topic affiliate: Wayb (travel car seats, 10%
+  commission, no customer code, generic Awin link, no specific
+  product deep-link given so used the account link as-is rather than
+  inventing one). Researched Japan's real Road Traffic Act child seat
+  requirement (Article 71-3, Paragraph 4, under-6 threshold, National
+  Police Agency enforced) and the real, specifically-named taxi
+  exemption (practical reasoning: a taxi can't carry a correctly
+  sized seat for every possible passenger) before committing, this
+  wasn't covered by any existing post (`grep` for "car seat" only
+  matched an unrelated street-kart post in passing). Found a real,
+  official rental-car price point directly from Toyota Rent a Car's
+  own English site (1,650 yen child/infant seat, 1,100 yen booster,
+  one-time option fee) rather than relying on a secondary listing
+  that gave a conflicting, likely-outdated 550 yen figure. Honestly
+  flagged a single-source, unconfirmed 1-point license-deduction
+  penalty detail as unverified rather than stating it as fact. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 15 (plain
+  declarative) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-15 as `japan-child-car-seat-law-taxi-rental-car`, 508
+  words, topic `en/unexpected-costs`. Reused a real, already-used
+  Tokyo taxi photo ("Tokyo Taxi Goodbye Before Taiwan," the whole
+  family riding with no car seats visible) as the cover, a direct,
+  honest illustration of the taxi exemption itself rather than a
+  generic stock-style choice. No Klook/GYG, nothing on this page is
+  Klook/GYG bookable, the Wayb link is the only affiliate content.
+  Zero uses of "actually" or "genuinely" in the published body (2
+  caught and cut from the first draft).
