@@ -191,3 +191,44 @@ more recent entries. When this file nears 400 lines too, start
   short cross-reference to this post instead. Both posts rebuilt,
   rechecked, and relinted clean, zero new uses of "actually" or
   "genuinely" in either (1 caught and cut from the correction).
+- **The Wizarding World of Harry Potter at USJ, opening day to now.**
+  14:00 UTC firing (2026-10-14). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos, rechecked specifically against the new Osaka upload
+  wave with `search_photos text: "teamLab"` and `"botanical"`, no
+  match). AL_Vault fallback found a second real cluster inside the
+  same new-upload wave that surfaced the Zauo correction earlier
+  today: 8 previously unused photos from a full June 7 2023 morning
+  and afternoon at USJ's Wizarding World of Harry Potter (Ollivander's
+  wand shop, Hogsmeade village, Hogwarts Castle, the Forbidden Journey
+  queue, plus one Mel's Drive-In night shot from elsewhere in the
+  park), none overlapping any of this site's existing USJ posts (the
+  birthday, ticket-comparison, and Express Pass posts all draw from a
+  separate March 2026 visit instead, confirmed by comparing photo
+  UUIDs directly). Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 13 (history-led) from CLAUDE.md's system, no
+  reroll needed, a real opening-day history existed to lead with
+  (Prime Minister Shinzo Abe at the July 15 2014 opening ceremony, a
+  reported $500 million investment, confirmed independently via
+  search rather than assumed). Published 2026-10-14 as
+  `wizarding-world-harry-potter-usj-osaka-cost`, 1,630 words, topic
+  `en/theme-parks`. Real pricing with honest date-hedging throughout:
+  Butterbeer's 2014 launch price (500 yen paper cup, 1,000 yen
+  souvenir mug) and a later premium metal mug (3,980-4,500 yen,
+  sources disagree on the exact year and figure), an interactive wand
+  at 5,500 yen including tax (confirmed current, not a separate
+  ceremony fee on top), Three Broomsticks mains around 3,000 yen.
+  Added real, verified detail not available from guessing: Flight of
+  the Hippogriff's actual height rule (122cm standard, 92cm with a
+  supervising companion, 16 riders per car, about 2 minutes), the
+  real JR Yumesaki/Sakurajima Line route from Osaka Station (12
+  minutes, 180 yen direct, or a same-platform transfer via Nishikujo),
+  and the real July 2024 tenth-anniversary Hogwarts Castle Walk
+  feature as a reason a return visit can differ from this one. Reused
+  a real, already-verified Klook listing from this site's own earlier
+  Disney-vs-USJ post (activity 168914, Have Fun in Kansai Premium,
+  bundles USJ admission with a Harry Potter or Minions express pass)
+  rather than inventing a new one, full AffiliateBox and KlookCodeBox,
+  cross-referenced the existing Express Pass post's own wait-time math
+  rather than re-deriving it. Zero uses of "actually" or "genuinely"
+  in the published body (3 caught and cut from drafts).

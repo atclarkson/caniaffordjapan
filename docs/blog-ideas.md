@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The Wizarding World of Harry Potter at USJ, opening day to now.**
-  14:00 UTC firing (2026-10-14). Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still without
-  real photos, rechecked specifically against the new Osaka upload
-  wave with `search_photos text: "teamLab"` and `"botanical"`, no
-  match). AL_Vault fallback found a second real cluster inside the
-  same new-upload wave that surfaced the Zauo correction earlier
-  today: 8 previously unused photos from a full June 7 2023 morning
-  and afternoon at USJ's Wizarding World of Harry Potter (Ollivander's
-  wand shop, Hogsmeade village, Hogwarts Castle, the Forbidden Journey
-  queue, plus one Mel's Drive-In night shot from elsewhere in the
-  park), none overlapping any of this site's existing USJ posts (the
-  birthday, ticket-comparison, and Express Pass posts all draw from a
-  separate March 2026 visit instead, confirmed by comparing photo
-  UUIDs directly). Rolled length tier 6 (extended feature, 1,600-2,000
-  words) and format 13 (history-led) from CLAUDE.md's system, no
-  reroll needed, a real opening-day history existed to lead with
-  (Prime Minister Shinzo Abe at the July 15 2014 opening ceremony, a
-  reported $500 million investment, confirmed independently via
-  search rather than assumed). Published 2026-10-14 as
-  `wizarding-world-harry-potter-usj-osaka-cost`, 1,630 words, topic
-  `en/theme-parks`. Real pricing with honest date-hedging throughout:
-  Butterbeer's 2014 launch price (500 yen paper cup, 1,000 yen
-  souvenir mug) and a later premium metal mug (3,980-4,500 yen,
-  sources disagree on the exact year and figure), an interactive wand
-  at 5,500 yen including tax (confirmed current, not a separate
-  ceremony fee on top), Three Broomsticks mains around 3,000 yen.
-  Added real, verified detail not available from guessing: Flight of
-  the Hippogriff's actual height rule (122cm standard, 92cm with a
-  supervising companion, 16 riders per car, about 2 minutes), the
-  real JR Yumesaki/Sakurajima Line route from Osaka Station (12
-  minutes, 180 yen direct, or a same-platform transfer via Nishikujo),
-  and the real July 2024 tenth-anniversary Hogwarts Castle Walk
-  feature as a reason a return visit can differ from this one. Reused
-  a real, already-verified Klook listing from this site's own earlier
-  Disney-vs-USJ post (activity 168914, Have Fun in Kansai Premium,
-  bundles USJ admission with a Harry Potter or Minions express pass)
-  rather than inventing a new one, full AffiliateBox and KlookCodeBox,
-  cross-referenced the existing Express Pass post's own wait-time math
-  rather than re-deriving it. Zero uses of "actually" or "genuinely"
-  in the published body (3 caught and cut from drafts).
 - **PayPay Dome Fukuoka vs Tokyo Dome, our actual first baseball game
   in Japan.** 20:00 UTC firing (2026-10-14). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea; rechecked teamLab
@@ -334,3 +293,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   and its standing + promo codes. Zero uses of "actually" or
   "genuinely" in the published body (4 caught and cut across drafts),
   also checked the title itself for the word before finalizing.
+- **The Yokohama Red Brick Warehouse Christmas Market, the paid core
+  behind the existing post's "free" waterfront sign.** 20:00 UTC
+  firing (2026-10-16). Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without real
+  photos). Checked AL_Vault for new uploads, none since the last
+  firing. Explored smaller unmined pools (Ota, Chiba, Yokohama) per
+  the loosened routine and found a real, previously unused photo in
+  Yokohama's pool (`5d30a1e6`, "Selfie at the Yokohama Christmas
+  Market Sign," November 24 2023, `used_in_count: 0`) whose own
+  `notes_for_ai` field directly confirmed real firsthand context the
+  AI-generated title/alt_text alone hadn't captured: "When we went to
+  the christmas market in yokohama with my parents and the girls."
+  Checked the existing `yokohama-cup-noodles-museum-sankeien-garden-cost`
+  post (same waterfront sign, a different but nearly identical photo,
+  `d23ff281`, same Nov 24 2023 evening) and confirmed it mischaracterized
+  the moment as a generic "free bonus" sign stop, never naming the real
+  Christmas market context, the same kind of undersell the Zauo/izakaya
+  correction caught earlier this session. Corrected that post with one
+  added sentence naming the market and cross-referencing this one,
+  consistent with the site's established correction pattern. Researched
+  real current 2026 market facts via web search (admission tiers 500 to
+  1,000 yen general, 2,000 to 2,500 yen Priority, 4,500 to 5,000 yen
+  Priority-plus-mug; free-entry age/date conditions; Nov 20-Dec 25
+  dates; hours; the free illuminated zone vs. paid core distinction)
+  and real warehouse history (built 1911/1913, survived the 1923
+  earthquake via reinforced brickwork, closed 1989, reopened 2002).
+  No Klook or GYG listing found for this specific event after two
+  targeted searches, skipped AffiliateBox entirely per CLAUDE.md's
+  rule rather than force a mismatched link; the companion post still
+  carries the real Cup Noodles/Sankeien Klook links. Rolled length
+  tier 6 (extended feature, 1,600-2,000 words) and format 9
+  (heads-up/warning framing) from CLAUDE.md's system, no reroll
+  needed, a real trap existed (assuming the whole lit-up area is free
+  when a paid core sits inside it, the same mistake the existing post
+  itself made). Published 2026-10-16 as
+  `yokohama-christmas-market-red-brick-warehouse-cost`, 1,451 words,
+  landed short of the rolled tier 6 despite real expansions (the
+  Priority-vs-General tradeoff, the free zone's own content, warehouse
+  history, a stacked full-day cost total with the companion post,
+  group-logistics tips), said so here rather than padding further once
+  the real material was used up. Topic `en/day-trips`. Zero uses of
+  "actually" or "genuinely" in the published body (6 caught and cut
+  across drafts, including two introduced during the expansion pass).
