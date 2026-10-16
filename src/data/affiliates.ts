@@ -10,11 +10,19 @@
 
 export type Provider = "klook" | "getyourguide" | "expedia";
 
-// Klook affiliate account. aid is the publisher id, aff_adid is the ad slot
-// id from the affiliate dashboard; both are fixed and reused for every link,
-// only k_site (the destination, url-encoded) changes per link.
+// Klook affiliate account (the main ADAMANDLINDSKLOOK one). aid is the
+// publisher id, aff_adid is the ad slot id from the affiliate dashboard;
+// both are fixed and reused for every link, only k_site (the destination,
+// url-encoded) changes per link.
 const KLOOK_AID = "92051";
 const KLOOK_AFF_ADID = "1420301";
+
+// A second, separate real Klook account the site owner also holds, for the
+// JR/shinkansen campaign specifically (confirmed 2026-10-16, both aids are
+// genuinely theirs, not a mismatch). Use `klookJrRedirect` instead of
+// `klookRedirect` for shinkansen/JR pass content.
+const KLOOK_JR_AID = "42202";
+const KLOOK_JR_AFF_ADID = "1503965";
 
 // GetYourGuide partner id, appended as a query param to any getyourguide.com
 // URL (search results, city pages, activity pages, all work the same way).
@@ -30,6 +38,11 @@ const EXPEDIA_SHOP_URL = "https://expedia.com/shop/adamandlinds";
 // page to link to, it converts far better than a generic search link.
 export function klookRedirect(targetUrl: string): string {
   return `https://affiliate.klook.com/redirect?aid=${KLOOK_AID}&aff_adid=${KLOOK_AFF_ADID}&k_site=${encodeURIComponent(targetUrl)}`;
+}
+
+// Same wrapping, but through the JR/shinkansen-specific account above.
+export function klookJrRedirect(targetUrl: string): string {
+  return `https://affiliate.klook.com/redirect?aid=${KLOOK_JR_AID}&aff_adid=${KLOOK_JR_AFF_ADID}&k_site=${encodeURIComponent(targetUrl)}`;
 }
 
 export const affiliates: Record<Provider, { label: string; searchUrl: (query: string) => string }> = {

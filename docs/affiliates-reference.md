@@ -46,14 +46,14 @@ owner 2026-10-16, forwarding a real 12Go affiliate outreach email.
   `validUntil` before using it in any post, it expires.
 - **Klook also sells shinkansen tickets**: the site owner flagged
   `https://www.klook.com/japan-rail/shinkansen/` as a real page worth
-  linking for a shinkansen/JR post, using the same ADAMANDLINDSKLOOK
-  account already wired via `klookRedirect()` in `src/data/affiliates.ts`
-  (aid `92051`, aff_adid `1420301`). The raw link the site owner pasted
-  used different ids (aid `42202`, aff_adid `1503965`), likely copied from
-  a different page/campaign rather than a second real account; use
-  `klookRedirect("https://www.klook.com/japan-rail/shinkansen/")` with our
-  existing account instead of that raw link unless the site owner confirms
-  the other ids are intentional.
+  linking for a shinkansen/JR post. This uses a **second, separate real
+  Klook account** the site owner holds specifically for the JR/shinkansen
+  campaign (aid `42202`, aff_adid `1503965`), confirmed by the site owner
+  2026-10-16, not a mismatch or a copy-paste error, both this account and
+  the main ADAMANDLINDSKLOOK one (aid `92051`, aff_adid `1420301`) are
+  genuinely theirs. Use `klookJrRedirect()` (in `src/data/affiliates.ts`,
+  alongside the regular `klookRedirect()`) for shinkansen/JR content
+  specifically, and the regular `klookRedirect()` for everything else.
 
 ## Insurance
 
