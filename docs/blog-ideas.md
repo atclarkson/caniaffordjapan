@@ -39,78 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Zauo, the catch-your-own-dinner restaurant in Namba.** 02:00 UTC
-  firing (2026-10-14). Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all three teamLab items still without real
-  photos). AL_Vault fallback: checked several smaller, previously
-  under-explored city pools first (Katsushika's 37 photos turned out
-  to be mostly home-life material, already-covered Harper's birthday
-  cake overflow, and kids' artwork, nothing blog-worthy; Minato,
-  Bunkyo, Sakai, Nara, Yokohama, Chuo, Koto, Narita, and Chiba were
-  all overflow from already-published events or too thin/unidentifiable
-  to anchor a post; Shibuya's 25 photos are entirely otter cafe
-  overflow). Found the real lead in Osaka's video catalog rather than
-  its photos: a real, previously unused 27-second family short titled
-  "Fun night at Zauo Fishing Restaurant in Osaka, Japan," filmed at
-  the Namba location sometime between late May and late June 2023 (no
-  exact date confirmed, no journal entry for the window, said so
-  plainly rather than guessing a specific day). No AL_Vault still
-  photos exist for this visit at all (checked `search_photos text:
-  "zauo"`, zero results), so the cover image is a direct download of
-  the video's own real thumbnail (Lindsay helping one of the girls
-  bait a line over the tank) rather than a vault photo, and the body
-  embeds the actual short via youtube-nocookie iframe, the same
-  pattern as the existing Nara post's embedded video. Rolled length
-  tier 5 (deep dive, 1,300-1,600 words) and format 4 (myth-correction)
-  from CLAUDE.md's system, no reroll needed, a real correction existed
-  (multiple sources confirm there's no catch-and-release at Zauo, once
-  a fish is netted it's sold and cooked, which is not how a first-time
-  visitor would assume a restaurant fishing game works). Published
-  2026-10-14 as `zauo-fishing-restaurant-osaka-catch-your-own-fish-cost`,
-  1,300 words, topic `en/budget-food`. Real researched pricing
-  (Fish Corner catches 400-1,000 yen, larger species into the
-  thousands, lobster at market rate, 1,000-5,000 yen total per person),
-  honestly flagged the one point sources disagree on (rod rental
-  quoted as both free and 100-110 yen depending on the source, no
-  receipt either way to settle it). Added a real "getting there"
-  section (Namba Walk's underground connection from Namba Station to
-  Nihonbashi Station) and a real "wider chain" section (Fukuoka as the
-  original location, Namba as the Kansai main store, Shinjuku's 2003
-  opening and boat-in-tank room, Shibuya's own 4,980 yen set course),
-  both genuine expansions rather than padding, needed to honestly reach
-  tier 5 after the first pass landed at 997 words. No AL_Vault photo
-  to mark used (video only), so `mark_photo_used` was not called for
-  this post. Could not find a Klook or GetYourGuide listing for Zauo
-  itself, used a general `<AffiliateBox>` Dotonbori food tour search
-  link instead since it genuinely fits the same neighborhood and topic,
-  plus `<KlookCodeBox>` since that search link is still a real Klook
-  link. Zero uses of "actually" or "genuinely" in the published body (2
-  caught and cut from drafts).
-  **Update, same day:** the site owner added new vault material after
-  this post went live, including two real still photos of this exact
-  dinner, "Cora Holds a Whole Fish in Nipponbashi" (previously unused)
-  and a near-identical angle, "Whole Fish Night at an Osaka Izakaya,"
-  already in use as the cover of `izakaya-yakitori-vs-a5-wagyu-yakiniku-osaka`
-  since 2026-09-29. That second photo's own original filename, "The
-  Clarkson family holding their freshly caught fish at a fishing
-  restaurant in Tokyo Japan June 2023," plus both photos' matching
-  Nipponbashi 1, Osaka geolocation and identical captured_at timestamp
-  (2023-06-08T17:30:29), confirm this was Zauo, not a generic izakaya
-  stop as that earlier post's caption had assumed when it was written
-  (no better evidence existed yet). Swapped this post's cover from the
-  YouTube thumbnail to the real "Cora Holds a Whole Fish" photo,
-  real family photos over a video thumbnail once one exists, added
-  a precise date to the opening line (June 2023, previously hedged as
-  "sometime between late May and late June" since no photo evidence
-  existed yet), and called `mark_photo_used` for the newly surfaced
-  photo. Also corrected `izakaya-yakitori-vs-a5-wagyu-yakiniku-osaka`:
-  removed the mischaracterized fish photo and its "separate izakaya
-  stop, whole grilled fish included" caption from that post's izakaya
-  section (Zauo isn't an izakaya, the fish was caught, not served),
-  kept that post's remaining real izakaya photo in place, and added a
-  short cross-reference to this post instead. Both posts rebuilt,
-  rechecked, and relinted clean, zero new uses of "actually" or
-  "genuinely" in either (1 caught and cut from the correction).
 - **The Wizarding World of Harry Potter at USJ, opening day to now.**
   14:00 UTC firing (2026-10-14). Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still without
@@ -354,3 +282,40 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   neutrally with no invented discount code or percentage. Zero uses
   of "actually" or "genuinely" in the published body (4 caught and
   cut across drafts).
+- **The Unicorn Gundam statue at DiverCity Tokyo, free while it stood
+  and now confirmed gone.** 08:00 UTC firing (2026-10-16). Both
+  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
+  three teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads since the last firing. Pivoted to fresh AL_Vault
+  exploration of smaller, less-picked-over pools (Minato, Tajiri,
+  Chuo, Koto) per the loosened routine rather than re-exhausting the
+  large pools again. Found a real, previously unused photo in Koto's
+  pool (`17e8ee36`, "Three Girls and the Unicorn Gundam in Tokyo,"
+  November 2 2023, `used_in_count: 0`), confirmed via the existing
+  `doraemon-time-square-hello-kitty-divercity-odaiba` post that this
+  is a genuinely separate visit (that post's own Odaiba day trip was
+  May 2024, different date, different photos, that post only
+  mentions the Gundam's removal in passing with a staircase photo, no
+  shot of the statue itself). Verified via web search that the
+  statue's August 31 2026 removal (already noted honestly in the
+  existing Odaiba post) is real and confirmed by Japanese press
+  coverage of farewell crowds, plus real history: on display since
+  September 2017, replaced an earlier RX-78-2 Gundam that stood on
+  the same spot 2012-2017 (itself preceded by stints at Shiokaze Park
+  in 2009 and Shizuoka), approximately 20 meters tall and 49 tons.
+  Did not claim an unconfirmed admission-fee detail, stated plainly
+  that it was free to view in an open plaza with nothing found
+  suggesting a ticket, separate from the Gundam Base Tokyo store's
+  real retail sales. Rolled length tier 2 (short, 600-800 words) and
+  format 1 (price-first, no verb in the title) from CLAUDE.md's
+  system, no reroll needed. Published 2026-10-16 as
+  `unicorn-gundam-divercity-tokyo-free-gone`, 584 words, landed just
+  under the rolled tier's 600 floor, said so here rather than
+  stretching with a weakly-sourced detail (a travel-site-only claim
+  about Gundam Base Tokyo's current admission status) that didn't
+  meet the site's sourcing bar. Topic `en/tokyo`. Cross-referenced
+  the existing Odaiba post's getting-there section honestly rather
+  than repeating it. No AffiliateBox, a now-removed free public
+  statue isn't Klook/GYG bookable. Zero uses of "actually" or
+  "genuinely" in the published body (1 caught and cut from the first
+  draft).
