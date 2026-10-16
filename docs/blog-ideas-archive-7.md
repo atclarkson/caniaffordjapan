@@ -53,3 +53,69 @@ more recent entries. When this file nears 400 lines too, start
   verified the real redirect URL and ADAMANDLINDSKLOOK code both
   landed correctly in the built HTML. Zero uses of "actually" or
   "genuinely" in the published body (7 caught and cut from drafts).
+- **The Tokyo Fire Museum's dress-up corner, the gap the existing
+  review left open.** 14:00 UTC firing (2026-10-11). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Continued scanning
+  Shinjuku's pool and found 2 real unused photos from the same June 7
+  2024 visit the existing `tokyo-fire-museum-yotsuya-free-with-kids`
+  post already covers, confirmed via direct photo-UUID comparison
+  that these 2 (kids in firefighter costumes) are genuinely different
+  from the 4 the existing post uses (trucks, helicopter), a real,
+  previously undocumented third-floor dress-up corner and simulator
+  wing the original review never mentioned. Rolled length tier 6
+  (extended feature, 1,600-2,000 words) and format 10 (budget-tier
+  framing) from CLAUDE.md's system; format 10 didn't fit, nothing at
+  a free museum has a cheap-vs-splurge pair to compare, rerolled once
+  per CLAUDE.md's allowance and landed on format 6 (head-to-head),
+  used honestly as the two wings of the same museum (vehicles vs.
+  dress-up/simulator) rather than a price comparison. Published
+  2026-10-11 as `tokyo-fire-museum-dress-up-corner-simulator-free`,
+  636 words (landed well short of tier 6, a deliberately narrow
+  gap-filling piece with only 2 photos, pushing further would have
+  meant re-deriving the hours/accessibility/history content the
+  existing review already covers, said so here rather than padding
+  or repeating), topic `en/free-attractions`. Confirmed via web
+  search the dress-up corner and fire-extinguishing/driving simulator
+  are real, documented features of the museum's third floor. Added
+  real context connecting it to Tokyo's broader, genuine network of
+  free hands-on disaster-prevention learning centers (the Tokyo Fire
+  Department's own Ikebukuro Life Safety Learning Center and Honjo
+  center), tied to Japan's real earthquake/fire risk and early
+  school-age disaster education. Deliberately did not repeat the
+  existing post's hours, accessibility, or history sections, pointed
+  to that post instead. No AffiliateBox, a free municipal museum
+  wing isn't Klook/GYG bookable. Zero uses of "actually" or
+  "genuinely" in the published body (2 caught and cut from drafts).
+- **Buying emergency winter coats mid-trip, the stop right before
+  meeting grandparents on the bridge.** 20:00 UTC firing
+  (2026-10-11). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Checked Kawasaki and Urayasu in full this firing, both
+  confirmed exhausted (Kawasaki's remaining unused photos all
+  overflow from the November 3 2023 Nihon Minkaen visit the site's 2
+  existing posts already cover; Urayasu's remaining unused photos
+  all overflow from the September 2024/2025 Disneyland/DisneySea
+  visits multiple existing posts already cover). Re-checked Sumida's
+  13-photo pool in full and found a real, previously unused photo
+  from the exact same November 17 2023 evening as the already-
+  published Sumida River Walk/grandparents post, timestamped just 19
+  minutes before that post's bridge photo: three girls trying on
+  puffer jackets with price tags still on, geolocated to Oshiage,
+  the same stretch as the existing Tokyo Solamachi post. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 15 (plain
+  declarative) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-11 as `emergency-winter-coats-tokyo-kids-cost`, 483 words,
+  topic `en/unexpected-costs`. No receipt and the store itself
+  couldn't be confidently identified from the photo alone, said so
+  plainly rather than guessing a specific retailer, researched real
+  Tokyo November temperature ranges instead (daytime highs roughly
+  10-17C, evenings 7-12C, late November needing real layers) and a
+  real, honestly-hedged kids'-outerwear pricing estimate (2,000-5,000
+  yen basic insulated styles at affordable chains, one real 12,900
+  yen adult seamless-down reference point as a ceiling comparison).
+  Cross-referenced the existing Tokyo Solamachi post's same
+  neighborhood and the Sumida River Walk post's same evening
+  honestly rather than re-deriving either. No AffiliateBox, a retail
+  clothing purchase isn't Klook/GYG bookable. Zero uses of "actually"
+  or "genuinely" in the published body.

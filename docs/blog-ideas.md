@@ -39,72 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The Tokyo Fire Museum's dress-up corner, the gap the existing
-  review left open.** 14:00 UTC firing (2026-10-11). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Continued scanning
-  Shinjuku's pool and found 2 real unused photos from the same June 7
-  2024 visit the existing `tokyo-fire-museum-yotsuya-free-with-kids`
-  post already covers, confirmed via direct photo-UUID comparison
-  that these 2 (kids in firefighter costumes) are genuinely different
-  from the 4 the existing post uses (trucks, helicopter), a real,
-  previously undocumented third-floor dress-up corner and simulator
-  wing the original review never mentioned. Rolled length tier 6
-  (extended feature, 1,600-2,000 words) and format 10 (budget-tier
-  framing) from CLAUDE.md's system; format 10 didn't fit, nothing at
-  a free museum has a cheap-vs-splurge pair to compare, rerolled once
-  per CLAUDE.md's allowance and landed on format 6 (head-to-head),
-  used honestly as the two wings of the same museum (vehicles vs.
-  dress-up/simulator) rather than a price comparison. Published
-  2026-10-11 as `tokyo-fire-museum-dress-up-corner-simulator-free`,
-  636 words (landed well short of tier 6, a deliberately narrow
-  gap-filling piece with only 2 photos, pushing further would have
-  meant re-deriving the hours/accessibility/history content the
-  existing review already covers, said so here rather than padding
-  or repeating), topic `en/free-attractions`. Confirmed via web
-  search the dress-up corner and fire-extinguishing/driving simulator
-  are real, documented features of the museum's third floor. Added
-  real context connecting it to Tokyo's broader, genuine network of
-  free hands-on disaster-prevention learning centers (the Tokyo Fire
-  Department's own Ikebukuro Life Safety Learning Center and Honjo
-  center), tied to Japan's real earthquake/fire risk and early
-  school-age disaster education. Deliberately did not repeat the
-  existing post's hours, accessibility, or history sections, pointed
-  to that post instead. No AffiliateBox, a free municipal museum
-  wing isn't Klook/GYG bookable. Zero uses of "actually" or
-  "genuinely" in the published body (2 caught and cut from drafts).
-- **Buying emergency winter coats mid-trip, the stop right before
-  meeting grandparents on the bridge.** 20:00 UTC firing
-  (2026-10-11). Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Checked Kawasaki and Urayasu in full this firing, both
-  confirmed exhausted (Kawasaki's remaining unused photos all
-  overflow from the November 3 2023 Nihon Minkaen visit the site's 2
-  existing posts already cover; Urayasu's remaining unused photos
-  all overflow from the September 2024/2025 Disneyland/DisneySea
-  visits multiple existing posts already cover). Re-checked Sumida's
-  13-photo pool in full and found a real, previously unused photo
-  from the exact same November 17 2023 evening as the already-
-  published Sumida River Walk/grandparents post, timestamped just 19
-  minutes before that post's bridge photo: three girls trying on
-  puffer jackets with price tags still on, geolocated to Oshiage,
-  the same stretch as the existing Tokyo Solamachi post. Rolled
-  length tier 1 (quick hit, 450-600 words) and format 15 (plain
-  declarative) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-11 as `emergency-winter-coats-tokyo-kids-cost`, 483 words,
-  topic `en/unexpected-costs`. No receipt and the store itself
-  couldn't be confidently identified from the photo alone, said so
-  plainly rather than guessing a specific retailer, researched real
-  Tokyo November temperature ranges instead (daytime highs roughly
-  10-17C, evenings 7-12C, late November needing real layers) and a
-  real, honestly-hedged kids'-outerwear pricing estimate (2,000-5,000
-  yen basic insulated styles at affordable chains, one real 12,900
-  yen adult seamless-down reference point as a ceiling comparison).
-  Cross-referenced the existing Tokyo Solamachi post's same
-  neighborhood and the Sumida River Walk post's same evening
-  honestly rather than re-deriving either. No AffiliateBox, a retail
-  clothing purchase isn't Klook/GYG bookable. Zero uses of "actually"
-  or "genuinely" in the published body.
 - **Zauo, the catch-your-own-dinner restaurant in Namba.** 02:00 UTC
   firing (2026-10-14). Both priority sources exhausted again (same
   BLOCKED Ginza sumo idea, all three teamLab items still without real
@@ -379,3 +313,44 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Klook/GYG bookable, the Wayb link is the only affiliate content.
   Zero uses of "actually" or "genuinely" in the published body (2
   caught and cut from the first draft).
+- **Zenni before the trip vs. a walk-in optician once you land.**
+  02:00 UTC firing (2026-10-16). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads since the
+  last firing (all destination pools unchanged from the prior
+  entry's counts). Per the loosened routine, didn't re-exhaust every
+  pool again, pivoted straight to a non-AL_Vault angle sourced from
+  `docs/affiliates-reference.md`: Zenni (glasses), link only, no
+  stated code or commission in that doc, so no discount or commission
+  percentage was claimed anywhere in the post. Confirmed via a grep
+  of existing posts that the gap was real: the existing
+  `japan-optician-eye-exam-glasses-cost` post only covers in-Japan
+  walk-in chains (JINS/Zoff/OWNDAYS), nothing about ordering glasses
+  before the trip. Researched Zenni's real pricing, shipping tiers,
+  PD self-measurement requirement, and 30-day return policy via web
+  search (a September 2026 review was the most current source found,
+  older reviews flagged and weighted less). Did not fabricate
+  firsthand Zenni use, the post says plainly the family hasn't
+  ordered from Zenni themselves and cites independent reviews rather
+  than claiming personal experience, consistent with how the Wayb
+  mention in the car seat post was handled. Rolled length tier 5
+  (deep dive, 1,300-1,600 words) and format 11 (time/season-anchored)
+  from CLAUDE.md's system; format 11 didn't fit, a logistics
+  comparison post has no single "that day" scene to open with,
+  rerolled once per CLAUDE.md's allowance and landed on format 8
+  (itemized breakdown), a genuine fit for a line-by-line cost
+  comparison. Published 2026-10-16 as
+  `zenni-glasses-before-trip-vs-japan-optician`, 1,127 words, landed
+  short of the rolled tier 5 (closer to tier 4), said so here rather
+  than padding further once the real, itemizable material (pricing,
+  shipping, PD measurement, returns, ordering steps, the quality
+  tradeoff flagged by reviews) was used up. Topic
+  `en/unexpected-costs`. Reused a real, previously unused photo
+  ("Lily Finds Her Look in Osaka," April 20 2026, Kakudacho, Osaka,
+  `used_in_count: 0`) as the cover, a different date and location
+  from the existing optician post's own cover (April 8 2026, Abeno
+  Ward), confirmed via full photo records before using either. No
+  Klook/GYG, the Zenni link is the only affiliate content, used
+  neutrally with no invented discount code or percentage. Zero uses
+  of "actually" or "genuinely" in the published body (4 caught and
+  cut across drafts).
