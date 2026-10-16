@@ -282,40 +282,12 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   neutrally with no invented discount code or percentage. Zero uses
   of "actually" or "genuinely" in the published body (4 caught and
   cut across drafts).
-- **The Unicorn Gundam statue at DiverCity Tokyo, free while it stood
-  and now confirmed gone.** 08:00 UTC firing (2026-10-16). Both
-  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
-  three teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads since the last firing. Pivoted to fresh AL_Vault
-  exploration of smaller, less-picked-over pools (Minato, Tajiri,
-  Chuo, Koto) per the loosened routine rather than re-exhausting the
-  large pools again. Found a real, previously unused photo in Koto's
-  pool (`17e8ee36`, "Three Girls and the Unicorn Gundam in Tokyo,"
-  November 2 2023, `used_in_count: 0`), confirmed via the existing
-  `doraemon-time-square-hello-kitty-divercity-odaiba` post that this
-  is a genuinely separate visit (that post's own Odaiba day trip was
-  May 2024, different date, different photos, that post only
-  mentions the Gundam's removal in passing with a staircase photo, no
-  shot of the statue itself). Verified via web search that the
-  statue's August 31 2026 removal (already noted honestly in the
-  existing Odaiba post) is real and confirmed by Japanese press
-  coverage of farewell crowds, plus real history: on display since
-  September 2017, replaced an earlier RX-78-2 Gundam that stood on
-  the same spot 2012-2017 (itself preceded by stints at Shiokaze Park
-  in 2009 and Shizuoka), approximately 20 meters tall and 49 tons.
-  Did not claim an unconfirmed admission-fee detail, stated plainly
-  that it was free to view in an open plaza with nothing found
-  suggesting a ticket, separate from the Gundam Base Tokyo store's
-  real retail sales. Rolled length tier 2 (short, 600-800 words) and
-  format 1 (price-first, no verb in the title) from CLAUDE.md's
-  system, no reroll needed. Published 2026-10-16 as
-  `unicorn-gundam-divercity-tokyo-free-gone`, 584 words, landed just
-  under the rolled tier's 600 floor, said so here rather than
-  stretching with a weakly-sourced detail (a travel-site-only claim
-  about Gundam Base Tokyo's current admission status) that didn't
-  meet the site's sourcing bar. Topic `en/tokyo`. Cross-referenced
-  the existing Odaiba post's getting-there section honestly rather
-  than repeating it. No AffiliateBox, a now-removed free public
-  statue isn't Klook/GYG bookable. Zero uses of "actually" or
-  "genuinely" in the published body (1 caught and cut from the first
-  draft).
+- **REMOVED: The Unicorn Gundam statue at DiverCity Tokyo.** Published
+  2026-10-16 (08:00 UTC firing) as `unicorn-gundam-divercity-tokyo-free-gone`,
+  then deleted the same day on the site owner's direct instruction: a
+  post about a statue that's already gone doesn't help anyone planning
+  a trip, wrong call to publish it even though every fact in it was
+  real and sourced. Don't pick this topic again. The source photo
+  (`17e8ee36`, Koto, November 2023) is still real and unused in
+  AL_Vault if a genuinely useful angle on it ever comes up, but "a
+  thing that used to be free and isn't there anymore" isn't one.
