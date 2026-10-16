@@ -1,10 +1,11 @@
 # Affiliate reference (full family list)
 
 The site owner shared their full affiliate spreadsheet on 2026-09-11, across
-every site the family runs, not just this one. **`src/data/telecomAffiliates.ts`
-and `src/data/affiliates.ts` are the only parts of this wired into actual
-site code.** Everything below is reference only, for when a future post's
-content genuinely calls for one of these, not a list to wire in wholesale.
+every site the family runs, not just this one. **`src/data/telecomAffiliates.ts`,
+`src/data/transitAffiliates.ts`, and `src/data/affiliates.ts` are the only
+parts of this wired into actual site code.** Everything below is reference
+only, for when a future post's content genuinely calls for one of these, not
+a list to wire in wholesale.
 Can I Afford Japan is a Japan travel and affordability blog, most of these
 belong to the family's other sites and businesses and have no reason to
 appear here unless a specific post is actually about that thing.
@@ -28,6 +29,31 @@ given, don't guess one.
 
 Live in `src/data/telecomAffiliates.ts`, the real source of truth. See that
 file rather than this doc if writing a post that uses one of these.
+
+## Transit (buses, trains, passes)
+
+Live in `src/data/transitAffiliates.ts`, the real source of truth. See that
+file rather than this doc if writing a post that uses this. Sent by the site
+owner 2026-10-16, forwarding a real 12Go affiliate outreach email.
+
+- **12Go** (bus, train, and pass booking across Japan and the wider region):
+  standing code `ADAMANDLINDS`, link `https://12goasiapteltd.sjv.io/KBLKge`,
+  no stated discount percentage or commission rate for this one, don't
+  invent one. Separately, a time-limited new-user promo code `12GOJP` (10%
+  off, up to $4 USD, Japan routes only, new users only, valid until
+  2026-12-31, 500-code redemption quota) came in via the same outreach
+  email, also in `transitAffiliates.ts` as `twelveGoPromo`. Check its
+  `validUntil` before using it in any post, it expires.
+- **Klook also sells shinkansen tickets**: the site owner flagged
+  `https://www.klook.com/japan-rail/shinkansen/` as a real page worth
+  linking for a shinkansen/JR post, using the same ADAMANDLINDSKLOOK
+  account already wired via `klookRedirect()` in `src/data/affiliates.ts`
+  (aid `92051`, aff_adid `1420301`). The raw link the site owner pasted
+  used different ids (aid `42202`, aff_adid `1503965`), likely copied from
+  a different page/campaign rather than a second real account; use
+  `klookRedirect("https://www.klook.com/japan-rail/shinkansen/")` with our
+  existing account instead of that raw link unless the site owner confirms
+  the other ids are intentional.
 
 ## Insurance
 
