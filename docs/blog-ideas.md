@@ -291,3 +291,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   (`17e8ee36`, Koto, November 2023) is still real and unused in
   AL_Vault if a genuinely useful angle on it ever comes up, but "a
   thing that used to be free and isn't there anymore" isn't one.
+- **Booking shinkansen tickets: JR Pass vs. Klook vs. 12Go vs. the
+  station machine.** 14:00 UTC firing (2026-10-16). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). The site owner removed
+  the previous firing's Gundam post as useless trivia and said stop
+  over-disclaiming; applied that directly to topic selection this
+  time, picked something with real planning value instead of "a real
+  photo exists." Used the 12Go transit affiliate material wired in
+  earlier today (`transitAffiliates.ts`) and the real second Klook
+  account for JR/shinkansen content (`klookJrRedirect`, confirmed by
+  the site owner as genuinely theirs, not a mismatch). No AL_Vault
+  photo of the shinkansen itself exists (checked `search_photos text:
+  "shinkansen"`, zero results, and "bullet train", also zero), so the
+  post is honest about that: cover is a real, previously unused
+  family photo of a regional train (`69dc6150`, "Laughing Through the
+  Hakone Local Train," Tonosawa, November 21 2023), captioned
+  accurately as the Hakone Tozan Line, not the shinkansen, used to
+  illustrate real Japan train travel while the booking-channel content
+  itself is general and well-sourced rather than a first-person "we
+  rode it" account. Researched real current numbers via web search:
+  JR nationwide pass prices after the October 1 2026 increase (7-day
+  53,000 yen, 14-day 84,000, 21-day 105,000), a real Tokyo-Osaka
+  Nozomi reserved fare (~14,720 yen one-way), and fetched Klook's own
+  shinkansen page directly for real listed fares (Tokyo-Osaka $87.79,
+  Tokyo-Kyoto $84.29), reserved-seat fee structure, QR-code delivery
+  process, and oversized-luggage reservation rule. Rolled length tier
+  4 (long, 1,000-1,300 words) and format 2 (free-vs-paid split) from
+  CLAUDE.md's system; format 2 didn't fit, nothing on this page is
+  free, all four booking channels are paid, rerolled once per
+  CLAUDE.md's allowance and landed on format 14 (direct address),
+  used honestly as "here's where the real savings are" speaking
+  straight to someone about to book. Published 2026-10-16 as
+  `booking-shinkansen-tickets-japan-cheapest-way`, 1,012 words, topic
+  `en/transit`. Added a genuine family-of-five cost comparison (JR
+  Pass vs. point-to-point for 2 adults + 3 kids on a 3-leg loop) and a
+  booking-lead-time section as real expansions rather than padding.
+  Full `<AffiliateBox>` (Klook only, via the JR-specific account) plus
+  `<KlookCodeBox>` since Japan Shinkansen tickets are on the real 1%
+  "selected things to do and mobility" tier in `klookCode.ts`, both
+  verified present in the built HTML along with the real 12Go link
+  and its standing + promo codes. Zero uses of "actually" or
+  "genuinely" in the published body (4 caught and cut across drafts),
+  also checked the title itself for the word before finalizing.
