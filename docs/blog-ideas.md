@@ -39,38 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Japan's child car seat law, taxis vs rental cars.** 20:00 UTC
-  firing (2026-10-15). Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea), a quick `get_destinations` check found
-  zero new uploads since the prior firing (Osaka still at 133).
-  Checked `docs/affiliates-reference.md` again for another real,
-  not-yet-covered, on-topic affiliate: Wayb (travel car seats, 10%
-  commission, no customer code, generic Awin link, no specific
-  product deep-link given so used the account link as-is rather than
-  inventing one). Researched Japan's real Road Traffic Act child seat
-  requirement (Article 71-3, Paragraph 4, under-6 threshold, National
-  Police Agency enforced) and the real, specifically-named taxi
-  exemption (practical reasoning: a taxi can't carry a correctly
-  sized seat for every possible passenger) before committing, this
-  wasn't covered by any existing post (`grep` for "car seat" only
-  matched an unrelated street-kart post in passing). Found a real,
-  official rental-car price point directly from Toyota Rent a Car's
-  own English site (1,650 yen child/infant seat, 1,100 yen booster,
-  one-time option fee) rather than relying on a secondary listing
-  that gave a conflicting, likely-outdated 550 yen figure. Honestly
-  flagged a single-source, unconfirmed 1-point license-deduction
-  penalty detail as unverified rather than stating it as fact. Rolled
-  length tier 1 (quick hit, 450-600 words) and format 15 (plain
-  declarative) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-15 as `japan-child-car-seat-law-taxi-rental-car`, 508
-  words, topic `en/unexpected-costs`. Reused a real, already-used
-  Tokyo taxi photo ("Tokyo Taxi Goodbye Before Taiwan," the whole
-  family riding with no car seats visible) as the cover, a direct,
-  honest illustration of the taxi exemption itself rather than a
-  generic stock-style choice. No Klook/GYG, nothing on this page is
-  Klook/GYG bookable, the Wayb link is the only affiliate content.
-  Zero uses of "actually" or "genuinely" in the published body (2
-  caught and cut from the first draft).
 - **Zenni before the trip vs. a walk-in optician once you land.**
   02:00 UTC firing (2026-10-16). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -345,3 +313,41 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "actually" or "genuinely" in the published body (5 caught and cut
   across drafts). No `mark_photo_used` call, video-only source, no
   AL_Vault photo UUID to mark.
+- **Kani Doraku's giant crab sign talking us into a Kyoto dinner.**
+  20:00 UTC firing (2026-10-17). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Followed
+  up on Kyoto's own unexplored video pool (0 photos, 2 videos,
+  flagged but not used in the prior Hiroshima firing): a real
+  November 18 2022 family vlog, "First Time in Kyoto," covering an
+  unplanned dinner at Kani Doraku, the crab restaurant chain known
+  for its giant mechanized crab sign. Kyoto already had a topic
+  (`en/kyoto`, used so far only by the Uji Nintendo Museum post) but
+  no Kyoto-city post of its own, this is the first. No receipt or
+  stated price in the video itself, researched and used the real
+  current Kyoto-location menu instead (5 crab kaiseki tiers, all 9
+  dishes, 4,730 to 7,260 yen, tax included, sourced from the
+  restaurant's own reservation platform listing) rather than
+  guessing a number for the unseen bill. Verified real chain history
+  independently (founded 1960 in Dotonbori Osaka, the original
+  mechanized crab sign roughly 6.5m tall, two real documented
+  incidents: a 1984 accident and a 2003 Hanshin Tigers celebration
+  incident) and the real structure of a crab kaiseki course (sashimi,
+  vinegared crab, grilled crab, kani-suki hot pot, tempura, crab rice
+  to close) to explain honestly why the higher tiers cost more
+  (better crab, not more dishes). Rolled length tier 3 (standard,
+  800-1,000 words) and format 5 (narrative-first, cost as payoff)
+  from CLAUDE.md's system, no reroll needed, a real scene existed to
+  open with (the sign itself prompting an unplanned dinner). Published
+  2026-10-17 as `kani-doraku-crab-restaurant-kyoto-cost`, 839 words,
+  topic `en/kyoto`. No AL_Vault still photos exist for Kyoto, cover is
+  a direct download of the video's own real YouTube thumbnail, video
+  embedded in the body via a 16:9 youtube-nocookie iframe, the same
+  pattern used for the Hiroshima post earlier today. No specific
+  Klook/GYG listing found for Kani Doraku itself after a direct
+  search, used a plain query-based `<AffiliateBox>` ("Planning a
+  Kyoto food stop?") instead, the same generic-query pattern already
+  established on this site (e.g. the Dotonbori free-walk post) rather
+  than inventing a specific listing that doesn't exist. Zero uses of
+  "actually" or "genuinely" in the published body (4 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
