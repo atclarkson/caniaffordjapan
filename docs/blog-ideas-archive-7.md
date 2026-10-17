@@ -232,3 +232,45 @@ more recent entries. When this file nears 400 lines too, start
   cross-referenced the existing Express Pass post's own wait-time math
   rather than re-deriving it. Zero uses of "actually" or "genuinely"
   in the published body (3 caught and cut from drafts).
+- **PayPay Dome Fukuoka vs Tokyo Dome, our actual first baseball game
+  in Japan.** 20:00 UTC firing (2026-10-14). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea; rechecked teamLab
+  specifically, no change). AL_Vault fallback: `get_destinations`
+  showed Fukuoka had grown from the priority doc's "1 photo and 2
+  videos" note to a confirmed real lead, 1 new unused photo ("Asahi
+  Beers at a Fukuoka Hawks Game," July 5 2023, just Adam and Lindsay,
+  no kids) plus the same 2 existing vlogs (154 Fukuoka First
+  Impressions, 155 First Baseball Game in Japan), confirming via
+  `get_trip` this was a real visit, not a guess, and that the vlog
+  title explicitly predates every Tokyo Dome post already on this
+  site (all 3 draw from 2024-2025 visits). Rolled length tier 4 (long,
+  1,000-1,300 words) and format 12 (family-logistics framing) from
+  CLAUDE.md's system; format 12 didn't fit at all, the real material
+  is an adults-only date night with no kids present, rerolled once
+  per the site's own allowance and landed on format 6 (head-to-head
+  comparison), which fit genuinely (PayPay Dome vs the site's own
+  3 existing Tokyo Dome posts, a real comparison). No topic existed
+  for Fukuoka yet (flagged as a to-do in the priority doc's own
+  Fukuoka entry), added `src/data/topics/en/fukuoka.json` (order 4,
+  right after the other city-geography topics). Published 2026-10-14
+  as `paypay-dome-fukuoka-vs-tokyo-dome-baseball-cost`, 1,117 words,
+  topic `en/fukuoka`. Cross-referenced the existing Yomiuri Giants
+  post's own Tokyo Dome seat-tier pricing honestly rather than
+  re-deriving it. Added real PayPay Dome history (opened 1993 as
+  Fukuoka Dome, Japan's first retractable-roof stadium and the only
+  one until Es Con Field Hokkaido in 2023, reported 76 billion yen
+  build cost, Hawks moved from Osaka under Daiei, SoftBank bought the
+  team in 2005), the real current "Mizuho PayPay Dome" sponsor name,
+  and the Hawks' real championship record (12 Japan Series titles as
+  of 2025, third-most in NPB history, a real 2017-2020 four-peat).
+  Added real transit (Fukuoka City Subway Airport/Kuko Line to
+  Tojinmachi Station, 10-12 minute walk from Exit 3, or game-day
+  shuttle buses from Hakata Station). Honestly hedged 2026 ticket
+  pricing as reseller figures rather than official, and said plainly
+  there's no itemized receipt from the actual 2023 night. Found a
+  real, independently corroborated Klook listing (activity 135264,
+  4.9 stars, 371 reviews, 10K+ booked, confirmed across en-US and
+  en-MY locale URLs), full AffiliateBox and KlookCodeBox. Zero uses
+  of "actually" or "genuinely" in the published body (4 caught and
+  cut from drafts, two added during a genuine length expansion from
+  an initial 890-word draft).

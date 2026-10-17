@@ -39,48 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **PayPay Dome Fukuoka vs Tokyo Dome, our actual first baseball game
-  in Japan.** 20:00 UTC firing (2026-10-14). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea; rechecked teamLab
-  specifically, no change). AL_Vault fallback: `get_destinations`
-  showed Fukuoka had grown from the priority doc's "1 photo and 2
-  videos" note to a confirmed real lead, 1 new unused photo ("Asahi
-  Beers at a Fukuoka Hawks Game," July 5 2023, just Adam and Lindsay,
-  no kids) plus the same 2 existing vlogs (154 Fukuoka First
-  Impressions, 155 First Baseball Game in Japan), confirming via
-  `get_trip` this was a real visit, not a guess, and that the vlog
-  title explicitly predates every Tokyo Dome post already on this
-  site (all 3 draw from 2024-2025 visits). Rolled length tier 4 (long,
-  1,000-1,300 words) and format 12 (family-logistics framing) from
-  CLAUDE.md's system; format 12 didn't fit at all, the real material
-  is an adults-only date night with no kids present, rerolled once
-  per the site's own allowance and landed on format 6 (head-to-head
-  comparison), which fit genuinely (PayPay Dome vs the site's own
-  3 existing Tokyo Dome posts, a real comparison). No topic existed
-  for Fukuoka yet (flagged as a to-do in the priority doc's own
-  Fukuoka entry), added `src/data/topics/en/fukuoka.json` (order 4,
-  right after the other city-geography topics). Published 2026-10-14
-  as `paypay-dome-fukuoka-vs-tokyo-dome-baseball-cost`, 1,117 words,
-  topic `en/fukuoka`. Cross-referenced the existing Yomiuri Giants
-  post's own Tokyo Dome seat-tier pricing honestly rather than
-  re-deriving it. Added real PayPay Dome history (opened 1993 as
-  Fukuoka Dome, Japan's first retractable-roof stadium and the only
-  one until Es Con Field Hokkaido in 2023, reported 76 billion yen
-  build cost, Hawks moved from Osaka under Daiei, SoftBank bought the
-  team in 2005), the real current "Mizuho PayPay Dome" sponsor name,
-  and the Hawks' real championship record (12 Japan Series titles as
-  of 2025, third-most in NPB history, a real 2017-2020 four-peat).
-  Added real transit (Fukuoka City Subway Airport/Kuko Line to
-  Tojinmachi Station, 10-12 minute walk from Exit 3, or game-day
-  shuttle buses from Hakata Station). Honestly hedged 2026 ticket
-  pricing as reseller figures rather than official, and said plainly
-  there's no itemized receipt from the actual 2023 night. Found a
-  real, independently corroborated Klook listing (activity 135264,
-  4.9 stars, 371 reviews, 10K+ booked, confirmed across en-US and
-  en-MY locale URLs), full AffiliateBox and KlookCodeBox. Zero uses
-  of "actually" or "genuinely" in the published body (4 caught and
-  cut from drafts, two added during a genuine length expansion from
-  an initial 890-word draft).
 - **A worldschool meetup day in Kawasaki, lunch to Nihon Minkaen to
   a real Worldschool Pop-Up Hub gathering.** 02:00 UTC firing
   (2026-10-15). Both priority sources exhausted again (same BLOCKED
@@ -336,3 +294,59 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   the real material was used up. Topic `en/day-trips`. Zero uses of
   "actually" or "genuinely" in the published body (6 caught and cut
   across drafts, including two introduced during the expansion pass).
+- **Travel insurance for a Japan trip, real SafetyWing/World Nomads
+  pricing plus a real claim story.** 02:00 UTC firing (2026-10-17,
+  new day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Mined several remaining small,
+  unexplored pools (Bunkyo, Chiyoda, Sakai, Uji, Edogawa, Shinagawa,
+  Matsudo, Ichikawa, Narashino) and found nothing new, every pool was
+  either overflow from an already-covered visit (Tokyo Dome, Sakai
+  teppanyaki, Nintendo Museum Uji) or too thin on its own (single
+  photos, generic transit shots). One genuine catch along the way: a
+  Uji photo AI-titled "Getting Our Miis at Super Nintendo World
+  Japan" (`fbdb69e7`) is actually the Nintendo Museum, confirmed via
+  its Oguracho/Uji geolocation and matching timestamp cluster with
+  the museum's other photos, Super Nintendo World is a different
+  attraction at USJ in Osaka entirely, a mislabeling worth remembering
+  if this photo comes up again, though not itself a new post since
+  the Nintendo Museum is already covered. Pivoted to a non-AL_Vault
+  angle per the loosened routine: a real, previously uncovered
+  affiliate category (insurance, from `docs/affiliates-reference.md`,
+  Faye/SafetyWing/World Nomads, all three link-only with no stated
+  commission in that doc). Found that the family's own sister site
+  (blog.adamandlinds.com, redirects to adamandlinds.com) already has
+  a real, detailed SafetyWing vs. World Nomads comparison for
+  worldschooling families; fetched it directly (the direct URL
+  404'd twice, the working one needed a `/blog/` path segment, same
+  stale-URL pattern as the TravelSpend post's source article) for
+  real pricing (SafetyWing Essential $56.28/4 weeks per adult 10-39,
+  up to 2 kids under 10 free per adult on a group policy; SafetyWing
+  Complete ~$150.50/month adult, $99.50/month per kid, 12-month
+  minimum; World Nomads real example quotes, $154.61-294.92 for one
+  adult on a 28-day multi-country trip) and a real claim story
+  (Harper broke her arm in Vienna, bill under $300, reimbursed within
+  a week), used honestly as a real claim example while being clear
+  Vienna isn't Japan. Mirrored that source's own disclaimer language
+  ("information only, not a recommendation") to match the site
+  owner's own stated rule in `affiliates-reference.md` ("we can't
+  recommend insurance"). Researched real, separately-sourced Japan ER
+  cost context (300,000-500,000 yen uninsured estimate, flagged as a
+  single unsourced industry figure; 100,000-150,000 yen hospital
+  deposit range; free ambulance calls regardless of insurance
+  status) and real entry-requirement facts (no insurance required for
+  a standard tourist visa, mandatory for long-stay/digital nomad
+  visas, a single-sourced and clearly flagged claim about Japan
+  screening for unpaid medical debt since April 2026). Rolled length
+  tier 3 (standard, 800-1,000 words) and format 8 (itemized
+  breakdown) from CLAUDE.md's system, no reroll needed, a genuine fit
+  for line-by-line real pricing. Published 2026-10-17 as
+  `travel-insurance-japan-trip-cost`, 892 words, topic
+  `en/unexpected-costs`. Reused a real, previously unused Narita
+  Airport photo (`e6e1ee93`, same moment as the already-used one in
+  the TravelSpend post, a different angle) as the cover. No
+  Klook/GYG, insurance isn't Klook/GYG bookable, all three insurance
+  links used neutrally with the required disclaimer, no invented
+  commission or discount terms for any of the three. Zero uses of
+  "actually" or "genuinely" in the published body (5 caught and cut
+  across drafts).
