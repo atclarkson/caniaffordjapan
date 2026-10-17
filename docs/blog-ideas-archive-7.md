@@ -323,3 +323,41 @@ more recent entries. When this file nears 400 lines too, start
   elsewhere, an unidentified restaurant, a free informal meetup).
   Zero uses of "actually" or "genuinely" in the published body (1
   caught and cut from the first draft).
+- **The TravelSpend budgeting app, our first non-AL_Vault-sourced
+  post.** 14:00 UTC firing (2026-10-15). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea), and a quick
+  `get_destinations` check found zero new uploads since the prior
+  firing (Osaka still at 133). Per the site owner's own loosening of
+  CLAUDE.md's routine earlier today (no longer required to work
+  through every AL_Vault city before considering other options),
+  checked `docs/affiliates-reference.md` for a real, on-topic,
+  not-yet-covered affiliate category instead: Travel Spend, a budget
+  tracking app, fit the site's own core premise ("what does this
+  actually cost") better than any gear tangent would. Real terms from
+  that doc (code ADAMANDLINDS, 50% off the annual plan, real URL
+  https://get.travelspend.app/?o=adamandlinds), cross-checked against
+  the family's own existing review on adamandlinds.com (fetched
+  directly after a stale cached URL 404'd, found the live one via
+  search) for accurate feature/pricing detail rather than guessing:
+  manual entry only (no bank connection, a deliberate design choice,
+  not a missing feature), free vs Premium split (cost splitting,
+  analytics, multi-trip, cloud sync are Premium-only), and a real,
+  specifically Japan-located anecdote, a two-week Tokyo stay with
+  relatives where the split-cost feature tracked who owed whom.
+  Rolled length tier 1 (quick hit, 450-600 words) and format 4
+  (myth-correction) from CLAUDE.md's system, no reroll needed, a real
+  correction existed (the obvious assumption is that a budget app
+  auto-syncs with your bank like Mint or YNAB; TravelSpend
+  deliberately doesn't). Published 2026-10-15 as
+  `travelspend-app-tracking-japan-trip-costs`, 512 words, topic
+  `en/deals`. Honestly hedged the $19.99/year figure as TravelSpend's
+  own FAQ number with regional variance noted, per the source review's
+  own inconsistency on exact pricing. Reused the same real Narita
+  airport cover photo already used on the eSIM/pocket-wifi post
+  (reuse across posts is fine per CLAUDE.md), no new AL_Vault photo
+  needed since this post isn't sourced from a specific vault moment.
+  No Klook/GYG link, this is a telecom-style miscellaneous affiliate
+  (not in `telecomAffiliates.ts`, which only covers connectivity
+  providers), linked directly per CLAUDE.md's pattern for affiliates
+  with no shared component. Zero uses of "actually" or "genuinely" in
+  the published body (3 caught and cut from drafts).

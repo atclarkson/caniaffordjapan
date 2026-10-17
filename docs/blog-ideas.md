@@ -39,44 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The TravelSpend budgeting app, our first non-AL_Vault-sourced
-  post.** 14:00 UTC firing (2026-10-15). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea), and a quick
-  `get_destinations` check found zero new uploads since the prior
-  firing (Osaka still at 133). Per the site owner's own loosening of
-  CLAUDE.md's routine earlier today (no longer required to work
-  through every AL_Vault city before considering other options),
-  checked `docs/affiliates-reference.md` for a real, on-topic,
-  not-yet-covered affiliate category instead: Travel Spend, a budget
-  tracking app, fit the site's own core premise ("what does this
-  actually cost") better than any gear tangent would. Real terms from
-  that doc (code ADAMANDLINDS, 50% off the annual plan, real URL
-  https://get.travelspend.app/?o=adamandlinds), cross-checked against
-  the family's own existing review on adamandlinds.com (fetched
-  directly after a stale cached URL 404'd, found the live one via
-  search) for accurate feature/pricing detail rather than guessing:
-  manual entry only (no bank connection, a deliberate design choice,
-  not a missing feature), free vs Premium split (cost splitting,
-  analytics, multi-trip, cloud sync are Premium-only), and a real,
-  specifically Japan-located anecdote, a two-week Tokyo stay with
-  relatives where the split-cost feature tracked who owed whom.
-  Rolled length tier 1 (quick hit, 450-600 words) and format 4
-  (myth-correction) from CLAUDE.md's system, no reroll needed, a real
-  correction existed (the obvious assumption is that a budget app
-  auto-syncs with your bank like Mint or YNAB; TravelSpend
-  deliberately doesn't). Published 2026-10-15 as
-  `travelspend-app-tracking-japan-trip-costs`, 512 words, topic
-  `en/deals`. Honestly hedged the $19.99/year figure as TravelSpend's
-  own FAQ number with regional variance noted, per the source review's
-  own inconsistency on exact pricing. Reused the same real Narita
-  airport cover photo already used on the eSIM/pocket-wifi post
-  (reuse across posts is fine per CLAUDE.md), no new AL_Vault photo
-  needed since this post isn't sourced from a specific vault moment.
-  No Klook/GYG link, this is a telecom-style miscellaneous affiliate
-  (not in `telecomAffiliates.ts`, which only covers connectivity
-  providers), linked directly per CLAUDE.md's pattern for affiliates
-  with no shared component. Zero uses of "actually" or "genuinely" in
-  the published body (3 caught and cut from drafts).
 - **Japan's child car seat law, taxis vs rental cars.** 20:00 UTC
   firing (2026-10-15). Both priority sources exhausted again (same
   BLOCKED Ginza sumo idea), a quick `get_destinations` check found
@@ -341,3 +303,45 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   as information about how the card functions abroad rather than an
   endorsement. Zero uses of "actually" or "genuinely" in the
   published body (6 caught and cut across drafts).
+- **Hiroshima's Dreamination vs. Yokohama's Christmas Market, a real
+  head-to-head on which winter lights are actually free.** 14:00 UTC
+  firing (2026-10-17). Both priority sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). Confirmed zero new AL_Vault photo uploads, but
+  checked the video catalog for completely unexplored destinations
+  this session hadn't touched: Hiroshima (0 photos, 4 videos) and
+  Kyoto (0 photos, 2 videos). Found real, substantial material in
+  Hiroshima specifically: a real November 28 2022 family vlog of the
+  Dreamination winter light festival, filmed during the festival's
+  own 20th anniversary year, confirmed via web search against
+  multiple independent sources (started 2002, so 2022 genuinely was
+  year 20; free, no ticket, every night of its run; roughly 1.4-1.5
+  million LEDs across ~500 figures/tunnels; current 2026 dates not
+  yet officially published, said so honestly). Hiroshima had no
+  topic or posts on this site at all, created
+  `src/data/topics/en/hiroshima.json` (order 16). No AL_Vault still
+  photos exist for Hiroshima, so the cover is a direct download of
+  the video's own real YouTube thumbnail, the same established
+  pattern as the original Zauo post, and the video itself is embedded
+  in the body via a 16:9 youtube-nocookie iframe (the same pattern as
+  the existing Nara deer park post). Rolled length tier 4 (long,
+  1,000-1,300 words) and format 6 (head-to-head comparison) from
+  CLAUDE.md's system, no reroll needed; a genuine second real option
+  existed for the comparison, the already-published Yokohama
+  Christmas Market post from two firings earlier today, both real
+  family-visited winter light events, letting this post compare them
+  honestly (Dreamination fully free with no paid tier at all, vs.
+  Yokohama's free zone around a real paid core) rather than forcing
+  an artificial pairing. Published 2026-10-17 as
+  `hiroshima-dreamination-vs-yokohama-christmas-market-free`, 1,004
+  words, topic `en/hiroshima`. Added real, respectful detail on the
+  Peace Park's eternal Flame of Peace (lit August 1 1964, designed by
+  Kenzo Tange, meant to burn until nuclear weapons are abolished,
+  doubles in size each August 6), cross-referenced the existing
+  shinkansen booking post and the Yokohama post's own getting-there
+  section honestly rather than re-deriving either. No AffiliateBox on
+  either side, nothing about a free public light display or an
+  already-covered market is newly bookable here. Zero uses of
+  "actually" or "genuinely" in the published body (5 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source, no
+  AL_Vault photo UUID to mark.
