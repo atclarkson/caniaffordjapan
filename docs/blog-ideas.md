@@ -48,49 +48,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   (`17e8ee36`, Koto, November 2023) is still real and unused in
   AL_Vault if a genuinely useful angle on it ever comes up, but "a
   thing that used to be free and isn't there anymore" isn't one.
-- **Booking shinkansen tickets: JR Pass vs. Klook vs. 12Go vs. the
-  station machine.** 14:00 UTC firing (2026-10-16). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). The site owner removed
-  the previous firing's Gundam post as useless trivia and said stop
-  over-disclaiming; applied that directly to topic selection this
-  time, picked something with real planning value instead of "a real
-  photo exists." Used the 12Go transit affiliate material wired in
-  earlier today (`transitAffiliates.ts`) and the real second Klook
-  account for JR/shinkansen content (`klookJrRedirect`, confirmed by
-  the site owner as genuinely theirs, not a mismatch). No AL_Vault
-  photo of the shinkansen itself exists (checked `search_photos text:
-  "shinkansen"`, zero results, and "bullet train", also zero), so the
-  post is honest about that: cover is a real, previously unused
-  family photo of a regional train (`69dc6150`, "Laughing Through the
-  Hakone Local Train," Tonosawa, November 21 2023), captioned
-  accurately as the Hakone Tozan Line, not the shinkansen, used to
-  illustrate real Japan train travel while the booking-channel content
-  itself is general and well-sourced rather than a first-person "we
-  rode it" account. Researched real current numbers via web search:
-  JR nationwide pass prices after the October 1 2026 increase (7-day
-  53,000 yen, 14-day 84,000, 21-day 105,000), a real Tokyo-Osaka
-  Nozomi reserved fare (~14,720 yen one-way), and fetched Klook's own
-  shinkansen page directly for real listed fares (Tokyo-Osaka $87.79,
-  Tokyo-Kyoto $84.29), reserved-seat fee structure, QR-code delivery
-  process, and oversized-luggage reservation rule. Rolled length tier
-  4 (long, 1,000-1,300 words) and format 2 (free-vs-paid split) from
-  CLAUDE.md's system; format 2 didn't fit, nothing on this page is
-  free, all four booking channels are paid, rerolled once per
-  CLAUDE.md's allowance and landed on format 14 (direct address),
-  used honestly as "here's where the real savings are" speaking
-  straight to someone about to book. Published 2026-10-16 as
-  `booking-shinkansen-tickets-japan-cheapest-way`, 1,012 words, topic
-  `en/transit`. Added a genuine family-of-five cost comparison (JR
-  Pass vs. point-to-point for 2 adults + 3 kids on a 3-leg loop) and a
-  booking-lead-time section as real expansions rather than padding.
-  Full `<AffiliateBox>` (Klook only, via the JR-specific account) plus
-  `<KlookCodeBox>` since Japan Shinkansen tickets are on the real 1%
-  "selected things to do and mobility" tier in `klookCode.ts`, both
-  verified present in the built HTML along with the real 12Go link
-  and its standing + promo codes. Zero uses of "actually" or
-  "genuinely" in the published body (4 caught and cut across drafts),
-  also checked the title itself for the word before finalizing.
 - **The Yokohama Red Brick Warehouse Christmas Market, the paid core
   behind the existing post's "free" waterfront sign.** 20:00 UTC
   firing (2026-10-16). Both priority sources exhausted again (same
@@ -351,3 +308,54 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   force one. Zero uses of "actually" or "genuinely" in the published
   body (4 caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **Hiroshima Peace Memorial Museum admission, 200 yen on top of the
+  free park.** 08:00 UTC firing (2026-10-18). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads. Used the last remaining unused Hiroshima video from the
+  pool the Dreamination post surfaced two days ago: "91 | 80 YEARS
+  AFTER THE BOMB - HIROSHIMA," filmed November 26 2022, the family's
+  own real visit to the Peace Memorial Park and Museum, made as a
+  deliberate standalone piece per its own description rather than
+  folded into the day's regular travel vlog (the same day's lighter
+  content, crane games and a yakitori dinner, went into a separate
+  video the family chose to keep apart). Treated this one with real
+  care given the subject matter, factual and respectful rather than
+  the site's usual "worth it" framing applied casually. Caught a real
+  problem before publishing: the video's own YouTube thumbnail (the
+  default cover-photo source for this video-only pool) used bold
+  clickbait-style text and a crosshair graphic over a photo of the
+  A-Bomb Dome, tonally wrong for this subject. Switched the cover to
+  a real, appropriately licensed Wikimedia Commons photo instead (Dan
+  Smith's "A-Bomb Dome.jpg," CC BY-SA 2.5, citizens walking past the
+  Dome on their way to an August 6 2004 memorial ceremony), downloaded
+  into `src/assets/covers/` (not `public/reference/`, confirmed via
+  `src/content.config.ts` that the frontmatter `cover` field needs
+  Astro's `image()` pipeline, a relative src/assets import, not a
+  public/ string path), also placed in the body as its own attributed
+  figure per CLAUDE.md's citation rule rather than only in frontmatter
+  alt text. Researched real, current admission tiers (Museum 200 yen
+  adult, 100 yen high school, free junior high and under, 400 yen
+  optional audio guide, a trialed 500 yen premium ticket during the
+  August anniversary period; Park and Dome free, 24/7) and real,
+  multi-sourced history: the Main Building designed by Kenzo Tange
+  (also the Peace Flame's designer, a real cross-reference to the
+  Dreamination post), completed 1955, a nationally important cultural
+  property since 2006, pilotis design symbolizing rising from the
+  ashes; a major renovation starting the early 2010s, East Building
+  reopening 2017; the Dome's real 1996 UNESCO World Heritage listing,
+  including the real historical disagreement (China's and the US's
+  documented reservations) stated factually rather than omitted.
+  Rolled length tier 5 (deep dive, 1,300-1,600 words) and format 3
+  (question title, verdict at the end) from CLAUDE.md's system, no
+  reroll needed, judged the question framing respectful rather than
+  flippant since it's a real, common practical question. Published
+  2026-10-18 as `hiroshima-peace-memorial-museum-admission-cost`,
+  1,042 words, landed short of the rolled tier 5, said so here rather
+  than padding a sensitive topic just to hit a number. Topic
+  `en/hiroshima`. No AffiliateBox or Klook/GYG content anywhere on
+  this page, a deliberate choice given the subject matter rather than
+  an oversight. Zero uses of "actually" or "genuinely" in the
+  published body (5 caught and cut across drafts). No
+  `mark_photo_used` call, cover sourced from Wikimedia Commons, not
+  AL_Vault.
