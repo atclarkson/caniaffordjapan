@@ -48,49 +48,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   (`17e8ee36`, Koto, November 2023) is still real and unused in
   AL_Vault if a genuinely useful angle on it ever comes up, but "a
   thing that used to be free and isn't there anymore" isn't one.
-- **The Yokohama Red Brick Warehouse Christmas Market, the paid core
-  behind the existing post's "free" waterfront sign.** 20:00 UTC
-  firing (2026-10-16). Both priority sources exhausted again (same
-  BLOCKED Ginza sumo idea, all three teamLab items still without real
-  photos). Checked AL_Vault for new uploads, none since the last
-  firing. Explored smaller unmined pools (Ota, Chiba, Yokohama) per
-  the loosened routine and found a real, previously unused photo in
-  Yokohama's pool (`5d30a1e6`, "Selfie at the Yokohama Christmas
-  Market Sign," November 24 2023, `used_in_count: 0`) whose own
-  `notes_for_ai` field directly confirmed real firsthand context the
-  AI-generated title/alt_text alone hadn't captured: "When we went to
-  the christmas market in yokohama with my parents and the girls."
-  Checked the existing `yokohama-cup-noodles-museum-sankeien-garden-cost`
-  post (same waterfront sign, a different but nearly identical photo,
-  `d23ff281`, same Nov 24 2023 evening) and confirmed it mischaracterized
-  the moment as a generic "free bonus" sign stop, never naming the real
-  Christmas market context, the same kind of undersell the Zauo/izakaya
-  correction caught earlier this session. Corrected that post with one
-  added sentence naming the market and cross-referencing this one,
-  consistent with the site's established correction pattern. Researched
-  real current 2026 market facts via web search (admission tiers 500 to
-  1,000 yen general, 2,000 to 2,500 yen Priority, 4,500 to 5,000 yen
-  Priority-plus-mug; free-entry age/date conditions; Nov 20-Dec 25
-  dates; hours; the free illuminated zone vs. paid core distinction)
-  and real warehouse history (built 1911/1913, survived the 1923
-  earthquake via reinforced brickwork, closed 1989, reopened 2002).
-  No Klook or GYG listing found for this specific event after two
-  targeted searches, skipped AffiliateBox entirely per CLAUDE.md's
-  rule rather than force a mismatched link; the companion post still
-  carries the real Cup Noodles/Sankeien Klook links. Rolled length
-  tier 6 (extended feature, 1,600-2,000 words) and format 9
-  (heads-up/warning framing) from CLAUDE.md's system, no reroll
-  needed, a real trap existed (assuming the whole lit-up area is free
-  when a paid core sits inside it, the same mistake the existing post
-  itself made). Published 2026-10-16 as
-  `yokohama-christmas-market-red-brick-warehouse-cost`, 1,451 words,
-  landed short of the rolled tier 6 despite real expansions (the
-  Priority-vs-General tradeoff, the free zone's own content, warehouse
-  history, a stacked full-day cost total with the companion post,
-  group-logistics tips), said so here rather than padding further once
-  the real material was used up. Topic `en/day-trips`. Zero uses of
-  "actually" or "genuinely" in the published body (6 caught and cut
-  across drafts, including two introduced during the expansion pass).
 - **Travel insurance for a Japan trip, real SafetyWing/World Nomads
   pricing plus a real claim story.** 02:00 UTC firing (2026-10-17,
   new day). Both priority sources exhausted again (same BLOCKED Ginza
@@ -359,3 +316,47 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (5 caught and cut across drafts). No
   `mark_photo_used` call, cover sourced from Wikimedia Commons, not
   AL_Vault.
+- **The otoshi charge, Japan's near-universal izakaya surprise fee,
+  via the last unused Hiroshima video.** 14:00 UTC firing
+  (2026-10-18). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads. Used the final
+  remaining unused video in Hiroshima's pool: "92 | YAKITORI IZAKAYA
+  IN HIROSHIMA, JAPAN," filmed the same November 26 2022 evening as
+  the Peace Memorial visit, the lighter second half of that day
+  (crane games, Christmas shopping, dinner) the family deliberately
+  kept separate from the memorial footage, continuing that same
+  honest split here rather than blending tones. No receipt or named
+  restaurant in the video, so rather than guess a number, researched
+  and used real otoshi mechanics (a near-universal, rarely-explained
+  Japanese izakaya appetizer charge, 300-500 yen per person, up to
+  1,000 yen at nicer spots, billed whether eaten or not, tied to
+  Japan's no-tipping culture) as the genuine "catches people out"
+  hook, plus honestly-hedged third-party-estimate Hiroshima yakitori
+  izakaya pricing (2,000-5,000 yen per person across tiers, an 88
+  yen/skewer budget chain option). Cross-referenced the existing
+  Osaka izakaya-vs-yakiniku post's real skewer/beer pricing (100-300
+  yen/skewer, Torikizoku's flat 390 yen, 500-800 yen draft beer)
+  honestly, including correcting an early draft's unsupported claim
+  that otoshi varies by city, that post simply never addressed
+  otoshi at all, not evidence it doesn't apply there. Also
+  cross-referenced real UFO catcher/crane game pricing (~100 yen)
+  already established in the purikura and kids-debit-card posts
+  rather than re-deriving it. Rolled length tier 6 (extended feature,
+  1,600-2,000 words) and format 9 (heads-up/warning framing) from
+  CLAUDE.md's system, no reroll needed, a real, well-documented trap
+  existed (otoshi). Published 2026-10-18 as
+  `izakaya-otoshi-charge-hiroshima-yakitori-cost`, 806 words, landed
+  well short of the rolled tier 6, the real material (no receipt, no
+  named restaurant, otoshi fully explained, cross-references used up)
+  genuinely capped out around tier 3, said so here rather than
+  padding a thin night out into a feature-length piece. Topic
+  `en/hiroshima`. Checked this video's own YouTube thumbnail before
+  using it as the cover (learned from the Peace Memorial post earlier
+  today to check tone first), confirmed this one's a normal cheerful
+  food-vlog style with no tonal mismatch, used it directly. No
+  AffiliateBox, consistent with the existing Osaka izakaya post also
+  carrying none, a casual dinner isn't Klook/GYG bookable. Zero uses
+  of "actually" or "genuinely" in the published body (1 caught and
+  cut from the first draft). No `mark_photo_used` call, video-only
+  source.
