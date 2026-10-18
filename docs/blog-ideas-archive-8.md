@@ -169,3 +169,59 @@ more recent entries. When this file nears 400 lines too, start
   the real material was used up. Topic `en/day-trips`. Zero uses of
   "actually" or "genuinely" in the published body (6 caught and cut
   across drafts, including two introduced during the expansion pass).
+- **Travel insurance for a Japan trip, real SafetyWing/World Nomads
+  pricing plus a real claim story.** 02:00 UTC firing (2026-10-17,
+  new day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Mined several remaining small,
+  unexplored pools (Bunkyo, Chiyoda, Sakai, Uji, Edogawa, Shinagawa,
+  Matsudo, Ichikawa, Narashino) and found nothing new, every pool was
+  either overflow from an already-covered visit (Tokyo Dome, Sakai
+  teppanyaki, Nintendo Museum Uji) or too thin on its own (single
+  photos, generic transit shots). One genuine catch along the way: a
+  Uji photo AI-titled "Getting Our Miis at Super Nintendo World
+  Japan" (`fbdb69e7`) is actually the Nintendo Museum, confirmed via
+  its Oguracho/Uji geolocation and matching timestamp cluster with
+  the museum's other photos, Super Nintendo World is a different
+  attraction at USJ in Osaka entirely, a mislabeling worth remembering
+  if this photo comes up again, though not itself a new post since
+  the Nintendo Museum is already covered. Pivoted to a non-AL_Vault
+  angle per the loosened routine: a real, previously uncovered
+  affiliate category (insurance, from `docs/affiliates-reference.md`,
+  Faye/SafetyWing/World Nomads, all three link-only with no stated
+  commission in that doc). Found that the family's own sister site
+  (blog.adamandlinds.com, redirects to adamandlinds.com) already has
+  a real, detailed SafetyWing vs. World Nomads comparison for
+  worldschooling families; fetched it directly (the direct URL
+  404'd twice, the working one needed a `/blog/` path segment, same
+  stale-URL pattern as the TravelSpend post's source article) for
+  real pricing (SafetyWing Essential $56.28/4 weeks per adult 10-39,
+  up to 2 kids under 10 free per adult on a group policy; SafetyWing
+  Complete ~$150.50/month adult, $99.50/month per kid, 12-month
+  minimum; World Nomads real example quotes, $154.61-294.92 for one
+  adult on a 28-day multi-country trip) and a real claim story
+  (Harper broke her arm in Vienna, bill under $300, reimbursed within
+  a week), used honestly as a real claim example while being clear
+  Vienna isn't Japan. Mirrored that source's own disclaimer language
+  ("information only, not a recommendation") to match the site
+  owner's own stated rule in `affiliates-reference.md` ("we can't
+  recommend insurance"). Researched real, separately-sourced Japan ER
+  cost context (300,000-500,000 yen uninsured estimate, flagged as a
+  single unsourced industry figure; 100,000-150,000 yen hospital
+  deposit range; free ambulance calls regardless of insurance
+  status) and real entry-requirement facts (no insurance required for
+  a standard tourist visa, mandatory for long-stay/digital nomad
+  visas, a single-sourced and clearly flagged claim about Japan
+  screening for unpaid medical debt since April 2026). Rolled length
+  tier 3 (standard, 800-1,000 words) and format 8 (itemized
+  breakdown) from CLAUDE.md's system, no reroll needed, a genuine fit
+  for line-by-line real pricing. Published 2026-10-17 as
+  `travel-insurance-japan-trip-cost`, 892 words, topic
+  `en/unexpected-costs`. Reused a real, previously unused Narita
+  Airport photo (`e6e1ee93`, same moment as the already-used one in
+  the TravelSpend post, a different angle) as the cover. No
+  Klook/GYG, insurance isn't Klook/GYG bookable, all three insurance
+  links used neutrally with the required disclaimer, no invented
+  commission or discount terms for any of the three. Zero uses of
+  "actually" or "genuinely" in the published body (5 caught and cut
+  across drafts).

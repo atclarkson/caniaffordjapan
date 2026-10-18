@@ -48,62 +48,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   (`17e8ee36`, Koto, November 2023) is still real and unused in
   AL_Vault if a genuinely useful angle on it ever comes up, but "a
   thing that used to be free and isn't there anymore" isn't one.
-- **Travel insurance for a Japan trip, real SafetyWing/World Nomads
-  pricing plus a real claim story.** 02:00 UTC firing (2026-10-17,
-  new day). Both priority sources exhausted again (same BLOCKED Ginza
-  sumo idea, all three teamLab items still without real photos).
-  Confirmed zero new AL_Vault uploads. Mined several remaining small,
-  unexplored pools (Bunkyo, Chiyoda, Sakai, Uji, Edogawa, Shinagawa,
-  Matsudo, Ichikawa, Narashino) and found nothing new, every pool was
-  either overflow from an already-covered visit (Tokyo Dome, Sakai
-  teppanyaki, Nintendo Museum Uji) or too thin on its own (single
-  photos, generic transit shots). One genuine catch along the way: a
-  Uji photo AI-titled "Getting Our Miis at Super Nintendo World
-  Japan" (`fbdb69e7`) is actually the Nintendo Museum, confirmed via
-  its Oguracho/Uji geolocation and matching timestamp cluster with
-  the museum's other photos, Super Nintendo World is a different
-  attraction at USJ in Osaka entirely, a mislabeling worth remembering
-  if this photo comes up again, though not itself a new post since
-  the Nintendo Museum is already covered. Pivoted to a non-AL_Vault
-  angle per the loosened routine: a real, previously uncovered
-  affiliate category (insurance, from `docs/affiliates-reference.md`,
-  Faye/SafetyWing/World Nomads, all three link-only with no stated
-  commission in that doc). Found that the family's own sister site
-  (blog.adamandlinds.com, redirects to adamandlinds.com) already has
-  a real, detailed SafetyWing vs. World Nomads comparison for
-  worldschooling families; fetched it directly (the direct URL
-  404'd twice, the working one needed a `/blog/` path segment, same
-  stale-URL pattern as the TravelSpend post's source article) for
-  real pricing (SafetyWing Essential $56.28/4 weeks per adult 10-39,
-  up to 2 kids under 10 free per adult on a group policy; SafetyWing
-  Complete ~$150.50/month adult, $99.50/month per kid, 12-month
-  minimum; World Nomads real example quotes, $154.61-294.92 for one
-  adult on a 28-day multi-country trip) and a real claim story
-  (Harper broke her arm in Vienna, bill under $300, reimbursed within
-  a week), used honestly as a real claim example while being clear
-  Vienna isn't Japan. Mirrored that source's own disclaimer language
-  ("information only, not a recommendation") to match the site
-  owner's own stated rule in `affiliates-reference.md` ("we can't
-  recommend insurance"). Researched real, separately-sourced Japan ER
-  cost context (300,000-500,000 yen uninsured estimate, flagged as a
-  single unsourced industry figure; 100,000-150,000 yen hospital
-  deposit range; free ambulance calls regardless of insurance
-  status) and real entry-requirement facts (no insurance required for
-  a standard tourist visa, mandatory for long-stay/digital nomad
-  visas, a single-sourced and clearly flagged claim about Japan
-  screening for unpaid medical debt since April 2026). Rolled length
-  tier 3 (standard, 800-1,000 words) and format 8 (itemized
-  breakdown) from CLAUDE.md's system, no reroll needed, a genuine fit
-  for line-by-line real pricing. Published 2026-10-17 as
-  `travel-insurance-japan-trip-cost`, 892 words, topic
-  `en/unexpected-costs`. Reused a real, previously unused Narita
-  Airport photo (`e6e1ee93`, same moment as the already-used one in
-  the TravelSpend post, a different angle) as the cover. No
-  Klook/GYG, insurance isn't Klook/GYG bookable, all three insurance
-  links used neutrally with the required disclaimer, no invented
-  commission or discount terms for any of the three. Zero uses of
-  "actually" or "genuinely" in the published body (5 caught and cut
-  across drafts).
 - **Kids' debit cards in Japan: what a card covers and what still
   needs cash.** 08:00 UTC firing (2026-10-17). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -360,3 +304,37 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   of "actually" or "genuinely" in the published body (1 caught and
   cut from the first draft). No `mark_photo_used` call, video-only
   source.
+- **A Kobe beef day trip where the steak itself was the low point.**
+  20:00 UTC firing (2026-10-18). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads, and
+  found Kobe completely unexplored (0 photos, 1 video), a brand-new
+  destination for the site. The video itself, "150 | DAY TRIP TO
+  KOBE JAPAN," already carried a real, honest disappointment hook in
+  its own description (the beef not living up to the hype), used
+  directly rather than invented. Created `src/data/topics/en/kobe.json`
+  (order 17), the first Kobe content on the site. Checked the video's
+  own thumbnail for tone before using it as cover (a normal "STEAK
+  FAIL" food-vlog style, confirmed fine). Researched real Kobe beef
+  certification rules (Tajima-strain Japanese Black cattle, Hyogo
+  Prefecture, 10-digit traceable animal ID, official certification
+  seal) and real Kobe-restaurant pricing (12,000-17,000 yen lunch
+  courses, dinner courses averaging 20,000+ yen, one real account of
+  a family topping 100,000 yen; 9,900-16,500 yen by the cut). Added
+  real Nankinmachi/Kobe Chinatown history (founded 1868 when Chinese
+  traders, many from Guangdong and Fujian, settled near the newly
+  opened port; rebuilt after WWII and again after the 1995 Great
+  Hanshin earthquake) and real Osaka-Kobe transit detail (JR Kobe
+  Line Shinkaisoku, ~20-25 min, 410 yen; cheaper Hanshin/Hankyu
+  alternatives at 320 yen, ~30 min). Found a genuine, previously
+  undocumented Viator affiliate link in the video's own description
+  (`pid=P00074464&mcid=42383`) and corrected `docs/affiliates-reference.md`'s
+  stale Viator entry (it previously said no link existed) rather than
+  using it once and letting the doc go stale. Rolled length tier 2
+  (600-800 words) and format 5 (narrative-first, cost as payoff) from
+  CLAUDE.md's system, no reroll needed. Published 2026-10-18 as
+  `kobe-beef-day-trip-steak-not-worth-hype`, 713 words, within the
+  rolled tier. Topic `en/kobe`. Viator link verified in the built
+  HTML. Zero uses of "actually" or "genuinely" in the published body
+  (4 caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.

@@ -17,7 +17,14 @@ given, don't guess one.
 
 - **Hotels.com**: via Expedia Group creator portal (creator.expediagroup.com).
 - **Trafalgar**: earn 5%. `https://trafalgar.sjv.io/c/6317027/2176743/26706`
-- **Viator**: needs a "Storefront" created on the Viator site first, no link yet.
+- **Viator**: a real, working affiliate link exists, found in the family's own
+  YouTube description on the Kobe day-trip vlog rather than in the original
+  spreadsheet this doc was built from: `pid=P00074464&mcid=42383`. Generic
+  storefront: `https://www.viator.com/?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=generic`.
+  Destination-specific pages work too, e.g. Kobe:
+  `https://www.viator.com/Kobe/d27432-ttd?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=Vlog150`,
+  swap the city path and campaign value for other destinations. No stated
+  commission rate found yet, don't invent one.
 - **Skyscanner**: `https://skyscanner.pxf.io/PONkVe`
 - **LostPlate** (food tours): code `ADAMANDLINDS`, we get 8%, customer gets
   $5 off each booking. Example link:
