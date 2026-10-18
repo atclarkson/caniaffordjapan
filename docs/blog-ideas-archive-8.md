@@ -42,3 +42,44 @@ more recent entries. When this file nears 400 lines too, start
   Klook/GYG bookable, the Wayb link is the only affiliate content.
   Zero uses of "actually" or "genuinely" in the published body (2
   caught and cut from the first draft).
+- **Zenni before the trip vs. a walk-in optician once you land.**
+  02:00 UTC firing (2026-10-16). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads since the
+  last firing (all destination pools unchanged from the prior
+  entry's counts). Per the loosened routine, didn't re-exhaust every
+  pool again, pivoted straight to a non-AL_Vault angle sourced from
+  `docs/affiliates-reference.md`: Zenni (glasses), link only, no
+  stated code or commission in that doc, so no discount or commission
+  percentage was claimed anywhere in the post. Confirmed via a grep
+  of existing posts that the gap was real: the existing
+  `japan-optician-eye-exam-glasses-cost` post only covers in-Japan
+  walk-in chains (JINS/Zoff/OWNDAYS), nothing about ordering glasses
+  before the trip. Researched Zenni's real pricing, shipping tiers,
+  PD self-measurement requirement, and 30-day return policy via web
+  search (a September 2026 review was the most current source found,
+  older reviews flagged and weighted less). Did not fabricate
+  firsthand Zenni use, the post says plainly the family hasn't
+  ordered from Zenni themselves and cites independent reviews rather
+  than claiming personal experience, consistent with how the Wayb
+  mention in the car seat post was handled. Rolled length tier 5
+  (deep dive, 1,300-1,600 words) and format 11 (time/season-anchored)
+  from CLAUDE.md's system; format 11 didn't fit, a logistics
+  comparison post has no single "that day" scene to open with,
+  rerolled once per CLAUDE.md's allowance and landed on format 8
+  (itemized breakdown), a genuine fit for a line-by-line cost
+  comparison. Published 2026-10-16 as
+  `zenni-glasses-before-trip-vs-japan-optician`, 1,127 words, landed
+  short of the rolled tier 5 (closer to tier 4), said so here rather
+  than padding further once the real, itemizable material (pricing,
+  shipping, PD measurement, returns, ordering steps, the quality
+  tradeoff flagged by reviews) was used up. Topic
+  `en/unexpected-costs`. Reused a real, previously unused photo
+  ("Lily Finds Her Look in Osaka," April 20 2026, Kakudacho, Osaka,
+  `used_in_count: 0`) as the cover, a different date and location
+  from the existing optician post's own cover (April 8 2026, Abeno
+  Ward), confirmed via full photo records before using either. No
+  Klook/GYG, the Zenni link is the only affiliate content, used
+  neutrally with no invented discount code or percentage. Zero uses
+  of "actually" or "genuinely" in the published body (4 caught and
+  cut across drafts).

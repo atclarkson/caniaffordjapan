@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Zenni before the trip vs. a walk-in optician once you land.**
-  02:00 UTC firing (2026-10-16). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads since the
-  last firing (all destination pools unchanged from the prior
-  entry's counts). Per the loosened routine, didn't re-exhaust every
-  pool again, pivoted straight to a non-AL_Vault angle sourced from
-  `docs/affiliates-reference.md`: Zenni (glasses), link only, no
-  stated code or commission in that doc, so no discount or commission
-  percentage was claimed anywhere in the post. Confirmed via a grep
-  of existing posts that the gap was real: the existing
-  `japan-optician-eye-exam-glasses-cost` post only covers in-Japan
-  walk-in chains (JINS/Zoff/OWNDAYS), nothing about ordering glasses
-  before the trip. Researched Zenni's real pricing, shipping tiers,
-  PD self-measurement requirement, and 30-day return policy via web
-  search (a September 2026 review was the most current source found,
-  older reviews flagged and weighted less). Did not fabricate
-  firsthand Zenni use, the post says plainly the family hasn't
-  ordered from Zenni themselves and cites independent reviews rather
-  than claiming personal experience, consistent with how the Wayb
-  mention in the car seat post was handled. Rolled length tier 5
-  (deep dive, 1,300-1,600 words) and format 11 (time/season-anchored)
-  from CLAUDE.md's system; format 11 didn't fit, a logistics
-  comparison post has no single "that day" scene to open with,
-  rerolled once per CLAUDE.md's allowance and landed on format 8
-  (itemized breakdown), a genuine fit for a line-by-line cost
-  comparison. Published 2026-10-16 as
-  `zenni-glasses-before-trip-vs-japan-optician`, 1,127 words, landed
-  short of the rolled tier 5 (closer to tier 4), said so here rather
-  than padding further once the real, itemizable material (pricing,
-  shipping, PD measurement, returns, ordering steps, the quality
-  tradeoff flagged by reviews) was used up. Topic
-  `en/unexpected-costs`. Reused a real, previously unused photo
-  ("Lily Finds Her Look in Osaka," April 20 2026, Kakudacho, Osaka,
-  `used_in_count: 0`) as the cover, a different date and location
-  from the existing optician post's own cover (April 8 2026, Abeno
-  Ward), confirmed via full photo records before using either. No
-  Klook/GYG, the Zenni link is the only affiliate content, used
-  neutrally with no invented discount code or percentage. Zero uses
-  of "actually" or "genuinely" in the published body (4 caught and
-  cut across drafts).
 - **REMOVED: The Unicorn Gundam statue at DiverCity Tokyo.** Published
   2026-10-16 (08:00 UTC firing) as `unicorn-gundam-divercity-tokyo-free-gone`,
   then deleted the same day on the site owner's direct instruction: a
@@ -351,3 +310,44 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   than inventing a specific listing that doesn't exist. Zero uses of
   "actually" or "genuinely" in the published body (4 caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **Purikura photo booths, what they cost and how the process
+  actually works.** 02:00 UTC firing (2026-10-18, new day). Both
+  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
+  three teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Used the last remaining unused Kyoto video from
+  the pool the prior Kani Doraku post surfaced: "89 | KYOTO, JAPAN,"
+  filmed November 22 2022, also Lindsay's first time filming a vlog
+  herself, a real first-timer family visit to a purikura photo booth.
+  Confirmed via `grep` this wasn't covered anywhere on the site yet.
+  Researched real current pricing (~400 yen per session, coins only
+  at most machines, some newer machines take Suica/Pasmo, cross-
+  referenced honestly against the existing kids-debit-card post's own
+  gacha-machine coin-first finding rather than re-deriving it) and
+  the real booth process (pose prompts, no retakes, in-camera beauty
+  effects, touchscreen decoration, sticker-sheet or phone-QR output).
+  Added real, multi-sourced history (invented by Atlus employee
+  Sasaki Miho in 1994, launched with Sega as "Print Club" in February
+  1995, a real TV tie-in boosting 1996 popularity, competing
+  manufacturers SNK/Konami/Namco/Furyu) and one honestly-hedged
+  cultural-practice detail (some shops' historical solo-male
+  restriction, flagged as location-variable rather than universal,
+  thinly sourced so stated carefully). Noted a real, dated correction
+  too: a once well-known Shibuya purikura shop closed in 2025,
+  flagged so a reader doesn't chase an outdated named recommendation.
+  Rolled length tier 5 (deep dive, 1,300-1,600 words) and format 15
+  (plain declarative) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-18 as
+  `purikura-photo-booth-japan-cost-how-it-works`, 1,053 words, landed
+  short of the rolled tier 5 despite genuine expansions (in-camera
+  effects, family group-size logistics, the cultural-practice note,
+  more TV-tie-in detail), said so here rather than padding further
+  with thinly-sourced decoration-process marketing copy that didn't
+  meet the site's sourcing bar. Topic `en/kyoto`. No AL_Vault still
+  photos exist for Kyoto, cover is a direct download of the video's
+  own real YouTube thumbnail, embedded in the body via the same 16:9
+  youtube-nocookie iframe pattern as the other recent video-sourced
+  posts. No AffiliateBox, no real bookable purikura listing exists,
+  consistent with the site's own rule to skip entirely rather than
+  force one. Zero uses of "actually" or "genuinely" in the published
+  body (4 caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.
