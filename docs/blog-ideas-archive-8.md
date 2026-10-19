@@ -225,3 +225,52 @@ more recent entries. When this file nears 400 lines too, start
   commission or discount terms for any of the three. Zero uses of
   "actually" or "genuinely" in the published body (5 caught and cut
   across drafts).
+- **REMOVED: The Unicorn Gundam statue at DiverCity Tokyo.** Published
+  2026-10-16 (08:00 UTC firing) as `unicorn-gundam-divercity-tokyo-free-gone`,
+  then deleted the same day on the site owner's direct instruction: a
+  post about a statue that's already gone doesn't help anyone planning
+  a trip, wrong call to publish it even though every fact in it was
+  real and sourced. Don't pick this topic again. The source photo
+  (`17e8ee36`, Koto, November 2023) is still real and unused in
+  AL_Vault if a genuinely useful angle on it ever comes up, but "a
+  thing that used to be free and isn't there anymore" isn't one.
+- **Kids' debit cards in Japan: what a card covers and what still
+  needs cash.** 08:00 UTC firing (2026-10-17). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads since the last firing. Pivoted to another real,
+  uncovered affiliate category from `docs/affiliates-reference.md`
+  per the loosened routine: Greenlight (kids debit card), link only,
+  no stated commission in that doc. Verified via web search that
+  Greenlight's own help center lists Japan as supported with
+  automatic international activation for kids' cards and no stated
+  foreign transaction fee, flagged one conflicting third-party note
+  on possible conversion fees honestly rather than picking a side.
+  Found the real, genuinely differentiating hook through research
+  rather than assumption: gacha/capsule toy machines in Japan default
+  to coins (confirmed via multiple sources), not cards, directly
+  relevant to this site's own existing gacha pricing (MOOOSH Squishy
+  Harajuku, Kura Sushi's Bikkura Pon machines, both already
+  published, cross-referenced rather than re-derived). Researched
+  real 7-Eleven/Seven Bank ATM mechanics for the "where does the cash
+  come from" angle (English interface, ~50,000 yen per-transaction
+  cap, 110-220 yen typical fee range, choose yen not dynamic
+  conversion) and real UFO catcher/claw machine pricing (roughly 100
+  yen baseline, honestly flagged as thinly and inconsistently
+  sourced). Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 15 (plain declarative) from CLAUDE.md's system,
+  no reroll needed. Published 2026-10-17 as
+  `kids-debit-card-japan-cash-still-needed`, 1,255 words, landed
+  short of the rolled tier 6 despite genuine expansions (the ATM/cash
+  section, a worked real-numbers day-in-the-life example combining
+  already-published gacha pricing), said so here rather than padding
+  further with thinly sourced claw-machine detail beyond the one
+  honestly hedged figure already included. Topic
+  `en/unexpected-costs`. Reused a real, previously unused Nihonbashi
+  Pokémon Center photo (`9956db4d`, October 2023, `used_in_count: 0`)
+  as the cover, captioned honestly as a card-friendly retail purchase
+  rather than claimed as gacha-specific. No Klook/GYG, not bookable;
+  the Greenlight link is the only affiliate content, used neutrally
+  as information about how the card functions abroad rather than an
+  endorsement. Zero uses of "actually" or "genuinely" in the
+  published body (6 caught and cut across drafts).
