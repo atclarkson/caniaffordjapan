@@ -29,7 +29,10 @@ given, don't guess one.
 - **LostPlate** (food tours): code `ADAMANDLINDS`, we get 8%, customer gets
   $5 off each booking. Example link:
   `https://lostplate.com/shanghai-evening-food-tour/` (that specific link is
-  a Shanghai tour, not Japan, get the actual Japan tour URL before using this).
+  a Shanghai tour, not Japan). Checked lostplate.com directly on
+  2026-10-19: it runs no Japan tours at all, only China, Cambodia,
+  Thailand, Vietnam, and Portland, Oregon. Not usable on this site
+  until that changes, don't force a Japan post around it.
 - **G Adventures**: `https://gadventures.sjv.io/QYOJ1P`
 
 ## Telecom (eSIM, SIM, pocket wifi)
