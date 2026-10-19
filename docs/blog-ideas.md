@@ -333,3 +333,45 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   a recommendation that either is needed for Japan specifically.
   Zero uses of "actually" or "genuinely" in the published body (2
   caught and cut, both from early headings).
+- **The real Torikizoku receipt: 6,840 yen for five, 1,368 yen a
+  head.** 08:00 UTC firing (2026-10-19). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads. Checked Shibuya (otter cafe, already published) and then
+  worked through Taito's full 122-photo pool, Tokyo's largest
+  unexplored-feeling destination even though 20 existing posts
+  already touch Asakusa; most of what's unused there is Kappabashi
+  (already covered twice), Tiger Gyoza (already covered), and Ueno
+  Zoo Halloween photos from a visit the existing
+  `halloween-costumes-cost-tokyo-ueno-zoo-shinobazu` post already
+  covers in depth. Found one genuinely unused, genuinely distinct
+  artifact instead: a real October 26 2023 payment-terminal photo
+  (`aa805093`, `used_in_count: 0`) showing the exact split bill from
+  a Torikizoku dinner, 6,840 yen for the family of five, 1,368 yen
+  per person, confirmed via its own `notes_for_ai` field as a real
+  family favorite ("one of our FAVORITE chains in all of japan").
+  Torikizoku is mentioned in passing in three existing posts (the
+  Senso-ji free-temple post, the Osaka yakitori-vs-wagyu post, and
+  the Hiroshima otoshi post) but had no dedicated post of its own and
+  no post used this specific receipt, a genuinely different angle
+  from those (an itemized walkthrough of the chain's actual real
+  pricing mechanics, not a passing mention inside a different post's
+  thesis). Researched real chain facts (founded 1985, 600+ Japan
+  locations, 700+ worldwide, flat menu pricing confirmed at 390 yen
+  by this site's own existing Osaka post and cross-checked against
+  fresh web search, honestly flagged real per-branch/per-year
+  variation from roughly 280 to 390 yen rather than treating 390 as
+  fixed everywhere) and real ordering mechanics (tablet ordering with
+  English available at most branches, a queue-number tablet at some
+  locations, all-you-can-drink with a real roughly-two-hour peak-time
+  limit, kamameshi needing a mid-meal order since it's cooked
+  tableside). Rolled length tier 1 (quick hit, 450-600 words) and
+  format 8 (itemized breakdown) from CLAUDE.md's system, no reroll
+  needed, a genuine fit for a receipt-driven post. Published
+  2026-10-19 as `torikizoku-yakitori-chain-bill-line-by-line`, 531
+  words, within the rolled tier. Topic `en/budget-food`.
+  `mark_photo_used` called for the cover photo. No AffiliateBox or
+  Klook/GYG link, a walk-in chain izakaya isn't bookable, consistent
+  with the existing Osaka izakaya post also carrying none. Zero uses
+  of "actually" or "genuinely" in the published body (3 caught and
+  cut, one from the first-draft title itself).
