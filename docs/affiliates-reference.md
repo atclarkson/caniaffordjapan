@@ -23,7 +23,12 @@ given, don't guess one.
   storefront: `https://www.viator.com/?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=generic`.
   Destination-specific pages work too, e.g. Kobe:
   `https://www.viator.com/Kobe/d27432-ttd?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=Vlog150`,
-  swap the city path and campaign value for other destinations. No stated
+  swap the city path and campaign value for other destinations. A second
+  real, video-description-sourced link found 2026-10-19, specific to a
+  Yokohama day tour (not just the generic city page):
+  `https://www.viator.com/tours/Yokohama/Yokohama-Private-Full-Day-Tour/d25747-27666P40?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-96-yokohama`.
+  Worth checking a video's own description for a specific tour-page link
+  like this before defaulting to the generic city page. No stated
   commission rate found yet, don't invent one.
 - **Skyscanner**: `https://skyscanner.pxf.io/PONkVe`
 - **LostPlate** (food tours): code `ADAMANDLINDS`, we get 8%, customer gets

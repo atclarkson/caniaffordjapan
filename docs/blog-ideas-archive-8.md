@@ -316,3 +316,41 @@ more recent entries. When this file nears 400 lines too, start
   "actually" or "genuinely" in the published body (5 caught and cut
   across drafts). No `mark_photo_used` call, video-only source, no
   AL_Vault photo UUID to mark.
+- **Kani Doraku's giant crab sign talking us into a Kyoto dinner.**
+  20:00 UTC firing (2026-10-17). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Followed
+  up on Kyoto's own unexplored video pool (0 photos, 2 videos,
+  flagged but not used in the prior Hiroshima firing): a real
+  November 18 2022 family vlog, "First Time in Kyoto," covering an
+  unplanned dinner at Kani Doraku, the crab restaurant chain known
+  for its giant mechanized crab sign. Kyoto already had a topic
+  (`en/kyoto`, used so far only by the Uji Nintendo Museum post) but
+  no Kyoto-city post of its own, this is the first. No receipt or
+  stated price in the video itself, researched and used the real
+  current Kyoto-location menu instead (5 crab kaiseki tiers, all 9
+  dishes, 4,730 to 7,260 yen, tax included, sourced from the
+  restaurant's own reservation platform listing) rather than
+  guessing a number for the unseen bill. Verified real chain history
+  independently (founded 1960 in Dotonbori Osaka, the original
+  mechanized crab sign roughly 6.5m tall, two real documented
+  incidents: a 1984 accident and a 2003 Hanshin Tigers celebration
+  incident) and the real structure of a crab kaiseki course (sashimi,
+  vinegared crab, grilled crab, kani-suki hot pot, tempura, crab rice
+  to close) to explain honestly why the higher tiers cost more
+  (better crab, not more dishes). Rolled length tier 3 (standard,
+  800-1,000 words) and format 5 (narrative-first, cost as payoff)
+  from CLAUDE.md's system, no reroll needed, a real scene existed to
+  open with (the sign itself prompting an unplanned dinner). Published
+  2026-10-17 as `kani-doraku-crab-restaurant-kyoto-cost`, 839 words,
+  topic `en/kyoto`. No AL_Vault still photos exist for Kyoto, cover is
+  a direct download of the video's own real YouTube thumbnail, video
+  embedded in the body via a 16:9 youtube-nocookie iframe, the same
+  pattern used for the Hiroshima post earlier today. No specific
+  Klook/GYG listing found for Kani Doraku itself after a direct
+  search, used a plain query-based `<AffiliateBox>` ("Planning a
+  Kyoto food stop?") instead, the same generic-query pattern already
+  established on this site (e.g. the Dotonbori free-walk post) rather
+  than inventing a specific listing that doesn't exist. Zero uses of
+  "actually" or "genuinely" in the published body (4 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
