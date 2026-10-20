@@ -102,3 +102,37 @@ more recent entries. When this file nears 400 lines too, start
   of "actually" or "genuinely" in the published body (1 caught and
   cut from the first draft). No `mark_photo_used` call, video-only
   source.
+- **A Kobe beef day trip where the steak itself was the low point.**
+  20:00 UTC firing (2026-10-18). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads, and
+  found Kobe completely unexplored (0 photos, 1 video), a brand-new
+  destination for the site. The video itself, "150 | DAY TRIP TO
+  KOBE JAPAN," already carried a real, honest disappointment hook in
+  its own description (the beef not living up to the hype), used
+  directly rather than invented. Created `src/data/topics/en/kobe.json`
+  (order 17), the first Kobe content on the site. Checked the video's
+  own thumbnail for tone before using it as cover (a normal "STEAK
+  FAIL" food-vlog style, confirmed fine). Researched real Kobe beef
+  certification rules (Tajima-strain Japanese Black cattle, Hyogo
+  Prefecture, 10-digit traceable animal ID, official certification
+  seal) and real Kobe-restaurant pricing (12,000-17,000 yen lunch
+  courses, dinner courses averaging 20,000+ yen, one real account of
+  a family topping 100,000 yen; 9,900-16,500 yen by the cut). Added
+  real Nankinmachi/Kobe Chinatown history (founded 1868 when Chinese
+  traders, many from Guangdong and Fujian, settled near the newly
+  opened port; rebuilt after WWII and again after the 1995 Great
+  Hanshin earthquake) and real Osaka-Kobe transit detail (JR Kobe
+  Line Shinkaisoku, ~20-25 min, 410 yen; cheaper Hanshin/Hankyu
+  alternatives at 320 yen, ~30 min). Found a genuine, previously
+  undocumented Viator affiliate link in the video's own description
+  (`pid=P00074464&mcid=42383`) and corrected `docs/affiliates-reference.md`'s
+  stale Viator entry (it previously said no link existed) rather than
+  using it once and letting the doc go stale. Rolled length tier 2
+  (600-800 words) and format 5 (narrative-first, cost as payoff) from
+  CLAUDE.md's system, no reroll needed. Published 2026-10-18 as
+  `kobe-beef-day-trip-steak-not-worth-hype`, 713 words, within the
+  rolled tier. Topic `en/kobe`. Viator link verified in the built
+  HTML. Zero uses of "actually" or "genuinely" in the published body
+  (4 caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.

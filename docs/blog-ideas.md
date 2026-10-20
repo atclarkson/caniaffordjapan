@@ -39,40 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A Kobe beef day trip where the steak itself was the low point.**
-  20:00 UTC firing (2026-10-18). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads, and
-  found Kobe completely unexplored (0 photos, 1 video), a brand-new
-  destination for the site. The video itself, "150 | DAY TRIP TO
-  KOBE JAPAN," already carried a real, honest disappointment hook in
-  its own description (the beef not living up to the hype), used
-  directly rather than invented. Created `src/data/topics/en/kobe.json`
-  (order 17), the first Kobe content on the site. Checked the video's
-  own thumbnail for tone before using it as cover (a normal "STEAK
-  FAIL" food-vlog style, confirmed fine). Researched real Kobe beef
-  certification rules (Tajima-strain Japanese Black cattle, Hyogo
-  Prefecture, 10-digit traceable animal ID, official certification
-  seal) and real Kobe-restaurant pricing (12,000-17,000 yen lunch
-  courses, dinner courses averaging 20,000+ yen, one real account of
-  a family topping 100,000 yen; 9,900-16,500 yen by the cut). Added
-  real Nankinmachi/Kobe Chinatown history (founded 1868 when Chinese
-  traders, many from Guangdong and Fujian, settled near the newly
-  opened port; rebuilt after WWII and again after the 1995 Great
-  Hanshin earthquake) and real Osaka-Kobe transit detail (JR Kobe
-  Line Shinkaisoku, ~20-25 min, 410 yen; cheaper Hanshin/Hankyu
-  alternatives at 320 yen, ~30 min). Found a genuine, previously
-  undocumented Viator affiliate link in the video's own description
-  (`pid=P00074464&mcid=42383`) and corrected `docs/affiliates-reference.md`'s
-  stale Viator entry (it previously said no link existed) rather than
-  using it once and letting the doc go stale. Rolled length tier 2
-  (600-800 words) and format 5 (narrative-first, cost as payoff) from
-  CLAUDE.md's system, no reroll needed. Published 2026-10-18 as
-  `kobe-beef-day-trip-steak-not-worth-hype`, 713 words, within the
-  rolled tier. Topic `en/kobe`. Viator link verified in the built
-  HTML. Zero uses of "actually" or "genuinely" in the published body
-  (4 caught and cut across drafts). No `mark_photo_used` call,
-  video-only source.
 - **Does a Japan trip need a VPN, the China-censorship assumption
   corrected.** 02:00 UTC firing (2026-10-19, new day). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -387,3 +353,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   a park beer festival isn't Klook/GYG bookable. Zero uses of
   "actually" or "genuinely" in the published body (7 caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **A real, itemized Day 0 arrival budget, and the luggage-forwarding
+  service most first-timers don't know exists.** 20:00 UTC firing
+  (2026-10-20). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads. Checked the `Tokyo`
+  video pool one more time (the pool that's now surfaced Sanrio
+  Puroland, the Pokémon Café, and Tokyo Oktoberfest across the last
+  three firings) and found a genuinely strong, completely uncovered
+  source: "QUICK GUIDE LANDING IN TOKYO! First 24 Hours," whose own
+  description contains a real, itemized Day 0 cost breakdown down to
+  the yen (luggage forwarding 6,926 yen, pocket wifi 8,008 yen, eSIM
+  1,939 yen, accommodation 27,475 yen, snacks 3,472 yen, dinner 5,940
+  yen, transportation 8,950 yen, total 62,710 yen / ~$401.34 at the
+  stated exchange rate). Confirmed via `grep` this exact itemized
+  breakdown and the luggage-forwarding topic were both completely
+  uncovered on the site. Previewed the thumbnail before using it as
+  cover (a cheerful, clear airport photo, no tone concern), corrected
+  the `coverAlt` to describe what it actually shows (a running cost
+  counter, not a generic "tips" graphic) rather than reusing boilerplate
+  phrasing. Researched real current luggage-forwarding (takuhaibin)
+  pricing to supplement the video's own single data point (roughly
+  2,000-3,200 yen per bag depending on source, airport-to-hotel
+  service available at Narita, Haneda, Kansai, and Chubu Centrair)
+  and real Visit Japan Web mechanics (free, browser-based, combines
+  immigration and customs into one QR code, usable at Haneda/Narita/
+  Kansai self-service kiosks, register 6+ hours ahead). Cross-
+  referenced two already-published posts honestly rather than
+  re-deriving them: the real eSIM/SIM/pocket-wifi comparison post and
+  the real Narita-to-Tokyo transit post (Skyliner, N'EX, bus, local
+  train fares). Confirmed SimLocal (the video's own eSIM sponsor) is
+  already documented in `telecomAffiliates.ts`, no new affiliate work
+  needed. Rolled length tier 3 (standard, 800-1,000 words) and format
+  15 (plain declarative) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-20 as `landing-in-tokyo-day-zero-cost-breakdown`,
+  805 words, within the rolled tier. Topic `en/transit`. No
+  AffiliateBox, arrival-day logistics aren't a single Klook/GYG
+  bookable item. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
