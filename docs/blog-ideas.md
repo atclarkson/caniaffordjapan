@@ -39,50 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The otoshi charge, Japan's near-universal izakaya surprise fee,
-  via the last unused Hiroshima video.** 14:00 UTC firing
-  (2026-10-18). Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Confirmed zero new AL_Vault uploads. Used the final
-  remaining unused video in Hiroshima's pool: "92 | YAKITORI IZAKAYA
-  IN HIROSHIMA, JAPAN," filmed the same November 26 2022 evening as
-  the Peace Memorial visit, the lighter second half of that day
-  (crane games, Christmas shopping, dinner) the family deliberately
-  kept separate from the memorial footage, continuing that same
-  honest split here rather than blending tones. No receipt or named
-  restaurant in the video, so rather than guess a number, researched
-  and used real otoshi mechanics (a near-universal, rarely-explained
-  Japanese izakaya appetizer charge, 300-500 yen per person, up to
-  1,000 yen at nicer spots, billed whether eaten or not, tied to
-  Japan's no-tipping culture) as the genuine "catches people out"
-  hook, plus honestly-hedged third-party-estimate Hiroshima yakitori
-  izakaya pricing (2,000-5,000 yen per person across tiers, an 88
-  yen/skewer budget chain option). Cross-referenced the existing
-  Osaka izakaya-vs-yakiniku post's real skewer/beer pricing (100-300
-  yen/skewer, Torikizoku's flat 390 yen, 500-800 yen draft beer)
-  honestly, including correcting an early draft's unsupported claim
-  that otoshi varies by city, that post simply never addressed
-  otoshi at all, not evidence it doesn't apply there. Also
-  cross-referenced real UFO catcher/crane game pricing (~100 yen)
-  already established in the purikura and kids-debit-card posts
-  rather than re-deriving it. Rolled length tier 6 (extended feature,
-  1,600-2,000 words) and format 9 (heads-up/warning framing) from
-  CLAUDE.md's system, no reroll needed, a real, well-documented trap
-  existed (otoshi). Published 2026-10-18 as
-  `izakaya-otoshi-charge-hiroshima-yakitori-cost`, 806 words, landed
-  well short of the rolled tier 6, the real material (no receipt, no
-  named restaurant, otoshi fully explained, cross-references used up)
-  genuinely capped out around tier 3, said so here rather than
-  padding a thin night out into a feature-length piece. Topic
-  `en/hiroshima`. Checked this video's own YouTube thumbnail before
-  using it as the cover (learned from the Peace Memorial post earlier
-  today to check tone first), confirmed this one's a normal cheerful
-  food-vlog style with no tonal mismatch, used it directly. No
-  AffiliateBox, consistent with the existing Osaka izakaya post also
-  carrying none, a casual dinner isn't Klook/GYG bookable. Zero uses
-  of "actually" or "genuinely" in the published body (1 caught and
-  cut from the first draft). No `mark_photo_used` call, video-only
-  source.
 - **A Kobe beef day trip where the steak itself was the low point.**
   20:00 UTC firing (2026-10-18). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -384,3 +340,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   was used up. Topic `en/tokyo`. Zero uses of "actually" or
   "genuinely" in the published body (6 caught and cut across
   drafts). No `mark_photo_used` call, video-only source.
+- **A real Tokyo Oktoberfest, filmed the last week of May.** 14:00
+  UTC firing (2026-10-20). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Checked
+  the `Tokyo` city-level video pool again (the same pool that
+  surfaced Sanrio Puroland and the Pokémon Café the last two firings)
+  and found a real, completely uncovered visit: "145 | TOKYO
+  OKTOBERFEST," filmed the last week of May 2023, the video's own
+  description noting the real surprise directly ("We went to
+  Oktoberfest... in May.... in Tokyo"). Checked the thumbnail's tone
+  first (cheerful adult beer-festival content, no concern) before
+  using it as cover. Couldn't confirm the exact venue from the
+  video's own ambiguous "Ochanomizu" chapter marker against any real
+  event listing, so wrote the post honestly describing Tokyo's
+  recurring circuit of Oktoberfest-branded beer gardens at named real
+  venues (Shiba Park spring/autumn, Odaiba spring) rather than
+  asserting a specific unconfirmed location for the family's own
+  visit. Researched real, substantial history on both sides of the
+  "not October" hook: Munich's own Oktoberfest moved its start into
+  September generations ago for better weather, keeping only its
+  final weekend in October, and Japan's own beer garden tradition
+  predates any Oktoberfest branding by about 150 years (Yokohama
+  1875, the first rooftop version traced to Osaka 1953, modern Tokyo
+  department-store rooftop gardens running May-September). Also used
+  a real, photo-grounded detail: the Hacker-Pschorr brand visible on
+  the mugs in the family's own cover photo, a real, officially
+  recognized Oktoberfest brewery with roots to 1417, researched
+  independently rather than left uncaptioned. Researched real current
+  pricing from Shiba Park's recurring events (500 yen admission 12+,
+  free under 11, a reusable cup included with admission, food and
+  drink charged separately, cashless payment accepted) and real
+  hours (shorter weekday windows). Added a genuine family-logistics
+  section (a real beer garden, not a kids' attraction, though
+  genuinely kid-friendly food and free admission for young kids).
+  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
+  format 11 (time/season-anchored) from CLAUDE.md's system, no reroll
+  needed, a strong natural fit given the whole hook is the real,
+  specific May date. Published 2026-10-20 as
+  `tokyo-oktoberfest-beer-garden-not-october-cost`, 1,399 words,
+  landed short of the rolled tier 6 despite substantial real
+  expansions (Munich history, Japan's own beer garden history, the
+  Hacker-Pschorr detail, a kids section), said so here rather than
+  padding further once the genuinely sourced material for a single
+  beer-festival visit was used up. Topic `en/tokyo`. No AffiliateBox,
+  a park beer festival isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (7 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
