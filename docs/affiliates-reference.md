@@ -27,6 +27,9 @@ given, don't guess one.
   real, video-description-sourced link found 2026-10-19, specific to a
   Yokohama day tour (not just the generic city page):
   `https://www.viator.com/tours/Yokohama/Yokohama-Private-Full-Day-Tour/d25747-27666P40?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-96-yokohama`.
+  A third found 2026-10-20, a specific bookable product rather than a
+  tour, Sanrio Puroland tickets:
+  `https://www.viator.com/tours/Tokyo-Prefecture/Tokyo-Sanrio-Puroland-Ticket/d50157-366941P63?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-130-hellokitty`.
   Worth checking a video's own description for a specific tour-page link
   like this before defaulting to the generic city page. No stated
   commission rate found yet, don't invent one.

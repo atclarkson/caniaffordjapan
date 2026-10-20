@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Purikura photo booths, what they cost and how the process
-  actually works.** 02:00 UTC firing (2026-10-18, new day). Both
-  priority sources exhausted again (same BLOCKED Ginza sumo idea, all
-  three teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads. Used the last remaining unused Kyoto video from
-  the pool the prior Kani Doraku post surfaced: "89 | KYOTO, JAPAN,"
-  filmed November 22 2022, also Lindsay's first time filming a vlog
-  herself, a real first-timer family visit to a purikura photo booth.
-  Confirmed via `grep` this wasn't covered anywhere on the site yet.
-  Researched real current pricing (~400 yen per session, coins only
-  at most machines, some newer machines take Suica/Pasmo, cross-
-  referenced honestly against the existing kids-debit-card post's own
-  gacha-machine coin-first finding rather than re-deriving it) and
-  the real booth process (pose prompts, no retakes, in-camera beauty
-  effects, touchscreen decoration, sticker-sheet or phone-QR output).
-  Added real, multi-sourced history (invented by Atlus employee
-  Sasaki Miho in 1994, launched with Sega as "Print Club" in February
-  1995, a real TV tie-in boosting 1996 popularity, competing
-  manufacturers SNK/Konami/Namco/Furyu) and one honestly-hedged
-  cultural-practice detail (some shops' historical solo-male
-  restriction, flagged as location-variable rather than universal,
-  thinly sourced so stated carefully). Noted a real, dated correction
-  too: a once well-known Shibuya purikura shop closed in 2025,
-  flagged so a reader doesn't chase an outdated named recommendation.
-  Rolled length tier 5 (deep dive, 1,300-1,600 words) and format 15
-  (plain declarative) from CLAUDE.md's system, no reroll needed.
-  Published 2026-10-18 as
-  `purikura-photo-booth-japan-cost-how-it-works`, 1,053 words, landed
-  short of the rolled tier 5 despite genuine expansions (in-camera
-  effects, family group-size logistics, the cultural-practice note,
-  more TV-tie-in detail), said so here rather than padding further
-  with thinly-sourced decoration-process marketing copy that didn't
-  meet the site's sourcing bar. Topic `en/kyoto`. No AL_Vault still
-  photos exist for Kyoto, cover is a direct download of the video's
-  own real YouTube thumbnail, embedded in the body via the same 16:9
-  youtube-nocookie iframe pattern as the other recent video-sourced
-  posts. No AffiliateBox, no real bookable purikura listing exists,
-  consistent with the site's own rule to skip entirely rather than
-  force one. Zero uses of "actually" or "genuinely" in the published
-  body (4 caught and cut across drafts). No `mark_photo_used` call,
-  video-only source.
 - **Hiroshima Peace Memorial Museum admission, 200 yen on top of the
   free park.** 08:00 UTC firing (2026-10-18). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -397,3 +356,43 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   verified in the built HTML. Zero uses of "actually" or "genuinely"
   in the published body (4 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
+- **Sanrio Puroland's real birthday visit and the August 2026 dynamic-pricing
+  change.** 02:00 UTC firing (2026-10-20, new day). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Rather than re-mining the same small neighborhood
+  pools again, checked the large, mostly-unmined `Tokyo` city-level
+  video pool (41 videos, only a few used across the whole site so
+  far). Found a real, completely uncovered attraction: Sanrio
+  Puroland, visited for Cora's 6th birthday (March 2023), confirmed
+  via `grep` that only a passing Klook-pass mention existed, no
+  dedicated post. A real, unused still photo existed for this exact
+  visit ("Cora Turns Six at Sanrio Puroland," `67778405`,
+  `used_in_count: 0`), so used that as cover instead of a video
+  thumbnail, the first time in several firings a still photo rather
+  than a video thumbnail was available. Found a third real,
+  previously undocumented Viator link in the video's own description,
+  this one a specific bookable product (Sanrio Puroland tickets)
+  rather than a tour, added to `docs/affiliates-reference.md`
+  alongside the Kobe and Yokohama ones. Researched real, current
+  pricing rather than quoting the video's own vague framing: Sanrio
+  Puroland's dynamic, date-based pricing structure, including a real
+  tier increase that took effect August 1 2026 (adult day passes now
+  3,900-6,900 yen, under-18/senior 2,800-5,800 yen, under 2 free), and
+  the Fast Pass system (sold per-ride at machines near each
+  attraction, 500-2,000 yen depending on the ride per multiple
+  sources, honestly flagged as inconsistently reported rather than
+  picking one figure to state as fact). Cross-referenced the video's
+  own real logistics (Shinjuku to Tama train, a Sushiro dinner, a
+  Shinjuku Gigo arcade stop) rather than inventing a different
+  itinerary. Rolled length tier 1 (quick hit, 450-600 words) and
+  format 2 (free-vs-paid split) from CLAUDE.md's system; format 2
+  didn't fit, nothing about a fully paid theme park is free, rerolled
+  once per CLAUDE.md's allowance and landed on format 14 (direct
+  address), a genuine fit for "here's what changed, here's what to
+  know before you book." Published 2026-10-20 as
+  `sanrio-puroland-ticket-price-worth-it`, 475 words, within the
+  rolled tier. Topic `en/theme-parks`. `mark_photo_used` called for
+  the cover photo. Viator link verified in the built HTML. Zero uses
+  of "actually" or "genuinely" in the published body (3 caught and
+  cut across drafts).
