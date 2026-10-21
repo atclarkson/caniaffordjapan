@@ -39,48 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The real Torikizoku receipt: 6,840 yen for five, 1,368 yen a
-  head.** 08:00 UTC firing (2026-10-19). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Confirmed zero new AL_Vault
-  uploads. Checked Shibuya (otter cafe, already published) and then
-  worked through Taito's full 122-photo pool, Tokyo's largest
-  unexplored-feeling destination even though 20 existing posts
-  already touch Asakusa; most of what's unused there is Kappabashi
-  (already covered twice), Tiger Gyoza (already covered), and Ueno
-  Zoo Halloween photos from a visit the existing
-  `halloween-costumes-cost-tokyo-ueno-zoo-shinobazu` post already
-  covers in depth. Found one genuinely unused, genuinely distinct
-  artifact instead: a real October 26 2023 payment-terminal photo
-  (`aa805093`, `used_in_count: 0`) showing the exact split bill from
-  a Torikizoku dinner, 6,840 yen for the family of five, 1,368 yen
-  per person, confirmed via its own `notes_for_ai` field as a real
-  family favorite ("one of our FAVORITE chains in all of japan").
-  Torikizoku is mentioned in passing in three existing posts (the
-  Senso-ji free-temple post, the Osaka yakitori-vs-wagyu post, and
-  the Hiroshima otoshi post) but had no dedicated post of its own and
-  no post used this specific receipt, a genuinely different angle
-  from those (an itemized walkthrough of the chain's actual real
-  pricing mechanics, not a passing mention inside a different post's
-  thesis). Researched real chain facts (founded 1985, 600+ Japan
-  locations, 700+ worldwide, flat menu pricing confirmed at 390 yen
-  by this site's own existing Osaka post and cross-checked against
-  fresh web search, honestly flagged real per-branch/per-year
-  variation from roughly 280 to 390 yen rather than treating 390 as
-  fixed everywhere) and real ordering mechanics (tablet ordering with
-  English available at most branches, a queue-number tablet at some
-  locations, all-you-can-drink with a real roughly-two-hour peak-time
-  limit, kamameshi needing a mid-meal order since it's cooked
-  tableside). Rolled length tier 1 (quick hit, 450-600 words) and
-  format 8 (itemized breakdown) from CLAUDE.md's system, no reroll
-  needed, a genuine fit for a receipt-driven post. Published
-  2026-10-19 as `torikizoku-yakitori-chain-bill-line-by-line`, 531
-  words, within the rolled tier. Topic `en/budget-food`.
-  `mark_photo_used` called for the cover photo. No AffiliateBox or
-  Klook/GYG link, a walk-in chain izakaya isn't bookable, consistent
-  with the existing Osaka izakaya post also carrying none. Zero uses
-  of "actually" or "genuinely" in the published body (3 caught and
-  cut, one from the first-draft title itself).
 - **What's free vs. what isn't when hunting cheap flights to Japan.**
   14:00 UTC firing (2026-10-19). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -383,4 +341,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   `<KlookCodeBox>` since the post links to Klook, both verified
   present in the built HTML. Zero uses of "actually" or "genuinely"
   in the published body (6 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
+- **How conveyor belt sushi actually works, the real 1958 invention
+  story.** 08:00 UTC firing (2026-10-21). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads. Checked the `Tokyo` video pool once more and found a real,
+  completely uncovered angle hiding in a short clip: "How the Heck
+  does a Conveyer belt sushi train work?", a real December 5 2022
+  Kura Sushi visit, two days after the Tsukiji visit used in the
+  prior firing. Kura Sushi's own pricing and Bikkura Pon game are
+  already covered in the existing Solamachi/Skytree post, confirmed
+  via `grep`, so deliberately built this post around a genuinely
+  different angle (the format's mechanics and history) rather than
+  re-deriving pricing. Checked the thumbnail's tone before using it
+  (a plain food close-up, no concern, though noted honestly in the
+  `coverAlt` that it's a tight crop rather than a wide scene).
+  Researched real, substantial history: Yoshiaki Shiraishi's 1958
+  Mawaru Genroku Sushi in Higashiosaka, the first conveyor-belt sushi
+  restaurant, honestly flagging the often-repeated beer-conveyor
+  origin story as closer to legend than documented fact; his own
+  invention of the color-coded plate-pricing system still used
+  today; and the real irony of his company's patent expiring in the
+  mid-1970s, letting competitors flood the market and shrinking his
+  own chain from roughly 250 locations to 11 by 2001. Added real,
+  current tech detail distinguishing two major chains: Kura Sushi's
+  Sendo-kun RFID hygiene domes (ISO 22196 standard, 2024 rollout) and
+  Sushiro's separate tablet-order express lane with AI-camera-based
+  billing. Found and included a genuinely surprising, current
+  industry trend while researching: Kappa Sushi and Hamasushi have
+  largely abandoned the physical belt for made-to-order "straight
+  lane" systems specifically to cut food waste (a real reported 7.2
+  billion yen investment, ~1,100 tons/year waste reduction target),
+  while Kura Sushi is the major holdout still running belts
+  chain-wide; honestly flagged conflicting reports on what Sushiro
+  itself has done rather than picking whichever claim sounded
+  cleaner. Rolled length tier 5 (deep dive, 1,300-1,600 words) and
+  format 11 (time/season-anchored) from CLAUDE.md's system, no
+  reroll needed, opened with the real specific date (December 5
+  2022) rather than forcing a seasonal angle. Published 2026-10-21 as
+  `how-conveyor-belt-sushi-works-kaiten-zushi-japan`, 1,205 words,
+  landed short of the rolled tier 5, said so here rather than padding
+  further once the real, well-sourced material was used up. Topic
+  `en/budget-food`. No AffiliateBox, consistent with the existing
+  Kura Sushi coverage also carrying none, a casual dinner isn't
+  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
+  published body (4 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
