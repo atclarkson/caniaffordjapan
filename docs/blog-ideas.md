@@ -39,58 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **What's free vs. what isn't when hunting cheap flights to Japan.**
-  14:00 UTC firing (2026-10-19). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. Finished
-  working through Taito's full 122-photo pool (started last firing),
-  everything remaining either duplicated existing posts (the
-  September 2025 grill-it-yourself wagyu night is already fully
-  covered in `ten-days-in-asakusa-september-2025`) or was thin
-  home-life material. Checked Shibuya too (otter cafe, already
-  published). Pivoted to a real, previously uncovered affiliate
-  category per CLAUDE.md's own allowance: Skyscanner, from
-  `docs/affiliates-reference.md`. While there, checked the adjacent
-  LostPlate entry (flagged in that doc as needing a real Japan tour
-  URL) by fetching lostplate.com directly: confirmed it runs no Japan
-  tours at all, only China, Cambodia, Thailand, Vietnam, and
-  Portland, updated the doc so a future firing doesn't re-check it.
-  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
-  format 2 (free-vs-paid split) from CLAUDE.md's system; format 2
-  landed on the same number on the one allowed reroll, decided it
-  genuinely did fit after all with a free-strategies-vs-paid-airline-fees
-  framing rather than rerolling again. Researched real facts rather
-  than assuming: the incognito-mode flight-price myth (a 2016
-  Consumer Reports test of 372 searches, plus a Berkeley/Yale/Chicago
-  economist study of one airline's real pricing data, both finding no
-  individual-tracking effect), real cheap-month consensus (late
-  January to early March, September; premiums of 45-90% around cherry
-  blossom season, Golden Week, and December holidays), real ANA/JAL
-  baggage fee structures, the 2026 US-carrier checked-bag fee
-  increase (~$45/~$55), and real 2026 round-trip price estimates by
-  coast ($900-1,300 West, $1,100-1,600 East). Also researched a
-  long-layover stopover strategy (Korean Air/EVA Air multi-city
-  pricing) but honestly flagged that sourcing as thinner than the
-  rest, travel blogs rather than airline-published policy, rather
-  than presenting it with the same confidence as the rest. Added a
-  worked family-of-five cost table (base fare vs. bag vs. seat fees)
-  as a genuine expansion in the site's own established style.
-  Published 2026-10-19 as
-  `finding-cheap-flights-to-japan-whats-free-whats-not`, 1,340 words,
-  landed short of the rolled tier 6 (closer to tier 4-5), said so here
-  rather than padding further once the real, well-sourced material
-  for a logistics-only topic with no personal trip to draw from was
-  used up. Topic `en/unexpected-costs`. No AL_Vault photo exists of
-  the actual booking process, so reused a real, previously unused
-  inflight photo instead ("Nearly Empty Flight From Tokyo to Taipei,"
-  `aa9bcb8c`, a real family flight, departing Japan rather than
-  arriving, captioned honestly rather than claimed as the booking
-  moment itself), the same honest-reuse pattern as prior logistics
-  posts. `mark_photo_used` called for the cover photo. Skyscanner
-  link verified present in the built HTML, used with no stated
-  commission rate (none given in `affiliates-reference.md`, none
-  invented). Zero uses of "actually" or "genuinely" in the published
-  body (5 caught and cut across drafts).
 - **A real capybara touch experience as the uncovered third stop on a
   Yokohama day.** 20:00 UTC firing (2026-10-19). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -387,4 +335,40 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Kura Sushi coverage also carrying none, a casual dinner isn't
   Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
   published body (4 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
+- **The year Tokyo's St. Patrick's Day Parade finally came back.**
+  14:00 UTC firing (2026-10-21). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Checked
+  the `Tokyo` video pool once more and found a real, completely
+  uncovered seasonal event: "129 | ST PATRICKS DAY IN TOKYO," filmed
+  March 17 2023, confirmed via `grep` zero prior mentions on the
+  site. Checked the thumbnail's tone before using it as cover
+  (cheerful festival content, no concern). Researched real,
+  substantial history and found a genuine, specific tie-in to the
+  family's own visit date rather than a generic "festivals exist"
+  angle: Irish Network Japan started the parade in 1992 with the
+  Embassy of Ireland's endorsement, commonly described as Asia's
+  first St. Patrick's Day parade, originally in Roppongi before
+  moving to Omotesando-dori; after a real three-year COVID hiatus,
+  2023, the exact year of the family's visit, was the parade's actual
+  return to the streets, confirmed this wasn't a coincidence, the
+  family's filming date lines up with the real documented comeback
+  year. Researched the adjacent Yoyogi Park Green Ireland Festival
+  (formerly I Love Ireland Festival): free admission, real Irish food
+  names from past editions (corned beef, colcannon, rasher
+  sandwiches, Irish stew), honestly flagged conflicting anniversary-
+  count claims between sources rather than picking one. Used the
+  video's own title ("We tried Green Tea Beer in TOKYO!") as the real
+  source for the specific green-tea framing of the green beer in the
+  cover photo, rather than assuming plain food-dye coloring. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 11
+  (time/season-anchored) from CLAUDE.md's system, no reroll needed, a
+  strong natural fit given the whole hook is the real specific date.
+  Published 2026-10-21 as
+  `tokyo-st-patricks-day-parade-green-ireland-festival-free`, 486
+  words, within the rolled tier. Topic `en/free-attractions`. No
+  AffiliateBox, a free public parade and park festival isn't
+  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
