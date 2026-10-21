@@ -274,3 +274,53 @@ more recent entries. When this file nears 400 lines too, start
   commission rate (none given in `affiliates-reference.md`, none
   invented). Zero uses of "actually" or "genuinely" in the published
   body (5 caught and cut across drafts).
+- **A real capybara touch experience as the uncovered third stop on a
+  Yokohama day.** 20:00 UTC firing (2026-10-19). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. First tried a Jackery (portable power bank)
+  angle per `docs/affiliates-reference.md`, but caught a real
+  mismatch before writing anything: web research showed Jackery's
+  current lineup is dominated by larger Explorer-series power
+  stations (e.g. 256Wh at $129), not small pocket phone chargers,
+  reliable current pricing for the old pocket-sized "Bar" product
+  couldn't be found (only decade-old reviews), so abandoned that
+  angle rather than force a mismatched recommendation, the same
+  discipline applied to the LostPlate finding earlier today. Pivoted
+  back to AL_Vault and found a real, previously unused lead in
+  Yokohama's own video descriptions: video 96 ("YOKOHAMA, JAPAN,"
+  filmed December 2 2022, same day as the already-published Cup
+  Noodles Museum visit) describes a real capybara touch experience
+  the family visited that day, never covered on this site. Checked
+  the thumbnail's tone first (a cheerful, appropriate family-animal
+  photo, no concern) before using it as cover. Tried to identify and
+  price the exact 2022 venue but hit real, genuine uncertainty:
+  multiple differently-located Yokohama capybara-cafe businesses with
+  overlapping names and conflicting reported prices (1,000 to 1,600
+  yen at one, an unconfirmed 5,000 yen reported at another), decided
+  the honest move was presenting a wide, clearly-hedged price range
+  and telling readers to confirm with their specific venue, rather
+  than asserting a single confident number the sourcing couldn't
+  support. Added real, separately-sourced capybara background
+  (native to South America, closely related to guinea pigs, a real
+  calm temperament that's part of why the hands-on cafe format works)
+  and a genuine, relevant welfare consideration (PETA's stated
+  concerns about this cafe category) rather than treating the topic
+  as cost-only. Cross-referenced the real, already-published Cup
+  Noodles Museum (500 yen, +500 for a custom cup) and Christmas
+  Market (500-1,000 yen) admission numbers rather than re-deriving
+  them, to build an honest stacked-day estimate. Also found a second
+  real, previously undocumented Viator link in this same video's own
+  description, Yokohama-specific rather than the generic city page
+  used for Kobe, added to `docs/affiliates-reference.md`. Rolled
+  length tier 3 (standard, 800-1,000 words) and format 10
+  (budget-tier framing) from CLAUDE.md's system; format 10 didn't
+  fit, a single admission price has no real cheap-vs-splurge split,
+  rerolled once per CLAUDE.md's allowance and landed on format 14
+  (direct address), a genuine fit for planning advice aimed straight
+  at a reader. Published 2026-10-19 as
+  `capybara-touch-experience-yokohama-day-trip-cost`, 865 words,
+  within the rolled tier. Topic `en/animals-wildlife`. Viator link
+  verified in the built HTML. Zero uses of "actually" or "genuinely"
+  in the published body (4 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
