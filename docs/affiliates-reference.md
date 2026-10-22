@@ -16,6 +16,12 @@ given, don't guess one.
 ## Travel (beyond Klook/GYG/Expedia, already in `src/data/affiliates.ts`)
 
 - **Hotels.com**: via Expedia Group creator portal (creator.expediagroup.com).
+  A real, working tracked link also exists, found 2026-10-22 in the family's
+  own description on the "$300/Day 7-Day Budget" Tokyo vlog:
+  `https://prf.hn/l/EJnx85V` (a Partnerize/prf.hn redirect). Not used on
+  that post since the trip it documents stayed in an Airbnb, not a hotel,
+  so a Hotels.com box there would be a mismatched placement. Save it for a
+  post where the family actually booked a hotel.
 - **Trafalgar**: earn 5%. `https://trafalgar.sjv.io/c/6317027/2176743/26706`
 - **Viator**: a real, working affiliate link exists, found in the family's own
   YouTube description on the Kobe day-trip vlog rather than in the original
