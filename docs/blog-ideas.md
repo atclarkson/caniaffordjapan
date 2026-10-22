@@ -39,45 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A real, itemized Day 0 arrival budget, and the luggage-forwarding
-  service most first-timers don't know exists.** 20:00 UTC firing
-  (2026-10-20). Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Confirmed zero new AL_Vault uploads. Checked the `Tokyo`
-  video pool one more time (the pool that's now surfaced Sanrio
-  Puroland, the Pokémon Café, and Tokyo Oktoberfest across the last
-  three firings) and found a genuinely strong, completely uncovered
-  source: "QUICK GUIDE LANDING IN TOKYO! First 24 Hours," whose own
-  description contains a real, itemized Day 0 cost breakdown down to
-  the yen (luggage forwarding 6,926 yen, pocket wifi 8,008 yen, eSIM
-  1,939 yen, accommodation 27,475 yen, snacks 3,472 yen, dinner 5,940
-  yen, transportation 8,950 yen, total 62,710 yen / ~$401.34 at the
-  stated exchange rate). Confirmed via `grep` this exact itemized
-  breakdown and the luggage-forwarding topic were both completely
-  uncovered on the site. Previewed the thumbnail before using it as
-  cover (a cheerful, clear airport photo, no tone concern), corrected
-  the `coverAlt` to describe what it actually shows (a running cost
-  counter, not a generic "tips" graphic) rather than reusing boilerplate
-  phrasing. Researched real current luggage-forwarding (takuhaibin)
-  pricing to supplement the video's own single data point (roughly
-  2,000-3,200 yen per bag depending on source, airport-to-hotel
-  service available at Narita, Haneda, Kansai, and Chubu Centrair)
-  and real Visit Japan Web mechanics (free, browser-based, combines
-  immigration and customs into one QR code, usable at Haneda/Narita/
-  Kansai self-service kiosks, register 6+ hours ahead). Cross-
-  referenced two already-published posts honestly rather than
-  re-deriving them: the real eSIM/SIM/pocket-wifi comparison post and
-  the real Narita-to-Tokyo transit post (Skyliner, N'EX, bus, local
-  train fares). Confirmed SimLocal (the video's own eSIM sponsor) is
-  already documented in `telecomAffiliates.ts`, no new affiliate work
-  needed. Rolled length tier 3 (standard, 800-1,000 words) and format
-  15 (plain declarative) from CLAUDE.md's system, no reroll needed.
-  Published 2026-10-20 as `landing-in-tokyo-day-zero-cost-breakdown`,
-  805 words, within the rolled tier. Topic `en/transit`. No
-  AffiliateBox, arrival-day logistics aren't a single Klook/GYG
-  bookable item. Zero uses of "actually" or "genuinely" in the
-  published body (2 caught and cut across drafts). No
-  `mark_photo_used` call, video-only source.
 - **Tsukiji Outer Market, free to walk, priced stall by stall.** 02:00
   UTC firing (2026-10-21, new day). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -361,3 +322,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   headings). No `mark_photo_used` call, video-only source; the
   uncovered pig-cafe angle stays available in the `Osaka` pool for a
   future firing.
+- **mipig cafe, Osaka's micro pig cafe: real session pricing and
+  booking rules.** 20:00 UTC firing (2026-10-22). Both priority
+  sources exhausted again (same
+  BLOCKED Ginza sumo idea, all three teamLab items still without
+  real photos). Confirmed zero new AL_Vault uploads. Picked up the
+  pig-cafe lead flagged in the prior firing's entry: "147 | PIG CAFE
+  IN OSAKA" and a companion short, both from the `Osaka` video pool,
+  confirmed uncovered anywhere on the site via `grep`. Checked the
+  thumbnail's tone first (Adam holding a small pig, cheerful, matches
+  the content, no concern). The video's own description names it only
+  as "Micro Pig Café," no venue name, so identified the likely venue
+  via research rather than assuming: mipig cafe in Nishishinsaibashi
+  is the only dedicated micro-pig cafe confirmed to exist in Osaka as
+  of the 2023 filming date (a second venue, Butagoya, didn't open
+  until July 2025), said so plainly in the post as how the
+  identification was made rather than asserting certainty the
+  thumbnail alone can't support. Researched real, current facts
+  directly from mipig's own site via WebFetch: time-based pricing
+  (1,870 yen/25min, 2,970 yen/55min for ages 4+, 770 yen flat for
+  under-4s, +550 yen/25min for a private room), exact address
+  (Nishishinsaibashi, Chuo-ku, near Shinsaibashi/Yotsubashi stations),
+  hours (10am-8pm), and the real entry restriction tied to hog disease
+  outbreaks, hedged honestly in the post since sources disagreed on
+  whether the restriction is specifically African Swine Fever or a
+  broader "hog cholera" framing from the official site. Found and
+  used a real, working Klook listing independently via web search
+  (activity id 85917, "Micro Pig Cafe Experience in Osaka," 4.4 stars,
+  10K+ booked, not on the named 1% selected-activities list so only
+  the general 10%/3% ADAMANDLINDSKLOOK tiers apply), added
+  `<AffiliateBox>` and `<KlookCodeBox>` with the real activity URL,
+  confirmed both render with the correct link and terms in the built
+  HTML. Rolled length tier 2 (short, 600-800 words) and format 15
+  (plain declarative title, no hook) from CLAUDE.md's system, no
+  reroll needed. Published 2026-10-22 as
+  `mipig-cafe-osaka-micro-pig-price-booking`, 579 words, landed just
+  under the rolled tier, said so here rather than padding further.
+  Topic `en/animals-wildlife`. Zero uses of "actually" or "genuinely"
+  in the published body (2 "genuinely" caught and cut across drafts).
+  No `mark_photo_used` call, video-only source.

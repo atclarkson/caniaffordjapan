@@ -93,3 +93,42 @@ more recent entries. When this file nears 400 lines too, start
   a park beer festival isn't Klook/GYG bookable. Zero uses of
   "actually" or "genuinely" in the published body (7 caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **A real, itemized Day 0 arrival budget, and the luggage-forwarding
+  service most first-timers don't know exists.** 20:00 UTC firing
+  (2026-10-20). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads. Checked the `Tokyo`
+  video pool one more time (the pool that's now surfaced Sanrio
+  Puroland, the Pokémon Café, and Tokyo Oktoberfest across the last
+  three firings) and found a genuinely strong, completely uncovered
+  source: "QUICK GUIDE LANDING IN TOKYO! First 24 Hours," whose own
+  description contains a real, itemized Day 0 cost breakdown down to
+  the yen (luggage forwarding 6,926 yen, pocket wifi 8,008 yen, eSIM
+  1,939 yen, accommodation 27,475 yen, snacks 3,472 yen, dinner 5,940
+  yen, transportation 8,950 yen, total 62,710 yen / ~$401.34 at the
+  stated exchange rate). Confirmed via `grep` this exact itemized
+  breakdown and the luggage-forwarding topic were both completely
+  uncovered on the site. Previewed the thumbnail before using it as
+  cover (a cheerful, clear airport photo, no tone concern), corrected
+  the `coverAlt` to describe what it actually shows (a running cost
+  counter, not a generic "tips" graphic) rather than reusing boilerplate
+  phrasing. Researched real current luggage-forwarding (takuhaibin)
+  pricing to supplement the video's own single data point (roughly
+  2,000-3,200 yen per bag depending on source, airport-to-hotel
+  service available at Narita, Haneda, Kansai, and Chubu Centrair)
+  and real Visit Japan Web mechanics (free, browser-based, combines
+  immigration and customs into one QR code, usable at Haneda/Narita/
+  Kansai self-service kiosks, register 6+ hours ahead). Cross-
+  referenced two already-published posts honestly rather than
+  re-deriving them: the real eSIM/SIM/pocket-wifi comparison post and
+  the real Narita-to-Tokyo transit post (Skyliner, N'EX, bus, local
+  train fares). Confirmed SimLocal (the video's own eSIM sponsor) is
+  already documented in `telecomAffiliates.ts`, no new affiliate work
+  needed. Rolled length tier 3 (standard, 800-1,000 words) and format
+  15 (plain declarative) from CLAUDE.md's system, no reroll needed.
+  Published 2026-10-20 as `landing-in-tokyo-day-zero-cost-breakdown`,
+  805 words, within the rolled tier. Topic `en/transit`. No
+  AffiliateBox, arrival-day logistics aren't a single Klook/GYG
+  bookable item. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
