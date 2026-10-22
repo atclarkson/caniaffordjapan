@@ -39,46 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Sanrio Puroland's real birthday visit and the August 2026 dynamic-pricing
-  change.** 02:00 UTC firing (2026-10-20, new day). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads. Rather than re-mining the same small neighborhood
-  pools again, checked the large, mostly-unmined `Tokyo` city-level
-  video pool (41 videos, only a few used across the whole site so
-  far). Found a real, completely uncovered attraction: Sanrio
-  Puroland, visited for Cora's 6th birthday (March 2023), confirmed
-  via `grep` that only a passing Klook-pass mention existed, no
-  dedicated post. A real, unused still photo existed for this exact
-  visit ("Cora Turns Six at Sanrio Puroland," `67778405`,
-  `used_in_count: 0`), so used that as cover instead of a video
-  thumbnail, the first time in several firings a still photo rather
-  than a video thumbnail was available. Found a third real,
-  previously undocumented Viator link in the video's own description,
-  this one a specific bookable product (Sanrio Puroland tickets)
-  rather than a tour, added to `docs/affiliates-reference.md`
-  alongside the Kobe and Yokohama ones. Researched real, current
-  pricing rather than quoting the video's own vague framing: Sanrio
-  Puroland's dynamic, date-based pricing structure, including a real
-  tier increase that took effect August 1 2026 (adult day passes now
-  3,900-6,900 yen, under-18/senior 2,800-5,800 yen, under 2 free), and
-  the Fast Pass system (sold per-ride at machines near each
-  attraction, 500-2,000 yen depending on the ride per multiple
-  sources, honestly flagged as inconsistently reported rather than
-  picking one figure to state as fact). Cross-referenced the video's
-  own real logistics (Shinjuku to Tama train, a Sushiro dinner, a
-  Shinjuku Gigo arcade stop) rather than inventing a different
-  itinerary. Rolled length tier 1 (quick hit, 450-600 words) and
-  format 2 (free-vs-paid split) from CLAUDE.md's system; format 2
-  didn't fit, nothing about a fully paid theme park is free, rerolled
-  once per CLAUDE.md's allowance and landed on format 14 (direct
-  address), a genuine fit for "here's what changed, here's what to
-  know before you book." Published 2026-10-20 as
-  `sanrio-puroland-ticket-price-worth-it`, 475 words, within the
-  rolled tier. Topic `en/theme-parks`. `mark_photo_used` called for
-  the cover photo. Viator link verified in the built HTML. Zero uses
-  of "actually" or "genuinely" in the published body (3 caught and
-  cut across drafts).
 - **Is the Pokémon Café in Nihonbashi worth its notoriously brutal
   booking system.** 08:00 UTC firing (2026-10-20). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -363,3 +323,43 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   platforms aren't Klook/GYG bookable activities. Zero uses of
   "actually" or "genuinely" in the published body (7 caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **Trying tonkatsu for the first time with three kids, the real
+  1899 Ginza invention story.** 02:00 UTC firing (2026-10-22, new
+  day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Checked the `Tokyo` video pool
+  once more and found a real, only-passing-mentioned dish: "128 | We
+  Try TONKATSU for the FIRST TIME," filmed March 2023. Confirmed via
+  `grep` tonkatsu only appeared as one menu item inside the Denny's
+  post, no dedicated post existed. Checked the thumbnail's tone
+  before using it as cover (cheerful restaurant content, no concern).
+  Researched real, substantial history: invented in 1899 at Rengatei,
+  a Western-style Ginza restaurant, adapted from a French veal
+  cutlet (katsuretsu) the kitchen found too greasy pan-fried in
+  butter, switched to tempura-style deep-frying, pork instead of
+  veal, panko instead of a heavier breading, Worcestershire-blend
+  sauce replacing the original demi-glace, and cabbage replacing
+  carrots/potatoes as the side, reportedly a staffing-driven
+  substitution. Added a real, fun, separately-researched cultural
+  fact beyond the food itself: the katsu/katsu ("to win") pun that
+  makes tonkatsu a real pre-exam and pre-competition good-luck food
+  (genkatsugi), and its direct, documented connection to Kit Kat's
+  own "kitto katsu" good-luck reputation in Japan, a genuine
+  surprise connection most readers won't already know. Researched
+  real, current (2026) tiered Tokyo pricing (1,400-2,000 yen budget
+  chain lunch sets with free cabbage/rice refills, 3,000-5,000 yen
+  mid-range kurobuta courses, 5,000-15,000 yen premium single-breed
+  tonkatsu) rather than quoting one stale number. Added a real
+  family-logistics angle built around the free-refill detail
+  specifically (low financial risk for a picky-eating first try,
+  pre-sliced strips easy to split between kids) and a short
+  katsudon-vs-tonkatsu distinction section. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 12 (family-logistics framing)
+  from CLAUDE.md's system, no reroll needed. Published 2026-10-22 as
+  `tonkatsu-first-time-family-cost-history`, 957 words, landed just
+  short of the rolled tier, said so here rather than padding further
+  once the real material was used up. Topic `en/budget-food`. No
+  AffiliateBox, a casual restaurant meal isn't Klook/GYG bookable.
+  Zero uses of "actually" or "genuinely" in the published body (9
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.
