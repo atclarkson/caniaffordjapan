@@ -39,53 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **A real Tokyo Oktoberfest, filmed the last week of May.** 14:00
-  UTC firing (2026-10-20). Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. Checked
-  the `Tokyo` city-level video pool again (the same pool that
-  surfaced Sanrio Puroland and the Pokémon Café the last two firings)
-  and found a real, completely uncovered visit: "145 | TOKYO
-  OKTOBERFEST," filmed the last week of May 2023, the video's own
-  description noting the real surprise directly ("We went to
-  Oktoberfest... in May.... in Tokyo"). Checked the thumbnail's tone
-  first (cheerful adult beer-festival content, no concern) before
-  using it as cover. Couldn't confirm the exact venue from the
-  video's own ambiguous "Ochanomizu" chapter marker against any real
-  event listing, so wrote the post honestly describing Tokyo's
-  recurring circuit of Oktoberfest-branded beer gardens at named real
-  venues (Shiba Park spring/autumn, Odaiba spring) rather than
-  asserting a specific unconfirmed location for the family's own
-  visit. Researched real, substantial history on both sides of the
-  "not October" hook: Munich's own Oktoberfest moved its start into
-  September generations ago for better weather, keeping only its
-  final weekend in October, and Japan's own beer garden tradition
-  predates any Oktoberfest branding by about 150 years (Yokohama
-  1875, the first rooftop version traced to Osaka 1953, modern Tokyo
-  department-store rooftop gardens running May-September). Also used
-  a real, photo-grounded detail: the Hacker-Pschorr brand visible on
-  the mugs in the family's own cover photo, a real, officially
-  recognized Oktoberfest brewery with roots to 1417, researched
-  independently rather than left uncaptioned. Researched real current
-  pricing from Shiba Park's recurring events (500 yen admission 12+,
-  free under 11, a reusable cup included with admission, food and
-  drink charged separately, cashless payment accepted) and real
-  hours (shorter weekday windows). Added a genuine family-logistics
-  section (a real beer garden, not a kids' attraction, though
-  genuinely kid-friendly food and free admission for young kids).
-  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
-  format 11 (time/season-anchored) from CLAUDE.md's system, no reroll
-  needed, a strong natural fit given the whole hook is the real,
-  specific May date. Published 2026-10-20 as
-  `tokyo-oktoberfest-beer-garden-not-october-cost`, 1,399 words,
-  landed short of the rolled tier 6 despite substantial real
-  expansions (Munich history, Japan's own beer garden history, the
-  Hacker-Pschorr detail, a kids section), said so here rather than
-  padding further once the genuinely sourced material for a single
-  beer-festival visit was used up. Topic `en/tokyo`. No AffiliateBox,
-  a park beer festival isn't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (7 caught and cut
-  across drafts). No `mark_photo_used` call, video-only source.
 - **A real, itemized Day 0 arrival budget, and the luggage-forwarding
   service most first-timers don't know exists.** 20:00 UTC firing
   (2026-10-20). Both priority sources exhausted again (same BLOCKED
@@ -365,3 +318,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   post where it actually fits. Zero uses of "actually" or "genuinely"
   in the published body (1 "actually" caught and cut from a draft
   sentence). No `mark_photo_used` call, video-only source.
+- **The Hello Kitty Shinkansen, ridden in 2023, retired in May 2026.**
+  14:00 UTC firing (2026-10-22). Both priority sources exhausted again
+  (BLOCKED Ginza sumo, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads via `get_destinations`.
+  Pivoted to the `Osaka` video pool (14 videos, mostly unmined this
+  window) since the `Tokyo` pool is running thin, and found two
+  genuinely uncovered angles in one pass: a Hello Kitty Shinkansen
+  ride and a micro pig cafe. Picked the Shinkansen one, stronger real
+  cost data already in the video's own description (¥15,000-20,000
+  reserved seat, ¥1,200 ekiben, no theming upcharge) and a bigger real
+  hook. Confirmed via `grep` neither was covered anywhere on the site.
+  Checked the thumbnail's tone before using it as cover (excited kids,
+  real train, matches the content, no concern). WebSearched current
+  status before writing a word and found the actual story: JR West
+  retired this specific train on 2026-05-17 after ~8 years (launched
+  June 2018), confirmed via a Timeout Osaka piece with real farewell-
+  campaign detail (the "Thanks! Plaza" car rename, Kyoto Railway
+  Museum merchandise). That turned this from a routine ride-review
+  into a now-it's-gone piece, the most honest framing available since
+  the specific train in the family's own 2023 footage no longer
+  exists to book. Cross-referenced rather than re-deriving: the Haruka
+  cost breakdown post for the still-running (for now, reportedly
+  until ~2027) Hello Kitty Haruka trains as the current alternative,
+  and the Shinkansen booking-savings post for the general JR Pass/
+  Klook mechanics (confirmed both slugs resolve in the built HTML).
+  Added one genuine second cost angle to earn real length rather than
+  padding: a real, hedged flight-price comparison (Itami-Fukuoka
+  aggregator fares from ~¥7,450) against the Shinkansen fare, with an
+  honest note that the "from" price isn't a confirmed airline quote.
+  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
+  format 5 (narrative-first, cost as payoff) from CLAUDE.md's system.
+  Landed well short of tier 6 even after the added section, a single
+  now-retired train topic doesn't honestly stretch past about 1,100
+  words without restating facts or inventing detail, said so here
+  rather than padding further. Published 2026-10-22 as
+  `hello-kitty-shinkansen-family-review-retired-2026`, 1,084 words.
+  Topic `en/transit`. No affiliate link: the specific train can't be
+  booked anymore, nothing on the page is bookable. Zero uses of
+  "actually" or "genuinely" in the published body (6 "actually" and 1
+  "genuinely" caught and cut across drafts, mostly from section
+  headings). No `mark_photo_used` call, video-only source; the
+  uncovered pig-cafe angle stays available in the `Osaka` pool for a
+  future firing.

@@ -46,3 +46,50 @@ more recent entries. When this file nears 400 lines too, start
   was used up. Topic `en/tokyo`. Zero uses of "actually" or
   "genuinely" in the published body (6 caught and cut across
   drafts). No `mark_photo_used` call, video-only source.
+- **A real Tokyo Oktoberfest, filmed the last week of May.** 14:00
+  UTC firing (2026-10-20). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Checked
+  the `Tokyo` city-level video pool again (the same pool that
+  surfaced Sanrio Puroland and the Pokémon Café the last two firings)
+  and found a real, completely uncovered visit: "145 | TOKYO
+  OKTOBERFEST," filmed the last week of May 2023, the video's own
+  description noting the real surprise directly ("We went to
+  Oktoberfest... in May.... in Tokyo"). Checked the thumbnail's tone
+  first (cheerful adult beer-festival content, no concern) before
+  using it as cover. Couldn't confirm the exact venue from the
+  video's own ambiguous "Ochanomizu" chapter marker against any real
+  event listing, so wrote the post honestly describing Tokyo's
+  recurring circuit of Oktoberfest-branded beer gardens at named real
+  venues (Shiba Park spring/autumn, Odaiba spring) rather than
+  asserting a specific unconfirmed location for the family's own
+  visit. Researched real, substantial history on both sides of the
+  "not October" hook: Munich's own Oktoberfest moved its start into
+  September generations ago for better weather, keeping only its
+  final weekend in October, and Japan's own beer garden tradition
+  predates any Oktoberfest branding by about 150 years (Yokohama
+  1875, the first rooftop version traced to Osaka 1953, modern Tokyo
+  department-store rooftop gardens running May-September). Also used
+  a real, photo-grounded detail: the Hacker-Pschorr brand visible on
+  the mugs in the family's own cover photo, a real, officially
+  recognized Oktoberfest brewery with roots to 1417, researched
+  independently rather than left uncaptioned. Researched real current
+  pricing from Shiba Park's recurring events (500 yen admission 12+,
+  free under 11, a reusable cup included with admission, food and
+  drink charged separately, cashless payment accepted) and real
+  hours (shorter weekday windows). Added a genuine family-logistics
+  section (a real beer garden, not a kids' attraction, though
+  genuinely kid-friendly food and free admission for young kids).
+  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
+  format 11 (time/season-anchored) from CLAUDE.md's system, no reroll
+  needed, a strong natural fit given the whole hook is the real,
+  specific May date. Published 2026-10-20 as
+  `tokyo-oktoberfest-beer-garden-not-october-cost`, 1,399 words,
+  landed short of the rolled tier 6 despite substantial real
+  expansions (Munich history, Japan's own beer garden history, the
+  Hacker-Pschorr detail, a kids section), said so here rather than
+  padding further once the genuinely sourced material for a single
+  beer-festival visit was used up. Topic `en/tokyo`. No AffiliateBox,
+  a park beer festival isn't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (7 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
