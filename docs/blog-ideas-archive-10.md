@@ -168,3 +168,49 @@ more recent entries. When this file nears 400 lines too, start
   present in the built HTML. Zero uses of "actually" or "genuinely"
   in the published body (6 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
+- **How conveyor belt sushi actually works, the real 1958 invention
+  story.** 08:00 UTC firing (2026-10-21). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads. Checked the `Tokyo` video pool once more and found a real,
+  completely uncovered angle hiding in a short clip: "How the Heck
+  does a Conveyer belt sushi train work?", a real December 5 2022
+  Kura Sushi visit, two days after the Tsukiji visit used in the
+  prior firing. Kura Sushi's own pricing and Bikkura Pon game are
+  already covered in the existing Solamachi/Skytree post, confirmed
+  via `grep`, so deliberately built this post around a genuinely
+  different angle (the format's mechanics and history) rather than
+  re-deriving pricing. Checked the thumbnail's tone before using it
+  (a plain food close-up, no concern, though noted honestly in the
+  `coverAlt` that it's a tight crop rather than a wide scene).
+  Researched real, substantial history: Yoshiaki Shiraishi's 1958
+  Mawaru Genroku Sushi in Higashiosaka, the first conveyor-belt sushi
+  restaurant, honestly flagging the often-repeated beer-conveyor
+  origin story as closer to legend than documented fact; his own
+  invention of the color-coded plate-pricing system still used
+  today; and the real irony of his company's patent expiring in the
+  mid-1970s, letting competitors flood the market and shrinking his
+  own chain from roughly 250 locations to 11 by 2001. Added real,
+  current tech detail distinguishing two major chains: Kura Sushi's
+  Sendo-kun RFID hygiene domes (ISO 22196 standard, 2024 rollout) and
+  Sushiro's separate tablet-order express lane with AI-camera-based
+  billing. Found and included a genuinely surprising, current
+  industry trend while researching: Kappa Sushi and Hamasushi have
+  largely abandoned the physical belt for made-to-order "straight
+  lane" systems specifically to cut food waste (a real reported 7.2
+  billion yen investment, ~1,100 tons/year waste reduction target),
+  while Kura Sushi is the major holdout still running belts
+  chain-wide; honestly flagged conflicting reports on what Sushiro
+  itself has done rather than picking whichever claim sounded
+  cleaner. Rolled length tier 5 (deep dive, 1,300-1,600 words) and
+  format 11 (time/season-anchored) from CLAUDE.md's system, no
+  reroll needed, opened with the real specific date (December 5
+  2022) rather than forcing a seasonal angle. Published 2026-10-21 as
+  `how-conveyor-belt-sushi-works-kaiten-zushi-japan`, 1,205 words,
+  landed short of the rolled tier 5, said so here rather than padding
+  further once the real, well-sourced material was used up. Topic
+  `en/budget-food`. No AffiliateBox, consistent with the existing
+  Kura Sushi coverage also carrying none, a casual dinner isn't
+  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
+  published body (4 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.

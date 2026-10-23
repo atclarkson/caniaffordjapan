@@ -39,52 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **How conveyor belt sushi actually works, the real 1958 invention
-  story.** 08:00 UTC firing (2026-10-21). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Confirmed zero new AL_Vault
-  uploads. Checked the `Tokyo` video pool once more and found a real,
-  completely uncovered angle hiding in a short clip: "How the Heck
-  does a Conveyer belt sushi train work?", a real December 5 2022
-  Kura Sushi visit, two days after the Tsukiji visit used in the
-  prior firing. Kura Sushi's own pricing and Bikkura Pon game are
-  already covered in the existing Solamachi/Skytree post, confirmed
-  via `grep`, so deliberately built this post around a genuinely
-  different angle (the format's mechanics and history) rather than
-  re-deriving pricing. Checked the thumbnail's tone before using it
-  (a plain food close-up, no concern, though noted honestly in the
-  `coverAlt` that it's a tight crop rather than a wide scene).
-  Researched real, substantial history: Yoshiaki Shiraishi's 1958
-  Mawaru Genroku Sushi in Higashiosaka, the first conveyor-belt sushi
-  restaurant, honestly flagging the often-repeated beer-conveyor
-  origin story as closer to legend than documented fact; his own
-  invention of the color-coded plate-pricing system still used
-  today; and the real irony of his company's patent expiring in the
-  mid-1970s, letting competitors flood the market and shrinking his
-  own chain from roughly 250 locations to 11 by 2001. Added real,
-  current tech detail distinguishing two major chains: Kura Sushi's
-  Sendo-kun RFID hygiene domes (ISO 22196 standard, 2024 rollout) and
-  Sushiro's separate tablet-order express lane with AI-camera-based
-  billing. Found and included a genuinely surprising, current
-  industry trend while researching: Kappa Sushi and Hamasushi have
-  largely abandoned the physical belt for made-to-order "straight
-  lane" systems specifically to cut food waste (a real reported 7.2
-  billion yen investment, ~1,100 tons/year waste reduction target),
-  while Kura Sushi is the major holdout still running belts
-  chain-wide; honestly flagged conflicting reports on what Sushiro
-  itself has done rather than picking whichever claim sounded
-  cleaner. Rolled length tier 5 (deep dive, 1,300-1,600 words) and
-  format 11 (time/season-anchored) from CLAUDE.md's system, no
-  reroll needed, opened with the real specific date (December 5
-  2022) rather than forcing a seasonal angle. Published 2026-10-21 as
-  `how-conveyor-belt-sushi-works-kaiten-zushi-japan`, 1,205 words,
-  landed short of the rolled tier 5, said so here rather than padding
-  further once the real, well-sourced material was used up. Topic
-  `en/budget-food`. No AffiliateBox, consistent with the existing
-  Kura Sushi coverage also carrying none, a casual dinner isn't
-  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
-  published body (4 caught and cut across drafts). No
-  `mark_photo_used` call, video-only source.
 - **The year Tokyo's St. Patrick's Day Parade finally came back.**
   14:00 UTC firing (2026-10-21). Both priority sources exhausted
   again (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -362,3 +316,51 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "actually" or "genuinely" in the published body (2 "actually"
   caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **The Hiroshima tram cars that survived the atomic bombing, still
+  in regular service.** 08:00 UTC firing (2026-10-23). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Checked the `Kyoto` video pool first (2 videos)
+  and confirmed both already fully covered (the Kani Doraku crab post
+  and the purikura post, both from the same two Kyoto vlogs), so
+  moved to the `Hiroshima` pool (4 videos, the family's November 2022
+  visit) and found "90 | FIRST IMPRESSIONS OF HIROSHIMA," genuinely
+  uncovered: confirmed via `grep` the existing Hiroshima posts (Peace
+  Memorial Museum, yakitori izakaya otoshi charge, Dreamination
+  lights) cover different videos from the same trip, and that no post
+  mentions the Hiroshima tram network, business-class Shinkansen leg,
+  or Hiroshima-style okonomiyaki specifically. Checked the thumbnail's
+  tone before using it as cover (okonomiyaki being cooked, cheerful,
+  matches a real chapter of the video, no concern; noted the cover
+  doesn't depict the tram specifically since that's not what the
+  video's own thumbnail shows). Researched real, verified, moving
+  history before drafting: Hiroden's two surviving 1942-built tram
+  cars (651, 652) that were running on August 6, 1945, the network's
+  resumption just three days after the bombing, and the real "moving
+  streetcar museum" reputation (retired cars bought from Kyoto, Kobe,
+  and German cities, oldest car 582 a prewar Kobe streetcar).
+  Confirmed current fares directly from hiroden.co.jp via WebFetch
+  (240 yen adult flat fare, 120 yen child, 700/350 yen day passes)
+  rather than trusting conflicting third-party listings found in an
+  earlier search. Added a genuine second real-history section rather
+  than padding: Hiroshima-style okonomiyaki's own documented postwar
+  origin from issen yoshoku, war-widow-run food stalls, and Otafuku's
+  1952 sauce launch, with honestly hedged current pricing (900-1,500
+  yen standard, 1,800-2,300 yen seafood) since sources disagreed.
+  Cross-referenced rather than re-deriving: the booking-shinkansen
+  post for the Kyoto-Hiroshima leg and the Peace Memorial Museum post
+  for the same trip's memorial visit, both confirmed resolving in the
+  built HTML. Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 7 (artifact-driven, built around one real
+  physical thing) from CLAUDE.md's system; framed the post around the
+  specific surviving tram cars as the "artifact" per the rolled
+  format. Landed short of tier 6 even after two added sections, a
+  transit-and-dinner topic doesn't honestly stretch to 2,000 words
+  without restating facts, said so here rather than forcing it
+  further. Published 2026-10-23 as
+  `hiroshima-tram-atomic-bomb-survivor-okonomiyaki`, 936 words. Topic
+  `en/hiroshima`. No affiliate link: a 240 yen tram fare and a
+  restaurant dinner aren't Klook/GYG bookable. Zero uses of "actually"
+  or "genuinely" in the published body (3 "actually" and 1
+  "genuinely" caught and cut across drafts). No `mark_photo_used`
+  call, video-only source.
