@@ -214,3 +214,39 @@ more recent entries. When this file nears 400 lines too, start
   Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
   published body (4 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
+- **The year Tokyo's St. Patrick's Day Parade finally came back.**
+  14:00 UTC firing (2026-10-21). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Checked
+  the `Tokyo` video pool once more and found a real, completely
+  uncovered seasonal event: "129 | ST PATRICKS DAY IN TOKYO," filmed
+  March 17 2023, confirmed via `grep` zero prior mentions on the
+  site. Checked the thumbnail's tone before using it as cover
+  (cheerful festival content, no concern). Researched real,
+  substantial history and found a genuine, specific tie-in to the
+  family's own visit date rather than a generic "festivals exist"
+  angle: Irish Network Japan started the parade in 1992 with the
+  Embassy of Ireland's endorsement, commonly described as Asia's
+  first St. Patrick's Day parade, originally in Roppongi before
+  moving to Omotesando-dori; after a real three-year COVID hiatus,
+  2023, the exact year of the family's visit, was the parade's actual
+  return to the streets, confirmed this wasn't a coincidence, the
+  family's filming date lines up with the real documented comeback
+  year. Researched the adjacent Yoyogi Park Green Ireland Festival
+  (formerly I Love Ireland Festival): free admission, real Irish food
+  names from past editions (corned beef, colcannon, rasher
+  sandwiches, Irish stew), honestly flagged conflicting anniversary-
+  count claims between sources rather than picking one. Used the
+  video's own title ("We tried Green Tea Beer in TOKYO!") as the real
+  source for the specific green-tea framing of the green beer in the
+  cover photo, rather than assuming plain food-dye coloring. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 11
+  (time/season-anchored) from CLAUDE.md's system, no reroll needed, a
+  strong natural fit given the whole hook is the real specific date.
+  Published 2026-10-21 as
+  `tokyo-st-patricks-day-parade-green-ireland-festival-free`, 486
+  words, within the rolled tier. Topic `en/free-attractions`. No
+  AffiliateBox, a free public parade and park festival isn't
+  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
+  published body (2 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.

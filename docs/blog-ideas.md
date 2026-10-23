@@ -39,42 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **The year Tokyo's St. Patrick's Day Parade finally came back.**
-  14:00 UTC firing (2026-10-21). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. Checked
-  the `Tokyo` video pool once more and found a real, completely
-  uncovered seasonal event: "129 | ST PATRICKS DAY IN TOKYO," filmed
-  March 17 2023, confirmed via `grep` zero prior mentions on the
-  site. Checked the thumbnail's tone before using it as cover
-  (cheerful festival content, no concern). Researched real,
-  substantial history and found a genuine, specific tie-in to the
-  family's own visit date rather than a generic "festivals exist"
-  angle: Irish Network Japan started the parade in 1992 with the
-  Embassy of Ireland's endorsement, commonly described as Asia's
-  first St. Patrick's Day parade, originally in Roppongi before
-  moving to Omotesando-dori; after a real three-year COVID hiatus,
-  2023, the exact year of the family's visit, was the parade's actual
-  return to the streets, confirmed this wasn't a coincidence, the
-  family's filming date lines up with the real documented comeback
-  year. Researched the adjacent Yoyogi Park Green Ireland Festival
-  (formerly I Love Ireland Festival): free admission, real Irish food
-  names from past editions (corned beef, colcannon, rasher
-  sandwiches, Irish stew), honestly flagged conflicting anniversary-
-  count claims between sources rather than picking one. Used the
-  video's own title ("We tried Green Tea Beer in TOKYO!") as the real
-  source for the specific green-tea framing of the green beer in the
-  cover photo, rather than assuming plain food-dye coloring. Rolled
-  length tier 1 (quick hit, 450-600 words) and format 11
-  (time/season-anchored) from CLAUDE.md's system, no reroll needed, a
-  strong natural fit given the whole hook is the real specific date.
-  Published 2026-10-21 as
-  `tokyo-st-patricks-day-parade-green-ireland-festival-free`, 486
-  words, within the rolled tier. Topic `en/free-attractions`. No
-  AffiliateBox, a free public parade and park festival isn't
-  Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
-  published body (2 caught and cut across drafts). No
-  `mark_photo_used` call, video-only source.
 - **Moving day: what a month-long furnished Tokyo stay really costs a
   family of five.** 20:00 UTC firing (2026-10-21). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -364,3 +328,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   or "genuinely" in the published body (3 "actually" and 1
   "genuinely" caught and cut across drafts). No `mark_photo_used`
   call, video-only source.
+- **Dotonbori Street, seven real stops from one video, itemized.**
+  14:00 UTC firing (2026-10-23). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. The
+  `Hiroshima` and `Kyoto` pools are now both fully covered, so went
+  back to the `Osaka` pool and found "86 | DOTONBORI STREET IN
+  OSAKA," filmed November 14 2022, the family's own "7 things you
+  must try on Dotonbori Street" video with real numbered chapters.
+  Checked each of the 7 stops against existing posts via `grep`
+  before drafting: the Glico sign and the Tombori River Cruise are
+  both already covered in depth by separate posts, so cross-linked
+  rather than re-deriving either. Found the genuinely uncovered stop:
+  the Ebisu Tower Ferris wheel at the Don Quijote Dotonbori store,
+  no existing post mentions it. Checked the thumbnail's tone before
+  using it as cover (okonomiyaki dinner, cheerful, matches a real
+  chapter, no concern). Researched real, current facts directly from
+  the official donki.com page via WebFetch (1,000 yen standard ticket,
+  cash only, weekday/weekend hours, Tuesday 1pm maintenance opening)
+  rather than trusting conflicting third-party figures (600 to 3,000
+  yen) found in an initial search. Added real supplementary detail:
+  the wheel's real distinction as the world's first oval-shaped
+  Ferris wheel with horizontally-rotating gondolas, and its Ebisu
+  (one of the Seven Lucky Gods) exterior theming. Checked Klook for a
+  bookable listing, found none, the ride is cash-only and walk-up, so
+  skipped AffiliateBox entirely rather than force a mismatched link.
+  Added two genuine extra sections to earn real length rather than
+  padding: real current street-food pricing by item (takoyaki,
+  kushikatsu, ikayaki, gyoza) and a "getting there" section on
+  Namba's multi-operator station cluster, cross-linking the existing
+  Rapi:t/Haruka post for the Kansai Airport connection rather than
+  re-deriving it. Distinguished Osaka-style okonomiyaki (mixed
+  batter) from the Hiroshima-style post published earlier today
+  rather than re-explaining the dish from scratch. Left two of the
+  seven stops (a kawaii-themed cafe, a canal-side beer) honestly
+  thin since neither has a specific venue or price confirmed from the
+  video, said so plainly rather than inventing detail to pad them
+  out. Rolled length tier 5 (deep dive, 1,300-1,600 words) and format
+  8 (itemized breakdown, title promises a list) from CLAUDE.md's
+  system, the rolled format fit naturally since the source video
+  itself was already structured as a numbered list. Landed short of
+  tier 5 even after two added sections, an itemized format with two
+  deliberately-thin stops doesn't honestly stretch to 1,300 words
+  without padding, said so here rather than forcing it. Published
+  2026-10-23 as `dotonbori-seven-stops-what-each-costs`, 793 words.
+  Topic `en/osaka`. Zero uses of "actually" or "genuinely" in the
+  published body (1 "actually" and 2 "genuinely" caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
