@@ -39,47 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Moving day: what a month-long furnished Tokyo stay really costs a
-  family of five.** 20:00 UTC firing (2026-10-21). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads. Checked the `Tokyo` video pool again and found a
-  real, completely uncovered logistics angle: "132 | MOVING
-  APARTMENTS IN TOKYO," filmed May 2023, the video's own thumbnail
-  asking "Is Japan Too Expensive?" directly. Confirmed via `grep`
-  this site had never covered long-term apartment rental logistics at
-  all, despite it being a real, recurring part of how this
-  full-time-traveling family actually stays in Japan. Checked the
-  thumbnail's tone before using it as cover (cheerful, on-brand, no
-  concern). No AL_Vault still photo exists for this topic, used the
-  video thumbnail. Researched real, substantial logistics most
-  tourist content never covers: why a standard Japanese lease isn't
-  realistic for a short-term family stay (shikikin deposit, reikin
-  key money, agency and guarantor-company fees totaling a real
-  4-6x-monthly-rent upfront cost, plus the traditional
-  Japanese-guarantor requirement), the real furnished-rental
-  alternative industry that exists specifically to solve that
-  (Sakura House's no-deposit/no-key-money model, 90+ locations;
-  Oakhouse's real current ~73,000 yen/month listing with its own fee
-  structure; broader 105,000-140,000 yen/month estimates), and UR
-  housing as a real, genuinely foreigner-friendly government option
-  honestly noted as inapplicable to a tourist-visa family. Worked
-  real per-night math for a family of five against hotel
-  extra-occupancy pricing rather than asserting the apartment route
-  is automatically cheaper. Added a real, current (early 2026)
-  grocery-vs-eating-out cost section, honestly noting the
-  cooking/eating-out price gap has narrowed recently rather than
-  repeating an older, wider estimate. Rolled length tier 5 (deep
-  dive, 1,300-1,600 words) and format 5 (narrative-first, cost as
-  payoff) from CLAUDE.md's system, no reroll needed, a real scene
-  existed to open with (the actual moving day). Published 2026-10-21
-  as `monthly-apartment-rental-tokyo-vs-hotel-long-stay-cost`, 1,062
-  words, landed short of the rolled tier 5, said so here rather than
-  padding further once the real, well-sourced material was used up.
-  Topic `en/unexpected-costs`. No AffiliateBox, apartment rental
-  platforms aren't Klook/GYG bookable activities. Zero uses of
-  "actually" or "genuinely" in the published body (7 caught and cut
-  across drafts). No `mark_photo_used` call, video-only source.
 - **Trying tonkatsu for the first time with three kids, the real
   1899 Ginza invention story.** 02:00 UTC firing (2026-10-22, new
   day). Both priority sources exhausted again (same BLOCKED Ginza
@@ -375,3 +334,43 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Topic `en/osaka`. Zero uses of "actually" or "genuinely" in the
   published body (1 "actually" and 2 "genuinely" caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **Harper's 4th-birthday letter-balloon banner, the one that fell
+  apart mid-party.** 20:00 UTC firing (2026-10-23). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Found "152 | HAPPY BIRTHDAY HARPER!" in the
+  `Osaka` video pool while re-checking it for text matches, filmed
+  2023-06-25, `notes_for_ai` field confirming "June 25 is Harpers
+  Birthday." Confirmed via `grep` this is genuinely distinct from two
+  existing birthday posts: Cora's 2026 Osaka apartment party (same
+  city, different kid, different year) and Harper's own 5th-birthday
+  cake post (same kid, different year, different city, Katsushika),
+  neither overlapping with this 2023 4th birthday. Checked the
+  thumbnail's tone before using it as cover: confirmed a real, funny,
+  family-appropriate mishap rather than anything concerning, the
+  video's own "A TRAIN WRECK" text overlay refers to the collapsed
+  balloon-letter banner spelling "Appy Pi Thoa H," visible directly
+  in the thumbnail's jumbled pink letters. Researched real current
+  Japanese pricing for the self-adhesive letter-balloon product
+  category rather than guessing at a number for the specific banner
+  (no receipt survives): Daiso's printed round balloon at 110 yen,
+  Can Do's foil logo balloon set at 330 yen (both 100-yen-shop tier),
+  versus sturdier Rakuten marketplace garland sets starting around
+  1,600 yen with real string backing. Framed the post (format 7,
+  artifact-driven) around the banner itself as the real "artifact"
+  rather than the apartment or the venue. Added a genuine cross-
+  reference section comparing this party's decoration budget against
+  the other two real family birthdays already published rather than
+  re-deriving their numbers, both links confirmed resolving in the
+  built HTML. Rolled length tier 3 (standard, 800-1,000 words) and
+  format 7 from CLAUDE.md's system, no reroll needed. Landed short of
+  tier 3 even after the added comparison section, a single-product
+  mishap story doesn't honestly stretch past about 620 words without
+  restating the same pricing facts, said so here rather than forcing
+  it further. Published 2026-10-23 as
+  `birthday-balloon-letter-banner-fell-apart-osaka`, 621 words. Topic
+  `en/unexpected-costs`. No affiliate link: a 100-yen-shop balloon and
+  a Rakuten garland set aren't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually"
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.

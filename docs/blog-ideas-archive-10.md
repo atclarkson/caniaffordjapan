@@ -250,3 +250,44 @@ more recent entries. When this file nears 400 lines too, start
   Klook/GYG bookable. Zero uses of "actually" or "genuinely" in the
   published body (2 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
+- **Moving day: what a month-long furnished Tokyo stay really costs a
+  family of five.** 20:00 UTC firing (2026-10-21). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Checked the `Tokyo` video pool again and found a
+  real, completely uncovered logistics angle: "132 | MOVING
+  APARTMENTS IN TOKYO," filmed May 2023, the video's own thumbnail
+  asking "Is Japan Too Expensive?" directly. Confirmed via `grep`
+  this site had never covered long-term apartment rental logistics at
+  all, despite it being a real, recurring part of how this
+  full-time-traveling family actually stays in Japan. Checked the
+  thumbnail's tone before using it as cover (cheerful, on-brand, no
+  concern). No AL_Vault still photo exists for this topic, used the
+  video thumbnail. Researched real, substantial logistics most
+  tourist content never covers: why a standard Japanese lease isn't
+  realistic for a short-term family stay (shikikin deposit, reikin
+  key money, agency and guarantor-company fees totaling a real
+  4-6x-monthly-rent upfront cost, plus the traditional
+  Japanese-guarantor requirement), the real furnished-rental
+  alternative industry that exists specifically to solve that
+  (Sakura House's no-deposit/no-key-money model, 90+ locations;
+  Oakhouse's real current ~73,000 yen/month listing with its own fee
+  structure; broader 105,000-140,000 yen/month estimates), and UR
+  housing as a real, genuinely foreigner-friendly government option
+  honestly noted as inapplicable to a tourist-visa family. Worked
+  real per-night math for a family of five against hotel
+  extra-occupancy pricing rather than asserting the apartment route
+  is automatically cheaper. Added a real, current (early 2026)
+  grocery-vs-eating-out cost section, honestly noting the
+  cooking/eating-out price gap has narrowed recently rather than
+  repeating an older, wider estimate. Rolled length tier 5 (deep
+  dive, 1,300-1,600 words) and format 5 (narrative-first, cost as
+  payoff) from CLAUDE.md's system, no reroll needed, a real scene
+  existed to open with (the actual moving day). Published 2026-10-21
+  as `monthly-apartment-rental-tokyo-vs-hotel-long-stay-cost`, 1,062
+  words, landed short of the rolled tier 5, said so here rather than
+  padding further once the real, well-sourced material was used up.
+  Topic `en/unexpected-costs`. No AffiliateBox, apartment rental
+  platforms aren't Klook/GYG bookable activities. Zero uses of
+  "actually" or "genuinely" in the published body (7 caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
