@@ -39,42 +39,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
 ## Done
-- **Tsukiji Outer Market, free to walk, priced stall by stall.** 02:00
-  UTC firing (2026-10-21, new day). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. Checked
-  the `Tokyo` video pool again and found a real, completely uncovered
-  major attraction: "97 | TSUKIJI FISH MARKET," filmed December 4
-  2022, confirmed via `grep` zero prior mentions anywhere on the
-  site. Checked the thumbnail's tone before using it as cover
-  (cheerful food content, no concern). Researched real, substantial
-  history: the 1657 Great Fire of Edo landfill that created the
-  Tsukiji ("constructed land") neighborhood itself, the original
-  Nihonbashi fish market's destruction in the 1923 Great Kanto
-  earthquake, the move to Tsukiji in December 1923, and the formal
-  February 11 1935 opening as Tokyo's central wholesale market, over
-  80 years on the same site before the real October 2018 move of the
-  wholesale/auction side to Toyosu (the outer market itself never
-  closed, confirmed this distinction clearly since it's commonly
-  conflated). Researched real, honestly-ranged food-stall pricing
-  (tamagoyaki 100-300 yen, grilled skewers 300-1,000 yen depending on
-  item, kaisendon bowls 1,500-3,000 yen, multi-piece tuna trays
-  3,000+ yen) since no single flat price exists across ~400-460
-  independent stalls. Found and used real, current Klook/GYG food-tour
-  pricing (roughly 3,000 to 14,000+ yen depending on format) for a
-  genuine `<AffiliateBox>` rather than skipping it, confirmed real
-  tours exist for this specific market. Added a genuine family-
-  logistics section (why a stall-crawl format suits picky eaters,
-  crowding/stroller considerations). Rolled length tier 3 (standard,
-  800-1,000 words) and format 8 (itemized breakdown) from CLAUDE.md's
-  system, no reroll needed, a strong natural fit for food-stall
-  pricing. Published 2026-10-21 as
-  `tsukiji-outer-market-tokyo-food-stall-prices`, 1,013 words, within
-  the rolled tier. Topic `en/budget-food`. Full `<AffiliateBox>` plus
-  `<KlookCodeBox>` since the post links to Klook, both verified
-  present in the built HTML. Zero uses of "actually" or "genuinely"
-  in the published body (6 caught and cut across drafts). No
-  `mark_photo_used` call, video-only source.
 - **How conveyor belt sushi actually works, the real 1958 invention
   story.** 08:00 UTC firing (2026-10-21). Both priority sources
   exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
@@ -361,3 +325,40 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Topic `en/animals-wildlife`. Zero uses of "actually" or "genuinely"
   in the published body (2 "genuinely" caught and cut across drafts).
   No `mark_photo_used` call, video-only source.
+- **The family's first-ever Shinkansen ride, the same route the
+  bullet train launched on in 1964.** 02:00 UTC firing (2026-10-23,
+  new day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Went back to the `Osaka` video
+  pool and found "84 | BULLET TRAIN FROM TOKYO TO OSAKA," filmed
+  2022-11-10, the family's literal first bullet train ride (confirmed
+  by the video's own "FIRST-TIME SHINKANSEN" thumbnail text),
+  genuinely uncovered: confirmed via `grep` that the existing
+  booking-shinkansen post is pure booking mechanics with no first-ride
+  narrative, and that no post covers the family's actual 2022 Tokyo-
+  Osaka ride or the Mt Fuji sighting mentioned in the video's own
+  title. Checked the thumbnail's tone first (excited, clearly matches
+  "first-time" framing, no concern). Researched real, verified
+  history before drafting: the Shinkansen's actual October 1, 1964
+  launch, the Hikari 1 train running the same Tokyo-Osaka route, nine
+  days before the Tokyo Olympics opening ceremony, built in five years
+  flat, 210 km/h top speed at launch versus about 285 km/h on today's
+  fastest trains. Also researched and included a real, specific,
+  previously-unpublished practical tip: traveling Tokyo to Osaka, Mt
+  Fuji shows on the right side (window seat E) roughly 40-45 minutes
+  after departure near Shin-Fuji Station, hedged with the real caveat
+  that cloud cover often blocks it. Cross-referenced rather than
+  re-deriving: the booking-shinkansen post for the real JR Pass/Klook
+  savings math, and the Day Zero cost post for the luggage-forwarding
+  service, both confirmed resolving in the built HTML. Deliberately
+  did not duplicate `<AffiliateBox>`/`<KlookCodeBox>` here since this
+  post doesn't link to Klook directly, just cross-links to the post
+  that already carries that affiliate content, consistent with the
+  no-forced-duplication principle. Rolled length tier 1 (quick hit,
+  450-600 words) and format 13 (history-led, cost as second-half
+  payoff) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-23 as `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`,
+  515 words, within the rolled tier. Topic `en/transit`. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually"
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.

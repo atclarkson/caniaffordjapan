@@ -132,3 +132,39 @@ more recent entries. When this file nears 400 lines too, start
   bookable item. Zero uses of "actually" or "genuinely" in the
   published body (2 caught and cut across drafts). No
   `mark_photo_used` call, video-only source.
+- **Tsukiji Outer Market, free to walk, priced stall by stall.** 02:00
+  UTC firing (2026-10-21, new day). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. Checked
+  the `Tokyo` video pool again and found a real, completely uncovered
+  major attraction: "97 | TSUKIJI FISH MARKET," filmed December 4
+  2022, confirmed via `grep` zero prior mentions anywhere on the
+  site. Checked the thumbnail's tone before using it as cover
+  (cheerful food content, no concern). Researched real, substantial
+  history: the 1657 Great Fire of Edo landfill that created the
+  Tsukiji ("constructed land") neighborhood itself, the original
+  Nihonbashi fish market's destruction in the 1923 Great Kanto
+  earthquake, the move to Tsukiji in December 1923, and the formal
+  February 11 1935 opening as Tokyo's central wholesale market, over
+  80 years on the same site before the real October 2018 move of the
+  wholesale/auction side to Toyosu (the outer market itself never
+  closed, confirmed this distinction clearly since it's commonly
+  conflated). Researched real, honestly-ranged food-stall pricing
+  (tamagoyaki 100-300 yen, grilled skewers 300-1,000 yen depending on
+  item, kaisendon bowls 1,500-3,000 yen, multi-piece tuna trays
+  3,000+ yen) since no single flat price exists across ~400-460
+  independent stalls. Found and used real, current Klook/GYG food-tour
+  pricing (roughly 3,000 to 14,000+ yen depending on format) for a
+  genuine `<AffiliateBox>` rather than skipping it, confirmed real
+  tours exist for this specific market. Added a genuine family-
+  logistics section (why a stall-crawl format suits picky eaters,
+  crowding/stroller considerations). Rolled length tier 3 (standard,
+  800-1,000 words) and format 8 (itemized breakdown) from CLAUDE.md's
+  system, no reroll needed, a strong natural fit for food-stall
+  pricing. Published 2026-10-21 as
+  `tsukiji-outer-market-tokyo-food-stall-prices`, 1,013 words, within
+  the rolled tier. Topic `en/budget-food`. Full `<AffiliateBox>` plus
+  `<KlookCodeBox>` since the post links to Klook, both verified
+  present in the built HTML. Zero uses of "actually" or "genuinely"
+  in the published body (6 caught and cut across drafts). No
+  `mark_photo_used` call, video-only source.
