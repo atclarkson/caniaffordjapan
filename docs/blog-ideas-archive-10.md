@@ -291,3 +291,43 @@ more recent entries. When this file nears 400 lines too, start
   platforms aren't Klook/GYG bookable activities. Zero uses of
   "actually" or "genuinely" in the published body (7 caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **Trying tonkatsu for the first time with three kids, the real
+  1899 Ginza invention story.** 02:00 UTC firing (2026-10-22, new
+  day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Checked the `Tokyo` video pool
+  once more and found a real, only-passing-mentioned dish: "128 | We
+  Try TONKATSU for the FIRST TIME," filmed March 2023. Confirmed via
+  `grep` tonkatsu only appeared as one menu item inside the Denny's
+  post, no dedicated post existed. Checked the thumbnail's tone
+  before using it as cover (cheerful restaurant content, no concern).
+  Researched real, substantial history: invented in 1899 at Rengatei,
+  a Western-style Ginza restaurant, adapted from a French veal
+  cutlet (katsuretsu) the kitchen found too greasy pan-fried in
+  butter, switched to tempura-style deep-frying, pork instead of
+  veal, panko instead of a heavier breading, Worcestershire-blend
+  sauce replacing the original demi-glace, and cabbage replacing
+  carrots/potatoes as the side, reportedly a staffing-driven
+  substitution. Added a real, fun, separately-researched cultural
+  fact beyond the food itself: the katsu/katsu ("to win") pun that
+  makes tonkatsu a real pre-exam and pre-competition good-luck food
+  (genkatsugi), and its direct, documented connection to Kit Kat's
+  own "kitto katsu" good-luck reputation in Japan, a genuine
+  surprise connection most readers won't already know. Researched
+  real, current (2026) tiered Tokyo pricing (1,400-2,000 yen budget
+  chain lunch sets with free cabbage/rice refills, 3,000-5,000 yen
+  mid-range kurobuta courses, 5,000-15,000 yen premium single-breed
+  tonkatsu) rather than quoting one stale number. Added a real
+  family-logistics angle built around the free-refill detail
+  specifically (low financial risk for a picky-eating first try,
+  pre-sliced strips easy to split between kids) and a short
+  katsudon-vs-tonkatsu distinction section. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 12 (family-logistics framing)
+  from CLAUDE.md's system, no reroll needed. Published 2026-10-22 as
+  `tonkatsu-first-time-family-cost-history`, 957 words, landed just
+  short of the rolled tier, said so here rather than padding further
+  once the real material was used up. Topic `en/budget-food`. No
+  AffiliateBox, a casual restaurant meal isn't Klook/GYG bookable.
+  Zero uses of "actually" or "genuinely" in the published body (9
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.
