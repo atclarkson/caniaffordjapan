@@ -38,48 +38,58 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   is worth including either way. Flash sale discounts like the 50%
   off seen in the email are time limited, verify the current rate
   before publishing rather than quoting September's number.
+- **AL_Vault pool status as of the 08:00 UTC 2026-10-24 firing: no new
+  post found this firing, both priority sources exhausted and an
+  exhaustive AL_Vault sweep came up empty.** Checked `get_destinations`
+  first, zero new uploads (same 32-destination list as every prior
+  check this window). Then checked every destination pool with
+  meaningful volume for unused, confidently-identifiable, non-
+  duplicate material: `Osaka` (14 videos, 133 photos; the Round1-
+  tagged-Osaka video from 2023 remains a genuine open question, see
+  below), `Taito` (122 photos, all traced to already-published posts:
+  wagyu, Torikizoku, street kart, ten-days-in-Asakusa), `Katsushika`
+  (37 photos, almost entirely generic unlabeled "IMG_####" files with
+  no alt text, too unidentifiable to write from confidently),
+  `Shibuya` (25 photos, all otter-cafe shoot spares), `Shinjuku` (21
+  photos, all Godzilla/Kabukicho spares already used), `Kawasaki` (21
+  photos, all Nihon Minkaen/worldschool spares, two dedicated posts
+  already cover it), `Urayasu` (21 photos, four existing Disney posts
+  already cover ticket pricing, extra costs, DisneySea theming, and
+  Beast's Castle specifically), `Sumida` (13 photos, street kart
+  spares), `Minato` (9 photos, Tokyo Tower/teamLab Borderless spares,
+  both already covered), `Uji` (9 photos, Nintendo Museum spares,
+  already covered including the karuta/Wii exhibits specifically),
+  `Narita` (10 photos, the one interesting unused angle, a nearly-
+  empty flight, turned out to already be the cover photo on the
+  cheap-flights post), `Chiba` (7 photos, unidentifiable generic
+  IMGs), `Chuo` (6 photos, all Ginza/Pokémon Center spares already
+  used), `Koto` (5 photos, all Gundam/Odaiba spares already used),
+  `Hakone` (9 photos, the free-pass post already covers the pirate
+  ship, ropeway, and the Hakone Shrine torii gate at night
+  specifically), `Nara` (7 photos + 1 video, the deer-feeding video
+  is already embedded in the existing Nara post, stampede and all),
+  `Sakai` (14 photos, Lindsay's 40th birthday teppanyaki and the
+  Round1 Sakai visits, both already covered), `Chiyoda` (5 photos,
+  4 already used, 1 unused sticker-shop photo too thin on its own for
+  a post). Also tried catalog-wide text searches (`festival`,
+  `fireworks`) rather than relying on city browsing alone, nothing
+  new turned up. The one genuine open question: "149 | ROUND 1 in
+  OSAKA," filmed May-June 2023, tagged city `Osaka` rather than
+  `Sakai`. The existing Round1 post explicitly describes two 2026
+  Sakai visits only, so this 2023 video is likely a real, distinct,
+  earlier visit, possibly a different (non-Sakai) Round1 location,
+  but its own description has zero chapters, zero pricing, and zero
+  location detail beyond "@round1_official," not enough to write a
+  confident, honest post without re-deriving the already-published
+  Sakai pricing as a stand-in. Left it alone rather than force it;
+  worth a second look if a future firing can pin down the actual
+  location (the city tag is a real clue worth investigating further
+  rather than ignoring). No post published this firing. Not pushing a
+  broken or duplicative post is the documented right call per
+  CLAUDE.md's own fallback instruction, and this entry exists so the
+  next firing doesn't have to re-run the same exhaustive sweep from
+  scratch.
 ## Done
-- **Tokyo on $300 a day: the real Day 1 number from a week-long
-  budget vlog.** 08:00 UTC firing (2026-10-22). Both priority sources
-  exhausted again (BLOCKED Ginza sumo, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads via
-  `get_destinations` (identical 32-destination list, same counts as
-  every prior check this window). Pulled the full 41-video `Tokyo`
-  pool with `view: full` and found a genuinely uncovered angle: "Tokyo
-  With Kids on $300/Day? Our Real 7-Day Budget (Family of 5)," filmed
-  2025-09-10 to 2025-09-17, a day-by-day Tokyo trip with an on-screen
-  running cost counter and a stated loose $300/day goal. Confirmed via
-  `grep` that no existing post covers a multi-day/weekly budget total
-  (only single-attraction or single-day costs exist elsewhere).
-  Checked the thumbnail's tone before using it as cover (a cheerful
-  family selfie with Tokyo Tower, text matches the real premise, no
-  concern). The video description gives a confirmed, specific Day 1
-  total ($401.34) but not a clean per-day number for days 2 through 7
-  since the counter runs live on screen rather than being stated in
-  the text; said so plainly in the post rather than inventing six
-  figures that aren't backed by anything. Cross-referenced rather than
-  re-deriving: the Day Zero cost breakdown post for what Day 1's total
-  actually covers, the eSIM-vs-pocket-wifi post for the connectivity
-  piece of that cost, and the Odaiba/Gundam, Senso-ji, Kappabashi, Ueno
-  zoo, Ameyoko, and teamLab Borderless posts for the free/paid split
-  across the week's real itinerary (confirmed all six slugs resolve in
-  the built HTML). Rolled length tier 1 (quick hit, 450-600 words) and
-  format 1 (price-first, no verb in the title, lead with the number
-  before any scene-setting) from CLAUDE.md's system; the first draft's
-  title and opening were written as a question-led format 3 piece by
-  mistake, caught before publishing and rewritten to actually open
-  with "$401.34." and a price-first title rather than rerolling.
-  Published 2026-10-22 as `tokyo-300-dollar-day-budget-week-reality-check`,
-  501 words, within the rolled tier. Topic `en/tokyo`. No affiliate
-  link: nothing on this specific page is itself bookable, it's a
-  budget-reflection piece pointing to posts that already carry their
-  own affiliate boxes; found a real Hotels.com affiliate link
-  (`https://prf.hn/l/EJnx85V`) in the video's own description but
-  didn't use it here since the trip itself ran on an Airbnb, not a
-  hotel booking, noted in `docs/affiliates-reference.md` instead for a
-  post where it actually fits. Zero uses of "actually" or "genuinely"
-  in the published body (1 "actually" caught and cut from a draft
-  sentence). No `mark_photo_used` call, video-only source.
 - **The Hello Kitty Shinkansen, ridden in 2023, retired in May 2026.**
   14:00 UTC firing (2026-10-22). Both priority sources exhausted again
   (BLOCKED Ginza sumo, all three teamLab items still without real

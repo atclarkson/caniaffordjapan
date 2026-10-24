@@ -331,3 +331,44 @@ more recent entries. When this file nears 400 lines too, start
   Zero uses of "actually" or "genuinely" in the published body (9
   caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **Tokyo on $300 a day: the real Day 1 number from a week-long
+  budget vlog.** 08:00 UTC firing (2026-10-22). Both priority sources
+  exhausted again (BLOCKED Ginza sumo, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads via
+  `get_destinations` (identical 32-destination list, same counts as
+  every prior check this window). Pulled the full 41-video `Tokyo`
+  pool with `view: full` and found a genuinely uncovered angle: "Tokyo
+  With Kids on $300/Day? Our Real 7-Day Budget (Family of 5)," filmed
+  2025-09-10 to 2025-09-17, a day-by-day Tokyo trip with an on-screen
+  running cost counter and a stated loose $300/day goal. Confirmed via
+  `grep` that no existing post covers a multi-day/weekly budget total
+  (only single-attraction or single-day costs exist elsewhere).
+  Checked the thumbnail's tone before using it as cover (a cheerful
+  family selfie with Tokyo Tower, text matches the real premise, no
+  concern). The video description gives a confirmed, specific Day 1
+  total ($401.34) but not a clean per-day number for days 2 through 7
+  since the counter runs live on screen rather than being stated in
+  the text; said so plainly in the post rather than inventing six
+  figures that aren't backed by anything. Cross-referenced rather than
+  re-deriving: the Day Zero cost breakdown post for what Day 1's total
+  actually covers, the eSIM-vs-pocket-wifi post for the connectivity
+  piece of that cost, and the Odaiba/Gundam, Senso-ji, Kappabashi, Ueno
+  zoo, Ameyoko, and teamLab Borderless posts for the free/paid split
+  across the week's real itinerary (confirmed all six slugs resolve in
+  the built HTML). Rolled length tier 1 (quick hit, 450-600 words) and
+  format 1 (price-first, no verb in the title, lead with the number
+  before any scene-setting) from CLAUDE.md's system; the first draft's
+  title and opening were written as a question-led format 3 piece by
+  mistake, caught before publishing and rewritten to actually open
+  with "$401.34." and a price-first title rather than rerolling.
+  Published 2026-10-22 as `tokyo-300-dollar-day-budget-week-reality-check`,
+  501 words, within the rolled tier. Topic `en/tokyo`. No affiliate
+  link: nothing on this specific page is itself bookable, it's a
+  budget-reflection piece pointing to posts that already carry their
+  own affiliate boxes; found a real Hotels.com affiliate link
+  (`https://prf.hn/l/EJnx85V`) in the video's own description but
+  didn't use it here since the trip itself ran on an Airbnb, not a
+  hotel booking, noted in `docs/affiliates-reference.md` instead for a
+  post where it actually fits. Zero uses of "actually" or "genuinely"
+  in the published body (1 "actually" caught and cut from a draft
+  sentence). No `mark_photo_used` call, video-only source.
