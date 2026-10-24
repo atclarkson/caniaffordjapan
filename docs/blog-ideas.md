@@ -89,50 +89,17 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   CLAUDE.md's own fallback instruction, and this entry exists so the
   next firing doesn't have to re-run the same exhaustive sweep from
   scratch.
+- **RESOLVED (14:00 UTC 2026-10-24 firing): the Round1-tagged-Osaka
+  video question above.** `get_trip` for the 2023-05-31 to 2023-06-27
+  Osaka window confirmed it: a 16-second short, "Got our bowling shoes
+  from a vending machine today," filmed 2023-06-25 with
+  `notes_for_ai: "Round 1 for harpers birthday June 25"`, the exact
+  same date as the already-separate "152 | HAPPY BIRTHDAY HARPER!"
+  video. Confirmed real and distinct: Harper's 4th birthday in 2023,
+  a different year, a different occasion, and almost certainly a
+  different physical Round1 location than either already-published
+  2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **The Hello Kitty Shinkansen, ridden in 2023, retired in May 2026.**
-  14:00 UTC firing (2026-10-22). Both priority sources exhausted again
-  (BLOCKED Ginza sumo, all three teamLab items still without real
-  photos). Confirmed zero new AL_Vault uploads via `get_destinations`.
-  Pivoted to the `Osaka` video pool (14 videos, mostly unmined this
-  window) since the `Tokyo` pool is running thin, and found two
-  genuinely uncovered angles in one pass: a Hello Kitty Shinkansen
-  ride and a micro pig cafe. Picked the Shinkansen one, stronger real
-  cost data already in the video's own description (¥15,000-20,000
-  reserved seat, ¥1,200 ekiben, no theming upcharge) and a bigger real
-  hook. Confirmed via `grep` neither was covered anywhere on the site.
-  Checked the thumbnail's tone before using it as cover (excited kids,
-  real train, matches the content, no concern). WebSearched current
-  status before writing a word and found the actual story: JR West
-  retired this specific train on 2026-05-17 after ~8 years (launched
-  June 2018), confirmed via a Timeout Osaka piece with real farewell-
-  campaign detail (the "Thanks! Plaza" car rename, Kyoto Railway
-  Museum merchandise). That turned this from a routine ride-review
-  into a now-it's-gone piece, the most honest framing available since
-  the specific train in the family's own 2023 footage no longer
-  exists to book. Cross-referenced rather than re-deriving: the Haruka
-  cost breakdown post for the still-running (for now, reportedly
-  until ~2027) Hello Kitty Haruka trains as the current alternative,
-  and the Shinkansen booking-savings post for the general JR Pass/
-  Klook mechanics (confirmed both slugs resolve in the built HTML).
-  Added one genuine second cost angle to earn real length rather than
-  padding: a real, hedged flight-price comparison (Itami-Fukuoka
-  aggregator fares from ~¥7,450) against the Shinkansen fare, with an
-  honest note that the "from" price isn't a confirmed airline quote.
-  Rolled length tier 6 (extended feature, 1,600-2,000 words) and
-  format 5 (narrative-first, cost as payoff) from CLAUDE.md's system.
-  Landed well short of tier 6 even after the added section, a single
-  now-retired train topic doesn't honestly stretch past about 1,100
-  words without restating facts or inventing detail, said so here
-  rather than padding further. Published 2026-10-22 as
-  `hello-kitty-shinkansen-family-review-retired-2026`, 1,084 words.
-  Topic `en/transit`. No affiliate link: the specific train can't be
-  booked anymore, nothing on the page is bookable. Zero uses of
-  "actually" or "genuinely" in the published body (6 "actually" and 1
-  "genuinely" caught and cut across drafts, mostly from section
-  headings). No `mark_photo_used` call, video-only source; the
-  uncovered pig-cafe angle stays available in the `Osaka` pool for a
-  future firing.
 - **mipig cafe, Osaka's micro pig cafe: real session pricing and
   booking rules.** 20:00 UTC firing (2026-10-22). Both priority
   sources exhausted again (same
@@ -382,3 +349,37 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   on the page is bookable, souvenir plush and airline carry-on policy
   aren't Klook/GYG activities. Zero uses of "actually" or "genuinely"
   in the published body (2 "actually" caught and cut across drafts).
+- **Round1's bowling-shoe vending machine, found on Harper's 4th
+  birthday.** 14:00 UTC firing (2026-10-24). Both priority sources
+  exhausted again. Picked up the open question flagged in the 08:00
+  firing's exhaustion note: confirmed via `get_trip` that the
+  Round1-tagged-`Osaka` video is a real, distinct 2023 visit tied to
+  Harper's birthday (see the RESOLVED note above), not an overlap
+  with either already-published 2026 Sakai visit. Checked the 16-
+  second short's own thumbnail tone before using it as cover
+  (cheerful, matches the content, no concern). Researched the vending-
+  machine shoe-rental mechanism itself (size-labeled machines, button,
+  shoes drop from an opening at the bottom, sizing tops out around
+  27.5-28cm) since the family's own clip is too short to document the
+  mechanics on its own, hedged honestly that the detailed sourcing is
+  thinner (a single 2011 traveler account) than the rest of the site's
+  research. Added a genuine real-history section to earn length
+  rather than padding: Round1's real 1980 roller-rink-and-arcade
+  origin as Sugino Kosan in Izumiotsu, bowling added in 1982, renamed
+  Round1 in 1993, confirmed via the company's own official history
+  page rather than a tertiary source. Cross-referenced rather than
+  re-deriving: the existing Round1-Sakai pricing post for current
+  costs, link confirmed resolving in the built HTML. Rolled length
+  tier 1 (quick hit, 450-600 words) and format 2 (free-vs-paid split)
+  from CLAUDE.md's system; rerolled format once since nothing at
+  Round1 splits cleanly into free versus paid, landed on format 3
+  (question title, build to a verdict) instead, noted here per the
+  reroll-once allowance. Published 2026-10-24 as
+  `round1-bowling-shoe-vending-machine-harper-birthday`, 461 words,
+  within the rolled tier. Topic `en/osaka`. No affiliate link: this
+  post doesn't link to Klook directly, the cross-linked Sakai post
+  already carries that content, consistent with the no-forced-
+  duplication principle used elsewhere this window. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually" and 1
+  "genuinely" caught and cut across drafts). No `mark_photo_used`
+  call, video-only source.
