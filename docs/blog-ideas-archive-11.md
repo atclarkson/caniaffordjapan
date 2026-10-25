@@ -126,6 +126,46 @@ more recent entries. When this file nears 400 lines too, start
   "actually" or "genuinely" in the published body (2 "actually"
   caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **Harper's 4th-birthday letter-balloon banner, the one that fell
+  apart mid-party.** 20:00 UTC firing (2026-10-23). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Found "152 | HAPPY BIRTHDAY HARPER!" in the
+  `Osaka` video pool while re-checking it for text matches, filmed
+  2023-06-25, `notes_for_ai` field confirming "June 25 is Harpers
+  Birthday." Confirmed via `grep` this is genuinely distinct from two
+  existing birthday posts: Cora's 2026 Osaka apartment party (same
+  city, different kid, different year) and Harper's own 5th-birthday
+  cake post (same kid, different year, different city, Katsushika),
+  neither overlapping with this 2023 4th birthday. Checked the
+  thumbnail's tone before using it as cover: confirmed a real, funny,
+  family-appropriate mishap rather than anything concerning, the
+  video's own "A TRAIN WRECK" text overlay refers to the collapsed
+  balloon-letter banner spelling "Appy Pi Thoa H," visible directly
+  in the thumbnail's jumbled pink letters. Researched real current
+  Japanese pricing for the self-adhesive letter-balloon product
+  category rather than guessing at a number for the specific banner
+  (no receipt survives): Daiso's printed round balloon at 110 yen,
+  Can Do's foil logo balloon set at 330 yen (both 100-yen-shop tier),
+  versus sturdier Rakuten marketplace garland sets starting around
+  1,600 yen with real string backing. Framed the post (format 7,
+  artifact-driven) around the banner itself as the real "artifact"
+  rather than the apartment or the venue. Added a genuine cross-
+  reference section comparing this party's decoration budget against
+  the other two real family birthdays already published rather than
+  re-deriving their numbers, both links confirmed resolving in the
+  built HTML. Rolled length tier 3 (standard, 800-1,000 words) and
+  format 7 from CLAUDE.md's system, no reroll needed. Landed short of
+  tier 3 even after the added comparison section, a single-product
+  mishap story doesn't honestly stretch past about 620 words without
+  restating the same pricing facts, said so here rather than forcing
+  it further. Published 2026-10-23 as
+  `birthday-balloon-letter-banner-fell-apart-osaka`, 621 words. Topic
+  `en/unexpected-costs`. No affiliate link: a 100-yen-shop balloon and
+  a Rakuten garland set aren't Klook/GYG bookable. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually"
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.
 - **Dotonbori Street, seven real stops from one video, itemized.**
   14:00 UTC firing (2026-10-23). Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -221,3 +261,41 @@ more recent entries. When this file nears 400 lines too, start
   or "genuinely" in the published body (3 "actually" and 1
   "genuinely" caught and cut across drafts). No `mark_photo_used`
   call, video-only source.
+- **Plush souvenirs from Japan, and the real habit of giving every
+  one its own airplane seat home.** 02:00 UTC firing (2026-10-24, new
+  day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. The `Osaka`, `Taito`,
+  `Katsushika`, `Shibuya`, `Shinjuku`, and `Kawasaki` pools all came
+  up either already fully covered or too ambiguous to write
+  confidently from (checked each via `grep` against existing posts
+  before moving on, including a Round1-tagged-Osaka video that
+  couldn't be confirmed as genuinely distinct from the already-
+  published Sakai visits, so left alone rather than guessing). Found
+  real, unused material in the small `Ota` photo pool instead (Haneda
+  Airport sits in Ota ward): three photos tagged "transit day," all
+  `used_in_count: 0`, real AI captions ("The stuffed animals always
+  get their own seat on the flight out of Japan") and `notes_for_ai`
+  ("on the way home to america") confirming this is a genuine,
+  recurring family habit, not a one-off staged shot. Previewed the
+  actual photos before committing (no video thumbnail to check here,
+  a photo-sourced post), confirmed wholesome, on-brand, no concern.
+  Cross-checked a broader `tags_any: ["stuffed animal", "transit
+  day"]` search across the whole catalog and found the same habit
+  documented on a separate occasion (Disney Sea plushies on the
+  monorail), confirming this as a real pattern rather than inventing
+  one from a single photo. Cross-referenced rather than re-deriving:
+  the existing cheap-vs-official Sanrio plush post for all pricing,
+  this post covers the departure-day logistics angle instead, link
+  confirmed resolving in the built HTML. Used two real AL_Vault
+  photos in the body for the first time this window (prior firings
+  were all video-sourced), cover image downloaded directly from the
+  AL_Vault CDN rather than a YouTube thumbnail, `mark_photo_used`
+  called for both. Rolled length tier 2 (short, 600-800 words) and
+  format 15 (plain declarative, no hook) from CLAUDE.md's system, no
+  reroll needed. Published 2026-10-24 as
+  `plush-souvenirs-japan-flying-home-cost`, 597 words, just under the
+  rolled tier. Topic `en/unexpected-costs`. No affiliate link: nothing
+  on the page is bookable, souvenir plush and airline carry-on policy
+  aren't Klook/GYG activities. Zero uses of "actually" or "genuinely"
+  in the published body (2 "actually" caught and cut across drafts).

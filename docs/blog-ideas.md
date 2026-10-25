@@ -100,84 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Harper's 4th-birthday letter-balloon banner, the one that fell
-  apart mid-party.** 20:00 UTC firing (2026-10-23). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads. Found "152 | HAPPY BIRTHDAY HARPER!" in the
-  `Osaka` video pool while re-checking it for text matches, filmed
-  2023-06-25, `notes_for_ai` field confirming "June 25 is Harpers
-  Birthday." Confirmed via `grep` this is genuinely distinct from two
-  existing birthday posts: Cora's 2026 Osaka apartment party (same
-  city, different kid, different year) and Harper's own 5th-birthday
-  cake post (same kid, different year, different city, Katsushika),
-  neither overlapping with this 2023 4th birthday. Checked the
-  thumbnail's tone before using it as cover: confirmed a real, funny,
-  family-appropriate mishap rather than anything concerning, the
-  video's own "A TRAIN WRECK" text overlay refers to the collapsed
-  balloon-letter banner spelling "Appy Pi Thoa H," visible directly
-  in the thumbnail's jumbled pink letters. Researched real current
-  Japanese pricing for the self-adhesive letter-balloon product
-  category rather than guessing at a number for the specific banner
-  (no receipt survives): Daiso's printed round balloon at 110 yen,
-  Can Do's foil logo balloon set at 330 yen (both 100-yen-shop tier),
-  versus sturdier Rakuten marketplace garland sets starting around
-  1,600 yen with real string backing. Framed the post (format 7,
-  artifact-driven) around the banner itself as the real "artifact"
-  rather than the apartment or the venue. Added a genuine cross-
-  reference section comparing this party's decoration budget against
-  the other two real family birthdays already published rather than
-  re-deriving their numbers, both links confirmed resolving in the
-  built HTML. Rolled length tier 3 (standard, 800-1,000 words) and
-  format 7 from CLAUDE.md's system, no reroll needed. Landed short of
-  tier 3 even after the added comparison section, a single-product
-  mishap story doesn't honestly stretch past about 620 words without
-  restating the same pricing facts, said so here rather than forcing
-  it further. Published 2026-10-23 as
-  `birthday-balloon-letter-banner-fell-apart-osaka`, 621 words. Topic
-  `en/unexpected-costs`. No affiliate link: a 100-yen-shop balloon and
-  a Rakuten garland set aren't Klook/GYG bookable. Zero uses of
-  "actually" or "genuinely" in the published body (2 "actually"
-  caught and cut across drafts). No `mark_photo_used` call,
-  video-only source.
-- **Plush souvenirs from Japan, and the real habit of giving every
-  one its own airplane seat home.** 02:00 UTC firing (2026-10-24, new
-  day). Both priority sources exhausted again (same BLOCKED Ginza
-  sumo idea, all three teamLab items still without real photos).
-  Confirmed zero new AL_Vault uploads. The `Osaka`, `Taito`,
-  `Katsushika`, `Shibuya`, `Shinjuku`, and `Kawasaki` pools all came
-  up either already fully covered or too ambiguous to write
-  confidently from (checked each via `grep` against existing posts
-  before moving on, including a Round1-tagged-Osaka video that
-  couldn't be confirmed as genuinely distinct from the already-
-  published Sakai visits, so left alone rather than guessing). Found
-  real, unused material in the small `Ota` photo pool instead (Haneda
-  Airport sits in Ota ward): three photos tagged "transit day," all
-  `used_in_count: 0`, real AI captions ("The stuffed animals always
-  get their own seat on the flight out of Japan") and `notes_for_ai`
-  ("on the way home to america") confirming this is a genuine,
-  recurring family habit, not a one-off staged shot. Previewed the
-  actual photos before committing (no video thumbnail to check here,
-  a photo-sourced post), confirmed wholesome, on-brand, no concern.
-  Cross-checked a broader `tags_any: ["stuffed animal", "transit
-  day"]` search across the whole catalog and found the same habit
-  documented on a separate occasion (Disney Sea plushies on the
-  monorail), confirming this as a real pattern rather than inventing
-  one from a single photo. Cross-referenced rather than re-deriving:
-  the existing cheap-vs-official Sanrio plush post for all pricing,
-  this post covers the departure-day logistics angle instead, link
-  confirmed resolving in the built HTML. Used two real AL_Vault
-  photos in the body for the first time this window (prior firings
-  were all video-sourced), cover image downloaded directly from the
-  AL_Vault CDN rather than a YouTube thumbnail, `mark_photo_used`
-  called for both. Rolled length tier 2 (short, 600-800 words) and
-  format 15 (plain declarative, no hook) from CLAUDE.md's system, no
-  reroll needed. Published 2026-10-24 as
-  `plush-souvenirs-japan-flying-home-cost`, 597 words, just under the
-  rolled tier. Topic `en/unexpected-costs`. No affiliate link: nothing
-  on the page is bookable, souvenir plush and airline carry-on policy
-  aren't Klook/GYG activities. Zero uses of "actually" or "genuinely"
-  in the published body (2 "actually" caught and cut across drafts).
 - **Round1's bowling-shoe vending machine, found on Harper's 4th
   birthday.** 14:00 UTC firing (2026-10-24). Both priority sources
   exhausted again. Picked up the open question flagged in the 08:00
@@ -383,3 +305,64 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "actually" and 1 "genuinely" caught and cut across drafts). Two
   real AL_Vault photos used (cover and one in-body), `mark_photo_used`
   called for both.
+- **A second, separate real budget-tracked Tokyo day: Ueno Zoo, swan
+  boats, and Ameyoko, itemized to $315.49, plus two real data-quality
+  quirks caught and flagged rather than used uncritically.** 20:00
+  UTC firing (2026-10-25). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. The
+  uploaded-newest photo sweep ran into diminishing returns this
+  firing (several strong leads turned out to already be covered:
+  the Oct 31 2023 Halloween/Ueno Zoo day is fully covered by the
+  existing Halloween costumes post, the Nov 3 2023 Kawasaki straw
+  capes are fully covered by two Nihon Minkaen posts, the Nov 23 2023
+  "unused" chicken-noodle-soup photo turned out to be part of the
+  already-published Thanksgiving post's same meal, and a Nov 24 2023
+  Torikizoku visit had no payment-screen photo to price from), so
+  pivoted to the still-unchecked 41-video `Tokyo` pool with `view:
+  summary`, piped to a file and read with `python3`/`jq` since the
+  full-text result exceeded the tool's token limit. Found "Tokyo with
+  Kids: Ueno Zoo, Parks, and Ameyoko Market Guide," whose own
+  description carries a real, itemized "DAY 3 Balance Sheet" (¥49,295
+  / $315.49 total, 8 line items). Confirmed via `grep` this is a
+  genuinely separate video/trip from the one behind the already-
+  published `tokyo-300-dollar-day-budget-week-reality-check` post
+  (that post's $401.34 came from a 7-day vlog filmed 2025-09-10 to
+  09-17; this one is from a differently-branded "Worldschooling
+  Japan" day-numbered series referencing a Jan 2025 exchange rate),
+  and was careful in the post itself not to imply they're the same
+  week. While checking the other two videos in this Day-numbered
+  series (Odaiba, Asakusa) for comparison, caught a real data-quality
+  problem before using any of it: both list an identical "Day 1
+  Balance Sheet," same figures down to the cent, even though the
+  Asakusa video's own title calls itself Day 2, a clear copy-paste
+  error in the family's own video descriptions. Named this honestly
+  in the post rather than silently using only the clean number,
+  including a second honesty flag: the Ueno day's own ¥27,475
+  accommodation line is the exact same figure already cited in the
+  separately-published Day Zero cost breakdown post from a different
+  video/trip entirely, which could mean a real similar nightly rate
+  or a templated placeholder value, said plainly that the data alone
+  can't tell us which. Downloaded and visually inspected the video's
+  thumbnail before using it as cover (cheerful market/beer scene,
+  matches the content, no tone concern), noted in the post that the
+  thumbnail's own on-screen "Day 3 Total: $69.72" is a mid-video
+  running-counter snapshot, not the final total, and did not use that
+  figure. Cross-referenced rather than re-deriving: the Day 1 post,
+  the Ameyoko post, the Halloween-costumes post (for the already-
+  published per-ticket zoo/boat prices), and the Day Zero post, all
+  four confirmed resolving in the built HTML. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 2 (free-vs-paid split) from
+  CLAUDE.md's system, format 2 fit naturally once the day's free
+  walking (Ameyoko, Ueno Park) and paid balance-sheet items were laid
+  out side by side. Landed short of tier 4, one video description's
+  worth of real itemized data plus honest cross-references doesn't
+  stretch to 1,300 words without restating facts, said so here rather
+  than padding further. Published 2026-10-25 as
+  `ueno-ameyoko-day-budget-breakdown-free-vs-paid`, 780 words. Topic
+  `en/tokyo`. No affiliate link: this post is about a cost breakdown,
+  not a bookable activity, and the zoo/boat bookable links already
+  live on the posts it cross-links to. Zero uses of "actually" or
+  "genuinely" in the published body (2 "actually" and 2 "genuinely"
+  caught and cut across drafts). No `mark_photo_used` call, video
+  thumbnail only, no AL_Vault photo used.
