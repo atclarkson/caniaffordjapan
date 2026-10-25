@@ -100,54 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **The Hiroshima tram cars that survived the atomic bombing, still
-  in regular service.** 08:00 UTC firing (2026-10-23). Both priority
-  sources exhausted again (same BLOCKED Ginza sumo idea, all three
-  teamLab items still without real photos). Confirmed zero new
-  AL_Vault uploads. Checked the `Kyoto` video pool first (2 videos)
-  and confirmed both already fully covered (the Kani Doraku crab post
-  and the purikura post, both from the same two Kyoto vlogs), so
-  moved to the `Hiroshima` pool (4 videos, the family's November 2022
-  visit) and found "90 | FIRST IMPRESSIONS OF HIROSHIMA," genuinely
-  uncovered: confirmed via `grep` the existing Hiroshima posts (Peace
-  Memorial Museum, yakitori izakaya otoshi charge, Dreamination
-  lights) cover different videos from the same trip, and that no post
-  mentions the Hiroshima tram network, business-class Shinkansen leg,
-  or Hiroshima-style okonomiyaki specifically. Checked the thumbnail's
-  tone before using it as cover (okonomiyaki being cooked, cheerful,
-  matches a real chapter of the video, no concern; noted the cover
-  doesn't depict the tram specifically since that's not what the
-  video's own thumbnail shows). Researched real, verified, moving
-  history before drafting: Hiroden's two surviving 1942-built tram
-  cars (651, 652) that were running on August 6, 1945, the network's
-  resumption just three days after the bombing, and the real "moving
-  streetcar museum" reputation (retired cars bought from Kyoto, Kobe,
-  and German cities, oldest car 582 a prewar Kobe streetcar).
-  Confirmed current fares directly from hiroden.co.jp via WebFetch
-  (240 yen adult flat fare, 120 yen child, 700/350 yen day passes)
-  rather than trusting conflicting third-party listings found in an
-  earlier search. Added a genuine second real-history section rather
-  than padding: Hiroshima-style okonomiyaki's own documented postwar
-  origin from issen yoshoku, war-widow-run food stalls, and Otafuku's
-  1952 sauce launch, with honestly hedged current pricing (900-1,500
-  yen standard, 1,800-2,300 yen seafood) since sources disagreed.
-  Cross-referenced rather than re-deriving: the booking-shinkansen
-  post for the Kyoto-Hiroshima leg and the Peace Memorial Museum post
-  for the same trip's memorial visit, both confirmed resolving in the
-  built HTML. Rolled length tier 6 (extended feature, 1,600-2,000
-  words) and format 7 (artifact-driven, built around one real
-  physical thing) from CLAUDE.md's system; framed the post around the
-  specific surviving tram cars as the "artifact" per the rolled
-  format. Landed short of tier 6 even after two added sections, a
-  transit-and-dinner topic doesn't honestly stretch to 2,000 words
-  without restating facts, said so here rather than forcing it
-  further. Published 2026-10-23 as
-  `hiroshima-tram-atomic-bomb-survivor-okonomiyaki`, 936 words. Topic
-  `en/hiroshima`. No affiliate link: a 240 yen tram fare and a
-  restaurant dinner aren't Klook/GYG bookable. Zero uses of "actually"
-  or "genuinely" in the published body (3 "actually" and 1
-  "genuinely" caught and cut across drafts). No `mark_photo_used`
-  call, video-only source.
 - **Dotonbori Street, seven real stops from one video, itemized.**
   14:00 UTC firing (2026-10-23). Both priority sources exhausted again
   (same BLOCKED Ginza sumo idea, all three teamLab items still
@@ -392,3 +344,39 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Zero uses of "actually" or "genuinely" in the published body (6
   "actually" and 1 "genuinely" caught and cut across drafts). Real
   AL_Vault photo used in cover and body, `mark_photo_used` called.
+- **Free kao-hame face-cutout board in Shinsekai versus the roughly
+  400-yen purikura booth already covered.** 08:00 UTC firing
+  (2026-10-25). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads via `get_destinations`.
+  Re-sorted the full photo catalog by `uploaded_newest` rather than
+  city browsing, the technique that found the ramen-shop photo last
+  firing, and found a batch of eight unused (`used_in_count: 0`)
+  photos from a June 3, 2023 Shinsekai stop: kids posing at a
+  Tsutenkaku-shaped face-cutout board, genuinely uncovered. Confirmed
+  via `grep` that both existing Tsutenkaku/Shinsekai posts cover the
+  tower and the neighborhood's free walk but never mention the
+  cutout board itself. Checked the thumbnail's tone first (cheerful
+  kid photo, matches the content, no concern). Researched real
+  history via WebSearch before drafting: the Japanese name "kaohame"
+  (face-insert) was coined by researcher Ijichi Hiroyuki for a 2001
+  book because the format had no settled name before that, and the
+  concept itself isn't Japanese at all, American illustrator Cassius
+  Coolidge patented "comic foregrounds," the same head-hole-in-a-
+  painted-canvas idea, in the US in 1874. Rolled length tier 1 (quick
+  hit, 450-600 words) and format 10 (budget-tier framing, cheap
+  version vs splurge version of the same thing) from CLAUDE.md's
+  system; the free cutout board and the already-covered ~400 yen
+  purikura booth are both souvenir-photo formats, a genuine fit for
+  format 10 without needing a reroll. Cross-referenced rather than
+  re-deriving: linked the existing purikura post for its real cost
+  and mechanics instead of repeating them, confirmed resolving in
+  the built HTML. No `AffiliateBox`: neither the free board nor
+  purikura is Klook/GYG bookable, consistent with how the purikura
+  post itself handled the same situation. Published 2026-10-25 as
+  `kao-hame-face-cutout-board-shinsekai-purikura-comparison`, 552
+  words, within the rolled tier. Topic `en/osaka`. Zero uses of
+  "actually" or "genuinely" in the published body (written clean on
+  the first pass, no crutch words caught or cut). Two real AL_Vault
+  photos used (cover and one in-body), `mark_photo_used` called for
+  both.

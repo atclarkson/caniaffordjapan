@@ -126,3 +126,51 @@ more recent entries. When this file nears 400 lines too, start
   "actually" or "genuinely" in the published body (2 "actually"
   caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **The Hiroshima tram cars that survived the atomic bombing, still
+  in regular service.** 08:00 UTC firing (2026-10-23). Both priority
+  sources exhausted again (same BLOCKED Ginza sumo idea, all three
+  teamLab items still without real photos). Confirmed zero new
+  AL_Vault uploads. Checked the `Kyoto` video pool first (2 videos)
+  and confirmed both already fully covered (the Kani Doraku crab post
+  and the purikura post, both from the same two Kyoto vlogs), so
+  moved to the `Hiroshima` pool (4 videos, the family's November 2022
+  visit) and found "90 | FIRST IMPRESSIONS OF HIROSHIMA," genuinely
+  uncovered: confirmed via `grep` the existing Hiroshima posts (Peace
+  Memorial Museum, yakitori izakaya otoshi charge, Dreamination
+  lights) cover different videos from the same trip, and that no post
+  mentions the Hiroshima tram network, business-class Shinkansen leg,
+  or Hiroshima-style okonomiyaki specifically. Checked the thumbnail's
+  tone before using it as cover (okonomiyaki being cooked, cheerful,
+  matches a real chapter of the video, no concern; noted the cover
+  doesn't depict the tram specifically since that's not what the
+  video's own thumbnail shows). Researched real, verified, moving
+  history before drafting: Hiroden's two surviving 1942-built tram
+  cars (651, 652) that were running on August 6, 1945, the network's
+  resumption just three days after the bombing, and the real "moving
+  streetcar museum" reputation (retired cars bought from Kyoto, Kobe,
+  and German cities, oldest car 582 a prewar Kobe streetcar).
+  Confirmed current fares directly from hiroden.co.jp via WebFetch
+  (240 yen adult flat fare, 120 yen child, 700/350 yen day passes)
+  rather than trusting conflicting third-party listings found in an
+  earlier search. Added a genuine second real-history section rather
+  than padding: Hiroshima-style okonomiyaki's own documented postwar
+  origin from issen yoshoku, war-widow-run food stalls, and Otafuku's
+  1952 sauce launch, with honestly hedged current pricing (900-1,500
+  yen standard, 1,800-2,300 yen seafood) since sources disagreed.
+  Cross-referenced rather than re-deriving: the booking-shinkansen
+  post for the Kyoto-Hiroshima leg and the Peace Memorial Museum post
+  for the same trip's memorial visit, both confirmed resolving in the
+  built HTML. Rolled length tier 6 (extended feature, 1,600-2,000
+  words) and format 7 (artifact-driven, built around one real
+  physical thing) from CLAUDE.md's system; framed the post around the
+  specific surviving tram cars as the "artifact" per the rolled
+  format. Landed short of tier 6 even after two added sections, a
+  transit-and-dinner topic doesn't honestly stretch to 2,000 words
+  without restating facts, said so here rather than forcing it
+  further. Published 2026-10-23 as
+  `hiroshima-tram-atomic-bomb-survivor-okonomiyaki`, 936 words. Topic
+  `en/hiroshima`. No affiliate link: a 240 yen tram fare and a
+  restaurant dinner aren't Klook/GYG bookable. Zero uses of "actually"
+  or "genuinely" in the published body (3 "actually" and 1
+  "genuinely" caught and cut across drafts). No `mark_photo_used`
+  call, video-only source.
