@@ -89,3 +89,40 @@ more recent entries. When this file nears 400 lines too, start
   Topic `en/animals-wildlife`. Zero uses of "actually" or "genuinely"
   in the published body (2 "genuinely" caught and cut across drafts).
   No `mark_photo_used` call, video-only source.
+- **The family's first-ever Shinkansen ride, the same route the
+  bullet train launched on in 1964.** 02:00 UTC firing (2026-10-23,
+  new day). Both priority sources exhausted again (same BLOCKED Ginza
+  sumo idea, all three teamLab items still without real photos).
+  Confirmed zero new AL_Vault uploads. Went back to the `Osaka` video
+  pool and found "84 | BULLET TRAIN FROM TOKYO TO OSAKA," filmed
+  2022-11-10, the family's literal first bullet train ride (confirmed
+  by the video's own "FIRST-TIME SHINKANSEN" thumbnail text),
+  genuinely uncovered: confirmed via `grep` that the existing
+  booking-shinkansen post is pure booking mechanics with no first-ride
+  narrative, and that no post covers the family's actual 2022 Tokyo-
+  Osaka ride or the Mt Fuji sighting mentioned in the video's own
+  title. Checked the thumbnail's tone first (excited, clearly matches
+  "first-time" framing, no concern). Researched real, verified
+  history before drafting: the Shinkansen's actual October 1, 1964
+  launch, the Hikari 1 train running the same Tokyo-Osaka route, nine
+  days before the Tokyo Olympics opening ceremony, built in five years
+  flat, 210 km/h top speed at launch versus about 285 km/h on today's
+  fastest trains. Also researched and included a real, specific,
+  previously-unpublished practical tip: traveling Tokyo to Osaka, Mt
+  Fuji shows on the right side (window seat E) roughly 40-45 minutes
+  after departure near Shin-Fuji Station, hedged with the real caveat
+  that cloud cover often blocks it. Cross-referenced rather than
+  re-deriving: the booking-shinkansen post for the real JR Pass/Klook
+  savings math, and the Day Zero cost post for the luggage-forwarding
+  service, both confirmed resolving in the built HTML. Deliberately
+  did not duplicate `<AffiliateBox>`/`<KlookCodeBox>` here since this
+  post doesn't link to Klook directly, just cross-links to the post
+  that already carries that affiliate content, consistent with the
+  no-forced-duplication principle. Rolled length tier 1 (quick hit,
+  450-600 words) and format 13 (history-led, cost as second-half
+  payoff) from CLAUDE.md's system, no reroll needed. Published
+  2026-10-23 as `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`,
+  515 words, within the rolled tier. Topic `en/transit`. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually"
+  caught and cut across drafts). No `mark_photo_used` call,
+  video-only source.

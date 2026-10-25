@@ -100,43 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **The family's first-ever Shinkansen ride, the same route the
-  bullet train launched on in 1964.** 02:00 UTC firing (2026-10-23,
-  new day). Both priority sources exhausted again (same BLOCKED Ginza
-  sumo idea, all three teamLab items still without real photos).
-  Confirmed zero new AL_Vault uploads. Went back to the `Osaka` video
-  pool and found "84 | BULLET TRAIN FROM TOKYO TO OSAKA," filmed
-  2022-11-10, the family's literal first bullet train ride (confirmed
-  by the video's own "FIRST-TIME SHINKANSEN" thumbnail text),
-  genuinely uncovered: confirmed via `grep` that the existing
-  booking-shinkansen post is pure booking mechanics with no first-ride
-  narrative, and that no post covers the family's actual 2022 Tokyo-
-  Osaka ride or the Mt Fuji sighting mentioned in the video's own
-  title. Checked the thumbnail's tone first (excited, clearly matches
-  "first-time" framing, no concern). Researched real, verified
-  history before drafting: the Shinkansen's actual October 1, 1964
-  launch, the Hikari 1 train running the same Tokyo-Osaka route, nine
-  days before the Tokyo Olympics opening ceremony, built in five years
-  flat, 210 km/h top speed at launch versus about 285 km/h on today's
-  fastest trains. Also researched and included a real, specific,
-  previously-unpublished practical tip: traveling Tokyo to Osaka, Mt
-  Fuji shows on the right side (window seat E) roughly 40-45 minutes
-  after departure near Shin-Fuji Station, hedged with the real caveat
-  that cloud cover often blocks it. Cross-referenced rather than
-  re-deriving: the booking-shinkansen post for the real JR Pass/Klook
-  savings math, and the Day Zero cost post for the luggage-forwarding
-  service, both confirmed resolving in the built HTML. Deliberately
-  did not duplicate `<AffiliateBox>`/`<KlookCodeBox>` here since this
-  post doesn't link to Klook directly, just cross-links to the post
-  that already carries that affiliate content, consistent with the
-  no-forced-duplication principle. Rolled length tier 1 (quick hit,
-  450-600 words) and format 13 (history-led, cost as second-half
-  payoff) from CLAUDE.md's system, no reroll needed. Published
-  2026-10-23 as `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`,
-  515 words, within the rolled tier. Topic `en/transit`. Zero uses of
-  "actually" or "genuinely" in the published body (2 "actually"
-  caught and cut across drafts). No `mark_photo_used` call,
-  video-only source.
 - **The Hiroshima tram cars that survived the atomic bombing, still
   in regular service.** 08:00 UTC firing (2026-10-23). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -382,3 +345,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   nothing on the page is bookable. Zero uses of "actually" or
   "genuinely" in the published body (5 "actually" caught and cut
   across drafts). No `mark_photo_used` call, video-only source.
+- **A real, unplanned Osaka ramen shop stop: ticket-machine ordering,
+  real etiquette, and current pricing.** 02:00 UTC firing (2026-10-25,
+  new day). Both priority sources exhausted again. The `Fukuoka` pool
+  is now fully mined (both videos used), so tried a new approach
+  instead of re-checking already-exhausted city pools from scratch:
+  `get_trip` across a broad, previously-unchecked Osaka date window
+  (2026 year-to-date) first, which mostly surfaced material already
+  covered by the Tennoji Zoo, birthday, and yakitori-with-friends
+  posts (confirmed via `used_in` on the `search_photos` blog view
+  rather than assuming), then re-sorted the full `Osaka` photo pool by
+  `uploaded_newest` instead of capture date, which surfaced a real,
+  completely unused photo from a 2023-05-30 stop never used anywhere:
+  "Fish Face at a Ramen Shop in Osaka," confirmed `used_in: []` before
+  committing to it. No restaurant name, no receipt, no video to go
+  with it, just the one real candid photo and a genuine detail worth
+  building around: a Japanese "no additives" quality sign (無添加)
+  visible on the wall behind her. Confirmed via `grep` no existing
+  post covers fresh ramen (only a passing Bamiyan-chain mention and
+  the Cup Noodle Museum's instant-noodle history). Previewed the
+  photo directly before committing (no YouTube thumbnail to check,
+  photo-sourced), wholesome, no concern. Researched real ordering
+  mechanics (ticket machines/shokkenki, top-left button convention,
+  cash-preferred), real etiquette nuance (slurping is fine but not a
+  free-for-all, eat-and-go shop culture, tsukemen's dip-don't-pour
+  rule), real history (Chinese chūka-soba origins, the 1926 Sapporo
+  milestone), and real current pricing (Japan's own government survey,
+  607 yen national average as of January 2026, versus the honest
+  800-1,300+ yen real-world range restaurants actually charge, the
+  documented industry-wide price-pressure trend toward 1,000 yen a
+  bowl), hedged honestly that Osaka-specific pricing sourcing wasn't
+  reliable enough to quote as fact. Cross-referenced rather than
+  re-deriving the instant-ramen/Momofuku Ando history already covered
+  by the Cup Noodle Museum post, link confirmed resolving in the built
+  HTML. Rolled length tier 6 (extended feature, 1,600-2,000 words) and
+  format 5 (narrative-first, cost as payoff) from CLAUDE.md's system;
+  opened with the real photo's own scene per the rolled format. Landed
+  short of tier 6, a single unplanned-stop photo with real ordering/
+  etiquette/history/pricing research genuinely supports under 1,000
+  words without restating facts, said so here rather than forcing it
+  further. Published 2026-10-25 as
+  `ramen-shop-osaka-ordering-etiquette-real-cost`, 941 words. Topic
+  `en/budget-food`. No affiliate link: an unnamed neighborhood shop
+  isn't a bookable Klook/GYG activity, consistent with how the
+  tonkatsu and conveyor-belt-sushi posts handled the same situation.
+  Zero uses of "actually" or "genuinely" in the published body (6
+  "actually" and 1 "genuinely" caught and cut across drafts). Real
+  AL_Vault photo used in cover and body, `mark_photo_used` called.
