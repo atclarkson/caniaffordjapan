@@ -100,53 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Dotonbori Street, seven real stops from one video, itemized.**
-  14:00 UTC firing (2026-10-23). Both priority sources exhausted again
-  (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. The
-  `Hiroshima` and `Kyoto` pools are now both fully covered, so went
-  back to the `Osaka` pool and found "86 | DOTONBORI STREET IN
-  OSAKA," filmed November 14 2022, the family's own "7 things you
-  must try on Dotonbori Street" video with real numbered chapters.
-  Checked each of the 7 stops against existing posts via `grep`
-  before drafting: the Glico sign and the Tombori River Cruise are
-  both already covered in depth by separate posts, so cross-linked
-  rather than re-deriving either. Found the genuinely uncovered stop:
-  the Ebisu Tower Ferris wheel at the Don Quijote Dotonbori store,
-  no existing post mentions it. Checked the thumbnail's tone before
-  using it as cover (okonomiyaki dinner, cheerful, matches a real
-  chapter, no concern). Researched real, current facts directly from
-  the official donki.com page via WebFetch (1,000 yen standard ticket,
-  cash only, weekday/weekend hours, Tuesday 1pm maintenance opening)
-  rather than trusting conflicting third-party figures (600 to 3,000
-  yen) found in an initial search. Added real supplementary detail:
-  the wheel's real distinction as the world's first oval-shaped
-  Ferris wheel with horizontally-rotating gondolas, and its Ebisu
-  (one of the Seven Lucky Gods) exterior theming. Checked Klook for a
-  bookable listing, found none, the ride is cash-only and walk-up, so
-  skipped AffiliateBox entirely rather than force a mismatched link.
-  Added two genuine extra sections to earn real length rather than
-  padding: real current street-food pricing by item (takoyaki,
-  kushikatsu, ikayaki, gyoza) and a "getting there" section on
-  Namba's multi-operator station cluster, cross-linking the existing
-  Rapi:t/Haruka post for the Kansai Airport connection rather than
-  re-deriving it. Distinguished Osaka-style okonomiyaki (mixed
-  batter) from the Hiroshima-style post published earlier today
-  rather than re-explaining the dish from scratch. Left two of the
-  seven stops (a kawaii-themed cafe, a canal-side beer) honestly
-  thin since neither has a specific venue or price confirmed from the
-  video, said so plainly rather than inventing detail to pad them
-  out. Rolled length tier 5 (deep dive, 1,300-1,600 words) and format
-  8 (itemized breakdown, title promises a list) from CLAUDE.md's
-  system, the rolled format fit naturally since the source video
-  itself was already structured as a numbered list. Landed short of
-  tier 5 even after two added sections, an itemized format with two
-  deliberately-thin stops doesn't honestly stretch to 1,300 words
-  without padding, said so here rather than forcing it. Published
-  2026-10-23 as `dotonbori-seven-stops-what-each-costs`, 793 words.
-  Topic `en/osaka`. Zero uses of "actually" or "genuinely" in the
-  published body (1 "actually" and 2 "genuinely" caught and cut
-  across drafts). No `mark_photo_used` call, video-only source.
 - **Harper's 4th-birthday letter-balloon banner, the one that fell
   apart mid-party.** 20:00 UTC firing (2026-10-23). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
@@ -380,3 +333,53 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   the first pass, no crutch words caught or cut). Two real AL_Vault
   photos used (cover and one in-body), `mark_photo_used` called for
   both.
+- **Our actual first Worldschool Pop-Up Hub experience, a full week
+  in Tokyo, months before the already-published Kawasaki meetup
+  day.** 14:00 UTC firing (2026-10-25). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads via `get_destinations`. Re-sorted the full photo catalog by
+  `uploaded_newest` again and spotted "Worldschool Kids on a Concrete
+  Slide in Taito" (unused) and several Heiwanomorikoen rope-climb
+  photos from the same week; `get_trip` across 2023-10-28 to
+  2023-10-29 (no city filter, a city-filtered `get_trip` call
+  returned nothing for these dates even though the photos
+  themselves are geotagged, worth remembering for a future firing)
+  surfaced the real find: a video titled "What is a Worldschool
+  Popup? Our First Experience," filmed October 28 2023 in Tokyo,
+  months before the already-published Kawasaki worldschool meetup.
+  Confirmed via `grep` that the Kawasaki post already explains what
+  the Pop-Up Hub is in full (the Carlsons, free, informal, no
+  booking link) and even mentions Tokyo as a past stop, but never
+  details this specific first week, so cross-linked to it for that
+  background rather than re-deriving it and focused this post on the
+  genuinely new angle: what a multi-day popup week looks like versus
+  the single meetup day already covered. Checked the thumbnail's
+  tone first (group of kids on a slide, cheerful, matches the
+  content, no concern). The two Heiwanomorikoen photos used here are
+  already used elsewhere (that park's own free-vs-paid post), reuse
+  is fine per AL_Vault's own policy, confirmed via `grep` that post
+  never mentions worldschooling at all so there's no content overlap
+  beyond the shared location. Disregarded one `notes_for_ai` field on
+  the source video that claimed it was filmed "over Thanksgiving 2023
+  for my dad's 70th birthday," since that contradicts the video's own
+  October 28 filmed date and reads as a mismatched note from a
+  different video, not something to state as fact. Rolled length
+  tier 2 (short, 600-800 words) and format 1 (price-first, no verb in
+  the title) from CLAUDE.md's system; opened the body with the
+  one-line free-to-join answer per format 1's own instruction rather
+  than scene-setting first. Added one genuine extra section to reach
+  the rolled tier honestly rather than padding: how a family would
+  actually find out a popup week is happening (word of mouth, no
+  booking page), a real logistical point implied but not spelled out
+  in the Kawasaki post. Published 2026-10-25 as
+  `worldschool-popup-tokyo-first-week-free`, 668 words, within the
+  rolled tier. Topic `en/tokyo` (no existing worldschool-specific
+  topic, and this is genuinely just "a thing that happened in Tokyo"
+  the way CLAUDE.md's topic guidance describes). No affiliate link:
+  a free informal meetup isn't Klook/GYG bookable, consistent with
+  how the Kawasaki worldschool post handled the same situation. Zero
+  uses of "actually" or "genuinely" in the published body (2
+  "actually" and 1 "genuinely" caught and cut across drafts). Two
+  real AL_Vault photos used (cover and one in-body), `mark_photo_used`
+  called for both.

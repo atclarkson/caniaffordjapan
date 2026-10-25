@@ -126,6 +126,53 @@ more recent entries. When this file nears 400 lines too, start
   "actually" or "genuinely" in the published body (2 "actually"
   caught and cut across drafts). No `mark_photo_used` call,
   video-only source.
+- **Dotonbori Street, seven real stops from one video, itemized.**
+  14:00 UTC firing (2026-10-23). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. The
+  `Hiroshima` and `Kyoto` pools are now both fully covered, so went
+  back to the `Osaka` pool and found "86 | DOTONBORI STREET IN
+  OSAKA," filmed November 14 2022, the family's own "7 things you
+  must try on Dotonbori Street" video with real numbered chapters.
+  Checked each of the 7 stops against existing posts via `grep`
+  before drafting: the Glico sign and the Tombori River Cruise are
+  both already covered in depth by separate posts, so cross-linked
+  rather than re-deriving either. Found the genuinely uncovered stop:
+  the Ebisu Tower Ferris wheel at the Don Quijote Dotonbori store,
+  no existing post mentions it. Checked the thumbnail's tone before
+  using it as cover (okonomiyaki dinner, cheerful, matches a real
+  chapter, no concern). Researched real, current facts directly from
+  the official donki.com page via WebFetch (1,000 yen standard ticket,
+  cash only, weekday/weekend hours, Tuesday 1pm maintenance opening)
+  rather than trusting conflicting third-party figures (600 to 3,000
+  yen) found in an initial search. Added real supplementary detail:
+  the wheel's real distinction as the world's first oval-shaped
+  Ferris wheel with horizontally-rotating gondolas, and its Ebisu
+  (one of the Seven Lucky Gods) exterior theming. Checked Klook for a
+  bookable listing, found none, the ride is cash-only and walk-up, so
+  skipped AffiliateBox entirely rather than force a mismatched link.
+  Added two genuine extra sections to earn real length rather than
+  padding: real current street-food pricing by item (takoyaki,
+  kushikatsu, ikayaki, gyoza) and a "getting there" section on
+  Namba's multi-operator station cluster, cross-linking the existing
+  Rapi:t/Haruka post for the Kansai Airport connection rather than
+  re-deriving it. Distinguished Osaka-style okonomiyaki (mixed
+  batter) from the Hiroshima-style post published earlier today
+  rather than re-explaining the dish from scratch. Left two of the
+  seven stops (a kawaii-themed cafe, a canal-side beer) honestly
+  thin since neither has a specific venue or price confirmed from the
+  video, said so plainly rather than inventing detail to pad them
+  out. Rolled length tier 5 (deep dive, 1,300-1,600 words) and format
+  8 (itemized breakdown, title promises a list) from CLAUDE.md's
+  system, the rolled format fit naturally since the source video
+  itself was already structured as a numbered list. Landed short of
+  tier 5 even after two added sections, an itemized format with two
+  deliberately-thin stops doesn't honestly stretch to 1,300 words
+  without padding, said so here rather than forcing it. Published
+  2026-10-23 as `dotonbori-seven-stops-what-each-costs`, 793 words.
+  Topic `en/osaka`. Zero uses of "actually" or "genuinely" in the
+  published body (1 "actually" and 2 "genuinely" caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.
 - **The Hiroshima tram cars that survived the atomic bombing, still
   in regular service.** 08:00 UTC firing (2026-10-23). Both priority
   sources exhausted again (same BLOCKED Ginza sumo idea, all three
