@@ -299,3 +299,75 @@ more recent entries. When this file nears 400 lines too, start
   on the page is bookable, souvenir plush and airline carry-on policy
   aren't Klook/GYG activities. Zero uses of "actually" or "genuinely"
   in the published body (2 "actually" caught and cut across drafts).
+- **Round1's bowling-shoe vending machine, found on Harper's 4th
+  birthday.** 14:00 UTC firing (2026-10-24). Both priority sources
+  exhausted again. Picked up the open question flagged in the 08:00
+  firing's exhaustion note: confirmed via `get_trip` that the
+  Round1-tagged-`Osaka` video is a real, distinct 2023 visit tied to
+  Harper's birthday (see the RESOLVED note above), not an overlap
+  with either already-published 2026 Sakai visit. Checked the 16-
+  second short's own thumbnail tone before using it as cover
+  (cheerful, matches the content, no concern). Researched the vending-
+  machine shoe-rental mechanism itself (size-labeled machines, button,
+  shoes drop from an opening at the bottom, sizing tops out around
+  27.5-28cm) since the family's own clip is too short to document the
+  mechanics on its own, hedged honestly that the detailed sourcing is
+  thinner (a single 2011 traveler account) than the rest of the site's
+  research. Added a genuine real-history section to earn length
+  rather than padding: Round1's real 1980 roller-rink-and-arcade
+  origin as Sugino Kosan in Izumiotsu, bowling added in 1982, renamed
+  Round1 in 1993, confirmed via the company's own official history
+  page rather than a tertiary source. Cross-referenced rather than
+  re-deriving: the existing Round1-Sakai pricing post for current
+  costs, link confirmed resolving in the built HTML. Rolled length
+  tier 1 (quick hit, 450-600 words) and format 2 (free-vs-paid split)
+  from CLAUDE.md's system; rerolled format once since nothing at
+  Round1 splits cleanly into free versus paid, landed on format 3
+  (question title, build to a verdict) instead, noted here per the
+  reroll-once allowance. Published 2026-10-24 as
+  `round1-bowling-shoe-vending-machine-harper-birthday`, 461 words,
+  within the rolled tier. Topic `en/osaka`. No affiliate link: this
+  post doesn't link to Klook directly, the cross-linked Sakai post
+  already carries that content, consistent with the no-forced-
+  duplication principle used elsewhere this window. Zero uses of
+  "actually" or "genuinely" in the published body (2 "actually" and 1
+  "genuinely" caught and cut across drafts). No `mark_photo_used`
+  call, video-only source.
+- **A real hotel evacuation during July 2023's Kyushu rain emergency,
+  and what Japan's alert levels mean for travelers.** 20:00 UTC firing
+  (2026-10-24). Both priority sources exhausted again. Went back to
+  the `Fukuoka` pool (1 photo + 2 videos, only the baseball video
+  previously mined) and found "154 | FUKUOKA FIRST IMPRESSIONS,"
+  genuinely uncovered: the existing PayPay Dome baseball post
+  mentions the same rainy week and hotel evacuation only as one
+  passing backstory sentence, never gives the evacuation or the real
+  regional event its own treatment. Confirmed via `grep` neither
+  "evacuat" (beyond that one sentence) nor the real event got a
+  dedicated post. WebSearched before writing anything and found the
+  real, documented event behind the family's own account: a record
+  rain emergency across northern Kyushu around 2023-07-10, JMA
+  calling it some of the heaviest rain the region
+  had recorded, real harm nearby including a Kurume landslide.
+  Treated this carefully given the sensitivity, real people were
+  genuinely hurt in the broader event: kept the family's own account
+  modest and factual (a hotel evacuation on real local guidance, nothing
+  dramatized), gave the regional event brief, respectful, accurately-
+  sourced context rather than dwelling on it, and centered the post on
+  practical, genuinely useful value for travelers instead of the
+  family's own story. Researched Japan's real 5-level evacuation alert
+  system (Level 4 instruction = leave immediately, don't wait for
+  Level 5) for the practical section. Checked the thumbnail's tone
+  first (neutral "first impressions" skyline shot, no mismatch
+  concern either direction). Cross-referenced rather than re-deriving:
+  the eSIM-vs-pocket-wifi post for the connectivity angle and the
+  PayPay Dome baseball post for what happened once the rain cleared,
+  both confirmed resolving in the built HTML. Rolled length tier 1
+  (quick hit, 450-600 words) and format 14 (direct address) from
+  CLAUDE.md's system, no reroll needed, format 14's reader-facing
+  framing fit the sensitive subject well without needing a dramatized
+  angle. Published 2026-10-24 as
+  `japan-weather-emergency-evacuation-hotel-fukuoka`, 497 words,
+  within the rolled tier. Topic `en/fukuoka`. No affiliate link:
+  nothing on the page is bookable. Zero uses of "actually" or
+  "genuinely" in the published body (5 "actually" caught and cut
+  across drafts). No `mark_photo_used` call, video-only source.

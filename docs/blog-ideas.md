@@ -100,78 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Round1's bowling-shoe vending machine, found on Harper's 4th
-  birthday.** 14:00 UTC firing (2026-10-24). Both priority sources
-  exhausted again. Picked up the open question flagged in the 08:00
-  firing's exhaustion note: confirmed via `get_trip` that the
-  Round1-tagged-`Osaka` video is a real, distinct 2023 visit tied to
-  Harper's birthday (see the RESOLVED note above), not an overlap
-  with either already-published 2026 Sakai visit. Checked the 16-
-  second short's own thumbnail tone before using it as cover
-  (cheerful, matches the content, no concern). Researched the vending-
-  machine shoe-rental mechanism itself (size-labeled machines, button,
-  shoes drop from an opening at the bottom, sizing tops out around
-  27.5-28cm) since the family's own clip is too short to document the
-  mechanics on its own, hedged honestly that the detailed sourcing is
-  thinner (a single 2011 traveler account) than the rest of the site's
-  research. Added a genuine real-history section to earn length
-  rather than padding: Round1's real 1980 roller-rink-and-arcade
-  origin as Sugino Kosan in Izumiotsu, bowling added in 1982, renamed
-  Round1 in 1993, confirmed via the company's own official history
-  page rather than a tertiary source. Cross-referenced rather than
-  re-deriving: the existing Round1-Sakai pricing post for current
-  costs, link confirmed resolving in the built HTML. Rolled length
-  tier 1 (quick hit, 450-600 words) and format 2 (free-vs-paid split)
-  from CLAUDE.md's system; rerolled format once since nothing at
-  Round1 splits cleanly into free versus paid, landed on format 3
-  (question title, build to a verdict) instead, noted here per the
-  reroll-once allowance. Published 2026-10-24 as
-  `round1-bowling-shoe-vending-machine-harper-birthday`, 461 words,
-  within the rolled tier. Topic `en/osaka`. No affiliate link: this
-  post doesn't link to Klook directly, the cross-linked Sakai post
-  already carries that content, consistent with the no-forced-
-  duplication principle used elsewhere this window. Zero uses of
-  "actually" or "genuinely" in the published body (2 "actually" and 1
-  "genuinely" caught and cut across drafts). No `mark_photo_used`
-  call, video-only source.
-- **A real hotel evacuation during July 2023's Kyushu rain emergency,
-  and what Japan's alert levels mean for travelers.** 20:00 UTC firing
-  (2026-10-24). Both priority sources exhausted again. Went back to
-  the `Fukuoka` pool (1 photo + 2 videos, only the baseball video
-  previously mined) and found "154 | FUKUOKA FIRST IMPRESSIONS,"
-  genuinely uncovered: the existing PayPay Dome baseball post
-  mentions the same rainy week and hotel evacuation only as one
-  passing backstory sentence, never gives the evacuation or the real
-  regional event its own treatment. Confirmed via `grep` neither
-  "evacuat" (beyond that one sentence) nor the real event got a
-  dedicated post. WebSearched before writing anything and found the
-  real, documented event behind the family's own account: a record
-  rain emergency across northern Kyushu around 2023-07-10, JMA
-  calling it some of the heaviest rain the region
-  had recorded, real harm nearby including a Kurume landslide.
-  Treated this carefully given the sensitivity, real people were
-  genuinely hurt in the broader event: kept the family's own account
-  modest and factual (a hotel evacuation on real local guidance, nothing
-  dramatized), gave the regional event brief, respectful, accurately-
-  sourced context rather than dwelling on it, and centered the post on
-  practical, genuinely useful value for travelers instead of the
-  family's own story. Researched Japan's real 5-level evacuation alert
-  system (Level 4 instruction = leave immediately, don't wait for
-  Level 5) for the practical section. Checked the thumbnail's tone
-  first (neutral "first impressions" skyline shot, no mismatch
-  concern either direction). Cross-referenced rather than re-deriving:
-  the eSIM-vs-pocket-wifi post for the connectivity angle and the
-  PayPay Dome baseball post for what happened once the rain cleared,
-  both confirmed resolving in the built HTML. Rolled length tier 1
-  (quick hit, 450-600 words) and format 14 (direct address) from
-  CLAUDE.md's system, no reroll needed, format 14's reader-facing
-  framing fit the sensitive subject well without needing a dramatized
-  angle. Published 2026-10-24 as
-  `japan-weather-emergency-evacuation-hotel-fukuoka`, 497 words,
-  within the rolled tier. Topic `en/fukuoka`. No affiliate link:
-  nothing on the page is bookable. Zero uses of "actually" or
-  "genuinely" in the published body (5 "actually" caught and cut
-  across drafts). No `mark_photo_used` call, video-only source.
 - **A real, unplanned Osaka ramen shop stop: ticket-machine ordering,
   real etiquette, and current pricing.** 02:00 UTC firing (2026-10-25,
   new day). Both priority sources exhausted again. The `Fukuoka` pool
@@ -366,3 +294,83 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "genuinely" in the published body (2 "actually" and 2 "genuinely"
   caught and cut across drafts). No `mark_photo_used` call, video
   thumbnail only, no AL_Vault photo used.
+- **Super Nintendo World's Power-Up Band: real per-player mechanics
+  and what three kids each wanting their own actually costs.** 02:00
+  UTC firing (2026-10-26, new day). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. A
+  promising-looking unused photo ("Getting Our Miis at Super Nintendo
+  World Japan") turned out to be a mislabeled AI caption for the
+  already-published Nintendo Museum Uji visit (same visit, 90 seconds
+  apart from an already-used photo in that post), not USJ's actual
+  Super Nintendo World, caught via `grep` against the existing post
+  before writing a word from it. Pivoted to the `Tokyo`-labeled video
+  pool's two Super Nintendo World USJ videos (vlogs 85 and 148, Nov
+  2022 and Sept 2023) instead: confirmed via `grep` that three
+  existing posts mention Super Nintendo World only in passing (ticket
+  comparisons, Express Pass mechanics) and none cover the zone's own
+  Power-Up Band system, a genuinely uncovered angle. Checked the "148"
+  video's thumbnail tone before using it as cover (cheerful, Osaka/USJ
+  text directly in frame, clear content match, no concern). Attempted
+  a Wikimedia Commons lookup earlier this firing for an unrelated
+  lead (Tokyo Metropolitan Government Building observation deck,
+  abandoned, see note below) and hit a persistent Commons API rate
+  limit ("too many requests") across three retries with increasing
+  delays, likely the shared proxy IP rather than this session's own
+  request rate; noting this here in case a future firing hits the
+  same wall and wants to know it's not newly broken. Researched real
+  current facts via WebSearch: Power-Up Band pricing (~¥4,900
+  tax included per fan pricing guides, hedged since the official USJ
+  site is JS-rendered and WebFetch couldn't pull the figure directly),
+  the Key Challenge/Bowser Jr. boss-fight mechanics, and the real
+  one-band-one-player detail that drives this post's actual angle.
+  Verified Mario Kart: Koopa's Challenge's real naming (Bowser is
+  called Koopa in Japanese Mario media, same ride as "Bowser's
+  Challenge" at the Hollywood/Orlando sister parks) and confirmed
+  opening date (March 18, 2021, after an earlier Feb 4 date slipped
+  on a COVID-era state of emergency). Declined to quote 1-UP Factory
+  merchandise prices after finding only a likely-stale ~2021 price
+  list with no confirmed 2026 figures, said so by omission rather
+  than repeating outdated numbers. Cross-referenced rather than
+  re-deriving: the existing Express Pass post for base ticket/Express
+  Pass pricing and the free timed-entry mechanic, confirmed resolving
+  in the built HTML. No AffiliateBox: the cross-linked Express Pass
+  post already carries the real USJ Klook link, consistent with the
+  no-forced-duplication principle, and the Power-Up Band itself isn't
+  Klook-bookable. Rolled length tier 5 (deep dive, 1,300-1,600 words)
+  and format 2 (free-vs-paid split) from CLAUDE.md's system; rerolled
+  format once as a deliberate variety call since the immediately
+  prior firing's post also used format 2, landed on format 12
+  (family-logistics framing), a genuinely better fit anyway given the
+  real one-band-per-player angle. Landed well short of tier 5, one
+  real mechanic plus honest cross-references doesn't stretch to 1,300
+  words without inventing detail or repeating stale pricing, said so
+  here rather than padding further. Published 2026-10-26 as
+  `super-nintendo-world-power-up-band-three-kids`, 870 words. Topic
+  `en/theme-parks`. Zero uses of "actually" or "genuinely" in the
+  published body (3 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, video thumbnail only, no AL_Vault photo
+  used.
+- **Abandoned lead: Tokyo Metropolitan Government Building's free
+  observation decks.** Same 02:00 UTC firing (2026-10-26), tried
+  before the Super Nintendo World angle above. Found via the same
+  7-day \$300/day vlog's own chapter list (Day 5: Shinjuku & Shibuya
+  includes the building), confirmed via `grep` genuinely uncovered
+  anywhere on the site, and the free-entry fact is well corroborated
+  across many independent sources. Abandoned for two real reasons:
+  no AL_Vault photo exists from this family's own visit to the
+  building specifically (the $300/day vlog's Sept 2025 Tokyo trip has
+  no supporting photo shoot in AL_Vault at all), and the video's own
+  thumbnail depicts an unrelated scene (Mario/Peach at the airport)
+  that would be a real content mismatch as a cover for a skyscraper
+  post. Tried sourcing a Wikimedia Commons reference image per
+  CLAUDE.md's explicit allowance for this exact situation and hit a
+  persistent Commons API rate limit across three retries, see the
+  note on the published Super Nintendo World entry above. Separately,
+  current hours for the building's North and South decks are
+  genuinely conflicting across sources (one official-looking page
+  turned out to be a stale 2021 COVID-reopening notice), which would
+  have meant hedging hours fairly heavily even with a cover image
+  solved. A real, free, genuinely uncovered Tokyo attraction, worth
+  revisiting if a future firing finds a working image source or
+  real family photos of the building turn up in AL_Vault.
