@@ -100,53 +100,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **A real, unplanned Osaka ramen shop stop: ticket-machine ordering,
-  real etiquette, and current pricing.** 02:00 UTC firing (2026-10-25,
-  new day). Both priority sources exhausted again. The `Fukuoka` pool
-  is now fully mined (both videos used), so tried a new approach
-  instead of re-checking already-exhausted city pools from scratch:
-  `get_trip` across a broad, previously-unchecked Osaka date window
-  (2026 year-to-date) first, which mostly surfaced material already
-  covered by the Tennoji Zoo, birthday, and yakitori-with-friends
-  posts (confirmed via `used_in` on the `search_photos` blog view
-  rather than assuming), then re-sorted the full `Osaka` photo pool by
-  `uploaded_newest` instead of capture date, which surfaced a real,
-  completely unused photo from a 2023-05-30 stop never used anywhere:
-  "Fish Face at a Ramen Shop in Osaka," confirmed `used_in: []` before
-  committing to it. No restaurant name, no receipt, no video to go
-  with it, just the one real candid photo and a genuine detail worth
-  building around: a Japanese "no additives" quality sign (無添加)
-  visible on the wall behind her. Confirmed via `grep` no existing
-  post covers fresh ramen (only a passing Bamiyan-chain mention and
-  the Cup Noodle Museum's instant-noodle history). Previewed the
-  photo directly before committing (no YouTube thumbnail to check,
-  photo-sourced), wholesome, no concern. Researched real ordering
-  mechanics (ticket machines/shokkenki, top-left button convention,
-  cash-preferred), real etiquette nuance (slurping is fine but not a
-  free-for-all, eat-and-go shop culture, tsukemen's dip-don't-pour
-  rule), real history (Chinese chūka-soba origins, the 1926 Sapporo
-  milestone), and real current pricing (Japan's own government survey,
-  607 yen national average as of January 2026, versus the honest
-  800-1,300+ yen real-world range restaurants actually charge, the
-  documented industry-wide price-pressure trend toward 1,000 yen a
-  bowl), hedged honestly that Osaka-specific pricing sourcing wasn't
-  reliable enough to quote as fact. Cross-referenced rather than
-  re-deriving the instant-ramen/Momofuku Ando history already covered
-  by the Cup Noodle Museum post, link confirmed resolving in the built
-  HTML. Rolled length tier 6 (extended feature, 1,600-2,000 words) and
-  format 5 (narrative-first, cost as payoff) from CLAUDE.md's system;
-  opened with the real photo's own scene per the rolled format. Landed
-  short of tier 6, a single unplanned-stop photo with real ordering/
-  etiquette/history/pricing research genuinely supports under 1,000
-  words without restating facts, said so here rather than forcing it
-  further. Published 2026-10-25 as
-  `ramen-shop-osaka-ordering-etiquette-real-cost`, 941 words. Topic
-  `en/budget-food`. No affiliate link: an unnamed neighborhood shop
-  isn't a bookable Klook/GYG activity, consistent with how the
-  tonkatsu and conveyor-belt-sushi posts handled the same situation.
-  Zero uses of "actually" or "genuinely" in the published body (6
-  "actually" and 1 "genuinely" caught and cut across drafts). Real
-  AL_Vault photo used in cover and body, `mark_photo_used` called.
 - **Free kao-hame face-cutout board in Shinsekai versus the roughly
   400-yen purikura booth already covered.** 08:00 UTC firing
   (2026-10-25). Both priority sources exhausted again (same BLOCKED
@@ -374,3 +327,53 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   solved. A real, free, genuinely uncovered Tokyo attraction, worth
   revisiting if a future firing finds a working image source or
   real family photos of the building turn up in AL_Vault.
+- **Akihabara's real history as a postwar radio-parts black market,
+  long before anime and arcades took over.** 08:00 UTC firing
+  (2026-10-26). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads. Chased the Akihabara
+  "Electronics Shopping, Trading Cards" chapter from the 7-day
+  $300/day vlog's own chapter list again (the same video already
+  mined for the Ueno/Ameyoko post), confirmed no AL_Vault photos
+  exist for that Sept 2025 trip and the video's own thumbnail
+  (Mario/Peach at the airport) would be a content mismatch for an
+  Akihabara-specific post, so widened the search to the family's
+  other real Akihabara material: a 37-second short, "Headed to
+  Akihabara! If you ever miss the good ol' RadioShack days, this is
+  your Mecca," real footage of jump-wire and component shop shelves,
+  completely uncovered anywhere on the site (confirmed via `grep`,
+  the two existing Akihabara posts cover a DS Lite mod workshop and a
+  street-kart tour, neither touches the district's own history).
+  Downloaded and visually inspected the short's thumbnail before
+  using it as cover (genuine electronics-shop shelf shot, on-screen
+  text matches the content directly, no concern), embedded the short
+  itself in the post body via `youtube-nocookie.com` since it's the
+  real source material, not just a cover image. Researched real,
+  verified history via WebSearch: the 1869-fire/Chinkasha-shrine name
+  origin, the postwar radio-parts black market (hedged honestly
+  between two sources that disagree on the exact 1949 Occupation-ban
+  vs. 1951 stall-order mechanics), the 1970s shift into computers,
+  and AKB48's real namesake connection to the district (founded
+  December 2005, theater on an upper floor of Akihabara's own Don
+  Quijote store), a genuine, verifiable marker of how far the
+  neighborhood's identity shifted from its radio-parts origins.
+  Cross-referenced rather than re-deriving: the existing DS Lite
+  workshop and street-kart posts for their own real current pricing,
+  both confirmed resolving in the built HTML. No AffiliateBox: the
+  cross-linked DS Lite workshop post already carries the real Klook
+  link for Akihabara, consistent with the no-forced-duplication
+  principle, and this post's own subject, walking the neighborhood
+  and its history, isn't separately bookable. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 12 (family-logistics framing)
+  from CLAUDE.md's system; rerolled format once since family logistics
+  doesn't fit a history piece at all and format 12 was also just used
+  on the immediately prior post, landed on format 13 (history-led,
+  cost as second-half payoff), a strong genuine fit. Landed short of
+  tier 4, one real short video plus verified history doesn't stretch
+  to 1,000 words without restating facts, said so here rather than
+  padding further. Published 2026-10-26 as
+  `akihabara-electronics-district-history-radio-shack`, 786 words.
+  Topic `en/shopping`. Zero uses of "actually" or "genuinely" in the
+  published body (written clean on the first two drafting passes, no
+  crutch words caught or cut). No `mark_photo_used` call, video-only
+  source.
