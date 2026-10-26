@@ -54,3 +54,39 @@ more recent entries. When this file nears 400 lines too, start
   Zero uses of "actually" or "genuinely" in the published body (6
   "actually" and 1 "genuinely" caught and cut across drafts). Real
   AL_Vault photo used in cover and body, `mark_photo_used` called.
+- **Free kao-hame face-cutout board in Shinsekai versus the roughly
+  400-yen purikura booth already covered.** 08:00 UTC firing
+  (2026-10-25). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads via `get_destinations`.
+  Re-sorted the full photo catalog by `uploaded_newest` rather than
+  city browsing, the technique that found the ramen-shop photo last
+  firing, and found a batch of eight unused (`used_in_count: 0`)
+  photos from a June 3, 2023 Shinsekai stop: kids posing at a
+  Tsutenkaku-shaped face-cutout board, genuinely uncovered. Confirmed
+  via `grep` that both existing Tsutenkaku/Shinsekai posts cover the
+  tower and the neighborhood's free walk but never mention the
+  cutout board itself. Checked the thumbnail's tone first (cheerful
+  kid photo, matches the content, no concern). Researched real
+  history via WebSearch before drafting: the Japanese name "kaohame"
+  (face-insert) was coined by researcher Ijichi Hiroyuki for a 2001
+  book because the format had no settled name before that, and the
+  concept itself isn't Japanese at all, American illustrator Cassius
+  Coolidge patented "comic foregrounds," the same head-hole-in-a-
+  painted-canvas idea, in the US in 1874. Rolled length tier 1 (quick
+  hit, 450-600 words) and format 10 (budget-tier framing, cheap
+  version vs splurge version of the same thing) from CLAUDE.md's
+  system; the free cutout board and the already-covered ~400 yen
+  purikura booth are both souvenir-photo formats, a genuine fit for
+  format 10 without needing a reroll. Cross-referenced rather than
+  re-deriving: linked the existing purikura post for its real cost
+  and mechanics instead of repeating them, confirmed resolving in
+  the built HTML. No `AffiliateBox`: neither the free board nor
+  purikura is Klook/GYG bookable, consistent with how the purikura
+  post itself handled the same situation. Published 2026-10-25 as
+  `kao-hame-face-cutout-board-shinsekai-purikura-comparison`, 552
+  words, within the rolled tier. Topic `en/osaka`. Zero uses of
+  "actually" or "genuinely" in the published body (written clean on
+  the first pass, no crutch words caught or cut). Two real AL_Vault
+  photos used (cover and one in-body), `mark_photo_used` called for
+  both.

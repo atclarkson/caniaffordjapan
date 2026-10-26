@@ -1,10 +1,15 @@
 # Blog article ideas
 
 A running backlog, not a schedule. Add to this whenever an idea comes up.
-The daily post routine (CLAUDE.md) checks `src/data/posts/en/` for what's
-already covered and `docs/klook-priority-activities.md` for Klook priority
-activities first; this file is the third place to check for what's next,
-picked whenever nothing higher priority fits that day.
+**As of 2026-10-26 the routine posts once a day, not 4x/day, each day a
+different column, see `CLAUDE.md` "Weekly calendar" and
+`docs/weekly-calendar.md`.** Entries before that date reflect the old
+4x/day cadence, provenance only, not a format to repeat. The routine
+checks `src/data/posts/en/` for what's already covered and
+`docs/klook-priority-activities.md` for Klook priority activities first
+(Throwback Thursday/Food Friday especially); this file is the third place
+to check for what's next, picked whenever nothing higher priority fits
+that day's column.
 
 Move an idea to "Done" with a link to the post once it's published, don't
 delete it. Older "Done" entries get moved out to numbered archive files
@@ -18,26 +23,27 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
 
 ## Ideas
 
-- **BLOCKED, no real material yet: Ginza sumo experience, with the
-  Klook code.** A real, current lead as of 2026-09-12: a Klook
-  marketing email (fall flash sale, forwarded by the site owner)
-  featured "Tokyo Ginza Sumo Experience," 50% off, 4.8 stars, 10K+
-  booked. That's Ginza, not Asakusa, note the correct neighborhood
-  rather than the original idea's guess. Checked AL_Vault on
-  2026-09-12 (`search_photos text: "sumo"`), zero results, the family
-  has never actually done this. Per the site's own rule, real trips
-  only, don't write this from the marketing email alone. Stays
-  blocked until there's a real visit to draw from. If one happens: the
-  email had no clickable links (a flattened print-to-PDF), find the
-  real Klook activity page URL independently (web search
-  "site:klook.com Tokyo Ginza Sumo Experience" worked for the
-  Disney/USJ post) before using klookRedirect, and note that
-  ADAMANDLINDSKLOOK's general new/existing user tiers apply to any
-  Klook cart over $50 regardless of activity, only the separate 1%
-  tier is restricted to the named list in `klookCode.ts`, so the code
-  is worth including either way. Flash sale discounts like the 50%
-  off seen in the email are time limited, verify the current rate
-  before publishing rather than quoting September's number.
+- **UNBLOCKED 2026-10-26 for Klook Wednesday specifically: Ginza sumo
+  experience, with the Klook code.** Was BLOCKED on "no real family
+  visit"; the new weekly calendar's Klook Wednesday column doesn't
+  require one (see `CLAUDE.md` "Weekly calendar"), so this is fair
+  game for a Wednesday now, just write it as an honest researched
+  recommendation, not a fake first-person account. A real lead as of
+  2026-09-12: a Klook marketing email (fall flash sale, forwarded by
+  the site owner) featured "Tokyo Ginza Sumo Experience," 50% off, 4.8
+  stars, 10K+ booked. That's Ginza, not Asakusa, note the correct
+  neighborhood rather than the original idea's guess. The email had no
+  clickable links (a flattened print-to-PDF), find the real Klook
+  activity page URL independently (web search "site:klook.com Tokyo
+  Ginza Sumo Experience" worked for the Disney/USJ post) before using
+  klookRedirect, and note that ADAMANDLINDSKLOOK's general new/existing
+  user tiers apply to any Klook cart over $50 regardless of activity,
+  only the separate 1% tier is restricted to the named list in
+  `klookCode.ts`, so the code is worth including either way. The 50%
+  flash-sale figure is six weeks stale as of this update, it was time
+  limited even in September, confirm the real current rate, rating,
+  and review count on Klook's own page before publishing rather than
+  quoting that number.
 - **AL_Vault pool status as of the 08:00 UTC 2026-10-24 firing: no new
   post found this firing, both priority sources exhausted and an
   exhaustive AL_Vault sweep came up empty.** Checked `get_destinations`
@@ -100,42 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Free kao-hame face-cutout board in Shinsekai versus the roughly
-  400-yen purikura booth already covered.** 08:00 UTC firing
-  (2026-10-25). Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Confirmed zero new AL_Vault uploads via `get_destinations`.
-  Re-sorted the full photo catalog by `uploaded_newest` rather than
-  city browsing, the technique that found the ramen-shop photo last
-  firing, and found a batch of eight unused (`used_in_count: 0`)
-  photos from a June 3, 2023 Shinsekai stop: kids posing at a
-  Tsutenkaku-shaped face-cutout board, genuinely uncovered. Confirmed
-  via `grep` that both existing Tsutenkaku/Shinsekai posts cover the
-  tower and the neighborhood's free walk but never mention the
-  cutout board itself. Checked the thumbnail's tone first (cheerful
-  kid photo, matches the content, no concern). Researched real
-  history via WebSearch before drafting: the Japanese name "kaohame"
-  (face-insert) was coined by researcher Ijichi Hiroyuki for a 2001
-  book because the format had no settled name before that, and the
-  concept itself isn't Japanese at all, American illustrator Cassius
-  Coolidge patented "comic foregrounds," the same head-hole-in-a-
-  painted-canvas idea, in the US in 1874. Rolled length tier 1 (quick
-  hit, 450-600 words) and format 10 (budget-tier framing, cheap
-  version vs splurge version of the same thing) from CLAUDE.md's
-  system; the free cutout board and the already-covered ~400 yen
-  purikura booth are both souvenir-photo formats, a genuine fit for
-  format 10 without needing a reroll. Cross-referenced rather than
-  re-deriving: linked the existing purikura post for its real cost
-  and mechanics instead of repeating them, confirmed resolving in
-  the built HTML. No `AffiliateBox`: neither the free board nor
-  purikura is Klook/GYG bookable, consistent with how the purikura
-  post itself handled the same situation. Published 2026-10-25 as
-  `kao-hame-face-cutout-board-shinsekai-purikura-comparison`, 552
-  words, within the rolled tier. Topic `en/osaka`. Zero uses of
-  "actually" or "genuinely" in the published body (written clean on
-  the first pass, no crutch words caught or cut). Two real AL_Vault
-  photos used (cover and one in-body), `mark_photo_used` called for
-  both.
 - **Our actual first Worldschool Pop-Up Hub experience, a full week
   in Tokyo, months before the already-published Kawasaki meetup
   day.** 14:00 UTC firing (2026-10-25). Both priority sources
@@ -377,3 +347,51 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (written clean on the first two drafting passes, no
   crutch words caught or cut). No `mark_photo_used` call, video-only
   source.
+- **Stay Spotlight launch, Mon 2026-10-26: Kimpton Shinjuku Tokyo, the
+  brand's debut Japan property.** First post under the new weekly
+  calendar (see `CLAUDE.md`/`docs/weekly-calendar.md`). Site owner
+  handed over real, working Hotels.com and Expedia affiliate-link
+  examples mid-session (a Kimpton Shinjuku hotel page, a Mt Fuji/Hakone
+  Expedia activity page), confirming both partners have a genuine
+  landing-page wrapper formula, not just a flat storefront link as
+  previously documented. Built and verified `expediaRedirect()` /
+  `hotelsRedirect()` in `src/data/affiliates.ts` against the exact
+  examples given (byte-for-byte match via a Node script, except one
+  Expedia example had a stray `?&` artifact from however it was
+  copied, confirmed harmless and not a flaw in the function). Picked
+  Kimpton Shinjuku itself (the property in the site owner's own
+  example) as the debut subject: researched real history (IHG's first
+  Japan Kimpton, announced July 2018, opened October 2, 2020, deep in
+  pandemic border closures, same week as Kimpton Bangkok), real
+  property facts (Art Deco boutique near Shinjuku Gyoen, ~150 rooms,
+  room sizes, amenities, rooftop bar, Jones Café, District brasserie),
+  real but hedged pricing (roughly $336-509/night across recent
+  snapshots, explicitly not live pricing), real rating caveats (9.6/10
+  aggregator score on a small review sample; Michelin lists it with no
+  score, no verified stay). Added real Kimpton brand history (founded
+  1981, Bill Kimpton, IHG's $430M acquisition in 2014/2015, the real
+  pet-friendly policy) as a genuine second section rather than padding.
+  Cross-referenced the existing Narita transit post for the real N'EX
+  fare/time rather than re-deriving it. No AL_Vault photo (family
+  hasn't stayed there, and per the new honesty rule that's fine, no
+  disclaimer needed, just never claimed a visit). Wikimedia Commons hit
+  its now-familiar persistent rate limit on the `action=query` search/
+  imageinfo endpoints again, but `Special:FilePath` (a direct redirect
+  to the file, no api.php query) worked immediately and wasn't rate
+  limited, a real workaround worth remembering for future firings, now
+  documented in `CLAUDE.md` "Images". Used a real, licensed Commons
+  photo of Shinjuku Gyoen National Garden (the hotel's own neighborhood
+  landmark, no Commons photo of the hotel itself existed) with full
+  attribution (Basile Morin, CC BY-SA 4.0). Rolled length tier 3
+  (standard, 800-1,000 words) and format 13 (history-led, cost as
+  second-half payoff) from CLAUDE.md's system, format 13 fit naturally
+  given the real pandemic-opening hook. Landed just under tier 3 (779
+  words before the Commons attribution line), said so rather than
+  padding further. Published 2026-10-26 as
+  `kimpton-shinjuku-tokyo-stay-spotlight`. Topic `en/hotels-stays` (new
+  topic, created for this column). Real Hotels.com and Expedia
+  affiliate links via `AffiliateBox` `overrides`, both verified
+  resolving correctly in the built HTML. Zero uses of "actually" or
+  "genuinely" in the published body (6 "actually" and 2 "genuinely"
+  caught and cut across drafts). No `mark_photo_used` call, Commons
+  photo, not AL_Vault.
