@@ -37,7 +37,7 @@ export const enChrome = {
   // qui aligne six colonnes copie un SaaS et sert d'egout a liens morts.
   footer: {
     tagline:
-      "Can I Afford Japan? is the running, honest answer to that question, from the Clarkson family's own trips. Real photos, real prices, no guessing.",
+      "Can I Afford Japan? is the running, honest answer to that question, from the Clarkson family's own trips and real research in between. Real pricing, never invented.",
     colRead: "Read",
     colStudio: "About",
     colLegal: "Legal",

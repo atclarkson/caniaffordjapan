@@ -27,28 +27,35 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 
 ## Not yet covered, in priority order
 
+**Update 2026-10-26:** the site owner's new weekly calendar (see
+`CLAUDE.md` "Weekly calendar") added a Klook Wednesday column that
+explicitly does not require a real family visit, only honest research
+and no false claim of having done the thing. That unblocks all three
+entries below for a Wednesday post, they were only stuck on "the family
+hasn't been", not on missing pricing or activity data. Still worth a
+real-photo check first (a trip since the dates below would upgrade one
+of these to a real-visit post instead, always the stronger version),
+but absence of photos is no longer a reason to skip them on a
+Wednesday.
+
 - teamLab Botanical Garden Osaka, activity id 73632, was $11.49, 4.4 stars,
   7,266 reviews. Nagai Botanical Garden, Osaka. Pairs naturally with the
   `osaka` topic. Checked AL_Vault on 2026-09-16, zero photos for this
-  specific spot, the family hasn't been. Stays here until there's a real
-  visit.
+  specific spot, the family hasn't been.
 - teamLab Forest Fukuoka, activity id 51227, was $15.35, 4.7 stars, 1,638
   reviews. Inside the BOSS E.ZO FUKUOKA complex. A `fukuoka` topic now
   exists (added 2026-10-14 for the PayPay Dome baseball post). Checked
   AL_Vault again on 2026-10-14: the family's confirmed June 2023
   Fukuoka material (1 photo, 2 vlogs, now used in that baseball post)
   is a Hawks game and general trip footage, nothing that confirms a
-  visit to this specific teamLab location. Stays here until there's
-  real material for this attraction specifically, don't write it from
-  the baseball visit alone.
+  visit to this specific teamLab location.
 - teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
   443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
   2026-09-16, zero Okinawa content of any kind, the family has never been.
-## Not yet covered
 
-Nothing left on this list has real family photos to draw from (see
-the entries above). Recheck AL_Vault periodically in case that
-changes with a future trip.
+Re-check each activity's current price, rating, and review count against
+the live Klook page before publishing either way, the numbers above are
+from the 2025-12-28 export and will have moved.
 
 ## Done, outside this list's original scope
 

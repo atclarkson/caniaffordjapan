@@ -7,7 +7,7 @@ const siteData: SiteDataProps = {
   name: "Can I Afford Japan?",
   title: "Can I Afford Japan? - Real prices for an affordable Japan trip",
   description:
-    "Honest, photo-backed posts on what things really cost in Japan: temples, food, transit, and day trips, from the Clarkson family's own trips. No stock photos, no guessing.",
+    "Honest, well-researched posts on what things really cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and real research in between. Real pricing, never invented.",
   useViewTransitions: true,
 
   demoNotice: "",

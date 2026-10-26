@@ -1,10 +1,12 @@
 {
   "name": "The Clarksons",
   "role": "Adam, Lindsay, and their three kids",
-  "bio": "Adam and Lindsay travel with their three kids, Lily, Cora, and Harper, and have been back to Japan more times than they can count. Every post here comes from a trip they actually took, with a real price attached.",
+  "bio": "Adam and Lindsay travel with their three kids, Lily, Cora, and Harper, and have been back to Japan more times than they can count. Posts from their own trips come with real photos and prices; posts on hotels, bookable activities, and gear are researched the same honest way, real current pricing, no invented details, and we say so either way.",
   "avatar": "../../../assets/authors/the-clarksons.jpg",
   "links": [
     { "label": "Adam and Linds", "href": "https://www.adamandlinds.com/" },
-    { "label": "YouTube", "href": "https://www.youtube.com/channel/UCj0i52MS0IQwvPvXVmcZ9OA" }
+    { "label": "YouTube", "href": "https://www.youtube.com/channel/UCj0i52MS0IQwvPvXVmcZ9OA" },
+    { "label": "Instagram", "href": "https://www.instagram.com/adamandlinds" },
+    { "label": "TikTok", "href": "https://www.tiktok.com/@adamandlinds" }
   ]
 }

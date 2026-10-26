@@ -14,12 +14,12 @@ export const enPages = {
   home: {
     metaTitle: "Can I Afford Japan? - real prices for an affordable Japan trip",
     metaDescription:
-      "Honest, photo-backed posts on what things really cost in Japan: temples, food, transit, and day trips, from the Clarkson family's own trips. No stock photos, no guessing.",
+      "Honest, well-researched posts on what things really cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and real research in between. Real pricing, never invented.",
     eyebrow: "Can I Afford Japan?",
     heroTitle: "Can we actually afford this trip?",
     heroAccent: "afford",
     heroLede:
-      "A real, running answer, written from our own trips to Japan. Real photos, real prices, no guessing.",
+      "A real, running answer: our own trips to Japan, plus honestly researched hotels, activities, and gear. Real pricing, never invented.",
     heroPrimary: "Start reading",
     heroSecondary: "About us",
     heroRecent: "Latest posts",
