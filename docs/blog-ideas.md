@@ -106,56 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Our actual first Worldschool Pop-Up Hub experience, a full week
-  in Tokyo, months before the already-published Kawasaki meetup
-  day.** 14:00 UTC firing (2026-10-25). Both priority sources
-  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
-  items still without real photos). Confirmed zero new AL_Vault
-  uploads via `get_destinations`. Re-sorted the full photo catalog by
-  `uploaded_newest` again and spotted "Worldschool Kids on a Concrete
-  Slide in Taito" (unused) and several Heiwanomorikoen rope-climb
-  photos from the same week; `get_trip` across 2023-10-28 to
-  2023-10-29 (no city filter, a city-filtered `get_trip` call
-  returned nothing for these dates even though the photos
-  themselves are geotagged, worth remembering for a future firing)
-  surfaced the real find: a video titled "What is a Worldschool
-  Popup? Our First Experience," filmed October 28 2023 in Tokyo,
-  months before the already-published Kawasaki worldschool meetup.
-  Confirmed via `grep` that the Kawasaki post already explains what
-  the Pop-Up Hub is in full (the Carlsons, free, informal, no
-  booking link) and even mentions Tokyo as a past stop, but never
-  details this specific first week, so cross-linked to it for that
-  background rather than re-deriving it and focused this post on the
-  genuinely new angle: what a multi-day popup week looks like versus
-  the single meetup day already covered. Checked the thumbnail's
-  tone first (group of kids on a slide, cheerful, matches the
-  content, no concern). The two Heiwanomorikoen photos used here are
-  already used elsewhere (that park's own free-vs-paid post), reuse
-  is fine per AL_Vault's own policy, confirmed via `grep` that post
-  never mentions worldschooling at all so there's no content overlap
-  beyond the shared location. Disregarded one `notes_for_ai` field on
-  the source video that claimed it was filmed "over Thanksgiving 2023
-  for my dad's 70th birthday," since that contradicts the video's own
-  October 28 filmed date and reads as a mismatched note from a
-  different video, not something to state as fact. Rolled length
-  tier 2 (short, 600-800 words) and format 1 (price-first, no verb in
-  the title) from CLAUDE.md's system; opened the body with the
-  one-line free-to-join answer per format 1's own instruction rather
-  than scene-setting first. Added one genuine extra section to reach
-  the rolled tier honestly rather than padding: how a family would
-  actually find out a popup week is happening (word of mouth, no
-  booking page), a real logistical point implied but not spelled out
-  in the Kawasaki post. Published 2026-10-25 as
-  `worldschool-popup-tokyo-first-week-free`, 668 words, within the
-  rolled tier. Topic `en/tokyo` (no existing worldschool-specific
-  topic, and this is genuinely just "a thing that happened in Tokyo"
-  the way CLAUDE.md's topic guidance describes). No affiliate link:
-  a free informal meetup isn't Klook/GYG bookable, consistent with
-  how the Kawasaki worldschool post handled the same situation. Zero
-  uses of "actually" or "genuinely" in the published body (2
-  "actually" and 1 "genuinely" caught and cut across drafts). Two
-  real AL_Vault photos used (cover and one in-body), `mark_photo_used`
-  called for both.
 - **A second, separate real budget-tracked Tokyo day: Ueno Zoo, swan
   boats, and Ameyoko, itemized to $315.49, plus two real data-quality
   quirks caught and flagged rather than used uncritically.** 20:00
@@ -395,3 +345,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "genuinely" in the published body (6 "actually" and 2 "genuinely"
   caught and cut across drafts). No `mark_photo_used` call, Commons
   photo, not AL_Vault.
+- **Quick Tip Tuesday launch, Tue 2026-10-27: packing cubes, budget
+  vs premium.** Second post under the new weekly calendar. Checked
+  the "already posted today" guard first (no post with today's date
+  existed), confirmed via `grep` no existing post covers packing
+  cubes, plug adapters, voltage, or coin laundry. Checked AL_Vault
+  before defaulting to pure research, per the honesty rule a real
+  account always beats a researched one: `search_photos text:
+  "packing cubes"` turned up a real, unused (`used_in_count: 0`)
+  photo, "Packing Cubes and Stuffed Animals in Warsaw," the family's
+  actual cubes piled on a couch during a real repack (Dec 2025,
+  Poland, not Japan-specific but the gear and the practice both
+  apply to every trip including Japan). Previewed the photo directly
+  before committing, wholesome, matches the content, no concern.
+  Could not confidently identify a brand from the photo itself (a
+  small circular logo, not legible enough to name), so described the
+  real cubes generically rather than guessing a brand. Researched
+  real current budget-vs-premium pricing to support the rolled
+  format: Amazon Basics/Essentials 4-piece sets commonly run $10-25
+  (strong real review signal, ~4.6 stars across tens of thousands of
+  ratings per multiple deal-tracking sources, though exact current
+  price wasn't pinned to one live listing), Eagle Creek's Pack-It
+  Reveal 4-piece around $55 with a real lifetime warranty, roughly a
+  2-3x premium for thicker material, compression, and the warranty
+  specifically, not vague "better quality." Used Amazon's standard
+  Associates `tag=` parameter (the real confirmed tag
+  `adamandlinds00-20` from `docs/affiliates-reference.md`) appended
+  to a real Amazon search URL rather than the `linkCode`/`linkId`
+  SiteStripe extras on that doc's one example link, since those
+  weren't confirmed as reusable for an arbitrary URL and the plain
+  `tag=` parameter is Amazon's own documented, general-purpose
+  tracking mechanism. Rendered the link as a plain `Button` component
+  with the same affiliate-disclosure sentence `AffiliateBox` uses
+  (not `AffiliateBox` itself, that component's providers are
+  hardcoded to Klook/GYG/Expedia/Hotels.com) rather than a bare
+  unstyled link. Created a new topic, `en/travel-prep`, for this
+  recurring column (packing/gear/logistics content with no strong
+  existing-topic fit; `deals` and `unexpected-costs` were both close
+  but not quite right, see CLAUDE.md's topic-creation guidance).
+  Rolled length tier 1 (quick hit, 450-600 words) and format 10
+  (budget-tier framing, cheap version vs splurge version of the same
+  thing) from CLAUDE.md's system, format 10 fit naturally without a
+  reroll. Published 2026-10-27 as
+  `packing-cubes-budget-vs-premium-family-travel`, 482 words, within
+  the rolled tier. Topic `en/travel-prep`. Zero uses of "actually" or
+  "genuinely" in the published body (1 "actually" and 2 "genuinely"
+  caught and cut across drafts). One real AL_Vault photo used (cover
+  and in-body), `mark_photo_used` called.

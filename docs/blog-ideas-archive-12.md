@@ -90,3 +90,53 @@ more recent entries. When this file nears 400 lines too, start
   the first pass, no crutch words caught or cut). Two real AL_Vault
   photos used (cover and one in-body), `mark_photo_used` called for
   both.
+- **Our actual first Worldschool Pop-Up Hub experience, a full week
+  in Tokyo, months before the already-published Kawasaki meetup
+  day.** 14:00 UTC firing (2026-10-25). Both priority sources
+  exhausted again (same BLOCKED Ginza sumo idea, all three teamLab
+  items still without real photos). Confirmed zero new AL_Vault
+  uploads via `get_destinations`. Re-sorted the full photo catalog by
+  `uploaded_newest` again and spotted "Worldschool Kids on a Concrete
+  Slide in Taito" (unused) and several Heiwanomorikoen rope-climb
+  photos from the same week; `get_trip` across 2023-10-28 to
+  2023-10-29 (no city filter, a city-filtered `get_trip` call
+  returned nothing for these dates even though the photos
+  themselves are geotagged, worth remembering for a future firing)
+  surfaced the real find: a video titled "What is a Worldschool
+  Popup? Our First Experience," filmed October 28 2023 in Tokyo,
+  months before the already-published Kawasaki worldschool meetup.
+  Confirmed via `grep` that the Kawasaki post already explains what
+  the Pop-Up Hub is in full (the Carlsons, free, informal, no
+  booking link) and even mentions Tokyo as a past stop, but never
+  details this specific first week, so cross-linked to it for that
+  background rather than re-deriving it and focused this post on the
+  genuinely new angle: what a multi-day popup week looks like versus
+  the single meetup day already covered. Checked the thumbnail's
+  tone first (group of kids on a slide, cheerful, matches the
+  content, no concern). The two Heiwanomorikoen photos used here are
+  already used elsewhere (that park's own free-vs-paid post), reuse
+  is fine per AL_Vault's own policy, confirmed via `grep` that post
+  never mentions worldschooling at all so there's no content overlap
+  beyond the shared location. Disregarded one `notes_for_ai` field on
+  the source video that claimed it was filmed "over Thanksgiving 2023
+  for my dad's 70th birthday," since that contradicts the video's own
+  October 28 filmed date and reads as a mismatched note from a
+  different video, not something to state as fact. Rolled length
+  tier 2 (short, 600-800 words) and format 1 (price-first, no verb in
+  the title) from CLAUDE.md's system; opened the body with the
+  one-line free-to-join answer per format 1's own instruction rather
+  than scene-setting first. Added one genuine extra section to reach
+  the rolled tier honestly rather than padding: how a family would
+  actually find out a popup week is happening (word of mouth, no
+  booking page), a real logistical point implied but not spelled out
+  in the Kawasaki post. Published 2026-10-25 as
+  `worldschool-popup-tokyo-first-week-free`, 668 words, within the
+  rolled tier. Topic `en/tokyo` (no existing worldschool-specific
+  topic, and this is genuinely just "a thing that happened in Tokyo"
+  the way CLAUDE.md's topic guidance describes). No affiliate link:
+  a free informal meetup isn't Klook/GYG bookable, consistent with
+  how the Kawasaki worldschool post handled the same situation. Zero
+  uses of "actually" or "genuinely" in the published body (2
+  "actually" and 1 "genuinely" caught and cut across drafts). Two
+  real AL_Vault photos used (cover and one in-body), `mark_photo_used`
+  called for both.
