@@ -140,3 +140,64 @@ more recent entries. When this file nears 400 lines too, start
   "actually" and 1 "genuinely" caught and cut across drafts). Two
   real AL_Vault photos used (cover and one in-body), `mark_photo_used`
   called for both.
+- **A second, separate real budget-tracked Tokyo day: Ueno Zoo, swan
+  boats, and Ameyoko, itemized to $315.49, plus two real data-quality
+  quirks caught and flagged rather than used uncritically.** 20:00
+  UTC firing (2026-10-25). Both priority sources exhausted again
+  (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. The
+  uploaded-newest photo sweep ran into diminishing returns this
+  firing (several strong leads turned out to already be covered:
+  the Oct 31 2023 Halloween/Ueno Zoo day is fully covered by the
+  existing Halloween costumes post, the Nov 3 2023 Kawasaki straw
+  capes are fully covered by two Nihon Minkaen posts, the Nov 23 2023
+  "unused" chicken-noodle-soup photo turned out to be part of the
+  already-published Thanksgiving post's same meal, and a Nov 24 2023
+  Torikizoku visit had no payment-screen photo to price from), so
+  pivoted to the still-unchecked 41-video `Tokyo` pool with `view:
+  summary`, piped to a file and read with `python3`/`jq` since the
+  full-text result exceeded the tool's token limit. Found "Tokyo with
+  Kids: Ueno Zoo, Parks, and Ameyoko Market Guide," whose own
+  description carries a real, itemized "DAY 3 Balance Sheet" (¥49,295
+  / $315.49 total, 8 line items). Confirmed via `grep` this is a
+  genuinely separate video/trip from the one behind the already-
+  published `tokyo-300-dollar-day-budget-week-reality-check` post
+  (that post's $401.34 came from a 7-day vlog filmed 2025-09-10 to
+  09-17; this one is from a differently-branded "Worldschooling
+  Japan" day-numbered series referencing a Jan 2025 exchange rate),
+  and was careful in the post itself not to imply they're the same
+  week. While checking the other two videos in this Day-numbered
+  series (Odaiba, Asakusa) for comparison, caught a real data-quality
+  problem before using any of it: both list an identical "Day 1
+  Balance Sheet," same figures down to the cent, even though the
+  Asakusa video's own title calls itself Day 2, a clear copy-paste
+  error in the family's own video descriptions. Named this honestly
+  in the post rather than silently using only the clean number,
+  including a second honesty flag: the Ueno day's own ¥27,475
+  accommodation line is the exact same figure already cited in the
+  separately-published Day Zero cost breakdown post from a different
+  video/trip entirely, which could mean a real similar nightly rate
+  or a templated placeholder value, said plainly that the data alone
+  can't tell us which. Downloaded and visually inspected the video's
+  thumbnail before using it as cover (cheerful market/beer scene,
+  matches the content, no tone concern), noted in the post that the
+  thumbnail's own on-screen "Day 3 Total: $69.72" is a mid-video
+  running-counter snapshot, not the final total, and did not use that
+  figure. Cross-referenced rather than re-deriving: the Day 1 post,
+  the Ameyoko post, the Halloween-costumes post (for the already-
+  published per-ticket zoo/boat prices), and the Day Zero post, all
+  four confirmed resolving in the built HTML. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 2 (free-vs-paid split) from
+  CLAUDE.md's system, format 2 fit naturally once the day's free
+  walking (Ameyoko, Ueno Park) and paid balance-sheet items were laid
+  out side by side. Landed short of tier 4, one video description's
+  worth of real itemized data plus honest cross-references doesn't
+  stretch to 1,300 words without restating facts, said so here rather
+  than padding further. Published 2026-10-25 as
+  `ueno-ameyoko-day-budget-breakdown-free-vs-paid`, 780 words. Topic
+  `en/tokyo`. No affiliate link: this post is about a cost breakdown,
+  not a bookable activity, and the zoo/boat bookable links already
+  live on the posts it cross-links to. Zero uses of "actually" or
+  "genuinely" in the published body (2 "actually" and 2 "genuinely"
+  caught and cut across drafts). No `mark_photo_used` call, video
+  thumbnail only, no AL_Vault photo used.
