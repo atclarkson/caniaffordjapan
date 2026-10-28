@@ -1,11 +1,19 @@
 # Klook priority activities
 
-The site owner shared a "high earning activity" export from the Klook
-affiliate dashboard (not committed here, it's mostly non-Japan and 21,000+
-rows) and asked us to prioritize the teamLab activities in particular.
-Numbers below are what the export listed as of 2025-12-28, treat them as a
-starting point, not current pricing, always link to Klook for the real
-current price rather than quoting these in a post.
+**Update 2026-10-28:** superseded by a live source. The site owner added a
+Google Drive "Brand Assets" folder, growing over time with per-brand
+reference material, check it regularly (see `CLAUDE.md` "Affiliate
+links"). Its `Klook` subfolder holds a `Klook Info` doc (code/terms,
+cross-checked against `klookCode.ts`, fully consistent, no changes
+needed) and a "High-earning activity" spreadsheet, 4,221 real worldwide
+activities (813 Japan) with ready `aid=42202&aff_adid=1184628` affiliate
+links, current price/rating/review count, and images, dated 2026-01-03.
+Use a listed row's exact `Affiliate link` cell as-is rather than
+rebuilding one with `klookRedirect`/`klookJrRedirect`, this export's
+aid/aff_adid pairing is real but different from either hardcoded
+constant in `affiliates.ts`, don't assume they're interchangeable.
+Figures below are a starting point either way, not current pricing,
+always confirm against the live Klook page before publishing.
 
 ## Covered so far
 
@@ -38,24 +46,42 @@ of these to a real-visit post instead, always the stronger version),
 but absence of photos is no longer a reason to skip them on a
 Wednesday.
 
-- teamLab Botanical Garden Osaka, activity id 73632, was $11.49, 4.4 stars,
-  7,266 reviews. Nagai Botanical Garden, Osaka. Pairs naturally with the
-  `osaka` topic. Checked AL_Vault on 2026-09-16, zero photos for this
-  specific spot, the family hasn't been.
-- teamLab Forest Fukuoka, activity id 51227, was $15.35, 4.7 stars, 1,638
-  reviews. Inside the BOSS E.ZO FUKUOKA complex. A `fukuoka` topic now
-  exists (added 2026-10-14 for the PayPay Dome baseball post). Checked
+- teamLab Botanical Garden Osaka, activity id 73632, Drive export
+  (2026-01-03) has it at $11.49, 4.4 stars, 7,297 reviews, affiliate
+  link `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/73632-teamlab-botanical-garden-osaka/%3Fad_feed_id%3D999`.
+  Nagai Botanical Garden, Osaka. Pairs naturally with the `osaka` topic.
+  Checked AL_Vault on 2026-09-16, zero photos for this specific spot,
+  the family hasn't been.
+- teamLab Forest Fukuoka, activity id 51227, Drive export has it at
+  $15.29, 4.7 stars, 1,642 reviews, affiliate link
+  `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/51227-teamlab-forest-fukuoka/%3Fad_feed_id%3D999`.
+  Inside the BOSS E.ZO FUKUOKA complex. A `fukuoka` topic now exists
+  (added 2026-10-14 for the PayPay Dome baseball post). Checked
   AL_Vault again on 2026-10-14: the family's confirmed June 2023
   Fukuoka material (1 photo, 2 vlogs, now used in that baseball post)
   is a Hawks game and general trip footage, nothing that confirms a
   visit to this specific teamLab location.
-- teamLab Future Park Okinawa, activity id 98927, was $12.79, 4.8 stars,
-  443 reviews. Naha. Also has no topic yet. Checked AL_Vault on
-  2026-09-16, zero Okinawa content of any kind, the family has never been.
+- teamLab Future Park Okinawa, activity id 98927, Drive export has it
+  at $12.75, 4.8 stars, 445 reviews, affiliate link
+  `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/98927-teamlab-future-park-okinawa/%3Fad_feed_id%3D999`.
+  Naha. Also has no topic yet. Checked AL_Vault on 2026-09-16, zero
+  Okinawa content of any kind, the family has never been.
 
 Re-check each activity's current price, rating, and review count against
-the live Klook page before publishing either way, the numbers above are
-from the 2025-12-28 export and will have moved.
+the live Klook page before publishing either way, the figures above are
+from a 2026-01-03 export and will have moved.
+
+**On the Ginza sumo idea (see `docs/blog-ideas.md`):** the exact "Tokyo
+Ginza Sumo Experience" activity from the 2026-09-12 marketing email isn't
+a row in the Drive export, keep searching for its real page independently
+before publishing. The export does carry several other real, bookable
+Tokyo sumo experiences as a fallback or alternative angle if that one
+page can't be found: Asakusa Sumo Club Sumo Show Admission with
+Chankonabe, id 109994, $101.99, 4.8 stars, 1,076 reviews; Sumo Practice
+Watch with a Specialist Reporter (Ryogoku), id 93976, $91.79, 5 stars,
+462 reviews. Both affiliate links follow the same
+`aid=42202&aff_adid=1184628` pattern as above, swap in the activity id
+and slug.
 
 ## Done, outside this list's original scope
 

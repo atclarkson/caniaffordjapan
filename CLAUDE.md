@@ -345,6 +345,9 @@ partner IDs there without the site owner's say so.
   This does not extend to posts with no Klook link at all (an eSIM
   comparison, a restaurant bill, an arcade write-up), don't force one
   in where there's nothing to book through Klook in the first place.
+- Google Drive "Brand Assets" folder (added 2026-10-28, growing): its
+  Klook activities export has ready links with current pricing, use a
+  row's link as-is, not `klookRedirect`. See `docs/klook-priority-activities.md`.
 - Telecom affiliates (eSIM, physical SIM, pocket wifi: Airalo, Airhub,
   Holafly, Japan Wireless, Nomad, Simlocal, amigo eSIM, Sim Options,
   Ubigi) live in `src/data/telecomAffiliates.ts`. Same rule as Klook: no
@@ -379,8 +382,7 @@ partner IDs there without the site owner's say so.
 ## Style
 
 - Second person, direct, numbers first (yen and a rough USD conversion).
-- No AI sounding filler ("in today's fast paced world", "let's dive in",
-  forced "in conclusion" wrap ups).
+- No AI sounding filler ("in today's fast paced world", "let's dive in", forced "in conclusion" wrap ups).
 - Real people only: Adam, Lindsay, and their kids Lily, Cora, Harper.
 - No em dashes or en dashes anywhere, in code or in post copy. Plain
   hyphens, commas, or periods instead. `pnpm lint:house` enforces this
