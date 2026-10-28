@@ -195,3 +195,12 @@ const groundLight = resolveToken("color-background", lightBlock);
 <slot />
 
 {siteSettings.useViewTransitions && <ClientRouter />}
+
+{/* Impact.com (affiliate network) impression tracking pixel, added
+    2026-10-28 at the site owner's request. Verbatim, do not edit without
+    a new snippet from the site owner, this is a real tracking id. */}
+<script
+  is:inline
+  type="text/javascript"
+  set:html={`(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A6317027-7b6a-46e2-abf5-486e3555968a1.js','script','impactStat',document,window);impactStat('trackImpression');`}
+/>
