@@ -201,3 +201,60 @@ more recent entries. When this file nears 400 lines too, start
   "genuinely" in the published body (2 "actually" and 2 "genuinely"
   caught and cut across drafts). No `mark_photo_used` call, video
   thumbnail only, no AL_Vault photo used.
+- **Super Nintendo World's Power-Up Band: real per-player mechanics
+  and what three kids each wanting their own actually costs.** 02:00
+  UTC firing (2026-10-26, new day). Both priority sources exhausted
+  again (same BLOCKED Ginza sumo idea, all three teamLab items still
+  without real photos). Confirmed zero new AL_Vault uploads. A
+  promising-looking unused photo ("Getting Our Miis at Super Nintendo
+  World Japan") turned out to be a mislabeled AI caption for the
+  already-published Nintendo Museum Uji visit (same visit, 90 seconds
+  apart from an already-used photo in that post), not USJ's actual
+  Super Nintendo World, caught via `grep` against the existing post
+  before writing a word from it. Pivoted to the `Tokyo`-labeled video
+  pool's two Super Nintendo World USJ videos (vlogs 85 and 148, Nov
+  2022 and Sept 2023) instead: confirmed via `grep` that three
+  existing posts mention Super Nintendo World only in passing (ticket
+  comparisons, Express Pass mechanics) and none cover the zone's own
+  Power-Up Band system, a genuinely uncovered angle. Checked the "148"
+  video's thumbnail tone before using it as cover (cheerful, Osaka/USJ
+  text directly in frame, clear content match, no concern). Attempted
+  a Wikimedia Commons lookup earlier this firing for an unrelated
+  lead (Tokyo Metropolitan Government Building observation deck,
+  abandoned, see note below) and hit a persistent Commons API rate
+  limit ("too many requests") across three retries with increasing
+  delays, likely the shared proxy IP rather than this session's own
+  request rate; noting this here in case a future firing hits the
+  same wall and wants to know it's not newly broken. Researched real
+  current facts via WebSearch: Power-Up Band pricing (~¥4,900
+  tax included per fan pricing guides, hedged since the official USJ
+  site is JS-rendered and WebFetch couldn't pull the figure directly),
+  the Key Challenge/Bowser Jr. boss-fight mechanics, and the real
+  one-band-one-player detail that drives this post's actual angle.
+  Verified Mario Kart: Koopa's Challenge's real naming (Bowser is
+  called Koopa in Japanese Mario media, same ride as "Bowser's
+  Challenge" at the Hollywood/Orlando sister parks) and confirmed
+  opening date (March 18, 2021, after an earlier Feb 4 date slipped
+  on a COVID-era state of emergency). Declined to quote 1-UP Factory
+  merchandise prices after finding only a likely-stale ~2021 price
+  list with no confirmed 2026 figures, said so by omission rather
+  than repeating outdated numbers. Cross-referenced rather than
+  re-deriving: the existing Express Pass post for base ticket/Express
+  Pass pricing and the free timed-entry mechanic, confirmed resolving
+  in the built HTML. No AffiliateBox: the cross-linked Express Pass
+  post already carries the real USJ Klook link, consistent with the
+  no-forced-duplication principle, and the Power-Up Band itself isn't
+  Klook-bookable. Rolled length tier 5 (deep dive, 1,300-1,600 words)
+  and format 2 (free-vs-paid split) from CLAUDE.md's system; rerolled
+  format once as a deliberate variety call since the immediately
+  prior firing's post also used format 2, landed on format 12
+  (family-logistics framing), a genuinely better fit anyway given the
+  real one-band-per-player angle. Landed well short of tier 5, one
+  real mechanic plus honest cross-references doesn't stretch to 1,300
+  words without inventing detail or repeating stale pricing, said so
+  here rather than padding further. Published 2026-10-26 as
+  `super-nintendo-world-power-up-band-three-kids`, 870 words. Topic
+  `en/theme-parks`. Zero uses of "actually" or "genuinely" in the
+  published body (3 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, video thumbnail only, no AL_Vault photo
+  used.

@@ -106,63 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Super Nintendo World's Power-Up Band: real per-player mechanics
-  and what three kids each wanting their own actually costs.** 02:00
-  UTC firing (2026-10-26, new day). Both priority sources exhausted
-  again (same BLOCKED Ginza sumo idea, all three teamLab items still
-  without real photos). Confirmed zero new AL_Vault uploads. A
-  promising-looking unused photo ("Getting Our Miis at Super Nintendo
-  World Japan") turned out to be a mislabeled AI caption for the
-  already-published Nintendo Museum Uji visit (same visit, 90 seconds
-  apart from an already-used photo in that post), not USJ's actual
-  Super Nintendo World, caught via `grep` against the existing post
-  before writing a word from it. Pivoted to the `Tokyo`-labeled video
-  pool's two Super Nintendo World USJ videos (vlogs 85 and 148, Nov
-  2022 and Sept 2023) instead: confirmed via `grep` that three
-  existing posts mention Super Nintendo World only in passing (ticket
-  comparisons, Express Pass mechanics) and none cover the zone's own
-  Power-Up Band system, a genuinely uncovered angle. Checked the "148"
-  video's thumbnail tone before using it as cover (cheerful, Osaka/USJ
-  text directly in frame, clear content match, no concern). Attempted
-  a Wikimedia Commons lookup earlier this firing for an unrelated
-  lead (Tokyo Metropolitan Government Building observation deck,
-  abandoned, see note below) and hit a persistent Commons API rate
-  limit ("too many requests") across three retries with increasing
-  delays, likely the shared proxy IP rather than this session's own
-  request rate; noting this here in case a future firing hits the
-  same wall and wants to know it's not newly broken. Researched real
-  current facts via WebSearch: Power-Up Band pricing (~¥4,900
-  tax included per fan pricing guides, hedged since the official USJ
-  site is JS-rendered and WebFetch couldn't pull the figure directly),
-  the Key Challenge/Bowser Jr. boss-fight mechanics, and the real
-  one-band-one-player detail that drives this post's actual angle.
-  Verified Mario Kart: Koopa's Challenge's real naming (Bowser is
-  called Koopa in Japanese Mario media, same ride as "Bowser's
-  Challenge" at the Hollywood/Orlando sister parks) and confirmed
-  opening date (March 18, 2021, after an earlier Feb 4 date slipped
-  on a COVID-era state of emergency). Declined to quote 1-UP Factory
-  merchandise prices after finding only a likely-stale ~2021 price
-  list with no confirmed 2026 figures, said so by omission rather
-  than repeating outdated numbers. Cross-referenced rather than
-  re-deriving: the existing Express Pass post for base ticket/Express
-  Pass pricing and the free timed-entry mechanic, confirmed resolving
-  in the built HTML. No AffiliateBox: the cross-linked Express Pass
-  post already carries the real USJ Klook link, consistent with the
-  no-forced-duplication principle, and the Power-Up Band itself isn't
-  Klook-bookable. Rolled length tier 5 (deep dive, 1,300-1,600 words)
-  and format 2 (free-vs-paid split) from CLAUDE.md's system; rerolled
-  format once as a deliberate variety call since the immediately
-  prior firing's post also used format 2, landed on format 12
-  (family-logistics framing), a genuinely better fit anyway given the
-  real one-band-per-player angle. Landed well short of tier 5, one
-  real mechanic plus honest cross-references doesn't stretch to 1,300
-  words without inventing detail or repeating stale pricing, said so
-  here rather than padding further. Published 2026-10-26 as
-  `super-nintendo-world-power-up-band-three-kids`, 870 words. Topic
-  `en/theme-parks`. Zero uses of "actually" or "genuinely" in the
-  published body (3 "actually" caught and cut across drafts). No
-  `mark_photo_used` call, video thumbnail only, no AL_Vault photo
-  used.
 - **Abandoned lead: Tokyo Metropolitan Government Building's free
   observation decks.** Same 02:00 UTC firing (2026-10-26), tried
   before the Super Nintendo World angle above. Found via the same
@@ -362,3 +305,44 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   `pnpm check` (0 errors) and `node scripts/house.mjs` (no
   violations) both re-run clean after the correction, and the new
   Amazon link confirmed resolving correctly in the built HTML.
+- **Klook Wednesday launch, Wed 2026-10-28: teamLab Botanical Garden
+  Osaka.** Third post under the new weekly calendar, first Klook
+  Wednesday. Checked the "already posted today" guard first (no post
+  with today's date existed). Checked AL_Vault before defaulting to
+  research, per the honesty rule: `get_destinations` showed no new
+  uploads since the last check and Osaka's pool is unchanged (133
+  photos, 14 videos, same as documented), no photos tie to this
+  specific spot, the family hasn't been. Picked it over the other two
+  unblocked teamLab items (Fukuoka, Okinawa) per
+  `docs/klook-priority-activities.md`'s stated priority order. Used
+  the Google Drive "Brand Assets" export's exact affiliate link
+  (aid=42202/aff_adid=1184628) rather than `klookRedirect`, per the
+  new policy in `CLAUDE.md`. Researched real current facts via
+  WebSearch/WebFetch: osaka-info.jp (the Osaka tourism board, a
+  reliable official-adjacent source) gave the real opening date (July
+  29, 2022), adult price (1,800 yen and up), closure days (2nd/4th
+  Monday), and garden size (240,000 sqm, ~1,200 plant types); hedged
+  honestly on exact seasonal hours where sources disagreed (last entry
+  consistently 20:30 except one source citing 21:00 on spring
+  weekends). Found a genuinely different angle partway through
+  research rather than writing another generic ticket-price post: this
+  is a real working botanical garden that only becomes the art
+  installation after sunset, and what's displayed changes with what's
+  actually blooming (a real cherry-blossom "Resonating Trees" run, a
+  real ~20,000-sunflower August run), a structural difference from the
+  two fixed-exhibit Tokyo museums already covered. Used topic
+  `en/teamlab` to match those two sibling posts rather than `en/osaka`,
+  cross-linked both by real URL, confirmed resolving in the built HTML.
+  No Commons photo exists of the night installation itself (searched,
+  zero results), so used a real Commons daytime photo of the garden's
+  promenade instead (Laitche, CC BY-SA 4.0), captioned honestly as a
+  daytime shot rather than implying it shows the night art, downloaded
+  via the `Special:FilePath` workaround after `action=query` hit its
+  usual rate limit. Rolled length tier 2 (short, 600-800 words) and
+  format 14 (direct address) from CLAUDE.md's system, format 14 fit
+  naturally, no reroll needed. Published 2026-10-28 as
+  `teamlab-botanical-garden-osaka-ticket-price`, 614 words, within the
+  rolled tier. Topic `en/teamlab`. Zero uses of "actually" or
+  "genuinely" in the published body (1 "actually" and 1 "genuinely"
+  caught and cut across drafts). No `mark_photo_used` call, Commons
+  photo, not AL_Vault.

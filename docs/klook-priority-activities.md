@@ -17,6 +17,20 @@ always confirm against the live Klook page before publishing.
 
 ## Covered so far
 
+- teamLab Botanical Garden Osaka, activity id 73632. Published 2026-10-28
+  as `teamlab-botanical-garden-osaka-ticket-price.mdx`, Klook Wednesday,
+  honestly researched (the family hasn't been). Topic `en/teamlab`,
+  matching the two Tokyo posts rather than `en/osaka`. Used the Drive
+  export's exact affiliate link, not `klookRedirect`. Real angle found
+  while researching: unlike the two fixed Tokyo museums, this one is a
+  genuine working botanical garden that only becomes the art installation
+  after sunset, and what's on display shifts with what's actually
+  blooming (a cherry-blossom "Resonating Trees" run, an August run with
+  ~20,000 lit sunflowers), a real structural difference worth leading
+  with rather than another generic "ticket price" post. Cover: a real
+  Wikimedia Commons daytime photo of the garden's promenade (no Commons
+  image exists of the night installation itself), captioned honestly as
+  daytime. Length tier 2, format 14.
 - teamLab Planets TOKYO (Toyosu), activity id 25300, was $24.29, 4.7 stars,
   18,326 reviews. Post: `teamlab-planets-tokyo-ticket-price.mdx`.
 - teamLab Borderless Tokyo (Azabudai Hills). Not in the export as its own
@@ -38,7 +52,7 @@ real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 **Update 2026-10-26:** the site owner's new weekly calendar (see
 `CLAUDE.md` "Weekly calendar") added a Klook Wednesday column that
 explicitly does not require a real family visit, only honest research
-and no false claim of having done the thing. That unblocks all three
+and no false claim of having done the thing. That unblocks both
 entries below for a Wednesday post, they were only stuck on "the family
 hasn't been", not on missing pricing or activity data. Still worth a
 real-photo check first (a trip since the dates below would upgrade one
@@ -46,12 +60,6 @@ of these to a real-visit post instead, always the stronger version),
 but absence of photos is no longer a reason to skip them on a
 Wednesday.
 
-- teamLab Botanical Garden Osaka, activity id 73632, Drive export
-  (2026-01-03) has it at $11.49, 4.4 stars, 7,297 reviews, affiliate
-  link `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/73632-teamlab-botanical-garden-osaka/%3Fad_feed_id%3D999`.
-  Nagai Botanical Garden, Osaka. Pairs naturally with the `osaka` topic.
-  Checked AL_Vault on 2026-09-16, zero photos for this specific spot,
-  the family hasn't been.
 - teamLab Forest Fukuoka, activity id 51227, Drive export has it at
   $15.29, 4.7 stars, 1,642 reviews, affiliate link
   `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/51227-teamlab-forest-fukuoka/%3Fad_feed_id%3D999`.
