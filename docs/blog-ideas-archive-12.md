@@ -140,6 +140,30 @@ more recent entries. When this file nears 400 lines too, start
   "actually" and 1 "genuinely" caught and cut across drafts). Two
   real AL_Vault photos used (cover and one in-body), `mark_photo_used`
   called for both.
+- **Abandoned lead: Tokyo Metropolitan Government Building's free
+  observation decks.** Same 02:00 UTC firing (2026-10-26), tried
+  before the Super Nintendo World angle above. Found via the same
+  7-day \$300/day vlog's own chapter list (Day 5: Shinjuku & Shibuya
+  includes the building), confirmed via `grep` genuinely uncovered
+  anywhere on the site, and the free-entry fact is well corroborated
+  across many independent sources. Abandoned for two real reasons:
+  no AL_Vault photo exists from this family's own visit to the
+  building specifically (the $300/day vlog's Sept 2025 Tokyo trip has
+  no supporting photo shoot in AL_Vault at all), and the video's own
+  thumbnail depicts an unrelated scene (Mario/Peach at the airport)
+  that would be a real content mismatch as a cover for a skyscraper
+  post. Tried sourcing a Wikimedia Commons reference image per
+  CLAUDE.md's explicit allowance for this exact situation and hit a
+  persistent Commons API rate limit across three retries, see the
+  note on the published Super Nintendo World entry above (now in
+  this same archive file). Separately, current hours for the
+  building's North and South decks are genuinely conflicting across
+  sources (one official-looking page turned out to be a stale 2021
+  COVID-reopening notice), which would have meant hedging hours
+  fairly heavily even with a cover image solved. A real, free,
+  genuinely uncovered Tokyo attraction, worth revisiting if a future
+  firing finds a working image source or real family photos of the
+  building turn up in AL_Vault.
 - **A second, separate real budget-tracked Tokyo day: Ueno Zoo, swan
   boats, and Ameyoko, itemized to $315.49, plus two real data-quality
   quirks caught and flagged rather than used uncritically.** 20:00

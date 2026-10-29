@@ -106,29 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Abandoned lead: Tokyo Metropolitan Government Building's free
-  observation decks.** Same 02:00 UTC firing (2026-10-26), tried
-  before the Super Nintendo World angle above. Found via the same
-  7-day \$300/day vlog's own chapter list (Day 5: Shinjuku & Shibuya
-  includes the building), confirmed via `grep` genuinely uncovered
-  anywhere on the site, and the free-entry fact is well corroborated
-  across many independent sources. Abandoned for two real reasons:
-  no AL_Vault photo exists from this family's own visit to the
-  building specifically (the $300/day vlog's Sept 2025 Tokyo trip has
-  no supporting photo shoot in AL_Vault at all), and the video's own
-  thumbnail depicts an unrelated scene (Mario/Peach at the airport)
-  that would be a real content mismatch as a cover for a skyscraper
-  post. Tried sourcing a Wikimedia Commons reference image per
-  CLAUDE.md's explicit allowance for this exact situation and hit a
-  persistent Commons API rate limit across three retries, see the
-  note on the published Super Nintendo World entry above. Separately,
-  current hours for the building's North and South decks are
-  genuinely conflicting across sources (one official-looking page
-  turned out to be a stale 2021 COVID-reopening notice), which would
-  have meant hedging hours fairly heavily even with a cover image
-  solved. A real, free, genuinely uncovered Tokyo attraction, worth
-  revisiting if a future firing finds a working image source or
-  real family photos of the building turn up in AL_Vault.
 - **Akihabara's real history as a postwar radio-parts black market,
   long before anime and arcades took over.** 08:00 UTC firing
   (2026-10-26). Both priority sources exhausted again (same BLOCKED
@@ -345,4 +322,57 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   rolled tier. Topic `en/teamlab`. Zero uses of "actually" or
   "genuinely" in the published body (1 "actually" and 1 "genuinely"
   caught and cut across drafts). No `mark_photo_used` call, Commons
-  photo, not AL_Vault.
+  photo, not AL_Vault. (Cover later swapped to the Drive export's real
+  Klook photo, see `docs/klook-priority-activities.md`'s 2026-10-29
+  update on that same entry.)
+- **Throwback Thursday, 2026-10-29: a third real Round1 visit, this one
+  in Narashino, Chiba, near the Tokyo Disney area.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). Both AL_Vault priority checks and `docs/klook-priority-
+  activities.md`/`docs/blog-ideas.md` offered nothing new (today
+  requires a real visit, so the Wednesday-only unblocked Klook ideas
+  don't apply). Confirmed zero new AL_Vault uploads via
+  `get_destinations`. Swept several smaller photo pools not previously
+  exhausted: Bunkyo (16 photos, the handful of unused ones turned out
+  to be spares from the same May 2024 Tokyo Dome game already covered
+  by `tokyo-dome-stadium-beer-price-worth-it.mdx`, confirmed by
+  previewing them, two of the three photos that post embeds are from
+  this exact cluster), Hiroshima's 4-video pool (confirmed all four
+  already mined across the four existing Hiroshima posts, down to the
+  Shinkansen-bathroom aside), and Yokohama (6 photos/2 videos, capybara,
+  Cup Noodle Museum, Sankei-en, and the Christmas market all already
+  published). The real find: searching city `Nara` in `search_photos`
+  also surfaced a `Narashino`-tagged photo via a substring match (worth
+  remembering, the city filter isn't exact-match only), "The Girls
+  Discover Round1 in Japan," unused, with a real AI caption confirming
+  it's a Round1 arcade/bowling complex, not Nara temple content. `get_trip`
+  for 2025-09-25/27 (no city filter, same workaround as past firings)
+  placed it the day after a real Sept 25, 2025 Tokyo Disney Sea day
+  (Urayasu-tagged photos, also unused but Disney is already extensively
+  covered elsewhere). Confirmed via `grep` this is a third distinct real
+  Round1 visit, after the two Sakai posts and the June 2023 Harper's-
+  birthday Osaka one, this one with only a single photo and no video, a
+  genuinely thin but real new visit. Verified the specific store (Round1
+  Stadium Narashino, Shibazono 1-4-5) via WebSearch against the photo's
+  own `location_label`, confirmed real address, nearest station,
+  shuttle-bus stops, and parking capacity. Found real current weekday
+  pricing for this specific store but didn't quote it in the post,
+  it's from an unknown-vintage Japanese listings site and conflicts
+  slightly with the existing Sakai post's confirmed May 2026 nationwide
+  figures, cross-linked to that post for pricing instead of risking two
+  different numbers on the site. Rolled length tier 5 (deep dive,
+  1,300-1,600 words) and format 8 (itemized breakdown) from CLAUDE.md's
+  system; format 8 didn't fit at all, nothing to itemize for a one-photo
+  visit with no receipt, rerolled once to format 9 (heads-up/warning
+  framing), used honestly: the real trap is a reader assuming from this
+  site's own prior Round1 posts that the chain is Osaka-only. Landed
+  far short of tier 5, one real photo plus a real address and a
+  cross-linked pricing table doesn't stretch past a quick hit without
+  inventing detail, said so here rather than padding. Published
+  2026-10-29 as `round1-narashino-near-tokyo-disney-not-just-osaka`,
+  509 words. Topic `en/tokyo` (no Chiba-specific topic exists, and one
+  photo doesn't justify creating one, same "thing that happened in
+  Tokyo" pattern as the worldschool popup post). Zero uses of "actually"
+  or "genuinely" in the published body (2 "actually" caught and cut
+  across drafts). One real AL_Vault photo used (cover and in-body, the
+  same image), `mark_photo_used` called.
