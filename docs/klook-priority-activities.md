@@ -27,10 +27,17 @@ always confirm against the live Klook page before publishing.
   after sunset, and what's on display shifts with what's actually
   blooming (a cherry-blossom "Resonating Trees" run, an August run with
   ~20,000 lit sunflowers), a real structural difference worth leading
-  with rather than another generic "ticket price" post. Cover: a real
-  Wikimedia Commons daytime photo of the garden's promenade (no Commons
-  image exists of the night installation itself), captioned honestly as
-  daytime. Length tier 2, format 14.
+  with rather than another generic "ticket price" post. Cover updated
+  2026-10-29: the Drive export's own `Image URL 1`/`Image URL 2` for
+  this row are real teamLab installation photos (checked both, genuine,
+  not stock), the site owner confirmed a booking site's own marketing
+  photo is now an acceptable fallback cover (see `CLAUDE.md` "Images"),
+  so the Commons daytime garden photo was swapped for the real night
+  installation shot, with a second Klook-hosted photo added in the
+  body (remote, not downloaded, same as an AL_Vault body image) and an
+  honest "via Klook's listing" caption on both, no false CC claim.
+  Also added an explicit closing link-back to both Tokyo teamLab posts
+  in addition to the inline intro links. Length tier 2, format 14.
 - teamLab Planets TOKYO (Toyosu), activity id 25300, was $24.29, 4.7 stars,
   18,326 reviews. Post: `teamlab-planets-tokyo-ticket-price.mdx`.
 - teamLab Borderless Tokyo (Azabudai Hills). Not in the export as its own

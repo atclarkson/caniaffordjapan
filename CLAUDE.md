@@ -366,27 +366,26 @@ partner IDs there without the site owner's say so.
   curl -sS -o src/assets/covers/<slug>.jpg "<vault large_url>"
   ```
   then reference it in frontmatter as `../../../assets/covers/<slug>.jpg`.
-- Author avatars, if a new author is ever added, go in
-  `src/assets/authors/<slug>.jpg` the same way.
-- In body gallery photos can stay remote (the vault CDN), no download
-  needed for those.
+- Author avatars, if a new author is ever added, go in `src/assets/authors/<slug>.jpg` the same way.
+- In body, gallery photos can stay remote (vault CDN, or a booking
+  site's own CDN, e.g. Klook's `res.klook.com`), no download needed.
 - For a researched no-visit-required post with no real AL_Vault photo
-  (see "Weekly calendar"), the cover comes from Wikimedia Commons, same
-  process as `ds-lite-mod-workshop-pixel-lab-akihabara.mdx` and
+  (see "Weekly calendar"), prefer Wikimedia Commons first, same process
+  as `ds-lite-mod-workshop-pixel-lab-akihabara.mdx` and
   `kimpton-shinjuku-tokyo-stay-spotlight.mdx` (Special:FilePath works
-  when the regular `action=query` API rate-limits). Never use a hotel's,
-  operator's, or booking site's own marketing photo, unlicensed. No
-  Commons image for the specific property/activity: pick a different one
-  that has one, or use a genuine Commons photo of its neighborhood.
+  when `action=query` rate-limits). A hotel's, operator's, or booking
+  site's own marketing photo (a Klook listing's `Image URL` columns,
+  see "Affiliate links") is a fine fallback when Commons has nothing
+  (owner confirmed 2026-10-29); download the cover the same way as any
+  other. Caption honestly either way, never implying it's ours or
+  falsely CC licensed: "Photo via Klook's listing" or similar.
 
 ## Style
 
 - Second person, direct, numbers first (yen and a rough USD conversion).
 - No AI sounding filler ("in today's fast paced world", "let's dive in", forced "in conclusion" wrap ups).
 - Real people only: Adam, Lindsay, and their kids Lily, Cora, Harper.
-- No em dashes or en dashes anywhere, in code or in post copy. Plain
-  hyphens, commas, or periods instead. `pnpm lint:house` enforces this
-  repo wide and will fail the check otherwise.
+- No em dashes or en dashes anywhere, in code or in post copy. Plain hyphens, commas, or periods instead, `pnpm lint:house` enforces this repo wide.
 
 ## Local commands
 
