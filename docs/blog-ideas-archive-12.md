@@ -282,3 +282,53 @@ more recent entries. When this file nears 400 lines too, start
   published body (3 "actually" caught and cut across drafts). No
   `mark_photo_used` call, video thumbnail only, no AL_Vault photo
   used.
+- **Akihabara's real history as a postwar radio-parts black market,
+  long before anime and arcades took over.** 08:00 UTC firing
+  (2026-10-26). Both priority sources exhausted again (same BLOCKED
+  Ginza sumo idea, all three teamLab items still without real
+  photos). Confirmed zero new AL_Vault uploads. Chased the Akihabara
+  "Electronics Shopping, Trading Cards" chapter from the 7-day
+  $300/day vlog's own chapter list again (the same video already
+  mined for the Ueno/Ameyoko post), confirmed no AL_Vault photos
+  exist for that Sept 2025 trip and the video's own thumbnail
+  (Mario/Peach at the airport) would be a content mismatch for an
+  Akihabara-specific post, so widened the search to the family's
+  other real Akihabara material: a 37-second short, "Headed to
+  Akihabara! If you ever miss the good ol' RadioShack days, this is
+  your Mecca," real footage of jump-wire and component shop shelves,
+  completely uncovered anywhere on the site (confirmed via `grep`,
+  the two existing Akihabara posts cover a DS Lite mod workshop and a
+  street-kart tour, neither touches the district's own history).
+  Downloaded and visually inspected the short's thumbnail before
+  using it as cover (genuine electronics-shop shelf shot, on-screen
+  text matches the content directly, no concern), embedded the short
+  itself in the post body via `youtube-nocookie.com` since it's the
+  real source material, not just a cover image. Researched real,
+  verified history via WebSearch: the 1869-fire/Chinkasha-shrine name
+  origin, the postwar radio-parts black market (hedged honestly
+  between two sources that disagree on the exact 1949 Occupation-ban
+  vs. 1951 stall-order mechanics), the 1970s shift into computers,
+  and AKB48's real namesake connection to the district (founded
+  December 2005, theater on an upper floor of Akihabara's own Don
+  Quijote store), a genuine, verifiable marker of how far the
+  neighborhood's identity shifted from its radio-parts origins.
+  Cross-referenced rather than re-deriving: the existing DS Lite
+  workshop and street-kart posts for their own real current pricing,
+  both confirmed resolving in the built HTML. No AffiliateBox: the
+  cross-linked DS Lite workshop post already carries the real Klook
+  link for Akihabara, consistent with the no-forced-duplication
+  principle, and this post's own subject, walking the neighborhood
+  and its history, isn't separately bookable. Rolled length tier 4
+  (long, 1,000-1,300 words) and format 12 (family-logistics framing)
+  from CLAUDE.md's system; rerolled format once since family logistics
+  doesn't fit a history piece at all and format 12 was also just used
+  on the immediately prior post, landed on format 13 (history-led,
+  cost as second-half payoff), a strong genuine fit. Landed short of
+  tier 4, one real short video plus verified history doesn't stretch
+  to 1,000 words without restating facts, said so here rather than
+  padding further. Published 2026-10-26 as
+  `akihabara-electronics-district-history-radio-shack`, 786 words.
+  Topic `en/shopping`. Zero uses of "actually" or "genuinely" in the
+  published body (written clean on the first two drafting passes, no
+  crutch words caught or cut). No `mark_photo_used` call, video-only
+  source.

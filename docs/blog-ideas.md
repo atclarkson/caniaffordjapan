@@ -106,56 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Akihabara's real history as a postwar radio-parts black market,
-  long before anime and arcades took over.** 08:00 UTC firing
-  (2026-10-26). Both priority sources exhausted again (same BLOCKED
-  Ginza sumo idea, all three teamLab items still without real
-  photos). Confirmed zero new AL_Vault uploads. Chased the Akihabara
-  "Electronics Shopping, Trading Cards" chapter from the 7-day
-  $300/day vlog's own chapter list again (the same video already
-  mined for the Ueno/Ameyoko post), confirmed no AL_Vault photos
-  exist for that Sept 2025 trip and the video's own thumbnail
-  (Mario/Peach at the airport) would be a content mismatch for an
-  Akihabara-specific post, so widened the search to the family's
-  other real Akihabara material: a 37-second short, "Headed to
-  Akihabara! If you ever miss the good ol' RadioShack days, this is
-  your Mecca," real footage of jump-wire and component shop shelves,
-  completely uncovered anywhere on the site (confirmed via `grep`,
-  the two existing Akihabara posts cover a DS Lite mod workshop and a
-  street-kart tour, neither touches the district's own history).
-  Downloaded and visually inspected the short's thumbnail before
-  using it as cover (genuine electronics-shop shelf shot, on-screen
-  text matches the content directly, no concern), embedded the short
-  itself in the post body via `youtube-nocookie.com` since it's the
-  real source material, not just a cover image. Researched real,
-  verified history via WebSearch: the 1869-fire/Chinkasha-shrine name
-  origin, the postwar radio-parts black market (hedged honestly
-  between two sources that disagree on the exact 1949 Occupation-ban
-  vs. 1951 stall-order mechanics), the 1970s shift into computers,
-  and AKB48's real namesake connection to the district (founded
-  December 2005, theater on an upper floor of Akihabara's own Don
-  Quijote store), a genuine, verifiable marker of how far the
-  neighborhood's identity shifted from its radio-parts origins.
-  Cross-referenced rather than re-deriving: the existing DS Lite
-  workshop and street-kart posts for their own real current pricing,
-  both confirmed resolving in the built HTML. No AffiliateBox: the
-  cross-linked DS Lite workshop post already carries the real Klook
-  link for Akihabara, consistent with the no-forced-duplication
-  principle, and this post's own subject, walking the neighborhood
-  and its history, isn't separately bookable. Rolled length tier 4
-  (long, 1,000-1,300 words) and format 12 (family-logistics framing)
-  from CLAUDE.md's system; rerolled format once since family logistics
-  doesn't fit a history piece at all and format 12 was also just used
-  on the immediately prior post, landed on format 13 (history-led,
-  cost as second-half payoff), a strong genuine fit. Landed short of
-  tier 4, one real short video plus verified history doesn't stretch
-  to 1,000 words without restating facts, said so here rather than
-  padding further. Published 2026-10-26 as
-  `akihabara-electronics-district-history-radio-shack`, 786 words.
-  Topic `en/shopping`. Zero uses of "actually" or "genuinely" in the
-  published body (written clean on the first two drafting passes, no
-  crutch words caught or cut). No `mark_photo_used` call, video-only
-  source.
 - **Stay Spotlight launch, Mon 2026-10-26: Kimpton Shinjuku Tokyo, the
   brand's debut Japan property.** First post under the new weekly
   calendar (see `CLAUDE.md`/`docs/weekly-calendar.md`). Site owner
@@ -376,3 +326,41 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   or "genuinely" in the published body (2 "actually" caught and cut
   across drafts). One real AL_Vault photo used (cover and in-body, the
   same image), `mark_photo_used` called.
+- **Food Friday, 2026-10-30: CoCo Ichibanya curry, researched.** Checked
+  the "already posted today" guard first (no post with today's date
+  existed). AL_Vault had nothing: swept `food`/`convenience store`/
+  `curry`/`soba`/`dessert` text searches and the still-unused Katsushika
+  photo cluster (37 photos, confirmed via preview it's a kids'-art/
+  homeschool cluster, not food), found a real unused "End of Dinner
+  Overhead at an Osaka Restaurant" photo (2023-06-05, via `get_trip`)
+  but no restaurant name, no price, no video, too thin and too close to
+  the site's several existing unnamed-izakaya/shared-plates posts to be
+  a genuinely new angle, left it alone rather than force it. Checked
+  `src/data/posts/en/` for the full `budget-food` topic list (18 posts)
+  before picking a subject: takoyaki and okonomiyaki are only mentioned
+  in passing elsewhere, Marugame/udon the same, but CoCo Ichibanya,
+  Japan's largest curry chain, had zero mentions anywhere on the site,
+  confirmed via `grep`. Researched real facts via WebSearch/WebFetch:
+  Wikipedia's Ichibanya page for the real founding story (Tokuji and
+  Naomi Munetsugu, Bacchus coffee shop Nagoya 1974, first CoCo
+  Ichibanya Aichi 1978, House Foods Group bought the family's stake in
+  2015), real store counts (1,300+ in Japan, ~181 international per
+  Wikipedia's own country breakdown), and the real spice/rice/topping
+  pricing system (Mild/Standard free, Level 1 +25 yen up to Level 20
+  +200 yen, rice upgrades separate) from a Fun-Japan guide, hedged
+  since no single official 2026 price list was found. Real example
+  prices (a Yokosuka location's chicken cutlet curry, a KITTE Osaka
+  flagship's beef curry) cited as single-location snapshots, not a
+  national price. Rolled length tier 2 (short, 600-800 words) and
+  format 11 (time/season anchored) from CLAUDE.md's system; format 11
+  doesn't fit a no-visit researched post at all (nothing to anchor to a
+  specific day), rerolled once to format 10 (budget-tier framing),
+  a strong genuine fit given the chain's real build-to-order pricing.
+  Cover: a real, licensed Wikimedia Commons photo of the Namba
+  Sennichimae location in Osaka (Tokumeigakarinoaoshima, CC BY-SA 4.0),
+  attributed in the post body per CLAUDE.md's Images section. Published
+  2026-10-30 as `coco-ichibanya-curry-budget-vs-splurge-cost`, 601
+  words, within the rolled tier. Topic `en/budget-food`. Zero uses of
+  "actually" or "genuinely" in the published body (1 "actually" caught
+  and cut across drafts). No `mark_photo_used` call, Commons photo, not
+  AL_Vault.
