@@ -26,6 +26,13 @@ routine's job:
   `src/pages/llms.txt.ts`, `src/layouts/BaseHead.astro` (meta/OG/canonical),
   `src/js/schema.ts` (structured data), `sitemap-index.xml` (generated)
 - Cross-linking between posts, and from these pages into posts
+- `docs/search-console/<date>/`, real Google Search Console exports the
+  site owner uploads periodically: real queries, real page positions,
+  real CTR. Check the most recent dated folder's `analysis.md` for
+  findings, and ground any ranking/CTR claim in that real data rather
+  than guessing. If a fresher export shows up as an uploaded file in
+  the firing that triggers this routine, save it there and analyze it
+  before relying on an older one.
 
 ## What "better" actually means here
 
@@ -93,3 +100,21 @@ placeholder.
   traveler questions this site's posts already answer piecemeal) and
   wiring it up rather than inventing questions nobody asks just to fill
   the schema.
+- **Seed item, 2026-10-30 (not yet actioned), real Search Console data,
+  now a real 28-day pull:** site owner first uploaded a 7-day export by
+  mistake, then the real 28-day one, both saved to
+  `docs/search-console/2026-10-30/` (7-day superseded, kept in that
+  folder's `7-day-initial/` for reference only). Full writeup in
+  `analysis.md`. Confirmed, confident finding: nine real "travel
+  insurance japan" query variants, 93 combined impressions over the
+  month, zero clicks, positions 26 to 94;
+  `travel-insurance-japan-trip-cost.mdx` itself sits at position 39 on
+  101 impressions with zero clicks. Real, sustained demand this post
+  isn't capturing. Second confirmed finding (the larger sample moved
+  this from "watch" to "act"): 8 posts rank position <10 with 20+
+  impressions and still zero clicks for the month, led by
+  `japan-optician-eye-exam-glasses-cost` (132 impr, pos 7.22) and
+  `kappabashi-knife-shop-price-cheap-vs-splurge-cost` (103 impr, pos
+  7.38), a real anomaly at that sample size, not noise. The optician
+  post's title also breaks house style ("Actually"), a reasonable
+  first real test: fix the title, compare CTR on the next export.
