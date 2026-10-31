@@ -237,7 +237,7 @@ export const enPages = {
       },
       {
         title: "Affiliate disclosure",
-        body: "This site participates in affiliate programs with Klook, GetYourGuide, and Expedia. Booking links and widgets from those partners on this blog are affiliate links, and we may earn a small commission if you book through them, at no extra cost to you. We only ever link to places, tours, or hotels we'd genuinely recommend based on our own trips; the affiliate relationship never decides what we cover.",
+        body: "This site participates in affiliate programs with Klook, GetYourGuide, Expedia, Hotels.com, Viator, Amazon Associates, and several eSIM and mobile connectivity providers (Airalo, Holafly, and others, see individual posts for the current list). Booking links, widgets, and product links from those partners on this blog are affiliate links, and we may earn a small commission if you book or buy through them, at no extra cost to you. We only ever link to places, tours, hotels, or products we'd genuinely recommend; the affiliate relationship never decides what we cover.",
       },
     ],
   },
