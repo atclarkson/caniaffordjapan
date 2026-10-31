@@ -22,7 +22,7 @@ import { getSiteRoutes } from "@config/navData.json.ts";
 import siteData from "@config/siteData.json";
 import { defaultLocale, getLocale, localizePath, useTranslations } from "@i18n";
 import { entryLocale, entrySlug } from "@i18n/content";
-import { article, breadcrumbList } from "@js/schema";
+import { article, breadcrumbList, faqPage } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection, getEntry, render, type CollectionEntry } from "astro:content";
 
@@ -96,6 +96,11 @@ const crumbSchema = breadcrumbList([
   { name: t.archive.metaTitle, url: new URL(routes.posts, base).href },
   { name: post.data.title, url },
 ]);
+
+// Seulement quand l'article porte reellement une section de questions-
+// reponses visible (voir content.config.ts) : jamais de FAQPage sur un
+// contenu que la page elle-meme ne montre pas.
+const faqSchema = post.data.faq && post.data.faq.length > 0 ? faqPage(post.data.faq) : undefined;
 ---
 
 <BaseLayout
@@ -108,6 +113,7 @@ const crumbSchema = breadcrumbList([
   <Fragment slot="head">
     <script type="application/ld+json" is:inline set:html={JSON.stringify(articleSchema)} />
     <script type="application/ld+json" is:inline set:html={JSON.stringify(crumbSchema)} />
+    {faqSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />}
   </Fragment>
 
   <ReadingProgress />

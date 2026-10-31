@@ -38,6 +38,10 @@ const posts = defineCollection({
       // Un brouillon reste constructible en local mais sort des listes, du RSS,
       // du sitemap et du llms.txt, et part en noindex.
       draft: z.boolean().default(false),
+      // FAQPage JSON-LD (src/js/schema.ts), seulement quand l'article contient
+      // reellement une section de questions-reponses visible : le schema ne
+      // doit jamais decrire un contenu que la page ne montre pas.
+      faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
     }),
 });
 
