@@ -332,3 +332,51 @@ more recent entries. When this file nears 400 lines too, start
   published body (written clean on the first two drafting passes, no
   crutch words caught or cut). No `mark_photo_used` call, video-only
   source.
+- **Stay Spotlight launch, Mon 2026-10-26: Kimpton Shinjuku Tokyo, the
+  brand's debut Japan property.** First post under the new weekly
+  calendar (see `CLAUDE.md`/`docs/weekly-calendar.md`). Site owner
+  handed over real, working Hotels.com and Expedia affiliate-link
+  examples mid-session (a Kimpton Shinjuku hotel page, a Mt Fuji/Hakone
+  Expedia activity page), confirming both partners have a genuine
+  landing-page wrapper formula, not just a flat storefront link as
+  previously documented. Built and verified `expediaRedirect()` /
+  `hotelsRedirect()` in `src/data/affiliates.ts` against the exact
+  examples given (byte-for-byte match via a Node script, except one
+  Expedia example had a stray `?&` artifact from however it was
+  copied, confirmed harmless and not a flaw in the function). Picked
+  Kimpton Shinjuku itself (the property in the site owner's own
+  example) as the debut subject: researched real history (IHG's first
+  Japan Kimpton, announced July 2018, opened October 2, 2020, deep in
+  pandemic border closures, same week as Kimpton Bangkok), real
+  property facts (Art Deco boutique near Shinjuku Gyoen, ~150 rooms,
+  room sizes, amenities, rooftop bar, Jones Café, District brasserie),
+  real but hedged pricing (roughly $336-509/night across recent
+  snapshots, explicitly not live pricing), real rating caveats (9.6/10
+  aggregator score on a small review sample; Michelin lists it with no
+  score, no verified stay). Added real Kimpton brand history (founded
+  1981, Bill Kimpton, IHG's $430M acquisition in 2014/2015, the real
+  pet-friendly policy) as a genuine second section rather than padding.
+  Cross-referenced the existing Narita transit post for the real N'EX
+  fare/time rather than re-deriving it. No AL_Vault photo (family
+  hasn't stayed there, and per the new honesty rule that's fine, no
+  disclaimer needed, just never claimed a visit). Wikimedia Commons hit
+  its now-familiar persistent rate limit on the `action=query` search/
+  imageinfo endpoints again, but `Special:FilePath` (a direct redirect
+  to the file, no api.php query) worked immediately and wasn't rate
+  limited, a real workaround worth remembering for future firings, now
+  documented in `CLAUDE.md` "Images". Used a real, licensed Commons
+  photo of Shinjuku Gyoen National Garden (the hotel's own neighborhood
+  landmark, no Commons photo of the hotel itself existed) with full
+  attribution (Basile Morin, CC BY-SA 4.0). Rolled length tier 3
+  (standard, 800-1,000 words) and format 13 (history-led, cost as
+  second-half payoff) from CLAUDE.md's system, format 13 fit naturally
+  given the real pandemic-opening hook. Landed just under tier 3 (779
+  words before the Commons attribution line), said so rather than
+  padding further. Published 2026-10-26 as
+  `kimpton-shinjuku-tokyo-stay-spotlight`. Topic `en/hotels-stays` (new
+  topic, created for this column). Real Hotels.com and Expedia
+  affiliate links via `AffiliateBox` `overrides`, both verified
+  resolving correctly in the built HTML. Zero uses of "actually" or
+  "genuinely" in the published body (6 "actually" and 2 "genuinely"
+  caught and cut across drafts). No `mark_photo_used` call, Commons
+  photo, not AL_Vault.

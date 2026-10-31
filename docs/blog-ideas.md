@@ -106,54 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Stay Spotlight launch, Mon 2026-10-26: Kimpton Shinjuku Tokyo, the
-  brand's debut Japan property.** First post under the new weekly
-  calendar (see `CLAUDE.md`/`docs/weekly-calendar.md`). Site owner
-  handed over real, working Hotels.com and Expedia affiliate-link
-  examples mid-session (a Kimpton Shinjuku hotel page, a Mt Fuji/Hakone
-  Expedia activity page), confirming both partners have a genuine
-  landing-page wrapper formula, not just a flat storefront link as
-  previously documented. Built and verified `expediaRedirect()` /
-  `hotelsRedirect()` in `src/data/affiliates.ts` against the exact
-  examples given (byte-for-byte match via a Node script, except one
-  Expedia example had a stray `?&` artifact from however it was
-  copied, confirmed harmless and not a flaw in the function). Picked
-  Kimpton Shinjuku itself (the property in the site owner's own
-  example) as the debut subject: researched real history (IHG's first
-  Japan Kimpton, announced July 2018, opened October 2, 2020, deep in
-  pandemic border closures, same week as Kimpton Bangkok), real
-  property facts (Art Deco boutique near Shinjuku Gyoen, ~150 rooms,
-  room sizes, amenities, rooftop bar, Jones Café, District brasserie),
-  real but hedged pricing (roughly $336-509/night across recent
-  snapshots, explicitly not live pricing), real rating caveats (9.6/10
-  aggregator score on a small review sample; Michelin lists it with no
-  score, no verified stay). Added real Kimpton brand history (founded
-  1981, Bill Kimpton, IHG's $430M acquisition in 2014/2015, the real
-  pet-friendly policy) as a genuine second section rather than padding.
-  Cross-referenced the existing Narita transit post for the real N'EX
-  fare/time rather than re-deriving it. No AL_Vault photo (family
-  hasn't stayed there, and per the new honesty rule that's fine, no
-  disclaimer needed, just never claimed a visit). Wikimedia Commons hit
-  its now-familiar persistent rate limit on the `action=query` search/
-  imageinfo endpoints again, but `Special:FilePath` (a direct redirect
-  to the file, no api.php query) worked immediately and wasn't rate
-  limited, a real workaround worth remembering for future firings, now
-  documented in `CLAUDE.md` "Images". Used a real, licensed Commons
-  photo of Shinjuku Gyoen National Garden (the hotel's own neighborhood
-  landmark, no Commons photo of the hotel itself existed) with full
-  attribution (Basile Morin, CC BY-SA 4.0). Rolled length tier 3
-  (standard, 800-1,000 words) and format 13 (history-led, cost as
-  second-half payoff) from CLAUDE.md's system, format 13 fit naturally
-  given the real pandemic-opening hook. Landed just under tier 3 (779
-  words before the Commons attribution line), said so rather than
-  padding further. Published 2026-10-26 as
-  `kimpton-shinjuku-tokyo-stay-spotlight`. Topic `en/hotels-stays` (new
-  topic, created for this column). Real Hotels.com and Expedia
-  affiliate links via `AffiliateBox` `overrides`, both verified
-  resolving correctly in the built HTML. Zero uses of "actually" or
-  "genuinely" in the published body (6 "actually" and 2 "genuinely"
-  caught and cut across drafts). No `mark_photo_used` call, Commons
-  photo, not AL_Vault.
 - **Quick Tip Tuesday launch, Tue 2026-10-27: packing cubes, budget
   vs premium.** Second post under the new weekly calendar. Checked
   the "already posted today" guard first (no post with today's date
@@ -364,3 +316,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   "actually" or "genuinely" in the published body (1 "actually" caught
   and cut across drafts). No `mark_photo_used` call, Commons photo, not
   AL_Vault.
+- **Day Trip Saturday, 2026-10-31: a guided Mt Fuji/Hakone day tour,
+  researched, cross-linked to the real DIY visit.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). Checked AL_Vault for real day-trip material first, per the
+  honesty rule: found a genuinely promising lead, a real Kobe day-trip
+  video (vlog 150) with an honest "Kobe beef didn't live up to the
+  hype" angle and a real Viator link in its own description, but
+  `grep` confirmed it's already fully covered by
+  `kobe-beef-day-trip-steak-not-worth-hype.mdx` (steak, Chinatown,
+  getting there, the Viator link, all of it), a dead end rather than a
+  new post. Used the real Mt Fuji/Hakone Expedia activity already on
+  file in `docs/weekly-calendar.md`'s Day Trip Saturday section
+  instead (a2457971), confirmed via `grep` it hadn't been used in any
+  post yet. Direct `WebFetch` on the Expedia listing hit a 429, so
+  researched real current details via WebSearch instead: operator
+  (Japan Panoramic Tours), real price (~$155/adult, varies by Shinjuku-
+  no-lunch vs Ginza-with-lunch departure), real itinerary (Mt Fuji
+  Fifth Station, Hakone Ropeway over Owakudani), ~10 hour duration,
+  Shinkansen return. Found a real, honest differentiator from the
+  family's own DIY Hakone Free Pass post rather than writing a
+  duplicate: the guided tour reaches Mt Fuji's Fifth Station, which
+  isn't on the Free Pass route at all, a genuine reason to pick one
+  over the other rather than a generic "guided vs DIY" framing.
+  Cross-linked `hakone-free-pass-worth-it-cost-breakdown.mdx` by real
+  URL, confirmed resolving in the built HTML. Used `expediaRedirect()`
+  wrapping the real activity URL via `AffiliateBox`, confirmed the
+  real wrapped link (camref/creativeref/adref) resolves correctly in
+  the built HTML. Rolled length tier 2 (short, 600-800 words) and
+  format 14 (direct address) from CLAUDE.md's system, format 14 fit
+  naturally, no reroll needed. Cover: a real, licensed Wikimedia
+  Commons photo of Mt Fuji from Lake Ashi (Suicasmo, CC BY-SA 4.0),
+  attributed in the post body. Published 2026-10-31 as
+  `mt-fuji-hakone-guided-day-tour-bullet-train-cost`, 607 words,
+  within the rolled tier. Topic `en/day-trips`. Zero uses of "actually"
+  or "genuinely" in the published body (3 "actually" and 1 "genuinely"
+  caught and cut across drafts, including one draft sentence inventing
+  an unsourced "locals half-joke" detail, cut entirely rather than
+  softened, never invent color to fill a gap). No `mark_photo_used`
+  call, Commons photo, not AL_Vault.
