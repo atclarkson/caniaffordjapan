@@ -61,7 +61,7 @@ export const enPages = {
     storyParagraphs: [
       "In May 2022, Adam and Lindsay sold their house in Indiana, packed five bags, and left with three kids aged 6, 5, and 2. It was supposed to be a one year trip. Four years and more than 33 countries later, they're still going, worldschooling the girls along the way.",
       "Japan wasn't the first stop, but it's the one that stuck. After a first trip in 2022 and a longer one in 2023, they kept coming back: months at a time in Osaka and Fukuoka, repeat trips to Tokyo, enough visits that Japan is now Cora and Harper's favorite country in the world.",
-      "This site is the real prices from those trips. What a temple actually costs (nothing). What dinner actually costs. What a discount code actually gets you. No guessing.",
+      "This site is the real prices from those trips. What a temple costs (nothing). What dinner costs. What a discount code gets you. No guessing.",
     ],
     stats: [
       { value: "33+", label: "countries visited" },
