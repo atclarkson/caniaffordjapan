@@ -355,3 +355,45 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   an unsourced "locals half-joke" detail, cut entirely rather than
   softened, never invent color to fill a gap). No `mark_photo_used`
   call, Commons photo, not AL_Vault.
+- **Gear Up Sunday, 2026-11-01: the Wayb Pico travel car seat, a real
+  family-owned product with real Day One photos.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). Checked existing coverage: `japan-child-car-seat-law-taxi-
+  rental-car.mdx` already covers the legal requirement and mentions
+  Wayb in one passing sentence with no real price or specs, a genuine
+  gap for a dedicated gear post rather than a duplicate. Checked
+  AL_Vault before defaulting to pure research, per the honesty rule: a
+  text search for "car seat" and "Wayb" turned up 5-6 real, unused
+  photos explicitly tagged `wayb carseat`, from May 14, 2022, the
+  family's actual first day of full-time travel (leaving Indiana for
+  good), confirmed via `get_trip`. Real, not Japan-specific, but
+  honestly framed as the same seat still in the family's real kit
+  years later rather than implying the photos were taken in Japan.
+  Researched real current specs/pricing via WebSearch: ~8 lb weight,
+  FAA-approved for airplane use, 22-50 lb/30-45in forward-facing
+  capacity, pricing from a single retail listing and a detailed
+  third-party review ($499 seat alone up to $649 bundled), hedged
+  since no official 2026 price page was found, plus a single-sourced,
+  unconfirmed claim about tightened specs on seats made after June
+  2025, flagged as such rather than stated as fact. Found a real
+  adamandlinds.com review of this same seat via WebSearch but the
+  specific URL 404'd when fetched directly (same pattern as a prior
+  firing's teamLab Osaka research), didn't invent quotes from
+  inaccessible content, worked from what could actually be verified
+  instead. Cross-referenced the existing car-seat-law post's real
+  Toyota Rent a Car pricing (1,650 yen one-time fee) for a genuine
+  owning-vs-renting-locally comparison rather than re-deriving it,
+  confirmed resolving in the built HTML. Used the real Wayb affiliate
+  link on file (`docs/affiliates-reference.md`, a generic storefront
+  link, no specific product deep link exists, didn't fabricate one).
+  Rolled length tier 4 (long, 1,000-1,300 words) and format 8
+  (itemized breakdown) from CLAUDE.md's system, format 8 fit well
+  given the real spec/price table. Landed just short of tier 4 (961
+  words) after adding one genuine extra section (owning vs renting
+  locally) rather than padding further with anything unverified, said
+  so here rather than inventing detail to close the gap. Published
+  2026-11-01 as `wayb-pico-travel-car-seat-cost-review`, 961 words.
+  Topic `en/travel-prep`. Zero uses of "actually" or "genuinely" in
+  the published body (2 "actually" caught and cut across drafts). Two
+  real AL_Vault photos used (cover and in-body), `mark_photo_used`
+  called.
