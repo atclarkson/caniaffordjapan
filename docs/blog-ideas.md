@@ -106,84 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Quick Tip Tuesday launch, Tue 2026-10-27: packing cubes, budget
-  vs premium.** Second post under the new weekly calendar. Checked
-  the "already posted today" guard first (no post with today's date
-  existed), confirmed via `grep` no existing post covers packing
-  cubes, plug adapters, voltage, or coin laundry. Checked AL_Vault
-  before defaulting to pure research, per the honesty rule a real
-  account always beats a researched one: `search_photos text:
-  "packing cubes"` turned up a real, unused (`used_in_count: 0`)
-  photo, "Packing Cubes and Stuffed Animals in Warsaw," the family's
-  actual cubes piled on a couch during a real repack (Dec 2025,
-  Poland, not Japan-specific but the gear and the practice both
-  apply to every trip including Japan). Previewed the photo directly
-  before committing, wholesome, matches the content, no concern.
-  Could not confidently identify a brand from the photo itself (a
-  small circular logo, not legible enough to name), so described the
-  real cubes generically rather than guessing a brand. Researched
-  real current budget-vs-premium pricing to support the rolled
-  format: Amazon Basics/Essentials 4-piece sets commonly run $10-25
-  (strong real review signal, ~4.6 stars across tens of thousands of
-  ratings per multiple deal-tracking sources, though exact current
-  price wasn't pinned to one live listing), Eagle Creek's Pack-It
-  Reveal 4-piece around $55 with a real lifetime warranty, roughly a
-  2-3x premium for thicker material, compression, and the warranty
-  specifically, not vague "better quality." Used Amazon's standard
-  Associates `tag=` parameter (the real confirmed tag
-  `adamandlinds00-20` from `docs/affiliates-reference.md`) appended
-  to a real Amazon search URL rather than the `linkCode`/`linkId`
-  SiteStripe extras on that doc's one example link, since those
-  weren't confirmed as reusable for an arbitrary URL and the plain
-  `tag=` parameter is Amazon's own documented, general-purpose
-  tracking mechanism. Rendered the link as a plain `Button` component
-  with the same affiliate-disclosure sentence `AffiliateBox` uses
-  (not `AffiliateBox` itself, that component's providers are
-  hardcoded to Klook/GYG/Expedia/Hotels.com) rather than a bare
-  unstyled link. Created a new topic, `en/travel-prep`, for this
-  recurring column (packing/gear/logistics content with no strong
-  existing-topic fit; `deals` and `unexpected-costs` were both close
-  but not quite right, see CLAUDE.md's topic-creation guidance).
-  Rolled length tier 1 (quick hit, 450-600 words) and format 10
-  (budget-tier framing, cheap version vs splurge version of the same
-  thing) from CLAUDE.md's system, format 10 fit naturally without a
-  reroll. Published 2026-10-27 as
-  `packing-cubes-budget-vs-premium-family-travel`, 482 words, within
-  the rolled tier. Topic `en/travel-prep`. Zero uses of "actually" or
-  "genuinely" in the published body (1 "actually" and 2 "genuinely"
-  caught and cut across drafts). One real AL_Vault photo used (cover
-  and in-body), `mark_photo_used` called.
-- **CORRECTION, 2026-10-27, to the Quick Tip Tuesday packing-cubes
-  post above: real brand identified, gifted-for-review disclosure
-  added.** The site owner identified the cubes in the cover photo as
-  a real TRIPPED set, sent to the family free for review, with a
-  genuine opinion (lightweight but heavy-duty) to go with it. The
-  published post's original "ours are an ordinary set, nothing
-  branded" line was true only because the brand couldn't be
-  identified from the photo alone; once given the real fact, that
-  line became a factual error and was corrected rather than left
-  standing. Rewrote the post: named TRIPPED, added a distinct
-  material-connection disclosure for the free product (separate from
-  the standard affiliate-commission disclosure, since this is a
-  different FTC-relevant fact), folded in the real owner-stated
-  opinion (lightweight, sturdy through repeated use) rather than a
-  generic description, and restructured the budget/premium framing
-  around TRIPPED as the mid-tier real product instead of an
-  unbranded stand-in. The owner's pasted Amazon link
-  (`https://link.amazon/B00iaJtp7`) doesn't resolve: wrong domain
-  (`link.amazon` isn't a real Amazon host) and a non-standard,
-  lowercase ASIN shape; WebSearch surfaced two real-format TRIPPED
-  ASIN candidates but neither could be confirmed as the correct
-  product, so per the standing rule against fabricating a deep link,
-  used a brand-specific Amazon search URL
-  (`amazon.com/s?k=TRIPPED+packing+cubes&tag=adamandlinds00-20`)
-  instead of guessing a specific product page; still needs the
-  correct link from the owner to tighten to an exact product URL.
-  Re-verified zero uses of "actually"/"genuinely" after the rewrite
-  (3 "actually" reintroduced during drafting, all caught and cut).
-  `pnpm check` (0 errors) and `node scripts/house.mjs` (no
-  violations) both re-run clean after the correction, and the new
-  Amazon link confirmed resolving correctly in the built HTML.
 - **Klook Wednesday launch, Wed 2026-10-28: teamLab Botanical Garden
   Osaka.** Third post under the new weekly calendar, first Klook
   Wednesday. Checked the "already posted today" guard first (no post
@@ -397,3 +319,61 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   the published body (2 "actually" caught and cut across drafts). Two
   real AL_Vault photos used (cover and in-body), `mark_photo_used`
   called.
+- **Stay Spotlight, 2026-11-02: Hakone Kowakien Mikawaya Ryokan,
+  researched (no real family stay).** Checked the "already posted
+  today" guard first (no post with today's date existed), confirmed
+  via `grep` only one prior Stay Spotlight exists
+  (`kimpton-shinjuku-tokyo-stay-spotlight`). Checked AL_Vault before
+  defaulting to research, per the honesty rule: `search_photos` for
+  "ryokan"/"hotel room" (Japan) turned up only already-used photos
+  (a Hakone coin-locker shot, a Thanksgiving-in-a-hotel-room shot, a
+  Halloween-costume shot) plus one unused but too-thin/generic
+  Skytree-view-from-hotel-room photo, no real material for a
+  dedicated Stay Spotlight. Also checked the Google Drive "Brand
+  Assets" folder across both pages, no hotel-specific subfolder
+  exists, newest additions are all eSIM brands, confirmed research
+  was the honest path. Picked a traditional ryokan deliberately, a
+  genuinely different angle from the Kimpton boutique-hotel post, and
+  targeted Hakone specifically for real cross-linking potential with
+  `hakone-free-pass-worth-it-cost-breakdown` and the newly-published
+  `mt-fuji-hakone-guided-day-tour-bullet-train-cost`. WebSearch for
+  real bookable Hakone ryokan candidates surfaced several (KAI
+  Sengokuhara, Mikawaya, Yaeikan, Lalaca, Fukuzumiro, Gora Kadan);
+  picked Mikawaya after confirming it has real, distinct property
+  pages on both Hotels.com (`ho325734496`) and Expedia (`h10147953`),
+  verified via multiple regional-mirror search hits since direct
+  WebFetch of both returned 503/429 (same rate-limiting pattern as
+  prior firings). Researched real history (1883 founding per one
+  detailed source, 140+ years, Registered Tangible Cultural Property,
+  hedged as single-sourced), real amenities (10 private open-air
+  onsen rooms per one count, shared indoor mineral bath, free Mori no
+  Yu access, family rooms with garden views), and real price
+  snapshots from multiple booking-site dates ($353-386/night range,
+  one guest-reported ¥90,000), explicitly hedged as snapshots rather
+  than live quotes. Found a real but unconfirmed renovation notice
+  (mid-to-late 2025) via a Booking.com listing, flagged honestly as
+  likely passed rather than omitted or stated as current fact. No
+  Wikimedia Commons photo exists of Mikawaya itself (searched,
+  confirmed via Commons' own MediaSearch), used a real, licensed
+  Commons photo of a different, unnamed ryokan in Hakone instead
+  (Raita Futo, CC BY 2.0), downloaded via the `Special:FilePath`
+  workaround with a `?width=` param after the plain endpoint hit the
+  usual rate limit, captioned explicitly as illustrative/not the
+  specific property to avoid implying it shows Mikawaya. Used real
+  `hotelsRedirect()`/`expediaRedirect()` wraps around the two real
+  property URLs found above, matching the established Stay Spotlight
+  pattern. Rolled length tier 4 (long, 1,000-1,300 words) and format
+  3 (question title, build to a verdict) from CLAUDE.md's system,
+  format 3 fit naturally, no reroll needed. Landed at 990 words, just
+  under the rolled tier-4 floor after adding one genuine extra
+  transit detail (the real Odakyu Shinjuku-to-Hakone-Yumoto fare
+  already on file) rather than padding further with anything
+  unverified, said so here rather than inventing detail to close the
+  gap. Published 2026-11-02 as `hakone-ryokan-mikawaya-stay-spotlight`,
+  990 words. Topic `en/hotels-stays`. Zero uses of "actually" or
+  "genuinely" in the published body (3 "actually" caught and cut
+  across drafts). No `mark_photo_used` call, Commons photo, not
+  AL_Vault. Moved the two packing-cubes "Done" entries out to
+  `docs/blog-ideas-archive-13.md` (new file, archive-12 was already
+  near its own cap) to keep this file under the house-lint 400-line
+  cap.

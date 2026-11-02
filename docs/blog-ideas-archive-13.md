@@ -1,0 +1,87 @@
+# Blog article ideas, archive (part 13)
+
+Older "Done" entries moved out of `docs/blog-ideas.md` (via
+`docs/blog-ideas-archive-12.md`) to keep files under the house-lint 400-line
+cap. This continues straight on from `docs/blog-ideas-archive-12.md`
+(chronological, oldest first within each file). Nothing here is deleted,
+just relocated. See `docs/blog-ideas.md` for the current backlog and the
+more recent entries. When this file nears 400 lines too, start
+`blog-ideas-archive-14.md` rather than growing this one past the cap.
+- **Quick Tip Tuesday launch, Tue 2026-10-27: packing cubes, budget
+  vs premium.** Second post under the new weekly calendar. Checked
+  the "already posted today" guard first (no post with today's date
+  existed), confirmed via `grep` no existing post covers packing
+  cubes, plug adapters, voltage, or coin laundry. Checked AL_Vault
+  before defaulting to pure research, per the honesty rule a real
+  account always beats a researched one: `search_photos text:
+  "packing cubes"` turned up a real, unused (`used_in_count: 0`)
+  photo, "Packing Cubes and Stuffed Animals in Warsaw," the family's
+  actual cubes piled on a couch during a real repack (Dec 2025,
+  Poland, not Japan-specific but the gear and the practice both
+  apply to every trip including Japan). Previewed the photo directly
+  before committing, wholesome, matches the content, no concern.
+  Could not confidently identify a brand from the photo itself (a
+  small circular logo, not legible enough to name), so described the
+  real cubes generically rather than guessing a brand. Researched
+  real current budget-vs-premium pricing to support the rolled
+  format: Amazon Basics/Essentials 4-piece sets commonly run $10-25
+  (strong real review signal, ~4.6 stars across tens of thousands of
+  ratings per multiple deal-tracking sources, though exact current
+  price wasn't pinned to one live listing), Eagle Creek's Pack-It
+  Reveal 4-piece around $55 with a real lifetime warranty, roughly a
+  2-3x premium for thicker material, compression, and the warranty
+  specifically, not vague "better quality." Used Amazon's standard
+  Associates `tag=` parameter (the real confirmed tag
+  `adamandlinds00-20` from `docs/affiliates-reference.md`) appended
+  to a real Amazon search URL rather than the `linkCode`/`linkId`
+  SiteStripe extras on that doc's one example link, since those
+  weren't confirmed as reusable for an arbitrary URL and the plain
+  `tag=` parameter is Amazon's own documented, general-purpose
+  tracking mechanism. Rendered the link as a plain `Button` component
+  with the same affiliate-disclosure sentence `AffiliateBox` uses
+  (not `AffiliateBox` itself, that component's providers are
+  hardcoded to Klook/GYG/Expedia/Hotels.com) rather than a bare
+  unstyled link. Created a new topic, `en/travel-prep`, for this
+  recurring column (packing/gear/logistics content with no strong
+  existing-topic fit; `deals` and `unexpected-costs` were both close
+  but not quite right, see CLAUDE.md's topic-creation guidance).
+  Rolled length tier 1 (quick hit, 450-600 words) and format 10
+  (budget-tier framing, cheap version vs splurge version of the same
+  thing) from CLAUDE.md's system, format 10 fit naturally without a
+  reroll. Published 2026-10-27 as
+  `packing-cubes-budget-vs-premium-family-travel`, 482 words, within
+  the rolled tier. Topic `en/travel-prep`. Zero uses of "actually" or
+  "genuinely" in the published body (1 "actually" and 2 "genuinely"
+  caught and cut across drafts). One real AL_Vault photo used (cover
+  and in-body), `mark_photo_used` called.
+- **CORRECTION, 2026-10-27, to the Quick Tip Tuesday packing-cubes
+  post above: real brand identified, gifted-for-review disclosure
+  added.** The site owner identified the cubes in the cover photo as
+  a real TRIPPED set, sent to the family free for review, with a
+  genuine opinion (lightweight but heavy-duty) to go with it. The
+  published post's original "ours are an ordinary set, nothing
+  branded" line was true only because the brand couldn't be
+  identified from the photo alone; once given the real fact, that
+  line became a factual error and was corrected rather than left
+  standing. Rewrote the post: named TRIPPED, added a distinct
+  material-connection disclosure for the free product (separate from
+  the standard affiliate-commission disclosure, since this is a
+  different FTC-relevant fact), folded in the real owner-stated
+  opinion (lightweight, sturdy through repeated use) rather than a
+  generic description, and restructured the budget/premium framing
+  around TRIPPED as the mid-tier real product instead of an
+  unbranded stand-in. The owner's pasted Amazon link
+  (`https://link.amazon/B00iaJtp7`) doesn't resolve: wrong domain
+  (`link.amazon` isn't a real Amazon host) and a non-standard,
+  lowercase ASIN shape; WebSearch surfaced two real-format TRIPPED
+  ASIN candidates but neither could be confirmed as the correct
+  product, so per the standing rule against fabricating a deep link,
+  used a brand-specific Amazon search URL
+  (`amazon.com/s?k=TRIPPED+packing+cubes&tag=adamandlinds00-20`)
+  instead of guessing a specific product page; still needs the
+  correct link from the owner to tighten to an exact product URL.
+  Re-verified zero uses of "actually"/"genuinely" after the rewrite
+  (3 "actually" reintroduced during drafting, all caught and cut).
+  `pnpm check` (0 errors) and `node scripts/house.mjs` (no
+  violations) both re-run clean after the correction, and the new
+  Amazon link confirmed resolving correctly in the built HTML.
