@@ -106,49 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Klook Wednesday launch, Wed 2026-10-28: teamLab Botanical Garden
-  Osaka.** Third post under the new weekly calendar, first Klook
-  Wednesday. Checked the "already posted today" guard first (no post
-  with today's date existed). Checked AL_Vault before defaulting to
-  research, per the honesty rule: `get_destinations` showed no new
-  uploads since the last check and Osaka's pool is unchanged (133
-  photos, 14 videos, same as documented), no photos tie to this
-  specific spot, the family hasn't been. Picked it over the other two
-  unblocked teamLab items (Fukuoka, Okinawa) per
-  `docs/klook-priority-activities.md`'s stated priority order. Used
-  the Google Drive "Brand Assets" export's exact affiliate link
-  (aid=42202/aff_adid=1184628) rather than `klookRedirect`, per the
-  new policy in `CLAUDE.md`. Researched real current facts via
-  WebSearch/WebFetch: osaka-info.jp (the Osaka tourism board, a
-  reliable official-adjacent source) gave the real opening date (July
-  29, 2022), adult price (1,800 yen and up), closure days (2nd/4th
-  Monday), and garden size (240,000 sqm, ~1,200 plant types); hedged
-  honestly on exact seasonal hours where sources disagreed (last entry
-  consistently 20:30 except one source citing 21:00 on spring
-  weekends). Found a genuinely different angle partway through
-  research rather than writing another generic ticket-price post: this
-  is a real working botanical garden that only becomes the art
-  installation after sunset, and what's displayed changes with what's
-  actually blooming (a real cherry-blossom "Resonating Trees" run, a
-  real ~20,000-sunflower August run), a structural difference from the
-  two fixed-exhibit Tokyo museums already covered. Used topic
-  `en/teamlab` to match those two sibling posts rather than `en/osaka`,
-  cross-linked both by real URL, confirmed resolving in the built HTML.
-  No Commons photo exists of the night installation itself (searched,
-  zero results), so used a real Commons daytime photo of the garden's
-  promenade instead (Laitche, CC BY-SA 4.0), captioned honestly as a
-  daytime shot rather than implying it shows the night art, downloaded
-  via the `Special:FilePath` workaround after `action=query` hit its
-  usual rate limit. Rolled length tier 2 (short, 600-800 words) and
-  format 14 (direct address) from CLAUDE.md's system, format 14 fit
-  naturally, no reroll needed. Published 2026-10-28 as
-  `teamlab-botanical-garden-osaka-ticket-price`, 614 words, within the
-  rolled tier. Topic `en/teamlab`. Zero uses of "actually" or
-  "genuinely" in the published body (1 "actually" and 1 "genuinely"
-  caught and cut across drafts). No `mark_photo_used` call, Commons
-  photo, not AL_Vault. (Cover later swapped to the Drive export's real
-  Klook photo, see `docs/klook-priority-activities.md`'s 2026-10-29
-  update on that same entry.)
 - **Throwback Thursday, 2026-10-29: a third real Round1 visit, this one
   in Narashino, Chiba, near the Tokyo Disney area.** Checked the
   "already posted today" guard first (no post with today's date
@@ -377,3 +334,39 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   `docs/blog-ideas-archive-13.md` (new file, archive-12 was already
   near its own cap) to keep this file under the house-lint 400-line
   cap.
+- **Quick Tip Tuesday, 2026-11-03: plug adapters and voltage
+  converters, researched.** Checked the "already posted today" guard
+  first (no post with today's date existed). Checked AL_Vault before
+  defaulting to research: no unused, topic-specific real photos
+  exist (checked "luggage forwarding," "takuhaibin," "suitcase,"
+  "luggage," "bags," all either zero results or already-used family
+  photos), honest research is the correct path, and Tuesday doesn't
+  require a real visit anyway. Confirmed via `grep` no existing post
+  covers plug adapters or voltage. Picked this over a luggage-
+  forwarding angle (genuinely useful too, but no natural real
+  affiliate tie-in) since it pairs cleanly with a real Amazon
+  product, matching CLAUDE.md's stated Quick Tip Tuesday affiliate
+  guidance. Researched real facts via WebSearch/WebFetch (GTN
+  Magazine, a Japan-based relocation/expat guide): Japan runs 100V
+  through the same flat two-pin Type A plug shape as North America;
+  the 50Hz east/60Hz west frequency split (roughly at Shizuoka) dates
+  to Meiji-era generator purchases, German (50Hz) for Tokyo, American
+  (60Hz) for Osaka. Used the real Amazon Associates tag
+  (`adamandlinds00-20`) on a generic search URL rather than a
+  fabricated specific product link, same pattern as the packing-cubes
+  post. Cover: no AL_Vault photo fits, searched Wikimedia Commons and
+  found a real, licensed, directly on-topic photo of an actual
+  Japanese outlet (a Lawson convenience store rest area, AC100V
+  label visible, Kyu3/KKPCW, CC BY-SA 4.0), downloaded via the
+  `Special:FilePath` `?width=` workaround, also reused in-body via a
+  direct `upload.wikimedia.org` thumb URL (same pattern already used
+  on `hiroshima-peace-memorial-museum-admission-cost`). Rolled length
+  tier 3 (standard, 800-1,000 words) and format 10 (budget-tier
+  framing) from CLAUDE.md's system; format 10 fit naturally (a cheap
+  shape adapter vs. a pricier real voltage converter is a genuine
+  budget/splurge split), no reroll needed. Landed at 907 words, within
+  tier. Published 2026-11-03 as
+  `japan-plug-adapter-voltage-converter-guide`, 907 words. Topic
+  `en/travel-prep`. Zero uses of "actually" or "genuinely" in the
+  published body (3 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, Commons photo, not AL_Vault.
