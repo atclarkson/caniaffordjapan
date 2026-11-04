@@ -38,6 +38,37 @@ always confirm against the live Klook page before publishing.
   honest "via Klook's listing" caption on both, no false CC claim.
   Also added an explicit closing link-back to both Tokyo teamLab posts
   in addition to the inline intro links. Length tier 2, format 14.
+- teamLab Forest Fukuoka, activity id 51227. Published 2026-11-04 as
+  `teamlab-forest-fukuoka-ticket-price.mdx`, Klook Wednesday, honestly
+  researched (checked AL_Vault first, Fukuoka's pool is unchanged at 1
+  photo/2 videos, all already used in the PayPay Dome baseball post,
+  no teamLab-specific material exists). Topic `en/teamlab`, same
+  series-consistency call as the Osaka post. Used the Drive export's
+  exact affiliate link. Real angle: structurally the most different of
+  the four teamLab spaces, an explicitly athletic/body-based space
+  (uneven terrain, spinning balls, balance stepping stones) rather
+  than Planets' water, Borderless' light orbs, or Osaka's living
+  garden, worth leading with over a generic price post. Real location
+  tie-in: 5th floor of BOSS E.ZO FUKUOKA, opened July 2020 right next
+  to PayPay Dome, the same stadium already covered by a real family
+  visit (`paypay-dome-fukuoka-vs-tokyo-dome-baseball-cost.mdx`), cross-
+  linked both directions. Real pricing cross-check: official door
+  price 2,400 yen adult regular/2,700 yen peak (BOSS E.ZO's own
+  site via a secondary source) vs. Klook's $15-16 current listing,
+  4.7 stars, roughly 1.7-1.9K reviews, a genuine official-vs-Klook
+  cost gap worth stating plainly (fits the site's cost-first angle).
+  Cover: no AL_Vault or Wikimedia Commons photo exists for this
+  specific attraction (checked both), used a real Headout listing
+  photo instead (a different booking platform than the one linked,
+  still a genuine "credited booking-site listing photo" fallback per
+  CLAUDE.md's Oct 29 policy), honest "via Headout's listing" caption,
+  no false CC claim. Klook's own `res.klook.com` images and activity
+  page were unreachable (403, same pattern as other Klook fetch
+  attempts), the large Google Drive CSV export also couldn't be
+  downloaded in full this firing (connection size limit), so Headout
+  was the real, verifiable fallback rather than inventing a Klook
+  image URL. Not in the 1% "selected things to do" code tier, noted
+  honestly, general 10%/3% tiers still apply. Length tier 2, format 1.
 - teamLab Planets TOKYO (Toyosu), activity id 25300, was $24.29, 4.7 stars,
   18,326 reviews. Post: `teamlab-planets-tokyo-ticket-price.mdx`.
 - teamLab Borderless Tokyo (Azabudai Hills). Not in the export as its own
@@ -67,15 +98,6 @@ of these to a real-visit post instead, always the stronger version),
 but absence of photos is no longer a reason to skip them on a
 Wednesday.
 
-- teamLab Forest Fukuoka, activity id 51227, Drive export has it at
-  $15.29, 4.7 stars, 1,642 reviews, affiliate link
-  `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/51227-teamlab-forest-fukuoka/%3Fad_feed_id%3D999`.
-  Inside the BOSS E.ZO FUKUOKA complex. A `fukuoka` topic now exists
-  (added 2026-10-14 for the PayPay Dome baseball post). Checked
-  AL_Vault again on 2026-10-14: the family's confirmed June 2023
-  Fukuoka material (1 photo, 2 vlogs, now used in that baseball post)
-  is a Hawks game and general trip footage, nothing that confirms a
-  visit to this specific teamLab location.
 - teamLab Future Park Okinawa, activity id 98927, Drive export has it
   at $12.75, 4.8 stars, 445 reviews, affiliate link
   `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/98927-teamlab-future-park-okinawa/%3Fad_feed_id%3D999`.
