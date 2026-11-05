@@ -128,3 +128,54 @@ more recent entries. When this file nears 400 lines too, start
   photo, not AL_Vault. (Cover later swapped to the Drive export's real
   Klook photo, see `docs/klook-priority-activities.md`'s 2026-10-29
   update on that same entry.)
+- **Throwback Thursday, 2026-10-29: a third real Round1 visit, this one
+  in Narashino, Chiba, near the Tokyo Disney area.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). Both AL_Vault priority checks and `docs/klook-priority-
+  activities.md`/`docs/blog-ideas.md` offered nothing new (today
+  requires a real visit, so the Wednesday-only unblocked Klook ideas
+  don't apply). Confirmed zero new AL_Vault uploads via
+  `get_destinations`. Swept several smaller photo pools not previously
+  exhausted: Bunkyo (16 photos, the handful of unused ones turned out
+  to be spares from the same May 2024 Tokyo Dome game already covered
+  by `tokyo-dome-stadium-beer-price-worth-it.mdx`, confirmed by
+  previewing them, two of the three photos that post embeds are from
+  this exact cluster), Hiroshima's 4-video pool (confirmed all four
+  already mined across the four existing Hiroshima posts, down to the
+  Shinkansen-bathroom aside), and Yokohama (6 photos/2 videos, capybara,
+  Cup Noodle Museum, Sankei-en, and the Christmas market all already
+  published). The real find: searching city `Nara` in `search_photos`
+  also surfaced a `Narashino`-tagged photo via a substring match (worth
+  remembering, the city filter isn't exact-match only), "The Girls
+  Discover Round1 in Japan," unused, with a real AI caption confirming
+  it's a Round1 arcade/bowling complex, not Nara temple content. `get_trip`
+  for 2025-09-25/27 (no city filter, same workaround as past firings)
+  placed it the day after a real Sept 25, 2025 Tokyo Disney Sea day
+  (Urayasu-tagged photos, also unused but Disney is already extensively
+  covered elsewhere). Confirmed via `grep` this is a third distinct real
+  Round1 visit, after the two Sakai posts and the June 2023 Harper's-
+  birthday Osaka one, this one with only a single photo and no video, a
+  genuinely thin but real new visit. Verified the specific store (Round1
+  Stadium Narashino, Shibazono 1-4-5) via WebSearch against the photo's
+  own `location_label`, confirmed real address, nearest station,
+  shuttle-bus stops, and parking capacity. Found real current weekday
+  pricing for this specific store but didn't quote it in the post,
+  it's from an unknown-vintage Japanese listings site and conflicts
+  slightly with the existing Sakai post's confirmed May 2026 nationwide
+  figures, cross-linked to that post for pricing instead of risking two
+  different numbers on the site. Rolled length tier 5 (deep dive,
+  1,300-1,600 words) and format 8 (itemized breakdown) from CLAUDE.md's
+  system; format 8 didn't fit at all, nothing to itemize for a one-photo
+  visit with no receipt, rerolled once to format 9 (heads-up/warning
+  framing), used honestly: the real trap is a reader assuming from this
+  site's own prior Round1 posts that the chain is Osaka-only. Landed
+  far short of tier 5, one real photo plus a real address and a
+  cross-linked pricing table doesn't stretch past a quick hit without
+  inventing detail, said so here rather than padding. Published
+  2026-10-29 as `round1-narashino-near-tokyo-disney-not-just-osaka`,
+  509 words. Topic `en/tokyo` (no Chiba-specific topic exists, and one
+  photo doesn't justify creating one, same "thing that happened in
+  Tokyo" pattern as the worldschool popup post). Zero uses of "actually"
+  or "genuinely" in the published body (2 "actually" caught and cut
+  across drafts). One real AL_Vault photo used (cover and in-body, the
+  same image), `mark_photo_used` called.

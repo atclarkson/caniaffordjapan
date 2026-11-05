@@ -106,57 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Throwback Thursday, 2026-10-29: a third real Round1 visit, this one
-  in Narashino, Chiba, near the Tokyo Disney area.** Checked the
-  "already posted today" guard first (no post with today's date
-  existed). Both AL_Vault priority checks and `docs/klook-priority-
-  activities.md`/`docs/blog-ideas.md` offered nothing new (today
-  requires a real visit, so the Wednesday-only unblocked Klook ideas
-  don't apply). Confirmed zero new AL_Vault uploads via
-  `get_destinations`. Swept several smaller photo pools not previously
-  exhausted: Bunkyo (16 photos, the handful of unused ones turned out
-  to be spares from the same May 2024 Tokyo Dome game already covered
-  by `tokyo-dome-stadium-beer-price-worth-it.mdx`, confirmed by
-  previewing them, two of the three photos that post embeds are from
-  this exact cluster), Hiroshima's 4-video pool (confirmed all four
-  already mined across the four existing Hiroshima posts, down to the
-  Shinkansen-bathroom aside), and Yokohama (6 photos/2 videos, capybara,
-  Cup Noodle Museum, Sankei-en, and the Christmas market all already
-  published). The real find: searching city `Nara` in `search_photos`
-  also surfaced a `Narashino`-tagged photo via a substring match (worth
-  remembering, the city filter isn't exact-match only), "The Girls
-  Discover Round1 in Japan," unused, with a real AI caption confirming
-  it's a Round1 arcade/bowling complex, not Nara temple content. `get_trip`
-  for 2025-09-25/27 (no city filter, same workaround as past firings)
-  placed it the day after a real Sept 25, 2025 Tokyo Disney Sea day
-  (Urayasu-tagged photos, also unused but Disney is already extensively
-  covered elsewhere). Confirmed via `grep` this is a third distinct real
-  Round1 visit, after the two Sakai posts and the June 2023 Harper's-
-  birthday Osaka one, this one with only a single photo and no video, a
-  genuinely thin but real new visit. Verified the specific store (Round1
-  Stadium Narashino, Shibazono 1-4-5) via WebSearch against the photo's
-  own `location_label`, confirmed real address, nearest station,
-  shuttle-bus stops, and parking capacity. Found real current weekday
-  pricing for this specific store but didn't quote it in the post,
-  it's from an unknown-vintage Japanese listings site and conflicts
-  slightly with the existing Sakai post's confirmed May 2026 nationwide
-  figures, cross-linked to that post for pricing instead of risking two
-  different numbers on the site. Rolled length tier 5 (deep dive,
-  1,300-1,600 words) and format 8 (itemized breakdown) from CLAUDE.md's
-  system; format 8 didn't fit at all, nothing to itemize for a one-photo
-  visit with no receipt, rerolled once to format 9 (heads-up/warning
-  framing), used honestly: the real trap is a reader assuming from this
-  site's own prior Round1 posts that the chain is Osaka-only. Landed
-  far short of tier 5, one real photo plus a real address and a
-  cross-linked pricing table doesn't stretch past a quick hit without
-  inventing detail, said so here rather than padding. Published
-  2026-10-29 as `round1-narashino-near-tokyo-disney-not-just-osaka`,
-  509 words. Topic `en/tokyo` (no Chiba-specific topic exists, and one
-  photo doesn't justify creating one, same "thing that happened in
-  Tokyo" pattern as the worldschool popup post). Zero uses of "actually"
-  or "genuinely" in the published body (2 "actually" caught and cut
-  across drafts). One real AL_Vault photo used (cover and in-body, the
-  same image), `mark_photo_used` called.
 - **Food Friday, 2026-10-30: CoCo Ichibanya curry, researched.** Checked
   the "already posted today" guard first (no post with today's date
   existed). AL_Vault had nothing: swept `food`/`convenience store`/
@@ -398,3 +347,40 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (2 "actually" and 1 "genuinely" caught and cut
   across drafts). No `mark_photo_used` call, Headout photo, not
   AL_Vault.
+- **Throwback Thursday, 2026-11-05: a real Zauo visit in Tokyo,
+  December 4, 2022, found via a video sweep rather than a photo one.**
+  Checked the "already posted today" guard first (no post with
+  today's date existed). AL_Vault's photo pools showed nothing new
+  (same 32 destinations, Tajiri's 2 photos both already used), so
+  swept the 41-item Tokyo video pool instead, something not done in
+  recent firings. Most titles traced to already-published posts
+  (Tsukiji, Kura Sushi, teamLab Planets, Oktoberfest, Copic Markers,
+  Pokemon Cafe, Sanrio Puroland, Skytree), confirmed via `grep` against
+  `src/data/posts/en/`, but "98 | WE CATCH OUR OWN FISH AT ZAUA IN
+  TOKYO," filmed 2022-12-04, matched no existing post, a genuinely
+  distinct second Zauo visit roughly six months before the Osaka one
+  `zauo-fishing-restaurant-osaka-catch-your-own-fish-cost.mdx` is built
+  on. Confirmed via `get_trip` on the surrounding date window: part of
+  the family's first extended Japan trip, three days before a flight
+  to Bangkok ended a six-week stay. Could not confirm which specific
+  Tokyo Zauo branch (the chain has several) from AL_Vault's metadata or
+  web research, said so honestly in the post rather than guessing a
+  neighborhood. No AL_Vault photos exist for this specific event (the
+  Tokyo photo pool only has 2 photos, both unrelated dates), so used
+  the video's own real YouTube thumbnail as cover (the vault's own
+  asset for this video, same role an AL_Vault photo's `large_url`
+  normally plays) and embedded the real video in-body, same iframe
+  pattern as the Osaka post. No affiliate link forced, Thursday isn't
+  in the weekly calendar's required-affiliate list and the specific
+  branch isn't confirmed. Rolled length tier 1 (quick hit, 450-600
+  words) and format 8 (itemized breakdown) from CLAUDE.md's system;
+  format 8 fit naturally against the video's own real chapter list
+  (TGI Fridays, walking to Zauo, the catch, walking at night, a crane
+  game), no reroll needed. Landed at 503 words, within tier. Published
+  2026-11-05 as `zauo-tokyo-december-2022-real-visit`, 503 words. Topic
+  `en/budget-food`. Zero uses of "actually" or "genuinely" in the
+  published body (1 "actually" caught and cut, in the description).
+  No `mark_photo_used` call, no AL_Vault tool exists to mark a video
+  as used (checked), video only. Moved the Round1 Narashino Throwback
+  Thursday "Done" entry out to `docs/blog-ideas-archive-13.md` to stay
+  under the house-lint 400-line cap.
