@@ -106,44 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Food Friday, 2026-10-30: CoCo Ichibanya curry, researched.** Checked
-  the "already posted today" guard first (no post with today's date
-  existed). AL_Vault had nothing: swept `food`/`convenience store`/
-  `curry`/`soba`/`dessert` text searches and the still-unused Katsushika
-  photo cluster (37 photos, confirmed via preview it's a kids'-art/
-  homeschool cluster, not food), found a real unused "End of Dinner
-  Overhead at an Osaka Restaurant" photo (2023-06-05, via `get_trip`)
-  but no restaurant name, no price, no video, too thin and too close to
-  the site's several existing unnamed-izakaya/shared-plates posts to be
-  a genuinely new angle, left it alone rather than force it. Checked
-  `src/data/posts/en/` for the full `budget-food` topic list (18 posts)
-  before picking a subject: takoyaki and okonomiyaki are only mentioned
-  in passing elsewhere, Marugame/udon the same, but CoCo Ichibanya,
-  Japan's largest curry chain, had zero mentions anywhere on the site,
-  confirmed via `grep`. Researched real facts via WebSearch/WebFetch:
-  Wikipedia's Ichibanya page for the real founding story (Tokuji and
-  Naomi Munetsugu, Bacchus coffee shop Nagoya 1974, first CoCo
-  Ichibanya Aichi 1978, House Foods Group bought the family's stake in
-  2015), real store counts (1,300+ in Japan, ~181 international per
-  Wikipedia's own country breakdown), and the real spice/rice/topping
-  pricing system (Mild/Standard free, Level 1 +25 yen up to Level 20
-  +200 yen, rice upgrades separate) from a Fun-Japan guide, hedged
-  since no single official 2026 price list was found. Real example
-  prices (a Yokosuka location's chicken cutlet curry, a KITTE Osaka
-  flagship's beef curry) cited as single-location snapshots, not a
-  national price. Rolled length tier 2 (short, 600-800 words) and
-  format 11 (time/season anchored) from CLAUDE.md's system; format 11
-  doesn't fit a no-visit researched post at all (nothing to anchor to a
-  specific day), rerolled once to format 10 (budget-tier framing),
-  a strong genuine fit given the chain's real build-to-order pricing.
-  Cover: a real, licensed Wikimedia Commons photo of the Namba
-  Sennichimae location in Osaka (Tokumeigakarinoaoshima, CC BY-SA 4.0),
-  attributed in the post body per CLAUDE.md's Images section. Published
-  2026-10-30 as `coco-ichibanya-curry-budget-vs-splurge-cost`, 601
-  words, within the rolled tier. Topic `en/budget-food`. Zero uses of
-  "actually" or "genuinely" in the published body (1 "actually" caught
-  and cut across drafts). No `mark_photo_used` call, Commons photo, not
-  AL_Vault.
 - **Day Trip Saturday, 2026-10-31: a guided Mt Fuji/Hakone day tour,
   researched, cross-linked to the real DIY visit.** Checked the
   "already posted today" guard first (no post with today's date
@@ -384,3 +346,39 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   as used (checked), video only. Moved the Round1 Narashino Throwback
   Thursday "Done" entry out to `docs/blog-ideas-archive-13.md` to stay
   under the house-lint 400-line cap.
+- **Food Friday, 2026-11-06: ekiben on the Shinkansen, a real moving-
+  day lunch.** Checked the "already posted today" guard first (no post
+  with today's date existed). Swept AL_Vault's video pool by text
+  search (continuing yesterday's discovery that it's under-checked)
+  for food-related unused material: "Kurumaya Ramen" in Urayasu and
+  "Robot restaurant" both surfaced as real but weaker candidates
+  (Kurumaya has a real address and a clear angle, kept as a future
+  idea; the robot-restaurant short has no location metadata and only
+  a vague caption, too thin to anchor a confident post), picked
+  Ekiben on the Shinkansen instead, the strongest of the three:
+  specific real food choices per family member (fried chicken, split
+  dumplings, two Dr. Yellow themed boxes), tied to a real, dated event
+  (moving day, Tokyo to Osaka, 2023-05-23, confirmed via `get_trip`
+  against the longer "We Took Japan's Fastest Train" vlog's own
+  "Getting Ekiben" chapter from the same day). Confirmed via `grep`
+  that the existing `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`
+  post (a different, earlier November 2022 ride) and
+  `booking-shinkansen-tickets-japan-cheapest-way` don't cover ekiben,
+  a genuine gap, cross-linked both. Researched real current ekiben
+  pricing (roughly 700-1,800 yen at Tokyo Station, most everyday
+  options closer to 1,000-1,200) and real Dr. Yellow background (a
+  genuine inspection Shinkansen, rare and considered lucky to spot)
+  via WebSearch, explicitly hedged that the exact 2023 Dr. Yellow box
+  design/collab isn't confirmed to match whatever Tokyo Station sells
+  now, collabs rotate. No AL_Vault photos exist for this event (same
+  pattern as yesterday), used the short Ekiben video's own real
+  YouTube thumbnail as cover and embedded the video in-body. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 11 (time/day
+  anchored, open with the specific day rather than a generic intro)
+  from CLAUDE.md's system; format 11 fit naturally given the real
+  "moving day" framing, no reroll needed. Landed at 571 words, within
+  tier. Published 2026-11-06 as
+  `ekiben-shinkansen-tokyo-osaka-moving-day`, 571 words. Topic
+  `en/budget-food`. Zero uses of "actually" or "genuinely" in the
+  published body (2 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, video only, same as yesterday.

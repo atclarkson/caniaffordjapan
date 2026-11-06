@@ -179,3 +179,41 @@ more recent entries. When this file nears 400 lines too, start
   or "genuinely" in the published body (2 "actually" caught and cut
   across drafts). One real AL_Vault photo used (cover and in-body, the
   same image), `mark_photo_used` called.
+- **Food Friday, 2026-10-30: CoCo Ichibanya curry, researched.** Checked
+  the "already posted today" guard first (no post with today's date
+  existed). AL_Vault had nothing: swept `food`/`convenience store`/
+  `curry`/`soba`/`dessert` text searches and the still-unused Katsushika
+  photo cluster (37 photos, confirmed via preview it's a kids'-art/
+  homeschool cluster, not food), found a real unused "End of Dinner
+  Overhead at an Osaka Restaurant" photo (2023-06-05, via `get_trip`)
+  but no restaurant name, no price, no video, too thin and too close to
+  the site's several existing unnamed-izakaya/shared-plates posts to be
+  a genuinely new angle, left it alone rather than force it. Checked
+  `src/data/posts/en/` for the full `budget-food` topic list (18 posts)
+  before picking a subject: takoyaki and okonomiyaki are only mentioned
+  in passing elsewhere, Marugame/udon the same, but CoCo Ichibanya,
+  Japan's largest curry chain, had zero mentions anywhere on the site,
+  confirmed via `grep`. Researched real facts via WebSearch/WebFetch:
+  Wikipedia's Ichibanya page for the real founding story (Tokuji and
+  Naomi Munetsugu, Bacchus coffee shop Nagoya 1974, first CoCo
+  Ichibanya Aichi 1978, House Foods Group bought the family's stake in
+  2015), real store counts (1,300+ in Japan, ~181 international per
+  Wikipedia's own country breakdown), and the real spice/rice/topping
+  pricing system (Mild/Standard free, Level 1 +25 yen up to Level 20
+  +200 yen, rice upgrades separate) from a Fun-Japan guide, hedged
+  since no single official 2026 price list was found. Real example
+  prices (a Yokosuka location's chicken cutlet curry, a KITTE Osaka
+  flagship's beef curry) cited as single-location snapshots, not a
+  national price. Rolled length tier 2 (short, 600-800 words) and
+  format 11 (time/season anchored) from CLAUDE.md's system; format 11
+  doesn't fit a no-visit researched post at all (nothing to anchor to a
+  specific day), rerolled once to format 10 (budget-tier framing),
+  a strong genuine fit given the chain's real build-to-order pricing.
+  Cover: a real, licensed Wikimedia Commons photo of the Namba
+  Sennichimae location in Osaka (Tokumeigakarinoaoshima, CC BY-SA 4.0),
+  attributed in the post body per CLAUDE.md's Images section. Published
+  2026-10-30 as `coco-ichibanya-curry-budget-vs-splurge-cost`, 601
+  words, within the rolled tier. Topic `en/budget-food`. Zero uses of
+  "actually" or "genuinely" in the published body (1 "actually" caught
+  and cut across drafts). No `mark_photo_used` call, Commons photo, not
+  AL_Vault.
