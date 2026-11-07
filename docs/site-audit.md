@@ -164,3 +164,52 @@ placeholder.
   All changes: `pnpm build`/`pnpm check` clean, `node scripts/house.mjs`
   clean, `pnpm test` clean (touched `content.config.ts` and the blog
   template). Pushed across three commits.
+- **Second real firing, 2026-11-07.** Checked `docs/search-console/`
+  first for a fresher export, none since 2026-10-30, nothing new to
+  analyze from that source this week. Checked `src/pages/robots.txt.ts`
+  and `src/pages/llms.txt.ts`, both fully dynamic (robots.txt derives
+  its sitemap URL from site config, llms.txt pulls topics/posts live
+  from content collections), confirmed no staleness risk there, no
+  changes needed. Ran a sitewide internal-link check (every `/blog/
+  <slug>/` reference in every post's body against the real set of
+  published slugs): zero broken links found.
+
+  Continued the "actually"/"genuinely" sweep from the first firing,
+  this time at title/description scope rather than just topic
+  descriptions: a `grep` across every post's frontmatter turned up a
+  much bigger pattern than last week's, 27 published posts using
+  "Actually" as a literal repeated title template ("What X Actually
+  Costs," "Is X Actually Worth It," etc.), clearly a pre-dates-the-
+  house-rule content pattern from the site's early buildout rather
+  than isolated slips. Fixed all 27 (titles and/or descriptions,
+  exact list in the commit), preserving every real fact and number,
+  only removing the filler word, confirmed via a second `grep` pass
+  (zero remaining) and a built-HTML `<title>` check. Also found the
+  same word in the `esim-vs-sim-vs-pocket-wifi-japan` post's title,
+  description, and closing line while reviewing it for FAQ potential,
+  fixed there too. Did not touch the home hero title, same reasoning
+  as the first firing's flag still holds.
+
+  **Flagged, not actioned this firing:** a `grep` for "actually"/
+  "genuinely" in post *bodies* (not just frontmatter) found 38 posts
+  with at least one instance, a real, larger tail of the same pattern.
+  Didn't attempt all 38 in one sitting, body-prose fixes need real
+  per-sentence judgment rather than a safe mechanical string swap the
+  way the title/description fixes were. Worth the next firing's first
+  pass, or splitting across a few firings rather than rushing it.
+
+  Wired up `faqPage()` on two more posts with genuine, naturally-
+  occurring Q&A content (now 3 total, up from the 1 from the first
+  firing): `japan-plug-adapter-voltage-converter-guide` (do-I-need-an-
+  adapter is the post's entire premise) and
+  `esim-vs-sim-vs-pocket-wifi-japan` (eSIM-vs-SIM-vs-pocket-wifi is a
+  real, common traveler question this post already answers in full).
+  Both got a frontmatter `faq` array and a matching visible "Quick
+  answers" section, every answer restating a fact already stated
+  elsewhere in that same post, nothing invented. Confirmed via `grep`
+  on the built HTML that `FAQPage` JSON-LD renders only on the three
+  opted-in posts.
+
+  All changes: `pnpm build`/`pnpm check`/`node scripts/house.mjs`/
+  `pnpm test` all clean. Pushed in one commit (29 files: 27 title/
+  description fixes, 2 FAQ wire-ups).
