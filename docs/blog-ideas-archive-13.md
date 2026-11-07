@@ -217,3 +217,42 @@ more recent entries. When this file nears 400 lines too, start
   "actually" or "genuinely" in the published body (1 "actually" caught
   and cut across drafts). No `mark_photo_used` call, Commons photo, not
   AL_Vault.
+- **Day Trip Saturday, 2026-10-31: a guided Mt Fuji/Hakone day tour,
+  researched, cross-linked to the real DIY visit.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). Checked AL_Vault for real day-trip material first, per the
+  honesty rule: found a genuinely promising lead, a real Kobe day-trip
+  video (vlog 150) with an honest "Kobe beef didn't live up to the
+  hype" angle and a real Viator link in its own description, but
+  `grep` confirmed it's already fully covered by
+  `kobe-beef-day-trip-steak-not-worth-hype.mdx` (steak, Chinatown,
+  getting there, the Viator link, all of it), a dead end rather than a
+  new post. Used the real Mt Fuji/Hakone Expedia activity already on
+  file in `docs/weekly-calendar.md`'s Day Trip Saturday section
+  instead (a2457971), confirmed via `grep` it hadn't been used in any
+  post yet. Direct `WebFetch` on the Expedia listing hit a 429, so
+  researched real current details via WebSearch instead: operator
+  (Japan Panoramic Tours), real price (~$155/adult, varies by Shinjuku-
+  no-lunch vs Ginza-with-lunch departure), real itinerary (Mt Fuji
+  Fifth Station, Hakone Ropeway over Owakudani), ~10 hour duration,
+  Shinkansen return. Found a real, honest differentiator from the
+  family's own DIY Hakone Free Pass post rather than writing a
+  duplicate: the guided tour reaches Mt Fuji's Fifth Station, which
+  isn't on the Free Pass route at all, a genuine reason to pick one
+  over the other rather than a generic "guided vs DIY" framing.
+  Cross-linked `hakone-free-pass-worth-it-cost-breakdown.mdx` by real
+  URL, confirmed resolving in the built HTML. Used `expediaRedirect()`
+  wrapping the real activity URL via `AffiliateBox`, confirmed the
+  real wrapped link (camref/creativeref/adref) resolves correctly in
+  the built HTML. Rolled length tier 2 (short, 600-800 words) and
+  format 14 (direct address) from CLAUDE.md's system, format 14 fit
+  naturally, no reroll needed. Cover: a real, licensed Wikimedia
+  Commons photo of Mt Fuji from Lake Ashi (Suicasmo, CC BY-SA 4.0),
+  attributed in the post body. Published 2026-10-31 as
+  `mt-fuji-hakone-guided-day-tour-bullet-train-cost`, 607 words,
+  within the rolled tier. Topic `en/day-trips`. Zero uses of "actually"
+  or "genuinely" in the published body (3 "actually" and 1 "genuinely"
+  caught and cut across drafts, including one draft sentence inventing
+  an unsourced "locals half-joke" detail, cut entirely rather than
+  softened, never invent color to fill a gap). No `mark_photo_used`
+  call, Commons photo, not AL_Vault.
