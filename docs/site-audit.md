@@ -213,3 +213,36 @@ placeholder.
   All changes: `pnpm build`/`pnpm check`/`node scripts/house.mjs`/
   `pnpm test` all clean. Pushed in one commit (29 files: 27 title/
   description fixes, 2 FAQ wire-ups).
+- **Off-cycle fix, 2026-11-08, prompted directly by the site owner.**
+  The owner spot-checked `zenni-glasses-before-trip-vs-japan-optician`
+  and found the real Zenni affiliate link effectively invisible: a
+  single word of plain inline text buried in a late section, no
+  Button, no disclosure sentence anywhere on the page. Grepped every
+  post for every known real affiliate domain
+  (`pxf.io`/`awin1.com`/`sjv.io`/`tkqlhce.com`/`withfaye.com`/
+  `share.greenlight.com`/`get.travelspend.app`/etc.) against whether
+  the same file contains the word "affiliate" or uses the `Button`
+  component, to find every other instance of the same pattern rather
+  than just fixing the one reported. Found three more real links with
+  the same problem: Wayb's link in
+  `japan-child-car-seat-law-taxi-rental-car` (no disclosure at all),
+  TravelSpend's link in `travelspend-app-tracking-japan-trip-costs`
+  (no disclosure), and Greenlight's link in
+  `kids-debit-card-japan-cash-still-needed` (had a disclosure sentence
+  already, still just plain text, no Button). Fixed all four the same
+  way: a prominent `Button` component matching the site's dominant
+  CTA pattern, plus the standard disclosure sentence linking to
+  `/legal/`. Also added a real cross-link from the car-seat post to
+  the existing `wayb-pico-travel-car-seat-cost-review` post (the
+  family's own real four-year-use writeup of the exact product being
+  linked). Left `travel-insurance-japan-trip-cost`'s three insurance
+  links (SafetyWing/World Nomads/Faye) as plain neutral inline text,
+  that's deliberate per this site's own insurance rule (never write
+  copy that recommends one policy over another, link neutrally), not
+  the same bug. `pnpm build`/`pnpm check`/`node scripts/house.mjs`
+  clean, confirmed all four links and disclosures resolve in the
+  built HTML. Worth a standing check in future Saturday firings: any
+  new post with a real affiliate link should get the Button+disclosure
+  treatment by default, this is the second time a post has shipped
+  without it (the first was presumably from before that pattern was
+  established as the house default).
