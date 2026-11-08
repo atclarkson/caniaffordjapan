@@ -106,106 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Gear Up Sunday, 2026-11-01: the Wayb Pico travel car seat, a real
-  family-owned product with real Day One photos.** Checked the
-  "already posted today" guard first (no post with today's date
-  existed). Checked existing coverage: `japan-child-car-seat-law-taxi-
-  rental-car.mdx` already covers the legal requirement and mentions
-  Wayb in one passing sentence with no real price or specs, a genuine
-  gap for a dedicated gear post rather than a duplicate. Checked
-  AL_Vault before defaulting to pure research, per the honesty rule: a
-  text search for "car seat" and "Wayb" turned up 5-6 real, unused
-  photos explicitly tagged `wayb carseat`, from May 14, 2022, the
-  family's actual first day of full-time travel (leaving Indiana for
-  good), confirmed via `get_trip`. Real, not Japan-specific, but
-  honestly framed as the same seat still in the family's real kit
-  years later rather than implying the photos were taken in Japan.
-  Researched real current specs/pricing via WebSearch: ~8 lb weight,
-  FAA-approved for airplane use, 22-50 lb/30-45in forward-facing
-  capacity, pricing from a single retail listing and a detailed
-  third-party review ($499 seat alone up to $649 bundled), hedged
-  since no official 2026 price page was found, plus a single-sourced,
-  unconfirmed claim about tightened specs on seats made after June
-  2025, flagged as such rather than stated as fact. Found a real
-  adamandlinds.com review of this same seat via WebSearch but the
-  specific URL 404'd when fetched directly (same pattern as a prior
-  firing's teamLab Osaka research), didn't invent quotes from
-  inaccessible content, worked from what could actually be verified
-  instead. Cross-referenced the existing car-seat-law post's real
-  Toyota Rent a Car pricing (1,650 yen one-time fee) for a genuine
-  owning-vs-renting-locally comparison rather than re-deriving it,
-  confirmed resolving in the built HTML. Used the real Wayb affiliate
-  link on file (`docs/affiliates-reference.md`, a generic storefront
-  link, no specific product deep link exists, didn't fabricate one).
-  Rolled length tier 4 (long, 1,000-1,300 words) and format 8
-  (itemized breakdown) from CLAUDE.md's system, format 8 fit well
-  given the real spec/price table. Landed just short of tier 4 (961
-  words) after adding one genuine extra section (owning vs renting
-  locally) rather than padding further with anything unverified, said
-  so here rather than inventing detail to close the gap. Published
-  2026-11-01 as `wayb-pico-travel-car-seat-cost-review`, 961 words.
-  Topic `en/travel-prep`. Zero uses of "actually" or "genuinely" in
-  the published body (2 "actually" caught and cut across drafts). Two
-  real AL_Vault photos used (cover and in-body), `mark_photo_used`
-  called.
-- **Stay Spotlight, 2026-11-02: Hakone Kowakien Mikawaya Ryokan,
-  researched (no real family stay).** Checked the "already posted
-  today" guard first (no post with today's date existed), confirmed
-  via `grep` only one prior Stay Spotlight exists
-  (`kimpton-shinjuku-tokyo-stay-spotlight`). Checked AL_Vault before
-  defaulting to research, per the honesty rule: `search_photos` for
-  "ryokan"/"hotel room" (Japan) turned up only already-used photos
-  (a Hakone coin-locker shot, a Thanksgiving-in-a-hotel-room shot, a
-  Halloween-costume shot) plus one unused but too-thin/generic
-  Skytree-view-from-hotel-room photo, no real material for a
-  dedicated Stay Spotlight. Also checked the Google Drive "Brand
-  Assets" folder across both pages, no hotel-specific subfolder
-  exists, newest additions are all eSIM brands, confirmed research
-  was the honest path. Picked a traditional ryokan deliberately, a
-  genuinely different angle from the Kimpton boutique-hotel post, and
-  targeted Hakone specifically for real cross-linking potential with
-  `hakone-free-pass-worth-it-cost-breakdown` and the newly-published
-  `mt-fuji-hakone-guided-day-tour-bullet-train-cost`. WebSearch for
-  real bookable Hakone ryokan candidates surfaced several (KAI
-  Sengokuhara, Mikawaya, Yaeikan, Lalaca, Fukuzumiro, Gora Kadan);
-  picked Mikawaya after confirming it has real, distinct property
-  pages on both Hotels.com (`ho325734496`) and Expedia (`h10147953`),
-  verified via multiple regional-mirror search hits since direct
-  WebFetch of both returned 503/429 (same rate-limiting pattern as
-  prior firings). Researched real history (1883 founding per one
-  detailed source, 140+ years, Registered Tangible Cultural Property,
-  hedged as single-sourced), real amenities (10 private open-air
-  onsen rooms per one count, shared indoor mineral bath, free Mori no
-  Yu access, family rooms with garden views), and real price
-  snapshots from multiple booking-site dates ($353-386/night range,
-  one guest-reported ¥90,000), explicitly hedged as snapshots rather
-  than live quotes. Found a real but unconfirmed renovation notice
-  (mid-to-late 2025) via a Booking.com listing, flagged honestly as
-  likely passed rather than omitted or stated as current fact. No
-  Wikimedia Commons photo exists of Mikawaya itself (searched,
-  confirmed via Commons' own MediaSearch), used a real, licensed
-  Commons photo of a different, unnamed ryokan in Hakone instead
-  (Raita Futo, CC BY 2.0), downloaded via the `Special:FilePath`
-  workaround with a `?width=` param after the plain endpoint hit the
-  usual rate limit, captioned explicitly as illustrative/not the
-  specific property to avoid implying it shows Mikawaya. Used real
-  `hotelsRedirect()`/`expediaRedirect()` wraps around the two real
-  property URLs found above, matching the established Stay Spotlight
-  pattern. Rolled length tier 4 (long, 1,000-1,300 words) and format
-  3 (question title, build to a verdict) from CLAUDE.md's system,
-  format 3 fit naturally, no reroll needed. Landed at 990 words, just
-  under the rolled tier-4 floor after adding one genuine extra
-  transit detail (the real Odakyu Shinjuku-to-Hakone-Yumoto fare
-  already on file) rather than padding further with anything
-  unverified, said so here rather than inventing detail to close the
-  gap. Published 2026-11-02 as `hakone-ryokan-mikawaya-stay-spotlight`,
-  990 words. Topic `en/hotels-stays`. Zero uses of "actually" or
-  "genuinely" in the published body (3 "actually" caught and cut
-  across drafts). No `mark_photo_used` call, Commons photo, not
-  AL_Vault. Moved the two packing-cubes "Done" entries out to
-  `docs/blog-ideas-archive-13.md` (new file, archive-12 was already
-  near its own cap) to keep this file under the house-lint 400-line
-  cap.
 - **Quick Tip Tuesday, 2026-11-03: plug adapters and voltage
   converters, researched.** Checked the "already posted today" guard
   first (no post with today's date existed). Checked AL_Vault before
@@ -393,3 +293,52 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   in the published body (2 "actually" and 1 "genuinely" caught and cut
   across drafts). No `mark_photo_used` call, Commons photo, not
   AL_Vault.
+- **Gear Up Sunday, 2026-11-08: the GB Pockit stroller, a real product
+  from the family's own video descriptions.** Checked the "already
+  posted today" guard first (no post with today's date existed).
+  Checked AL_Vault for real photos first: no "power bank"/"charger"/
+  "solar" results (ruling out Jackery as a researched-only angle that
+  also didn't fit the site's hotel-heavy Japan content well), but
+  "stroller" turned up a real, unused (`used_in: []`) October 2023
+  Ueno Zoo photo. Cross-checked against a real, recurring
+  `STROLLER: https://amzn.to/3ujbBz2` link already present in multiple
+  of the family's own YouTube video descriptions (confirmed via
+  `search_videos` full view on the Cup Noodle Museum vlog, Dec 2022),
+  resolved the shortlink via WebFetch to a real product: GB Pockit
+  All-City (Velvet-Black), ASIN B07TVL4FN3. Used this site's own
+  standard Amazon tag (`adamandlinds00-20`) on that real ASIN rather
+  than the different tag (`clarksontravels-20`) embedded in the
+  YouTube-sourced link, since that tag is this site's own established
+  convention on every other Amazon link so far, not a mismatch, just a
+  different real channel's own tracking. Researched real current specs
+  via WebSearch/WebFetch (BabyGearLab, a pediatrician-led review site):
+  $330 list, ~13.1-13.5 lb, ~21x13x8 in folded, rated 73/100 (4th of
+  12 travel strollers tested), real documented pros (compact fold) and
+  cons (flexible frame, awkward handles, no sunshade window). Flagged
+  honestly that the family's real product link is the original Pockit
+  All-City while most current reviews cover the newer Pockit+, close
+  enough in spec that the folding math holds either way but noted
+  rather than assumed identical. Added real brand context (Goodbaby
+  International, parent of GB and Cybex) and a genuine Japan-specific
+  test (JR East's own sample coin-locker dimensions vs. the stroller's
+  folded size) rather than padding with a weak "best of" roundup from
+  lower-confidence aggregator sources found during research. Cross-
+  linked to the existing Wayb Pico post, a real "same family, same
+  fold-small philosophy, different gear" connection. Rolled length
+  tier 5 (deep dive, 1,300-1,600 words) and format 1 (price-first,
+  open with the number) from CLAUDE.md's system; format 1 fit
+  naturally. Landed at 1,174 words, short of the rolled tier-5 floor
+  after exhausting the genuinely available real material (a single
+  gear item's real spec sheet, one independent review, and one brand
+  history don't stretch indefinitely), said so here rather than
+  padding with a low-confidence competitor comparison. Published
+  2026-11-08 as `gb-pockit-stroller-folds-small-japan-review`, 1,174
+  words. Topic `en/travel-prep`. Zero uses of "actually" or
+  "genuinely" in the published body (5 "actually" caught and cut
+  across drafts, ironic timing right after a Saturday audit that spent
+  its whole session removing the same word from 27 other posts). One
+  real AL_Vault photo used (cover and in-body, same image),
+  `mark_photo_used` called. Moved the Wayb Pico and Hakone ryokan Stay
+  Spotlight "Done" entries out to `docs/blog-ideas-archive-13.md` to
+  stay under the house-lint 400-line cap (that archive file is now at
+  358 lines, will likely need `archive-14.md` soon).
