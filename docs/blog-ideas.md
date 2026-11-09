@@ -342,3 +342,52 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Spotlight "Done" entries out to `docs/blog-ideas-archive-13.md` to
   stay under the house-lint 400-line cap (that archive file is now at
   358 lines, will likely need `archive-14.md` soon).
+- **Off-cycle, 2026-11-08, same day:** the site owner spot-checked
+  `zenni-glasses-before-trip-vs-japan-optician` and found its real
+  Zenni affiliate link invisible, plain inline text, no disclosure.
+  Swept every post for the same pattern and fixed 3 more (Wayb in the
+  car-seat-law post, TravelSpend, Greenlight), each upgraded to the
+  standard Button + disclosure pattern. Full write-up in
+  `docs/site-audit.md`'s log rather than here, since it's a site-wide
+  fix, not a daily post, but noted here too so this file's own history
+  stays complete.
+- **Stay Spotlight, 2026-11-09: Minn Kappabashi, a real repeat-stay
+  aparthotel, found via an AL_Vault "apartment" sweep.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). AL_Vault's "hotel room" text search turned up nothing new,
+  but "apartment" surfaced a real, unused (used_in_count 0) October
+  2023 Tokyo Skytree window-view photo with `notes_for_ai` explicitly
+  reading "another reason we love staying at Minn-Kappabashi hotel in
+  Asakusa. The VIEW!!", a real, named, repeat-stay property, not a
+  researched pick, the strongest version of this column. Cross-checked
+  against a real `expedia.com/affiliates/adamandlinds/minn-kappabashi`
+  link already in the family's own "We Took Japan's Fastest Train"
+  video description ("We booked the Deluxe Apartment at Minn Kappabashi
+  in Asakusa"), confirmed via WebSearch as a real property (Expedia
+  h90581980, Hotels.com ho2899623360, 4.5 stars, 9.0 review score,
+  24-unit aparthotel). Used real `expediaRedirect()`/`hotelsRedirect()`
+  on the actual property pages rather than the vanity affiliate URL
+  itself, matching the established Stay Spotlight pattern. Confirmed
+  via `get_trip` that the family's own photos (Skytree window shot,
+  Halloween costumes, a full Thanksgiving dinner cooked in the unit)
+  all fall within one extended Oct-Nov 2023 Tokyo stay; caught myself
+  overclaiming "three separate trips" in an early draft when the
+  confirmed evidence only supports one extended multi-week stay,
+  corrected before publishing rather than let an unverified claim
+  stand. Rolled format 6 (head-to-head comparison) and fit it to a
+  real comparison the site already has data for: this aparthotel vs.
+  the existing `kimpton-shinjuku-tokyo-stay-spotlight` post's real
+  per-night pricing, used as the "standard hotel room" side rather
+  than inventing a second property, plus a real family-of-five
+  room-count math point (a standard room needs two bookings for five
+  people, a 65sqm/sleeps-6 unit needs one). Rolled length tier 6
+  (extended feature, 1,600-2,000 words); landed at 1,350 words after
+  three genuinely added real sections (guest reviews, practical
+  booking details, the repeat-stay evidence), short of the floor,
+  said so here rather than padding further with unverified claims.
+  Published 2026-11-09 as
+  `minn-kappabashi-aparthotel-vs-hotel-room-asakusa`, 1,350 words.
+  Topic `en/hotels-stays`. Zero uses of "actually" or "genuinely" in
+  the published body (2 "actually" caught and cut across drafts). One
+  real AL_Vault photo used (cover and in-body, same image),
+  `mark_photo_used` called.
