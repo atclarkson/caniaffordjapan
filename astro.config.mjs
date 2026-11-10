@@ -29,6 +29,13 @@ export default defineConfig({
   // canonical + OG s'accordent sur cette forme.
   trailingSlash: "always",
 
+  // Privacy, terms and the legal notice merged into /legal/ (2026-11-10);
+  // the old addresses still work for anyone who linked or bookmarked them.
+  redirects: {
+    "/privacy/": "/legal/",
+    "/terms/": "/legal/",
+  },
+
   // Pas d'adapter, volontairement : le theme compile en HTML 100% statique et
   // n'impose aucun hebergeur a son utilisateur.
   security: { checkOrigin: true },

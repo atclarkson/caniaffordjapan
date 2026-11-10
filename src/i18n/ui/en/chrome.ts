@@ -43,14 +43,11 @@ export const enChrome = {
     colLegal: "Legal",
     rss: "RSS feed",
     sitemap: "Sitemap",
-    imprint: "Legal notice",
+    imprint: "Privacy and terms",
     privacy: "Privacy",
-    /** src/config/legalData.json.ts porte encore ce document : il garde donc un
-     *  libelle et une route, meme si le pied de page n'affiche que les deux
-     *  precedents. */
+    /** Kept for the route map; privacy and terms both live on /legal/ now. */
     terms: "Terms",
     rights: "All rights reserved.",
-    builtWith: "Built with Astro, set in Space Grotesk and Instrument Sans.",
     themeBy: "Site by",
     backToTop: "Back to top",
     /** Libelles accessibles des liens qui ne portent qu'une icone. */

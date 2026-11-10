@@ -268,3 +268,12 @@ placeholder.
   (`astro.config.mjs`). Usability: tall in-body photos capped at 80svh
   (whole frame, no crop), post cover gets `fetchpriority="high"`.
   Internal link check over all built HTML: zero broken.
+- **2026-11-10, owner request:** `/legal/`, `/privacy/` and `/terms/`
+  merged into one plain-English page at `/legal/` ("Privacy, terms and
+  affiliate links"; copy in `src/i18n/ui/en/pages.ts` under `legal`).
+  The old privacy page had gone untrue (it promised no tracking cookies
+  and mentioned an email list, but the Impact and Partnerize scripts in
+  `BaseHead.astro` run on every page and there is no list); the new copy
+  names both networks and carries the Amazon Associates line. `/privacy/`
+  and `/terms/` redirect (`public/_redirects` plus Astro `redirects`).
+  If a script, form or newsletter is ever added, update that page.

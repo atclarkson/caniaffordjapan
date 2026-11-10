@@ -35,7 +35,7 @@ export const GET: APIRoute = async ({ site, url }) => {
     ["/authors/", "the family members who write here, one page per byline"],
     ["/about/", "who the Clarkson family is and why real prices are published"],
     ["/contact/", "how to reach the family"],
-    ["/legal/", "publisher, host, and how to report a problem"],
+    ["/legal/", "privacy, terms, and affiliate disclosure in one page, plus how to reach us"],
   ];
 
   for (const locale of locales) {

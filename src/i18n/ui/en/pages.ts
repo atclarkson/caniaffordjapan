@@ -209,39 +209,49 @@ export const enPages = {
     searchCta: "Search the blog",
   },
 
-  // --- Mentions legales ----------------------------------------------------
-  // La page /legal/ porte SON propre texte ici, parce qu'elle n'en a pas
-  // ailleurs : src/config/legalData.json.ts ne couvre que la confidentialite et
-  // les conditions. Ce texte reste generique pour un blog personnel et ne
-  // vaut pas un avis juridique: a faire relire si le site se monetise serieusement.
+  // --- Privacy, terms and affiliate links ----------------------------------
+  // One short page at /legal/ (merged 2026-11-10 from the old legal notice,
+  // privacy policy and terms; /privacy/ and /terms/ redirect here). Plain
+  // English on purpose, the site owner's brief: clean, compliant, easy to
+  // understand. Keep it true to what the site really does: if a tracking
+  // script, form or newsletter is ever added or removed, update this page.
   legal: {
     eyebrow: "Legal",
-    title: "Legal notice",
-    description: "Who publishes this site, who hosts it, and how to reach us.",
-    /** {date} est formatee par formatDate() dans la langue de la page. */
-    lastUpdated: "Last updated on {date}",
+    title: "Privacy, terms and affiliate links",
+    description:
+      "Nothing to sign up for, no data sold, and some affiliate links. What that means for you, in plain English.",
+    /** {date} is formatted by formatDate() in the page's language. */
+    lastUpdated: "Last updated {date}",
     toc: "On this page",
     backToTop: "Back to top",
     sections: [
       {
-        title: "Publisher",
-        body: "This site is published by Adam and Lindsay Clarkson as a personal family blog. Any question about the content published here can be sent through the contact page.",
+        title: "The short version",
+        body: "There's nothing to sign up for here: no accounts, no newsletter, no forms. We don't collect your name or email address unless you email us yourself, and we never sell or share anything about you.",
       },
       {
-        title: "Hosting",
-        body: "The site is a set of static files served by Cloudflare. There is no database, no server-side session and no account: nothing is stored on our side when you read a page.",
+        title: "What happens when you visit",
+        body: "The site is hosted by Cloudflare, which keeps standard server logs (IP address, browser, the page you asked for) to deliver pages and block abuse, like any web host. If you switch between light and dark mode, that choice is saved in your own browser and never sent to us.",
       },
       {
-        title: "Content and reuse",
-        body: "The posts, photos and code samples published here belong to their authors. Quoting a passage with a link back is welcome and needs no permission. Republishing a whole post, or using our photos elsewhere, does.",
+        title: "Affiliate links and cookies",
+        body: [
+          "Many posts link to places where you can book or buy things: Klook, GetYourGuide, Expedia, Hotels.com, Viator, Amazon, eSIM and SIM providers like Holafly and Airalo, travel insurers, and a few others. These are affiliate links. If you book or buy through one, we may earn a commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.",
+          "So partners can credit us for a booking, our affiliate networks (Impact and Partnerize) run small tracking scripts on this site, and a partner may set a cookie when you click through or use a booking widget in a post. Once you're on their site, their privacy policy and terms apply, not ours.",
+          "Commissions never decide what we write about or recommend.",
+        ],
       },
       {
-        title: "Reporting a problem",
-        body: "A factual error, an outdated price, a broken link: write to the address on the contact page. Corrections are made promptly and the post carries the date of its revision.",
+        title: "Using what you read here",
+        body: "Prices, opening hours and rules in Japan change. We share everything in good faith as a starting point for your own planning, so check the current price before you book.",
       },
       {
-        title: "Affiliate disclosure",
-        body: "This site participates in affiliate programs with Klook, GetYourGuide, Expedia, Hotels.com, Viator, Amazon Associates, and several eSIM and mobile connectivity providers (Airalo, Holafly, and others, see individual posts for the current list). Booking links, widgets, and product links from those partners on this blog are affiliate links, and we may earn a small commission if you book or buy through them, at no extra cost to you. We only ever link to places, tours, hotels, or products we'd genuinely recommend; the affiliate relationship never decides what we cover.",
+        title: "Our posts and photos",
+        body: "The posts and photos on this site belong to us. Quoting a bit with a link back is always fine. Ask us first before republishing a whole post or using our photos.",
+      },
+      {
+        title: "Who we are and how to reach us",
+        body: "Can I Afford Japan? is a family blog run by Adam and Lindsay Clarkson. For a question, a correction, or anything about your privacy, email us from the contact page.",
       },
     ],
   },

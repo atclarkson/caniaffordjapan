@@ -60,7 +60,6 @@ export function getFooterData(locale: Locale): FooterColumn[] {
       title: t.footer.colLegal,
       links: [
         { text: t.footer.imprint, href: L("/legal/") },
-        { text: t.footer.privacy, href: L("/privacy/") },
       ],
     },
   ];
@@ -89,7 +88,7 @@ export function getSiteRoutes(locale: Locale): SiteRoutes {
     rss: L("/rss.xml"),
     sitemap: "/sitemap-index.xml",
     imprint: L("/legal/"),
-    privacy: L("/privacy/"),
-    terms: L("/terms/"),
+    privacy: L("/legal/"),
+    terms: L("/legal/"),
   };
 }
