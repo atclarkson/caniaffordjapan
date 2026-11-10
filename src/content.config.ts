@@ -68,6 +68,10 @@ const topics = defineCollection({
   schema: z.object({
     name: z.string(),
     description: z.string(),
+    // The <title> for the topic page in search results, phrased the way
+    // people search ("Tokyo Prices: What Things Cost"). Falls back to the
+    // generic "Posts filed under X" when absent.
+    seoTitle: z.string().optional(),
     // Un nom semantique que les composants traduisent en tokens, jamais une
     // couleur en dur : rebrander ne doit pas obliger a rouvrir le contenu.
     accent: z.enum(["coral", "reef", "ink"]),

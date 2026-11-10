@@ -246,3 +246,25 @@ placeholder.
   treatment by default, this is the second time a post has shipped
   without it (the first was presumably from before that pattern was
   established as the house default).
+- **Off-cycle design and technical SEO pass, 2026-11-10, at the site
+  owner's request** ("make this site look good... for usability and
+  SEO"). Technical SEO, none of it touched by earlier firings:
+  paginated archive and topic pages (`/blog/2/`, `/topics/x/2/`) were
+  `noindex, nofollow`, which also told crawlers not to follow links to
+  older posts; now indexable with a per-page description. Topic pages
+  got a real `<title>` (new optional `seoTitle` in each topic JSON,
+  e.g. "Tokyo Prices: What Things Cost" instead of "Posts filed under
+  Tokyo"), a `CollectionPage`/`ItemList` JSON-LD block, and a share card
+  cropped from the topic's newest cover. Archive and topics index got
+  search titles too. Posts: `BlogPosting` (was `Article`) with
+  `dateModified`, `articleSection`, `keywords`, publisher URL and logo,
+  author `sameAs` profiles; breadcrumb now Home, topic, post; `article:*`
+  meta tags; a 1.91:1 share crop of the cover with real
+  `og:image:width/height` (portrait covers were being cropped badly in
+  iMessage/Slack); `<title>` drops the site-name suffix when it would
+  push past ~62 characters. The section share cards in `public/og/` were
+  generated but never used, now wired by URL section in `BaseHead`.
+  Sitemap gets `<lastmod>` from each post's frontmatter
+  (`astro.config.mjs`). Usability: tall in-body photos capped at 80svh
+  (whole frame, no crop), post cover gets `fetchpriority="high"`.
+  Internal link check over all built HTML: zero broken.

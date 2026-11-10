@@ -259,10 +259,16 @@
     background: var(--prose-rule);
   }
 
+  /* Portrait phone photos used to run 1,000px+ tall on desktop, a full screen
+   * of scrolling per picture. Capping the height (and centring the narrower
+   * result) keeps the whole frame visible with no cropping. */
   .prose :where(img, video) {
     display: block;
+    inline-size: auto;
     max-inline-size: 100%;
     block-size: auto;
+    max-block-size: min(80svh, 42rem);
+    margin-inline: auto;
     border-radius: var(--radius-card);
   }
 

@@ -48,9 +48,13 @@ const t = useTranslations(locale);
 
 const title =
   page.currentPage > 1
-    ? `${t.archive.metaTitle}, ${fmt(t.archive.pageSuffix, { n: page.currentPage })}`
-    : t.archive.metaTitle;
-const description = t.archive.metaDescription;
+    ? `${t.archive.seoTitle}, ${fmt(t.archive.pageSuffix, { n: page.currentPage })}`
+    : t.archive.seoTitle;
+// A distinct description per page, so pages 2+ aren't flagged as duplicates.
+const description =
+  page.currentPage > 1
+    ? `${t.archive.metaDescription} Page ${page.currentPage} of ${page.lastPage}.`
+    : t.archive.metaDescription;
 
 const base = Astro.site ?? Astro.url;
 const crumbs = breadcrumbList([
@@ -58,9 +62,10 @@ const crumbs = breadcrumbList([
   { name: t.archive.metaTitle, url: new URL(localizePath("/blog/", locale), base).href },
 ]);
 
-// Les pages 2 et suivantes ne meritent pas d'etre indexees : elles n'ont pas de
-// contenu propre, et Google preferera toujours la page 1 ou le billet lui-meme.
-const noindex = page.currentPage > 1;
+// Pages 2+ stay indexable (self-canonical, own title). They used to be
+// noindex, nofollow, which also told crawlers not to follow their links
+// to older posts. Google's own guidance is to leave pagination indexable.
+const noindex = false;
 ---
 
 <BaseLayout {title} {description} {noindex}>

@@ -24,7 +24,7 @@ const counts: Record<string, number> = {};
 for (const entry of posts) counts[entry.topicSlug] = (counts[entry.topicSlug] ?? 0) + 1;
 const covers = topicCovers(posts);
 
-const title = t.topics.metaTitle;
+const title = t.topics.seoTitle;
 const description = t.topics.metaDescription;
 
 const base = Astro.site ?? Astro.url;

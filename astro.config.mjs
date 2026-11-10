@@ -3,6 +3,22 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
+import { readdirSync, readFileSync } from "node:fs";
+
+// <lastmod> for every post in the sitemap, read straight from frontmatter
+// (updatedDate when a post was revised, pubDate otherwise). Lets search
+// engines see which posts are new or changed instead of recrawling blind.
+const postDates = new Map();
+const postsDir = new URL("./src/data/posts/en/", import.meta.url);
+for (const file of readdirSync(postsDir)) {
+  if (!/\.mdx?$/.test(file)) continue;
+  const head = readFileSync(new URL(file, postsDir), "utf8").split(/^---$/m)[1] ?? "";
+  /** @param {string} key */
+  const date = (key) => head.match(new RegExp(`^${key}:\\s*["']?(\\d{4}-\\d{2}-\\d{2})`, "m"))?.[1];
+  const when = date("updatedDate") ?? date("pubDate");
+  if (when) postDates.set(file.replace(/\.mdx?$/, ""), when);
+}
+const newestPost = [...postDates.values()].sort().at(-1);
 
 // https://astro.build/config
 export default defineConfig({
@@ -43,6 +59,16 @@ export default defineConfig({
       // Le sitemap porte les memes alternatives que les balises hreflang du
       // head : Google recoupe les deux, et un desaccord fait ignorer les deux.
       i18n: { defaultLocale: "en", locales: { en: "en" } },
+      serialize(item) {
+        const slug = item.url.match(/\/blog\/([^/]+)\/$/)?.[1];
+        const when = slug ? postDates.get(slug) : undefined;
+        if (when) item.lastmod = new Date(`${when}T00:00:00Z`).toISOString();
+        else if (newestPost && /^https:\/\/[^/]+\/(blog\/|topics\/)?$/.test(item.url)) {
+          // Home, archive and topic index change whenever a post goes out.
+          item.lastmod = new Date(`${newestPost}T00:00:00Z`).toISOString();
+        }
+        return item;
+      },
     }),
   ],
 

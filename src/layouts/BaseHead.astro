@@ -34,7 +34,7 @@ import { ClientRouter } from "astro:transitions";
 export interface Props {
   title: string;
   description?: string;
-  image?: { src: string; alt: string };
+  image?: { src: string; alt: string; width?: number; height?: number };
   type?: "website" | "article";
   noindex?: boolean;
 }
@@ -42,13 +42,36 @@ export interface Props {
 const {
   title,
   description = siteData.description,
-  image = siteData.defaultImage,
+  image: imageProp,
   type = "website",
   noindex = false,
 } = Astro.props;
 
+// Section share cards made by `pnpm og` (public/og/*.png, all 1200x630).
+// A page that passes no image of its own gets its section's card, so a
+// shared /topics/ or /about/ link no longer shows the generic site card.
+const sectionCards: Record<string, string> = {
+  about: "/og/about.png",
+  blog: "/og/blog.png",
+  topics: "/og/topics.png",
+  contact: "/og/contact.png",
+};
+const section = Astro.url.pathname.split("/").filter(Boolean)[0] ?? "";
+const image = imageProp ?? {
+  ...siteData.defaultImage,
+  src: sectionCards[section] ?? siteData.defaultImage.src,
+  width: 1200,
+  height: 630,
+};
+
 // "Titre | Marque", sauf si le titre porte deja la marque (page d'accueil).
-const fullTitle = title.includes(siteData.name) ? title : `${title} | ${siteData.name}`;
+// Google cuts titles off around 60 characters. A long post title plus the
+// " | Can I Afford Japan?" suffix lost its own last words in search results,
+// so the suffix is only added when the whole thing still fits. Share cards
+// already name the site (og:site_name), so they always get the bare title.
+const suffixed = `${title} | ${siteData.name}`;
+const fullTitle = title.includes(siteData.name) || suffixed.length > 62 ? title : suffixed;
+const socialTitle = type === "article" ? title : fullTitle;
 
 // Canonical : une seule forme d'URL, celle de trailingSlash "always" dans astro.config.
 // Les routes fichiers (rss.xml, robots.txt) gardent leur extension telle quelle.
@@ -173,9 +196,11 @@ const groundLight = resolveToken("color-background", lightBlock);
 <meta property="og:type" content={type} />
 <meta property="og:url" content={canonical.href} />
 <meta property="og:site_name" content={siteData.name} />
-<meta property="og:title" content={fullTitle} />
+<meta property="og:title" content={socialTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={imageUrl.href} />
+{image.width && <meta property="og:image:width" content={String(image.width)} />}
+{image.height && <meta property="og:image:height" content={String(image.height)} />}
 <meta property="og:image:alt" content={image.alt} />
 <meta property="og:locale" content={ogLocale} />
 {
@@ -186,7 +211,7 @@ const groundLight = resolveToken("color-background", lightBlock);
 
 <meta name="twitter:card" content="summary_large_image" />
 {siteData.author.twitter && <meta name="twitter:site" content={`@${siteData.author.twitter}`} />}
-<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:title" content={socialTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl.href} />
 <meta name="twitter:image:alt" content={image.alt} />

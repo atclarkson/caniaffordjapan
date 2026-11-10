@@ -61,18 +61,27 @@ export interface ArticleInput {
   url: string;
   datePublished: Date | string;
   dateModified?: Date | string;
-  image?: string;
+  image?: string | string[];
   authorName: string;
   authorUrl?: string;
   publisherName?: string;
   publisherLogo?: string;
+  /** "BlogPosting" for blog posts; defaults to "Article". */
+  type?: "Article" | "BlogPosting";
+  publisherUrl?: string;
+  /** Profiles that identify the author (their site, YouTube, Instagram...). */
+  authorSameAs?: string[];
+  /** The post's topic name. */
+  section?: string;
+  keywords?: string[];
+  inLanguage?: string;
 }
 
 /** Le noeud Article d'un billet de blog. Les noeuds imbriques (Person, Organization) n'ont pas de @context. */
 export function article(input: ArticleInput): JsonLdNode {
   return compact({
     "@context": CONTEXT,
-    "@type": "Article",
+    "@type": input.type ?? "Article",
     headline: input.title,
     description: input.description,
     url: input.url,
@@ -84,14 +93,22 @@ export function article(input: ArticleInput): JsonLdNode {
       "@type": "Person",
       name: input.authorName,
       url: input.authorUrl,
+      sameAs: input.authorSameAs?.length ? input.authorSameAs : undefined,
     }),
+    articleSection: input.section,
+    keywords: input.keywords?.length ? input.keywords.join(", ") : undefined,
+    inLanguage: input.inLanguage,
     publisher:
       input.publisherName === undefined
         ? undefined
         : compact({
             "@type": "Organization",
             name: input.publisherName,
-            logo: input.publisherLogo,
+            url: input.publisherUrl,
+            logo:
+              input.publisherLogo === undefined
+                ? undefined
+                : { "@type": "ImageObject", url: input.publisherLogo },
           }),
   });
 }

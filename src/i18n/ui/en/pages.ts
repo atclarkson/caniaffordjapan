@@ -132,6 +132,8 @@ export const enPages = {
   // --- Sujets --------------------------------------------------------------
   topics: {
     metaTitle: "Topics",
+    /** The topics index <title> in search results; metaTitle stays the breadcrumb label. */
+    seoTitle: "Japan Travel Costs by Topic",
     metaDescription:
       "Every subject covered on Can I Afford Japan?: cities, budget food, free attractions, transit, and day trips.",
     eyebrow: "Topics",
