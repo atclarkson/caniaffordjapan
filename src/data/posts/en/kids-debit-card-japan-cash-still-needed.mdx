@@ -12,6 +12,7 @@ draft: false
 ---
 
 import { Button } from "@components/ui/button";
+import AffiliateButton from "@components/Post/AffiliateButton.astro";
 
 A kids debit card like Greenlight works in Japan the same way it works at home, no notification needed before you fly, no stated foreign transaction fee on the main card itself. Where it stops working is the gacha machine your kid is standing in front of with 400 yen of their own spending money, most of those still want a physical coin, not a tap or a card.
 
@@ -57,16 +58,4 @@ Yes, mostly because the card removes the boring 90% of kids' spending, snacks, s
 
 Greenlight is the kids debit card in our own affiliate list; this is information about how a card like it functions in Japan specifically, not a recommendation of one card over another.
 
-<p class="not-prose my-6 flex flex-wrap gap-3">
-  <Button
-    href="https://share.greenlight.com/15906669"
-    target="_blank"
-    rel="noopener noreferrer sponsored"
-    variant="primary"
-    size="sm"
-  >
-    Learn more about Greenlight
-  </Button>
-</p>
-
-This is an affiliate link, we may earn a commission if you sign up through it, at no extra cost to you. See our <a href="/legal/" class="underline">legal notice</a>.
+<AffiliateButton href="https://share.greenlight.com/15906669" label="See Greenlight's kids debit card" />

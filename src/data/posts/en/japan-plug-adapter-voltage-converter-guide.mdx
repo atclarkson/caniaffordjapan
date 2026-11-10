@@ -21,6 +21,7 @@ faq:
 ---
 
 import { Button } from "@components/ui/button";
+import AffiliateButton from "@components/Post/AffiliateButton.astro";
 
 Japan's wall outlets run at 100V, lower than the 120V most of North America uses and well under the 220-240V most of the rest of the world runs. The plug shape, though, is the same flat two parallel pins as the US, Canada, and a handful of other countries, Type A. That single fact splits every traveler into two very different packing lists, and most people land on the cheap one without realizing it.
 
@@ -55,19 +56,7 @@ Japan's electricity has one more wrinkle: the frequency splits by region, 50Hz i
 
 A shape adapter only changes the pins, not the voltage, which is where a single-voltage 220-240V device becomes the real problem. Hair dryers, curling irons, and some older or specialized electronics sold in the UK, Europe, or Australia are often built for 220-240V only, no dual-voltage range printed on the label, and plugging one straight into a 100V Japanese outlet through nothing but a shape adapter means it either barely works or doesn't turn on at all, the step down in voltage is too big for the device to compensate for. That's a genuine voltage problem, and the fix is a step-up transformer rated for more wattage than the device draws, not just a shape adapter with a different label on the box. A hair dryer pulling 1,500 watts needs a transformer rated well above that, not a 50-watt travel converter meant for a phone charger.
 
-<p class="not-prose my-6 flex flex-wrap gap-3">
-  <Button
-    href="https://www.amazon.com/s?k=travel+voltage+converter+Japan&tag=adamandlinds00-20"
-    target="_blank"
-    rel="noopener noreferrer sponsored"
-    variant="primary"
-    size="sm"
-  >
-    Shop travel voltage converters on Amazon
-  </Button>
-</p>
-
-This is an affiliate link, we may earn a commission if you buy through it, at no extra cost to you. See our <a href="/legal/" class="underline">legal notice</a>.
+<AffiliateButton href="https://www.amazon.com/s?k=travel+voltage+converter+Japan&tag=adamandlinds00-20" label="Shop travel voltage converters on Amazon" />
 
 ## One more thing worth packing for a family
 

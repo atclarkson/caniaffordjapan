@@ -348,16 +348,16 @@ partner IDs there without the site owner's say so.
 - Google Drive "Brand Assets" folder (added 2026-10-28, growing): its
   Klook activities export has ready links with current pricing, use a
   row's link as-is, not `klookRedirect`. See `docs/klook-priority-activities.md`.
-- Telecom affiliates (eSIM, physical SIM, pocket wifi: Airalo, Airhub,
-  Holafly, Japan Wireless, Nomad, Simlocal, amigo eSIM, Sim Options,
-  Ubigi) live in `src/data/telecomAffiliates.ts`. Same rule as Klook: no
-  editing codes/links without the site owner's say so, no inventing a
-  term that isn't in the file. No shared component yet, link to `.url`
-  directly and quote `.terms` in prose. `docs/affiliates-reference.md`
-  has the rest of the family's affiliate accounts, reference only mostly,
-  except it's the real source for Gear Up Sunday and Day Trip Saturday,
-  see `docs/weekly-calendar.md`. Same rule: quote real terms, never round
-  a commission or invent a code it doesn't list.
+- Telecom affiliates (Airalo, Airhub, Holafly, Japan Wireless, Nomad,
+  Simlocal, amigo eSIM, Sim Options, Ubigi) live in
+  `src/data/telecomAffiliates.ts`: no editing codes/links without the
+  owner's say so, no inventing terms; quote `.terms` in prose.
+  `docs/affiliates-reference.md` has the rest (the real source for Gear
+  Up Sunday and Day Trip Saturday); quote real terms, never invent a code.
+- Any single outbound link (telecom `.url`, Amazon, Awin, Expedia...):
+  `<AffiliateButton href="..." label="Verb + thing" />` on its own lines
+  (`@components/Post/AffiliateButton.astro`, carries its own disclosure).
+  Never a hand-rolled `<Button>` inside a `<p>`: it renders broken.
 
 ## Images
 

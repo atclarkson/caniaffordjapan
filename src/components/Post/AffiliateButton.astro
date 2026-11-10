@@ -1,0 +1,44 @@
+---
+// src/components/Post/AffiliateButton.astro - one outbound link in a post: a button plus, for affiliate links, the disclosure line under it.
+//
+// Added 2026-11-10. Posts used to hand-roll this as a <Button> inside a <p>
+// with the label on its own line; MDX wrapped that label in a second <p>,
+// browsers can't nest paragraphs, and every one of those buttons rendered
+// as an empty blue pill followed by the real button. This component keeps
+// the markup out of MDX entirely, so it can't break that way again.
+//
+// Usage in an .mdx post (always on its own lines, never inside a <p>):
+//   import AffiliateButton from "@components/Post/AffiliateButton.astro";
+//   <AffiliateButton href="https://..." label="Shop power banks on Amazon" />
+// A non-affiliate outbound link (an official site): add affiliate={false};
+// it then drops the disclosure and the "sponsored" rel.
+import { Button } from "@components/ui/button";
+import { Icon } from "@components/svg/icons";
+
+interface Props {
+  href: string;
+  label: string;
+  /** True (default) for affiliate links: adds rel="sponsored" and the disclosure line. */
+  affiliate?: boolean;
+}
+
+const { href, label, affiliate = true } = Astro.props;
+const rel = affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
+---
+
+<div class="not-prose my-7 flex flex-col items-start gap-2.5" data-slot="affiliate-button">
+  <Button {href} target="_blank" {rel} variant="primary" size="md">
+    {label}
+    <Icon name="arrow-up-right" size={16} />
+  </Button>
+  {
+    affiliate && (
+      <p class="text-muted-foreground font-sans text-xs leading-relaxed">
+        Affiliate link: we may earn a commission at no extra cost to you.{" "}
+        <a href="/legal/" class="hover:text-foreground underline underline-offset-2">
+          How this works
+        </a>
+      </p>
+    )
+  }
+</div>

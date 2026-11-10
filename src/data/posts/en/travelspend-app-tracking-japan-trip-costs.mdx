@@ -12,6 +12,7 @@ draft: false
 ---
 
 import { Button } from "@components/ui/button";
+import AffiliateButton from "@components/Post/AffiliateButton.astro";
 
 The obvious assumption about a travel budget app is that it works like Mint or YNAB, linked straight to your bank and cards, pulling in every charge automatically. TravelSpend doesn't do that, no bank connection at all, every expense gets entered by hand. That's not a missing feature, it's the whole design: no API trying and failing to parse a foreign-currency charge from a Japanese convenience store, works offline on a train with no signal, and syncing anything to a bank means handing over account access we'd rather not give a travel app in the first place.
 
@@ -31,19 +32,9 @@ Not every receipt in real time. Lindsay usually catches up on the previous day's
 
 Premium runs around $19.99 a year per TravelSpend's own FAQ, pricing may vary by region, and a lifetime membership sits under $50. Use code <strong>ADAMANDLINDS</strong> for 50% off the annual plan.
 
-<p class="not-prose my-6 flex flex-wrap gap-3">
-  <Button
-    href="https://get.travelspend.app/?o=adamandlinds"
-    target="_blank"
-    rel="noopener noreferrer sponsored"
-    variant="primary"
-    size="sm"
-  >
-    Get TravelSpend
-  </Button>
-</p>
+<AffiliateButton href="https://get.travelspend.app/?o=adamandlinds" label="Get TravelSpend" />
 
-This is an affiliate link, we may earn a commission if you sign up through it, at no extra cost to you. See our <a href="/legal/" class="underline">legal notice</a>. We're not claiming a huge number here, a travel budget app is a small line item next to a flight or a hotel, but half off a $20 app is still real money back in your pocket for something we'd use on every trip regardless.
+We're not claiming a huge number here, a travel budget app is a small line item next to a flight or a hotel, but half off a $20 app is still real money back in your pocket for something we'd use on every trip regardless.
 
 ## Was it worth it
 
