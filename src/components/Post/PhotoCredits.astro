@@ -1,0 +1,57 @@
+---
+// src/components/Post/PhotoCredits.astro - one small credits line at the end of a post, for photos the family didn't take.
+//
+// Added 2026-11-10 at the site owner's request: Wikimedia Commons credits
+// moved out of photo captions into a single line under the post. It carries
+// the minimum CC BY / CC BY-SA ask for: the author, the licence with a link
+// to its deed, and a link to the file's Commons page. Fed by the post's
+// `photoCredits` frontmatter (src/content.config.ts).
+interface Credit {
+  author: string;
+  license: string;
+  source: string;
+  /** Optional short note, e.g. "cover, a Hakone ryokan, not this property". */
+  note?: string;
+}
+interface Props {
+  credits?: Credit[];
+}
+const { credits = [] } = Astro.props;
+
+// "CC BY-SA 4.0" -> https://creativecommons.org/licenses/by-sa/4.0/ ;
+// "CC0" or "Public domain" -> no link (no attribution needed, kept as a courtesy).
+function licenseUrl(license: string): string | undefined {
+  const m = /^CC (BY(?:-SA|-ND|-NC|-NC-SA|-NC-ND)?) (\d\.\d)$/i.exec(license.trim());
+  return m ? `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/` : undefined;
+}
+---
+
+{
+  credits.length > 0 && (
+    <p class="not-prose text-muted-foreground mt-12 font-sans text-xs leading-relaxed" data-slot="photo-credits">
+      Photo credits:{" "}
+      {credits.map((credit, i) => {
+        const href = licenseUrl(credit.license);
+        return (
+          <Fragment>
+            {i > 0 && "; "}
+            {credit.note && `${credit.note}: `}
+            <a href={credit.source} class="hover:text-foreground underline underline-offset-2">
+              {credit.author}
+            </a>
+            ,{" "}
+            {href ? (
+              <a href={href} rel="license" class="hover:text-foreground underline underline-offset-2">
+                {credit.license}
+              </a>
+            ) : (
+              credit.license
+            )}
+            , via Wikimedia Commons
+          </Fragment>
+        );
+      })}
+      .
+    </p>
+  )
+}

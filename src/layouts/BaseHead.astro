@@ -142,10 +142,11 @@ const groundLight = resolveToken("color-background", lightBlock);
 // gris generique. Le defaut ne se voit dans aucun navigateur, dans aucun audit
 // de page et dans aucun test : il ne se voit que dans une page de resultats.
 //
-// Le dessin vit maintenant dans scripts/favicon.mjs, qui ecrit favicon.svg,
-// favicon.ico (16, 32 et 48), favicon-96.png et apple-touch-icon.png dans
-// public/ a chaque build. Un pnpm rebrand les repeint comme avant, puisque le
-// script relit les memes jetons. Ici il ne reste que les liens.
+// Since 2026-11-10 the icons are the site owner's brand pack (the question
+// mark with the red dot), static files in public/brand/icons/ plus
+// public/favicon.ico and public/apple-touch-icon.png at the root addresses
+// browsers ask for unprompted, and public/site.webmanifest. Nothing
+// generates them at build any more (scripts/favicon.mjs was removed).
 ---
 
 <meta charset="utf-8" />
@@ -169,9 +170,10 @@ const groundLight = resolveToken("color-background", lightBlock);
     prefere quand il est compris, l'ICO sert de repli et reste ce que
     Googlebot-Image sait lire. L'ICO est aussi a /favicon.ico, l'adresse que
     tout navigateur demande de lui-meme meme sans balise. */}
-<link rel="icon" href="/favicon.ico" sizes="32x32" />
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/icons/icon-32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/icons/icon-180.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link
   rel="alternate"

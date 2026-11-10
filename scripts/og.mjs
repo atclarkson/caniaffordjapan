@@ -50,6 +50,10 @@ const PAGES = [
   { slug: "contact", eyebrow: "Can I Afford Japan?", title: "Tell us what we got wrong." },
 ];
 
+// The logo for dark grounds from the owner's brand pack, embedded so sharp
+// can rasterise it without fetching anything.
+const LOGO_DARK = readFileSync(join(ROOT, "public/brand/logos/footer-logo-dark.png")).toString("base64");
+
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 // Coupe le titre en 1 ou 2 lignes equilibrees, sans dependre d'une mesure de police.
@@ -101,14 +105,9 @@ function svgTemplate({ eyebrow, title }) {
 
   ${text}
 
-  <!-- The site mark (red disc, cream yen, same drawing as the favicon and the
-       header logo) with the site name, in place of the old eyebrow line and
-       wave, both removed 2026-11-10 at the site owner's request. -->
-  <g transform="translate(90 504) scale(1.25) translate(-8 -8)">
-    <path d="M32 8.5C44.8 8.8 54.6 18.1 55.3 30.8c.8 13.1-8.8 23.6-21.9 24.7-13.5 1.1-24.2-8-24.7-21.5C8.2 20.2 18.2 8.2 32 8.5Z" fill="#b33a2f"/>
-    <path d="m18.5 19.5 4.7-3.8L32 27.4l8.8-11.7 4.7 3.8-10.4 13.2v1.7h8v5.2h-8v3h8v5.2h-8v7.3h-6.2v-7.3h-8v-5.2h8v-3h-8v-5.2h8v-1.7L18.5 19.5Z" fill="#f4ead8"/>
-  </g>
-  <text x="166" y="550" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="30" fill="#ffffff">${esc(eyebrow)}</text>
+  <!-- The brand logo (white type, red dot: the owner's pack, for dark
+       grounds), replacing the old yen mark and name on 2026-11-10. -->
+  <image x="90" y="470" width="262" height="100" href="data:image/png;base64,${LOGO_DARK}"/>
   <text x="1110" y="550" text-anchor="end" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="26" fill="${DEEP_SOFT}">caniaffordjapan.com</text>
 </svg>`;
 }

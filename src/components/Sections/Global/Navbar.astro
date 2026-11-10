@@ -9,7 +9,6 @@
 // local (la pilule se resserre), et materials.css, dont la regle
 // [data-header][data-shrunk="true"]::after degrade le contenu la ou la barre le
 // recouvre vraiment. Renommer cet attribut casse le fondu de bord.
-import LogoMark from "@components/svg/LogoMark.astro";
 import { Icon } from "@components/svg/icons";
 import { Sheet, SheetClose, SheetHeader, SheetTitle, SheetTrigger } from "@components/ui/sheet";
 import { ThemeToggle } from "@components/ui/theme-toggle";
@@ -93,8 +92,23 @@ const navLink = [
         aria-label={t.nav.brandHome}
         data-header-brand
       >
-        <LogoMark size={24} class="shrink-0" />
-        <span class="font-display text-lg font-semibold tracking-tight">{siteData.name}</span>
+        <img
+          src="/brand/logos/header-logo.webp"
+          alt=""
+          width="960"
+          height="366"
+          class="h-11 w-auto sm:h-12 dark:hidden"
+          decoding="async"
+        />
+        <img
+          src="/brand/logos/footer-logo-dark.webp"
+          alt=""
+          width="720"
+          height="275"
+          class="hidden h-11 w-auto sm:h-12 dark:block"
+          decoding="async"
+        />
+        <span class="sr-only">{siteData.name}</span>
       </a>
 
       <ul class="mx-auto hidden items-center gap-0.5 lg:flex">
@@ -142,7 +156,7 @@ const navLink = [
   <SheetClose />
   <SheetHeader>
     <SheetTitle id="mobile-nav-title" class="flex items-center gap-2">
-      <LogoMark size={24} class="shrink-0" />
+      <img src="/brand/icons/icon-192.png" alt="" width="192" height="192" class="size-7 rounded-md" decoding="async" />
       {siteData.name}
     </SheetTitle>
   </SheetHeader>

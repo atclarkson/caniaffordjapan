@@ -9,7 +9,7 @@
     "node": ">=22.18.0"
   },
   "scripts": {
-    "build": "node scripts/favicon.mjs && astro build",
+    "build": "astro build",
     "check": "astro check",
     "dev": "astro dev",
     "lint:house": "node scripts/house.mjs",
@@ -18,8 +18,7 @@
     "preview": "astro preview",
     "rebrand": "node scripts/rebrand.mjs",
     "test": "node scripts/checks.mjs",
-    "verify": "node scripts/verify.mjs",
-    "favicon": "node scripts/favicon.mjs"
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.0",

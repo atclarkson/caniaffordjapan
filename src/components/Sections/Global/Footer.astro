@@ -8,7 +8,6 @@
 // Les colonnes viennent de getFooterData : trois seulement, et chaque entree
 // mene a une page que le theme construit vraiment. Un pied de page de blog qui
 // aligne les six colonnes d'un SaaS finit en depot de liens morts.
-import LogoMark from "@components/svg/LogoMark.astro";
 import { Icon, type IconName } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
 import { Input } from "@components/ui/input";
@@ -96,8 +95,9 @@ const columnLink =
           measure-prose, ce qui protege la lecture sans figer la colonne. */}
       <div class="flex flex-col gap-6 lg:col-span-4">
         <a href={routes.home} class="flex min-h-11 items-center gap-2" aria-label={t.nav.brandHome}>
-          <LogoMark size={26} class="shrink-0" />
-          <span class="font-display text-xl font-semibold tracking-tight">{siteData.name}</span>
+          <img src="/brand/logos/footer-logo.webp" alt="" width="720" height="275" class="h-14 w-auto dark:hidden" decoding="async" />
+          <img src="/brand/logos/footer-logo-dark.webp" alt="" width="720" height="275" class="hidden h-14 w-auto dark:block" decoding="async" />
+          <span class="sr-only">{siteData.name}</span>
         </a>
         <p class="text-muted-foreground measure-prose text-[0.95rem] leading-relaxed">
           {t.footer.tagline}

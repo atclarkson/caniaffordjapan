@@ -42,6 +42,16 @@ const posts = defineCollection({
       // reellement une section de questions-reponses visible : le schema ne
       // doit jamais decrire un contenu que la page ne montre pas.
       faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
+      // Credits for photos the family didn't take (Wikimedia Commons, CC BY
+      // and CC BY-SA). Rendered as one small line at the end of the post
+      // (PhotoCredits.astro), never as a caption under the photo: the
+      // licences allow attribution "in any reasonable manner". Each entry is
+      // the bare minimum they require: author, licence, link to the source.
+      photoCredits: z
+        .array(
+          z.object({ author: z.string(), license: z.string(), source: z.url(), note: z.string().optional() }),
+        )
+        .optional(),
     }),
 });
 

@@ -239,10 +239,10 @@ the same "what does X actually cost" template with the city name swapped.
   `Artist`, `LicenseShortName`, and `UsageTerms` fields for attribution
   (full-res `upload.wikimedia.org` URLs guessed by hand tend to 429 or
   400). Download it into `public/reference/` and reference it as an
-  absolute path (`/reference/<file>.jpg`), not the AL_Vault CDN. Caption
-  it plainly: `Photo: <Artist>, <License>, via Wikimedia Commons` linking
-  the file's Commons page. Cite it and move on, no disclaimer about not
-  having taken the photo yourself.
+  absolute path (`/reference/<file>.jpg`), not the AL_Vault CDN. Credit it
+  in frontmatter `photoCredits` (author, license like `CC BY-SA 4.0`,
+  source = the Commons file page; optional `note`), never in a caption or
+  a "Cover photo:" line: it renders as one small line at the post's end.
 
 ## Topics
 
@@ -377,8 +377,8 @@ partner IDs there without the site owner's say so.
   site's own marketing photo (a Klook listing's `Image URL` columns,
   see "Affiliate links") is a fine fallback when Commons has nothing
   (owner confirmed 2026-10-29); download the cover the same way as any
-  other. Caption honestly either way, never implying it's ours or
-  falsely CC licensed: "Photo via Klook's listing" or similar.
+  other. Commons photos go in `photoCredits` (see above); a booking-site
+  photo gets a short honest caption ("Photo via Klook's listing").
 
 ## Style
 

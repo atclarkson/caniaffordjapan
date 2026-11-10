@@ -10,6 +10,7 @@
 // Un brouillon se construit toujours, pour etre relu en local sur sa vraie
 // page, mais part en noindex : il est deja hors des listes, du flux et de la
 // recherche (src/js/posts.ts), il ne manquait que la consigne aux robots.
+import PhotoCredits from "@components/Post/PhotoCredits.astro";
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
 import PostBody from "@components/Sections/Post/PostBody.astro";
@@ -116,7 +117,7 @@ const articleSchema = article({
   authorUrl: new URL(`${routes.authors}${entrySlug(author.id)}/`, base).href,
   publisherName: siteData.name,
   publisherUrl: new URL(localizePath("/", locale), base).href,
-  publisherLogo: new URL("/apple-touch-icon.png", base).href,
+  publisherLogo: new URL("/brand/icons/icon-512.png", base).href,
 });
 
 const crumbSchema = breadcrumbList([
@@ -163,6 +164,7 @@ const faqSchema = post.data.faq && post.data.faq.length > 0 ? faqPage(post.data.
       <PostBody>
         <TableOfContents slot="toc" {headings} />
         <Content />
+        <PhotoCredits credits={post.data.photoCredits} />
       </PostBody>
 
       <PostFooter {post} {author} {url} />
