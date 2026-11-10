@@ -5,8 +5,9 @@ Older "Done" entries moved out of `docs/blog-ideas.md` (via
 cap. This continues straight on from `docs/blog-ideas-archive-12.md`
 (chronological, oldest first within each file). Nothing here is deleted,
 just relocated. See `docs/blog-ideas.md` for the current backlog and the
-more recent entries. When this file nears 400 lines too, start
-`blog-ideas-archive-14.md` rather than growing this one past the cap.
+more recent entries. This file is now closed at 394 lines (at the
+400-line cap); newer archived entries continue in
+`docs/blog-ideas-archive-14.md`.
 - **Quick Tip Tuesday launch, Tue 2026-10-27: packing cubes, budget
   vs premium.** Second post under the new weekly calendar. Checked
   the "already posted today" guard first (no post with today's date

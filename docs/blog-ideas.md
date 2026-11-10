@@ -106,34 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Klook Wednesday, 2026-11-04: teamLab Forest Fukuoka, researched.**
-  Checked the "already posted today" guard first (no post with
-  today's date existed). Picked from `docs/klook-priority-
-  activities.md`'s unblocked priority list (first in order, over
-  teamLab Future Park Okinawa). Checked AL_Vault before defaulting to
-  research: Fukuoka's pool is unchanged (1 photo, 2 videos, all
-  already used in the PayPay Dome baseball post), no real teamLab
-  Forest material exists. Full provenance logged in
-  `docs/klook-priority-activities.md` rather than duplicated here:
-  real angle (the one athletic/body-based teamLab space, structurally
-  different from the other three), real PayPay Dome cross-link (a
-  real family visit next door), real official-vs-Klook price gap
-  (2,400 yen door vs. $15-16 Klook), real Drive-export affiliate
-  link. Cover: no AL_Vault or Commons photo exists for this specific
-  attraction; Klook's own activity page and `res.klook.com` images
-  were unreachable (403) and the Drive CSV export was too large to
-  download this firing, so used a real Headout listing photo instead
-  (a different booking platform, still a genuine credited-listing
-  fallback), honestly captioned. Rolled length tier 2 (short, 600-800
-  words) and format 1 (price-first title, no verb, open with the
-  one-line answer) from CLAUDE.md's system; format 1 fit naturally
-  given the real official-vs-Klook price contrast, no reroll needed.
-  Landed at 673 words, within tier. Published 2026-11-04 as
-  `teamlab-forest-fukuoka-ticket-price`, 673 words. Topic
-  `en/teamlab`. Zero uses of "actually" or "genuinely" in the
-  published body (2 "actually" and 1 "genuinely" caught and cut
-  across drafts). No `mark_photo_used` call, Headout photo, not
-  AL_Vault.
 - **Throwback Thursday, 2026-11-05: a real Zauo visit in Tokyo,
   December 4, 2022, found via a video sweep rather than a photo one.**
   Checked the "already posted today" guard first (no post with
@@ -391,3 +363,31 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   sentences) and cut them before publishing. `pnpm build` and `pnpm
   check` both clean (0 errors). Slug:
   `power-bank-japan-flight-watt-hour-rules`.
+- **Same post, expanded same day at the site owner's direct request:**
+  "do some research on other airlines that fly to japan or in japan,
+  find out their policy. max mah, if you can use them on the flight.
+  etc and put it in a table." Added a new "How other airlines flying
+  to and around Japan compare" section with a 14-row table (JAL, ANA,
+  Peach/Jetstar Japan/ZIPAIR/Skymark/Spring Japan grouped under Japan's
+  single national rule, United, Delta, American, Singapore Airlines,
+  Cathay Pacific, Korean Air, EVA Air, China Airlines, British
+  Airways, Air Canada, Qantas). Researched each via WebSearch against
+  that airline's own current baggage/dangerous-goods page where one
+  surfaced (Delta, EVA Air, China Airlines, British Airways, Qantas,
+  Singapore Airlines/CAAS all had an official source; United, Cathay
+  Pacific, and Air Canada did not, so those three rows are sourced
+  from multiple independent secondary guides that agree with each
+  other instead, and the table says so explicitly rather than
+  presenting them as equally confirmed). Marked cells "not addressed"
+  or "not confirmed" rather than guessing a yes/no for in-flight
+  charging where no source stated one (United, EVA Air, China
+  Airlines, Air Canada), per the honesty rule extended to this kind
+  of factual table. Did not include one unconfirmed claim (three
+  specific Anker models allegedly banned by Air Canada by name) since
+  it couldn't be checked against Air Canada's own page. Rebuilt the
+  word count to 1,432 (well past the original tier 2 roll, expanding
+  an already-published post to answer a direct follow-up request
+  isn't a length-tier violation, the tier only governs the initial
+  draft). One more "actually" caught and cut in the new section
+  before publishing, zero in the final body. `pnpm build`, `pnpm
+  check`, `pnpm lint:house` all clean after the expansion.

@@ -11,7 +11,6 @@ featured: false
 draft: false
 ---
 
-import { Button } from "@components/ui/button";
 import AffiliateButton from "@components/Post/AffiliateButton.astro";
 
 A phone that's dead by lunchtime from maps, photos, and a mobile Suica is a real problem on a Japan trip, and a power bank is the obvious fix. What's less obvious is that the thing in your bag is a lithium battery, and both the FAA and Japan's own airlines have specific rules about it, not a vague "ask at the gate" situation. Here's every rule that applies, line by line.
@@ -43,6 +42,29 @@ Anything in the 10,000-20,000mAh range most people travel with clears the 100Wh 
   <figcaption>Photo: Ilya Plekhanov, CC BY-SA 3.0, via <a href="https://commons.wikimedia.org/wiki/File:Power_bank.JPG">Wikimedia Commons</a>. The Wh rating printed on a bank like this is the number airline staff check, not the headline mAh figure on the box.</figcaption>
 </figure>
 
+## How other airlines flying to and around Japan compare
+
+ANA and JAL aren't outliers, most major carriers landed on the same 100Wh/160Wh framework, but the quantity cap and the in-flight charging rule differ enough between them to matter. Checked against each airline's own current page where one exists, otherwise against multiple independent sources that agree with each other:
+
+| Airline | Under 100Wh | 100-160Wh | Over 160Wh | Max power banks | Charge it in flight? |
+|---|---|---|---|---|---|
+| JAL | No approval needed | Up to 2, with approval | Banned | 2 total | No |
+| ANA | No approval needed | Up to 2, with approval | Banned | 2 total | No |
+| Peach, Jetstar Japan, ZIPAIR, Skymark, Spring Japan | No approval needed | Up to 2, with approval | Banned | 2 total | No |
+| United | No approval needed | Up to 2, with approval | Banned | 2 in the 100-160Wh band | Not addressed on United's own page I could find |
+| Delta | No approval needed (20 spares total allowed) | Up to 2, with approval | Banned | 2 of the 20 spares can be 100-160Wh | Not addressed on Delta's own page |
+| American | No approval needed | Not accepted at all under American's current rule | Banned | 2 chargers total, must stay visible and in reach | No, and not allowed in an overhead bin either |
+| Singapore Airlines | No approval needed | Needs Singapore Airlines' approval | Banned | 2 total, a hard cap regardless of Wh | No, not even a device charging from it |
+| Cathay Pacific | No approval needed | Needs approval, capped at 2 | Banned | Not stated beyond the 100-160Wh cap | No |
+| Korean Air | No approval needed | Needs pre-approval, within a 2-unit cap | Banned | 2 total | No, including from the seat's own power |
+| EVA Air | No approval needed (20 spares total) | Up to 2, with approval | Banned | 2 of the 20 spares can be 100-160Wh | Reported no, but not stated on EVA's own page I checked |
+| China Airlines | No approval needed (20 spares total) | Allowed, approval requirement unclear from China Airlines' own document | Banned | Not stated beyond the general cap | Not confirmed from China Airlines' own page |
+| British Airways | No approval needed | Up to 2, with prior approval | Banned, carry-on or checked | 2 in the 100-160Wh band | No |
+| Air Canada | No approval needed (20 spares total) | Up to 2, with approval | Not accepted | 2 of the 20 spares can be 100-160Wh | No official statement found either way |
+| Qantas | Generally no approval | Needs Dangerous Goods approval by email | Banned | 2 total, a hard cap regardless of Wh | No, including from seat power or USB |
+
+A few real patterns worth calling out rather than just reading down the columns: every single airline here treats a power bank as carry-on only, no exceptions, so that part of the rule doesn't vary at all. American's current policy is the strictest on paper, it doesn't accept the 100-160Wh tier most other airlines allow with approval, so a bank that would clear JAL or Delta with a quick approval step gets refused outright on American. And "in-flight charging" increasingly means no, full stop, Singapore Airlines, Qantas, and Korean Air all explicitly bar using a power bank to charge anything mid-flight, not just recharging the bank itself. A handful of cells say "not addressed" or "not confirmed" rather than a flat yes or no, that's not a guess filled in to make the table look complete, it's what each airline's own available page says, or doesn't say, so check that airline's current page directly if your bank sits anywhere near the 100Wh line.
+
 ## A setup that clears every rule without a form
 
 A 20,000mAh bank per adult, charged the night before and packed into the same bag as passports and phones through security rather than the checked suitcase, covers a full day of maps, photos, and tap-to-pay transit with room to spare, and sits nowhere near either airline's approval threshold. There's no form to fill out or gate agent to convince at that size, which is the whole point of staying under the 100Wh line rather than buying the biggest bank on the shelf.
@@ -51,4 +73,4 @@ A 20,000mAh bank per adult, charged the night before and packed into the same ba
 
 ## The quick version
 
-A normal phone-sized power bank, 10,000 to 20,000mAh, clears every limit without needing anyone's approval, just keep it in your carry-on and off the seatback charger mid-flight. Anything bigger, built for a laptop or camping gear rather than a phone, is the one case worth checking against ANA's or JAL's current baggage page before you pack it, since the rules cap out hard at 160Wh with no exceptions.
+A normal phone-sized power bank, 10,000 to 20,000mAh, clears every airline's limit in this post without needing anyone's approval, just keep it in your carry-on and off the seatback charger mid-flight. Anything bigger, built for a laptop or camping gear rather than a phone, is the one case worth checking against your specific airline's current baggage page before you pack it, since American won't take the 100-160Wh tier that most others allow with approval, and every airline here caps out hard at 160Wh with no exceptions.
