@@ -58,15 +58,8 @@ type Props = VariantProps<typeof pageHero> & {
   class?: string;
 };
 
-const { eyebrow, title, accentWord, lede, crumbs = [], align, class: className } = Astro.props;
-const {
-  root,
-  inner,
-  eyebrow: eyebrowClass,
-  rule,
-  heading,
-  lede: ledeClass,
-} = pageHero({ align });
+const { title, accentWord, lede, crumbs = [], align, class: className } = Astro.props;
+const { root, inner, heading, lede: ledeClass } = pageHero({ align });
 
 // Le premier maillon est toujours l'accueil : il est ajoute ici, dans la bonne
 // langue et vers la bonne racine, pour qu'aucune page n'ait a y penser.
@@ -99,14 +92,8 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
         />
       )
     }
-    {
-      eyebrow && (
-        <p class={eyebrowClass()}>
-          <span class={rule()} aria-hidden="true" />
-          {eyebrow}
-        </p>
-      )
-    }
+    {/* No eyebrow (removed 2026-11-10 at the site owner's request); the
+        breadcrumb already says where you are. */}
     <h1 class={heading()}>
       {
         word ? (

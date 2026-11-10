@@ -13,7 +13,6 @@ import Navbar from "@components/Sections/Global/Navbar.astro";
 import FeaturedPost from "@components/Sections/Home/FeaturedPost.astro";
 import Hero from "@components/Sections/Home/Hero.astro";
 import LatestPosts from "@components/Sections/Home/LatestPosts.astro";
-import TopicMarquee from "@components/Sections/Home/TopicMarquee.astro";
 import TopicStrip from "@components/Sections/Home/TopicStrip.astro";
 import WritersStrip from "@components/Sections/Home/WritersStrip.astro";
 import siteData from "@config/siteData.json";
@@ -51,21 +50,6 @@ for (const entry of posts) {
   authorCounts[entry.authorSlug] = (authorCounts[entry.authorSlug] ?? 0) + 1;
 }
 
-// Le compte de ce qu'il y a a lire, dans l'ordre des libelles de heroLedger :
-// billets publies, sujets, membres de la famille (5, fixe : Adam, Lindsay,
-// Lily, Cora, Harper). Le troisieme chiffre n'a rien a voir avec le contenu,
-// c'est voulu : locales.length vaudrait 1 depuis que le site est anglais
-// seul, et "1 languages" est le genre de detail qui trahit un theme repeint.
-// Third figure: the date of the newest post, so a first-time reader can see
-// the site is alive and current (more useful than a fixed family count).
-const newest = posts.at(0)?.post.data.pubDate;
-const ledger = [
-  posts.length,
-  topics.length,
-  newest
-    ? new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" }).format(newest)
-    : "",
-] as const;
 const covers = topicCovers(posts);
 
 const title = t.home.metaTitle;
@@ -95,11 +79,7 @@ const schemas = [
   <Navbar />
 
   <main id="content">
-    <Hero {ledger} />
-    {/* La bande defilante mord les deux bords juste sous le hero : c'est elle
-        qui casse la largeur de panneau du premier ecran et lance le rythme de
-        la page. Elle porte les vrais sujets, pas des mots decoratifs. */}
-    <TopicMarquee {topics} counts={topicCounts} />
+    <Hero postCount={posts.length} {topics} counts={topicCounts} />
     {featured && <FeaturedPost entry={featured} />}
     {latest.length > 0 && <LatestPosts posts={latest} />}
     <TopicStrip {topics} counts={topicCounts} {covers} />
