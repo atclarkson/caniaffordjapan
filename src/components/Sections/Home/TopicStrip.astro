@@ -13,14 +13,17 @@ import { getSiteRoutes } from "@config/navData.json.ts";
 import { getLocale, useTranslations } from "@i18n";
 import { entrySlug } from "@i18n/content";
 import type { CollectionEntry } from "astro:content";
+import type { ImageMetadata } from "astro";
 
 type Props = {
   topics: CollectionEntry<"topics">[];
   /** Nombre de billets publies par slug de sujet, compte une fois par la page. */
   counts: Record<string, number>;
+  /** Newest cover photo per topic slug, from topicCovers(). */
+  covers?: Record<string, { src: ImageMetadata; alt: string }>;
 };
 
-const { topics, counts } = Astro.props;
+const { topics, counts, covers = {} } = Astro.props;
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
 const routes = getSiteRoutes(locale);
@@ -72,6 +75,8 @@ const firstWide = filled.length - tail;
               {locale}
               href={`${routes.topics}${slug}/`}
               count={counts[slug] ?? 0}
+              cover={covers[slug]?.src}
+              coverAlt={covers[slug]?.alt}
               class="w-full"
             />
           </li>

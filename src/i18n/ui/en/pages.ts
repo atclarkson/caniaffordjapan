@@ -16,17 +16,19 @@ export const enPages = {
     metaDescription:
       "Honest, well-researched posts on what things really cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and real research in between. Real pricing, never invented.",
     eyebrow: "Can I Afford Japan?",
-    heroTitle: "Can we actually afford this trip?",
-    heroAccent: "afford",
+    heroTitle: "Real Japan prices from a family of five",
+    heroAccent: "",
     heroLede:
-      "A real, running answer: our own trips to Japan, plus honestly researched hotels, activities, and gear. Real pricing, never invented.",
+      "{n} posts on hotels, food, trains, theme parks, and day trips, priced from our own trips and current booking sites.",
+    heroSearchLabel: "Search {n} posts",
+    heroSearchPlaceholder: "Try Disney, ramen, trains",
+    heroSearchButton: "Search",
+    heroPopularLabel: "Top topics",
+    heroAllPosts: "All posts",
     heroPrimary: "Start reading",
     heroSecondary: "About us",
     heroRecent: "Latest posts",
-    // Les trois libelles du compteur du hero, dans l'ordre exact ou la page
-    // fournit les nombres : billets publies, sujets, membres de la famille.
-    heroLedger: ["posts published", "topics", "family members"],
-    featuredEyebrow: "Pick of the month",
+    featuredEyebrow: "Our pick this month",
     latestTitle: "Latest posts",
     latestAccent: "Latest",
     latestLede: "The most recent entries, newest first. Everything older waits in the archive.",
@@ -132,6 +134,8 @@ export const enPages = {
   // --- Sujets --------------------------------------------------------------
   topics: {
     metaTitle: "Topics",
+    /** The topics index <title> in search results; metaTitle stays the breadcrumb label. */
+    seoTitle: "Japan Travel Costs by Topic",
     metaDescription:
       "Every subject covered on Can I Afford Japan?: cities, budget food, free attractions, transit, and day trips.",
     eyebrow: "Topics",

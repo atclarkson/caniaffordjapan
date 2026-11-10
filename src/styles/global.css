@@ -137,16 +137,13 @@
    * le plus repandu du web, et il ne veut rien dire de la marque.
    * La vague vit dans --accent-wave (tokens.css), une par mode puisque le
    * primaire de Reef change entre clair et sombre. */
+  /* The accent word in headings used to be a lighter-weight turquoise word
+   * with a wavy underline. Removed 2026-11-10 at the site owner's request:
+   * it read as decoration, not meaning. The class stays (several components
+   * still wrap a word in it) but renders as the heading's own text. */
   .accent-script {
-    @apply text-primary font-normal not-italic;
-    /* La vague loge dans la zone des descendantes, jamais dans l'interligne :
-     * les titres sont composes tres serres, un trait qui deborde mord la
-     * ligne suivante. Pas de padding vertical, position remontee. */
-    background-image: var(--accent-wave);
-    background-repeat: repeat-x;
-    background-position: left calc(100% - 0.05em);
-    background-size: 1.3em 0.16em;
-    padding-inline: 0.04em;
+    color: inherit;
+    font-weight: inherit;
   }
 
   /* =========================================================================

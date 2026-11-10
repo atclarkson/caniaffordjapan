@@ -15,6 +15,7 @@ import { getResolvedPosts, getSortedTopics } from "@js/posts";
 import { breadcrumbList } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import type { GetStaticPaths, Page } from "astro";
+import { getImage } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import type { ResolvedPost } from "@js/posts";
 
@@ -50,11 +51,15 @@ const t = useTranslations(locale);
 
 const slug = entrySlug(topic.id);
 const heading = fmt(t.archive.topicTitle, { topic: topic.data.name });
+const seoHeading = topic.data.seoTitle ?? heading;
 const title =
   page.currentPage > 1
-    ? `${heading}, ${fmt(t.archive.pageSuffix, { n: page.currentPage })}`
-    : heading;
-const description = topic.data.description;
+    ? `${seoHeading}, ${fmt(t.archive.pageSuffix, { n: page.currentPage })}`
+    : seoHeading;
+const description =
+  page.currentPage > 1
+    ? `${topic.data.description} Page ${page.currentPage} of ${page.lastPage}.`
+    : topic.data.description;
 
 const base = Astro.site ?? Astro.url;
 const crumbs = breadcrumbList([
@@ -63,12 +68,47 @@ const crumbs = breadcrumbList([
   { name: topic.data.name, url: new URL(localizePath(`/topics/${slug}/`, locale), base).href },
 ]);
 
-const noindex = page.currentPage > 1;
+// Share card: a landscape crop of the newest cover on this page, so a shared
+// topic link shows a real photo from that topic. No cover: the section card.
+const leadCover = page.data.find((entry) => entry.post.data.cover)?.post.data;
+let share: { src: string; alt: string; width: number; height: number } | undefined;
+if (leadCover?.cover) {
+  const width = Math.min(1200, leadCover.cover.width);
+  const height = Math.round(width / 1.905);
+  const img = await getImage({ src: leadCover.cover, width, height, fit: "cover", format: "jpg", quality: 80 });
+  share = { src: img.src, alt: leadCover.coverAlt ?? topic.data.name, width, height };
+}
+
+// The posts listed on this page, as an ItemList inside a CollectionPage, so
+// search engines read the topic page as a curated list of articles.
+const pageUrl = new URL(Astro.url.pathname, base).href;
+const collection = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description,
+  url: pageUrl,
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: page.data.map((entry, i) => ({
+      "@type": "ListItem",
+      position: page.start + i + 1,
+      url: new URL(localizePath(`/blog/${entry.slug}/`, locale), base).href,
+      name: entry.post.data.title,
+    })),
+  },
+};
+
+// Pages 2+ stay indexable (self-canonical, own title). They used to be
+// noindex, nofollow, which also told crawlers not to follow their links
+// to older posts. Google's own guidance is to leave pagination indexable.
+const noindex = false;
 ---
 
-<BaseLayout {title} {description} {noindex}>
+<BaseLayout {title} {description} {noindex} image={share}>
   <Fragment slot="head">
     <script is:inline type="application/ld+json" set:html={JSON.stringify(crumbs)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(collection)} />
   </Fragment>
 
   <Navbar />

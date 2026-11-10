@@ -9,6 +9,7 @@
 // local (la pilule se resserre), et materials.css, dont la regle
 // [data-header][data-shrunk="true"]::after degrade le contenu la ou la barre le
 // recouvre vraiment. Renommer cet attribut casse le fondu de bord.
+import LogoMark from "@components/svg/LogoMark.astro";
 import { Icon } from "@components/svg/icons";
 import { Sheet, SheetClose, SheetHeader, SheetTitle, SheetTrigger } from "@components/ui/sheet";
 import { ThemeToggle } from "@components/ui/theme-toggle";
@@ -92,7 +93,7 @@ const navLink = [
         aria-label={t.nav.brandHome}
         data-header-brand
       >
-        <Icon name="wave" size={20} class="text-primary" />
+        <LogoMark size={24} class="shrink-0" />
         <span class="font-display text-lg font-semibold tracking-tight">{siteData.name}</span>
       </a>
 
@@ -141,7 +142,7 @@ const navLink = [
   <SheetClose />
   <SheetHeader>
     <SheetTitle id="mobile-nav-title" class="flex items-center gap-2">
-      <Icon name="wave" size={20} class="text-primary" />
+      <LogoMark size={24} class="shrink-0" />
       {siteData.name}
     </SheetTitle>
   </SheetHeader>

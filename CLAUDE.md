@@ -213,9 +213,8 @@ the same "what does X actually cost" template with the city name swapped.
   - `cover`: a relative path to the downloaded cover image, e.g.
     `../../../assets/covers/<slug>.jpg`
   - `coverAlt`: real alt text describing the cover photo
-  - `featured`: true for at most one post at a time (the one the homepage
-    highlights); set the previous featured post back to false when you
-    feature a new one
+  - `featured`: leave `false`; the homepage pick rotates monthly through
+    `src/data/featuredRotation.ts` instead (since 2026-11-10).
   - `draft`: false to publish
 - Default to leading with the practical answer (is it free, what does it
   cost) before the story, unless the rolled format above calls for a

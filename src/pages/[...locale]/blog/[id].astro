@@ -25,6 +25,7 @@ import { entryLocale, entrySlug } from "@i18n/content";
 import { article, breadcrumbList, faqPage } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection, getEntry, render, type CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
 
 export async function getStaticPaths() {
   // getCollection et non getResolvedPosts : les brouillons doivent AVOIR une
@@ -75,25 +76,52 @@ const url = new URL(`${routes.posts}${entrySlug(post.id)}/`, base).href;
 // La couverture sert de carte de partage quand elle existe ; sinon l'image par
 // defaut du site. Les deux sont absolues, ce qu'exigent OG et schema.org.
 const cover = post.data.cover;
-const share = cover
-  ? { src: cover.src, alt: post.data.coverAlt ?? post.data.title }
-  : siteData.defaultImage;
+// Share cards want 1200x630 (1.91:1). Most covers are portrait phone photos,
+// which iMessage, Slack and Facebook crop unpredictably or shrink to a tiny
+// thumbnail, so the card gets its own landscape crop of the cover.
+// Sharp never upscales, so a cover narrower than 1200px gets a smaller crop
+// at the same 1.91:1 shape, and the meta tags report its real size.
+const shareWidth = cover ? Math.min(1200, cover.width) : 1200;
+const shareHeight = Math.round(shareWidth / 1.905);
+const shareImage = cover
+  ? await getImage({
+      src: cover,
+      width: shareWidth,
+      height: shareHeight,
+      fit: "cover",
+      format: "jpg",
+      quality: 80,
+    })
+  : undefined;
+const share = shareImage
+  ? { src: shareImage.src, alt: post.data.coverAlt ?? post.data.title, width: shareWidth, height: shareHeight }
+  : { ...siteData.defaultImage, width: 1200, height: 630 };
+const topicUrl = new URL(`${routes.topics}${entrySlug(topic.id)}/`, base).href;
+const publishedIso = post.data.pubDate.toISOString();
+const modifiedIso = (post.data.updatedDate ?? post.data.pubDate).toISOString();
 
 const articleSchema = article({
   title: post.data.title,
   description: post.data.description,
   url,
+  type: "BlogPosting",
   datePublished: post.data.pubDate,
-  dateModified: post.data.updatedDate,
-  image: new URL(share.src, base).href,
+  dateModified: post.data.updatedDate ?? post.data.pubDate,
+  image: cover ? [new URL(share.src, base).href, new URL(cover.src, base).href] : new URL(share.src, base).href,
+  section: topic.data.name,
+  keywords: post.data.tags,
+  inLanguage: "en-US",
+  authorSameAs: author.data.links?.map((link) => link.href),
   authorName: author.data.name,
   authorUrl: new URL(`${routes.authors}${entrySlug(author.id)}/`, base).href,
   publisherName: siteData.name,
+  publisherUrl: new URL(localizePath("/", locale), base).href,
+  publisherLogo: new URL("/apple-touch-icon.png", base).href,
 });
 
 const crumbSchema = breadcrumbList([
   { name: t.common.home, url: new URL(localizePath("/", locale), base).href },
-  { name: t.archive.metaTitle, url: new URL(routes.posts, base).href },
+  { name: topic.data.name, url: topicUrl },
   { name: post.data.title, url },
 ]);
 
@@ -111,6 +139,10 @@ const faqSchema = post.data.faq && post.data.faq.length > 0 ? faqPage(post.data.
   image={share}
 >
   <Fragment slot="head">
+    <meta property="article:published_time" content={publishedIso} />
+    <meta property="article:modified_time" content={modifiedIso} />
+    <meta property="article:section" content={topic.data.name} />
+    {post.data.tags.map((tag) => <meta property="article:tag" content={tag} />)}
     <script type="application/ld+json" is:inline set:html={JSON.stringify(articleSchema)} />
     <script type="application/ld+json" is:inline set:html={JSON.stringify(crumbSchema)} />
     {faqSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqSchema)} />}

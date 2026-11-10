@@ -11,6 +11,7 @@
 // Le fond reste celui de la page, sans bandeau de couleur : un billet commence
 // sur du papier. Le seul filet de la composition passe au-dessus de la ligne de
 // signature, la ou il separe vraiment deux choses.
+import { topicTone } from "@components/Cards/topicTone";
 import { Avatar } from "@components/ui/avatar";
 import { Badge } from "@components/ui/badge";
 import { getSiteRoutes } from "@config/navData.json.ts";
@@ -65,11 +66,15 @@ const iso = (date: Date): string => date.toISOString();
           sujet en vrai lien. C'est la seule sortie laterale de l'en-tete, et
           elle mene la ou le lecteur ira vraiment. Meme filet que PageHero et
           SectionHeader : un surtitre est un surtitre partout dans le theme. */}
-      <p class="mb-4 flex flex-wrap items-center gap-3">
-        <span class="bg-primary inline-block h-px w-8 shrink-0" aria-hidden="true"></span>
+      <p class="mb-5 flex flex-wrap items-center gap-3">
+        {/* The topic as a pill link, same look as on the post cards (was an
+            uppercase eyebrow with a rule, removed 2026-11-10). */}
         <a
           href={topicHref}
-          class="font-sans text-muted-foreground hover:text-foreground text-xs font-medium tracking-[0.18em] uppercase transition-colors duration-150"
+          class:list={[
+            "rounded-pill inline-flex min-h-8 items-center px-3 font-sans text-sm font-medium transition-[filter] duration-150 hover:brightness-95",
+            topicTone[topic.data.accent].chip,
+          ]}
         >
           <span class="sr-only">{t.post.topicLabel}: </span>
           {topic.data.name}
@@ -161,8 +166,9 @@ const iso = (date: Date): string => date.toISOString();
           alt={coverAlt ?? ""}
           widths={[720, 1080, 1440]}
           sizes="(min-width: 80rem) 72rem, 100vw"
-          class="rounded-card shadow-float measure-wide mx-auto w-full object-cover"
+          class="rounded-card shadow-float measure-wide mx-auto max-h-[min(62svh,36rem)] w-full object-cover"
           loading="eager"
+          fetchpriority="high"
           decoding="async"
         />
       </figure>

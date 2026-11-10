@@ -59,7 +59,6 @@ type Props = VariantProps<typeof sectionHeader> & {
 const {
   title,
   accentWord,
-  eyebrow,
   lede,
   align,
   as: Tag = "h2",
@@ -71,7 +70,7 @@ const {
   // reconnecte le contrat, sans changer l'API du composant.
 }: Props = Astro.props;
 
-const { root, eyebrow: eyebrowClass, rule, heading, lede: ledeClass } = sectionHeader({ align });
+const { root, heading, lede: ledeClass } = sectionHeader({ align });
 
 // Decoupe le titre autour du mot accentue, insensible a la casse. Si le mot est
 // absent du titre, le titre est rendu tel quel : un traducteur qui reformule ne
@@ -84,21 +83,9 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
 ---
 
 <div class={root({ class: className })} data-slot="section-header">
-  {/* Le filet est pose meme quand la section n'a pas de surtitre. Une
-      page dont certaines sections s'ouvrent sur un filet et d'autres sur un
-      titre nu se lit comme deux mises en page cousues ensemble : le filet est
-      la ponctuation qui annonce une section, et une ponctuation intermittente
-      n'en est pas une. */}
-  {
-    eyebrow ? (
-      <p class={eyebrowClass()}>
-        <span class={rule()} aria-hidden="true" />
-        {eyebrow}
-      </p>
-    ) : (
-      <span class={rule({ class: "h-0.5 w-12 rounded-pill" })} aria-hidden="true" />
-    )
-  }
+  {/* No eyebrow and no rule above the heading (removed 2026-11-10 at the
+      site owner's request): a heading that names its section needs no label.
+      The eyebrow prop is still accepted so callers don't break. */}
   <Tag id={headingId} class={heading()}>
     {
       word ? (
