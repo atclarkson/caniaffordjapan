@@ -356,3 +356,39 @@ more recent entries. When this file nears 400 lines too, start
   `docs/blog-ideas-archive-13.md` (new file, archive-12 was already
   near its own cap) to keep this file under the house-lint 400-line
   cap.
+- **Quick Tip Tuesday, 2026-11-03: plug adapters and voltage
+  converters, researched.** Checked the "already posted today" guard
+  first (no post with today's date existed). Checked AL_Vault before
+  defaulting to research: no unused, topic-specific real photos
+  exist (checked "luggage forwarding," "takuhaibin," "suitcase,"
+  "luggage," "bags," all either zero results or already-used family
+  photos), honest research is the correct path, and Tuesday doesn't
+  require a real visit anyway. Confirmed via `grep` no existing post
+  covers plug adapters or voltage. Picked this over a luggage-
+  forwarding angle (genuinely useful too, but no natural real
+  affiliate tie-in) since it pairs cleanly with a real Amazon
+  product, matching CLAUDE.md's stated Quick Tip Tuesday affiliate
+  guidance. Researched real facts via WebSearch/WebFetch (GTN
+  Magazine, a Japan-based relocation/expat guide): Japan runs 100V
+  through the same flat two-pin Type A plug shape as North America;
+  the 50Hz east/60Hz west frequency split (roughly at Shizuoka) dates
+  to Meiji-era generator purchases, German (50Hz) for Tokyo, American
+  (60Hz) for Osaka. Used the real Amazon Associates tag
+  (`adamandlinds00-20`) on a generic search URL rather than a
+  fabricated specific product link, same pattern as the packing-cubes
+  post. Cover: no AL_Vault photo fits, searched Wikimedia Commons and
+  found a real, licensed, directly on-topic photo of an actual
+  Japanese outlet (a Lawson convenience store rest area, AC100V
+  label visible, Kyu3/KKPCW, CC BY-SA 4.0), downloaded via the
+  `Special:FilePath` `?width=` workaround, also reused in-body via a
+  direct `upload.wikimedia.org` thumb URL (same pattern already used
+  on `hiroshima-peace-memorial-museum-admission-cost`). Rolled length
+  tier 3 (standard, 800-1,000 words) and format 10 (budget-tier
+  framing) from CLAUDE.md's system; format 10 fit naturally (a cheap
+  shape adapter vs. a pricier real voltage converter is a genuine
+  budget/splurge split), no reroll needed. Landed at 907 words, within
+  tier. Published 2026-11-03 as
+  `japan-plug-adapter-voltage-converter-guide`, 907 words. Topic
+  `en/travel-prep`. Zero uses of "actually" or "genuinely" in the
+  published body (3 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, Commons photo, not AL_Vault.

@@ -106,42 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Quick Tip Tuesday, 2026-11-03: plug adapters and voltage
-  converters, researched.** Checked the "already posted today" guard
-  first (no post with today's date existed). Checked AL_Vault before
-  defaulting to research: no unused, topic-specific real photos
-  exist (checked "luggage forwarding," "takuhaibin," "suitcase,"
-  "luggage," "bags," all either zero results or already-used family
-  photos), honest research is the correct path, and Tuesday doesn't
-  require a real visit anyway. Confirmed via `grep` no existing post
-  covers plug adapters or voltage. Picked this over a luggage-
-  forwarding angle (genuinely useful too, but no natural real
-  affiliate tie-in) since it pairs cleanly with a real Amazon
-  product, matching CLAUDE.md's stated Quick Tip Tuesday affiliate
-  guidance. Researched real facts via WebSearch/WebFetch (GTN
-  Magazine, a Japan-based relocation/expat guide): Japan runs 100V
-  through the same flat two-pin Type A plug shape as North America;
-  the 50Hz east/60Hz west frequency split (roughly at Shizuoka) dates
-  to Meiji-era generator purchases, German (50Hz) for Tokyo, American
-  (60Hz) for Osaka. Used the real Amazon Associates tag
-  (`adamandlinds00-20`) on a generic search URL rather than a
-  fabricated specific product link, same pattern as the packing-cubes
-  post. Cover: no AL_Vault photo fits, searched Wikimedia Commons and
-  found a real, licensed, directly on-topic photo of an actual
-  Japanese outlet (a Lawson convenience store rest area, AC100V
-  label visible, Kyu3/KKPCW, CC BY-SA 4.0), downloaded via the
-  `Special:FilePath` `?width=` workaround, also reused in-body via a
-  direct `upload.wikimedia.org` thumb URL (same pattern already used
-  on `hiroshima-peace-memorial-museum-admission-cost`). Rolled length
-  tier 3 (standard, 800-1,000 words) and format 10 (budget-tier
-  framing) from CLAUDE.md's system; format 10 fit naturally (a cheap
-  shape adapter vs. a pricier real voltage converter is a genuine
-  budget/splurge split), no reroll needed. Landed at 907 words, within
-  tier. Published 2026-11-03 as
-  `japan-plug-adapter-voltage-converter-guide`, 907 words. Topic
-  `en/travel-prep`. Zero uses of "actually" or "genuinely" in the
-  published body (3 "actually" caught and cut across drafts). No
-  `mark_photo_used` call, Commons photo, not AL_Vault.
 - **Klook Wednesday, 2026-11-04: teamLab Forest Fukuoka, researched.**
   Checked the "already posted today" guard first (no post with
   today's date existed). Picked from `docs/klook-priority-
@@ -391,3 +355,39 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   the published body (2 "actually" caught and cut across drafts). One
   real AL_Vault photo used (cover and in-body, same image),
   `mark_photo_used` called.
+- **Quick Tip Tuesday, 2026-11-10: power bank watt-hour rules for an
+  ANA/JAL flight, researched.** Checked the "already posted today"
+  guard first (no post with today's date existed), then checked
+  AL_Vault (no power-bank/charger photos in the catalog, and no
+  journal entries mentioning one via text search) before confirming
+  honest research was the right path, same as any no-visit-required
+  Tuesday. Confirmed via `grep` no existing post covers power banks
+  as a dedicated topic (the eSIM-vs-pocket-wifi post only mentions
+  one in passing, as a pocket wifi accessory). Researched real facts
+  via WebSearch (FAA packsafe, ANA's and JAL's own current baggage
+  pages, cross-checked across multiple independent sources since a
+  direct WebFetch of the FAA and ANA pages both failed, 403 and
+  timeout respectively): the FAA's 100Wh carry-on-without-approval
+  threshold and 160Wh hard ban, ANA's and JAL's current two-spare cap
+  for the 100-160Wh band, JAL's in-flight-charging ban and
+  label-must-show-rating rule, carry-on-only on every airline. Held
+  back from stating one unconfirmed claim (a vendor blog's report of
+  a global March 2026 two-power-bank limit) since it wasn't
+  corroborated on an official FAA/TSA page. Used the real Amazon
+  Associates tag (`adamandlinds00-20`) on a generic search URL, same
+  pattern as the plug-adapter and packing-cubes posts, inside a
+  `<Button>` with the standard affiliate disclosure line (the
+  2026-11-08 standing rule). Caught and rewrote a draft section that
+  framed a specific packing habit as "what we actually pack," a
+  personal-anecdote claim with no AL_Vault or journal basis to
+  support it; reworded as general advice before publishing, per the
+  honesty rule. Cover and one in-body figure: a real, licensed
+  Wikimedia Commons photo (`File:Power_bank.JPG`, Ilya Plekhanov, CC
+  BY-SA 3.0, a phone charging from a portable battery), downloaded via
+  the reliable `thumb.wikimedia.org` URL after the full-res
+  `upload.wikimedia.org` guess 429'd. Rolled length tier 2 (600-800
+  words, landed at 743) and format 8 (itemized breakdown). Caught two
+  "actually" instances on the first pass (description and two body
+  sentences) and cut them before publishing. `pnpm build` and `pnpm
+  check` both clean (0 errors). Slug:
+  `power-bank-japan-flight-watt-hour-rules`.
