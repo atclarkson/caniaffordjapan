@@ -11,7 +11,7 @@
 // Le lien couvre toute la carte via ::after plutot que d'envelopper le tout
 // dans une ancre : un seul arret de tabulation, le titre reste le nom
 // accessible du lien, et la date comme le sujet restent selectionnables.
-import { Avatar } from "@components/ui/avatar";
+import { Icon } from "@components/svg/icons";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import { fmt, formatDate, useTranslations, type Locale } from "@i18n";
 import type { ResolvedPost } from "@js/posts";
@@ -27,7 +27,7 @@ type Props = {
 };
 
 const { entry, locale, as: Tag = "h3", class: className }: Props = Astro.props;
-const { post, author, topic, slug, topicSlug, minutes } = entry;
+const { post, topic, slug, topicSlug, minutes } = entry;
 
 const t = useTranslations(locale);
 const routes = getSiteRoutes(locale);
@@ -48,15 +48,17 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
 >
   {
     post.data.cover && (
+      <div class="overflow-hidden">
       <Image
         src={post.data.cover}
         alt={post.data.coverAlt ?? ""}
         widths={[420, 760]}
         sizes="(min-width: 1024px) 24rem, (min-width: 640px) 45vw, 92vw"
-        class="aspect-[16/9] w-full object-cover"
+        class="aspect-[16/9] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
         loading="lazy"
         decoding="async"
       />
+      </div>
     )
   }
 
@@ -77,6 +79,8 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
         <time datetime={post.data.pubDate.toISOString()}>
           {formatDate(post.data.pubDate, locale)}
         </time>
+        <span aria-hidden="true"> · </span>
+        {readLabel}
       </span>
     </p>
 
@@ -90,10 +94,14 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
       {post.data.description}
     </p>
 
-    <div class="border-border mt-auto flex items-center gap-2.5 border-t pt-4">
-      <Avatar name={author.data.name} src={author.data.avatar?.src} size="sm" alt="" />
-      <span class="text-foreground font-sans text-sm font-medium">{author.data.name}</span>
-      <span class="text-muted-foreground ml-auto font-sans text-xs">{readLabel}</span>
-    </div>
+    <p
+      class="text-primary mt-auto flex items-center gap-1.5 pt-2 font-sans text-sm font-semibold"
+      aria-hidden="true"
+    >
+      {t.common.readPost}
+      <span class="transition-transform duration-200 group-hover:translate-x-1 motion-reduce:transition-none">
+        <Icon name="arrow-right" size={16} />
+      </span>
+    </p>
   </div>
 </article>

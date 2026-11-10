@@ -23,9 +23,9 @@ export const enPages = {
     heroPrimary: "Start reading",
     heroSecondary: "About us",
     heroRecent: "Latest posts",
-    // Les trois libelles du compteur du hero, dans l'ordre exact ou la page
-    // fournit les nombres : billets publies, sujets, membres de la famille.
-    heroLedger: ["posts published", "topics", "family members"],
+    // The three hero ledger labels, in the exact order the page supplies the
+    // values: published posts, topics, date of the newest post.
+    heroLedger: ["priced-out posts", "topics", "newest post"],
     featuredEyebrow: "Pick of the month",
     latestTitle: "Latest posts",
     latestAccent: "Latest",

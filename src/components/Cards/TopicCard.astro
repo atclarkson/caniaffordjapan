@@ -46,6 +46,8 @@
 import { Icon } from "@components/svg/icons";
 import { fmt, useTranslations, type Locale } from "@i18n";
 import type { CollectionEntry } from "astro:content";
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
 import { topicTone } from "./topicTone";
 
 // Re-export de commodite : la table canonique vit dans ./topicTone, et les
@@ -60,10 +62,13 @@ type Props = {
   locale: Locale;
   /** Niveau de titre reel, selon ce qui precede la grille dans la page. */
   as?: "h2" | "h3";
+  /** Cover of the topic's newest post, so every card shows a real photo. */
+  cover?: ImageMetadata;
+  coverAlt?: string;
   class?: string;
 };
 
-const { topic, href, count, locale, as: Tag = "h3", class: className }: Props = Astro.props;
+const { topic, href, count, locale, as: Tag = "h3", cover, coverAlt, class: className }: Props = Astro.props;
 const t = useTranslations(locale);
 const tone = topicTone[topic.data.accent];
 const countLabel = count === 1 ? t.topics.countOne : fmt(t.topics.countLabel, { count });
@@ -84,9 +89,24 @@ const countLabel = count === 1 ? t.topics.countOne : fmt(t.topics.countLabel, { 
       texte. Il est pose en element et non en border-top, parce qu'une bordure
       superieure de trois pixels sur une carte qui en a deja une d'un pixel
       donne deux traits de largeurs differentes au meme endroit. */}
+  {
+    cover && (
+      <div class="overflow-hidden">
+        <Image
+          src={cover}
+          alt={coverAlt ?? ""}
+          widths={[420, 760]}
+          sizes="(min-width: 1024px) 28rem, (min-width: 768px) 45vw, 92vw"
+          class="aspect-[2/1] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    )
+  }
   <span class:list={["h-[3px] w-full shrink-0", tone.rule]} aria-hidden="true"></span>
 
-  <div class="flex flex-1 flex-col gap-3 p-7">
+  <div class="flex flex-1 flex-col gap-3 p-6">
     {/* Le compte en sur-titre. Il etait en bas, dans une pastille teintee ;
         il monte au-dessus du nom, ou il sert a quelque chose : il dit la
         taille du sujet avant qu'on decide de l'ouvrir. */}

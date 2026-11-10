@@ -13,6 +13,7 @@ import type { Locale } from "@i18n";
 import { entrySlug, getLocalizedCollection } from "@i18n/content";
 import { readingTime } from "@js/textUtils";
 import { getEntry, type CollectionEntry } from "astro:content";
+import type { ImageMetadata } from "astro";
 
 export interface ResolvedPost {
   post: CollectionEntry<"posts">;
@@ -73,4 +74,20 @@ export async function getSortedTopics(locale: Locale): Promise<CollectionEntry<"
   return topics.sort(
     (a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name),
   );
+}
+
+/**
+ * The cover of each topic's newest post that has one, keyed by topic slug.
+ * Lets topic cards show a real photo from that topic instead of plain text.
+ * Expects `posts` newest first, as getResolvedPosts returns them.
+ */
+export function topicCovers(
+  posts: ResolvedPost[],
+): Record<string, { src: ImageMetadata; alt: string }> {
+  const covers: Record<string, { src: ImageMetadata; alt: string }> = {};
+  for (const { post, topicSlug } of posts) {
+    if (covers[topicSlug] || !post.data.cover) continue;
+    covers[topicSlug] = { src: post.data.cover, alt: post.data.coverAlt ?? "" };
+  }
+  return covers;
 }

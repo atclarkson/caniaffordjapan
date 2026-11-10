@@ -7,7 +7,7 @@ import PageHero from "@components/Sections/Global/PageHero.astro";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
 import { entrySlug } from "@i18n/content";
-import { getResolvedPosts, getSortedTopics } from "@js/posts";
+import { getResolvedPosts, getSortedTopics, topicCovers } from "@js/posts";
 import { breadcrumbList } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -22,6 +22,7 @@ const posts = await getResolvedPosts(locale);
 
 const counts: Record<string, number> = {};
 for (const entry of posts) counts[entry.topicSlug] = (counts[entry.topicSlug] ?? 0) + 1;
+const covers = topicCovers(posts);
 
 const title = t.topics.metaTitle;
 const description = t.topics.metaDescription;
@@ -71,6 +72,8 @@ const firstWide = topics.length - tail;
                   {locale}
                   href={`${routes.topics}${slug}/`}
                   count={counts[slug] ?? 0}
+                  cover={covers[slug]?.src}
+                  coverAlt={covers[slug]?.alt}
                   as="h2"
                   class="w-full"
                 />

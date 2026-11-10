@@ -44,8 +44,8 @@ import { getLocale, useTranslations } from "@i18n";
 import { Picture } from "astro:assets";
 
 interface Props {
-  /** Trois nombres qui disent combien il y a a lire : notes, sujets, langues. */
-  ledger?: readonly number[];
+  /** Three figures for the base of the hero: posts, topics, newest post date. */
+  ledger?: readonly (number | string)[];
 }
 
 const { ledger = [] } = Astro.props;
@@ -225,12 +225,19 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
             {t.home.heroLede}
           </p>
 
-          <div class="mt-8 flex flex-wrap items-center gap-3">
-            <Button href={routes.posts} variant="primary" size="lg">
+          <div class="mt-8 grid w-full grid-cols-1 gap-3 sm:flex sm:w-auto sm:flex-wrap sm:items-center">
+            <Button href={routes.posts} variant="primary" size="lg" class="justify-center">
               {t.home.heroPrimary}
               <Icon name="arrow-right" size={18} />
             </Button>
-            <Button href={routes.about} variant="outline" size="lg">{t.home.heroSecondary}</Button>
+            <Button
+              href={routes.about}
+              variant="outline"
+              size="lg"
+              class="justify-center border-white/45 bg-white/10 text-white backdrop-blur-sm hover:border-white/80 hover:bg-white/20"
+            >
+              {t.home.heroSecondary}
+            </Button>
           </div>
         </div>
       </div>
@@ -241,13 +248,13 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
           ils deviendraient un argument de plus au lieu du socle du cadre. */}
       {
         ledger.length > 0 && (
-          <dl class="mt-12 flex w-full flex-wrap gap-x-10 gap-y-4 border-t border-white/25 pt-6 md:mt-16">
+          <dl class="mt-12 grid w-full grid-cols-3 gap-x-6 border-t border-white/25 pt-6 sm:flex sm:gap-x-12 md:mt-16">
             {t.home.heroLedger.map((label, i) => (
               <div class="flex flex-col gap-0.5">
-                <dd class="font-display text-3xl leading-none font-bold tabular-nums md:text-4xl">
+                <dt class="order-2 text-[0.7rem] tracking-[0.12em] text-white/80 uppercase sm:text-xs">{label}</dt>
+                <dd class="font-display order-1 text-2xl leading-none font-bold whitespace-nowrap tabular-nums sm:text-3xl md:text-4xl">
                   {ledger[i] ?? 0}
                 </dd>
-                <dt class="text-xs tracking-[0.14em] text-white/75 uppercase">{label}</dt>
               </div>
             ))}
           </dl>
@@ -275,12 +282,16 @@ const after = at >= 0 ? title.slice(at + accent.length) : "";
    * la seule facon d'en donner une seconde version sous une media query sans
    * faire dependre le resultat de l'ordre d'emission des feuilles. Les valeurs
    * sont celles d'avant, au pourcentage pres. */
+  /* The right column (lede and buttons) sits over the busiest part of the
+   * blossom photo, so the veil never fully opens: it eases from dense on the
+   * title side to a lighter but still readable wash under the lede. */
   .hero-veil {
     background: linear-gradient(
       90deg,
-      rgb(0 0 0 / 0.88) 0%,
-      rgb(0 0 0 / 0.6) 42%,
-      rgb(0 0 0 / 0) 80%
+      rgb(0 0 0 / 0.86) 0%,
+      rgb(0 0 0 / 0.62) 45%,
+      rgb(0 0 0 / 0.5) 75%,
+      rgb(0 0 0 / 0.38) 100%
     );
   }
 
