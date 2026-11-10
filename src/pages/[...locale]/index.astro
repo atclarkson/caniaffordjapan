@@ -8,6 +8,7 @@
 // Toutes les listes sont calculees ICI, une seule fois. Les sections recoivent
 // des tableaux deja tries : aucune d'elles ne relit une collection, donc rien ne
 // peut trier differemment d'une section a l'autre.
+import { rotationForMonth } from "@data/featuredRotation";
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
 import FeaturedPost from "@components/Sections/Home/FeaturedPost.astro";
@@ -30,10 +31,13 @@ const t = useTranslations(locale);
 
 const posts = await getResolvedPosts(locale);
 
-// Le garde-fou "un seul billet a la une" vit ici : le schema ne peut pas
-// compter les autres fichiers, mais la page les voit tous. Si personne n'a
-// leve le drapeau, le plus recent prend la place.
-const featured = posts.find((entry) => entry.post.data.featured) ?? posts.at(0);
+// "Our pick this month" rotates monthly through a fixed list of posts we
+// want to rank and earn from (src/data/featuredRotation.ts). Falls back to
+// the newest post if none of them is published.
+const featured =
+  rotationForMonth()
+    .map((slug) => posts.find((entry) => entry.slug === slug))
+    .find((entry) => entry !== undefined) ?? posts.at(0);
 const latest = posts.filter((entry) => entry !== featured).slice(0, 6);
 
 const topics = await getSortedTopics(locale);

@@ -40,13 +40,14 @@ const DEEP_SOFT = token("ink-300", "#8fa6b2");
 const ACCENT = token("reef-400", "#3fc0e0");
 const ACCENT_2 = token("coral-400", "#ff7a59");
 
-// title : ce qui s'affiche en enorme. eyebrow : la petite ligne au-dessus.
+// title: the big line. eyebrow: now the site name set beside the yen mark
+// at the bottom left (no longer a spaced-out caps line above the title).
 const PAGES = [
-  { slug: "default", eyebrow: "Can I Afford Japan?", title: "Real prices, real trips." },
-  { slug: "blog", eyebrow: "Can I Afford Japan? · Posts", title: "Every post, priced out." },
-  { slug: "topics", eyebrow: "Can I Afford Japan? · Topics", title: "Browse by topic." },
-  { slug: "about", eyebrow: "Can I Afford Japan? · About", title: "The family behind the posts." },
-  { slug: "contact", eyebrow: "Can I Afford Japan? · Contact", title: "Tell us what we got wrong." },
+  { slug: "default", eyebrow: "Can I Afford Japan?", title: "Real Japan prices from a family of five." },
+  { slug: "blog", eyebrow: "Can I Afford Japan?", title: "Every post, priced out." },
+  { slug: "topics", eyebrow: "Can I Afford Japan?", title: "Japan travel costs by topic." },
+  { slug: "about", eyebrow: "Can I Afford Japan?", title: "The family behind the posts." },
+  { slug: "contact", eyebrow: "Can I Afford Japan?", title: "Tell us what we got wrong." },
 ];
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -98,11 +99,17 @@ function svgTemplate({ eyebrow, title }) {
   <rect width="1200" height="630" fill="url(#glowB)"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <text x="90" y="180" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="6" fill="${ACCENT}">${esc(eyebrow.toUpperCase())}</text>
   ${text}
 
-  <path d="M 90 520 q 30 -26 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="${ACCENT}" stroke-width="7" stroke-linecap="round"/>
-  <text x="1110" y="560" text-anchor="end" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="26" fill="${DEEP_SOFT}">caniaffordjapan.com</text>
+  <!-- The site mark (red disc, cream yen, same drawing as the favicon and the
+       header logo) with the site name, in place of the old eyebrow line and
+       wave, both removed 2026-11-10 at the site owner's request. -->
+  <g transform="translate(90 504) scale(1.25) translate(-8 -8)">
+    <path d="M32 8.5C44.8 8.8 54.6 18.1 55.3 30.8c.8 13.1-8.8 23.6-21.9 24.7-13.5 1.1-24.2-8-24.7-21.5C8.2 20.2 18.2 8.2 32 8.5Z" fill="#b33a2f"/>
+    <path d="m18.5 19.5 4.7-3.8L32 27.4l8.8-11.7 4.7 3.8-10.4 13.2v1.7h8v5.2h-8v3h8v5.2h-8v7.3h-6.2v-7.3h-8v-5.2h8v-3h-8v-5.2h8v-1.7L18.5 19.5Z" fill="#f4ead8"/>
+  </g>
+  <text x="166" y="550" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="30" fill="#ffffff">${esc(eyebrow)}</text>
+  <text x="1110" y="550" text-anchor="end" font-family="Space Grotesk, Inter Tight, Arial, sans-serif" font-weight="700" font-size="26" fill="${DEEP_SOFT}">caniaffordjapan.com</text>
 </svg>`;
 }
 
