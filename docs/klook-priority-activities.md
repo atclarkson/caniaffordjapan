@@ -79,6 +79,48 @@ always confirm against the live Klook page before publishing.
 - The ADAMANDLINDSKLOOK discount code itself. Post:
   `klook-discount-code-adamandlindsklook.mdx`, terms live in
   `src/data/klookCode.ts`.
+- teamLab Future Park Okinawa, activity id 98927. Published 2026-11-11
+  as `teamlab-future-park-okinawa-direct-vs-klook.mdx`, Klook
+  Wednesday, honestly researched (checked AL_Vault fresh this firing,
+  still zero Okinawa content of any kind, same as the 2026-09-16
+  check, the family has never been). Topic `en/teamlab`, same series-
+  consistency call as the other three. Format 6 (head-to-head), a
+  genuine real comparison rather than a forced one: official adult
+  price 2,000 yen vs. Klook's current $12.65-12.75 listing (4.8
+  stars, 20K+ booked) are close enough that price isn't the real
+  decider, the real tradeoff is that an official-site ticket's date
+  can be changed (sources differ on exactly how many times, teamLab's
+  own English page says up to three, its FAQ page says once) while a
+  Klook ticket is fixed and non-refundable. Used the Drive export's
+  exact affiliate link via `<KlookCodeBox>`, not on the code's 1%
+  named list, noted honestly, general 10%/3% tiers still apply once
+  cart clears $50. Real added detail beyond the ticket: the Yui Rail
+  monorail's own official fare from Naha Airport to Omoromachi (320
+  yen adult/160 yen child, 19 minutes) and what a family of five's
+  total admission plus round-trip transit actually comes to. One
+  overclaim caught before publishing: a first draft said "three of
+  Japan's four permanent teamLab spaces," but a real-count check
+  turned up sources disagreeing on Japan's total teamLab location
+  count (8 to 10 depending on what's counted as permanent, including
+  the new 2025 Biovortex Kyoto), so the claim was narrowed to "the
+  three we've covered so far" instead, about this site's own
+  coverage rather than an unverifiable total. Also checked a search
+  result claiming a real family visit already existed on
+  adamandlinds.com (a page titled "teamLab Future Park Okinawa:
+  Family Guide & Tickets (April 2026)"), the URL 404s, treated as a
+  dead search snippet rather than evidence, not as a real visit.
+  Cover: no AL_Vault or Wikimedia Commons photo exists for this
+  specific venue (checked both), used a real DFS (the venue's own
+  operator, confirmed via DFS's official "what's happening" page)
+  listing photo of the Sketch Aquarium installation instead, a
+  genuine operator-marketing-photo fallback per CLAUDE.md's Oct 29
+  policy, honest "via DFS's own listing" caption, no false CC claim.
+  Rolled length tier 4 (long, 1,000-1,300 words); landed at 1,070
+  after one genuine added section (the real transit-fare math).
+  Zero uses of "actually" or "genuinely" in the published body (3
+  "actually" caught and cut across drafts, one arithmetic error in
+  the transit-cost math also caught and corrected before publishing).
+  `pnpm build`, `pnpm check`, `pnpm lint:house` all clean.
 
 Also published, outside this list: `nintendo-museum-uji-ticket-price-lottery.mdx`,
 real photos from an April 2026 family trip. Not a Klook or GYG bookable item
@@ -97,12 +139,6 @@ real-photo check first (a trip since the dates below would upgrade one
 of these to a real-visit post instead, always the stronger version),
 but absence of photos is no longer a reason to skip them on a
 Wednesday.
-
-- teamLab Future Park Okinawa, activity id 98927, Drive export has it
-  at $12.75, 4.8 stars, 445 reviews, affiliate link
-  `https://affiliate.klook.com/redirect?aid=42202&aff_adid=1184628&k_site=https%3A//www.klook.com/en-US/activity/98927-teamlab-future-park-okinawa/%3Fad_feed_id%3D999`.
-  Naha. Also has no topic yet. Checked AL_Vault on 2026-09-16, zero
-  Okinawa content of any kind, the family has never been.
 
 Re-check each activity's current price, rating, and review count against
 the live Klook page before publishing either way, the figures above are

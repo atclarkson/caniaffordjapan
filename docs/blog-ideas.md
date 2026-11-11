@@ -106,43 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Throwback Thursday, 2026-11-05: a real Zauo visit in Tokyo,
-  December 4, 2022, found via a video sweep rather than a photo one.**
-  Checked the "already posted today" guard first (no post with
-  today's date existed). AL_Vault's photo pools showed nothing new
-  (same 32 destinations, Tajiri's 2 photos both already used), so
-  swept the 41-item Tokyo video pool instead, something not done in
-  recent firings. Most titles traced to already-published posts
-  (Tsukiji, Kura Sushi, teamLab Planets, Oktoberfest, Copic Markers,
-  Pokemon Cafe, Sanrio Puroland, Skytree), confirmed via `grep` against
-  `src/data/posts/en/`, but "98 | WE CATCH OUR OWN FISH AT ZAUA IN
-  TOKYO," filmed 2022-12-04, matched no existing post, a genuinely
-  distinct second Zauo visit roughly six months before the Osaka one
-  `zauo-fishing-restaurant-osaka-catch-your-own-fish-cost.mdx` is built
-  on. Confirmed via `get_trip` on the surrounding date window: part of
-  the family's first extended Japan trip, three days before a flight
-  to Bangkok ended a six-week stay. Could not confirm which specific
-  Tokyo Zauo branch (the chain has several) from AL_Vault's metadata or
-  web research, said so honestly in the post rather than guessing a
-  neighborhood. No AL_Vault photos exist for this specific event (the
-  Tokyo photo pool only has 2 photos, both unrelated dates), so used
-  the video's own real YouTube thumbnail as cover (the vault's own
-  asset for this video, same role an AL_Vault photo's `large_url`
-  normally plays) and embedded the real video in-body, same iframe
-  pattern as the Osaka post. No affiliate link forced, Thursday isn't
-  in the weekly calendar's required-affiliate list and the specific
-  branch isn't confirmed. Rolled length tier 1 (quick hit, 450-600
-  words) and format 8 (itemized breakdown) from CLAUDE.md's system;
-  format 8 fit naturally against the video's own real chapter list
-  (TGI Fridays, walking to Zauo, the catch, walking at night, a crane
-  game), no reroll needed. Landed at 503 words, within tier. Published
-  2026-11-05 as `zauo-tokyo-december-2022-real-visit`, 503 words. Topic
-  `en/budget-food`. Zero uses of "actually" or "genuinely" in the
-  published body (1 "actually" caught and cut, in the description).
-  No `mark_photo_used` call, no AL_Vault tool exists to mark a video
-  as used (checked), video only. Moved the Round1 Narashino Throwback
-  Thursday "Done" entry out to `docs/blog-ideas-archive-13.md` to stay
-  under the house-lint 400-line cap.
 - **Food Friday, 2026-11-06: ekiben on the Shinkansen, a real moving-
   day lunch.** Checked the "already posted today" guard first (no post
   with today's date existed). Swept AL_Vault's video pool by text
@@ -391,3 +354,15 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   draft). One more "actually" caught and cut in the new section
   before publishing, zero in the final body. `pnpm build`, `pnpm
   check`, `pnpm lint:house` all clean after the expansion.
+- **Klook Wednesday, 2026-11-11: teamLab Future Park Okinawa,
+  researched.** Checked the "already posted today" guard first (no
+  post with today's date existed), then pulled this from
+  `docs/klook-priority-activities.md`'s unblocked priority list
+  (first and only entry left there). Full provenance (real pricing,
+  the official-vs-Klook date-change tradeoff, the real Yui Rail
+  transit-fare math, the DFS cover photo, the caught overclaim about
+  Japan's total teamLab count, the dead adamandlinds.com search
+  result checked and discarded) logged in
+  `docs/klook-priority-activities.md` rather than duplicated here.
+  Slug: `teamlab-future-park-okinawa-direct-vs-klook`. Length tier 4
+  (1,070 words), format 6 (head-to-head). Topic `en/teamlab`.
