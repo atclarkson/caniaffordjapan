@@ -2,12 +2,11 @@
 // src/pages/[...locale]/about.astro - a propos : qui est cette famille, d'ou viennent les photos, pourquoi le Japon.
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
-import PageHero from "@components/Sections/Global/PageHero.astro";
-import SectionHeader from "@components/Sections/Global/SectionHeader.astro";
+import { Breadcrumb } from "@components/ui/breadcrumb";
 import { Icon } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
-import { getSiteRoutes } from "@config/navData.json.ts";
 import siteData from "@config/siteData.json";
+import author from "@data/authors/en/the-clarksons.json";
 import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
 import { breadcrumbList, organization } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
@@ -16,7 +15,6 @@ export const getStaticPaths = localePaths;
 
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
-const routes = getSiteRoutes(locale);
 
 const title = t.about.metaTitle;
 const description = t.about.metaDescription;
@@ -37,36 +35,67 @@ const schemas = [
 
 // Real photos from the family's own trip archive (AL_Vault), not stock.
 const MEDIA = "https://media.adamandlinds.com/photos/large";
-const heroPhoto = {
-  src: `${MEDIA}/1ba379fa-320e-4084-8438-550820a99b75.jpg`,
-  alt: "A family of five wearing matching pink smocks, blue aprons, green rubber boots, and face masks sit on a yellow bench in a tiled room while holding small otters in their laps.",
-};
-const storyPhoto = {
-  src: `${MEDIA}/fbdb69e7-a654-43b9-be09-0f1b654e34ce.jpg`,
-  alt: "A family of five takes a selfie inside Super Nintendo World, each holding up their personalized Mii entry cards, with a giant Mario brick column visible in the background.",
-};
-const familyPhotos: Record<string, { src: string; alt: string }> = {
+
+// The opening stack: three real snapshots, tilted like prints on a table,
+// the same treatment as the home hero (rebuilt 2026-11-10/11).
+const snaps = [
+  {
+    src: `${MEDIA}/d4687c11-a242-4c42-bb53-6896cd01c3a3.jpg`,
+    alt: "Adam, Lindsay, Lily, Cora and Harper in front of the Nintendo Museum sign in Uji, holding their entry cards.",
+    width: 960,
+    height: 1280,
+    place: "left-[0%] top-[0%] w-[46%] -rotate-[4deg]",
+    focus: "object-[50%_40%]",
+  },
+  {
+    src: `${MEDIA}/fbdb69e7-a654-43b9-be09-0f1b654e34ce.jpg`,
+    alt: "Family selfie inside Super Nintendo World, everyone holding up their Mii entry cards.",
+    width: 960,
+    height: 1280,
+    place: "right-[0%] top-[4%] w-[44%] rotate-[3deg]",
+    focus: "object-[50%_45%]",
+  },
+  {
+    src: `${MEDIA}/1ba379fa-320e-4084-8438-550820a99b75.jpg`,
+    alt: "The five of us in matching pink smocks and green boots at an otter cafe in Shibuya, each holding an otter.",
+    width: 1280,
+    height: 960,
+    place: "left-[14%] bottom-[0%] w-[72%] -rotate-[1.5deg] z-10",
+    focus: "object-center",
+  },
+];
+
+const familyPhotos: Record<string, { src: string; alt: string; focus: string }> = {
   Adam: {
     src: `${MEDIA}/d8ad5b2d-f864-4a87-a994-bd8a2a8b6078.jpg`,
-    alt: "A young girl with blonde hair sits on a bearded man's shoulders, both smiling at the camera outdoors at Tennoji Zoo in Osaka, Japan.",
+    alt: "Adam with Harper on his shoulders, both smiling, at Tennoji Zoo in Osaka.",
+    focus: "object-[50%_40%]",
   },
   Lindsay: {
-    src: `${MEDIA}/3584c42f-fa3b-49ee-a3bc-72207a4dc6ae.jpg`,
-    alt: "A woman and a young girl smile inside a cable car gondola at Ba Na Hills.",
+    src: `${MEDIA}/a6e9e0e1-15ba-4eda-ba3a-4ce07e8308f0.jpg`,
+    alt: "Lindsay smiling over dessert at a restaurant in Sakai on her 40th birthday.",
+    focus: "object-[55%_40%]",
   },
   Lily: {
     src: `${MEDIA}/2d79e42b-3f08-4fa7-bfca-aba50995e278.jpg`,
-    alt: "A young girl with blonde hair smiles at the camera wearing oversized black-framed glasses and a Stitch t-shirt inside a Japanese department store.",
+    alt: "Lily in oversized black-framed glasses and a Stitch t-shirt in a shop in Osaka.",
+    focus: "object-[50%_35%]",
   },
   Cora: {
     src: `${MEDIA}/3d49fa96-a659-46b0-b139-f4ac3bbfa0c7.jpg`,
-    alt: "A girl in a yellow dress sits inside a large decorative spider crab sculpture on a wooden deck along the Osaka waterfront, arms raised and mouth open in an excited expression.",
+    alt: "Cora in a yellow dress, arms up, sitting inside a giant spider crab sculpture on the Osaka waterfront.",
+    focus: "object-[50%_55%]",
   },
   Harper: {
-    src: `${MEDIA}/9f489133-7985-4c92-90cc-a8f88d49b90f.jpg`,
-    alt: "A young girl in a pink rainbow birthday shirt stands smiling at the camera, holding a small pink purse with a stuffed animal inside.",
+    src: `${MEDIA}/160dce71-a776-4d97-88a7-4daf738314cc.jpg`,
+    alt: "Harper grinning on the Dotonbori bridge at night, neon signs behind her.",
+    focus: "object-[50%_35%]",
   },
 };
+
+// The family's real profiles (Adam and Linds site, YouTube, Instagram,
+// TikTok), straight from the author file so they never drift.
+const socials = author.links;
 ---
 
 <BaseLayout {title} {description}>
@@ -81,113 +110,167 @@ const familyPhotos: Record<string, { src: string; alt: string }> = {
   <Navbar />
 
   <main id="content">
-    <PageHero
-      eyebrow={t.about.eyebrow}
-      title={t.about.title}
-      accentWord={t.about.accent}
-      lede={t.about.lede}
-      crumbs={[{ label: t.about.metaTitle }]}
-    />
-
-    <section class="container-page pb-4">
-      <img
-        src={heroPhoto.src}
-        alt={heroPhoto.alt}
-        width="1280"
-        height="960"
-        class="border-border w-full rounded-card border object-cover"
-        style="aspect-ratio: 16 / 10;"
-        loading="eager"
+    {/* Opening: words on the left, the snapshot stack on the right. */}
+    <section class="container-page pt-28 pb-14 sm:pt-32 md:pt-36 md:pb-20" aria-labelledby="about-title">
+      <Breadcrumb
+        items={[{ label: t.common.home, href: localizePath("/", locale) }, { label: t.about.metaTitle }]}
+        label={t.common.breadcrumbLabel}
       />
-    </section>
-
-    <section class="container-page py-14 md:py-20" aria-labelledby="story-title">
-      <SectionHeader
-        as="h2"
-        headingId="story-title"
-        title={t.about.storyTitle}
-        accentWord={t.about.storyAccent}
-      />
-      <div class="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start">
-        <div class="prose prose-dropcap">
-          {t.about.storyParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+      <div class="mt-8 grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-16">
+        <div class="flex min-w-0 flex-col">
+          <h1 id="about-title" class="font-display text-display-md lg:text-display-lg text-foreground">
+            {t.about.title}
+          </h1>
+          <p class="text-muted-foreground mt-5 max-w-[36rem] text-lg leading-relaxed md:text-xl">
+            {t.about.lede}
+          </p>
+          <dl class="mt-8 grid max-w-[30rem] grid-cols-3 gap-4 sm:gap-8">
+            {
+              t.about.stats.map((stat) => (
+                <div class="flex flex-col">
+                  <dt class="text-muted-foreground order-2 text-sm">{stat.label}</dt>
+                  <dd class="font-display text-foreground order-1 text-3xl font-bold">{stat.value}</dd>
+                </div>
+              ))
+            }
+          </dl>
         </div>
-        <img
-          src={storyPhoto.src}
-          alt={storyPhoto.alt}
-          width="960"
-          height="1280"
-          class="border-border hidden rounded-card border object-cover lg:block"
-          style="aspect-ratio: 3 / 4;"
-          loading="lazy"
-        />
-      </div>
 
-      <dl class="border-border mt-12 grid grid-cols-3 divide-x divide-border border-y py-8 text-center">
-        {
-          t.about.stats.map((stat) => (
-            <div class="flex flex-col gap-1 px-2">
-              <dt class="sr-only">{stat.label}</dt>
-              <dd class="font-display text-display-sm md:text-display-md text-foreground">{stat.value}</dd>
-              <dd class="text-muted-foreground text-xs tracking-[0.1em] uppercase md:text-sm">{stat.label}</dd>
-            </div>
-          ))
-        }
-      </dl>
+        <div class="relative mx-auto aspect-[1/0.95] w-full max-w-[34rem] lg:max-w-none">
+          {
+            snaps.map((snap, i) => (
+              <figure
+                class:list={[
+                  "about-snap absolute rounded-md bg-white p-1.5 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)] sm:p-2",
+                  snap.place,
+                ]}
+              >
+                <img
+                  src={snap.src}
+                  alt={snap.alt}
+                  width={snap.width}
+                  height={snap.height}
+                  loading={i === 2 ? "eager" : "lazy"}
+                  decoding="async"
+                  class:list={["aspect-[4/3] w-full rounded-[3px] object-cover", snap.focus]}
+                />
+              </figure>
+            ))
+          }
+        </div>
+      </div>
     </section>
 
-    <section class="bg-surface border-border border-y" aria-labelledby="family-title">
-      <div class="container-page py-16 md:py-24">
-        <SectionHeader
-          as="h2"
-          headingId="family-title"
-          title={t.about.familyTitle}
-          accentWord={t.about.familyAccent}
-          lede={t.about.familyLede}
-        />
-        <ul class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {
-            t.about.family.map((member) => (
-              <li class="bg-card border-border flex flex-col overflow-hidden rounded-card border">
+    {/* The story, as plain reading text. */}
+    <section class="bg-surface border-border border-y" aria-labelledby="story-title">
+      <div class="container-page py-16 md:py-20">
+        <div class="mx-auto max-w-[42rem]">
+          <h2 id="story-title" class="font-display text-display-sm md:text-display-md text-foreground">
+            {t.about.storyTitle}
+          </h2>
+          <div class="prose mt-6">
+            {t.about.storyParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* The family: five cards, one row on a wide screen. */}
+    <section class="container-page py-16 md:py-24" aria-labelledby="family-title">
+      <h2 id="family-title" class="font-display text-display-sm md:text-display-md text-foreground">
+        {t.about.familyTitle}
+      </h2>
+      <p class="text-muted-foreground mt-3 text-lg">{t.about.familyLede}</p>
+      <ul class="mt-10 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-5">
+        {
+          t.about.family.map((member) => (
+            <li class="group bg-card border-border rounded-card flex flex-col overflow-hidden border transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-float motion-reduce:transition-none">
+              <div class="overflow-hidden">
                 <img
                   src={familyPhotos[member.name].src}
                   alt={familyPhotos[member.name].alt}
                   width="960"
                   height="1280"
-                  class="w-full object-cover"
-                  style="aspect-ratio: 4 / 5;"
                   loading="lazy"
+                  decoding="async"
+                  class:list={[
+                    "aspect-[4/5] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100",
+                    familyPhotos[member.name].focus,
+                  ]}
                 />
-                <div class="flex flex-1 flex-col gap-2 p-5">
-                  <h3 class="font-display text-foreground text-lg font-semibold">{member.name}</h3>
-                  <p class="text-muted-foreground text-sm font-medium">{member.role}</p>
-                  <p class="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
-                  <p class="text-accent-text mt-auto pt-2 text-xs font-semibold tracking-[0.04em] uppercase">
-                    {member.favorite}
-                  </p>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
+              </div>
+              <div class="flex flex-1 flex-col gap-1.5 p-3.5 sm:p-5">
+                <h3 class="font-display text-foreground text-lg font-semibold">{member.name}</h3>
+                <p class="text-foreground text-sm font-medium">{member.role}</p>
+                <p class="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
+                <p class="text-muted-foreground mt-auto pt-3 text-sm">{member.favorite}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
     </section>
 
-    <section class="border-border border-t" aria-labelledby="work-title">
-      <div class="container-page flex flex-col items-start gap-5 py-16 md:py-24">
-        <h2 id="work-title" class="font-display text-display-sm md:text-display-md text-foreground">
-          {t.about.contactTitle}
-        </h2>
-        <p class="text-muted-foreground measure-wide text-lg leading-relaxed">
-          {t.about.contactLede}
-        </p>
-        <Button href={routes.contact} variant="primary" size="lg" class="mt-2">
-          {t.about.contactCta}
-          <Icon name="arrow-right" size={18} />
-        </Button>
+    {/* Close: one action (email) and the real places to follow along. */}
+    <section class="bg-surface border-border border-t" aria-labelledby="contact-title">
+      <div class="container-page grid gap-10 py-16 md:py-20 lg:grid-cols-2 lg:items-center">
+        <div class="flex flex-col items-start gap-4">
+          <h2 id="contact-title" class="font-display text-display-sm md:text-display-md text-foreground">
+            {t.about.contactTitle}
+          </h2>
+          <p class="text-muted-foreground max-w-[34rem] text-lg leading-relaxed">{t.about.contactLede}</p>
+          <Button href={`mailto:${siteData.author.email}`} variant="primary" size="lg" class="mt-2">
+            {t.about.contactCta}
+            <Icon name="mail" size={18} />
+          </Button>
+        </div>
+        <div>
+          <h3 class="font-display text-foreground text-xl font-semibold">{t.about.followTitle}</h3>
+          <ul class="mt-4 flex flex-wrap gap-2.5">
+            {
+              socials.map((link) => (
+                <li>
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer me"
+                    class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-11 items-center gap-2 border px-4 text-sm font-medium transition-colors duration-150"
+                  >
+                    {link.label}
+                    <Icon name="arrow-up-right" size={15} />
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
       </div>
     </section>
   </main>
 
   <Footer />
 </BaseLayout>
+
+<style>
+  /* A snapshot straightens and lifts on hover; still under reduced motion. */
+  .about-snap {
+    transition:
+      rotate 300ms ease,
+      translate 300ms ease,
+      box-shadow 300ms ease;
+  }
+  .about-snap:hover {
+    rotate: 0deg;
+    translate: 0 -4px;
+    z-index: 30;
+    box-shadow: 0 18px 40px -10px rgb(0 0 0 / 0.4);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .about-snap {
+      transition: none;
+    }
+    .about-snap:hover {
+      translate: none;
+    }
+  }
+</style>

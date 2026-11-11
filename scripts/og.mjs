@@ -70,7 +70,7 @@ function twoLines(title) {
   return best[1] ? best : [title];
 }
 
-function svgTemplate({ eyebrow, title }) {
+function svgTemplate({ title }) {
   const lines = twoLines(title);
   const titleSize = lines.length === 2 ? 76 : 84;
   const firstY = lines.length === 2 ? 330 : 370;

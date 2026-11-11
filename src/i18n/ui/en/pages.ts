@@ -66,9 +66,9 @@ export const enPages = {
       "This site is the real prices from those trips. What a temple costs (nothing). What dinner costs. What a discount code gets you. No guessing.",
     ],
     stats: [
-      { value: "33+", label: "countries visited" },
-      { value: "2022", label: "full-time since" },
-      { value: "5", label: "in the family" },
+      { value: "33+", label: "Countries visited" },
+      { value: "2022", label: "Traveling full time since" },
+      { value: "5", label: "Of us" },
     ],
     familyTitle: "Meet the family",
     familyAccent: "family",
@@ -105,9 +105,10 @@ export const enPages = {
         favorite: "Favorite country: Japan",
       },
     ],
-    contactTitle: "Get in touch",
-    contactLede: "A question about a post, a correction, or something we should cover? Tell us what's on your mind.",
-    contactCta: "Get in touch",
+    contactTitle: "Say hello",
+    contactLede: "A question about a post, a price that's changed, or a place we should cover next? We'd like to hear it.",
+    contactCta: "Email us",
+    followTitle: "Follow along",
   },
 
   // --- Contact -------------------------------------------------------------
@@ -115,21 +116,24 @@ export const enPages = {
   // prestataire d'envoi a la place de son utilisateur. La copie, elle, est prete.
   contact: {
     metaTitle: "Contact",
-    metaDescription: "A question about a post, a correction, or something we should cover.",
+    metaDescription: "Email the Clarkson family about a post, a price that's changed, a correction, or a place in Japan you'd like covered.",
     eyebrow: "Contact",
     title: "Get in touch",
     accent: "touch",
-    lede: "A correction, a question about a price, a place we should cover next, send it over.",
+    lede: "Email is the best way to reach us: a question about a post, a correction, or a place we should cover.",
     directTitle: "Email us",
-    directLede: "The fastest way to reach us.",
+    directLede: "Write to us at",
     directCta: "Email us",
-    nextTitle: "What happens next",
-    nextSteps: [
-      "A short reply within a few days.",
-      "If it's a correction, the post is fixed and the date updated the same week.",
-      "If it's a place we haven't covered, it goes on the list for a future trip.",
+    topicsTitle: "Good reasons to write",
+    topics: [
+      "A price in a post has changed since we wrote it.",
+      "Something's wrong: a fact, a link, an opening time.",
+      "A place or a question you'd like us to cover next.",
     ],
+    followTitle: "Follow along",
+    followLede: "Our trips, as they happen, on the Adam and Linds channels.",
   },
+
 
   // --- Sujets --------------------------------------------------------------
   topics: {

@@ -2,7 +2,8 @@
 // src/pages/[...locale]/contact.astro - contact : l'adresse directe et ce qui se passe ensuite, pas de formulaire fantome.
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
-import PageHero from "@components/Sections/Global/PageHero.astro";
+import { Breadcrumb } from "@components/ui/breadcrumb";
+import author from "@data/authors/en/the-clarksons.json";
 import { Icon } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
 import siteData from "@config/siteData.json";
@@ -23,6 +24,14 @@ const crumbs = breadcrumbList([
   { name: t.common.home, url: new URL(localizePath("/", locale), base).href },
   { name: t.contact.metaTitle, url: new URL(localizePath("/contact/", locale), base).href },
 ]);
+
+const email = siteData.author.email;
+
+// One real family snapshot for warmth (Dotonbori dinner, all five of us).
+const snap = {
+  src: "https://media.adamandlinds.com/photos/large/47c11d09-0c67-485e-a4b4-6f8b819118a8.jpg",
+  alt: "The five of us squeezed around a restaurant table on Dotonbori in Osaka at night.",
+};
 ---
 
 <BaseLayout {title} {description}>
@@ -33,55 +42,110 @@ const crumbs = breadcrumbList([
   <Navbar />
 
   <main id="content">
-    <PageHero
-      eyebrow={t.contact.eyebrow}
-      title={t.contact.title}
-      accentWord={t.contact.accent}
-      lede={t.contact.lede}
-      crumbs={[{ label: t.contact.metaTitle }]}
-    />
+    <section class="container-page pt-28 pb-16 sm:pt-32 md:pt-36 md:pb-24" aria-labelledby="contact-title">
+      <Breadcrumb
+        items={[{ label: t.common.home, href: localizePath("/", locale) }, { label: t.contact.metaTitle }]}
+        label={t.common.breadcrumbLabel}
+      />
 
-    <div class="container-page grid gap-6 py-14 md:py-20 lg:grid-cols-12 lg:gap-8">
-      <section
-        class="border-border bg-card rounded-panel flex flex-col gap-3 border p-7 sm:p-9 lg:col-span-7"
-        aria-labelledby="direct-title"
-      >
-        <span class="text-primary" aria-hidden="true"><Icon name="mail" size={22} /></span>
-        <h2 id="direct-title" class="font-display text-foreground text-xl font-semibold tracking-tight">
-          {t.contact.directTitle}
-        </h2>
-        <p class="text-muted-foreground text-[0.95rem] leading-relaxed">{t.contact.directLede}</p>
-        <Button href={`mailto:${siteData.author.email}`} variant="primary" size="lg" class="mt-2 self-start">
-          {t.contact.directCta}
-          <Icon name="send" size={17} />
-        </Button>
-      </section>
+      <div class="mt-8 grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-16">
+        <div class="flex min-w-0 flex-col">
+          <h1 id="contact-title" class="font-display text-display-md lg:text-display-lg text-foreground">
+            {t.contact.title}
+          </h1>
+          <p class="text-muted-foreground mt-5 max-w-[36rem] text-lg leading-relaxed md:text-xl">
+            {t.contact.lede}
+          </p>
 
-      <section
-        class="border-border rounded-card flex flex-col gap-4 border p-7 lg:col-span-5"
-        aria-labelledby="next-title"
-      >
-        <h2 id="next-title" class="font-display text-foreground text-xl font-semibold tracking-tight">
-          {t.contact.nextTitle}
-        </h2>
-        <ol class="flex flex-col gap-4">
-          {
-            t.contact.nextSteps.map((step, index) => (
-              <li class="flex items-start gap-3">
-                <span
-                  class="bg-primary/12 text-primary font-display rounded-pill mt-0.5 grid size-6 shrink-0 place-items-center text-xs font-semibold"
-                  aria-hidden="true"
-                >
-                  {index + 1}
-                </span>
-                <span class="text-muted-foreground text-[0.95rem] leading-relaxed">{step}</span>
-              </li>
-            ))
-          }
-        </ol>
-      </section>
-    </div>
+          {/* The one action: email. The address is shown in full so it can be
+              copied by anyone whose device has no mail app set up. */}
+          <div class="bg-card border-border rounded-card mt-10 flex flex-col gap-4 border p-6 sm:p-8">
+            <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.directTitle}</h2>
+            <p class="text-muted-foreground">
+              {t.contact.directLede}{" "}
+              <a href={`mailto:${email}`} class="text-foreground mt-1 block font-medium [overflow-wrap:anywhere] underline underline-offset-4">
+                {email}
+              </a>
+            </p>
+            <Button href={`mailto:${email}`} variant="primary" size="lg" class="self-start">
+              {t.contact.directCta}
+              <Icon name="mail" size={18} />
+            </Button>
+          </div>
+
+          <h2 class="font-display text-foreground mt-12 text-xl font-semibold">{t.contact.topicsTitle}</h2>
+          <ul class="mt-4 flex flex-col gap-3">
+            {
+              t.contact.topics.map((topic) => (
+                <li class="text-muted-foreground flex items-start gap-3 leading-relaxed">
+                  <span class="text-primary mt-1 shrink-0" aria-hidden="true">
+                    <Icon name="check" size={16} />
+                  </span>
+                  {topic}
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="flex min-w-0 flex-col gap-10">
+          <figure class="contact-snap mx-auto w-full max-w-[30rem] rotate-[2deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+            <img
+              src={snap.src}
+              alt={snap.alt}
+              width="1280"
+              height="960"
+              loading="eager"
+              decoding="async"
+              class="aspect-[4/3] w-full rounded-[3px] object-cover"
+            />
+          </figure>
+
+          <div>
+            <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.followTitle}</h2>
+            <p class="text-muted-foreground mt-2">{t.contact.followLede}</p>
+            <ul class="mt-4 flex flex-wrap gap-2.5">
+              {
+                author.links.map((link) => (
+                  <li>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer me"
+                      class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-11 items-center gap-2 border px-4 text-sm font-medium transition-colors duration-150"
+                    >
+                      {link.label}
+                      <Icon name="arrow-up-right" size={15} />
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
 </BaseLayout>
+
+<style>
+  .contact-snap {
+    transition:
+      rotate 300ms ease,
+      translate 300ms ease;
+  }
+  .contact-snap:hover {
+    rotate: 0deg;
+    translate: 0 -4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .contact-snap {
+      transition: none;
+    }
+    .contact-snap:hover {
+      translate: none;
+    }
+  }
+</style>
