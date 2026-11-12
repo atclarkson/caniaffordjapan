@@ -11,15 +11,19 @@
 import { rotationForMonth } from "@data/featuredRotation";
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
-import FeaturedPost from "@components/Sections/Home/FeaturedPost.astro";
+import BeforeYouBook from "@components/Sections/Home/BeforeYouBook.astro";
+import BrowseTopics from "@components/Sections/Home/BrowseTopics.astro";
+import Destinations from "@components/Sections/Home/Destinations.astro";
 import Hero from "@components/Sections/Home/Hero.astro";
+import MeetFamily from "@components/Sections/Home/MeetFamily.astro";
+import Partners from "@components/Sections/Home/Partners.astro";
+import StartPlanning from "@components/Sections/Home/StartPlanning.astro";
+import WhatWeSpent from "@components/Sections/Home/WhatWeSpent.astro";
+import WorthTheMoney from "@components/Sections/Home/WorthTheMoney.astro";
 import LatestPosts from "@components/Sections/Home/LatestPosts.astro";
-import TopicStrip from "@components/Sections/Home/TopicStrip.astro";
-import WritersStrip from "@components/Sections/Home/WritersStrip.astro";
 import siteData from "@config/siteData.json";
 import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
-import { getLocalizedCollection } from "@i18n/content";
-import { getResolvedPosts, getSortedTopics, topicCovers } from "@js/posts";
+import { getResolvedPosts, getSortedTopics } from "@js/posts";
 import { organization, website } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -31,7 +35,7 @@ const t = useTranslations(locale);
 
 const posts = await getResolvedPosts(locale);
 
-// "Our pick this month" rotates monthly through a fixed list of posts we
+// "Before you book" rotates monthly through a fixed list of posts we
 // want to rank and earn from (src/data/featuredRotation.ts). Falls back to
 // the newest post if none of them is published.
 const featured =
@@ -41,20 +45,12 @@ const featured =
 const latest = posts.filter((entry) => entry !== featured).slice(0, 6);
 
 const topics = await getSortedTopics(locale);
-const authors = (await getLocalizedCollection("authors", locale)).sort((a, b) =>
-  a.data.name.localeCompare(b.data.name),
-);
 
-// Un seul passage sur les billets pour les deux compteurs : compter dans les
-// sections obligerait a leur passer la liste complete, qu'elles n'affichent pas.
+// Posts per topic, counted once here and passed to the sections that show counts.
 const topicCounts: Record<string, number> = {};
-const authorCounts: Record<string, number> = {};
 for (const entry of posts) {
   topicCounts[entry.topicSlug] = (topicCounts[entry.topicSlug] ?? 0) + 1;
-  authorCounts[entry.authorSlug] = (authorCounts[entry.authorSlug] ?? 0) + 1;
 }
-
-const covers = topicCovers(posts);
 
 const title = t.home.metaTitle;
 const description = t.home.metaDescription;
@@ -84,10 +80,19 @@ const schemas = [
 
   <main id="content">
     <Hero postCount={posts.length} {topics} counts={topicCounts} />
-    {featured && <FeaturedPost entry={featured} />}
+    {/* Rebuilt 2026-11-12 from the owner's brief: planning first, archive
+        second. Order: before you book, start planning, what we spent,
+        destinations, worth the money, latest posts, the family, all
+        topics, partners. */}
+    {featured && <BeforeYouBook entry={featured} />}
+    <StartPlanning />
+    <WhatWeSpent />
+    <Destinations counts={topicCounts} />
+    <WorthTheMoney {posts} />
     {latest.length > 0 && <LatestPosts posts={latest} />}
-    <TopicStrip {topics} counts={topicCounts} {covers} />
-    <WritersStrip {authors} counts={authorCounts} />
+    <MeetFamily />
+    <BrowseTopics {topics} counts={topicCounts} />
+    <Partners />
   </main>
 
   {/* NewsletterInvite removed for now, no signup provider wired up (see

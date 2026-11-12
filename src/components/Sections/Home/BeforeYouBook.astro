@@ -1,0 +1,57 @@
+---
+// src/components/Sections/Home/BeforeYouBook.astro - "Before you book": the month's practical pick, as one compact horizontal card.
+//
+// Replaced the full-height "Our pick this month" feature on 2026-11-12: the
+// rotation (src/data/featuredRotation.ts) is all booking advice (eSIM,
+// tickets, passes, insurance), and a short card gets visitors to the
+// planning choices sooner. The post is chosen by the page.
+import { Icon } from "@components/svg/icons";
+import { getSiteRoutes } from "@config/navData.json.ts";
+import { formatDate, getLocale, useTranslations } from "@i18n";
+import type { ResolvedPost } from "@js/posts";
+import { Image } from "astro:assets";
+
+type Props = { entry: ResolvedPost };
+const { entry } = Astro.props;
+const locale = getLocale(Astro);
+const t = useTranslations(locale);
+const routes = getSiteRoutes(locale);
+const { post, topic, slug } = entry;
+const href = `${routes.posts}${slug}/`;
+---
+
+<section class="container-page pt-4 pb-14 md:pb-20" aria-labelledby="before-title" data-slot="before-you-book">
+  <h2 id="before-title" class="font-display text-display-sm text-foreground mb-6">{t.home.featuredEyebrow}</h2>
+  <article
+    class="group bg-card border-border rounded-card relative grid overflow-hidden border transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-float sm:grid-cols-[minmax(0,15rem)_minmax(0,1fr)] md:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] motion-reduce:transition-none"
+  >
+    {
+      post.data.cover && (
+        <div class="relative overflow-hidden">
+          <Image
+            src={post.data.cover}
+            alt={post.data.coverAlt ?? ""}
+            widths={[400, 640]}
+            sizes="(min-width: 768px) 20rem, (min-width: 640px) 15rem, 92vw"
+            class="aspect-[16/9] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03] sm:absolute sm:inset-0 sm:aspect-auto sm:size-full motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      )
+    }
+    <div class="flex flex-col justify-center gap-2.5 p-6 md:px-8 md:py-7">
+      <p class="text-muted-foreground text-sm">
+        {topic.data.name} · <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate, locale)}</time>
+      </p>
+      <h3 class="font-display text-foreground text-xl leading-snug font-semibold text-balance md:text-2xl">
+        <a href={href} class="after:absolute after:inset-0 after:content-['']">{post.data.title}</a>
+      </h3>
+      <p class="text-muted-foreground line-clamp-2 leading-relaxed">{post.data.description}</p>
+      <p class="text-primary mt-1 flex items-center gap-1.5 text-sm font-semibold" aria-hidden="true">
+        {t.common.readPost}
+        <span class="transition-transform duration-200 group-hover:translate-x-1 motion-reduce:transition-none"><Icon name="arrow-right" size={16} /></span>
+      </p>
+    </div>
+  </article>
+</section>

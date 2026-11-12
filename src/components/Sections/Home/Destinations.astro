@@ -1,0 +1,65 @@
+---
+// src/components/Sections/Home/Destinations.astro - four cities as big photo cards, linking to their topic pages.
+//
+// Tokyo and Osaka use family photos from AL_Vault; Kyoto and Hiroshima use
+// their posts' existing covers (AL_Vault has no Kyoto city or Hiroshima
+// family photos yet). The Hiroshima photo is Commons CC BY-SA 2.5, credited
+// in one small line under the cards.
+import tokyo from "../../../assets/home/tokyo-skytree.jpg";
+import osaka from "../../../assets/home/osaka-tsutenkaku.jpg";
+import kyoto from "../../../assets/covers/nintendo-museum-uji-ticket-price-lottery.jpg";
+import hiroshima from "../../../assets/covers/hiroshima-peace-memorial-museum-admission-cost.jpg";
+import { getSiteRoutes } from "@config/navData.json.ts";
+import { getLocale } from "@i18n";
+import { Image } from "astro:assets";
+
+type Props = { counts: Record<string, number> };
+const { counts } = Astro.props;
+const routes = getSiteRoutes(getLocale(Astro));
+
+const cities = [
+  { slug: "tokyo", name: "Tokyo", src: tokyo, focus: "object-[50%_35%]", alt: "The family selfie under Tokyo Skytree with cherry blossoms behind." },
+  { slug: "osaka", name: "Osaka", src: osaka, focus: "object-[50%_40%]", alt: "Adam, Lily and Cora in front of Tsutenkaku tower in Shinsekai, Osaka." },
+  { slug: "kyoto", name: "Kyoto", src: kyoto, focus: "object-[50%_40%]", alt: "The family holding entry cards at the Nintendo Museum in Uji, Kyoto." },
+  { slug: "hiroshima", name: "Hiroshima", src: hiroshima, focus: "object-center", alt: "The A-Bomb Dome beside the river in Hiroshima Peace Memorial Park." },
+];
+---
+
+<section class="container-page py-16 md:py-24" aria-labelledby="dest-title" data-slot="destinations">
+  <h2 id="dest-title" class="font-display text-display-sm md:text-display-md text-foreground">Explore by destination</h2>
+  <ul class="mt-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
+    {
+      cities.map((city) => (
+        <li>
+          <a
+            href={`${routes.topics}${city.slug}/`}
+            class="group rounded-card relative block overflow-hidden transition-transform duration-300 hover:-translate-y-0.5 motion-reduce:transition-none"
+          >
+            <Image
+              src={city.src}
+              alt={city.alt}
+              widths={[360, 600]}
+              sizes="(min-width: 1024px) 22vw, 46vw"
+              class:list={[
+                "aspect-[4/5] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100",
+                city.focus,
+              ]}
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" aria-hidden="true"></span>
+            <span class="absolute inset-x-0 bottom-0 flex flex-col p-4 text-white sm:p-5">
+              <span class="font-display text-2xl font-bold sm:text-3xl">{city.name}</span>
+              <span class="text-sm text-white/85">{counts[city.slug] ?? 0} posts</span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="text-muted-foreground mt-4 text-xs">
+    Hiroshima photo:{" "}
+    <a href="https://commons.wikimedia.org/wiki/File:A-Bomb_Dome.jpg" class="hover:text-foreground underline underline-offset-2">Dan Smith</a>,{" "}
+    <a href="https://creativecommons.org/licenses/by-sa/2.5/" rel="license" class="hover:text-foreground underline underline-offset-2">CC BY-SA 2.5</a>, via Wikimedia Commons.
+  </p>
+</section>

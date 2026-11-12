@@ -1,0 +1,85 @@
+---
+// src/components/Sections/Home/WhatWeSpent.astro - one real day of family spending, as clean numbers, from a real post.
+//
+// Every figure comes from src/data/homePage.ts (WHAT_WE_SPENT), copied from
+// the post's own table. The headline is the post's own "everything but the
+// room" figure; the room and the full total are shown too, with the post's
+// own caveat about the room line.
+import uenoPagoda from "../../../assets/home/ueno-pagoda.jpg";
+import { Icon } from "@components/svg/icons";
+import { WHAT_WE_SPENT as day } from "@data/homePage";
+import { Image } from "astro:assets";
+---
+
+<section class="bg-surface border-border border-y" aria-labelledby="spent-title" data-slot="what-we-spent">
+  <div class="container-page py-16 md:py-24">
+    <h2 id="spent-title" class="font-display text-display-sm md:text-display-md text-foreground">What we spent</h2>
+    <p class="text-muted-foreground mt-3 max-w-[40rem] text-lg">
+      Not estimates. One real day from our own budget tracking, every line from the post.
+    </p>
+
+    <div class="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-14">
+      <figure class="mx-auto w-full max-w-[34rem] -rotate-[1.5deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+        <Image
+          src={uenoPagoda}
+          alt="The family at the five-story pagoda in Ueno Park on a clear autumn day."
+          widths={[480, 800]}
+          sizes="(min-width: 1024px) 34rem, 92vw"
+          class="aspect-[4/3] w-full rounded-[3px] object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+      </figure>
+
+      <div class="bg-card border-border rounded-card border p-6 sm:p-8">
+        <h3 class="font-display text-foreground text-xl font-semibold">{day.heading}</h3>
+        <p class="mt-4 flex flex-wrap items-baseline gap-x-3">
+          <span class="font-display text-foreground text-5xl font-bold tabular-nums">{day.dayTotalUsd}</span>
+          <span class="text-muted-foreground">{day.dayTotalLabel}</span>
+        </p>
+
+        <dl class="mt-6 flex flex-col gap-5">
+          {
+            day.groups.map((group) => (
+              <div>
+                <dt class="text-foreground text-sm font-semibold">{group.label}</dt>
+                <dd>
+                  <ul class="border-border mt-2 divide-y divide-[var(--color-border)] border-y">
+                    {group.items.map((item) => (
+                      <li class="flex items-baseline justify-between gap-4 py-2 text-[0.95rem]">
+                        <span class="text-muted-foreground">{item.name}</span>
+                        <span class="text-foreground tabular-nums">
+                          {item.yen} <span class="text-muted-foreground">({item.usd})</span>
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </dd>
+              </div>
+            ))
+          }
+        </dl>
+
+        <div class="border-border mt-6 flex flex-col gap-1.5 border-t pt-5 text-[0.95rem]">
+          <p class="flex justify-between gap-4">
+            <span class="text-muted-foreground">Room for the night</span>
+            <span class="text-foreground whitespace-nowrap tabular-nums">{day.room.yen} <span class="text-muted-foreground">({day.room.usd})</span></span>
+          </p>
+          <p class="flex justify-between gap-4 font-semibold">
+            <span class="text-foreground">Whole day, room included</span>
+            <span class="text-foreground text-right whitespace-nowrap tabular-nums">{day.total.yen} ({day.total.usd})</span>
+          </p>
+          <p class="text-muted-foreground mt-1 text-sm">{day.roomNote}</p>
+        </div>
+
+        <a
+          href={`/blog/${day.slug}/`}
+          class="text-primary mt-6 inline-flex min-h-11 items-center gap-1.5 font-semibold underline-offset-4 hover:underline"
+        >
+          Read the full day
+          <Icon name="arrow-right" size={16} />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

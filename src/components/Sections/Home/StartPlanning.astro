@@ -1,0 +1,31 @@
+---
+// src/components/Sections/Home/StartPlanning.astro - four plain cards that route a first-time planner to the right part of the site.
+import { Icon, type IconName } from "@components/svg/icons";
+import { START_PLANNING } from "@data/homePage";
+---
+
+<section class="container-page pb-16 md:pb-24" aria-labelledby="planning-title" data-slot="start-planning">
+  <h2 id="planning-title" class="font-display text-display-sm md:text-display-md text-foreground">Start planning</h2>
+  <ul class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    {
+      START_PLANNING.map((card) => (
+        <li class="flex">
+          <a
+            href={card.href}
+            class="group bg-card border-border rounded-card flex w-full flex-col gap-3 border p-6 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-0.5 hover:shadow-float hover:border-foreground/20 motion-reduce:transition-none"
+          >
+            <span class="bg-primary/10 text-primary grid size-11 place-items-center rounded-full" aria-hidden="true">
+              <Icon name={card.icon as IconName} size={20} />
+            </span>
+            <span class="font-display text-foreground text-xl font-semibold">{card.title}</span>
+            <span class="text-muted-foreground text-[0.95rem] leading-relaxed">{card.text}</span>
+            <span class="text-primary mt-auto flex items-center gap-1.5 pt-1 text-sm font-semibold" aria-hidden="true">
+              Start here
+              <span class="transition-transform duration-200 group-hover:translate-x-1 motion-reduce:transition-none"><Icon name="arrow-right" size={16} /></span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>

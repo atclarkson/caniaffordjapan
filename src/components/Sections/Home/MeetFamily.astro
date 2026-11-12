@@ -1,0 +1,59 @@
+---
+// src/components/Sections/Home/MeetFamily.astro - who runs the site: one candid family photo, the real bio, About and the real profiles.
+//
+// Replaced the thin author strip (WritersStrip) on 2026-11-12. The text is
+// the author file's own bio (src/data/authors/en/the-clarksons.json), the
+// links are its own profiles; nothing here is written fresh.
+import familyPhoto from "../../../assets/home/family-kakigori.jpg";
+import { Icon } from "@components/svg/icons";
+import { Button } from "@components/ui/button";
+import { getSiteRoutes } from "@config/navData.json.ts";
+import author from "@data/authors/en/the-clarksons.json";
+import { getLocale } from "@i18n";
+import { Image } from "astro:assets";
+
+const routes = getSiteRoutes(getLocale(Astro));
+---
+
+<section class="container-page py-16 md:py-24" aria-labelledby="family-title" data-slot="meet-family">
+  <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+    <figure class="mx-auto w-full max-w-[36rem] rotate-[1.5deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+      <Image
+        src={familyPhoto}
+        alt="The five of us around a red table at Ogimachi Park in Osaka, kakigori and drinks in front of us, everyone laughing."
+        widths={[480, 800, 1000]}
+        sizes="(min-width: 1024px) 36rem, 92vw"
+        class="aspect-[4/3] w-full rounded-[3px] object-cover"
+        loading="lazy"
+        decoding="async"
+      />
+    </figure>
+    <div class="flex flex-col items-start gap-5">
+      <h2 id="family-title" class="font-display text-display-sm md:text-display-md text-foreground">Meet the family</h2>
+      <p class="text-muted-foreground text-lg leading-relaxed">{author.bio}</p>
+      <div class="flex flex-wrap items-center gap-3">
+        <Button href={routes.about} variant="primary" size="lg">
+          Read our story
+          <Icon name="arrow-right" size={18} />
+        </Button>
+      </div>
+      <ul class="flex flex-wrap gap-2.5">
+        {
+          author.links.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer me"
+                class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-10 items-center gap-1.5 border px-3.5 text-sm font-medium transition-colors duration-150"
+              >
+                {link.label}
+                <Icon name="arrow-up-right" size={14} />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</section>

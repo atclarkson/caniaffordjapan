@@ -1,0 +1,47 @@
+---
+// src/components/Sections/Home/BrowseTopics.astro - every topic as a compact chip with its post count.
+//
+// Replaced the 20-card "What we keep coming back to" grid on 2026-11-12:
+// twenty equal cards made everything look equally important. The full,
+// photo-led index stays at /topics/.
+import { Icon } from "@components/svg/icons";
+import { getSiteRoutes } from "@config/navData.json.ts";
+import { getLocale } from "@i18n";
+import { entrySlug } from "@i18n/content";
+import type { CollectionEntry } from "astro:content";
+
+type Props = { topics: CollectionEntry<"topics">[]; counts: Record<string, number> };
+const { topics, counts } = Astro.props;
+const routes = getSiteRoutes(getLocale(Astro));
+
+const items = topics
+  .map((topic) => ({ topic, slug: entrySlug(topic.id), n: counts[entrySlug(topic.id)] ?? 0 }))
+  .filter((item) => item.n > 0)
+  .sort((a, b) => b.n - a.n || a.topic.data.name.localeCompare(b.topic.data.name));
+---
+
+<section class="bg-surface border-border border-y" aria-labelledby="topics-title" data-slot="browse-topics">
+  <div class="container-page py-14 md:py-16">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <h2 id="topics-title" class="font-display text-display-sm text-foreground">Browse all topics</h2>
+      <a href={routes.topics} class="text-primary inline-flex min-h-11 items-center gap-1.5 font-semibold underline-offset-4 hover:underline">
+        See every topic <Icon name="arrow-right" size={16} />
+      </a>
+    </div>
+    <ul class="mt-6 flex flex-wrap gap-2.5">
+      {
+        items.map(({ topic, slug, n }) => (
+          <li>
+            <a
+              href={`${routes.topics}${slug}/`}
+              class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-10 items-center gap-2 border px-4 text-sm font-medium transition-colors duration-150"
+            >
+              {topic.data.name}
+              <span class="text-muted-foreground tabular-nums">{n}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
