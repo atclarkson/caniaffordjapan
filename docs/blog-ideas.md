@@ -106,42 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Food Friday, 2026-11-06: ekiben on the Shinkansen, a real moving-
-  day lunch.** Checked the "already posted today" guard first (no post
-  with today's date existed). Swept AL_Vault's video pool by text
-  search (continuing yesterday's discovery that it's under-checked)
-  for food-related unused material: "Kurumaya Ramen" in Urayasu and
-  "Robot restaurant" both surfaced as real but weaker candidates
-  (Kurumaya has a real address and a clear angle, kept as a future
-  idea; the robot-restaurant short has no location metadata and only
-  a vague caption, too thin to anchor a confident post), picked
-  Ekiben on the Shinkansen instead, the strongest of the three:
-  specific real food choices per family member (fried chicken, split
-  dumplings, two Dr. Yellow themed boxes), tied to a real, dated event
-  (moving day, Tokyo to Osaka, 2023-05-23, confirmed via `get_trip`
-  against the longer "We Took Japan's Fastest Train" vlog's own
-  "Getting Ekiben" chapter from the same day). Confirmed via `grep`
-  that the existing `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`
-  post (a different, earlier November 2022 ride) and
-  `booking-shinkansen-tickets-japan-cheapest-way` don't cover ekiben,
-  a genuine gap, cross-linked both. Researched real current ekiben
-  pricing (roughly 700-1,800 yen at Tokyo Station, most everyday
-  options closer to 1,000-1,200) and real Dr. Yellow background (a
-  genuine inspection Shinkansen, rare and considered lucky to spot)
-  via WebSearch, explicitly hedged that the exact 2023 Dr. Yellow box
-  design/collab isn't confirmed to match whatever Tokyo Station sells
-  now, collabs rotate. No AL_Vault photos exist for this event (same
-  pattern as yesterday), used the short Ekiben video's own real
-  YouTube thumbnail as cover and embedded the video in-body. Rolled
-  length tier 1 (quick hit, 450-600 words) and format 11 (time/day
-  anchored, open with the specific day rather than a generic intro)
-  from CLAUDE.md's system; format 11 fit naturally given the real
-  "moving day" framing, no reroll needed. Landed at 571 words, within
-  tier. Published 2026-11-06 as
-  `ekiben-shinkansen-tokyo-osaka-moving-day`, 571 words. Topic
-  `en/budget-food`. Zero uses of "actually" or "genuinely" in the
-  published body (2 "actually" caught and cut across drafts). No
-  `mark_photo_used` call, video only, same as yesterday.
 - **Day Trip Saturday, 2026-11-07: Kamakura, researched (no real
   family visit).** Session started in a fresh container (no prior
   clone present), re-ran `add_repo`/clone/`register_repo_root`/
@@ -366,3 +330,52 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   `docs/klook-priority-activities.md` rather than duplicated here.
   Slug: `teamlab-future-park-okinawa-direct-vs-klook`. Length tier 4
   (1,070 words), format 6 (head-to-head). Topic `en/teamlab`.
+- **Throwback Thursday, 2026-11-12: a real March 2023 Tokyo Skytree
+  visit, both decks, found via the Tokyo video pool.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). `get_destinations` showed the same 32 destinations as
+  every recent check, no new uploads, so swept the 41-item Tokyo
+  video pool rather than defaulting to research (Thursday always
+  needs a real visit). Most titles traced to already-published posts
+  via `grep`, but "We Went to the Top of Tokyo… Was It Worth It?"
+  (youtube_id `Lt3QdpqE1Wc`, filmed March 2023) matched no existing
+  post: confirmed via `get_trip` and a direct read of
+  `tokyo-skytree-tembo-deck-ticket-price-cost.mdx` that the existing
+  Skytree post is a researched 2026-dynamic-pricing/history piece,
+  not built from this real visit, so no duplicate. `get_trip` for the
+  surrounding window also surfaced the real "Family Reunion" video
+  (Adam's parents, Kim and Terry, Nov 2023, a different and unrelated
+  stretch of the trip, already covered in two other posts) and two
+  other unused-but-thin candidates (`127 | CHEAP FAMILY DAY OUT`, the
+  real Ueno Zoo visit referenced in `ueno-zoo-shinobazu-pond-boats-
+  tokyo-cost.mdx` via a different photo source already, so not a
+  fresh angle); picked the Skytree one as the clearest genuinely
+  unused real visit. Noticed a possible factual inconsistency in an
+  already-published post while cross-checking (`thanksgiving-dinner-
+  tokyo-apartment-turkey-chicken-cost.mdx` says "Lindsay's parents,"
+  but this video's own `notes_for_ai` and two other published posts
+  say Adam's parents, Kim and Terry, for the same November 2023
+  visit); flagging here for a future audit pass rather than editing
+  an old post speculatively without stronger evidence. No AL_Vault
+  photos exist for this specific day (`get_trip` returned 0 photos,
+  7 videos, for the window), so used the real YouTube thumbnail as
+  cover and embedded the video in-body, same pattern as the Zauo and
+  ekiben posts. No affiliate link forced (Thursday doesn't require
+  one); found a real, unused Viator affiliate link for this exact
+  activity in the video's own description
+  (`https://www.viator.com/tours/Tokyo/Tokyo-Skytree-Admission-Ticket/d334-293458P3?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-126-skytree`)
+  but didn't use it here since the existing pricing post already
+  carries a full Klook booking box for the same ticket, a competing
+  box for the same attraction would confuse readers; cross-linked to
+  that post for booking and current pricing instead. Rolled length
+  tier 4 (1,000-1,300 words) and format 3 (question title, build to a
+  verdict); format 3 fit naturally since the real video's own title
+  already asks the question. Landed at 1,065 words after genuinely
+  adding real content, not padding (a verified transit-access fact,
+  real Skytree Cafe menu detail, current pricing cross-reference) to
+  reach the floor honestly rather than stretching thin material.
+  Zero uses of "actually" or "genuinely" in the published body (3
+  "actually" and 2 "genuinely" caught and cut across drafts). No
+  `mark_photo_used` call, YouTube thumbnail, not AL_Vault. Slug:
+  `tokyo-skytree-real-visit-both-decks-worth-it`. Topic
+  `en/towers-observation-decks`.

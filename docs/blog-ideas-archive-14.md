@@ -72,3 +72,39 @@ more recent entries. When this file nears 400 lines too, start
   as used (checked), video only. Moved the Round1 Narashino Throwback
   Thursday "Done" entry out to `docs/blog-ideas-archive-13.md` to stay
   under the house-lint 400-line cap.
+- **Food Friday, 2026-11-06: ekiben on the Shinkansen, a real moving-
+  day lunch.** Checked the "already posted today" guard first (no post
+  with today's date existed). Swept AL_Vault's video pool by text
+  search (continuing yesterday's discovery that it's under-checked)
+  for food-related unused material: "Kurumaya Ramen" in Urayasu and
+  "Robot restaurant" both surfaced as real but weaker candidates
+  (Kurumaya has a real address and a clear angle, kept as a future
+  idea; the robot-restaurant short has no location metadata and only
+  a vague caption, too thin to anchor a confident post), picked
+  Ekiben on the Shinkansen instead, the strongest of the three:
+  specific real food choices per family member (fried chicken, split
+  dumplings, two Dr. Yellow themed boxes), tied to a real, dated event
+  (moving day, Tokyo to Osaka, 2023-05-23, confirmed via `get_trip`
+  against the longer "We Took Japan's Fastest Train" vlog's own
+  "Getting Ekiben" chapter from the same day). Confirmed via `grep`
+  that the existing `first-shinkansen-ride-tokyo-osaka-mt-fuji-history`
+  post (a different, earlier November 2022 ride) and
+  `booking-shinkansen-tickets-japan-cheapest-way` don't cover ekiben,
+  a genuine gap, cross-linked both. Researched real current ekiben
+  pricing (roughly 700-1,800 yen at Tokyo Station, most everyday
+  options closer to 1,000-1,200) and real Dr. Yellow background (a
+  genuine inspection Shinkansen, rare and considered lucky to spot)
+  via WebSearch, explicitly hedged that the exact 2023 Dr. Yellow box
+  design/collab isn't confirmed to match whatever Tokyo Station sells
+  now, collabs rotate. No AL_Vault photos exist for this event (same
+  pattern as yesterday), used the short Ekiben video's own real
+  YouTube thumbnail as cover and embedded the video in-body. Rolled
+  length tier 1 (quick hit, 450-600 words) and format 11 (time/day
+  anchored, open with the specific day rather than a generic intro)
+  from CLAUDE.md's system; format 11 fit naturally given the real
+  "moving day" framing, no reroll needed. Landed at 571 words, within
+  tier. Published 2026-11-06 as
+  `ekiben-shinkansen-tokyo-osaka-moving-day`, 571 words. Topic
+  `en/budget-food`. Zero uses of "actually" or "genuinely" in the
+  published body (2 "actually" caught and cut across drafts). No
+  `mark_photo_used` call, video only, same as yesterday.
