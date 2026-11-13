@@ -106,56 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Day Trip Saturday, 2026-11-07: Kamakura, researched (no real
-  family visit).** Session started in a fresh container (no prior
-  clone present), re-ran `add_repo`/clone/`register_repo_root`/
-  `pnpm install` before anything else. Checked the "already posted
-  today" guard first (no post with today's date existed). Checked
-  AL_Vault for real day-trip material first: all three pre-flagged
-  real-link destinations in `docs/affiliates-reference.md` (Kobe,
-  Yokohama, Sanrio Puroland) confirmed via `grep` as already fully
-  covered by existing posts (`kobe-beef-day-trip-steak-not-worth-hype`,
-  three separate Yokohama posts, `sanrio-puroland-ticket-price-worth-it`),
-  no new AL_Vault uploads since the last check (same 32 destinations).
-  Picked Kamakura, a well-known real day trip with no dedicated post
-  yet (confirmed via `grep` for Nikko/Kamakura/Himeji/Enoshima/Nagoya/
-  Takayama/Miyajima, all genuinely uncovered, Kamakura chosen for the
-  strongest real research base). Could not find a real Viator-specific
-  Kamakura destination ID (WebFetch to viator.com blocked, 403, same
-  pattern as prior Klook/Viator attempts; search results only surfaced
-  livejapan.com mirrors of Viator tours, not viator.com itself), didn't
-  fabricate a destination ID the way `docs/affiliates-reference.md`'s
-  Kobe/Yokohama examples require a real one; found a real Expedia
-  "things to do" activity page instead (a2456078, a $177 half-day
-  walking tour with Kotoku-in) and used `expediaRedirect()` on it,
-  consistent with the Mt Fuji/Hakone post's precedent for this
-  provider. Researched extensively via WebSearch, hedging explicitly
-  wherever sources disagreed (JR fare 920-1,040 yen depending on
-  source, Tsurugaoka Hachimangu's treasure-hall fee), and confirmed
-  Kotoku-in's own official site (kotoku-in.jp) directly via WebFetch
-  for authoritative hours/admission rather than relying on third-party
-  guides for the single most important real number on the page. Real
-  cross-links to both existing Hakone posts for an honest cost
-  comparison (Kamakura's ~4,000-6,000 yen DIY total vs. Hakone Free
-  Pass's confirmed 7,100-7,500 yen), both resolving in the built HTML.
-  Cover: no AL_Vault photo (family has never been), found a real,
-  recent (2019), well-licensed Wikimedia Commons photo of the actual
-  Great Buddha (DXR, CC BY-SA 4.0). Rolled length tier 6 (extended
-  feature, 1,600-2,000 words) and format 14 (direct address) from
-  CLAUDE.md's system; format 14 fit naturally. Tier 6 is a stretch for
-  a single honestly-researched day trip, so genuinely earned the
-  length with six real added sections (a brief real Kamakura-shogunate
-  history, official hours/admission, a free Yuigahama Beach add-on,
-  real tram-to-temple walking logistics, a cross-link cost comparison
-  to the site's two existing Hakone posts, and a real bus-tour
-  middle-ground price point) rather than padding with filler. Landed
-  at 1,590 words, just under the rolled tier-6 floor, said so here
-  rather than inventing more detail to close the last 10 words.
-  Published 2026-11-07 as `kamakura-day-trip-great-buddha-cost`, 1,590
-  words. Topic `en/day-trips`. Zero uses of "actually" or "genuinely"
-  in the published body (2 "actually" and 1 "genuinely" caught and cut
-  across drafts). No `mark_photo_used` call, Commons photo, not
-  AL_Vault.
 - **Gear Up Sunday, 2026-11-08: the GB Pockit stroller, a real product
   from the family's own video descriptions.** Checked the "already
   posted today" guard first (no post with today's date existed).
@@ -379,3 +329,42 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   `mark_photo_used` call, YouTube thumbnail, not AL_Vault. Slug:
   `tokyo-skytree-real-visit-both-decks-worth-it`. Topic
   `en/towers-observation-decks`.
+- **Food Friday, 2026-11-13: Kurumaya Ramen, Urayasu, a real find from
+  2026-11-06's flagged lead.** Checked the "already posted today"
+  guard first (no post with today's date existed). Pulled the
+  Kurumaya Ramen lead flagged two firings ago as "kept as a future
+  idea" rather than starting a fresh sweep; confirmed via `grep` it
+  was still unused. The short video has no `city`/`country` tag and
+  no `date_filmed` in AL_Vault (unlike most videos), published
+  2023-09-02; checked for a corroborating DisneySea video in the same
+  window to pin down an exact visit date, found none (the Nov 2022
+  DisneySea vlog and the Sept 2025 Urayasu/Disney photo set are both
+  too far off to be the same trip), so the post doesn't claim a
+  specific date beyond "posted September 2023," honest about the gap
+  rather than guessing. Real address (3 Chome-5-45 Fujimi, Urayasu)
+  confirmed via Tabelog's current Urayasu-branch listing: chilled soy
+  sauce noodles 1,000 yen, gyoza 290 yen (157 yen at lunch with a
+  ramen order), draft beer 680 yen, free half-bowl of rice, open
+  11am-1am, closed Tuesdays. Rolled format 2 (free-vs-paid split)
+  first, didn't fit at all (nothing at a restaurant is "free"),
+  rerolled once per CLAUDE.md's own allowance, landed on format 6
+  (head-to-head), which fit well: real Tokyo Disney Resort
+  counter-service pricing (Casbah Food Court curry 950-1,200 yen,
+  China Voyager's own ramen, typical counter meals 900-1,800 yen,
+  table service 2,500-9,000 yen) researched via WebSearch for an
+  honest comparison. The real finding undercut the obvious "cheaper
+  outside the park" narrative, the two options land in roughly the
+  same yen range, so the post's verdict is about logistics (a
+  kitchen open past midnight) rather than forcing a price gap that
+  isn't really there. One real, unused AL_Vault photo used in body
+  (a different, later Urayasu/Disney stay, explicitly labeled as
+  separate from the Kurumaya visit to avoid conflating two trips),
+  `mark_photo_used` called. Cover: the short's own YouTube thumbnail.
+  Rolled length tier 3 (800-1,000 words); landed at 799 after two
+  genuine real-content additions (other Kurumaya branches' pricing
+  for context, a real family-of-five math line using only confirmed
+  menu numbers, explicitly declining to invent kids' pricing since
+  none is published). Zero uses of "actually" or "genuinely" in the
+  published body (2 "actually" and 1 "genuinely" caught and cut
+  across drafts). Slug: `kurumaya-ramen-urayasu-vs-disney-counter-
+  meal`. Topic `en/budget-food`.

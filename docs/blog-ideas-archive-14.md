@@ -108,3 +108,53 @@ more recent entries. When this file nears 400 lines too, start
   `en/budget-food`. Zero uses of "actually" or "genuinely" in the
   published body (2 "actually" caught and cut across drafts). No
   `mark_photo_used` call, video only, same as yesterday.
+- **Day Trip Saturday, 2026-11-07: Kamakura, researched (no real
+  family visit).** Session started in a fresh container (no prior
+  clone present), re-ran `add_repo`/clone/`register_repo_root`/
+  `pnpm install` before anything else. Checked the "already posted
+  today" guard first (no post with today's date existed). Checked
+  AL_Vault for real day-trip material first: all three pre-flagged
+  real-link destinations in `docs/affiliates-reference.md` (Kobe,
+  Yokohama, Sanrio Puroland) confirmed via `grep` as already fully
+  covered by existing posts (`kobe-beef-day-trip-steak-not-worth-hype`,
+  three separate Yokohama posts, `sanrio-puroland-ticket-price-worth-it`),
+  no new AL_Vault uploads since the last check (same 32 destinations).
+  Picked Kamakura, a well-known real day trip with no dedicated post
+  yet (confirmed via `grep` for Nikko/Kamakura/Himeji/Enoshima/Nagoya/
+  Takayama/Miyajima, all genuinely uncovered, Kamakura chosen for the
+  strongest real research base). Could not find a real Viator-specific
+  Kamakura destination ID (WebFetch to viator.com blocked, 403, same
+  pattern as prior Klook/Viator attempts; search results only surfaced
+  livejapan.com mirrors of Viator tours, not viator.com itself), didn't
+  fabricate a destination ID the way `docs/affiliates-reference.md`'s
+  Kobe/Yokohama examples require a real one; found a real Expedia
+  "things to do" activity page instead (a2456078, a $177 half-day
+  walking tour with Kotoku-in) and used `expediaRedirect()` on it,
+  consistent with the Mt Fuji/Hakone post's precedent for this
+  provider. Researched extensively via WebSearch, hedging explicitly
+  wherever sources disagreed (JR fare 920-1,040 yen depending on
+  source, Tsurugaoka Hachimangu's treasure-hall fee), and confirmed
+  Kotoku-in's own official site (kotoku-in.jp) directly via WebFetch
+  for authoritative hours/admission rather than relying on third-party
+  guides for the single most important real number on the page. Real
+  cross-links to both existing Hakone posts for an honest cost
+  comparison (Kamakura's ~4,000-6,000 yen DIY total vs. Hakone Free
+  Pass's confirmed 7,100-7,500 yen), both resolving in the built HTML.
+  Cover: no AL_Vault photo (family has never been), found a real,
+  recent (2019), well-licensed Wikimedia Commons photo of the actual
+  Great Buddha (DXR, CC BY-SA 4.0). Rolled length tier 6 (extended
+  feature, 1,600-2,000 words) and format 14 (direct address) from
+  CLAUDE.md's system; format 14 fit naturally. Tier 6 is a stretch for
+  a single honestly-researched day trip, so genuinely earned the
+  length with six real added sections (a brief real Kamakura-shogunate
+  history, official hours/admission, a free Yuigahama Beach add-on,
+  real tram-to-temple walking logistics, a cross-link cost comparison
+  to the site's two existing Hakone posts, and a real bus-tour
+  middle-ground price point) rather than padding with filler. Landed
+  at 1,590 words, just under the rolled tier-6 floor, said so here
+  rather than inventing more detail to close the last 10 words.
+  Published 2026-11-07 as `kamakura-day-trip-great-buddha-cost`, 1,590
+  words. Topic `en/day-trips`. Zero uses of "actually" or "genuinely"
+  in the published body (2 "actually" and 1 "genuinely" caught and cut
+  across drafts). No `mark_photo_used` call, Commons photo, not
+  AL_Vault.
