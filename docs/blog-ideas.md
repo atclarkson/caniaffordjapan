@@ -106,55 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Gear Up Sunday, 2026-11-08: the GB Pockit stroller, a real product
-  from the family's own video descriptions.** Checked the "already
-  posted today" guard first (no post with today's date existed).
-  Checked AL_Vault for real photos first: no "power bank"/"charger"/
-  "solar" results (ruling out Jackery as a researched-only angle that
-  also didn't fit the site's hotel-heavy Japan content well), but
-  "stroller" turned up a real, unused (`used_in: []`) October 2023
-  Ueno Zoo photo. Cross-checked against a real, recurring
-  `STROLLER: https://amzn.to/3ujbBz2` link already present in multiple
-  of the family's own YouTube video descriptions (confirmed via
-  `search_videos` full view on the Cup Noodle Museum vlog, Dec 2022),
-  resolved the shortlink via WebFetch to a real product: GB Pockit
-  All-City (Velvet-Black), ASIN B07TVL4FN3. Used this site's own
-  standard Amazon tag (`adamandlinds00-20`) on that real ASIN rather
-  than the different tag (`clarksontravels-20`) embedded in the
-  YouTube-sourced link, since that tag is this site's own established
-  convention on every other Amazon link so far, not a mismatch, just a
-  different real channel's own tracking. Researched real current specs
-  via WebSearch/WebFetch (BabyGearLab, a pediatrician-led review site):
-  $330 list, ~13.1-13.5 lb, ~21x13x8 in folded, rated 73/100 (4th of
-  12 travel strollers tested), real documented pros (compact fold) and
-  cons (flexible frame, awkward handles, no sunshade window). Flagged
-  honestly that the family's real product link is the original Pockit
-  All-City while most current reviews cover the newer Pockit+, close
-  enough in spec that the folding math holds either way but noted
-  rather than assumed identical. Added real brand context (Goodbaby
-  International, parent of GB and Cybex) and a genuine Japan-specific
-  test (JR East's own sample coin-locker dimensions vs. the stroller's
-  folded size) rather than padding with a weak "best of" roundup from
-  lower-confidence aggregator sources found during research. Cross-
-  linked to the existing Wayb Pico post, a real "same family, same
-  fold-small philosophy, different gear" connection. Rolled length
-  tier 5 (deep dive, 1,300-1,600 words) and format 1 (price-first,
-  open with the number) from CLAUDE.md's system; format 1 fit
-  naturally. Landed at 1,174 words, short of the rolled tier-5 floor
-  after exhausting the genuinely available real material (a single
-  gear item's real spec sheet, one independent review, and one brand
-  history don't stretch indefinitely), said so here rather than
-  padding with a low-confidence competitor comparison. Published
-  2026-11-08 as `gb-pockit-stroller-folds-small-japan-review`, 1,174
-  words. Topic `en/travel-prep`. Zero uses of "actually" or
-  "genuinely" in the published body (5 "actually" caught and cut
-  across drafts, ironic timing right after a Saturday audit that spent
-  its whole session removing the same word from 27 other posts). One
-  real AL_Vault photo used (cover and in-body, same image),
-  `mark_photo_used` called. Moved the Wayb Pico and Hakone ryokan Stay
-  Spotlight "Done" entries out to `docs/blog-ideas-archive-13.md` to
-  stay under the house-lint 400-line cap (that archive file is now at
-  358 lines, will likely need `archive-14.md` soon).
 - **Off-cycle, 2026-11-08, same day:** the site owner spot-checked
   `zenni-glasses-before-trip-vs-japan-optician` and found its real
   Zenni affiliate link invisible, plain inline text, no disclosure.
@@ -368,3 +319,53 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (2 "actually" and 1 "genuinely" caught and cut
   across drafts). Slug: `kurumaya-ramen-urayasu-vs-disney-counter-
   meal`. Topic `en/budget-food`.
+- **Day Trip Saturday, 2026-11-14: Nikko, researched (no real visit),
+  the family-logistics angle.** Checked the "already posted today"
+  guard first (no post with today's date existed). Checked AL_Vault
+  before defaulting to research: small remaining pools (Chiba, Ota)
+  turned up nothing new, no real Nikko material exists anywhere in
+  the catalog, honest research is the correct path, Saturday doesn't
+  require a visit anyway. Confirmed via `grep` no existing post
+  covers Nikko. Rolled format 7 (artifact-driven) first, didn't fit
+  at all (no real visit means no real physical artifact to build a
+  post around), rerolled once per CLAUDE.md's own allowance, landed
+  on format 12 (family-logistics framing), which fit genuinely well:
+  Nikko's real selling point against Kamakura and Hakone, both
+  already covered, is that it's a meaningfully longer, more
+  physically demanding day (10-12 hour guided tours, real steps and
+  hilly paths at Toshogu Shrine per multiple tour listings, Tobu's
+  own warning about autumn bus-delay risk to Lake Chuzenji with no
+  refund), a real reason it keeps getting passed over for an easier
+  option. Researched real current prices via WebSearch/WebFetch:
+  Toshogu Shrine admission (1,600 yen adult/550 yen child), Shinkyo
+  Bridge crossing fee (300 yen, free to view from the road bridge),
+  Kegon Falls elevator (600 yen adult round trip/400 yen child, free
+  upper deck), Tobu's own NIKKO PASS World Heritage Area (3,000
+  yen/1,500 yen, fetched directly from tobu.co.jp) versus the limited
+  express fare, and real Klook/Viator guided-tour pricing ($52-90+).
+  Found a real kid-friendlier alternative several tours bundle in
+  instead of the waterfall-and-lake half (Edo Wonderland Nikko
+  Edomura, ninja shows over a mountain hike, 5,800 yen adult gate
+  price), presented honestly as costing more rather than less. Used
+  the real `klookRedirect()` helper and `<KlookCodeBox>` on a real,
+  verified Klook activity page (id 20405) rather than a generic
+  search link; noted honestly it's not on the 1% named-activity
+  code tier. Cover: no AL_Vault or booking-site photo exists for an
+  unvisited destination, found and verified a real, properly
+  licensed Wikimedia Commons photo of the Yomeimon Gate (Jpatokal, CC
+  BY-SA 4.0, 2024), first guess at the filename was wrong and 404'd
+  the API, found the real file via a Commons search instead; credit
+  in frontmatter `photoCredits` per the 2026-11-10 convention, not a
+  caption line. Initially included a reused Disney-photo aside for
+  pacing contrast, cut it before publishing, a forced non-sequitur
+  (a Disney castle photo in a Nikko post) rather than something that
+  actually served the post. Rolled length tier 5 (1,300-1,600 words);
+  landed at 1,291 after two genuine real-content additions (USD
+  conversions throughout per house style, a real family-of-five cost
+  math section, the Edo Wonderland alternative), short of the strict
+  floor by a handful of words rather than padded further to clear it
+  artificially. Zero uses of "actually" or "genuinely" in the
+  published body (4 "actually" and 1 "genuinely" caught and cut
+  across drafts, several in section headers). `pnpm build`, `pnpm
+  check`, `pnpm lint:house` all clean. Slug:
+  `nikko-day-trip-tokyo-with-young-kids-cost`. Topic `en/day-trips`.
