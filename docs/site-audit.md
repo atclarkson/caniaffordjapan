@@ -276,4 +276,18 @@ placeholder.
   `BaseHead.astro` run on every page and there is no list); the new copy
   names both networks and carries the Amazon Associates line. `/privacy/`
   and `/terms/` redirect (`public/_redirects` plus Astro `redirects`).
+- **Third firing, 2026-11-14:** Finished the body-prose "actually"/
+  "genuinely" crutch-word cleanup flagged as the prior firing's top
+  priority (38 posts). All 38 fixed this time, zero remaining anywhere
+  in `src/data/posts/en/*.mdx` (full-corpus grep confirmed after
+  editing, not just the flagged list). Each fix removed the word or
+  swapped in a plain alternative ("really," "real," or just dropping
+  it) without changing any fact, price, or claim; `actual`/`genuine`
+  (the adjectives, not the flagged words) were left alone throughout.
+  Also spot-checked `src/data/homePage.ts` (added 2026-11-12) against
+  its four source posts: `WHAT_WE_SPENT`'s 8 line items and total match
+  the Ueno/Ameyoko post's own table, the Skytree verdict line restates
+  that post's real conclusion, and the $401.34 figure matches the
+  $300-budget post exactly. No changes needed there. `pnpm build`,
+  `pnpm check`, and `node scripts/house.mjs` all clean.
   If a script, form or newsletter is ever added, update that page.
