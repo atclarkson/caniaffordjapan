@@ -1,10 +1,10 @@
 ---
 // src/components/Sections/Home/Destinations.astro - four cities as big photo cards, linking to their topic pages.
 //
-// All four are the family's own: Tokyo and Osaka from AL_Vault photos, Kyoto
-// the Nintendo Museum post's cover, and Hiroshima a still from the family's
-// own Hiroshima video (AL_Vault holds their Hiroshima trip as video only,
-// "80 Years After the Bomb", filmed November 26, 2022).
+// Tokyo and Osaka are AL_Vault family photos, Kyoto the Nintendo Museum
+// post's cover. Hiroshima is an Unsplash photo of the A-Bomb Dome supplied
+// by the owner (Unsplash licence: free to use, no attribution required);
+// AL_Vault holds the family's Hiroshima trip as video only.
 import tokyo from "../../../assets/home/tokyo-skytree.jpg";
 import osaka from "../../../assets/home/osaka-tsutenkaku.jpg";
 import kyoto from "../../../assets/covers/nintendo-museum-uji-ticket-price-lottery.jpg";
@@ -21,7 +21,7 @@ const cities = [
   { slug: "tokyo", name: "Tokyo", src: tokyo, focus: "object-[50%_35%]", alt: "The family selfie under Tokyo Skytree with cherry blossoms behind." },
   { slug: "osaka", name: "Osaka", src: osaka, focus: "object-[50%_40%]", alt: "Adam, Lily and Cora in front of Tsutenkaku tower in Shinsekai, Osaka." },
   { slug: "kyoto", name: "Kyoto", src: kyoto, focus: "object-[50%_40%]", alt: "The family holding entry cards at the Nintendo Museum in Uji, Kyoto." },
-  { slug: "hiroshima", name: "Hiroshima", src: hiroshima, focus: "object-[30%_50%]", alt: "Adam in front of the A-Bomb Dome in Hiroshima Peace Memorial Park on a clear November day." },
+  { slug: "hiroshima", name: "Hiroshima", src: hiroshima, focus: "object-[50%_50%]", alt: "The A-Bomb Dome in Hiroshima Peace Memorial Park in late afternoon light." },
 ];
 ---
 
