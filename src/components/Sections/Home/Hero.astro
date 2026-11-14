@@ -6,9 +6,9 @@
 // first screen has to do, from the research behind this version: say what
 // the site is and who it's for in about five seconds, in a plain headline
 // of under ten words, with one supporting line that carries a hard fact,
-// and one obvious next step. On a site with 150+ posts that step is search
-// (the pattern Klook and Airbnb lead with), backed by links into the
-// biggest topics for people who'd rather browse.
+// and one obvious next step: search (the pattern Klook and Airbnb lead
+// with). Topic links were removed 2026-11-14 to keep the hero uncluttered;
+// topics stay one click away in the nav and footer.
 //
 // No eyebrow, no decorative underline, no question as a headline, no stats
 // strip: those are template tells.
@@ -27,31 +27,19 @@ import disney from "../../../assets/hero/disney.jpg";
 import { Icon } from "@components/svg/icons";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import { fmt, getLocale, useTranslations } from "@i18n";
-import { entrySlug } from "@i18n/content";
-import type { CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
 
 interface Props {
-  /** Number of published posts, for the sub-line and the search placeholder. */
+  /** Number of published posts, for the sub-line and the search label. */
   postCount: number;
-  topics: CollectionEntry<"topics">[];
-  /** Published posts per topic slug. */
-  counts: Record<string, number>;
 }
 
-const { postCount, topics, counts } = Astro.props;
+const { postCount } = Astro.props;
 
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
 const routes = getSiteRoutes(locale);
 
-// The five topics with the most posts, biggest first (labelled "Top topics",
-// not "Popular": this is post count, not traffic).
-const popular = topics
-  .map((topic) => ({ topic, slug: entrySlug(topic.id), n: counts[entrySlug(topic.id)] ?? 0 }))
-  .filter((item) => item.n > 0)
-  .sort((a, b) => b.n - a.n || a.topic.data.name.localeCompare(b.topic.data.name))
-  .slice(0, 5);
 
 // The five snapshots, back to front. `place` positions each inside the
 // collage box (percentages, so it scales at every width); `focus` keeps the
@@ -135,33 +123,6 @@ const snaps = [
         </div>
       </form>
 
-      {
-        popular.length > 0 && (
-          <nav aria-label={t.home.heroPopularLabel} class="mt-6 max-w-[36rem]">
-            <ul class="flex flex-wrap items-center gap-2.5">
-              {popular.map(({ topic, slug }) => (
-                <li>
-                  <a
-                    href={`${routes.topics}${slug}/`}
-                    class="rounded-pill border-border text-foreground hover:border-foreground/40 hover:bg-muted inline-flex min-h-10 items-center border px-4 text-sm font-medium transition-colors duration-150"
-                  >
-                    {topic.data.name}
-                  </a>
-                </li>
-              ))}
-              <li>
-                <a
-                  href={routes.posts}
-                  class="text-primary inline-flex min-h-10 items-center gap-1 px-2 text-sm font-semibold underline-offset-4 hover:underline"
-                >
-                  {t.home.heroAllPosts}
-                  <Icon name="arrow-right" size={16} />
-                </a>
-              </li>
-            </ul>
-          </nav>
-        )
-      }
     </div>
 
     {/* The collage. A fixed-ratio box so the stack keeps its shape at every

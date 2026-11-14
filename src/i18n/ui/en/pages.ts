@@ -32,7 +32,7 @@ export const enPages = {
     latestTitle: "Latest from our trips",
     latestAccent: "",
     latestLede: "",
-    latestCta: "See all posts",
+    latestCta: "View all {n} posts",
     topicsTitle: "What we keep coming back to",
     topicsAccent: "coming back",
     topicsLede: "Tokyo, budget food, free attractions, transit, and day trips.",

@@ -42,7 +42,7 @@ const featured =
   rotationForMonth()
     .map((slug) => posts.find((entry) => entry.slug === slug))
     .find((entry) => entry !== undefined) ?? posts.at(0);
-const latest = posts.filter((entry) => entry !== featured).slice(0, 6);
+const latest = posts.filter((entry) => entry !== featured).slice(0, 3);
 
 const topics = await getSortedTopics(locale);
 
@@ -79,17 +79,17 @@ const schemas = [
   <Navbar />
 
   <main id="content">
-    <Hero postCount={posts.length} {topics} counts={topicCounts} />
+    <Hero postCount={posts.length} />
     {/* Rebuilt 2026-11-12 from the owner's brief: planning first, archive
         second. Order: before you book, start planning, what we spent,
-        destinations, worth the money, latest posts, the family, all
-        topics, partners. */}
+        destinations, worth the money, latest posts (three, one row), the
+        family, all topics, partners. */}
     {featured && <BeforeYouBook entry={featured} />}
     <StartPlanning />
     <WhatWeSpent />
     <Destinations counts={topicCounts} />
     <WorthTheMoney {posts} />
-    {latest.length > 0 && <LatestPosts posts={latest} />}
+    {latest.length > 0 && <LatestPosts posts={latest} total={posts.length} />}
     <MeetFamily />
     <BrowseTopics {topics} counts={topicCounts} />
     <Partners />

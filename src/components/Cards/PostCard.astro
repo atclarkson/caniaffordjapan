@@ -16,7 +16,6 @@ import { getSiteRoutes } from "@config/navData.json.ts";
 import { fmt, formatDate, useTranslations, type Locale } from "@i18n";
 import type { ResolvedPost } from "@js/posts";
 import { Image } from "astro:assets";
-import { topicTone } from "./topicTone";
 
 type Props = {
   entry: ResolvedPost;
@@ -27,13 +26,11 @@ type Props = {
 };
 
 const { entry, locale, as: Tag = "h3", class: className }: Props = Astro.props;
-const { post, topic, slug, topicSlug, minutes } = entry;
+const { post, slug, minutes } = entry;
 
 const t = useTranslations(locale);
 const routes = getSiteRoutes(locale);
 const href = `${routes.posts}${slug}/`;
-const topicHref = `${routes.topics}${topicSlug}/`;
-const tone = topicTone[topic.data.accent];
 const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: minutes });
 ---
 
@@ -54,7 +51,7 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
         alt={post.data.coverAlt ?? ""}
         widths={[420, 760]}
         sizes="(min-width: 1024px) 24rem, (min-width: 640px) 45vw, 92vw"
-        class="aspect-[16/9] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+        class="aspect-[3/2] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
         loading="lazy"
         decoding="async"
       />
@@ -63,27 +60,6 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
   }
 
   <div class="flex flex-1 flex-col gap-3 p-6">
-    <p class="flex flex-wrap items-center gap-x-3 gap-y-1">
-      {/* Le sujet est un vrai lien, pose AU-DESSUS du lien de carte (z-10) :
-          sans cela le ::after du titre l'avalerait. */}
-      <a
-        href={topicHref}
-        class:list={[
-          "font-sans rounded-pill relative z-10 px-2.5 py-1 text-xs font-medium",
-          tone.chip,
-        ]}
-      >
-        {topic.data.name}
-      </a>
-      <span class="text-muted-foreground font-sans text-xs">
-        <time datetime={post.data.pubDate.toISOString()}>
-          {formatDate(post.data.pubDate, locale)}
-        </time>
-        <span aria-hidden="true"> · </span>
-        {readLabel}
-      </span>
-    </p>
-
     <Tag class="font-display text-foreground text-xl leading-snug font-semibold text-balance">
       <a href={href} class="after:absolute after:inset-0 after:content-['']">
         {post.data.title}
@@ -92,6 +68,12 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
 
     <p class="text-muted-foreground line-clamp-3 text-[0.95rem] leading-relaxed">
       {post.data.description}
+    </p>
+
+    <p class="text-muted-foreground font-sans text-sm">
+      <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate, locale)}</time>
+      <span aria-hidden="true"> · </span>
+      {readLabel}
     </p>
 
     <p

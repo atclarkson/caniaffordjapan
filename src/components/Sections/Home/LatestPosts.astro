@@ -3,24 +3,25 @@
 import PostCard from "@components/Cards/PostCard.astro";
 import SectionHeader from "@components/Sections/Global/SectionHeader.astro";
 import { Icon } from "@components/svg/icons";
-import { Button } from "@components/ui/button";
 import { getSiteRoutes } from "@config/navData.json.ts";
-import { getLocale, useTranslations } from "@i18n";
+import { fmt, getLocale, useTranslations } from "@i18n";
 import type { ResolvedPost } from "@js/posts";
 
 type Props = {
   /** Les billets deja tries et coupes par la page : la section ne trie pas. */
   posts: ResolvedPost[];
+  /** Total published posts, for the "View all" link. */
+  total: number;
 };
 
-const { posts } = Astro.props;
+const { posts, total } = Astro.props;
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
 const routes = getSiteRoutes(locale);
 ---
 
 <section class="bg-surface border-border border-y" aria-labelledby="latest-title" data-slot="latest-posts">
-  <div class="container-page py-16 md:py-24">
+  <div class="container-page py-16 md:py-20">
     <SectionHeader
       as="h2"
       headingId="latest-title"
@@ -38,14 +39,12 @@ const routes = getSiteRoutes(locale);
         ))
       }
     </ul>
-
-    {/* La grille est pleine et se termine en bas a droite : la sortie se pose
-        la ou l'oeil quitte la derniere carte, pas au milieu d'une ligne vide. */}
-    <div class="mt-10 flex justify-end">
-      <Button href={routes.posts} variant="outline" size="lg">
-        {t.home.latestCta}
-        <Icon name="arrow-right" size={18} />
-      </Button>
-    </div>
+    <a
+      href={routes.posts}
+      class="text-primary mt-8 inline-flex min-h-11 items-center gap-1.5 font-semibold underline-offset-4 hover:underline"
+    >
+      {fmt(t.home.latestCta, { n: total })}
+      <Icon name="arrow-right" size={16} />
+    </a>
   </div>
 </section>

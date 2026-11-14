@@ -166,7 +166,7 @@ const iso = (date: Date): string => date.toISOString();
           alt={coverAlt ?? ""}
           widths={[720, 1080, 1440]}
           sizes="(min-width: 80rem) 72rem, 100vw"
-          class="rounded-card shadow-float measure-wide mx-auto max-h-[min(62svh,36rem)] w-full object-cover"
+          class="rounded-card shadow-float measure-wide mx-auto aspect-[3/2] w-full object-cover"
           loading="eager"
           fetchpriority="high"
           decoding="async"
