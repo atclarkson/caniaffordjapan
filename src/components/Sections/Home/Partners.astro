@@ -1,16 +1,16 @@
 ---
-// src/components/Sections/Home/Partners.astro - "Brands we work with": the site's real affiliate partners, as plain wordmarks.
+// src/components/Sections/Home/Partners.astro - "Brands we work with": the real partners' real logos, in one quiet row.
 //
-// Real partners only, each through its real affiliate link (src/data/homePage.ts
-// PARTNERS, built from affiliates.ts and telecomAffiliates.ts). Plain text
-// wordmarks rather than logos: no official logo files were supplied, and a
-// redrawn logo would be worse than the name set cleanly.
+// Each logo links through that partner's real affiliate link
+// (src/data/homePage.ts PARTNERS); the disclosure line sits under the row.
+// No cards: the logos sit straight on the page ground, a little muted until
+// hovered. In dark mode they render as white marks so dark type stays legible.
 import { PARTNERS } from "@data/homePage";
 ---
 
 <section class="container-page py-14 md:py-16" aria-labelledby="partners-title" data-slot="partners">
   <h2 id="partners-title" class="font-display text-display-sm text-foreground">Brands we work with</h2>
-  <ul class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
+  <ul class="mt-8 flex flex-wrap items-center gap-x-12 gap-y-8 sm:gap-x-14">
     {
       PARTNERS.map((partner) => (
         <li>
@@ -18,15 +18,24 @@ import { PARTNERS } from "@data/homePage";
             href={partner.href}
             target="_blank"
             rel="noopener noreferrer sponsored"
-            class="border-border bg-card text-muted-foreground hover:text-foreground hover:border-foreground/30 rounded-card flex min-h-16 items-center justify-center border px-3 text-center font-sans text-base font-semibold tracking-tight transition-colors duration-150"
+            class="block opacity-80 transition-[opacity,transform] duration-200 hover:-translate-y-0.5 hover:opacity-100 motion-reduce:transition-none"
           >
-            {partner.name}
+            <img
+              src={partner.logo}
+              alt={partner.name}
+              width={partner.w}
+              height={partner.h}
+              style={`height:${partner.height}px;width:auto`}
+              class="dark:brightness-0 dark:invert"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
         </li>
       ))
     }
   </ul>
-  <p class="text-muted-foreground mt-4 text-sm">
+  <p class="text-muted-foreground mt-8 text-sm">
     These are affiliate partners: if you book through our links we may earn a commission, at no extra cost to you.{" "}
     <a href="/legal/" class="hover:text-foreground underline underline-offset-2">How this works</a>
   </p>

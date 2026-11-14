@@ -1,14 +1,14 @@
 ---
 // src/components/Sections/Home/Destinations.astro - four cities as big photo cards, linking to their topic pages.
 //
-// Tokyo and Osaka use family photos from AL_Vault; Kyoto and Hiroshima use
-// their posts' existing covers (AL_Vault has no Kyoto city or Hiroshima
-// family photos yet). The Hiroshima photo is Commons CC BY-SA 2.5, credited
-// in one small line under the cards.
+// All four are the family's own: Tokyo and Osaka from AL_Vault photos, Kyoto
+// the Nintendo Museum post's cover, and Hiroshima a still from the family's
+// own Hiroshima video (AL_Vault holds their Hiroshima trip as video only,
+// "80 Years After the Bomb", filmed November 26, 2022).
 import tokyo from "../../../assets/home/tokyo-skytree.jpg";
 import osaka from "../../../assets/home/osaka-tsutenkaku.jpg";
 import kyoto from "../../../assets/covers/nintendo-museum-uji-ticket-price-lottery.jpg";
-import hiroshima from "../../../assets/covers/hiroshima-peace-memorial-museum-admission-cost.jpg";
+import hiroshima from "../../../assets/home/hiroshima-dome.jpg";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import { getLocale } from "@i18n";
 import { Image } from "astro:assets";
@@ -21,7 +21,7 @@ const cities = [
   { slug: "tokyo", name: "Tokyo", src: tokyo, focus: "object-[50%_35%]", alt: "The family selfie under Tokyo Skytree with cherry blossoms behind." },
   { slug: "osaka", name: "Osaka", src: osaka, focus: "object-[50%_40%]", alt: "Adam, Lily and Cora in front of Tsutenkaku tower in Shinsekai, Osaka." },
   { slug: "kyoto", name: "Kyoto", src: kyoto, focus: "object-[50%_40%]", alt: "The family holding entry cards at the Nintendo Museum in Uji, Kyoto." },
-  { slug: "hiroshima", name: "Hiroshima", src: hiroshima, focus: "object-center", alt: "The A-Bomb Dome beside the river in Hiroshima Peace Memorial Park." },
+  { slug: "hiroshima", name: "Hiroshima", src: hiroshima, focus: "object-[30%_50%]", alt: "Adam in front of the A-Bomb Dome in Hiroshima Peace Memorial Park on a clear November day." },
 ];
 ---
 
@@ -57,9 +57,4 @@ const cities = [
       ))
     }
   </ul>
-  <p class="text-muted-foreground mt-4 text-xs">
-    Hiroshima photo:{" "}
-    <a href="https://commons.wikimedia.org/wiki/File:A-Bomb_Dome.jpg" class="hover:text-foreground underline underline-offset-2">Dan Smith</a>,{" "}
-    <a href="https://creativecommons.org/licenses/by-sa/2.5/" rel="license" class="hover:text-foreground underline underline-offset-2">CC BY-SA 2.5</a>, via Wikimedia Commons.
-  </p>
 </section>
