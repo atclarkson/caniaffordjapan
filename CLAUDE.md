@@ -11,11 +11,6 @@ fully autonomous publishing.
 Stack: Astro 7, Tailwind 4, MDX, pnpm (pinned via `packageManager` in
 package.json, use pnpm, not npm). Node >= 22.18.
 
-Known gap: the About page's phone mockup (`pnpm poster`) has no image,
-renders nothing rather than a broken image, fine as is, needs a real
-Playwright Chromium install to fix (`pnpm exec playwright install
-chromium` then `pnpm build && pnpm poster`).
-
 `public/og/*.png` (share cards for links pasted into iMessage, Slack,
 etc.) come from `pnpm og`, checked in, and do NOT regenerate on `pnpm
 build`. Edit `scripts/og.mjs`'s `PAGES` array and domain text if the
@@ -361,6 +356,12 @@ partner IDs there without the site owner's say so.
 
 ## Images
 
+- **Second real-photo source (2026-11-14):** Drive's "Japan Photos" folder
+  (id `1mZj9xudkm5ixBq668t7QlZf_YK3VX3DR`), alongside AL_Vault. Subfolders:
+  `<City>, <Month> <Day>, <Year>`, searchable by `title contains` with no
+  download. PNGs carry a real `eXIf` chunk (GPS/timestamp/device); PIL is
+  broken here, hand-parse the TIFF bytes with `struct`. No
+  `mark_photo_used`, note the file used in blog-ideas.md instead.
 - Cover (required, must be a local file for Astro's image optimizer):
   ```
   curl -sS -o src/assets/covers/<slug>.jpg "<vault large_url>"
