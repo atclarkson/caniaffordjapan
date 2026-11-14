@@ -61,22 +61,21 @@ export const enReading = {
     metaDescription:
       "Every post published on Can I Afford Japan?, newest first: real prices for temples, food, transit, and day trips in Japan.",
     eyebrow: "Archive",
-    title: "Everything we have written",
-    accent: "Everything",
-    lede: "Every post, newest first.",
+    title: "All posts",
+    accent: "",
+    lede: "",
     /** Suffixe de titre des pages 2 et suivantes. */
     pageSuffix: "page {n}",
     /** Libelle accessible de la grille : elle n'a pas de titre visible propre. */
     listLabel: "Post list",
     paginationLabel: "Post pagination",
-    topicTitle: "Posts filed under {topic}",
-    authorTitle: "Posts by {name}",
-    tagTitle: "Posts tagged {tag}",
+    topicTitle: "{topic}",
+    authorTitle: "{name}",
+    tagTitle: "{tag}",
     countLabel: "{count} posts",
     countOne: "1 post",
     emptyTitle: "Nothing here yet",
-    emptyLede:
-      "No post matches this page. The archive fills up every couple of weeks, and the RSS feed will tell you when it does.",
+    emptyLede: "",
     emptyCta: "Back to all posts",
   },
 

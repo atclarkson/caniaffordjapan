@@ -31,7 +31,7 @@ export const enPages = {
     featuredEyebrow: "Before you book",
     latestTitle: "Latest from our trips",
     latestAccent: "",
-    latestLede: "New posts, newest first.",
+    latestLede: "",
     latestCta: "See all posts",
     topicsTitle: "What we keep coming back to",
     topicsAccent: "coming back",
@@ -151,8 +151,8 @@ export const enPages = {
     countOne: "1 post",
     readTopic: "Read this topic",
     allTopics: "All topics",
-    emptyTitle: "Nothing filed here yet",
-    emptyLede: "The topic is open and the first post is still on the way. The RSS feed will say when it lands.",
+    emptyTitle: "Nothing here yet",
+    emptyLede: "",
   },
 
   // --- Auteurs -------------------------------------------------------------
@@ -166,12 +166,12 @@ export const enPages = {
     lede: "One family writes this blog together.",
     roleLabel: "Role",
     linksLabel: "Elsewhere",
-    postsBy: "Posts by {name}",
+    postsBy: "{name}",
     readAll: "Read everything by {name}",
     countLabel: "{count} posts",
     countOne: "1 post",
-    emptyTitle: "No posts under this byline yet",
-    emptyLede: "An author page with nothing on it means a first draft is open somewhere. It happens.",
+    emptyTitle: "Nothing here yet",
+    emptyLede: "",
   },
 
   // --- Recherche -----------------------------------------------------------

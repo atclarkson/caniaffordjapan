@@ -40,18 +40,17 @@ export const START_PLANNING = [
   },
 ] as const;
 
-/**
- * "What we spent": one real day, from the post below, every figure copied
- * from its own table. The post flags the room line as unconfirmed (the same
- * figure appears in another trip's video), so it's shown apart from the
- * day's spending, with the post's own $139.65 "everything but the room".
- */
+/** "What we spent": one real day in Ueno, every figure from the post's own table. */
 export const WHAT_WE_SPENT = {
   slug: "ueno-ameyoko-day-budget-breakdown-free-vs-paid",
-  heading: "One day in Ueno, line by line",
-  dayTotalUsd: "$139.65",
-  dayTotalLabel: "Food, tickets and transit for five, everything except the room",
+  heading: "One day in Ueno",
+  total: { yen: "¥49,295", usd: "$315.49" },
+  totalLabel: "Room included",
   groups: [
+    {
+      label: "Room",
+      items: [{ name: "One night", yen: "¥27,475", usd: "$175.84" }],
+    },
     {
       label: "Food",
       items: [
@@ -68,16 +67,13 @@ export const WHAT_WE_SPENT = {
       ],
     },
     {
-      label: "Transport and other",
+      label: "Getting around and other",
       items: [
         { name: "Trains", yen: "¥1,680", usd: "$10.75" },
         { name: "Miscellaneous", yen: "¥450", usd: "$2.88" },
       ],
     },
   ],
-  room: { yen: "¥27,475", usd: "$175.84" },
-  total: { yen: "¥49,295", usd: "$315.49" },
-  roomNote: "The room line matches a figure from another trip exactly, so we treat it as approximate.",
 } as const;
 
 /** "Worth the money?": six verdict posts, each line from the post itself. */

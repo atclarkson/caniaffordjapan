@@ -383,7 +383,7 @@ partner IDs there without the site owner's say so.
 ## Style
 
 - Second person, direct, numbers first (yen and a rough USD conversion).
-- No AI sounding filler ("in today's fast paced world", "let's dive in", forced "in conclusion" wrap ups).
+- No AI sounding filler ("in today's fast paced world", "let's dive in", forced "in conclusion" wrap ups), and no over-explaining in site copy: label a thing by its name ("Hiroshima", not "Posts filed under Hiroshima"), no needless caveats.
 - Real people only: Adam, Lindsay, and their kids Lily, Cora, Harper.
 - No em dashes or en dashes anywhere, in code or in post copy. Plain hyphens, commas, or periods instead, `pnpm lint:house` enforces this repo wide.
 
