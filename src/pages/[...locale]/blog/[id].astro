@@ -129,6 +129,13 @@ const crumbSchema = breadcrumbList([
 // Seulement quand l'article porte reellement une section de questions-
 // reponses visible (voir content.config.ts) : jamais de FAQPage sur un
 // contenu que la page elle-meme ne montre pas.
+// One affiliate note per post, never per link: posts whose only affiliate
+// links are AffiliateButtons get a single line at the end; posts with an
+// AffiliateBox or KlookCodeBox already carry one inside the box.
+const body = post.body ?? "";
+const needsAffiliateNote =
+  /<AffiliateButton(?![^>]*affiliate=\{false\})/.test(body) && !/<(AffiliateBox|KlookCodeBox)\b/.test(body);
+
 const faqSchema = post.data.faq && post.data.faq.length > 0 ? faqPage(post.data.faq) : undefined;
 ---
 
@@ -164,6 +171,13 @@ const faqSchema = post.data.faq && post.data.faq.length > 0 ? faqPage(post.data.
       <PostBody>
         <TableOfContents slot="toc" {headings} />
         <Content />
+        {
+          needsAffiliateNote && (
+            <p class="not-prose text-muted-foreground mt-12 font-sans text-xs">
+              This post has affiliate links. <a href="/legal/" class="hover:text-foreground underline underline-offset-2">How this works</a>
+            </p>
+          )
+        }
         <PhotoCredits credits={post.data.photoCredits} />
       </PostBody>
 

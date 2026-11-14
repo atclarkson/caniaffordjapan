@@ -356,7 +356,7 @@ partner IDs there without the site owner's say so.
   Up Sunday and Day Trip Saturday); quote real terms, never invent a code.
 - Any single outbound link (telecom `.url`, Amazon, Awin, Expedia...):
   `<AffiliateButton href="..." label="Verb + thing" />` on its own lines
-  (`@components/Post/AffiliateButton.astro`, carries its own disclosure).
+  (`@components/Post/AffiliateButton.astro`); no disclosure line per link.
   Never a hand-rolled `<Button>` inside a `<p>`: it renders broken.
 
 ## Images

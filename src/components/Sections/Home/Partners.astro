@@ -2,7 +2,8 @@
 // src/components/Sections/Home/Partners.astro - "Brands we work with": the real partners' real logos, in one quiet row.
 //
 // Each logo links through that partner's real affiliate link
-// (src/data/homePage.ts PARTNERS); the disclosure line sits under the row.
+// (src/data/homePage.ts PARTNERS). No disclosure line here: the site's
+// /legal/ page and each post cover it, not every mention of a partner.
 // No cards: the logos sit straight on the page ground, a little muted until
 // hovered. In dark mode they render as white marks so dark type stays legible.
 import { PARTNERS } from "@data/homePage";
@@ -35,8 +36,4 @@ import { PARTNERS } from "@data/homePage";
       ))
     }
   </ul>
-  <p class="text-muted-foreground mt-8 text-sm">
-    Affiliate links: we may earn a commission, at no extra cost to you.{" "}
-    <a href="/legal/" class="hover:text-foreground underline underline-offset-2">How this works</a>
-  </p>
 </section>
