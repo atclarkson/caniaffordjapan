@@ -93,6 +93,7 @@ const countLabel = count === 1 ? t.topics.countOne : fmt(t.topics.countLabel, { 
     cover && (
       <div class="overflow-hidden">
         <Image
+          quality={70}
           src={cover}
           alt={coverAlt ?? ""}
           widths={[420, 760]}

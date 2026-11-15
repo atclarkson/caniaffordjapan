@@ -32,6 +32,7 @@ const items = WORTH_IT.flatMap((item) => {
               {entry.post.data.cover && (
                 <span class="block aspect-[4/3] w-24 shrink-0 self-start overflow-hidden rounded-lg sm:w-28">
                   <Image
+                    quality={70}
                     src={entry.post.data.cover}
                     alt=""
                     widths={[120, 200]}

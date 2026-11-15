@@ -47,6 +47,7 @@ const readLabel = minutes === 1 ? t.post.minReadOne : fmt(t.post.minRead, { n: m
     post.data.cover && (
       <div class="overflow-hidden">
       <Image
+        quality={70}
         src={post.data.cover}
         alt={post.data.coverAlt ?? ""}
         widths={[420, 760]}

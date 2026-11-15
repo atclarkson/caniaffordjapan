@@ -19,6 +19,7 @@ const routes = getSiteRoutes(getLocale(Astro));
   <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
     <figure class="mx-auto w-full max-w-[36rem] rotate-[1.5deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
       <Image
+        quality={70}
         src={familyPhoto}
         alt="The five of us around a red table at Ogimachi Park in Osaka, kakigori and drinks in front of us, everyone laughing."
         widths={[480, 800, 1000]}

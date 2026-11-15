@@ -33,7 +33,6 @@ const href = `${routes.posts}${slug}/`;
     data-niko-pop
   >
     <img
-      src="/brand/niko/niko-peek.png"
       alt=""
       width="440"
       height="440"
@@ -49,6 +48,7 @@ const href = `${routes.posts}${slug}/`;
       post.data.cover && (
         <div class="self-center overflow-hidden sm:p-4 sm:pr-0"><div class="overflow-hidden rounded-lg">
           <Image
+            quality={70}
             src={post.data.cover}
             alt={post.data.coverAlt ?? ""}
             widths={[400, 640]}
@@ -101,13 +101,14 @@ const href = `${routes.posts}${slug}/`;
   function initNiko(): void {
     const img = document.querySelector<HTMLImageElement>("[data-niko-img]");
     if (!img || img.dataset.started) return;
-    const still = "/brand/niko/niko-peek.png";
+    const still = "/brand/niko/niko-peek.webp";
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const start = (): void => {
       if (img.dataset.started) return;
       img.dataset.started = "1";
       window.removeEventListener("scroll", start);
       if (reduce) {
+        img.src = still;
         img.classList.remove("opacity-0");
         return;
       }
@@ -120,7 +121,10 @@ const href = `${routes.posts}${slug}/`;
           img.src = still;
         }, 2900);
       };
-      anim.onerror = (): void => img.classList.remove("opacity-0");
+      anim.onerror = (): void => {
+        img.src = still;
+        img.classList.remove("opacity-0");
+      };
       anim.src = `/brand/niko/niko-popup-once.webp?t=${Date.now()}`;
     };
     if (window.scrollY > 0) start();

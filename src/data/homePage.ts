@@ -112,10 +112,10 @@ export const WORTH_IT = [
  * `h` is the display height in px, tuned so the marks look the same size.
  */
 export const PARTNERS = [
-  { name: "Klook", href: klookRedirect("https://www.klook.com/"), logo: "/brand/partners/klook.png", w: 429, h: 120, height: 30 },
-  { name: "GetYourGuide", href: affiliates.getyourguide.searchUrl("Japan"), logo: "/brand/partners/getyourguide.png", w: 154, h: 120, height: 40 },
+  { name: "Klook", href: klookRedirect("https://www.klook.com/"), logo: "/brand/partners/klook.webp", w: 286, h: 80, height: 30 },
+  { name: "GetYourGuide", href: affiliates.getyourguide.searchUrl("Japan"), logo: "/brand/partners/getyourguide.webp", w: 103, h: 80, height: 40 },
   { name: "Expedia", href: affiliates.expedia.searchUrl(""), logo: "/brand/partners/expedia.svg", w: 211, h: 47, height: 32 },
   { name: "Hotels.com", href: affiliates.hotels.searchUrl(""), logo: "/brand/partners/hotels-com.svg", w: 598, h: 100, height: 26 },
-  { name: "Holafly", href: telecomAffiliates.holafly.url, logo: "/brand/partners/holafly.png", w: 436, h: 120, height: 28 },
-  { name: "Airalo", href: telecomAffiliates.airalo.url, logo: "/brand/partners/airalo.png", w: 452, h: 120, height: 30 },
+  { name: "Holafly", href: telecomAffiliates.holafly.url, logo: "/brand/partners/holafly.webp", w: 291, h: 80, height: 28 },
+  { name: "Airalo", href: telecomAffiliates.airalo.url, logo: "/brand/partners/airalo.webp", w: 301, h: 80, height: 30 },
 ] as const;

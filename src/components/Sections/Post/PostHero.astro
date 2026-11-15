@@ -162,6 +162,7 @@ const iso = (date: Date): string => date.toISOString();
     cover && (
       <figure class="container-page mt-10 md:mt-12">
         <Image
+          quality={70}
           src={cover}
           alt={coverAlt ?? ""}
           widths={[720, 1080, 1440]}
