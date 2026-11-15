@@ -179,24 +179,26 @@ export const enPages = {
   // zero requete, zero service tiers, et le theme reste 100% statique.
   search: {
     metaTitle: "Search",
-    metaDescription: "Search every post on Can I Afford Japan? by title, summary, topic or tag.",
+    metaDescription: "Search every post on Can I Afford Japan? for places, prices and ideas.",
     eyebrow: "Search",
-    title: "Find it again",
-    accent: "again",
-    lede: "Search covers titles, summaries, topics, and tags.",
-    placeholder: "Search posts, topics and tags",
+    title: "What are you looking for?",
+    accent: "",
+    lede: "Find places, prices, and ideas for your Japan trip.",
+    placeholder: "Try Disney, ramen, trains",
     label: "Search the blog",
+    button: "Search",
     shortcut: "Press / to search",
     clear: "Clear search",
-    /** Affiche avant la premiere frappe. {count} est la taille de l'index. */
-    prompt: "Start typing to search {count} posts.",
+    /** Shown before the first keystroke. {count} is the index size. */
+    prompt: "{count} posts to search.",
     resultsLabel: "Search results",
     countLabel: "{count} results",
     countOne: "1 result",
     inTopic: "in {topic}",
-    noResultsTitle: "Nothing matches {query}",
-    noResultsLede: "Try a shorter word, or take the long way round and browse by topic.",
-    noResultsCta: "Browse topics",
+    noResultsTitle: "Nothing in this box.",
+    noResultsQuery: "We couldn't find any posts for",
+    noResultsLede: "Try a shorter search, or explore somewhere new below.",
+    noResultsCta: "Browse all posts",
   },
 
   // --- 404 -----------------------------------------------------------------

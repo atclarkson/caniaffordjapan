@@ -15,10 +15,9 @@
 // plusieurs centaines de kilo-octets pour un gain nul sur un blog de cette
 // taille, et le lecteur le paierait a chaque visite.
 import { Icon } from "@components/svg/icons";
-import { Button } from "@components/ui/button";
-import { Kbd } from "@components/ui/kbd";
 import { Searchbox } from "@components/ui/searchbox";
-import { EmptyState } from "@components/ui/empty-state";
+import emptyArt from "../../../assets/search-empty.png";
+import { Image } from "astro:assets";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import { fmt, getLocale, useTranslations } from "@i18n";
 import type { ResolvedPost } from "@js/posts";
@@ -48,11 +47,20 @@ const index = posts.map(({ post, topic, slug }) => ({
 const indexJson = JSON.stringify(index).replaceAll("<", "\\u003c");
 
 const promptLabel = fmt(t.search.prompt, { count: posts.length });
+
+// Where to send someone whose search found nothing: real pages only.
+const suggestions = [
+  { label: "Tokyo", href: `${routes.topics}tokyo/` },
+  { label: "Food & drink", href: `${routes.topics}budget-food/` },
+  { label: "Things to do", href: `${routes.topics}free-attractions/` },
+  { label: "Trip costs", href: `${routes.posts}tokyo-300-dollar-day-budget-week-reality-check/` },
+];
 ---
 
 <section class="container-page py-12 md:py-16" data-slot="search" data-search>
-  <div class="measure-wide flex flex-col gap-3">
+  <form method="get" role="search" class="flex w-full items-center gap-3" data-search-form>
     <Searchbox
+      class="min-w-0 flex-1"
       id="search-input"
       size="lg"
       name="q"
@@ -63,8 +71,6 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
       aria-label={t.search.label}
       aria-controls="search-results"
     >
-      {/* Le bouton d'effacement n'existe que quand il y a quelque chose a
-          effacer : il est revele par le script, pas cache par lui. */}
       <button
         type="button"
         class="text-muted-foreground hover:text-foreground hidden size-9 place-items-center rounded-pill transition-colors duration-150"
@@ -74,16 +80,14 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
         <Icon name="x" size={18} />
       </button>
     </Searchbox>
+    <button
+      type="submit"
+      class="bg-primary text-primary-foreground rounded-pill h-12 shrink-0 px-6 font-sans text-base font-semibold transition-[transform,filter] duration-150 hover:brightness-110 active:scale-[0.97] motion-reduce:transition-none"
+    >
+      {t.search.button}
+    </button>
+  </form>
 
-    <p class="text-muted-foreground flex flex-wrap items-center gap-2 font-sans text-xs">
-      <Kbd>/</Kbd>
-      {t.search.shortcut}
-    </p>
-  </div>
-
-  {/* Le compteur est une region live : il annonce le nombre de resultats sans
-      voler le focus, et le script ne l'ecrit qu'apres une pause de frappe pour
-      ne pas debiter une phrase par caractere tape. */}
   <p
     class="text-muted-foreground mt-8 font-sans text-sm"
     role="status"
@@ -113,15 +117,13 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
             {/* Le sujet est du texte et non un lien : une ancre dans une ancre
                 est invalide, et un resultat de recherche n'a qu'une seule
                 destination utile. */}
-            <span class="text-muted-foreground font-sans text-xs">
-              {fmt(t.search.inTopic, { topic: topic.data.name })}
-            </span>
             <span class="font-display text-foreground group-hover:text-primary text-lg font-semibold transition-colors duration-150">
               {post.data.title}
             </span>
             <span class="text-muted-foreground line-clamp-2 text-[0.95rem] leading-relaxed">
               {post.data.description}
             </span>
+            <span class="text-muted-foreground font-sans text-sm">{topic.data.name}</span>
           </a>
         </li>
       ))
@@ -131,10 +133,32 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
   {/* L'etat vide est rendu par le serveur et simplement devoile : pas de
       gabarit duplique dans le script, et le titre porte le jeton {query} que le
       script remplace par ce qui a ete tape. */}
-  <div class="hidden" data-search-empty data-title={t.search.noResultsTitle}>
-    <EmptyState title={t.search.noResultsTitle} description={t.search.noResultsLede} tone="search">
-      <Button href={routes.topics} variant="outline">{t.search.noResultsCta}</Button>
-    </EmptyState>
+  <div class="hidden flex-col items-center py-6 text-center" data-search-empty>
+    <Image src={emptyArt} alt="" widths={[360, 640]} sizes="22rem" class="w-full max-w-[22rem]" loading="lazy" />
+    <h2 class="font-display text-display-sm md:text-display-md text-foreground mt-4">{t.search.noResultsTitle}</h2>
+    <p class="text-muted-foreground mt-3 text-lg leading-relaxed">
+      {t.search.noResultsQuery} <strong class="text-foreground">&ldquo;<span data-search-query></span>&rdquo;</strong>.<br />
+      {t.search.noResultsLede}
+    </p>
+    <ul class="mt-6 flex flex-wrap justify-center gap-3">
+      {
+        suggestions.map((s) => (
+          <li>
+            <a
+              href={s.href}
+              class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-11 items-center gap-1.5 border px-5 font-medium transition-colors duration-150"
+            >
+              {s.label}
+              <Icon name="arrow-up-right" size={15} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <a href={routes.posts} class="text-primary mt-6 inline-flex min-h-11 items-center gap-1.5 font-semibold underline underline-offset-4">
+      {t.search.noResultsCta}
+      <Icon name="arrow-right" size={16} />
+    </a>
   </div>
 
   <script id="search-index" type="application/json" is:inline set:html={indexJson} />
@@ -226,8 +250,7 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
     }
 
     const items = Array.from(root.querySelectorAll<HTMLElement>("[data-search-item]"));
-    const emptyTitle = emptyEl.querySelector<HTMLElement>("[data-slot='empty-state'] p:first-of-type");
-    const titleTemplate = emptyEl.dataset.title ?? "";
+    const queryEl = emptyEl.querySelector<HTMLElement>("[data-search-query]");
     const prompt = countEl.dataset.prompt ?? "";
     const one = countEl.dataset.one ?? "";
     const many = countEl.dataset.many ?? "";
@@ -273,10 +296,10 @@ const promptLabel = fmt(t.search.prompt, { count: posts.length });
 
       list!.hidden = shown === 0;
       emptyEl!.classList.toggle("hidden", shown > 0);
-      if (shown === 0 && emptyTitle) {
-        emptyTitle.textContent = titleTemplate.replace("{query}", query.trim());
-      }
+      emptyEl!.classList.toggle("flex", shown === 0);
+      if (shown === 0 && queryEl) queryEl.textContent = query.trim();
 
+      countEl!.hidden = terms.length > 0 && shown === 0;
       if (terms.length === 0) announce(prompt);
       else announce(shown === 1 ? one : many.replace("{count}", String(shown)));
     }
