@@ -166,13 +166,26 @@ const socials = author.links;
     {/* The story, as plain reading text. */}
     <section class="bg-surface border-border border-y" aria-labelledby="story-title">
       <div class="container-page py-16 md:py-20">
-        <div class="mx-auto max-w-[42rem]">
-          <h2 id="story-title" class="font-display text-display-sm md:text-display-md text-foreground">
-            {t.about.storyTitle}
-          </h2>
-          <div class="prose mt-6">
-            {t.about.storyParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+        <div class="mx-auto grid max-w-[68rem] items-center gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] md:gap-14">
+          <div class="max-w-[42rem]">
+            <h2 id="story-title" class="font-display text-display-sm md:text-display-md text-foreground">
+              {t.about.storyTitle}
+            </h2>
+            <div class="prose mt-6">
+              {t.about.storyParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+            </div>
           </div>
+          <figure class="mx-auto w-full max-w-[18rem] rotate-[2deg] md:max-w-[22rem] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+            <img
+              src={`${MEDIA}/48b964fd-b215-4ca7-9696-654be3f7f9fc.jpg`}
+              alt="Lindsay, Lily, Cora, Harper and Adam taking a selfie in front of the hippos at Tennoji Zoo in Osaka, Harper in pink heart sunglasses."
+              width="960"
+              height="1280"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/5] w-full rounded-sm object-cover object-[50%_40%]"
+            />
+          </figure>
         </div>
       </div>
     </section>
