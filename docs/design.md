@@ -395,3 +395,4 @@ dark. And it ships two heavy effects where a stricter reading would ship none.
 ## Niko (にこ)
 The owner's calico cat mascot, used occasionally: 404, search no-results, Contact
 and About (src/assets/404-wrong-platform.png, search-empty.png, niko-*.png). Owner's art only.
+Unused poses saved for later in src/assets/niko/ (lost-map, camera, waving-suitcase, sleeping).
