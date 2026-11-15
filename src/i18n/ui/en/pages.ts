@@ -73,6 +73,11 @@ export const enPages = {
     familyTitle: "Meet the family",
     familyAccent: "family",
     familyLede: "Five people, one shared passport stamp collection.",
+    nikoTitle: "Niko",
+    niko: [
+      "Meet Niko (にこ), our family mascot and curious little travel companion. Her name is a nod to nikoniko, the Japanese expression for smiling, which is usually how you'll find her when there's somewhere new to explore.",
+      "With her blue backpack and coral suitcase, she's happiest discovering Japan one neighborhood at a time. She has a soft spot for quiet side streets, little local shops, and getting off the train somewhere she's never been. Her sense of direction could use some work, but she considers that part of the trip.",
+    ],
     family: [
       {
         name: "Adam",

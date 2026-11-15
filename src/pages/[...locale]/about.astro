@@ -10,6 +10,8 @@ import author from "@data/authors/en/the-clarksons.json";
 import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
 import { breadcrumbList, organization } from "@js/schema";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import niko from "../../assets/niko-about.png";
+import { Image } from "astro:assets";
 
 export const getStaticPaths = localePaths;
 
@@ -209,6 +211,34 @@ const socials = author.links;
           ))
         }
       </ul>
+    </section>
+
+    {/* Niko (にこ), the family's mascot: the owner's own illustration. */}
+    <section class="container-page pb-16 md:pb-24" aria-labelledby="niko-title">
+      <div class="grid items-center gap-8 md:grid-cols-[minmax(0,16rem)_minmax(0,1fr)] md:gap-12">
+        <Image
+          src={niko}
+          alt="Niko, a cartoon calico cat with a teal backpack and coral suitcase, holding a map of Japan."
+          widths={[320, 560]}
+          sizes="16rem"
+          class="mx-auto w-52 md:w-full"
+          loading="lazy"
+        />
+        <div class="max-w-[40rem]">
+          <h2 id="niko-title" class="font-display text-display-sm text-foreground">{t.about.nikoTitle}</h2>
+          {t.about.niko.map((paragraph, i) => (
+            <p class:list={["text-muted-foreground text-lg leading-relaxed", i === 0 ? "mt-4" : "mt-3"]}>
+              {i === 0 ? (
+                <Fragment>
+                  {paragraph.split("nikoniko")[0]}<em lang="ja-Latn">nikoniko</em>{paragraph.split("nikoniko")[1]}
+                </Fragment>
+              ) : (
+                paragraph
+              )}
+            </p>
+          ))}
+        </div>
+      </div>
     </section>
 
     {/* Close: one action (email) and the real places to follow along. */}
