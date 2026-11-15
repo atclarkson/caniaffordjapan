@@ -117,7 +117,7 @@ const suggestions = [
             {/* Le sujet est du texte et non un lien : une ancre dans une ancre
                 est invalide, et un resultat de recherche n'a qu'une seule
                 destination utile. */}
-            <span class="font-display text-foreground group-hover:text-primary text-lg font-semibold transition-colors duration-150">
+            <span class="font-display text-foreground group-hover:text-primary-text text-lg font-semibold transition-colors duration-150">
               {post.data.title}
             </span>
             <span class="text-muted-foreground line-clamp-2 text-[0.95rem] leading-relaxed">
@@ -155,7 +155,7 @@ const suggestions = [
         ))
       }
     </ul>
-    <a href={routes.posts} class="text-primary mt-6 inline-flex min-h-11 items-center gap-1.5 font-semibold underline underline-offset-4">
+    <a href={routes.posts} class="text-primary-text mt-6 inline-flex min-h-11 items-center gap-1.5 font-semibold underline underline-offset-4">
       {t.search.noResultsCta}
       <Icon name="arrow-right" size={16} />
     </a>

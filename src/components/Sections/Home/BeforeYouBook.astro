@@ -48,7 +48,7 @@ const href = `${routes.posts}${slug}/`;
         <a href={href} class="after:absolute after:inset-0 after:content-['']">{post.data.title}</a>
       </h3>
       <p class="text-muted-foreground line-clamp-2 leading-relaxed">{post.data.description}</p>
-      <p class="text-primary mt-1 flex items-center gap-1.5 text-sm font-semibold" aria-hidden="true">
+      <p class="text-primary-text mt-1 flex items-center gap-1.5 text-sm font-semibold" aria-hidden="true">
         {t.common.readPost}
         <span class="transition-transform duration-200 group-hover:translate-x-1 motion-reduce:transition-none"><Icon name="arrow-right" size={16} /></span>
       </p>
