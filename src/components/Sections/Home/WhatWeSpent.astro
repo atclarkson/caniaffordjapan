@@ -16,9 +16,8 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
     <h2 id="spent-title" class="font-display text-display-sm md:text-display-md text-foreground">What we spent</h2>
     <p class="text-muted-foreground mt-3 max-w-[40rem] text-lg">One real day from our own budget tracking.</p>
 
-    <div class="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-14">
-      <div class="flex flex-col">
-        <figure class="mx-auto w-full max-w-[34rem] -rotate-[1.5deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+    <div class="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-x-14 lg:gap-y-4">
+        <figure class="mx-auto w-full max-w-[34rem] -rotate-[1.5deg] lg:col-start-1 lg:row-start-1 rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
           <Image
             quality={70}
             src={uenoPagoda}
@@ -30,19 +29,7 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
             decoding="async"
           />
         </figure>
-        <Image
-          quality={80}
-          src={nikoCalc}
-          alt=""
-          widths={[320, 640]}
-          sizes="(min-width: 1024px) 20rem, 16rem"
-          class="mt-4 ml-auto w-56 sm:w-64 lg:mr-0 lg:w-80"
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-
-      <div class="receipt-shadow mx-auto w-full max-w-[34rem]">
+      <div class="receipt-shadow mx-auto w-full max-w-[34rem] lg:col-start-2 lg:row-span-2 lg:row-start-1">
         <div class="receipt bg-white px-6 pt-10 pb-12 text-neutral-900 sm:px-9">
           <h3 class="font-display text-center text-xl font-semibold">{day.heading}</h3>
           <p class="mt-1 text-center font-mono text-sm text-neutral-500">Family of five</p>
@@ -94,6 +81,17 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
           </p>
         </div>
       </div>
+
+        <Image
+          quality={80}
+          src={nikoCalc}
+          alt=""
+          widths={[320, 640]}
+          sizes="(min-width: 1024px) 20rem, 16rem"
+          class="order-3 mr-auto ml-[8%] w-56 sm:w-64 lg:order-none lg:col-start-1 lg:row-start-2 lg:mr-0 lg:ml-auto lg:w-80"
+          loading="lazy"
+          decoding="async"
+        />
     </div>
   </div>
 </section>
