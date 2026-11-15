@@ -22,6 +22,7 @@ export function getNavData(locale: Locale): NavItem[] {
   return [
     { text: t.nav.posts, href: L("/blog/") },
     { text: t.nav.topics, href: L("/topics/") },
+    { text: t.nav.videos, href: L("/videos/") },
     { text: t.nav.about, href: L("/about/") },
     { text: t.nav.contact, href: L("/contact/") },
   ];
@@ -43,6 +44,7 @@ export function getFooterData(locale: Locale): FooterColumn[] {
       links: [
         { text: t.nav.posts, href: L("/blog/") },
         { text: t.nav.topics, href: L("/topics/") },
+        { text: t.nav.videos, href: L("/videos/") },
         { text: t.nav.authors, href: L("/authors/") },
         // Un flux par langue : un lecteur francophone abonne au flux anglais
         // recevrait des titres qu'il ne lira pas.

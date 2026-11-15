@@ -1,0 +1,82 @@
+---
+// src/components/Video/VideoCard.astro - one YouTube video: thumbnail, duration, title.
+//
+// A plain link to YouTube that plays in place when JavaScript runs: the click
+// swaps the thumbnail for a youtube-nocookie iframe, so nothing from YouTube
+// loads until someone asks for it. Shorts render portrait (9:16).
+import { formatDate, type Locale } from "@i18n";
+import { formatDuration, thumbUrl, watchUrl, type Video } from "@data/videos";
+
+type Props = {
+  video: Video;
+  locale: Locale;
+  as?: "h2" | "h3";
+  class?: string;
+};
+
+const { video, locale, as: Tag = "h3", class: className }: Props = Astro.props;
+const date = new Date(`${video.date}T12:00:00Z`);
+---
+
+<article class:list={["group flex flex-col gap-3", className]} data-slot="video-card" data-city={video.city}>
+  <a
+    href={watchUrl(video.id)}
+    data-yt={video.id}
+    data-short={video.short ? "" : undefined}
+    class:list={[
+      "bg-foreground/10 rounded-card relative block overflow-hidden",
+      video.short ? "aspect-[9/16]" : "aspect-video",
+    ]}
+    aria-label={`Play: ${video.title}`}
+  >
+    <img
+      src={thumbUrl(video.id)}
+      alt=""
+      width="480"
+      height="360"
+      loading="lazy"
+      decoding="async"
+      class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+    />
+    <span
+      class="bg-brand-youtube absolute top-1/2 left-1/2 flex h-12 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl text-white shadow-lg transition-transform duration-200 group-hover:scale-110 motion-reduce:transition-none"
+      aria-hidden="true"
+    >
+      <svg viewBox="0 0 24 24" class="ml-0.5 h-6 w-6" fill="currentColor"><path d="M8 5.5v13l11-6.5z"></path></svg>
+    </span>
+    <span class="absolute right-2 bottom-2 rounded-md bg-black/75 px-1.5 py-0.5 font-sans text-xs font-semibold text-white tabular-nums">
+      {formatDuration(video.seconds)}
+    </span>
+  </a>
+  <div>
+    <Tag class:list={["font-display text-foreground leading-snug font-semibold text-balance", video.short ? "text-base" : "text-lg"]}>
+      {video.title}
+    </Tag>
+    <p class="text-muted-foreground mt-1 font-sans text-sm">
+      {video.city}
+      <span aria-hidden="true"> · </span>
+      <time datetime={video.date}>{formatDate(date, locale)}</time>
+    </p>
+  </div>
+</article>
+
+<script>
+  // Click to play in place. Ctrl/Cmd/middle click still opens YouTube.
+  document.addEventListener("click", (event) => {
+    if (!(event instanceof MouseEvent) || event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+    const link = (event.target as Element | null)?.closest<HTMLAnchorElement>("a[data-yt]");
+    if (!link) return;
+    event.preventDefault();
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube-nocookie.com/embed/${link.dataset.yt}?autoplay=1&rel=0`;
+    iframe.title = link.getAttribute("aria-label")?.replace(/^Play: /, "") ?? "YouTube video";
+    iframe.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+    iframe.allowFullscreen = true;
+    iframe.className = "absolute inset-0 h-full w-full border-0";
+    const frame = document.createElement("div");
+    frame.className = link.className.replace("group-hover:scale-[1.03]", "");
+    frame.appendChild(iframe);
+    link.replaceWith(frame);
+    iframe.focus();
+  });
+</script>

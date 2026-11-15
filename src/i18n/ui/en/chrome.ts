@@ -15,6 +15,7 @@ export const enChrome = {
   nav: {
     posts: "Posts",
     topics: "Topics",
+    videos: "Videos",
     about: "About",
     contact: "Contact",
     authors: "Authors",

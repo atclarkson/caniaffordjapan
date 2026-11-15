@@ -1,0 +1,31 @@
+---
+// src/components/Sections/Home/Videos.astro - the three newest full videos, with a way to the rest.
+import SectionHeader from "@components/Sections/Global/SectionHeader.astro";
+import { Icon } from "@components/svg/icons";
+import VideoCard from "@components/Video/VideoCard.astro";
+import { LONG_VIDEOS, VIDEOS } from "@data/videos";
+import { getLocale, localizePath } from "@i18n";
+
+const locale = getLocale(Astro);
+const latest = LONG_VIDEOS.slice(0, 3);
+---
+
+<section class="container-page py-16 md:py-20" aria-labelledby="videos-home-title" data-slot="home-videos">
+  <SectionHeader as="h2" headingId="videos-home-title" title="Watch the trips" />
+  <ul class="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+    {
+      latest.map((video, i) => (
+        <li class:list={[i === 2 && "sm:hidden lg:block"]}>
+          <VideoCard {video} {locale} />
+        </li>
+      ))
+    }
+  </ul>
+  <a
+    href={localizePath("/videos/", locale)}
+    class="text-primary-text mt-8 inline-flex min-h-11 items-center gap-1.5 font-semibold underline-offset-4 hover:underline"
+  >
+    See all {VIDEOS.length} videos
+    <Icon name="arrow-right" size={16} />
+  </a>
+</section>

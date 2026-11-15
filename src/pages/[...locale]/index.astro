@@ -21,6 +21,7 @@ import StartPlanning from "@components/Sections/Home/StartPlanning.astro";
 import WhatWeSpent from "@components/Sections/Home/WhatWeSpent.astro";
 import WorthTheMoney from "@components/Sections/Home/WorthTheMoney.astro";
 import LatestPosts from "@components/Sections/Home/LatestPosts.astro";
+import Videos from "@components/Sections/Home/Videos.astro";
 import siteData from "@config/siteData.json";
 import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
 import { getResolvedPosts, getSortedTopics } from "@js/posts";
@@ -83,13 +84,14 @@ const schemas = [
     {/* Rebuilt 2026-11-12 from the owner's brief: planning first, archive
         second. Order: before you book, start planning, what we spent,
         destinations, worth the money, latest posts (three, one row), the
-        family, all topics, partners. */}
+        newest videos, the family, all topics, partners. */}
     {featured && <BeforeYouBook entry={featured} />}
     <StartPlanning />
     <WhatWeSpent />
     <Destinations counts={topicCounts} />
     <WorthTheMoney {posts} />
     {latest.length > 0 && <LatestPosts posts={latest} total={posts.length} />}
+    <Videos />
     <MeetFamily />
     <BrowseTopics {topics} counts={topicCounts} />
     <Partners />

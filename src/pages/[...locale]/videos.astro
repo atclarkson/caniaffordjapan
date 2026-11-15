@@ -1,0 +1,126 @@
+---
+// src/pages/[...locale]/videos.astro - every Japan video from the family's YouTube channel.
+//
+// Data is a snapshot in src/data/videos.json (see src/data/videos.ts). Full
+// videos first, Shorts after, both filtered together by city.
+import Footer from "@components/Sections/Global/Footer.astro";
+import Navbar from "@components/Sections/Global/Navbar.astro";
+import { Breadcrumb } from "@components/ui/breadcrumb";
+import VideoCard from "@components/Video/VideoCard.astro";
+import { LONG_VIDEOS, SHORTS, VIDEOS, YOUTUBE_CHANNEL, isoDuration, thumbUrl, videoCities, watchUrl } from "@data/videos";
+import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export const getStaticPaths = localePaths;
+
+const locale = getLocale(Astro);
+const t = useTranslations(locale);
+
+const title = "Our Japan Videos";
+const description = `${VIDEOS.length} videos from our family trips to Japan: Tokyo, Osaka, Kyoto, Hiroshima and more, with what things cost and what was worth it.`;
+const cities = videoCities();
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: title,
+  itemListElement: VIDEOS.map((v, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    item: {
+      "@type": "VideoObject",
+      name: v.title,
+      description: `${v.title}. A Clarkson family video from ${v.city}, Japan.`,
+      thumbnailUrl: thumbUrl(v.id),
+      uploadDate: v.date,
+      duration: isoDuration(v.seconds),
+      contentUrl: watchUrl(v.id),
+      embedUrl: `https://www.youtube.com/embed/${v.id}`,
+    },
+  })),
+};
+
+const chip =
+  "border-border text-foreground aria-pressed:bg-foreground aria-pressed:text-background aria-pressed:border-foreground inline-flex min-h-11 items-center gap-1.5 rounded-full border px-4 font-sans text-sm font-medium transition-colors hover:border-foreground/40";
+---
+
+<BaseLayout {title} {description}>
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+  <Navbar />
+
+  <main id="content">
+    <section class="container-page pt-28 pb-10 sm:pt-32 md:pt-36" aria-labelledby="videos-title">
+      <Breadcrumb
+        items={[{ label: t.common.home, href: localizePath("/", locale) }, { label: "Videos" }]}
+        label={t.common.breadcrumbLabel}
+      />
+      <h1 id="videos-title" class="font-display text-display-md lg:text-display-lg text-foreground mt-8">Our Japan videos</h1>
+      <p class="text-muted-foreground measure-wide mt-5 text-lg leading-relaxed md:text-xl">
+        {LONG_VIDEOS.length} full videos and {SHORTS.length} Shorts from our family trips to Japan. Press play to watch here, or{" "}
+        <a href={YOUTUBE_CHANNEL} class="text-primary-text font-semibold underline underline-offset-4" rel="noopener">subscribe on YouTube</a>.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-2" role="group" aria-label="Filter by city" data-video-filter>
+        <button type="button" class={chip} aria-pressed="true" data-city="">All <span class="opacity-60">{VIDEOS.length}</span></button>
+        {
+          cities.map(({ city, count }) => (
+            <button type="button" class={chip} aria-pressed="false" data-city={city}>
+              {city} <span class="opacity-60">{count}</span>
+            </button>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="container-page pb-16 md:pb-20" aria-labelledby="full-title" data-video-group>
+      <h2 id="full-title" class="sr-only">Full videos</h2>
+      <ul class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          LONG_VIDEOS.map((video) => (
+            <li data-city={video.city}>
+              <VideoCard {video} {locale} />
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="bg-surface border-border border-y" aria-labelledby="shorts-title" data-video-group>
+      <div class="container-page py-14 md:py-20">
+        <h2 id="shorts-title" class="font-display text-display-sm text-foreground">Shorts</h2>
+        <ul class="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
+          {
+            SHORTS.map((video) => (
+              <li data-city={video.city}>
+                <VideoCard {video} {locale} />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<script>
+  const filter = document.querySelector<HTMLElement>("[data-video-filter]");
+  filter?.addEventListener("click", (event) => {
+    const button = (event.target as Element | null)?.closest<HTMLButtonElement>("button[data-city]");
+    if (!button) return;
+    const city = button.dataset.city ?? "";
+    for (const b of filter.querySelectorAll("button")) b.setAttribute("aria-pressed", String(b === button));
+    for (const group of document.querySelectorAll<HTMLElement>("[data-video-group]")) {
+      let shown = 0;
+      for (const item of group.querySelectorAll<HTMLElement>("li[data-city]")) {
+        const match = !city || item.dataset.city === city;
+        item.hidden = !match;
+        if (match) shown++;
+      }
+      group.hidden = shown === 0;
+    }
+  });
+</script>
