@@ -29,6 +29,12 @@ const crumbs = breadcrumbList([
 
 const email = siteData.author.email;
 
+// The family: who you're writing to (Dotonbori dinner, all five of us).
+const snap = {
+  src: "https://media.adamandlinds.com/photos/large/47c11d09-0c67-485e-a4b4-6f8b819118a8.jpg",
+  alt: "The five of us squeezed around a restaurant table on Dotonbori in Osaka at night.",
+};
+
 ---
 
 <BaseLayout {title} {description}>
@@ -56,18 +62,30 @@ const email = siteData.author.email;
 
           {/* The one action: email. The address is shown in full so it can be
               copied by anyone whose device has no mail app set up. */}
-          <div class="bg-card border-border rounded-card mt-10 flex flex-col gap-4 border p-6 sm:p-8">
-            <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.directTitle}</h2>
-            <p class="text-muted-foreground">
-              {t.contact.directLede}{" "}
-              <a href={`mailto:${email}`} class="text-foreground mt-1 block font-medium [overflow-wrap:anywhere] underline underline-offset-4">
-                {email}
-              </a>
-            </p>
-            <Button href={`mailto:${email}`} variant="primary" size="lg" class="self-start">
-              {t.contact.directCta}
-              <Icon name="mail" size={18} />
-            </Button>
+          <div class="bg-card border-border rounded-card mt-10 grid items-center gap-6 border p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:p-8">
+            <div class="flex min-w-0 flex-col gap-4">
+              <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.directTitle}</h2>
+              <p class="text-muted-foreground">
+                {t.contact.directLede}{" "}
+                <a href={`mailto:${email}`} class="text-foreground mt-1 block font-medium [overflow-wrap:anywhere] underline underline-offset-4">
+                  {email}
+                </a>
+              </p>
+              <Button href={`mailto:${email}`} variant="primary" size="lg" class="self-start">
+                {t.contact.directCta}
+                <Icon name="mail" size={18} />
+              </Button>
+            </div>
+            {/* Niko (にこ), the site's mascot, as decoration only: the email
+                goes to Adam and Lindsay, not to her. */}
+            <Image
+              src={niko}
+              alt=""
+              widths={[240, 480]}
+              sizes="15rem"
+              class="mx-auto w-40 sm:w-60"
+              loading="eager"
+            />
           </div>
 
           <h2 class="font-display text-foreground mt-12 text-xl font-semibold">{t.contact.topicsTitle}</h2>
@@ -86,15 +104,17 @@ const email = siteData.author.email;
         </div>
 
         <div class="flex min-w-0 flex-col gap-10">
-          {/* Niko (にこ), the site's calico cat, holding a letter. */}
-          <Image
-            src={niko}
-            alt="Niko, the site's calico cat, waving with a letter in her paw."
-            widths={[360, 640]}
-            sizes="(min-width: 1024px) 26rem, 80vw"
-            class="mx-auto w-full max-w-[26rem]"
-            loading="eager"
-          />
+          <figure class="contact-snap mx-auto w-full max-w-[32rem] rotate-[2deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+            <img
+              src={snap.src}
+              alt={snap.alt}
+              width="1280"
+              height="960"
+              loading="eager"
+              decoding="async"
+              class="aspect-[4/3] w-full rounded-[3px] object-cover"
+            />
+          </figure>
 
           <div>
             <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.followTitle}</h2>
@@ -124,3 +144,23 @@ const email = siteData.author.email;
 
   <Footer />
 </BaseLayout>
+
+<style>
+  .contact-snap {
+    transition:
+      rotate 300ms ease,
+      translate 300ms ease;
+  }
+  .contact-snap:hover {
+    rotate: 0deg;
+    translate: 0 -4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .contact-snap {
+      transition: none;
+    }
+    .contact-snap:hover {
+      translate: none;
+    }
+  }
+</style>

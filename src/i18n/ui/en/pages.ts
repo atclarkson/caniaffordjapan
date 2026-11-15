@@ -120,10 +120,10 @@ export const enPages = {
     eyebrow: "Contact",
     title: "Get in touch",
     accent: "touch",
-    lede: "Email is the best way to reach us: a question about a post, a correction, or a place we should cover.",
-    directTitle: "Email us",
+    lede: "A question, a correction, or a Japan tip to share? We'd love to hear from you.",
+    directTitle: "Drop us a line",
     directLede: "Write to us at",
-    directCta: "Email us",
+    directCta: "Email Adam & Lindsay",
     topicsTitle: "Good reasons to write",
     topics: [
       "A price in a post has changed since we wrote it.",
