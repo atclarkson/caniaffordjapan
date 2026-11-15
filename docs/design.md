@@ -391,3 +391,7 @@ The disagreements are ours too. This house keeps a single accent word in a big
 title where some of that work would remove it, because the wave beneath it is
 the mark. It keeps light as the default where much of the field has settled on
 dark. And it ships two heavy effects where a stricter reading would ship none.
+
+## Niko (にこ)
+The owner's calico cat mascot, used occasionally: 404, search no-results, Contact
+(src/assets/404-wrong-platform.png, search-empty.png, niko-contact.png). Only the owner's art.

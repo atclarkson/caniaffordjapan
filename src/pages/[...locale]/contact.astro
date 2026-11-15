@@ -1,5 +1,7 @@
 ---
 // src/pages/[...locale]/contact.astro - contact : l'adresse directe et ce qui se passe ensuite, pas de formulaire fantome.
+import niko from "../../assets/niko-contact.png";
+import { Image } from "astro:assets";
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
 import { Breadcrumb } from "@components/ui/breadcrumb";
@@ -27,11 +29,6 @@ const crumbs = breadcrumbList([
 
 const email = siteData.author.email;
 
-// One real family snapshot for warmth (Dotonbori dinner, all five of us).
-const snap = {
-  src: "https://media.adamandlinds.com/photos/large/47c11d09-0c67-485e-a4b4-6f8b819118a8.jpg",
-  alt: "The five of us squeezed around a restaurant table on Dotonbori in Osaka at night.",
-};
 ---
 
 <BaseLayout {title} {description}>
@@ -89,17 +86,15 @@ const snap = {
         </div>
 
         <div class="flex min-w-0 flex-col gap-10">
-          <figure class="contact-snap mx-auto w-full max-w-[30rem] rotate-[2deg] rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
-            <img
-              src={snap.src}
-              alt={snap.alt}
-              width="1280"
-              height="960"
-              loading="eager"
-              decoding="async"
-              class="aspect-[4/3] w-full rounded-[3px] object-cover"
-            />
-          </figure>
+          {/* Niko (にこ), the site's calico cat, holding a letter. */}
+          <Image
+            src={niko}
+            alt="Niko, the site's calico cat, waving with a letter in her paw."
+            widths={[360, 640]}
+            sizes="(min-width: 1024px) 26rem, 80vw"
+            class="mx-auto w-full max-w-[26rem]"
+            loading="eager"
+          />
 
           <div>
             <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.followTitle}</h2>
@@ -129,23 +124,3 @@ const snap = {
 
   <Footer />
 </BaseLayout>
-
-<style>
-  .contact-snap {
-    transition:
-      rotate 300ms ease,
-      translate 300ms ease;
-  }
-  .contact-snap:hover {
-    rotate: 0deg;
-    translate: 0 -4px;
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .contact-snap {
-      transition: none;
-    }
-    .contact-snap:hover {
-      translate: none;
-    }
-  }
-</style>
