@@ -106,55 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Off-cycle, 2026-11-08, same day:** the site owner spot-checked
-  `zenni-glasses-before-trip-vs-japan-optician` and found its real
-  Zenni affiliate link invisible, plain inline text, no disclosure.
-  Swept every post for the same pattern and fixed 3 more (Wayb in the
-  car-seat-law post, TravelSpend, Greenlight), each upgraded to the
-  standard Button + disclosure pattern. Full write-up in
-  `docs/site-audit.md`'s log rather than here, since it's a site-wide
-  fix, not a daily post, but noted here too so this file's own history
-  stays complete.
-- **Stay Spotlight, 2026-11-09: Minn Kappabashi, a real repeat-stay
-  aparthotel, found via an AL_Vault "apartment" sweep.** Checked the
-  "already posted today" guard first (no post with today's date
-  existed). AL_Vault's "hotel room" text search turned up nothing new,
-  but "apartment" surfaced a real, unused (used_in_count 0) October
-  2023 Tokyo Skytree window-view photo with `notes_for_ai` explicitly
-  reading "another reason we love staying at Minn-Kappabashi hotel in
-  Asakusa. The VIEW!!", a real, named, repeat-stay property, not a
-  researched pick, the strongest version of this column. Cross-checked
-  against a real `expedia.com/affiliates/adamandlinds/minn-kappabashi`
-  link already in the family's own "We Took Japan's Fastest Train"
-  video description ("We booked the Deluxe Apartment at Minn Kappabashi
-  in Asakusa"), confirmed via WebSearch as a real property (Expedia
-  h90581980, Hotels.com ho2899623360, 4.5 stars, 9.0 review score,
-  24-unit aparthotel). Used real `expediaRedirect()`/`hotelsRedirect()`
-  on the actual property pages rather than the vanity affiliate URL
-  itself, matching the established Stay Spotlight pattern. Confirmed
-  via `get_trip` that the family's own photos (Skytree window shot,
-  Halloween costumes, a full Thanksgiving dinner cooked in the unit)
-  all fall within one extended Oct-Nov 2023 Tokyo stay; caught myself
-  overclaiming "three separate trips" in an early draft when the
-  confirmed evidence only supports one extended multi-week stay,
-  corrected before publishing rather than let an unverified claim
-  stand. Rolled format 6 (head-to-head comparison) and fit it to a
-  real comparison the site already has data for: this aparthotel vs.
-  the existing `kimpton-shinjuku-tokyo-stay-spotlight` post's real
-  per-night pricing, used as the "standard hotel room" side rather
-  than inventing a second property, plus a real family-of-five
-  room-count math point (a standard room needs two bookings for five
-  people, a 65sqm/sleeps-6 unit needs one). Rolled length tier 6
-  (extended feature, 1,600-2,000 words); landed at 1,350 words after
-  three genuinely added real sections (guest reviews, practical
-  booking details, the repeat-stay evidence), short of the floor,
-  said so here rather than padding further with unverified claims.
-  Published 2026-11-09 as
-  `minn-kappabashi-aparthotel-vs-hotel-room-asakusa`, 1,350 words.
-  Topic `en/hotels-stays`. Zero uses of "actually" or "genuinely" in
-  the published body (2 "actually" caught and cut across drafts). One
-  real AL_Vault photo used (cover and in-body, same image),
-  `mark_photo_used` called.
 - **Quick Tip Tuesday, 2026-11-10: power bank watt-hour rules for an
   ANA/JAL flight, researched.** Checked the "already posted today"
   guard first (no post with today's date existed), then checked
@@ -369,3 +320,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   across drafts, several in section headers). `pnpm build`, `pnpm
   check`, `pnpm lint:house` all clean. Slug:
   `nikko-day-trip-tokyo-with-young-kids-cost`. Topic `en/day-trips`.
+- **Gear Up Sunday, 2026-11-15: a digital luggage scale, researched, no
+  real visit.** Checked the "already posted today" guard first (no post
+  with today's date existed). Gear Up Sunday's real sources are narrow
+  (Amazon, Wayb, Zenni, Greenlight, Travel Spend per `docs/weekly-
+  calendar.md`), and `grep` confirmed all five already have a dedicated
+  post (`wayb-pico-travel-car-seat-cost-review`, `zenni-glasses-before-
+  trip-vs-japan-optician`, `kids-debit-card-japan-cash-still-needed`,
+  `travelspend-app-tracking-japan-trip-costs`, and several Amazon-linked
+  Quick Tip posts). Picked a genuinely new angle under the standing
+  Amazon link rather than repeating one of those: a luggage scale, tied
+  to a real cost the site hadn't covered yet (confirmed via `grep`, no
+  existing post mentions an overweight baggage fee as its own topic).
+  Researched ANA's own current domestic fee page directly (1,100 yen for
+  23-32kg on most routes, 500 yen on a few named exceptions; 5,500 yen
+  for 32-45kg, 4,400 yen on those same exceptions), a real, confirmed
+  source. A direct `WebFetch` of ANA's international overweight-fee page
+  timed out twice, so the international figures (~$60 for 23-32kg,
+  roughly 6,000 yen; ~$200 for 32-45kg, roughly 20,000 yen) are attributed to
+  third-party baggage-fee trackers only, with an explicit note in the
+  post that they're unconfirmed against ANA's own page and the reader
+  should check their own route. Found no confirmable current JAL
+  overweight rate at all (WebSearch returned nothing from JAL's own
+  site), said so honestly rather than inventing or reusing ANA's number
+  for JAL. Cover: no AL_Vault photo fits a generic gear topic with no
+  real visit; found a real, properly licensed Wikimedia Commons
+  illustration (`File:Luggage That's Too Heavy at the Airport.jpg`,
+  Familydestinationsguide.com Images, CC BY 2.0) via Commons' own media
+  search, verified via the MediaWiki API and the file's own description
+  page that it's an illustration (not a photo) before writing the
+  `coverAlt` to say so honestly; credited in frontmatter `photoCredits`.
+  Used the standing generic Amazon tag (`adamandlinds00-20`) on a
+  digital-luggage-scale search URL via `<AffiliateButton>`, same pattern
+  as the power-bank and plug-adapter posts. Rolled length tier 1 (450-
+  600 words, landed at 509) and format 14 (direct address), which fit
+  well, the whole post is framed as "weigh your bag before you leave."
+  Caught and cut 2 "actually" instances before publishing (a section
+  heading and the closing paragraph), zero in the final body. `pnpm
+  build`, `pnpm check`, `pnpm lint:house` all clean. Slug: `luggage-
+  scale-overweight-baggage-fee-japan-flight`. Topic `en/travel-prep`.
+  Moved the 2026-11-08 off-cycle fix note and the Minn Kappabashi Stay
+  Spotlight "Done" entries out to `docs/blog-ideas-archive-14.md` to
+  stay under the house-lint 400-line cap (that archive file is now at
+  259 lines).
