@@ -17,7 +17,7 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
     <p class="text-muted-foreground mt-3 max-w-[40rem] text-lg">One real day from our own budget tracking.</p>
 
     <div class="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-x-14 lg:gap-y-4">
-        <figure class="mx-auto w-full max-w-[34rem] -rotate-[1.5deg] lg:col-start-1 lg:row-start-1 rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
+        <figure class="mx-auto w-full min-w-0 max-w-[34rem] -rotate-[1.5deg] lg:col-start-1 lg:row-start-1 rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
           <Image
             quality={70}
             src={uenoPagoda}
@@ -29,8 +29,8 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
             decoding="async"
           />
         </figure>
-      <div class="receipt-shadow mx-auto w-full max-w-[34rem] lg:col-start-2 lg:row-span-2 lg:row-start-1">
-        <div class="receipt bg-white px-6 pt-10 pb-12 text-neutral-900 sm:px-9">
+      <div class="receipt-shadow mx-auto w-full min-w-0 max-w-[34rem] lg:col-start-2 lg:row-span-2 lg:row-start-1">
+        <div class="receipt bg-white px-4 pt-10 min-[360px]:px-6 pb-12 text-neutral-900 sm:px-9">
           <h3 class="font-display text-center text-xl font-semibold">{day.heading}</h3>
           <p class="mt-1 text-center font-mono text-sm text-neutral-500">Family of five</p>
 
@@ -45,10 +45,10 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
                     <ul class="mt-1.5">
                       {group.items.map((item) => (
                         <li class="flex items-baseline gap-2 py-1 font-mono text-[0.9rem]">
-                          <span>{item.name}</span>
+                          <span class="min-w-0 [overflow-wrap:anywhere]">{item.name}</span>
                           <span class="mx-1 flex-1 translate-y-[-3px] border-b border-dotted border-neutral-300" aria-hidden="true" />
                           <span class="tabular-nums">{item.yen}</span>
-                          <span class="w-[4.5rem] text-right text-neutral-500 tabular-nums">{item.usd}</span>
+                          <span class="w-[4.5rem] shrink-0 text-right text-neutral-500 tabular-nums">{item.usd}</span>
                         </li>
                       ))}
                     </ul>

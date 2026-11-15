@@ -35,6 +35,14 @@
     --anchor-offset: 5.5rem;
   }
 
+  html,
+  body {
+    /* Lock the page to the screen width on phones: a decorative element that
+     * pokes a few pixels past the edge (rotated photos, Niko peeking in) must
+     * never let the page slide sideways. clip, not hidden, so sticky still works. */
+    overflow-x: clip;
+  }
+
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
