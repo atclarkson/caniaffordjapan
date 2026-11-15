@@ -202,15 +202,16 @@ export const enPages = {
   // --- 404 -----------------------------------------------------------------
   notFound: {
     metaTitle: "Page not found",
-    metaDescription: "There is nothing at this address. The archive and the search box both still work.",
-    code: "404",
-    title: "Nothing at this address",
-    accent: "Nothing",
-    lede:
-      "The link is wrong, or the post moved and we failed to leave a redirect. Neither is your problem. Two ways back, below.",
+    metaDescription: "This page doesn't exist. Head back to the home page or search the site.",
+    title: "Oops. Wrong platform.",
+    lede: "Even the best trips take a wrong turn.",
+    ledeLine2: "This page is missing, but your Japan trip is still on track.",
     homeCta: "Back to the home page",
-    postsCta: "Browse all posts",
-    searchCta: "Search the blog",
+    exploreCta: "Explore Japan",
+    searchPlaceholder: "What were you looking for?",
+    searchLabel: "Search the site",
+    postsCta: "Or browse all posts",
+    imageAlt: "A cartoon calico cat with a suitcase studies a map on a station platform under a 404 sign, Mount Fuji and a bullet train behind.",
   },
 
   // --- Privacy, terms and affiliate links ----------------------------------

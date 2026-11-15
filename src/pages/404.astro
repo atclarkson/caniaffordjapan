@@ -1,69 +1,77 @@
 ---
-// src/pages/404.astro - page introuvable : un ecran autonome, sans barre ni pied de page, exclu des moteurs.
+// src/pages/404.astro - the "wrong platform" page: an illustration, two ways back, a search box.
 //
-// Une seule 404 pour tout le domaine : la plupart des hebergeurs statiques n'en
-// servent qu'une, quelle que soit l'URL demandee. Elle est donc rendue dans la
-// langue par defaut.
-//
-// Et elle ne porte NI barre NI pied de page, ce qui est un choix et pas un
-// oubli : le selecteur de langue de la barre calcule ses liens depuis l'URL
-// courante, et sur une 404 cette URL n'existe dans aucune langue. Il pointerait
-// donc vers une seconde page introuvable. A la place, l'ecran offre la racine
-// de chaque langue, nommee dans sa propre langue.
+// Redesigned 2026-11-15 from the owner's own mockup and illustration
+// (src/assets/404-wrong-platform.png: a calico cat with a suitcase on a
+// station platform under a 404 sign). Search is a plain GET form to
+// /search/?q=, which arrives already filtered.
+import illustration from "../assets/404-wrong-platform.png";
 import { Icon } from "@components/svg/icons";
 import { Button } from "@components/ui/button";
 import { defaultLocale, localePrefix, useTranslations } from "@i18n";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 
 const t = useTranslations(defaultLocale);
+const base = localePrefix(defaultLocale);
 const title = t.notFound.metaTitle;
 const description = t.notFound.metaDescription;
-
-// Decoupe du titre autour du mot accentue.
-const heading = t.notFound.title;
-const accent = t.notFound.accent;
-const at = heading.toLowerCase().indexOf(accent.toLowerCase());
-const before = at >= 0 ? heading.slice(0, at) : heading;
-const word = at >= 0 ? heading.slice(at, at + accent.length) : "";
-const after = at >= 0 ? heading.slice(at + accent.length) : "";
 ---
 
 <BaseLayout {title} {description} noindex>
-  <main id="content" class="grid min-h-dvh place-items-center py-20">
-    <div class="container-page flex flex-col items-center gap-6 text-center">
-      <p class="font-display text-primary text-display-lg leading-none font-semibold" aria-hidden="true">
-        {t.notFound.code}
+  <main id="content" class="grid min-h-dvh place-items-center py-14 md:py-20">
+    <div class="container-page flex flex-col items-center text-center">
+      <Image
+        src={illustration}
+        alt={t.notFound.imageAlt}
+        widths={[480, 800, 1200]}
+        sizes="(min-width: 768px) 44rem, 92vw"
+        class="w-full max-w-[44rem]"
+        loading="eager"
+        fetchpriority="high"
+      />
+
+      <h1 class="font-display text-display-md md:text-display-lg text-foreground mt-8">{t.notFound.title}</h1>
+
+      <p class="text-muted-foreground mt-4 text-lg leading-relaxed md:text-xl">
+        {t.notFound.lede}<br />
+        {t.notFound.ledeLine2}
       </p>
 
-      <h1 class="font-display text-display-sm md:text-display-md text-foreground">
-        {
-          word ? (
-            <Fragment>
-              {before}
-              <span class="accent-script">{word}</span>
-              {after}
-            </Fragment>
-          ) : (
-            heading
-          )
-        }
-      </h1>
-
-      <p class="text-muted-foreground measure-prose text-lg leading-relaxed">{t.notFound.lede}</p>
-
-      <div class="mt-2 flex flex-wrap items-center justify-center gap-3">
-        <Button href={`${localePrefix(defaultLocale)}/`} variant="primary" size="lg">
+      <div class="mt-8 flex w-full flex-col items-stretch justify-center gap-3 sm:w-auto sm:flex-row sm:items-center">
+        <Button href={`${base}/`} variant="primary" size="lg" class="justify-center">
+          <Icon name="arrow-left" size={18} />
           {t.notFound.homeCta}
         </Button>
-        <Button href={`${localePrefix(defaultLocale)}/blog/`} variant="outline" size="lg">
-          {t.notFound.postsCta}
-        </Button>
-        <Button href={`${localePrefix(defaultLocale)}/search/`} variant="ghost" size="lg">
-          <Icon name="search" size={17} />
-          {t.notFound.searchCta}
+        <Button href={`${base}/topics/`} variant="outline" size="lg" class="justify-center">
+          {t.notFound.exploreCta}
         </Button>
       </div>
 
+      <form action={`${base}/search/`} method="get" role="search" class="mt-8 w-full max-w-[36rem]">
+        <label for="notfound-search" class="sr-only">{t.notFound.searchLabel}</label>
+        <div
+          class="border-border bg-card focus-within:border-primary flex items-center gap-3 rounded-xl border px-4 transition-colors duration-150"
+        >
+          <span class="text-muted-foreground" aria-hidden="true"><Icon name="search" size={20} /></span>
+          <input
+            id="notfound-search"
+            name="q"
+            type="search"
+            enterkeyhint="search"
+            placeholder={t.notFound.searchPlaceholder}
+            class="text-foreground placeholder:text-muted-foreground min-w-0 flex-1 bg-transparent py-3.5 text-base focus:outline-none"
+          />
+        </div>
+      </form>
+
+      <a
+        href={`${base}/blog/`}
+        class="text-muted-foreground hover:text-foreground mt-6 inline-flex min-h-11 items-center gap-1.5 font-medium transition-colors duration-150"
+      >
+        {t.notFound.postsCta}
+        <Icon name="arrow-right" size={16} />
+      </a>
     </div>
   </main>
 </BaseLayout>
