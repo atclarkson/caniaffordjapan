@@ -59,23 +59,19 @@ const site = link("Adam and Linds");
   </div>
 
   <div class="mt-16 md:mt-20">
-    <div class="flex items-end justify-between gap-4">
-      <div class="pb-4">
-        <h2 class="font-display text-display-sm text-foreground">Come along for the trip.</h2>
-        <p class="text-muted-foreground mt-2 text-lg">More Japan, more family adventures.</p>
-      </div>
-      {/* Niko peeks over the card; her bottom edge sits on its top border. */}
-      <img
-        src="/brand/niko/niko-wave-peek.webp"
-        alt=""
-        width="480"
-        height="375"
-        loading="lazy"
-        decoding="async"
-        class="-mb-px w-36 shrink-0 self-end sm:mr-10 sm:w-48 lg:w-56"
-      />
+    <div class="pr-40 sm:pr-64 lg:pr-72">
+      <h2 class="font-display text-display-sm text-foreground">Come along for the trip.</h2>
+      <p class="text-muted-foreground mt-2 text-lg">More Japan, more family adventures.</p>
     </div>
-    <ul class="bg-card border-border rounded-card grid divide-y divide-[var(--color-border)] border md:grid-cols-3 md:divide-x md:divide-y-0">
+    {/* Niko peeks over the card: her body sits behind it (z-0), and a copy
+        clipped to just her left paw sits in front (z-20), so the paw rests on
+        the card's top edge. */}
+    <div class="relative mt-6">
+      <div class="niko-peek pointer-events-none absolute right-2 bottom-[calc(100%-9px)] w-36 sm:right-10 sm:bottom-[calc(100%-11px)] sm:w-48 lg:bottom-[calc(100%-13px)] lg:w-56" aria-hidden="true">
+        <img src="/brand/niko/niko-wave-peek.webp" alt="" width="480" height="403" loading="lazy" decoding="async" class="relative z-0 block w-full" />
+        <img src="/brand/niko/niko-wave-peek.webp" alt="" width="480" height="403" loading="lazy" decoding="async" class="niko-paw absolute inset-0 z-20 block w-full" />
+      </div>
+    <ul class="bg-card border-border rounded-card relative z-10 grid divide-y divide-[var(--color-border)] border md:grid-cols-3 md:divide-x md:divide-y-0">
       {
         channels.map((c) => (
           <li>
@@ -100,6 +96,7 @@ const site = link("Adam and Linds");
         ))
       }
     </ul>
+    </div>
     <a
       href={site}
       target="_blank"
@@ -112,3 +109,10 @@ const site = link("Adam and Linds");
     </a>
   </div>
 </section>
+
+<style>
+  /* Only Niko's left paw, drawn over the card. */
+  .niko-paw {
+    clip-path: polygon(0% 76%, 24% 76%, 24% 100%, 0% 100%);
+  }
+</style>
