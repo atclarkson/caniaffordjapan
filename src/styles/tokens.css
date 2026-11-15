@@ -28,6 +28,14 @@
  * ------------------------------------------------------------------------- */
 
 @theme {
+  /* --- Third-party brand marks (social icons on the home page) ----------
+   * Each brand's own colour, used only for its logo and the light tint
+   * behind it. Not part of the site palette. */
+  --color-brand-youtube: #ff0000;
+  --color-brand-instagram: #e4405f;
+  --color-brand-tiktok: #111111;
+  --color-brand-tiktok-tint: #25f4ee;
+
   /* --- Palette : Encre ---------------------------------------------------
    * Le noir de Reef est un bleu tres sombre, jamais un gris neutre et jamais
    * un brun : c'est de l'eau profonde, pas de la terre. La saturation monte a
