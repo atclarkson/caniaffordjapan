@@ -1,0 +1,99 @@
+---
+// src/pages/[...locale]/niko.astro - Niko (にこ), the family mascot: a little easter-egg page.
+//
+// Reached by clicking Niko where she pops up on the home page. Deliberately
+// not in the navigation or footer. Text is the owner's own (pages.ts,
+// about.niko); the poses are the owner's art in src/assets/niko/.
+import Footer from "@components/Sections/Global/Footer.astro";
+import Navbar from "@components/Sections/Global/Navbar.astro";
+import { Breadcrumb } from "@components/ui/breadcrumb";
+import { getLocale, localePaths, localizePath, useTranslations } from "@i18n";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import hero from "../../assets/niko-about.png";
+import cherry from "../../assets/niko/niko-cherry-blossom.png";
+import ramen from "../../assets/niko/niko-ramen.png";
+import plane from "../../assets/niko/niko-plane-window.png";
+import camera from "../../assets/niko/niko-camera.png";
+import walking from "../../assets/niko/niko-walking-map.png";
+import lost from "../../assets/niko/niko-lost-map.png";
+import jumping from "../../assets/niko/niko-jumping.png";
+import sleeping from "../../assets/niko/niko-sleeping.png";
+
+export const getStaticPaths = localePaths;
+
+const locale = getLocale(Astro);
+const t = useTranslations(locale);
+
+const title = "Niko (にこ)";
+const description = "Meet Niko, the Can I Afford Japan? family mascot: a curious little calico cat who explores Japan one neighborhood at a time.";
+
+const poses = [
+  { src: plane, alt: "Niko on a plane, Mount Fuji out the window" },
+  { src: walking, alt: "Niko walking with her suitcase and a map" },
+  { src: cherry, alt: "Niko reaching for cherry blossoms" },
+  { src: ramen, alt: "Niko eating a bowl of ramen" },
+  { src: camera, alt: "Niko taking a photo" },
+  { src: lost, alt: "Niko puzzling over a map" },
+  { src: jumping, alt: "Niko jumping for joy" },
+  { src: sleeping, alt: "Niko asleep on her backpack" },
+];
+---
+
+<BaseLayout {title} {description}>
+  <Navbar />
+
+  <main id="content">
+    <section class="container-page pt-28 pb-12 sm:pt-32 md:pt-36 md:pb-16" aria-labelledby="niko-title">
+      <Breadcrumb
+        items={[{ label: t.common.home, href: localizePath("/", locale) }, { label: "Niko" }]}
+        label={t.common.breadcrumbLabel}
+      />
+      <div class="mt-8 grid items-center gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,20rem)] md:gap-14">
+        <div class="max-w-[40rem]">
+          <h1 id="niko-title" class="font-display text-display-md lg:text-display-lg text-foreground">Niko (にこ)</h1>
+          {
+            t.about.niko.map((paragraph, i) => (
+              <p class:list={["text-muted-foreground text-lg leading-relaxed md:text-xl", i === 0 ? "mt-6" : "mt-4"]}>
+                {i === 0 ? (
+                  <Fragment>
+                    {paragraph.split("nikoniko")[0]}
+                    <em lang="ja-Latn">nikoniko</em>
+                    {paragraph.split("nikoniko")[1]}
+                  </Fragment>
+                ) : (
+                  paragraph
+                )}
+              </p>
+            ))
+          }
+        </div>
+        <Image
+          src={hero}
+          alt="Niko, a cartoon calico cat with a teal backpack and coral suitcase, holding a map of Japan."
+          widths={[320, 640]}
+          sizes="20rem"
+          class="mx-auto w-56 md:w-full"
+          loading="eager"
+        />
+      </div>
+    </section>
+
+    <section class="bg-surface border-border border-y" aria-labelledby="poses-title">
+      <div class="container-page py-14 md:py-20">
+        <h2 id="poses-title" class="font-display text-display-sm text-foreground">Niko around Japan</h2>
+        <ul class="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+          {
+            poses.map((pose) => (
+              <li class="flex flex-col items-center text-center">
+                <Image src={pose.src} alt={pose.alt} widths={[240, 480]} sizes="(min-width: 1024px) 16rem, 45vw" class="w-full max-w-[14rem]" loading="lazy" />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

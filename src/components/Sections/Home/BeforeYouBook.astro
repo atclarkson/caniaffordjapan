@@ -22,6 +22,26 @@ const href = `${routes.posts}${slug}/`;
 
 <section class="container-page py-16 md:py-20" aria-labelledby="before-title" data-slot="before-you-book">
   <h2 id="before-title" class="font-display text-display-sm text-foreground mb-6">{t.home.featuredEyebrow}</h2>
+  <div class="relative">
+  {/* Niko (にこ) pops up from behind the card the first time the visitor
+      scrolls, then stays peeking. She links to her own page, /niko/, an
+      easter egg that is not in the navigation. */}
+  <a
+    href="/niko/"
+    class="niko-pop absolute right-0 bottom-full z-0 block w-24 sm:right-10 sm:w-44"
+    aria-label="Meet Niko, our family mascot"
+    data-niko-pop
+  >
+    <img
+      src="/brand/niko/niko-peek.png"
+      alt=""
+      width="440"
+      height="440"
+      class="block h-auto w-full opacity-0"
+      decoding="async"
+      data-niko-img
+    />
+  </a>
   <article
     class="group bg-card border-border rounded-card relative grid overflow-hidden border transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-float sm:grid-cols-[minmax(0,15rem)_minmax(0,1fr)] md:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] motion-reduce:transition-none"
   >
@@ -54,4 +74,58 @@ const href = `${routes.posts}${slug}/`;
       </p>
     </div>
   </article>
+  </div>
 </section>
+
+<style>
+  .niko-pop img {
+    transition: transform 200ms ease;
+  }
+  .niko-pop:hover img {
+    transform: translateY(-4px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .niko-pop img {
+      transition: none;
+    }
+    .niko-pop:hover img {
+      transform: none;
+    }
+  }
+</style>
+
+<script>
+  // On the first scroll, play the pop-up once (2.8 s), then swap to the
+  // still of her last frame so she stays peeking. Reduced motion: the still
+  // appears straight away.
+  function initNiko(): void {
+    const img = document.querySelector<HTMLImageElement>("[data-niko-img]");
+    if (!img || img.dataset.started) return;
+    const still = "/brand/niko/niko-peek.png";
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const start = (): void => {
+      if (img.dataset.started) return;
+      img.dataset.started = "1";
+      window.removeEventListener("scroll", start);
+      if (reduce) {
+        img.classList.remove("opacity-0");
+        return;
+      }
+      // Load the animation first, then show it from frame one.
+      const anim = new Image();
+      anim.onload = (): void => {
+        img.src = anim.src;
+        img.classList.remove("opacity-0");
+        window.setTimeout(() => {
+          img.src = still;
+        }, 2900);
+      };
+      anim.onerror = (): void => img.classList.remove("opacity-0");
+      anim.src = `/brand/niko/niko-popup-once.webp?t=${Date.now()}`;
+    };
+    if (window.scrollY > 0) start();
+    else window.addEventListener("scroll", start, { passive: true });
+  }
+  initNiko();
+  document.addEventListener("astro:page-load", initNiko);
+</script>
