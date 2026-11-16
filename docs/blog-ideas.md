@@ -346,3 +346,40 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   power-bank Quick Tip Tuesday "Done" entry and its same-day expansion
   out to `docs/blog-ideas-archive-14.md` to stay under the house-lint
   400-line cap (that archive file is now at 324 lines).
+- **Off-cycle, 2026-11-16, same day: Oriental Hotel Universal City, a
+  real April 2026 stay, site owner's direct request.** Not from the
+  daily routine, the site owner said in chat "we did actually stay at
+  the oriental hotel in usj" after today's Park Front Hotel post
+  (researched, no real stay) went out, and sent 8 real photos from the
+  stay (April 23, 2026) directly. Per the honesty rule, a real visit
+  beats a researched one, so this got its own full post rather than a
+  tacked-on mention. Checked AL_Vault first for these photos the normal
+  way (text search for "Oriental Hotel," "Konohana," "hotel room" in
+  Osaka), found nothing, the photos aren't AL_Vault-tracked, so no
+  `mark_photo_used` call applies here, they came as direct chat
+  attachments and were copied straight into the repo (cover via
+  `src/assets/covers/`, in-body via a new `public/photos/` folder,
+  served as absolute paths rather than the usual AL_Vault CDN pattern
+  since there is no CDN URL for these). Compressed the four in-body
+  JPEGs from 0.8-1.5MB down to 240-340KB each (ImageMagick resize to
+  1600px + quality 82) before committing, since they don't pass through
+  Astro's image pipeline the way the cover does. Of the 8 photos sent,
+  3 (the Bubba Gump Forrest Gump shoes bench, the CityWalk 25th
+  anniversary sign, a Minions splash-pad photo op) were skipped for
+  this post, confirmed via `grep` that `universal-citywalk-osaka-three-
+  kids.mdx` already covers that exact photo-op strip including what
+  looks like the same Bubba Gump shot, used the other 4 (two room
+  photos, the night view, the breakfast restaurant) instead and
+  cross-linked to that existing post plus the Kaiyukan/Tempozan Harbor
+  Village post for the shared Ferris wheel visible from the room at
+  night, rather than re-describing ground already covered. Researched
+  real current pricing (Expedia id 68823132, Hotels.com id
+  ho2203340224) and Osaka's per-person accommodation tax and self-
+  parking rate to round out the real account. Rolled length tier 2
+  (600-800 words) and format 14 (direct address); landed at 633 words
+  after two genuine real-detail additions (the accommodation tax note,
+  the self-parking rate) rather than padding to clear the floor. Zero
+  "actually"/"genuinely" in the published body (2 "actually" caught and
+  cut across drafts). `pnpm build`, `pnpm check`, `pnpm lint:house` all
+  clean. Slug: `oriental-hotel-universal-city-stay-spotlight`. Topic
+  `en/hotels-stays`.
