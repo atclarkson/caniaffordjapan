@@ -5,7 +5,12 @@
 // (src/data/homePage.ts PARTNERS). No disclosure line here: the site's
 // /legal/ page and each post cover it, not every mention of a partner.
 // No cards: the logos sit straight on the page ground, a little muted until
-// hovered. In dark mode they render as white marks so dark type stays legible.
+// hovered. A blanket dark:invert on every logo looked worse than the
+// original colors (flattened detail, ghosting), so only the three partners
+// whose normal logo is actually illegible on dark (Expedia, Hotels.com,
+// Airalo) get a real `logoDark` file, swapped in the same dark:hidden /
+// hidden dark:block way the header and footer logos already do. The rest
+// render once, unmodified, their real colors already read fine on dark.
 import { PARTNERS } from "@data/homePage";
 ---
 
@@ -21,16 +26,43 @@ import { PARTNERS } from "@data/homePage";
             rel="noopener noreferrer sponsored"
             class="block opacity-80 transition-[opacity,transform] duration-200 hover:-translate-y-0.5 hover:opacity-100 motion-reduce:transition-none"
           >
-            <img
-              src={partner.logo}
-              alt={partner.name}
-              width={partner.w}
-              height={partner.h}
-              style={`height:${partner.height}px;width:auto`}
-              class="dark:brightness-0 dark:invert"
-              loading="lazy"
-              decoding="async"
-            />
+            {"logoDark" in partner ? (
+              <>
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  width={partner.w}
+                  height={partner.h}
+                  style={`height:${partner.height}px;width:auto`}
+                  class="dark:hidden"
+                  data-no-dim
+                  loading="lazy"
+                  decoding="async"
+                />
+                <img
+                  src={partner.logoDark}
+                  alt={partner.name}
+                  width={partner.w}
+                  height={partner.h}
+                  style={`height:${partner.height}px;width:auto`}
+                  class="hidden dark:block"
+                  data-no-dim
+                  loading="lazy"
+                  decoding="async"
+                />
+              </>
+            ) : (
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                width={partner.w}
+                height={partner.h}
+                style={`height:${partner.height}px;width:auto`}
+                data-no-dim
+                loading="lazy"
+                decoding="async"
+              />
+            )}
           </a>
         </li>
       ))

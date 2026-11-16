@@ -110,12 +110,25 @@ export const WORTH_IT = [
  * brand-asset folders in the owner's Drive; Expedia and Hotels.com the SVGs
  * their own sites serve; Klook and GetYourGuide from Wikimedia Commons.
  * `h` is the display height in px, tuned so the marks look the same size.
+ *
+ * `logoDark` (added 2026-11-16): Klook, GetYourGuide, and Holafly are bright
+ * enough to read fine on the dark background as-is, no override needed.
+ * Expedia, Hotels.com, and Airalo use a dark navy or gray wordmark meant for
+ * a light background, invisible-to-illegible on dark, so each gets a real
+ * dark-mode file instead of a CSS filter: expedia-dark.svg and
+ * hotels-com-dark.svg are the same official vector with just the navy
+ * wordmark fill swapped to white (the brand-color icon square untouched),
+ * airalo-dark.webp is the same raster with its gray wordmark pixels
+ * recolored to white (the gradient icon untouched). A blanket
+ * dark:invert on all six was tried first and looked worse than the
+ * original colors, not better, flattening every mark to a gray blob and
+ * losing icon detail on Expedia and Hotels.com entirely.
  */
 export const PARTNERS = [
   { name: "Klook", href: klookRedirect("https://www.klook.com/"), logo: "/brand/partners/klook.webp", w: 286, h: 80, height: 30 },
   { name: "GetYourGuide", href: affiliates.getyourguide.searchUrl("Japan"), logo: "/brand/partners/getyourguide.webp", w: 103, h: 80, height: 40 },
-  { name: "Expedia", href: affiliates.expedia.searchUrl(""), logo: "/brand/partners/expedia.svg", w: 211, h: 47, height: 32 },
-  { name: "Hotels.com", href: affiliates.hotels.searchUrl(""), logo: "/brand/partners/hotels-com.svg", w: 598, h: 100, height: 26 },
+  { name: "Expedia", href: affiliates.expedia.searchUrl(""), logo: "/brand/partners/expedia.svg", logoDark: "/brand/partners/expedia-dark.svg", w: 211, h: 47, height: 32 },
+  { name: "Hotels.com", href: affiliates.hotels.searchUrl(""), logo: "/brand/partners/hotels-com.svg", logoDark: "/brand/partners/hotels-com-dark.svg", w: 598, h: 100, height: 26 },
   { name: "Holafly", href: telecomAffiliates.holafly.url, logo: "/brand/partners/holafly.webp", w: 291, h: 80, height: 28 },
-  { name: "Airalo", href: telecomAffiliates.airalo.url, logo: "/brand/partners/airalo.webp", w: 301, h: 80, height: 30 },
+  { name: "Airalo", href: telecomAffiliates.airalo.url, logo: "/brand/partners/airalo.webp", logoDark: "/brand/partners/airalo-dark.webp", w: 301, h: 80, height: 30 },
 ] as const;
