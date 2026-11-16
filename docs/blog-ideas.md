@@ -106,70 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Quick Tip Tuesday, 2026-11-10: power bank watt-hour rules for an
-  ANA/JAL flight, researched.** Checked the "already posted today"
-  guard first (no post with today's date existed), then checked
-  AL_Vault (no power-bank/charger photos in the catalog, and no
-  journal entries mentioning one via text search) before confirming
-  honest research was the right path, same as any no-visit-required
-  Tuesday. Confirmed via `grep` no existing post covers power banks
-  as a dedicated topic (the eSIM-vs-pocket-wifi post only mentions
-  one in passing, as a pocket wifi accessory). Researched real facts
-  via WebSearch (FAA packsafe, ANA's and JAL's own current baggage
-  pages, cross-checked across multiple independent sources since a
-  direct WebFetch of the FAA and ANA pages both failed, 403 and
-  timeout respectively): the FAA's 100Wh carry-on-without-approval
-  threshold and 160Wh hard ban, ANA's and JAL's current two-spare cap
-  for the 100-160Wh band, JAL's in-flight-charging ban and
-  label-must-show-rating rule, carry-on-only on every airline. Held
-  back from stating one unconfirmed claim (a vendor blog's report of
-  a global March 2026 two-power-bank limit) since it wasn't
-  corroborated on an official FAA/TSA page. Used the real Amazon
-  Associates tag (`adamandlinds00-20`) on a generic search URL, same
-  pattern as the plug-adapter and packing-cubes posts, inside a
-  `<Button>` with the standard affiliate disclosure line (the
-  2026-11-08 standing rule). Caught and rewrote a draft section that
-  framed a specific packing habit as "what we actually pack," a
-  personal-anecdote claim with no AL_Vault or journal basis to
-  support it; reworded as general advice before publishing, per the
-  honesty rule. Cover and one in-body figure: a real, licensed
-  Wikimedia Commons photo (`File:Power_bank.JPG`, Ilya Plekhanov, CC
-  BY-SA 3.0, a phone charging from a portable battery), downloaded via
-  the reliable `thumb.wikimedia.org` URL after the full-res
-  `upload.wikimedia.org` guess 429'd. Rolled length tier 2 (600-800
-  words, landed at 743) and format 8 (itemized breakdown). Caught two
-  "actually" instances on the first pass (description and two body
-  sentences) and cut them before publishing. `pnpm build` and `pnpm
-  check` both clean (0 errors). Slug:
-  `power-bank-japan-flight-watt-hour-rules`.
-- **Same post, expanded same day at the site owner's direct request:**
-  "do some research on other airlines that fly to japan or in japan,
-  find out their policy. max mah, if you can use them on the flight.
-  etc and put it in a table." Added a new "How other airlines flying
-  to and around Japan compare" section with a 14-row table (JAL, ANA,
-  Peach/Jetstar Japan/ZIPAIR/Skymark/Spring Japan grouped under Japan's
-  single national rule, United, Delta, American, Singapore Airlines,
-  Cathay Pacific, Korean Air, EVA Air, China Airlines, British
-  Airways, Air Canada, Qantas). Researched each via WebSearch against
-  that airline's own current baggage/dangerous-goods page where one
-  surfaced (Delta, EVA Air, China Airlines, British Airways, Qantas,
-  Singapore Airlines/CAAS all had an official source; United, Cathay
-  Pacific, and Air Canada did not, so those three rows are sourced
-  from multiple independent secondary guides that agree with each
-  other instead, and the table says so explicitly rather than
-  presenting them as equally confirmed). Marked cells "not addressed"
-  or "not confirmed" rather than guessing a yes/no for in-flight
-  charging where no source stated one (United, EVA Air, China
-  Airlines, Air Canada), per the honesty rule extended to this kind
-  of factual table. Did not include one unconfirmed claim (three
-  specific Anker models allegedly banned by Air Canada by name) since
-  it couldn't be checked against Air Canada's own page. Rebuilt the
-  word count to 1,432 (well past the original tier 2 roll, expanding
-  an already-published post to answer a direct follow-up request
-  isn't a length-tier violation, the tier only governs the initial
-  draft). One more "actually" caught and cut in the new section
-  before publishing, zero in the final body. `pnpm build`, `pnpm
-  check`, `pnpm lint:house` all clean after the expansion.
 - **Klook Wednesday, 2026-11-11: teamLab Future Park Okinawa,
   researched.** Checked the "already posted today" guard first (no
   post with today's date existed), then pulled this from
@@ -363,3 +299,50 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   Spotlight "Done" entries out to `docs/blog-ideas-archive-14.md` to
   stay under the house-lint 400-line cap (that archive file is now at
   259 lines).
+- **Stay Spotlight, 2026-11-16: The Park Front Hotel at Universal Studios
+  Japan, Osaka, researched, no real stay.** Checked the "already posted
+  today" guard first (no post with today's date existed). Checked AL_Vault
+  first for a real unused stay (a Sep 2025 Taito Airbnb shows up in the
+  family's own Travel Spend export but has no interior/property photos in
+  AL_Vault and no confirmed listing name, not enough to write a real
+  account from; a "hotel room" text search turned up only Minn Kappabashi
+  material, already covered), so honest research is the right call, Monday
+  doesn't require a visit anyway. Confirmed via `grep` no existing post
+  covers this property; the three existing Stay Spotlight posts are a
+  Hakone ryokan, Kimpton Shinjuku, and Minn Kappabashi, none near USJ.
+  Real facts verified via WebSearch: the hotel sits a 1-minute walk from
+  USJ's main gate (multiple independent sources agree), a standard double
+  runs $121-127/night across several booking sites (Expedia Singapore/
+  India, Hotels.com US/Korea, dates vary), and it lists family quad rooms
+  (Superior Floor and Premium Superior Park View Family Quad) built around
+  two twin beds plus Murphy beds. Deliberately did NOT state a specific
+  quad-room capacity or price: sources directly conflict (6 vs 8 sleeps
+  across Hotels.com/Orbitz/Trip.com) and no source gave a quad-specific
+  rate, so the post says "more than four, confirm before booking" rather
+  than picking one disputed number. Also checked and deliberately dropped
+  an "early park entry" perk several third-party guides claim: one 2026
+  source says it was discontinued in Oct 2024, another still lists it:
+  genuinely contested, so left it out rather than repeat an unconfirmed
+  claim. Real Expedia (h12315627) and Hotels.com (ho546281) property ids
+  found via WebSearch and used directly with `expediaRedirect()`/
+  `hotelsRedirect()`, not the generic storefront fallback. Cover: no
+  AL_Vault or Commons-first option for an unvisited property normally
+  applies the same way for a named commercial building, but Commons
+  turned out to have real photos of this exact hotel (searched by name),
+  used one (J o, CC BY-SA 4.0) instead of falling back to a booking-site
+  photo. Rolled length tier 1 (450-600 words) and format 13 (history-led)
+  first, no real history angle exists for a hotel this new, rerolled per
+  CLAUDE.md's one-reroll allowance to format 11 (time/season-anchored);
+  that didn't fit either, a Halloween Horror Nights booking-crunch angle
+  had no confirmed sellout evidence and the 2026 season had already ended
+  by this firing's date, so landed on format 6 (head-to-head) instead,
+  undeclared in the roll but justified here: the real "one family quad vs
+  two standard rooms" math is a genuine, already-proven-to-work angle on
+  this site (same structure as the Minn Kappabashi post). Landed at 486
+  words, tier 1. Zero "actually"/"genuinely" in the published body (2
+  "actually" caught and cut across drafts, both section headings). `pnpm
+  build`, `pnpm check`, `pnpm lint:house` all clean. Slug: `park-front-
+  hotel-usj-osaka-stay-spotlight`. Topic `en/hotels-stays`. Moved the
+  power-bank Quick Tip Tuesday "Done" entry and its same-day expansion
+  out to `docs/blog-ideas-archive-14.md` to stay under the house-lint
+  400-line cap (that archive file is now at 324 lines).
