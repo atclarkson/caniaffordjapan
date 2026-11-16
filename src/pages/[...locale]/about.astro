@@ -254,6 +254,17 @@ const socials = author.links;
       </div>
     </section>
 
+    {/* How the site is made, AI included (owner request 2026-11-16): on the
+        page, not hidden, not front and center. */}
+    <section id="how-we-make-it" class="container-page pb-16 md:pb-24" aria-labelledby="made-title">
+      <div class="max-w-[42rem]">
+        <h2 id="made-title" class="font-display text-display-sm text-foreground">{t.about.madeTitle}</h2>
+        {t.about.made.map((paragraph, i) => (
+          <p class:list={["text-muted-foreground text-lg leading-relaxed", i === 0 ? "mt-4" : "mt-3"]}>{paragraph}</p>
+        ))}
+      </div>
+    </section>
+
     {/* Close: one action (email) and the real places to follow along. */}
     <section class="bg-surface border-border border-t" aria-labelledby="contact-title">
       <div class="container-page grid gap-10 py-16 md:py-20 lg:grid-cols-2 lg:items-center">

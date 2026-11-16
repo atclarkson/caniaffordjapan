@@ -73,6 +73,11 @@ export const enPages = {
     familyTitle: "Meet the family",
     familyAccent: "family",
     familyLede: "Five people, one shared passport stamp collection.",
+    madeTitle: "How we make this site",
+    made: [
+      "Most of what we write about, we've done ourselves. The prices, photos and stories come from our own trips. When a post covers something we haven't done yet, like a hotel we haven't stayed in, it's written from research and current prices, and it never says we were there.",
+      "We use AI to help with research, topic ideas, building the site and writing the posts. The trips, the photos, the receipts and the family are real.",
+    ],
     nikoTitle: "Niko",
     niko: [
       "Meet Niko (にこ), our family mascot and curious little travel companion. Her name is a nod to nikoniko, the Japanese expression for smiling, which is usually how you'll find her when there's somewhere new to explore.",
@@ -168,7 +173,7 @@ export const enPages = {
     eyebrow: "Authors",
     title: "Who writes here",
     accent: "writes",
-    lede: "One family writes this blog together.",
+    lede: "Adam and Lindsay run this blog. The trips are the whole family's.",
     roleLabel: "Role",
     linksLabel: "Elsewhere",
     postsBy: "{name}",
@@ -260,6 +265,10 @@ export const enPages = {
       {
         title: "Our posts and photos",
         body: "The posts and photos on this site belong to us. Quoting a bit with a link back is always fine. Ask us first before republishing a whole post or using our photos.",
+      },
+      {
+        title: "How we use AI",
+        body: "We use AI to help with research, topic ideas, building the site and writing the posts. Most of what we cover comes from our own trips, and a post about something we haven't done is written from research and never claims we were there.",
       },
       {
         title: "Who we are and how to reach us",

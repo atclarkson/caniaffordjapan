@@ -300,6 +300,8 @@ placeholder.
   list when a new partner is added. Clean: robots, canonicals, one H1 per page,
   no duplicate titles/descriptions, BlogPosting schema, redirects 301. Watch:
   144 posts went out in Sep/Oct 2026 (the old 4x/day cadence), the pattern
-  Google's scaled-content policy targets; 1/day is the right call. No AI-use
-  disclosure anywhere yet (owner decision). Compare Search Console a week
+  Google's scaled-content policy targets; 1/day is the right call. AI-use
+  disclosure added same day at the owner's request: About "How we make this
+  site" (#how-we-make-it) and a Legal "How we use AI" section; Authors lede
+  no longer says the whole family writes it. SC export 2026-11-16 saved. Compare Search Console a week
   after the rollout ends, not before.
