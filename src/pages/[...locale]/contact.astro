@@ -2,6 +2,7 @@
 // src/pages/[...locale]/contact.astro - contact : l'adresse directe et ce qui se passe ensuite, pas de formulaire fantome.
 import niko from "../../assets/niko-contact.png";
 import { Image } from "astro:assets";
+import SocialIcons from "@components/Social/SocialIcons.astro";
 import Footer from "@components/Sections/Global/Footer.astro";
 import Navbar from "@components/Sections/Global/Navbar.astro";
 import { Breadcrumb } from "@components/ui/breadcrumb";
@@ -119,23 +120,7 @@ const snap = {
           <div>
             <h2 class="font-display text-foreground text-xl font-semibold">{t.contact.followTitle}</h2>
             <p class="text-muted-foreground mt-2">{t.contact.followLede}</p>
-            <ul class="mt-4 flex flex-wrap gap-2.5">
-              {
-                author.links.map((link) => (
-                  <li>
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer me"
-                      class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-11 items-center gap-2 border px-4 text-sm font-medium transition-colors duration-150"
-                    >
-                      {link.label}
-                      <Icon name="arrow-up-right" size={15} />
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
+            <SocialIcons class="mt-4" />
           </div>
         </div>
       </div>

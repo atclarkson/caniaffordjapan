@@ -1,0 +1,73 @@
+---
+// src/components/Social/SocialIcons.astro - the family's channels as round icon links.
+//
+// Replaces the text pills on the contact page and in the footer (owner,
+// 2026-11-16). Each icon is a 44px circle; hover fills it in the brand colour.
+// Labels stay for screen readers and as a tooltip.
+import siteData from "@config/siteData.json";
+import author from "@data/authors/en/the-clarksons.json";
+import { SOCIAL_PATHS } from "@data/socialIcons";
+
+type Props = { email?: boolean; class?: string };
+const { email = false, class: className } = Astro.props;
+
+const href = (label: string) => author.links.find((l) => l.label === label)?.href ?? "";
+type Item = { label: string; href: string; brand: string; fill?: string; stroke?: string; external: boolean };
+const items: Item[] = [
+  { label: "YouTube", href: href("YouTube"), brand: "var(--color-brand-youtube)", fill: SOCIAL_PATHS.youtube, external: true },
+  { label: "Instagram", href: href("Instagram"), brand: "var(--color-brand-instagram)", fill: SOCIAL_PATHS.instagram, external: true },
+  { label: "TikTok", href: href("TikTok"), brand: "var(--color-brand-tiktok)", fill: SOCIAL_PATHS.tiktok, external: true },
+  {
+    label: "Adam and Linds",
+    href: href("Adam and Linds"),
+    brand: "var(--color-primary)",
+    stroke: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z",
+    external: true,
+  },
+];
+if (email) {
+  items.push({
+    label: "Email us",
+    href: `mailto:${siteData.author.email}`,
+    brand: "var(--color-primary)",
+    stroke: "M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM22 6l-10 7L2 6",
+    external: false,
+  });
+}
+---
+
+<ul class:list={["flex flex-wrap gap-3", className]}>
+  {
+    items.map((item) => (
+      <li>
+        <a
+          href={item.href}
+          aria-label={item.label}
+          title={item.label}
+          style={`--brand: ${item.brand}`}
+          class="social-icon border-border bg-card text-foreground flex size-11 items-center justify-center rounded-full border transition-[background-color,border-color,color,transform] duration-200 hover:-translate-y-0.5 motion-reduce:hover:translate-y-0"
+          {...(item.external ? { target: "_blank", rel: "noopener noreferrer me" } : {})}
+        >
+          {item.fill ? (
+            <svg viewBox="0 0 24 24" class="size-5" fill="currentColor" aria-hidden="true">
+              <path d={item.fill} />
+            </svg>
+          ) : (
+            <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d={item.stroke} />
+            </svg>
+          )}
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .social-icon:hover,
+  .social-icon:focus-visible {
+    background-color: var(--brand);
+    border-color: var(--brand);
+    color: white;
+  }
+</style>

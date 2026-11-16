@@ -6,11 +6,11 @@
 // notice. Everything here is real: the links are the site's own pages, the
 // profiles come from the author file, and "Privacy and terms" is the one
 // legal page (/legal/).
-import { Icon } from "@components/svg/icons";
+import SocialIcons from "@components/Social/SocialIcons.astro";
 import { getSiteRoutes } from "@config/navData.json.ts";
 import siteData from "@config/siteData.json";
 import author from "@data/authors/en/the-clarksons.json";
-import { getLocale, useTranslations } from "@i18n";
+import { getLocale, localizePath, useTranslations } from "@i18n";
 
 const locale = getLocale(Astro);
 const t = useTranslations(locale);
@@ -20,6 +20,7 @@ const year = new Date().getFullYear();
 const pages = [
   { text: t.nav.posts, href: routes.posts },
   { text: t.nav.topics, href: routes.topics },
+  { text: t.nav.videos, href: localizePath("/videos/", locale) },
   { text: t.nav.about, href: routes.about },
   { text: t.nav.contact, href: routes.contact },
   { text: t.footer.imprint, href: routes.imprint },
@@ -56,32 +57,7 @@ const link =
             }
           </ul>
         </nav>
-        <ul class="flex flex-wrap gap-2.5">
-          {
-            author.links.map((profile) => (
-              <li>
-                <a
-                  href={profile.href}
-                  target="_blank"
-                  rel="noopener noreferrer me"
-                  class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-10 items-center gap-1.5 border px-3.5 text-sm font-medium transition-colors duration-150"
-                >
-                  {profile.label}
-                  <Icon name="arrow-up-right" size={14} />
-                </a>
-              </li>
-            ))
-          }
-          <li>
-            <a
-              href={`mailto:${siteData.author.email}`}
-              class="rounded-pill border-border bg-card text-foreground hover:border-foreground/40 inline-flex min-h-10 items-center gap-1.5 border px-3.5 text-sm font-medium transition-colors duration-150"
-            >
-              <Icon name="mail" size={14} />
-              {t.footer.emailStudio}
-            </a>
-          </li>
-        </ul>
+        <SocialIcons email />
       </div>
     </div>
 
