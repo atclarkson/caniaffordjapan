@@ -1,12 +1,10 @@
 # caniaffordjapan.com
 
 A family travel blog on the Reef Astro theme (English only), answering "what
-does this actually cost in Japan?" with real, priced out posts. Most come
-from the Clarkson family's own trips; the rest (hotels, bookable activities,
-day trips, gear) are honestly researched rather than invented, see "Weekly
-calendar" below. Hosted on Cloudflare Workers (static assets), auto
-deploying on push to `main`. No review step: the site owner has approved
-fully autonomous publishing.
+does this actually cost in Japan?" with priced-out posts. Most come from the
+Clarkson family's own trips; the rest (hotels, activities, day trips, gear)
+are honestly researched rather than invented, see "Weekly calendar" below.
+Hosted on Cloudflare Workers, auto deploys on push to `main`. No review step, fully autonomous publishing, approved.
 
 Stack: Astro 7, Tailwind 4, MDX, pnpm (pinned via `packageManager` in
 package.json, use pnpm, not npm). Node >= 22.18.
@@ -195,6 +193,12 @@ the same "what does X actually cost" template with the city name swapped.
   "actually" to signal surprise. Before drafting a title, skim the last 2
   or 3 published posts, if either word shows up in one of them, don't use
   it in this one's title.
+- **"Real"/"really" do not belong in post copy, full stop** (owner's
+  repeated 2026-11-16 correction after "a real stay," "real pricing"
+  showed up repeatedly). Every post is real by default, the word adds
+  nothing and reads as trying to convince the reader. Say the fact
+  without it ("current pricing," not "real pricing"). No soft version
+  like "actually"/"genuinely" above, any use gets rewritten pre-publish.
 - File: `src/data/posts/en/<kebab-case-slug>.mdx` if the post uses
   `<AffiliateBox>`, otherwise plain `.md` is fine.
 - Frontmatter (see `src/content.config.ts` for the exact schema):
@@ -245,8 +249,8 @@ One topic per post, chosen from `src/data/topics/en/`: `tokyo`, `osaka`,
 `kyoto`, `day-trips`, `theme-parks`, `teamlab`, `towers-observation-decks`,
 `animals-wildlife`, `museums`, `shopping`, `free-attractions`,
 `unexpected-costs`, `transit`, `deals`, `budget-food`, `fukuoka`,
-`hiroshima`, `kobe`, `hotels-stays`, `travel-prep` (Stay Spotlight/Quick
-Tip Tuesday), `daily-costs` (Throwback Thursday's day-cost format, see below).
+`hiroshima`, `kobe`, `hotels-stays`, `travel-prep`, `daily-costs` (Thursday's
+day-cost format, see "Weekly calendar" below).
 
 Don't default to whichever broad geography topic (`tokyo`, `osaka`) is
 closest just because it's familiar. Pick whatever topic describes the post
@@ -309,34 +313,32 @@ partner IDs there without the site owner's say so.
   needs an Expedia link more specific than the storefront and no override
   was given, use the storefront fallback and say so in your summary rather
   than inventing a URL.
-- When a post is about one specific Klook activity you have a real activity
+- When a post is about one specific Klook activity you have an activity
   page URL for (like a row in a Klook affiliate export, see
   `docs/klook-priority-activities.md`), don't use `AffiliateBox`'s generic
   search link. Import `klookRedirect` from `@data/affiliates` and wrap the
-  real activity page URL directly, `klookRedirect("https://www.klook.com/en-US/activity/...")`,
+  activity page URL directly, `klookRedirect("https://www.klook.com/en-US/activity/...")`,
   it converts far better than a search results page.
 - `<KlookCodeBox href={...} />` (`@components/Post/KlookCodeBox.astro`)
-  shows the real ADAMANDLINDSKLOOK offers from `src/data/klookCode.ts`. Use
-  it instead of typing out discount terms by hand, that file is the single
-  source of truth so every post that cites it stays correct if terms
-  change. `href` should be a real Klook link for that post's activity
-  (`klookRedirect(...)` or `affiliates.klook.searchUrl(...)`), the code is
-  typed at checkout, but the click-through still needs to carry our
-  tracking. Never add an offer to `klookCode.ts` that isn't confirmed by
-  the site owner from the actual dashboard, and drop an offer once its
-  "redeem before" date has passed rather than leaving it to go stale.
+  shows the ADAMANDLINDSKLOOK offers from `src/data/klookCode.ts`, that
+  file is the single source of truth so every post that cites it stays
+  correct if terms change. `href` should be a Klook link for that post's
+  activity (`klookRedirect(...)` or `affiliates.klook.searchUrl(...)`),
+  the code is typed at checkout, but the click-through still needs to
+  carry our tracking. Never add an offer to `klookCode.ts` that isn't
+  confirmed from the dashboard, drop one once its "redeem before" date
+  has passed.
 - ALWAYS include `<KlookCodeBox>` on every post that links to Klook at
   all, not just posts about an activity on the 1% "selected things to
   do" tier. The site owner's own words: people search for
   "ADAMANDLINDSKLOOK" by name, so the code needs to show up everywhere
-  Klook does. The two general tiers (10% off for a new Klook user, 3%
-  off for an existing one) have no activity restriction, only a $50
-  cart minimum, so they genuinely apply on top of a plain `AffiliateBox`
-  or `BookingWidgets` Klook link too, not only on posts using
-  `klookRedirect` for a specific activity. Say plainly when an activity
-  isn't on the 1% list (don't imply it is), but still note the general
-  tiers apply once the cart clears $50, that's true and it's exactly
-  the gap a 2026-09-12 post first got wrong before being corrected.
+  Klook does. The two general tiers (10% off a new user, 3% off an
+  existing one) have no activity restriction, only a $50 cart minimum,
+  so they apply on top of a plain `AffiliateBox`/`BookingWidgets` Klook
+  link too, not only posts using `klookRedirect` for a specific
+  activity. Say plainly when an activity isn't on the 1% list, but
+  still note the general tiers apply once the cart clears $50 (the gap
+  a 2026-09-12 post first got wrong before being corrected).
   This does not extend to posts with no Klook link at all (an eSIM
   comparison, a restaurant bill, an arcade write-up), don't force one
   in where there's nothing to book through Klook in the first place.
@@ -356,12 +358,12 @@ partner IDs there without the site owner's say so.
 
 ## Images
 
-- **Second real-photo source (2026-11-14):** Drive's "Japan Photos" folder
-  (id `1mZj9xudkm5ixBq668t7QlZf_YK3VX3DR`), alongside AL_Vault. Subfolders:
-  `<City>, <Month> <Day>, <Year>`, searchable by `title contains` with no
-  download. PNGs carry a real `eXIf` chunk (GPS/timestamp/device); PIL is
-  broken here, hand-parse the TIFF bytes with `struct`. No
-  `mark_photo_used`, note the file used in blog-ideas.md instead.
+- **Second photo source (2026-11-14):** Drive's "Japan Photos" folder (id
+  `1mZj9xudkm5ixBq668t7QlZf_YK3VX3DR`), alongside AL_Vault. Subfolders:
+  `<City>, <Month> <Day>, <Year>`, searchable by `title contains`, no
+  download needed. PNGs carry an `eXIf` chunk (GPS/timestamp/device); PIL
+  is broken here, hand-parse the TIFF bytes with `struct`. No
+  `mark_photo_used`, note the file in blog-ideas.md instead.
 - Cover (required, must be a local file for Astro's image optimizer):
   ```
   curl -sS -o src/assets/covers/<slug>.jpg "<vault large_url>"
@@ -370,16 +372,14 @@ partner IDs there without the site owner's say so.
 - Author avatars, if a new author is ever added, go in `src/assets/authors/<slug>.jpg` the same way.
 - In body, gallery photos can stay remote (vault CDN, or a booking
   site's own CDN, e.g. Klook's `res.klook.com`), no download needed.
-- For a researched no-visit-required post with no real AL_Vault photo
-  (see "Weekly calendar"), prefer Wikimedia Commons first, same process
-  as `ds-lite-mod-workshop-pixel-lab-akihabara.mdx` and
-  `kimpton-shinjuku-tokyo-stay-spotlight.mdx` (Special:FilePath works
+- For a researched no-visit-required post with no AL_Vault photo (see
+  "Weekly calendar"), prefer Wikimedia Commons first, same process as
+  `ds-lite-mod-workshop-pixel-lab-akihabara.mdx` (Special:FilePath works
   when `action=query` rate-limits). A hotel's, operator's, or booking
-  site's own marketing photo (a Klook listing's `Image URL` columns,
-  see "Affiliate links") is a fine fallback when Commons has nothing
-  (owner confirmed 2026-10-29); download the cover the same way as any
-  other. Commons photos go in `photoCredits` (see above); a booking-site
-  photo gets a short honest caption ("Photo via Klook's listing").
+  site's own marketing photo (a Klook listing's `Image URL` column, see
+  "Affiliate links") is a fine fallback when Commons has nothing; download
+  it the same way as any other cover. Commons photos go in `photoCredits`
+  (see above); a booking-site photo gets a short honest caption.
 
 ## Style
 
