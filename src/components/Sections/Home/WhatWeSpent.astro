@@ -2,10 +2,13 @@
 // src/components/Sections/Home/WhatWeSpent.astro - one real day of family spending, as clean numbers, from a real post.
 //
 // Every figure comes from src/data/homePage.ts (WHAT_WE_SPENT), copied from
-// the post's own table. Styled as a paper receipt (torn top and bottom
-// edges), with Niko and her calculator looking up at it from under the photo.
+// the post's own table. The receipt itself (torn top and bottom edges) is
+// the shared Post/Receipt.astro component, pulled out 2026-11-16 once
+// "daily costs" became a real recurring post type (folded into Throwback
+// Thursday) rather than a one-off home page graphic. Niko and her
+// calculator look up at it from under the photo.
 import uenoPagoda from "../../../assets/home/ueno-pagoda.jpg";
-import { Icon } from "@components/svg/icons";
+import Receipt from "@components/Post/Receipt.astro";
 import { WHAT_WE_SPENT as day } from "@data/homePage";
 import { Image } from "astro:assets";
 import nikoCalc from "../../../assets/niko/niko-calculator.png";
@@ -14,102 +17,51 @@ import nikoCalc from "../../../assets/niko/niko-calculator.png";
 <section class="bg-surface border-border border-y" aria-labelledby="spent-title" data-slot="what-we-spent">
   <div class="container-page py-16 md:py-20">
     <h2 id="spent-title" class="font-display text-display-sm md:text-display-md text-foreground">What we spent</h2>
-    <p class="text-muted-foreground mt-3 max-w-[40rem] text-lg">One real day from our own budget tracking.</p>
+    <p class="text-muted-foreground mt-3 max-w-[40rem] text-lg">Real days from our own budget tracking, receipts and all.</p>
 
     <div class="mt-10 grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-x-14 lg:gap-y-4">
-        <figure class="mx-auto w-full min-w-0 max-w-[34rem] -rotate-[1.5deg] lg:col-start-1 lg:row-start-1 rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
-          <Image
-            quality={70}
-            src={uenoPagoda}
-            alt="The family at the five-story pagoda in Ueno Park on a clear autumn day."
-            widths={[480, 800]}
-            sizes="(min-width: 1024px) 34rem, 92vw"
-            class="aspect-[4/3] w-full rounded-[3px] object-cover"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      <div class="receipt-shadow mx-auto w-full min-w-0 max-w-[34rem] lg:col-start-2 lg:row-span-2 lg:row-start-1">
-        <div class="receipt bg-white px-4 pt-10 min-[360px]:px-6 pb-12 text-neutral-900 sm:px-9">
-          <h3 class="font-display text-center text-xl font-semibold">{day.heading}</h3>
-          <p class="mt-1 text-center font-mono text-sm text-neutral-500">Family of five</p>
-
-          <div class="receipt-rule mt-6"></div>
-
-          <dl class="mt-4 flex flex-col gap-4">
-            {
-              day.groups.map((group) => (
-                <div>
-                  <dt class="font-mono text-sm font-semibold text-neutral-500">{group.label}</dt>
-                  <dd>
-                    <ul class="mt-1.5">
-                      {group.items.map((item) => (
-                        <li class="flex items-baseline gap-2 py-1 font-mono text-[0.9rem]">
-                          <span class="min-w-0 [overflow-wrap:anywhere]">{item.name}</span>
-                          <span class="mx-1 flex-1 translate-y-[-3px] border-b border-dotted border-neutral-300" aria-hidden="true" />
-                          <span class="tabular-nums">{item.yen}</span>
-                          <span class="w-[4.5rem] shrink-0 text-right text-neutral-500 tabular-nums">{item.usd}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </dd>
-                </div>
-              ))
-            }
-          </dl>
-
-          <div class="receipt-rule mt-5"></div>
-
-          <p class="mt-4 flex items-baseline justify-between gap-4 font-mono font-bold">
-            <span>Total</span>
-            <span class="tabular-nums">{day.total.yen}</span>
-          </p>
-          <p class="mt-1 text-right">
-            <span class="font-display text-4xl font-bold tabular-nums">{day.total.usd}</span>
-          </p>
-
-          <div class="receipt-rule mt-5"></div>
-
-          <p class="mt-5 text-center">
-            <a
-              href={`/blog/${day.slug}/`}
-              class="text-primary-text inline-flex min-h-11 items-center gap-1.5 font-semibold underline-offset-4 hover:underline"
-            >
-              Read the full day
-              <Icon name="arrow-right" size={16} />
-            </a>
-          </p>
-        </div>
-      </div>
-
+      <figure class="mx-auto w-full min-w-0 max-w-[34rem] -rotate-[1.5deg] lg:col-start-1 lg:row-start-1 rounded-md bg-white p-2 shadow-[0_10px_30px_-8px_rgb(0_0_0/0.35)]">
         <Image
-          quality={80}
-          src={nikoCalc}
-          alt=""
-          widths={[320, 640]}
-          sizes="(min-width: 1024px) 20rem, 16rem"
-          class="order-3 mr-auto ml-[8%] w-56 sm:w-64 lg:order-none lg:col-start-1 lg:row-start-2 lg:mr-0 lg:ml-auto lg:w-80"
+          quality={70}
+          src={uenoPagoda}
+          alt="The family at the five-story pagoda in Ueno Park on a clear autumn day."
+          widths={[480, 800]}
+          sizes="(min-width: 1024px) 34rem, 92vw"
+          class="aspect-[4/3] w-full rounded-[3px] object-cover"
           loading="lazy"
           decoding="async"
         />
+      </figure>
+
+      <div class="lg:col-start-2 lg:row-span-2 lg:row-start-1">
+        <Receipt
+          heading={day.heading}
+          subheading="Family of five"
+          groups={day.groups}
+          total={day.total}
+          totalLabel={day.totalLabel}
+          readMoreHref={`/blog/${day.slug}/`}
+        />
+        <p class="mt-5 text-center">
+          <a
+            href="/topics/daily-costs/"
+            class="text-muted-foreground inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold underline-offset-4 hover:underline"
+          >
+            See every day we've tracked
+          </a>
+        </p>
+      </div>
+
+      <Image
+        quality={80}
+        src={nikoCalc}
+        alt=""
+        widths={[320, 640]}
+        sizes="(min-width: 1024px) 20rem, 16rem"
+        class="order-3 mr-auto ml-[8%] w-56 sm:w-64 lg:order-none lg:col-start-1 lg:row-start-2 lg:mr-0 lg:ml-auto lg:w-80"
+        loading="lazy"
+        decoding="async"
+      />
     </div>
   </div>
 </section>
-
-<style>
-  /* Paper receipt: zigzag "torn" edges top and bottom via a mask; the shadow
-   * sits on a wrapper because a mask would clip a shadow on the same box. */
-  .receipt-shadow {
-    filter: drop-shadow(0 10px 18px rgb(0 0 0 / 0.14)) drop-shadow(0 1px 2px rgb(0 0 0 / 0.08));
-    rotate: 1deg;
-  }
-  .receipt {
-    --tooth: 9px;
-    mask:
-      conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(var(--tooth) * 2) 51% repeat-x,
-      conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(var(--tooth) * 2) 51% repeat-x;
-  }
-  .receipt-rule {
-    border-top: 2px dashed rgb(0 0 0 / 0.18);
-  }
-</style>

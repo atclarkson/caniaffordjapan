@@ -245,8 +245,8 @@ One topic per post, chosen from `src/data/topics/en/`: `tokyo`, `osaka`,
 `kyoto`, `day-trips`, `theme-parks`, `teamlab`, `towers-observation-decks`,
 `animals-wildlife`, `museums`, `shopping`, `free-attractions`,
 `unexpected-costs`, `transit`, `deals`, `budget-food`, `fukuoka`,
-`hiroshima`, `kobe`, `hotels-stays`, `travel-prep` (the last two added
-2026-10-26/27 for Stay Spotlight/Quick Tip Tuesday).
+`hiroshima`, `kobe`, `hotels-stays`, `travel-prep` (Stay Spotlight/Quick
+Tip Tuesday), `daily-costs` (Throwback Thursday's day-cost format, see below).
 
 Don't default to whichever broad geography topic (`tokyo`, `osaka`) is
 closest just because it's familiar. Pick whatever topic describes the post
