@@ -291,3 +291,15 @@ placeholder.
   $300-budget post exactly. No changes needed there. `pnpm build`,
   `pnpm check`, and `node scripts/house.mjs` all clean.
   If a script, form or newsletter is ever added, update that page.
+- **2026-11-16, owner request, November 2026 core update check** (rollout
+  began 2026-11-10, up to two weeks). Fixed: 21 hand-written affiliate links
+  in post prose (telecom, Viator, insurance, two klookRedirect links) had no
+  `rel="sponsored"`, a Google link-spam policy issue. `scripts/sponsoredLinks.mjs`
+  (Astro integration, runs after build) now adds it to every partner/tracking
+  host in the built HTML, so future posts can't miss it; add a host to its
+  list when a new partner is added. Clean: robots, canonicals, one H1 per page,
+  no duplicate titles/descriptions, BlogPosting schema, redirects 301. Watch:
+  144 posts went out in Sep/Oct 2026 (the old 4x/day cadence), the pattern
+  Google's scaled-content policy targets; 1/day is the right call. No AI-use
+  disclosure anywhere yet (owner decision). Compare Search Console a week
+  after the rollout ends, not before.

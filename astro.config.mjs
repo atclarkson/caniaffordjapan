@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
+import sponsoredLinks from "./scripts/sponsoredLinks.mjs";
 import { readdirSync, readFileSync } from "node:fs";
 
 // <lastmod> for every post in the sitemap, read straight from frontmatter
@@ -51,6 +52,7 @@ export default defineConfig({
   },
 
   integrations: [
+    sponsoredLinks(),
     // Pas de React ici, volontairement : Reef n'a pas un seul ilot. Tout le
     // theme est du .astro, et la page d'article part a zero kilo-octet de
     // JavaScript. C'est le principal argument d'un theme de blog.
