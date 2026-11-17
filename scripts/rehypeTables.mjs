@@ -215,7 +215,11 @@ export default function rehypeTables() {
         if (n.tagName === "table" && !table) table = n;
       });
       if (!table) return;
-      const variant = opts.variant ?? "table";
+      let variant = opts.variant ?? "table";
+      // Hard limits (owner, 2026-11-17): side-by-side layouts stop being
+      // readable past three options. More than that falls back to the table.
+      const optionCount = readTable(table).rows.length;
+      if ((variant === "cards" || variant === "matrix") && optionCount > 3) variant = "table";
       let out;
       if (variant === "cards") out = cards(table, opts);
       else if (variant === "matrix") out = matrix(table, opts);
@@ -228,16 +232,16 @@ export default function rehypeTables() {
       parent.children[index] = out;
       return SKIP;
     });
-    // Layer 1: every other table. A wide table full of sentences (five or
-    // more columns, long cells) can't be read as a grid in a text column, so
-    // it becomes cards; everything else gets the enhanced table.
+    // Layer 1: every other table. A big table (five or more columns, or
+    // more than six rows of four or more columns) stays a grid you can scan:
+    // it scrolls sideways with the first column pinned instead of stacking
+    // into a long run of cards on a phone.
     visit(tree, "element", (node, index, parent) => {
       if (node.tagName === "div" && node.properties?.dataDone !== undefined) return SKIP;
       if (node.tagName !== "table" || !parent || node.properties?.className?.includes("table-matrix")) return;
       const { head, rows } = readTable(node);
-      const cells = rows.flatMap((r) => r.slice(1));
-      const avg = cells.length ? cells.reduce((n, c) => n + c.text.length, 0) / cells.length : 0;
-      parent.children[index] = head.length >= 5 && avg > 18 ? cards(node, { detail: "-" }) : enhance(node);
+      const big = head.length >= 5 || (head.length >= 4 && rows.length > 6);
+      parent.children[index] = enhance(node, big ? { forceKind: "wide" } : {});
       return SKIP;
     });
   };
