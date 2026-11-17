@@ -322,3 +322,64 @@ more recent entries. When this file nears 400 lines too, start
   draft). One more "actually" caught and cut in the new section
   before publishing, zero in the final body. `pnpm build`, `pnpm
   check`, `pnpm lint:house` all clean after the expansion.
+- **Klook Wednesday, 2026-11-11: teamLab Future Park Okinawa,
+  researched.** Checked the "already posted today" guard first (no
+  post with today's date existed), then pulled this from
+  `docs/klook-priority-activities.md`'s unblocked priority list
+  (first and only entry left there). Full provenance (real pricing,
+  the official-vs-Klook date-change tradeoff, the real Yui Rail
+  transit-fare math, the DFS cover photo, the caught overclaim about
+  Japan's total teamLab count, the dead adamandlinds.com search
+  result checked and discarded) logged in
+  `docs/klook-priority-activities.md` rather than duplicated here.
+  Slug: `teamlab-future-park-okinawa-direct-vs-klook`. Length tier 4
+  (1,070 words), format 6 (head-to-head). Topic `en/teamlab`.
+- **Throwback Thursday, 2026-11-12: a real March 2023 Tokyo Skytree
+  visit, both decks, found via the Tokyo video pool.** Checked the
+  "already posted today" guard first (no post with today's date
+  existed). `get_destinations` showed the same 32 destinations as
+  every recent check, no new uploads, so swept the 41-item Tokyo
+  video pool rather than defaulting to research (Thursday always
+  needs a real visit). Most titles traced to already-published posts
+  via `grep`, but "We Went to the Top of Tokyo… Was It Worth It?"
+  (youtube_id `Lt3QdpqE1Wc`, filmed March 2023) matched no existing
+  post: confirmed via `get_trip` and a direct read of
+  `tokyo-skytree-tembo-deck-ticket-price-cost.mdx` that the existing
+  Skytree post is a researched 2026-dynamic-pricing/history piece,
+  not built from this real visit, so no duplicate. `get_trip` for the
+  surrounding window also surfaced the real "Family Reunion" video
+  (Adam's parents, Kim and Terry, Nov 2023, a different and unrelated
+  stretch of the trip, already covered in two other posts) and two
+  other unused-but-thin candidates (`127 | CHEAP FAMILY DAY OUT`, the
+  real Ueno Zoo visit referenced in `ueno-zoo-shinobazu-pond-boats-
+  tokyo-cost.mdx` via a different photo source already, so not a
+  fresh angle); picked the Skytree one as the clearest genuinely
+  unused real visit. Noticed a possible factual inconsistency in an
+  already-published post while cross-checking (`thanksgiving-dinner-
+  tokyo-apartment-turkey-chicken-cost.mdx` says "Lindsay's parents,"
+  but this video's own `notes_for_ai` and two other published posts
+  say Adam's parents, Kim and Terry, for the same November 2023
+  visit); flagging here for a future audit pass rather than editing
+  an old post speculatively without stronger evidence. No AL_Vault
+  photos exist for this specific day (`get_trip` returned 0 photos,
+  7 videos, for the window), so used the real YouTube thumbnail as
+  cover and embedded the video in-body, same pattern as the Zauo and
+  ekiben posts. No affiliate link forced (Thursday doesn't require
+  one); found a real, unused Viator affiliate link for this exact
+  activity in the video's own description
+  (`https://www.viator.com/tours/Tokyo/Tokyo-Skytree-Admission-Ticket/d334-293458P3?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-126-skytree`)
+  but didn't use it here since the existing pricing post already
+  carries a full Klook booking box for the same ticket, a competing
+  box for the same attraction would confuse readers; cross-linked to
+  that post for booking and current pricing instead. Rolled length
+  tier 4 (1,000-1,300 words) and format 3 (question title, build to a
+  verdict); format 3 fit naturally since the real video's own title
+  already asks the question. Landed at 1,065 words after genuinely
+  adding real content, not padding (a verified transit-access fact,
+  real Skytree Cafe menu detail, current pricing cross-reference) to
+  reach the floor honestly rather than stretching thin material.
+  Zero uses of "actually" or "genuinely" in the published body (3
+  "actually" and 2 "genuinely" caught and cut across drafts). No
+  `mark_photo_used` call, YouTube thumbnail, not AL_Vault. Slug:
+  `tokyo-skytree-real-visit-both-decks-worth-it`. Topic
+  `en/towers-observation-decks`.

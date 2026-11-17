@@ -106,67 +106,6 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
 ## Done
-- **Klook Wednesday, 2026-11-11: teamLab Future Park Okinawa,
-  researched.** Checked the "already posted today" guard first (no
-  post with today's date existed), then pulled this from
-  `docs/klook-priority-activities.md`'s unblocked priority list
-  (first and only entry left there). Full provenance (real pricing,
-  the official-vs-Klook date-change tradeoff, the real Yui Rail
-  transit-fare math, the DFS cover photo, the caught overclaim about
-  Japan's total teamLab count, the dead adamandlinds.com search
-  result checked and discarded) logged in
-  `docs/klook-priority-activities.md` rather than duplicated here.
-  Slug: `teamlab-future-park-okinawa-direct-vs-klook`. Length tier 4
-  (1,070 words), format 6 (head-to-head). Topic `en/teamlab`.
-- **Throwback Thursday, 2026-11-12: a real March 2023 Tokyo Skytree
-  visit, both decks, found via the Tokyo video pool.** Checked the
-  "already posted today" guard first (no post with today's date
-  existed). `get_destinations` showed the same 32 destinations as
-  every recent check, no new uploads, so swept the 41-item Tokyo
-  video pool rather than defaulting to research (Thursday always
-  needs a real visit). Most titles traced to already-published posts
-  via `grep`, but "We Went to the Top of Tokyo… Was It Worth It?"
-  (youtube_id `Lt3QdpqE1Wc`, filmed March 2023) matched no existing
-  post: confirmed via `get_trip` and a direct read of
-  `tokyo-skytree-tembo-deck-ticket-price-cost.mdx` that the existing
-  Skytree post is a researched 2026-dynamic-pricing/history piece,
-  not built from this real visit, so no duplicate. `get_trip` for the
-  surrounding window also surfaced the real "Family Reunion" video
-  (Adam's parents, Kim and Terry, Nov 2023, a different and unrelated
-  stretch of the trip, already covered in two other posts) and two
-  other unused-but-thin candidates (`127 | CHEAP FAMILY DAY OUT`, the
-  real Ueno Zoo visit referenced in `ueno-zoo-shinobazu-pond-boats-
-  tokyo-cost.mdx` via a different photo source already, so not a
-  fresh angle); picked the Skytree one as the clearest genuinely
-  unused real visit. Noticed a possible factual inconsistency in an
-  already-published post while cross-checking (`thanksgiving-dinner-
-  tokyo-apartment-turkey-chicken-cost.mdx` says "Lindsay's parents,"
-  but this video's own `notes_for_ai` and two other published posts
-  say Adam's parents, Kim and Terry, for the same November 2023
-  visit); flagging here for a future audit pass rather than editing
-  an old post speculatively without stronger evidence. No AL_Vault
-  photos exist for this specific day (`get_trip` returned 0 photos,
-  7 videos, for the window), so used the real YouTube thumbnail as
-  cover and embedded the video in-body, same pattern as the Zauo and
-  ekiben posts. No affiliate link forced (Thursday doesn't require
-  one); found a real, unused Viator affiliate link for this exact
-  activity in the video's own description
-  (`https://www.viator.com/tours/Tokyo/Tokyo-Skytree-Admission-Ticket/d334-293458P3?pid=P00074464&mcid=42383&medium=link&medium_version=selector&campaign=vlog-126-skytree`)
-  but didn't use it here since the existing pricing post already
-  carries a full Klook booking box for the same ticket, a competing
-  box for the same attraction would confuse readers; cross-linked to
-  that post for booking and current pricing instead. Rolled length
-  tier 4 (1,000-1,300 words) and format 3 (question title, build to a
-  verdict); format 3 fit naturally since the real video's own title
-  already asks the question. Landed at 1,065 words after genuinely
-  adding real content, not padding (a verified transit-access fact,
-  real Skytree Cafe menu detail, current pricing cross-reference) to
-  reach the floor honestly rather than stretching thin material.
-  Zero uses of "actually" or "genuinely" in the published body (3
-  "actually" and 2 "genuinely" caught and cut across drafts). No
-  `mark_photo_used` call, YouTube thumbnail, not AL_Vault. Slug:
-  `tokyo-skytree-real-visit-both-decks-worth-it`. Topic
-  `en/towers-observation-decks`.
 - **Food Friday, 2026-11-13: Kurumaya Ramen, Urayasu, a real find from
   2026-11-06's flagged lead.** Checked the "already posted today"
   guard first (no post with today's date existed). Pulled the
@@ -383,3 +322,33 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   cut across drafts). `pnpm build`, `pnpm check`, `pnpm lint:house` all
   clean. Slug: `oriental-hotel-universal-city-stay-spotlight`. Topic
   `en/hotels-stays`.
+
+- **Done (2026-11-17, Tue):** Quick Tip Tuesday, "Cash in Japan: Up to
+  ¥100,000 a Pull at a 7-Eleven ATM, a Flat Fee Either Way." Picked this
+  angle after confirming via `grep` it's genuinely uncovered,
+  `kids-debit-card-japan-cash-still-needed.mdx` only touches ATMs as a
+  backstop for kids' gacha cash, not the general adult logistics.
+  Confirmed Seven Bank's own card-network list (Visa, PLUS, Mastercard,
+  Maestro, Cirrus, UnionPay, Amex, JCB, Discover, Diners) straight from
+  `sevenbank.co.jp/intlcard/`; three more attempts at their own fee/
+  limit pages never returned the actual numbers, so the ¥100,000 cap
+  and ¥110-220+ fee range are honestly sourced from third parties, not
+  Seven Bank's own page, flagged as such in the post. Added Japan Post
+  Bank and Lawson/FamilyMart E-net as a comparison table, plus a
+  debit-vs-credit-card cash-advance warning and an airport-counter-vs-
+  ATM rate comparison (left the one existing on-site number,
+  kids-debit-card's "~50,000 yen" Seven Bank cap, as-is rather than
+  silently overwritten, since this post's own hedge already covers the
+  discrepancy). Rolled length tier 5 (1,300-1,600 words) and format 1
+  (price-first); landed at exactly 1,299 words after two genuine
+  additions (the cash-advance note, a concrete multi-withdrawal fee-math
+  example) rather than padding. Cover: an AL_Vault family photo (`Late
+  Night Konbini Run Past the Hakone Torii`, Adam and Lindsay with a
+  7-Eleven sign glowing behind them), used after Wikimedia's own upload
+  servers came back globally rate-limited on every file tried, not just
+  one, so the usual Commons-first fallback for a no-visit topic post
+  was swapped for an on-theme AL_Vault photo instead, `mark_photo_used`
+  called. Zero "real"/"really" and zero "actually"/"genuinely" in the
+  published body (2 of each caught and cut across drafts). `pnpm build`,
+  `pnpm check`, `pnpm lint:house` all clean. Slug:
+  `getting-cash-japan-atm-seven-bank`. Topic `en/travel-prep`.
