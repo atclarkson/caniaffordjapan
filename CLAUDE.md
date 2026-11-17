@@ -220,8 +220,8 @@ the same "what does X actually cost" template with the city name swapped.
   different opening (narrative-first, history-led, and myth-correction all
   deliberately delay it). Use one H1 only (the layout renders `title`,
   don't repeat it as a heading in the body); use `##` for sections.
-- A markdown table works fine for a cost breakdown, the theme's prose
-  styles handle it.
+- Tables: plain markdown is styled automatically; to compare options in
+  `.mdx`, wrap it in `<Table variant="cards|matrix|rows">`, see `docs/tables.md`.
 - For a single photo, a plain `<figure><img src="..." alt="..." /><figcaption>...</figcaption></figure>`
   works. For two or more side by side, wrap them in
   `<div class="grid grid-cols-1 gap-3 sm:grid-cols-2">` with plain

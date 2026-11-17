@@ -4,6 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 import sponsoredLinks from "./scripts/sponsoredLinks.mjs";
+import rehypeTables from "./scripts/rehypeTables.mjs";
 import { readdirSync, readFileSync } from "node:fs";
 
 // <lastmod> for every post in the sitemap, read straight from frontmatter
@@ -82,6 +83,8 @@ export default defineConfig({
   ],
 
   markdown: {
+    // Table system for posts: docs/tables.md.
+    rehypePlugins: [rehypeTables],
     shikiConfig: {
       // Deux themes, commutes par la classe .dark : un bloc de code qui reste
       // clair sur une page sombre est la premiere chose qu'on remarque, et la

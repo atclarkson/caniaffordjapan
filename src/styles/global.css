@@ -3,6 +3,8 @@
 @import "tailwindcss";
 @import "./tokens.css";
 @import "./prose.css";
+@import "./tables.css";
+@import "./table-blocks.css";
 @import "./motion/index.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
