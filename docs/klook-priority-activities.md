@@ -122,6 +122,66 @@ always confirm against the live Klook page before publishing.
   the transit-cost math also caught and corrected before publishing).
   `pnpm build`, `pnpm check`, `pnpm lint:house` all clean.
 
+- Asakusa Sumo Club Sumo Show Admission with Chankonabe, activity id
+  109994. Published 2026-11-18 as `asakusa-sumo-club-chankonabe-klook-
+  price.mdx`, Klook Wednesday, honestly researched (checked AL_Vault
+  fresh, zero sumo-related photos exist, the family hasn't been).
+  Resolves the "Ginza sumo idea" from `docs/blog-ideas.md`: found a
+  real matching page for "Tokyo Ginza Sumo Experience" (Klook activity
+  165080, via `site:klook.com` search), but its own numbers didn't
+  reconcile across sources (12,000 to 16,875 JPY depending on mirror,
+  rating 4.7/50 reviews on one Klook snapshot vs. 4.9/1,330 on a
+  LiveJapan mirror of what may be a different sub-listing), and
+  Klook's own page 403'd both direct `curl` and the r.jina.ai
+  proxy that worked for adamandlinds.com earlier in this project, so
+  the numbers couldn't be confirmed directly. Pivoted to this doc's
+  own pre-listed Asakusa fallback instead, cleanly cross-verified
+  (4.8 stars consistent everywhere checked, price $100-102 agreeing
+  between the 2026-01-03 export and a cross-check against
+  adamandlinds.com's own post on the same activity, which also
+  supplied real venue/format detail: Asakusa basement venue near
+  Senso-ji, retired-wrestler live matches between chankonabe courses,
+  geisha dance opener, optional audience "Sumo Challenge"). Noted
+  honestly: adamandlinds.com's page contradicted itself on the
+  visiting family's kids' ages between the body and its own FAQ, a
+  sign its granular claims (exact minutes, drink-package pricing)
+  aren't fully reliable, so those specific details were either
+  independently cross-checked or hedged rather than taken at face
+  value, while the stable structural facts (venue, format, walking
+  distance to Senso-ji) were kept. Added a real comparison section
+  against official Ticket Oosumo tournament pricing (chair seats
+  ¥4,000-9,500/person, 4-person boxes ¥56,000-60,000, ringside
+  ~¥20,000/person, Japanese-site-only) to make the "this is the
+  fallback when the real tournament doesn't work out" angle concrete
+  rather than asserted. Also found and added a real upsell mention,
+  the newer Asakusa Sumo Club Annex (opened Feb 2025, A5 wagyu
+  sukiyaki instead of chankonabe, ~$109-126 on Klook), cross-linked to
+  this site's own `a5-wagyu-yakiniku-asakusa-grading-cost.mdx` for the
+  grading explainer. Cover: Wikimedia Commons' upload servers were
+  globally rate-limited again (same issue as the 2026-11-17 Quick Tip
+  post), so used a real Klook-hosted promotional photo instead
+  (extracted from adamandlinds.com's embedded `res.klook.com` image,
+  confirmed via ImageMagick conversion to actually show the venue's
+  dohyo and wrestlers, not a placeholder), credited as a booking-site
+  listing photo per CLAUDE.md's fallback policy. Applied the newer
+  "don't open with the no-visit disclaimer, don't be explicit about it
+  at all if it can be avoided" standard (2026-11-16 correction): the
+  post never claims a first-person visit anywhere, so no disclaimer
+  sentence was needed at all, a cleaner resolution than the explicit
+  "we haven't been" lines used in earlier researched posts (Okinawa,
+  Fukuoka teamLab) before that standard existed. Rolled length tier 5
+  (1,300-1,600 words) and format 14 (direct address); landed at 1,343
+  words after three genuine added sections (tournament pricing
+  comparison, sumo-basics orientation, the Annex upsell) rather than
+  padding. Zero "real"/"really" and zero "actually"/"genuinely" in the
+  published body (multiple of each caught and cut across drafts).
+  `pnpm build`, `pnpm check`, `pnpm lint:house` all clean. Not on the
+  code's 1% named-activity list, general 10%/3% tiers apply, noted
+  honestly. Affiliate link built by hand from the export's
+  `aid=42202&aff_adid=1184628` pattern (not `klookRedirect`, per this
+  doc's own warning that the two aid/aff_adid pairings aren't
+  interchangeable).
+
 Also published, outside this list: `nintendo-museum-uji-ticket-price-lottery.mdx`,
 real photos from an April 2026 family trip. Not a Klook or GYG bookable item
 (official lottery ticket system only, confirmed via web search), so it uses
@@ -144,17 +204,10 @@ Re-check each activity's current price, rating, and review count against
 the live Klook page before publishing either way, the figures above are
 from a 2026-01-03 export and will have moved.
 
-**On the Ginza sumo idea (see `docs/blog-ideas.md`):** the exact "Tokyo
-Ginza Sumo Experience" activity from the 2026-09-12 marketing email isn't
-a row in the Drive export, keep searching for its real page independently
-before publishing. The export does carry several other real, bookable
-Tokyo sumo experiences as a fallback or alternative angle if that one
-page can't be found: Asakusa Sumo Club Sumo Show Admission with
-Chankonabe, id 109994, $101.99, 4.8 stars, 1,076 reviews; Sumo Practice
-Watch with a Specialist Reporter (Ryogoku), id 93976, $91.79, 5 stars,
-462 reviews. Both affiliate links follow the same
-`aid=42202&aff_adid=1184628` pattern as above, swap in the activity id
-and slug.
+**Remaining fallback, not yet used:** Sumo Practice Watch with a
+Specialist Reporter (Ryogoku), id 93976, $91.79, 5 stars, 462 reviews,
+same `aid=42202&aff_adid=1184628` affiliate link pattern. The Ginza
+sumo idea itself is resolved, see the Asakusa Sumo Club entry below.
 
 ## Done, outside this list's original scope
 

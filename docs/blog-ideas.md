@@ -22,28 +22,6 @@ content lives in the numbered files now. Check the archive files if you
 need provenance on a post published before 2026-10-07 (02:00 UTC).
 
 ## Ideas
-
-- **UNBLOCKED 2026-10-26 for Klook Wednesday specifically: Ginza sumo
-  experience, with the Klook code.** Was BLOCKED on "no real family
-  visit"; the new weekly calendar's Klook Wednesday column doesn't
-  require one (see `CLAUDE.md` "Weekly calendar"), so this is fair
-  game for a Wednesday now, just write it as an honest researched
-  recommendation, not a fake first-person account. A real lead as of
-  2026-09-12: a Klook marketing email (fall flash sale, forwarded by
-  the site owner) featured "Tokyo Ginza Sumo Experience," 50% off, 4.8
-  stars, 10K+ booked. That's Ginza, not Asakusa, note the correct
-  neighborhood rather than the original idea's guess. The email had no
-  clickable links (a flattened print-to-PDF), find the real Klook
-  activity page URL independently (web search "site:klook.com Tokyo
-  Ginza Sumo Experience" worked for the Disney/USJ post) before using
-  klookRedirect, and note that ADAMANDLINDSKLOOK's general new/existing
-  user tiers apply to any Klook cart over $50 regardless of activity,
-  only the separate 1% tier is restricted to the named list in
-  `klookCode.ts`, so the code is worth including either way. The 50%
-  flash-sale figure is six weeks stale as of this update, it was time
-  limited even in September, confirm the real current rate, rating,
-  and review count on Klook's own page before publishing rather than
-  quoting that number.
 - **AL_Vault pool status as of the 08:00 UTC 2026-10-24 firing: no new
   post found this firing, both priority sources exhausted and an
   exhaustive AL_Vault sweep came up empty.** Checked `get_destinations`
@@ -352,3 +330,12 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (2 of each caught and cut across drafts). `pnpm build`,
   `pnpm check`, `pnpm lint:house` all clean. Slug:
   `getting-cash-japan-atm-seven-bank`. Topic `en/travel-prep`.
+- **Klook Wednesday, 2026-11-18: Asakusa Sumo Club dinner show,
+  researched, resolves the long-standing Ginza sumo idea.** Full
+  provenance (why the Ginza lead got dropped for this doc's own
+  Asakusa fallback, the adamandlinds.com cross-check and its internal
+  inconsistency, the tournament-pricing comparison, the Annex upsell,
+  the cover-photo workaround) logged in
+  `docs/klook-priority-activities.md` rather than duplicated here.
+  Slug: `asakusa-sumo-club-chankonabe-klook-price`. Length tier 5
+  (1,343 words), format 14 (direct address). Topic `en/tokyo`.
