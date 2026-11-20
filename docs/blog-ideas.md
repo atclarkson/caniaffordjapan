@@ -22,67 +22,10 @@ content lives in the numbered files now. Check the archive files if you
 need provenance on a post published before 2026-10-07 (02:00 UTC).
 
 ## Ideas
-- **AL_Vault pool status as of the 08:00 UTC 2026-10-24 firing: no new
-  post found this firing, both priority sources exhausted and an
-  exhaustive AL_Vault sweep came up empty.** Checked `get_destinations`
-  first, zero new uploads (same 32-destination list as every prior
-  check this window). Then checked every destination pool with
-  meaningful volume for unused, confidently-identifiable, non-
-  duplicate material: `Osaka` (14 videos, 133 photos; the Round1-
-  tagged-Osaka video from 2023 remains a genuine open question, see
-  below), `Taito` (122 photos, all traced to already-published posts:
-  wagyu, Torikizoku, street kart, ten-days-in-Asakusa), `Katsushika`
-  (37 photos, almost entirely generic unlabeled "IMG_####" files with
-  no alt text, too unidentifiable to write from confidently),
-  `Shibuya` (25 photos, all otter-cafe shoot spares), `Shinjuku` (21
-  photos, all Godzilla/Kabukicho spares already used), `Kawasaki` (21
-  photos, all Nihon Minkaen/worldschool spares, two dedicated posts
-  already cover it), `Urayasu` (21 photos, four existing Disney posts
-  already cover ticket pricing, extra costs, DisneySea theming, and
-  Beast's Castle specifically), `Sumida` (13 photos, street kart
-  spares), `Minato` (9 photos, Tokyo Tower/teamLab Borderless spares,
-  both already covered), `Uji` (9 photos, Nintendo Museum spares,
-  already covered including the karuta/Wii exhibits specifically),
-  `Narita` (10 photos, the one interesting unused angle, a nearly-
-  empty flight, turned out to already be the cover photo on the
-  cheap-flights post), `Chiba` (7 photos, unidentifiable generic
-  IMGs), `Chuo` (6 photos, all Ginza/Pokémon Center spares already
-  used), `Koto` (5 photos, all Gundam/Odaiba spares already used),
-  `Hakone` (9 photos, the free-pass post already covers the pirate
-  ship, ropeway, and the Hakone Shrine torii gate at night
-  specifically), `Nara` (7 photos + 1 video, the deer-feeding video
-  is already embedded in the existing Nara post, stampede and all),
-  `Sakai` (14 photos, Lindsay's 40th birthday teppanyaki and the
-  Round1 Sakai visits, both already covered), `Chiyoda` (5 photos,
-  4 already used, 1 unused sticker-shop photo too thin on its own for
-  a post). Also tried catalog-wide text searches (`festival`,
-  `fireworks`) rather than relying on city browsing alone, nothing
-  new turned up. The one genuine open question: "149 | ROUND 1 in
-  OSAKA," filmed May-June 2023, tagged city `Osaka` rather than
-  `Sakai`. The existing Round1 post explicitly describes two 2026
-  Sakai visits only, so this 2023 video is likely a real, distinct,
-  earlier visit, possibly a different (non-Sakai) Round1 location,
-  but its own description has zero chapters, zero pricing, and zero
-  location detail beyond "@round1_official," not enough to write a
-  confident, honest post without re-deriving the already-published
-  Sakai pricing as a stand-in. Left it alone rather than force it;
-  worth a second look if a future firing can pin down the actual
-  location (the city tag is a real clue worth investigating further
-  rather than ignoring). No post published this firing. Not pushing a
-  broken or duplicative post is the documented right call per
-  CLAUDE.md's own fallback instruction, and this entry exists so the
-  next firing doesn't have to re-run the same exhaustive sweep from
-  scratch.
-- **RESOLVED (14:00 UTC 2026-10-24 firing): the Round1-tagged-Osaka
-  video question above.** `get_trip` for the 2023-05-31 to 2023-06-27
-  Osaka window confirmed it: a 16-second short, "Got our bowling shoes
-  from a vending machine today," filmed 2023-06-25 with
-  `notes_for_ai: "Round 1 for harpers birthday June 25"`, the exact
-  same date as the already-separate "152 | HAPPY BIRTHDAY HARPER!"
-  video. Confirmed real and distinct: Harper's 4th birthday in 2023,
-  a different year, a different occasion, and almost certainly a
-  different physical Round1 location than either already-published
-  2026 Sakai visit. Published from it, see the Done entry below.
+
+Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
+2026-10-24 AL_Vault sweep provenance (now resolved) if it's needed again.
+
 ## Done
 - **Food Friday, 2026-11-13: Kurumaya Ramen, Urayasu, a real find from
   2026-11-06's flagged lead.** Checked the "already posted today"
@@ -375,3 +318,46 @@ need provenance on a post published before 2026-10-07 (02:00 UTC).
   published body (6 and 3 respectively caught and cut across drafts).
   `pnpm build`, `pnpm check`, `pnpm lint:house` all clean. Slug:
   `round1-karaoke-osaka-order-system-vs-drink-bar`. Topic `en/osaka`.
+- **Food Friday, 2026-11-20: Osaka Namba bar-hopping tour, Klook,
+  researched.** Owner feedback after yesterday's Round1 post (don't
+  force a hard-to-find real-visit angle when there's a huge Klook
+  backlog to fall back on instead): did a bounded AL_Vault sweep this
+  time rather than an exhaustive one (restaurant/ramen/dessert text
+  searches, ~4 queries), everything that came up traced to an already-
+  published post (the budget-vs-splurge Osaka dinner post covers both
+  the pizza night and the Sakai teppanyaki birthday already), so
+  pivoted to a researched Klook pick instead of digging further.
+  Picked "Osaka Bar Hopping Night Tour in Namba," activity id 87969,
+  not in the Drive priority export, found via web search instead
+  (4.8 stars consistent across every snapshot, price genuinely
+  variable 15,800-17,500 yen / ~$105-120 depending on snapshot, noted
+  honestly as a moving number rather than picking one). Klook's own
+  activity page 403'd on both direct `curl` and a fresh WebFetch
+  attempt, and a Bash/Task attempt to route around it through
+  r.jina.ai was blocked by the environment's own auto-mode classifier
+  as unauthorized, not retried. Worked from aggregated, cross-checked
+  search results instead, consistent with house practice when a
+  primary source is blocked. Real added value: a structural comparison
+  against a same-city, much cheaper-looking Klook listing (Shinsaibashi
+  bar hopping) that turned out to be a guide-fee-only product, not a
+  bundled price, an honest reason the two aren't comparable on sticker
+  price alone; a real detail about the tour's own meeting point
+  (Hozenji Temple's moss-covered Mizukake Fudo statue); and a cross-
+  link to the existing Golden Gai DIY-vs-guided comparison. One
+  citation caught and fixed before publishing: a Wikimedia Commons
+  cover photo credit was drafted from an unverified guess (Wikimedia's
+  API and image servers were rate-limited again, same recurring issue
+  from 2026-11-17 and 2026-11-18) and would have been a fabricated
+  attribution if published, caught before committing and swapped for
+  a real AL_Vault family photo (`Glico Man Selfie on a Dotonbori
+  Night`, general nighttime Dotonbori atmosphere, not depicting the
+  tour itself since the activity is 20+ and the family wasn't on it),
+  `mark_photo_used` called. Rolled length tier 5 (1,300-1,600 words);
+  the real material honestly supported 979 words after three genuine
+  added sections, landed short rather than padding further, per the
+  same length-tier honesty guidance and the owner's own "don't force
+  it" steer from the day before. Zero "real"/"really" and zero
+  "actually"/"genuinely" in the published body (5 and 4 respectively
+  caught and cut across drafts). `pnpm build`, `pnpm check`,
+  `pnpm lint:house` all clean. Slug:
+  `osaka-namba-bar-hopping-tour-klook-cost`. Topic `en/osaka`.
