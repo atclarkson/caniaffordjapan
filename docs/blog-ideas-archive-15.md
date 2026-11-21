@@ -68,3 +68,42 @@ more recent entries. When this file nears 400 lines too, start
   a different year, a different occasion, and almost certainly a
   different physical Round1 location than either already-published
   2026 Sakai visit. Published from it, see the Done entry below.
+- **Food Friday, 2026-11-13: Kurumaya Ramen, Urayasu, a real find from
+  2026-11-06's flagged lead.** Checked the "already posted today"
+  guard first (no post with today's date existed). Pulled the
+  Kurumaya Ramen lead flagged two firings ago as "kept as a future
+  idea" rather than starting a fresh sweep; confirmed via `grep` it
+  was still unused. The short video has no `city`/`country` tag and
+  no `date_filmed` in AL_Vault (unlike most videos), published
+  2023-09-02; checked for a corroborating DisneySea video in the same
+  window to pin down an exact visit date, found none (the Nov 2022
+  DisneySea vlog and the Sept 2025 Urayasu/Disney photo set are both
+  too far off to be the same trip), so the post doesn't claim a
+  specific date beyond "posted September 2023," honest about the gap
+  rather than guessing. Real address (3 Chome-5-45 Fujimi, Urayasu)
+  confirmed via Tabelog's current Urayasu-branch listing: chilled soy
+  sauce noodles 1,000 yen, gyoza 290 yen (157 yen at lunch with a
+  ramen order), draft beer 680 yen, free half-bowl of rice, open
+  11am-1am, closed Tuesdays. Rolled format 2 (free-vs-paid split)
+  first, didn't fit at all (nothing at a restaurant is "free"),
+  rerolled once per CLAUDE.md's own allowance, landed on format 6
+  (head-to-head), which fit well: real Tokyo Disney Resort
+  counter-service pricing (Casbah Food Court curry 950-1,200 yen,
+  China Voyager's own ramen, typical counter meals 900-1,800 yen,
+  table service 2,500-9,000 yen) researched via WebSearch for an
+  honest comparison. The real finding undercut the obvious "cheaper
+  outside the park" narrative, the two options land in roughly the
+  same yen range, so the post's verdict is about logistics (a
+  kitchen open past midnight) rather than forcing a price gap that
+  isn't really there. One real, unused AL_Vault photo used in body
+  (a different, later Urayasu/Disney stay, explicitly labeled as
+  separate from the Kurumaya visit to avoid conflating two trips),
+  `mark_photo_used` called. Cover: the short's own YouTube thumbnail.
+  Rolled length tier 3 (800-1,000 words); landed at 799 after two
+  genuine real-content additions (other Kurumaya branches' pricing
+  for context, a real family-of-five math line using only confirmed
+  menu numbers, explicitly declining to invent kids' pricing since
+  none is published). Zero uses of "actually" or "genuinely" in the
+  published body (2 "actually" and 1 "genuinely" caught and cut
+  across drafts). Slug: `kurumaya-ramen-urayasu-vs-disney-counter-
+  meal`. Topic `en/budget-food`.
