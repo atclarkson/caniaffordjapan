@@ -80,7 +80,7 @@ export const WHAT_WE_SPENT = {
 export const WORTH_IT = [
   {
     slug: "tokyo-disney-vs-usj-ticket-price-klook-deal",
-    verdict: "Both use date-based pricing. Real current ranges for each park, side by side.",
+    verdict: "Both use date-based pricing. Current ranges for each park, side by side.",
   },
   {
     slug: "usj-express-pass-worth-it-cost",

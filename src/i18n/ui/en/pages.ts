@@ -12,11 +12,11 @@
 export const enPages = {
   // --- Accueil -------------------------------------------------------------
   home: {
-    metaTitle: "Can I Afford Japan? - real prices for an affordable Japan trip",
+    metaTitle: "Can I Afford Japan? - prices for an affordable Japan trip",
     metaDescription:
-      "Honest, well-researched posts on what things really cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and real research in between. Real pricing, never invented.",
+      "Honest, well-researched posts on what things cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and genuine research in between. Pricing, never invented.",
     eyebrow: "Can I Afford Japan?",
-    heroTitle: "Real Japan prices from a family of five",
+    heroTitle: "Japan prices from a family of five",
     heroAccent: "",
     heroLede:
       "{n} posts on hotels, food, trains, theme parks, and day trips, priced from our own trips and current booking sites.",
@@ -63,7 +63,7 @@ export const enPages = {
     storyParagraphs: [
       "In May 2022, Adam and Lindsay sold their house in Indiana, packed five bags, and left with three kids aged 6, 5, and 2. It was supposed to be a one year trip. Four years and more than 33 countries later, they're still going, worldschooling the girls along the way.",
       "Japan wasn't the first stop, but it's the one that stuck. After a first trip in 2022 and a longer one in 2023, they kept coming back: months at a time in Osaka and Fukuoka, repeat trips to Tokyo, enough visits that Japan is now Cora and Harper's favorite country in the world.",
-      "This site is the real prices from those trips. What a temple costs (nothing). What dinner costs. What a discount code gets you. No guessing.",
+      "This site is the prices from those trips. What a temple costs (nothing). What dinner costs. What a discount code gets you. No guessing.",
     ],
     stats: [
       { value: "33+", label: "Countries visited" },
@@ -76,7 +76,7 @@ export const enPages = {
     madeTitle: "How we make this site",
     made: [
       "Most of what we write about, we've done ourselves. The prices, photos and stories come from our own trips. When a post covers something we haven't done yet, like a hotel we haven't stayed in, it's written from research and current prices, and it never says we were there.",
-      "We use AI to help with research, topic ideas, building the site and writing the posts. The trips, the photos, the receipts and the family are real.",
+      "We use AI to help with research, topic ideas, building the site and writing the posts. The trips, the photos, the receipts and the family are ours.",
     ],
     nikoTitle: "Niko",
     niko: [
@@ -111,7 +111,7 @@ export const enPages = {
       {
         name: "Harper",
         role: "The youngest",
-        bio: "Was two years old when the family left Indiana and has never really known anything else.",
+        bio: "Was two years old when the family left Indiana and has never known anything else.",
         favorite: "Favorite country: Japan",
       },
     ],
