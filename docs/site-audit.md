@@ -305,3 +305,42 @@ placeholder.
   site" (#how-we-make-it) and a Legal "How we use AI" section; Authors lede
   no longer says the whole family writes it. SC export 2026-11-16 saved. Compare Search Console a week
   after the rollout ends, not before.
+- **2026-11-21, "real"/"really" sweep, title/description layer:** Found
+  the absolute "real"/"really" ban (post body copy) had never been
+  swept against non-post site copy or post title/description fields.
+  `grep -rli "\breal\b\|\breally\b"` against `src/data/topics/en/*.json`,
+  `src/i18n/ui/en/pages.ts`, `src/data/homePage.ts`,
+  `src/data/authors/en/the-clarksons.json`, and
+  `src/components/Sections/Home/WhatWeSpent.astro` turned up hits in
+  every one of them. Fixed: 13 topic JSON files (`description`/
+  `seoTitle`), 6 strings in `pages.ts` (home meta title/description/hero
+  title, about page story and "how it's made" lines, Harper's bio
+  line), the `WORTH_IT` Disney-vs-USJ verdict line in `homePage.ts`, the
+  author bio in `the-clarksons.json`, and the rendered "Real days from
+  our own budget tracking" paragraph in `WhatWeSpent.astro` (its two JS
+  comments left alone, not reader-facing). `home.heroTitle` ("Real Japan
+  prices from a family of five") got no carve-out despite a prior
+  firing giving its "actually" version one: the "real" rule has no
+  stated exception, and this was exactly the trust-signaling phrasing
+  the owner was angriest about.
+  Then checked the post corpus itself: 157 of the 227 post files had
+  "real"/"really" somewhere, 143 of those specifically in `title:` or
+  `description:` frontmatter (1,228 total instances site-wide, body
+  prose included). Scoped today's fix to title/description only,
+  mirroring how the "actually"/"genuinely" sweep was staged across
+  three separate firings rather than rushed in one sitting. Fixed all
+  165 hits across the 143 files (some files had it in both fields),
+  every fix removing the word cleanly or swapping in "current,"
+  "actual," "genuine," or nothing, with no fact, price, or date
+  changed. Three files have "real" in the post's URL slug itself
+  (`tokyo-skytree-real-visit-both-decks-worth-it`,
+  `zauo-tokyo-december-2022-real-visit`,
+  `ramen-shop-osaka-ordering-etiquette-real-cost`); left the slugs
+  untouched to avoid breaking live URLs, fixed only their prose.
+  Full-corpus grep after editing confirmed zero remaining "real"/
+  "really" hits in any post's title or description field. `pnpm
+  build`, `pnpm check`, and `node scripts/house.mjs` all clean.
+  **Top priority for the next firing(s):** the body-prose tail across
+  the post corpus is much larger than the title/description layer was
+  (1,228 total instances minus the 165 just fixed), so expect this to
+  take more than one more weekly firing, same as "actually" did.
