@@ -27,99 +27,9 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
 2026-10-24 AL_Vault sweep provenance (now resolved) if it's needed again.
 
 ## Done
-- **Day Trip Saturday, 2026-11-14: Nikko, researched (no real visit),
-  the family-logistics angle.** Checked the "already posted today"
-  guard first (no post with today's date existed). Checked AL_Vault
-  before defaulting to research: small remaining pools (Chiba, Ota)
-  turned up nothing new, no real Nikko material exists anywhere in
-  the catalog, honest research is the correct path, Saturday doesn't
-  require a visit anyway. Confirmed via `grep` no existing post
-  covers Nikko. Rolled format 7 (artifact-driven) first, didn't fit
-  at all (no real visit means no real physical artifact to build a
-  post around), rerolled once per CLAUDE.md's own allowance, landed
-  on format 12 (family-logistics framing), which fit genuinely well:
-  Nikko's real selling point against Kamakura and Hakone, both
-  already covered, is that it's a meaningfully longer, more
-  physically demanding day (10-12 hour guided tours, real steps and
-  hilly paths at Toshogu Shrine per multiple tour listings, Tobu's
-  own warning about autumn bus-delay risk to Lake Chuzenji with no
-  refund), a real reason it keeps getting passed over for an easier
-  option. Researched real current prices via WebSearch/WebFetch:
-  Toshogu Shrine admission (1,600 yen adult/550 yen child), Shinkyo
-  Bridge crossing fee (300 yen, free to view from the road bridge),
-  Kegon Falls elevator (600 yen adult round trip/400 yen child, free
-  upper deck), Tobu's own NIKKO PASS World Heritage Area (3,000
-  yen/1,500 yen, fetched directly from tobu.co.jp) versus the limited
-  express fare, and real Klook/Viator guided-tour pricing ($52-90+).
-  Found a real kid-friendlier alternative several tours bundle in
-  instead of the waterfall-and-lake half (Edo Wonderland Nikko
-  Edomura, ninja shows over a mountain hike, 5,800 yen adult gate
-  price), presented honestly as costing more rather than less. Used
-  the real `klookRedirect()` helper and `<KlookCodeBox>` on a real,
-  verified Klook activity page (id 20405) rather than a generic
-  search link; noted honestly it's not on the 1% named-activity
-  code tier. Cover: no AL_Vault or booking-site photo exists for an
-  unvisited destination, found and verified a real, properly
-  licensed Wikimedia Commons photo of the Yomeimon Gate (Jpatokal, CC
-  BY-SA 4.0, 2024), first guess at the filename was wrong and 404'd
-  the API, found the real file via a Commons search instead; credit
-  in frontmatter `photoCredits` per the 2026-11-10 convention, not a
-  caption line. Initially included a reused Disney-photo aside for
-  pacing contrast, cut it before publishing, a forced non-sequitur
-  (a Disney castle photo in a Nikko post) rather than something that
-  actually served the post. Rolled length tier 5 (1,300-1,600 words);
-  landed at 1,291 after two genuine real-content additions (USD
-  conversions throughout per house style, a real family-of-five cost
-  math section, the Edo Wonderland alternative), short of the strict
-  floor by a handful of words rather than padded further to clear it
-  artificially. Zero uses of "actually" or "genuinely" in the
-  published body (4 "actually" and 1 "genuinely" caught and cut
-  across drafts, several in section headers). `pnpm build`, `pnpm
-  check`, `pnpm lint:house` all clean. Slug:
-  `nikko-day-trip-tokyo-with-young-kids-cost`. Topic `en/day-trips`.
-- **Gear Up Sunday, 2026-11-15: a digital luggage scale, researched, no
-  real visit.** Checked the "already posted today" guard first (no post
-  with today's date existed). Gear Up Sunday's real sources are narrow
-  (Amazon, Wayb, Zenni, Greenlight, Travel Spend per `docs/weekly-
-  calendar.md`), and `grep` confirmed all five already have a dedicated
-  post (`wayb-pico-travel-car-seat-cost-review`, `zenni-glasses-before-
-  trip-vs-japan-optician`, `kids-debit-card-japan-cash-still-needed`,
-  `travelspend-app-tracking-japan-trip-costs`, and several Amazon-linked
-  Quick Tip posts). Picked a genuinely new angle under the standing
-  Amazon link rather than repeating one of those: a luggage scale, tied
-  to a real cost the site hadn't covered yet (confirmed via `grep`, no
-  existing post mentions an overweight baggage fee as its own topic).
-  Researched ANA's own current domestic fee page directly (1,100 yen for
-  23-32kg on most routes, 500 yen on a few named exceptions; 5,500 yen
-  for 32-45kg, 4,400 yen on those same exceptions), a real, confirmed
-  source. A direct `WebFetch` of ANA's international overweight-fee page
-  timed out twice, so the international figures (~$60 for 23-32kg,
-  roughly 6,000 yen; ~$200 for 32-45kg, roughly 20,000 yen) are attributed to
-  third-party baggage-fee trackers only, with an explicit note in the
-  post that they're unconfirmed against ANA's own page and the reader
-  should check their own route. Found no confirmable current JAL
-  overweight rate at all (WebSearch returned nothing from JAL's own
-  site), said so honestly rather than inventing or reusing ANA's number
-  for JAL. Cover: no AL_Vault photo fits a generic gear topic with no
-  real visit; found a real, properly licensed Wikimedia Commons
-  illustration (`File:Luggage That's Too Heavy at the Airport.jpg`,
-  Familydestinationsguide.com Images, CC BY 2.0) via Commons' own media
-  search, verified via the MediaWiki API and the file's own description
-  page that it's an illustration (not a photo) before writing the
-  `coverAlt` to say so honestly; credited in frontmatter `photoCredits`.
-  Used the standing generic Amazon tag (`adamandlinds00-20`) on a
-  digital-luggage-scale search URL via `<AffiliateButton>`, same pattern
-  as the power-bank and plug-adapter posts. Rolled length tier 1 (450-
-  600 words, landed at 509) and format 14 (direct address), which fit
-  well, the whole post is framed as "weigh your bag before you leave."
-  Caught and cut 2 "actually" instances before publishing (a section
-  heading and the closing paragraph), zero in the final body. `pnpm
-  build`, `pnpm check`, `pnpm lint:house` all clean. Slug: `luggage-
-  scale-overweight-baggage-fee-japan-flight`. Topic `en/travel-prep`.
-  Moved the 2026-11-08 off-cycle fix note and the Minn Kappabashi Stay
-  Spotlight "Done" entries out to `docs/blog-ideas-archive-14.md` to
-  stay under the house-lint 400-line cap (that archive file is now at
-  259 lines).
+- Moved the 2026-11-14 Nikko and 2026-11-15 digital luggage scale "Done"
+  entries out to `docs/blog-ideas-archive-15.md` to stay under the
+  house-lint 400-line cap (that archive file is now at 202 lines).
 - **Stay Spotlight, 2026-11-16: The Park Front Hotel at Universal Studios
   Japan, Osaka, researched, no real stay.** Checked the "already posted
   today" guard first (no post with today's date existed). Checked AL_Vault
@@ -370,3 +280,48 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   body (2 and 2 respectively caught and cut across drafts). `pnpm build`,
   `pnpm check`, `pnpm lint:house` all clean. Slug:
   `mount-takao-cable-car-day-trip-tokyo-cost`. Topic `en/day-trips`.
+- **Gear Up Sunday, 2026-11-22: Jackery Explorer 100D power bank,
+  researched.** Picked after confirming the existing gear posts (GB
+  Pockit stroller, car seat law, plug adapter, packing cubes, travel
+  insurance, Travel Spend, Wayb Pico, Zenni glasses, Greenlight debit
+  card) don't overlap, and that Jackery (Tech category,
+  `docs/affiliates-reference.md`) had never been used. Jackery's newest
+  power bank, the Explorer 100D, launched November 2, 2026, and ties
+  directly into the already-published power bank flight-rules post
+  (cross-linked): 96Wh, under the 100Wh airline carry-on threshold with
+  4Wh to spare. Pulled every spec from Jackery's own Shopify product
+  JSON endpoint (`/products/jackery-explorer-100d-portable-power-
+  station.json`), not a retailer summary: 96Wh LiFePO4, 3,000-cycle/
+  8-year rating, 140W primary USB-C port, 158W total across both USB-C
+  ports and the USB-A port, up to 100W solar/140W wall/100W car
+  charging input, 4.67x3.25x3.37in, and Jackery's own charge-count
+  claims (about four iPhone 17 charges or one 14-inch MacBook Pro
+  charge). Caught one real discrepancy worth flagging honestly:
+  Jackery's own site currently prices it at $119 standalone/$229 for a
+  two-pack, while tech press from the November 2 launch (androidguys,
+  newsshooter, cross-checked against each other) reported a $99
+  standalone/$179.99 two-pack launch price through Walmart, a genuine
+  price move in under three weeks, reported as such rather than picking
+  one number. Also caught: both variants show zero inventory on
+  Jackery's own site right now (`inventory_policy: "deny"`), an honest,
+  timely buy-it-elsewhere caveat. Weight isn't in Jackery's own product
+  data (a placeholder 0.0), so the ~1.9lb/850g figure in the post is
+  sourced to press coverage and labeled as such, not presented as an
+  official spec. Cover photo: one of Jackery's own 9 official product
+  images (Shopify CDN, confirmed first-party), downloaded and visually
+  checked before use, no `photoCredits` entry per the established
+  non-Commons-fallback pattern (same as the Keio photo precedent).
+  Rolled length tier 5 (1,300-1,600 words) and format 3 (question
+  title, build to a verdict); the verified material honestly supported
+  1,075 words after two genuine added sections (Jackery's own charge-
+  count numbers, a family-of-five usage note), landed short of tier 5
+  rather than padding further, per the same length-tier honesty
+  guidance used on recent Friday/Saturday posts. Verdict itself stayed
+  honest rather than promotional: a cheap 20,000mAh bank covers a
+  standard family trip for a third of the price, the Jackery earns its
+  premium only for laptop charging, solar/car input, or LiFePO4
+  longevity. Zero "real"/"really" and zero "actually"/"genuinely" in
+  the published body (1 and 0 respectively caught and cut across
+  drafts). `pnpm build`, `pnpm check`, `node scripts/house.mjs` all
+  clean. Slug: `jackery-explorer-100d-power-bank-flight-friendly-cost`.
+  Topic `en/travel-prep`.
