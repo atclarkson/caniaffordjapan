@@ -325,3 +325,57 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   drafts). `pnpm build`, `pnpm check`, `node scripts/house.mjs` all
   clean. Slug: `jackery-explorer-100d-power-bank-flight-friendly-cost`.
   Topic `en/travel-prep`.
+- **Stay Spotlight, 2026-11-23: Hotel Granvia Kyoto, researched.**
+  Checked the "already posted today" guard first (none existed). Did a
+  bounded AL_Vault check before researching (3 photo-text searches:
+  "hotel room," "apartment," "Urayasu," plus a Japan-scoped journal
+  search for "hotel"): the one Japan-specific unused hotel-room photo
+  found (a Urayasu bedroom, no property name, no exterior, no journal
+  entry) wasn't enough to identify or honestly write about a specific
+  property, so pivoted to research rather than force an unidentifiable
+  stay, consistent with the owner's "don't force it" steer. Confirmed
+  via `ls` that the existing Stay Spotlight posts (Hakone ryokan,
+  Kimpton Shinjuku, Minn Kappabashi, Park Front Hotel, Oriental Hotel
+  Universal City) leave Kyoto uncovered. First researched Hotel Granvia
+  Kyoto station-building hotel; abandoned it once the hotel's own
+  official site surfaced a booking-widget phrase ("小学生受け入れなし")
+  that genuinely could not be resolved as hotel-wide vs. plan-specific
+  after a dedicated search, and room-capacity numbers conflicted across
+  country-variant Hotels.com pages (sleeps 4 vs 5), a second
+  "don't force it" pivot, this time to the Sheraton Grand Hiroshima
+  instead (confirmed clean: real capacity, real child-fee policy, real
+  upcoming accommodation tax, no conflicting claims). That pick then hit
+  a real, different wall: no usable image source anywhere (Wikimedia
+  Commons rate-limited again, Marriott's gallery is entirely lazy-loaded
+  placeholders, Hotels.com 503'd, Expedia 429'd). Rather than force that
+  one either, returned to Hotel Granvia Kyoto a third time, this time
+  writing around the ambiguous phrase honestly instead of asserting a
+  child policy either way (stated only the hotel's own confirmed room
+  specs plus a standard "confirm booking conditions before reserving"
+  caveat, the same hedge already used in other researched Stay Spotlight
+  posts). Family room specs (Granvia Family: 62m²/~667 sq ft, 4 beds at
+  1,150x2,100mm, capacity 5 with extra bed; Triple: 41m², capacity 4)
+  pulled directly from the hotel's own official JR West Hotels site
+  (Japanese-language pages, paraphrased), cross-checked against Hotels.
+  com's independently-listed 667 sq ft figure for the same room, which
+  matched exactly. Real Hotels.com (`ho160944`) and Expedia (`h444770`)
+  property ids via `hotelsRedirect()`/`expediaRedirect()`. Price snapshots
+  ($121-$266 across sources) reported honestly as a spread, not a quote,
+  since none were family-room-specific. Cover: Wikimedia Commons search
+  worked but the follow-up imageinfo call (needed to confirm author/
+  license) hit the same rate limit as 2026-11-17/18/20/21, so dropped
+  the guessed-citation risk again per house policy; found the hotel's
+  own real exterior hero photo by guessing its JR West Hotels CDN path
+  from a web-fetch report of relative image paths, downloaded and
+  visually confirmed (shows "HOTEL GRANVIA KYOTO" signage over Kyoto
+  Station's glass-roofed platform structure) before using, no
+  `photoCredits` entry per the established non-Commons-fallback pattern.
+  Rolled length tier 3 (800-1,000 words) and format 15 (plain
+  declarative title, no hook). Landed at 770 words after two genuine
+  added sections (the five in-house restaurants, an honest "trade-off"
+  paragraph on trading Kyoto's older neighborhoods for station
+  convenience), short of the floor by 30 words rather than padded
+  further. Zero "real"/"really" and zero "actually"/"genuinely" in the
+  published body (1 and 2 respectively caught and cut across drafts).
+  `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean. Slug:
+  `hotel-granvia-kyoto-station-stay-spotlight`. Topic `en/hotels-stays`.
