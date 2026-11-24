@@ -1,10 +1,8 @@
 # caniaffordjapan.com
 
-A family travel blog on the Reef Astro theme (English only), answering "what
-does this actually cost in Japan?" with priced-out posts. Most come from the
-Clarkson family's own trips; the rest (hotels, activities, day trips, gear)
-are honestly researched rather than invented, see "Weekly calendar" below.
-Hosted on Cloudflare Workers, auto deploys on push to `main`. No review step, fully autonomous publishing, approved.
+A family travel blog on the Reef Astro theme (English only), answering "what does this actually cost in Japan?" with priced-out posts. Most come from the
+Clarksons' trips; the rest (hotels, activities, day trips, gear) are honestly researched rather than invented, see "Weekly calendar" below. Hosted on
+Cloudflare Workers, auto deploys on push to `main`, fully autonomous, no review step.
 
 Stack: Astro 7, Tailwind 4, MDX, pnpm (pinned via `packageManager` in
 package.json, use pnpm, not npm). Node >= 22.18.
@@ -197,8 +195,9 @@ the same "what does X actually cost" template with the city name swapped.
   nothing and reads as trying to convince the reader. Say the fact
   without it ("current pricing," not "real pricing"). No soft version
   like "actually"/"genuinely" above, any use gets rewritten pre-publish.
-  Same disclaiming problem, 2026-11-24: drop "own" when citing a source
-  ("Jackery's own listing" → "Jackery's listing"); ordinary "own" is fine.
+  Same problem, 2026-11-24, wider than sourcing: cut "own" by default
+  everywhere; keep it only when it marks a real switch in whose thing it
+  is ("your trip... our own trips" earns it; a plain mention doesn't).
 - File: `src/data/posts/en/<kebab-case-slug>.mdx` if the post uses
   `<AffiliateBox>`, otherwise plain `.md` is fine.
 - Frontmatter (see `src/content.config.ts` for the exact schema):
