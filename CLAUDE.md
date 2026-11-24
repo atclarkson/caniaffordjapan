@@ -9,11 +9,9 @@ Hosted on Cloudflare Workers, auto deploys on push to `main`. No review step, fu
 Stack: Astro 7, Tailwind 4, MDX, pnpm (pinned via `packageManager` in
 package.json, use pnpm, not npm). Node >= 22.18.
 
-`public/og/*.png` (share cards for links pasted into iMessage, Slack,
-etc.) come from `pnpm og`, checked in, and do NOT regenerate on `pnpm
-build`. Edit `scripts/og.mjs`'s `PAGES` array and domain text if the
-name/tagline/domain changes, run `pnpm og`, commit the PNGs, and open one
-to confirm, "N images generated" prints even when the text is stale.
+`public/og/*.png` (share cards for iMessage/Slack links) come from `pnpm og`,
+checked in, do NOT regenerate on `pnpm build`. Edit `scripts/og.mjs`'s
+`PAGES` array/domain text if those change, run `pnpm og`, commit, and open one PNG to confirm ("N images generated" prints stale text too).
 
 ## Daily article routine
 
@@ -199,6 +197,8 @@ the same "what does X actually cost" template with the city name swapped.
   nothing and reads as trying to convince the reader. Say the fact
   without it ("current pricing," not "real pricing"). No soft version
   like "actually"/"genuinely" above, any use gets rewritten pre-publish.
+  Same disclaiming problem, 2026-11-24: drop "own" when citing a source
+  ("Jackery's own listing" → "Jackery's listing"); ordinary "own" is fine.
 - File: `src/data/posts/en/<kebab-case-slug>.mdx` if the post uses
   `<AffiliateBox>`, otherwise plain `.md` is fine.
 - Frontmatter (see `src/content.config.ts` for the exact schema):
