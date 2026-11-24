@@ -200,3 +200,87 @@ more recent entries. When this file nears 400 lines too, start
   Spotlight "Done" entries out to `docs/blog-ideas-archive-14.md` to
   stay under the house-lint 400-line cap (that archive file is now at
   259 lines).
+- **Stay Spotlight, 2026-11-16: The Park Front Hotel at Universal Studios
+  Japan, Osaka, researched, no real stay.** Checked the "already posted
+  today" guard first (no post with today's date existed). Checked AL_Vault
+  first for a real unused stay (a Sep 2025 Taito Airbnb shows up in the
+  family's own Travel Spend export but has no interior/property photos in
+  AL_Vault and no confirmed listing name, not enough to write a real
+  account from; a "hotel room" text search turned up only Minn Kappabashi
+  material, already covered), so honest research is the right call, Monday
+  doesn't require a visit anyway. Confirmed via `grep` no existing post
+  covers this property; the three existing Stay Spotlight posts are a
+  Hakone ryokan, Kimpton Shinjuku, and Minn Kappabashi, none near USJ.
+  Real facts verified via WebSearch: the hotel sits a 1-minute walk from
+  USJ's main gate (multiple independent sources agree), a standard double
+  runs $121-127/night across several booking sites (Expedia Singapore/
+  India, Hotels.com US/Korea, dates vary), and it lists family quad rooms
+  (Superior Floor and Premium Superior Park View Family Quad) built around
+  two twin beds plus Murphy beds. Deliberately did NOT state a specific
+  quad-room capacity or price: sources directly conflict (6 vs 8 sleeps
+  across Hotels.com/Orbitz/Trip.com) and no source gave a quad-specific
+  rate, so the post says "more than four, confirm before booking" rather
+  than picking one disputed number. Also checked and deliberately dropped
+  an "early park entry" perk several third-party guides claim: one 2026
+  source says it was discontinued in Oct 2024, another still lists it:
+  genuinely contested, so left it out rather than repeat an unconfirmed
+  claim. Real Expedia (h12315627) and Hotels.com (ho546281) property ids
+  found via WebSearch and used directly with `expediaRedirect()`/
+  `hotelsRedirect()`, not the generic storefront fallback. Cover: no
+  AL_Vault or Commons-first option for an unvisited property normally
+  applies the same way for a named commercial building, but Commons
+  turned out to have real photos of this exact hotel (searched by name),
+  used one (J o, CC BY-SA 4.0) instead of falling back to a booking-site
+  photo. Rolled length tier 1 (450-600 words) and format 13 (history-led)
+  first, no real history angle exists for a hotel this new, rerolled per
+  CLAUDE.md's one-reroll allowance to format 11 (time/season-anchored);
+  that didn't fit either, a Halloween Horror Nights booking-crunch angle
+  had no confirmed sellout evidence and the 2026 season had already ended
+  by this firing's date, so landed on format 6 (head-to-head) instead,
+  undeclared in the roll but justified here: the real "one family quad vs
+  two standard rooms" math is a genuine, already-proven-to-work angle on
+  this site (same structure as the Minn Kappabashi post). Landed at 486
+  words, tier 1. Zero "actually"/"genuinely" in the published body (2
+  "actually" caught and cut across drafts, both section headings). `pnpm
+  build`, `pnpm check`, `pnpm lint:house` all clean. Slug: `park-front-
+  hotel-usj-osaka-stay-spotlight`. Topic `en/hotels-stays`. Moved the
+  power-bank Quick Tip Tuesday "Done" entry and its same-day expansion
+  out to `docs/blog-ideas-archive-14.md` to stay under the house-lint
+  400-line cap (that archive file is now at 324 lines).
+- **Off-cycle, 2026-11-16, same day: Oriental Hotel Universal City, a
+  real April 2026 stay, site owner's direct request.** Not from the
+  daily routine, the site owner said in chat "we did actually stay at
+  the oriental hotel in usj" after today's Park Front Hotel post
+  (researched, no real stay) went out, and sent 8 real photos from the
+  stay (April 23, 2026) directly. Per the honesty rule, a real visit
+  beats a researched one, so this got its own full post rather than a
+  tacked-on mention. Checked AL_Vault first for these photos the normal
+  way (text search for "Oriental Hotel," "Konohana," "hotel room" in
+  Osaka), found nothing, the photos aren't AL_Vault-tracked, so no
+  `mark_photo_used` call applies here, they came as direct chat
+  attachments and were copied straight into the repo (cover via
+  `src/assets/covers/`, in-body via a new `public/photos/` folder,
+  served as absolute paths rather than the usual AL_Vault CDN pattern
+  since there is no CDN URL for these). Compressed the four in-body
+  JPEGs from 0.8-1.5MB down to 240-340KB each (ImageMagick resize to
+  1600px + quality 82) before committing, since they don't pass through
+  Astro's image pipeline the way the cover does. Of the 8 photos sent,
+  3 (the Bubba Gump Forrest Gump shoes bench, the CityWalk 25th
+  anniversary sign, a Minions splash-pad photo op) were skipped for
+  this post, confirmed via `grep` that `universal-citywalk-osaka-three-
+  kids.mdx` already covers that exact photo-op strip including what
+  looks like the same Bubba Gump shot, used the other 4 (two room
+  photos, the night view, the breakfast restaurant) instead and
+  cross-linked to that existing post plus the Kaiyukan/Tempozan Harbor
+  Village post for the shared Ferris wheel visible from the room at
+  night, rather than re-describing ground already covered. Researched
+  real current pricing (Expedia id 68823132, Hotels.com id
+  ho2203340224) and Osaka's per-person accommodation tax and self-
+  parking rate to round out the real account. Rolled length tier 2
+  (600-800 words) and format 14 (direct address); landed at 633 words
+  after two genuine real-detail additions (the accommodation tax note,
+  the self-parking rate) rather than padding to clear the floor. Zero
+  "actually"/"genuinely" in the published body (2 "actually" caught and
+  cut across drafts). `pnpm build`, `pnpm check`, `pnpm lint:house` all
+  clean. Slug: `oriental-hotel-universal-city-stay-spotlight`. Topic
+  `en/hotels-stays`.
