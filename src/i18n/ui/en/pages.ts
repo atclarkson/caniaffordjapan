@@ -14,12 +14,12 @@ export const enPages = {
   home: {
     metaTitle: "Can I Afford Japan? - prices for an affordable Japan trip",
     metaDescription:
-      "Honest, well-researched posts on what things cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's own trips and genuine research in between. Pricing, never invented.",
+      "Honest, well-researched posts on what things cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's trips and genuine research in between. Pricing, never invented.",
     eyebrow: "Can I Afford Japan?",
     heroTitle: "Japan prices from a family of five",
     heroAccent: "",
     heroLede:
-      "{n} posts on hotels, food, trains, theme parks, and day trips, priced from our own trips and current booking sites.",
+      "{n} posts on hotels, food, trains, theme parks, and day trips, priced from our trips and current booking sites.",
     heroSearchLabel: "Search {n} posts",
     heroSearchPlaceholder: "Try Disney, ramen, trains",
     heroSearchButton: "Search",
@@ -75,7 +75,7 @@ export const enPages = {
     familyLede: "Five people, one shared passport stamp collection.",
     madeTitle: "How we make this site",
     made: [
-      "Most of what we write about, we've done ourselves. The prices, photos and stories come from our own trips. When a post covers something we haven't done yet, like a hotel we haven't stayed in, it's written from research and current prices, and it never says we were there.",
+      "Most of what we write about, we've done ourselves. The prices, photos and stories come from our trips. When a post covers something we haven't done yet, like a hotel we haven't stayed in, it's written from research and current prices, and it never says we were there.",
       "We use AI to help with research, topic ideas, building the site and writing the posts. The trips, the photos, the receipts and the family are ours.",
     ],
     nikoTitle: "Niko",
@@ -248,7 +248,7 @@ export const enPages = {
       },
       {
         title: "What happens when you visit",
-        body: "The site is hosted by Cloudflare, which keeps standard server logs (IP address, browser, the page you asked for) to deliver pages and block abuse, like any web host. If you switch between light and dark mode, that choice is saved in your own browser and never sent to us.",
+        body: "The site is hosted by Cloudflare, which keeps standard server logs (IP address, browser, the page you asked for) to deliver pages and block abuse, like any web host. If you switch between light and dark mode, that choice is saved in your browser and never sent to us.",
       },
       {
         title: "Affiliate links and cookies",
@@ -260,7 +260,7 @@ export const enPages = {
       },
       {
         title: "Using what you read here",
-        body: "Prices, opening hours and rules in Japan change. We share everything in good faith as a starting point for your own planning, so check the current price before you book.",
+        body: "Prices, opening hours and rules in Japan change. We share everything in good faith as a starting point for your planning, so check the current price before you book.",
       },
       {
         title: "Our posts and photos",
@@ -268,7 +268,7 @@ export const enPages = {
       },
       {
         title: "How we use AI",
-        body: "We use AI to help with research, topic ideas, building the site and writing the posts. Most of what we cover comes from our own trips, and a post about something we haven't done is written from research and never claims we were there.",
+        body: "We use AI to help with research, topic ideas, building the site and writing the posts. Most of what we cover comes from our trips, and a post about something we haven't done is written from research and never claims we were there.",
       },
       {
         title: "Who we are and how to reach us",

@@ -31,7 +31,7 @@ export const GET: APIRoute = async ({ site, url }) => {
   const core: [string, string][] = [
     ["/", "the home page: featured post, latest posts, topics and authors"],
     ["/blog/", "every published post, newest first, paginated nine to a page"],
-    ["/topics/", "the topic index; each topic has its own paginated archive"],
+    ["/topics/", "the topic index; each topic has a paginated archive"],
     ["/authors/", "the family members who write here, one page per byline"],
     ["/about/", "who the Clarkson family is and why real prices are published"],
     ["/contact/", "how to reach the family"],
