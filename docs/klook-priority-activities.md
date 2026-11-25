@@ -179,8 +179,43 @@ always confirm against the live Klook page before publishing.
   code's 1% named-activity list, general 10%/3% tiers apply, noted
   honestly. Affiliate link built by hand from the export's
   `aid=42202&aff_adid=1184628` pattern (not `klookRedirect`, per this
-  doc's own warning that the two aid/aff_adid pairings aren't
+  doc's warning above that the two aid/aff_adid pairings aren't
   interchangeable).
+- Tokyo Sumo Morning Practice with Expert Reporter (Ryogoku), activity
+  id 93976. Published 2026-11-25 as `sumo-morning-practice-tour-
+  ryogoku-klook-cost.mdx`, Klook Wednesday, honestly researched (the
+  family hasn't done this). This doc's price was stale (listed
+  $91.79/5 stars/462 reviews from the 2026-01-03 export); Klook's
+  current listing (cross-checked via WebSearch, the direct page 403'd
+  as usual) shows $121.15, 5.0 stars, 537 reviews, 5K+ booked, a real
+  price jump worth flagging rather than quoting the stale figure.
+  Confirmed the guide is specifically a journalist covering sumo for a
+  major Japanese newspaper, the actual differentiator over a generic
+  sumo tour. Rolled format 4 (myth-correction) first, didn't fit: a
+  WebSearch on "can tourists visit a stable without a tour" turned up
+  a genuinely mixed picture (Arashio Stable allows free walk-ins, but
+  policies vary by stable and a CNN source reports some stables stage
+  a second practice for visitors after the real one), not a clean myth
+  to knock down, so rerolled per CLAUDE.md's allowance to format 15
+  (plain declarative). Used that mixed finding as the post's real
+  angle instead: a free option exists but comes with schedule and
+  authenticity tradeoffs a paid, journalist-guided slot doesn't. Added
+  a 4-row comparison table against this site's own Asakusa Sumo Club
+  dinner show and real Ticket Oosumo tournament pricing (both already
+  published), cross-linked. Cover: Wikimedia Commons was rate-limited
+  on both the search and imageinfo endpoints (same ongoing issue since
+  2026-11-17), dropped a first-drafted guess rather than publish an
+  unverified credit; used a real Headout listing photo instead (a
+  legitimate tour-booking platform, not the blocked Klook page),
+  downloaded and visually confirmed (sumo stable interior, wrestlers
+  prepping the dohyo), credited as a booking-site listing photo per
+  CLAUDE.md's fallback policy, no AL_Vault photo applies. Rolled length
+  tier 3 (800-1,000 words); landed at 799 after two genuine added
+  sections (the comparison table, Arashio's 2023 reopening history)
+  rather than padded further. Zero "real"/"really", zero "actually"/
+  "genuinely", and zero source-citation "own" in the published body.
+  `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean. Not
+  on the code's 1% named-activity list, general 10%/3% tiers apply.
 
 Also published, outside this list: `nintendo-museum-uji-ticket-price-lottery.mdx`,
 real photos from an April 2026 family trip. Not a Klook or GYG bookable item
@@ -204,10 +239,8 @@ Re-check each activity's current price, rating, and review count against
 the live Klook page before publishing either way, the figures above are
 from a 2026-01-03 export and will have moved.
 
-**Remaining fallback, not yet used:** Sumo Practice Watch with a
-Specialist Reporter (Ryogoku), id 93976, $91.79, 5 stars, 462 reviews,
-same `aid=42202&aff_adid=1184628` affiliate link pattern. The Ginza
-sumo idea itself is resolved, see the Asakusa Sumo Club entry below.
+Nothing remaining in this list as of 2026-11-25, see the Sumo Morning
+Practice entry above for the last one used.
 
 ## Done, outside this list's original scope
 

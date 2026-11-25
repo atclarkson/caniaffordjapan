@@ -346,3 +346,16 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   published body (2 and 1 respectively caught and cut across drafts).
   `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean. Slug:
   `takkyubin-luggage-airport-japan-cost`. Topic `en/travel-prep`.
+- **Klook Wednesday, 2026-11-25: Tokyo Sumo Morning Practice with
+  Expert Reporter, id 93976, researched.** Last remaining entry in
+  `docs/klook-priority-activities.md`'s fallback list, full provenance
+  there. Price was stale in that doc ($91.79), Klook's current listing
+  runs $121.15. Rolled format 4 first, a WebSearch on stable-visit
+  rules turned up a genuinely mixed picture rather than a clean myth to
+  correct, rerolled to format 15 per CLAUDE.md's allowance. Rolled
+  length tier 3; landed at 799 words. Cover: Wikimedia rate-limited
+  again, used a real Headout listing photo instead. Zero "real"/
+  "really", "actually"/"genuinely", or source-citation "own" in the
+  published body. `pnpm build`, `pnpm check`, `node scripts/house.mjs`
+  all clean. Slug: `sumo-morning-practice-tour-ryogoku-klook-cost`.
+  Topic `en/tokyo`.
