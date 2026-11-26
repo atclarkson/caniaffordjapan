@@ -359,3 +359,35 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   published body. `pnpm build`, `pnpm check`, `node scripts/house.mjs`
   all clean. Slug: `sumo-morning-practice-tour-ryogoku-klook-cost`.
   Topic `en/tokyo`.
+- **Throwback Thursday, 2026-11-26: Osaka Castle moat at dusk, a real
+  visit, June 2023.** The Drive photo batch job hit the account's
+  spend limit mid-run this morning (resets 2026-11-28), so instead of
+  waiting idle, checked AL_Vault directly for today's real-visit post.
+  Bounded search (Osaka/Kobe/Nara/Kyoto city filters, an "Osaka Castle"
+  text search) found 4 unused real photos (dusk moat views, a heron)
+  from a June 2023 Osaka stay, distinct from the 2 already used in the
+  existing `osaka-castle-vs-tsutenkaku-tower-osaka.mdx` (which turned
+  out to be from a different, more recent March 2026 visit, not the
+  same trip as first assumed). Picked a narrower angle than that
+  existing post to avoid duplicating its ticket-price comparison: the
+  free moat walk itself, explicitly cross-linked to the existing post
+  for the paid-tower numbers rather than repeating them. Real detail
+  used from the photos' own AI captions: a specific "17-minute walk
+  from where we were staying, and we kept coming back to it" line,
+  and the heron sighting. Rolled format 4 (myth-correction); fit
+  because the real material supports an actual correction (the
+  tower felt like the implied point, the free moat turned out to be
+  what the family kept returning for across visits years apart).
+  Reused the existing post's already-verified castle history rather
+  than re-researching it, credited with a cross-link. Added one
+  researched "getting there" section (3 real station options and
+  walk times, cross-checked across multiple sources) per CLAUDE.md's
+  own suggestion for genuinely earning length. Rolled length tier 5
+  (1,300-1,600 words); the real material, narrower than that tier
+  needs, honestly supported 949 words after two genuine additions
+  (getting-there, the cross-trip note), landed well short rather than
+  padded or invented further. Zero "real"/"really", "actually"/
+  "genuinely", or source-citation "own" in the published body. Cover
+  and 3 in-body photos from AL_Vault, `mark_photo_used` called.
+  `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean.
+  Slug: `osaka-castle-moat-sunset-free-view-worth-it`. Topic `en/osaka`.
