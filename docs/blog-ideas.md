@@ -35,35 +35,9 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   under the house-lint 400-line cap (that archive file is now at 286
   lines).
 
-- **Done (2026-11-17, Tue):** Quick Tip Tuesday, "Cash in Japan: Up to
-  ¥100,000 a Pull at a 7-Eleven ATM, a Flat Fee Either Way." Picked this
-  angle after confirming via `grep` it's genuinely uncovered,
-  `kids-debit-card-japan-cash-still-needed.mdx` only touches ATMs as a
-  backstop for kids' gacha cash, not the general adult logistics.
-  Confirmed Seven Bank's own card-network list (Visa, PLUS, Mastercard,
-  Maestro, Cirrus, UnionPay, Amex, JCB, Discover, Diners) straight from
-  `sevenbank.co.jp/intlcard/`; three more attempts at their own fee/
-  limit pages never returned the actual numbers, so the ¥100,000 cap
-  and ¥110-220+ fee range are honestly sourced from third parties, not
-  Seven Bank's own page, flagged as such in the post. Added Japan Post
-  Bank and Lawson/FamilyMart E-net as a comparison table, plus a
-  debit-vs-credit-card cash-advance warning and an airport-counter-vs-
-  ATM rate comparison (left the one existing on-site number,
-  kids-debit-card's "~50,000 yen" Seven Bank cap, as-is rather than
-  silently overwritten, since this post's own hedge already covers the
-  discrepancy). Rolled length tier 5 (1,300-1,600 words) and format 1
-  (price-first); landed at exactly 1,299 words after two genuine
-  additions (the cash-advance note, a concrete multi-withdrawal fee-math
-  example) rather than padding. Cover: an AL_Vault family photo (`Late
-  Night Konbini Run Past the Hakone Torii`, Adam and Lindsay with a
-  7-Eleven sign glowing behind them), used after Wikimedia's own upload
-  servers came back globally rate-limited on every file tried, not just
-  one, so the usual Commons-first fallback for a no-visit topic post
-  was swapped for an on-theme AL_Vault photo instead, `mark_photo_used`
-  called. Zero "real"/"really" and zero "actually"/"genuinely" in the
-  published body (2 of each caught and cut across drafts). `pnpm build`,
-  `pnpm check`, `pnpm lint:house` all clean. Slug:
-  `getting-cash-japan-atm-seven-bank`. Topic `en/travel-prep`.
+- Moved the 2026-11-17 Seven Bank ATM "Done" entry out to
+  `docs/blog-ideas-archive-15.md` to stay under the house-lint
+  400-line cap (that archive file is now at 315 lines).
 - **Klook Wednesday, 2026-11-18: Asakusa Sumo Club dinner show,
   researched, resolves the long-standing Ginza sumo idea.** Full
   provenance (why the Ginza lead got dropped for this doc's own
@@ -391,3 +365,29 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   and 3 in-body photos from AL_Vault, `mark_photo_used` called.
   `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean.
   Slug: `osaka-castle-moat-sunset-free-view-worth-it`. Topic `en/osaka`.
+- **Food Friday, 2026-11-27: a Goose Island IPA at an unnamed Asakusa
+  pizza spot, real photo + research.** Bounded AL_Vault search (text
+  "restaurant," then "pizza") found several already-covered clusters
+  before landing on one real, unused photo: a close-up of a green-
+  labeled IPA bottle, October 24, 2023, no restaurant name attached.
+  Identified the beer from the photo itself rather than guessing: the
+  label's "55 IBU" figure and hop-and-star mark matched Goose Island
+  IPA exactly on a WebSearch cross-check, an American Chicago-born
+  brand, not a Japanese one. Researched its real Japan history (entered
+  the market 2016, has run its own restaurant tie-ins since, including
+  a burger-chain promotion) rather than treat the find as unexplained.
+  Added real supporting context: mainstream lager being the Japanese
+  restaurant default, craft beer skewing to dedicated bars at ¥1,000-
+  1,300/pint in Tokyo, and Yoho Brewing's Aooni as the more common
+  convenience-store-shelf counterexample. No affiliate link, nothing
+  on the page is genuinely bookable or a matching product. Rolled
+  format 7 (artifact-driven, the bottle itself as the subject, title
+  names the artifact not the venue) and length tier 1 (450-600 words);
+  landed at 457 after one genuine addition (the US-vs-Japan branding
+  name difference, "Goose Island IPA" vs. "Goose IPA"). Zero "real"/
+  "really", "actually"/"genuinely", or source-citation "own" in the
+  published body (multiple of each caught and cut across drafts).
+  Cover and one in-body photo from AL_Vault, `mark_photo_used` called.
+  `pnpm build`, `pnpm check`, `node scripts/house.mjs` all clean.
+  Slug: `goose-island-ipa-asakusa-pizza-spot-japan`. Topic
+  `en/budget-food`.

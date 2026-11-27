@@ -284,3 +284,32 @@ more recent entries. When this file nears 400 lines too, start
   cut across drafts). `pnpm build`, `pnpm check`, `pnpm lint:house` all
   clean. Slug: `oriental-hotel-universal-city-stay-spotlight`. Topic
   `en/hotels-stays`.
+- **Done (2026-11-17, Tue):** Quick Tip Tuesday, "Cash in Japan: Up to
+  ¥100,000 a Pull at a 7-Eleven ATM, a Flat Fee Either Way." Picked this
+  angle after confirming via `grep` it's genuinely uncovered,
+  `kids-debit-card-japan-cash-still-needed.mdx` only touches ATMs as a
+  backstop for kids' gacha cash, not the general adult logistics.
+  Confirmed Seven Bank's own card-network list (Visa, PLUS, Mastercard,
+  Maestro, Cirrus, UnionPay, Amex, JCB, Discover, Diners) straight from
+  `sevenbank.co.jp/intlcard/`; three more attempts at their own fee/
+  limit pages never returned the actual numbers, so the ¥100,000 cap
+  and ¥110-220+ fee range are honestly sourced from third parties, not
+  Seven Bank's own page, flagged as such in the post. Added Japan Post
+  Bank and Lawson/FamilyMart E-net as a comparison table, plus a
+  debit-vs-credit-card cash-advance warning and an airport-counter-vs-
+  ATM rate comparison (left the one existing on-site number,
+  kids-debit-card's "~50,000 yen" Seven Bank cap, as-is rather than
+  silently overwritten, since this post's own hedge already covers the
+  discrepancy). Rolled length tier 5 (1,300-1,600 words) and format 1
+  (price-first); landed at exactly 1,299 words after two genuine
+  additions (the cash-advance note, a concrete multi-withdrawal fee-math
+  example) rather than padding. Cover: an AL_Vault family photo (`Late
+  Night Konbini Run Past the Hakone Torii`, Adam and Lindsay with a
+  7-Eleven sign glowing behind them), used after Wikimedia's own upload
+  servers came back globally rate-limited on every file tried, not just
+  one, so the usual Commons-first fallback for a no-visit topic post
+  was swapped for an on-theme AL_Vault photo instead, `mark_photo_used`
+  called. Zero "real"/"really" and zero "actually"/"genuinely" in the
+  published body (2 of each caught and cut across drafts). `pnpm build`,
+  `pnpm check`, `pnpm lint:house` all clean. Slug:
+  `getting-cash-japan-atm-seven-bank`. Topic `en/travel-prep`.
