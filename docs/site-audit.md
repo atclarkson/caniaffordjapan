@@ -344,3 +344,37 @@ placeholder.
   the post corpus is much larger than the title/description layer was
   (1,228 total instances minus the 165 just fixed), so expect this to
   take more than one more weekly firing, same as "actually" did.
+- **2026-11-27, owner request: SEO for discount/coupon-code queries,
+  off-cycle (not the Saturday routine).** Owner asked directly to rank
+  for "holafly discount code" and "teamLab coupon code"-type searches,
+  and to factor in Google's December 2026 core update (preannounced
+  2026-11-24, before rollout even started, a first for Google per
+  multiple outlets; focus stated as longer/complex queries and
+  personalized results, no exact rollout date given). Pulled Google's
+  own evergreen core-update guidance directly
+  (developers.google.com/search/updates/core-updates and the linked
+  helpful-content self-assessment questions) rather than acting on
+  update-specific speculation, since Google's own practical advice
+  ("don't make quick-fix changes," "most sites don't need to worry")
+  applies regardless of which specific update is rolling out.
+  Confirmed `holafly-discount-code.mdx` already targets its query well
+  (title/description/FAQ schema all already correct, no change
+  needed). Found a real gap: none of the 5 teamLab posts or the
+  canonical `klook-discount-code-adamandlindsklook.mdx` post had
+  "coupon code" phrasing or an FAQ block, despite that page already
+  substantively answering the "is there a teamLab coupon code"
+  question in its own body. Rather than create new thin pages for
+  each attraction (the exact "mass-produced," "many thin pages"
+  pattern Google's own guidance warns against), strengthened the one
+  existing canonical page: added "teamLab" to its title, "coupon"
+  to its description, and a 5-entry FAQ block (verified every answer
+  against content already in the post body, no new facts), confirmed
+  the `FAQPage` JSON-LD renders correctly in the built HTML. Cross-
+  linked all 5 teamLab posts back to it with "teamLab coupon code"
+  anchor text, a genuine, non-duplicate internal-linking improvement.
+  While in those 5 files anyway, caught and fixed leftover body-prose
+  "real"/"really" instances the title/description-only sweep above
+  had missed (teamLab Botanical Garden Osaka, Forest Fukuoka, Future
+  Park Okinawa, Borderless), consistent with this doc's own flagged
+  body-prose backlog. `pnpm build`, `pnpm check`, `node scripts/
+  house.mjs` all clean.
