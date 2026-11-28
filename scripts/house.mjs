@@ -1,15 +1,20 @@
 #!/usr/bin/env node
-// scripts/house.mjs - le linter de la maison : les quatre regles mecaniques d'AGENTS.md, verifiees.
+// scripts/house.mjs - le linter de la maison : les regles mecaniques d'AGENTS.md et de CLAUDE.md, verifiees.
 //
 // POURQUOI CE FICHIER EXISTE
 //
-// Quatre des conventions non negociables sont verifiables par une machine :
+// Plusieurs des conventions non negociables sont verifiables par une machine :
 // le plafond de 400 lignes, l'interdiction des tirets cadratins, l'en-tete
-// d'une ligne, et l'absence de noms de palette dans le markup. Elles etaient
-// tenues a la main, et elles l'etaient bien : un audit exterieur du 31 aout
-// 2026 a passe 324 fichiers et n'a trouve aucune violation reelle. C'est
-// justement l'argument. Une discipline tenue par l'attention se tient jusqu'au
-// jour ou elle ne se tient plus, et ce jour-la rien ne le dit.
+// d'une ligne, l'absence de noms de palette dans le markup, et, depuis le
+// 2026-11-28, "real"/"really" et le tour "X's own Y" dans un article. Ce
+// dernier ajout n'est pas theorique : le jour meme ou il a ete ecrit, "Real"
+// (majuscule, dans un titre publie) venait d'echapper a une relecture
+// manuelle qui ne cherchait que la forme minuscule. Elles etaient tenues a
+// la main, et elles l'etaient bien dans l'ensemble : un audit exterieur du
+// 31 aout 2026 a passe 324 fichiers et n'a trouve aucune violation reelle
+// sur les quatre regles d'alors. C'est justement l'argument. Une discipline
+// tenue par l'attention se tient jusqu'au jour ou elle ne se tient plus, et
+// ce jour-la rien ne le dit, jusqu'a ce qu'une machine le dise a la place.
 //
 // PAS D'ESLINT, ET C'EST UN CHOIX
 //
@@ -31,7 +36,7 @@ import { join, relative } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname.replace(/\/$/, "");
 const SKIP = new Set(["node_modules", "dist", ".git", ".astro", "public", ".vercel", ".wrangler"]);
-const LINTABLE = /\.(astro|ts|tsx|mjs|js|css|md|json)$/;
+const LINTABLE = /\.(astro|ts|tsx|mjs|js|css|md|mdx|json)$/;
 
 /**
  * Les exemptions, nommees une par une avec leur raison.
@@ -75,6 +80,41 @@ const EXEMPTIONS = [
 function exempt(rule, file) {
   return EXEMPTIONS.find((e) => e.rule === rule && e.match.test(file));
 }
+
+/**
+ * Dette heritee au 2026-11-28 : ces articles contiennent encore "real"/
+ * "really" en prose, en attendant le balayage complet du corpus annonce
+ * dans docs/site-audit.md (deja note la-bas comme "priorite" avant que
+ * cette liste existe). La liste elle-meme vit dans un fichier JSON a part,
+ * pas ici, pour la meme raison que paletteFamilies() lit tokens.css plutot
+ * que de recopier des noms : ce fichier reste lisible meme avec 150 noms
+ * dedans. Un nom ne sort de la liste que lorsque son fichier a ete nettoye
+ * ET reverifie par ce meme script, jamais parce que la liste genait.
+ */
+function realDebtList() {
+  try {
+    return JSON.parse(readFileSync(join(ROOT, "scripts/real-debt-2026-11-28.json"), "utf8"));
+  } catch {
+    return [];
+  }
+}
+const realDebtFiles = realDebtList();
+const REAL_DEBT_RE =
+  realDebtFiles.length > 0
+    ? new RegExp(`src/data/posts/en/(${realDebtFiles.map((f) => f.replace(/\./g, "\\.")).join("|")})$`)
+    : /$ne-matche-jamais^/;
+EXEMPTIONS.push(
+  {
+    rule: "crutch-real",
+    match: REAL_DEBT_RE,
+    why: "dette heritee (balayage pas encore fait, voir docs/site-audit.md 2026-11-28)",
+  },
+  {
+    rule: "crutch-own",
+    match: /power-bank-japan-flight-watt-hour-rules\.mdx$/,
+    why: "brouillon mis de cote sur demande explicite, jamais commit, pas encore nettoye",
+  },
+);
 
 /* ------------------------------------------------------------------ */
 /* Le parcours                                                         */
@@ -150,7 +190,7 @@ function checkHeader(file, text) {
   // une tolerance : Astro exige que les trois tirets soient les tout premiers
   // caracteres du fichier. Un commentaire pose au-dessus casserait la
   // collection. Le frontmatter EST l'en-tete, il porte le titre et la date.
-  if (file.endsWith(".md") && lines[0]?.trim() === "---") return [];
+  if ((file.endsWith(".md") || file.endsWith(".mdx")) && lines[0]?.trim() === "---") return [];
 
   let i = 0;
   if (lines[0]?.startsWith("#!")) i = 1;
@@ -242,6 +282,49 @@ function checkMergeOrder(file, text) {
   return found;
 }
 
+/**
+ * Regle 7 : aucun "real"/"really" dans un article de blog (titre,
+ * description, corps), insensible a la casse.
+ *
+ * C'est deja la regle absolue de CLAUDE.md ("must be 0 (absolute)"), tenue
+ * jusqu'ici par une relecture manuelle avant chaque publication. Cette
+ * relecture utilisait `grep -noE` sans `-i`, donc "Real" en debut de titre
+ * ou de phrase passait sans etre vu, pendant que "real" en minuscule etait
+ * attrape. Le mot ne sert jamais qu'a rassurer le lecteur sur la realite
+ * d'un chiffre deja cite ("Real current pricing : ...") sans rien ajouter;
+ * contrairement a "own", il n'a pas d'exception legitime documentee.
+ */
+const CRUTCH_REAL_RE = /\breal\b|\breally\b/i;
+function checkCrutchReal(file, text) {
+  if (!/^src\/data\/posts\/.*\.mdx$/.test(file)) return [];
+  const found = [];
+  text.split("\n").forEach((line, i) => {
+    if (CRUTCH_REAL_RE.test(line)) found.push(`ligne ${i + 1} : "real"/"really"`);
+  });
+  return found;
+}
+
+/**
+ * Regle 8 : aucun tour "X's own Y" dans un article de blog.
+ *
+ * Le motif precis que le site owner a signale a la main ("Yamato's own rate
+ * table", "the hotel's own listing") : une source citee comme si on avait
+ * besoin de revendiquer la possession avant de la citer, l'effet etant un
+ * article qui se disculpe en permanence. Contrairement au mot "own" seul
+ * (verbe "to own", idiome "on its own", "your own X" contrastif, tous
+ * legitimes et frequents), ce tour precis n'a presque jamais d'usage
+ * legitime : c'est pourquoi la regle cible "'s own", pas "own" tout court.
+ */
+const CRUTCH_OWN_RE = /[a-z]'s own\b/i;
+function checkCrutchOwn(file, text) {
+  if (!/^src\/data\/posts\/.*\.mdx$/.test(file)) return [];
+  const found = [];
+  text.split("\n").forEach((line, i) => {
+    if (CRUTCH_OWN_RE.test(line)) found.push(`ligne ${i + 1} : "'s own"`);
+  });
+  return found;
+}
+
 /* ------------------------------------------------------------------ */
 /* Le rapport                                                          */
 /* ------------------------------------------------------------------ */
@@ -252,6 +335,8 @@ const RULES = [
   { key: "dash", label: "aucun tiret cadratin", run: checkDashes },
   { key: "palette", label: "aucune palette dans le markup", run: checkPalette },
   { key: "merge", label: "taille avant couleur dans tv()", run: checkMergeOrder },
+  { key: "crutch-real", label: "aucun real/really dans un article", run: checkCrutchReal },
+  { key: "crutch-own", label: "aucun tour \"'s own\" dans un article", run: checkCrutchOwn },
 ];
 
 const families = paletteFamilies();

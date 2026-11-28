@@ -84,40 +84,11 @@ placeholder.
 
 ## Log
 
-- **Seed item, 2026-10-29 (not yet actioned):** `/legal/`'s "Affiliate
-  disclosure" section (`src/i18n/ui/en/pages.ts`, `legal.sections`) names
-  only Klook, GetYourGuide, and Expedia. It's gone stale: Hotels.com
-  (added 2026-10-26), Amazon Associates (in use since the packing cubes
-  post), and the telecom affiliates (`src/data/telecomAffiliates.ts`)
-  are all live now and uncredited there. Real, concrete first item for
-  the first Saturday firing.
-- **Seed item, 2026-10-29 (not yet actioned):** `src/js/schema.ts`
-  already has a working `faqPage()` JSON-LD builder, confirmed via
-  `grep` that nothing on the site actually calls it. A real, ready AI
-  search surface sitting unused. Worth identifying which page(s) have
-  genuine, naturally-occurring Q&A content (the weekly calendar columns,
-  a "how does this site work" angle for about/home, or a cluster of real
-  traveler questions this site's posts already answer piecemeal) and
-  wiring it up rather than inventing questions nobody asks just to fill
-  the schema.
-- **Seed item, 2026-10-30 (not yet actioned), real Search Console data,
-  now a real 28-day pull:** site owner first uploaded a 7-day export by
-  mistake, then the real 28-day one, both saved to
-  `docs/search-console/2026-10-30/` (7-day superseded, kept in that
-  folder's `7-day-initial/` for reference only). Full writeup in
-  `analysis.md`. Confirmed, confident finding: nine real "travel
-  insurance japan" query variants, 93 combined impressions over the
-  month, zero clicks, positions 26 to 94;
-  `travel-insurance-japan-trip-cost.mdx` itself sits at position 39 on
-  101 impressions with zero clicks. Real, sustained demand this post
-  isn't capturing. Second confirmed finding (the larger sample moved
-  this from "watch" to "act"): 8 posts rank position <10 with 20+
-  impressions and still zero clicks for the month, led by
-  `japan-optician-eye-exam-glasses-cost` (132 impr, pos 7.22) and
-  `kappabashi-knife-shop-price-cheap-vs-splurge-cost` (103 impr, pos
-  7.38), a real anomaly at that sample size, not noise. The optician
-  post's title also breaks house style ("Actually"), a reasonable
-  first real test: fix the title, compare CTR on the next export.
+The 2026-10-29/10-30 seed-item entries that used to open this log were
+moved to `docs/site-audit-archive-1.md` (2026-11-28) to stay under the
+house-lint 400-line cap; all three were already resolved in the first
+firing below.
+
 - **First real firing, 2026-10-31.** Worked all three queued seed items
   above. (1) Fixed `/legal/`'s affiliate disclosure to name Hotels.com,
   Viator, Amazon Associates, and the telecom affiliates alongside
@@ -378,3 +349,34 @@ placeholder.
   Park Okinawa, Borderless), consistent with this doc's own flagged
   body-prose backlog. `pnpm build`, `pnpm check`, `node scripts/
   house.mjs` all clean.
+- **2026-11-28: the body-prose real/really backlog flagged above is no
+  longer just manual-review debt, it's now a tracked, automated gate.**
+  Trigger: a capitalized "Real" in a published title (Himeji Castle
+  day-trip post) slipped past manual pre-publish review because the
+  `grep` used wasn't case-insensitive; the site owner flagged it and
+  asked for it in house-lint directly. Two findings while building the
+  fix: (1) `scripts/house.mjs`'s `LINTABLE` extension list never
+  included `.mdx` at all, so every blog post had been invisible to the
+  linter since it was written, zero posts ever actually checked for
+  the 400-line cap, em-dashes, or anything else it enforces; fixing
+  that surfaced two live em-dash violations nobody had caught
+  (`hotel-granvia-kyoto-station-stay-spotlight.mdx`,
+  `nihon-minkaen-free-activities-vs-paid-extras-kawasaki.mdx`), both
+  fixed. (2) A full case-insensitive corpus scan found `real`/`really`
+  in 149 of 176 live posts (85%), confirming this was always a much
+  bigger backlog than the "flag opportunistically while editing for
+  something else" pace this doc had been running at. Added two new
+  house.mjs rules scoped to `src/data/posts/**/*.mdx`: zero
+  `real`/`really` (case-insensitive) and zero `'s own` (the specific
+  disclaiming pattern, not the word "own" alone, which has legitimate
+  uses: the verb "to own," "on its own," contrastive "your own X").
+  The 149-file backlog is grandfathered in `scripts/
+  real-debt-2026-11-28.json` so the build doesn't break today; every
+  file removed from that list must be re-verified clean by the script
+  itself. The one live `'s own` instance found
+  (`street-kart-asakusa-costume-license-cost.mdx`) was fixed on the
+  spot, no grandfathering needed for that rule. **Next priority: work
+  down the 149-file real-debt list**, a few files at a time or via a
+  dedicated background sweep (same pattern as the 2026-11-25 "own"
+  sweep), removing each from the JSON list only once `node
+  scripts/house.mjs` confirms it clean.

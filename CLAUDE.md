@@ -66,12 +66,11 @@ trigger fires once; that firing writes one complete post start to finish.
 10. Commit straight to `main` (message: `Add post: <title>`) and push. No
     PR, no review step. Cloudflare auto deploys on push.
 
-If you hit something you can't resolve alone (the build is broken by
-something other than your own change, or a real, honest look turns up
-nothing worth writing even once you've checked both AL_Vault and genuine
-web research for today's column), stop and leave a clear note rather than
-pushing something broken or duplicating a covered topic. That's a last
-resort, not the default outcome of a normal firing.
+If you hit something you can't resolve (the build broken by something
+else, or an honest look turning up nothing worth writing after checking
+both AL_Vault and web research for today's column), stop and leave a
+clear note rather than push something broken or duplicate a covered
+topic. Last resort, not the default outcome of a normal firing.
 
 ## Weekly calendar
 
@@ -104,12 +103,11 @@ rule and examples in `docs/weekly-calendar.md`.
 ## Saturday site audit
 
 A second, separate weekly routine (own trigger), alongside that day's
-Day Trip Saturday post, not instead of it. Goal: rank for Google and AI
-search, genuinely answer real traveler questions about Japan. Full scope,
-process, and the running log in `docs/site-audit.md`, read it first. Same
-autonomy and build/check/lint discipline as a daily post, same
-never-invent-a-fact rule, extended to legal/business facts: flag what
-only the site owner can supply.
+Day Trip Saturday post, not instead of it. Goal: rank for Google/AI
+search by answering traveler questions about Japan honestly; scope and
+process live in `docs/site-audit.md`, read it first. Same autonomy and
+build/check/lint discipline as a daily post, extended to legal/business
+facts only the site owner can confirm.
 
 ## Length
 
@@ -198,6 +196,11 @@ the same "what does X actually cost" template with the city name swapped.
   Same problem, 2026-11-24, wider than sourcing: cut "own" by default
   everywhere; keep it only when it marks a real switch in whose thing it
   is ("your trip... our own trips" earns it; a plain mention doesn't).
+  **2026-11-28: a capitalized "Real" in a title slipped past manual
+  review** (case-sensitive `grep`), so `house.mjs` now hard-fails on
+  `real`/`really`/`'s own` in post `.mdx`, case-insensitive (`.mdx`
+  wasn't even scanned before this fix). Backlog grandfathered in
+  `scripts/real-debt-2026-11-28.json`; new posts aren't.
 - File: `src/data/posts/en/<kebab-case-slug>.mdx` if the post uses
   `<AffiliateBox>`, otherwise plain `.md` is fine.
 - Frontmatter (see `src/content.config.ts` for the exact schema):
@@ -347,13 +350,11 @@ partner IDs there without the site owner's say so.
 - Telecom affiliates (Airalo, Airhub, Holafly, Japan Wireless, Nomad,
   Simlocal, amigo eSIM, Sim Options, Ubigi) live in
   `src/data/telecomAffiliates.ts`: no editing codes/links without the
-  owner's say so, no inventing terms; quote `.terms` in prose.
-  `docs/affiliates-reference.md` has the rest (the real source for Gear
-  Up Sunday and Day Trip Saturday); quote real terms, never invent a code.
+  owner's say so; quote `.terms`, never invent one (`docs/affiliates-
+  reference.md` has the rest).
 - Any single outbound link (telecom `.url`, Amazon, Awin, Expedia...):
-  `<AffiliateButton href="..." label="Verb + thing" />` on its own lines
-  (`@components/Post/AffiliateButton.astro`); no disclosure line per link.
-  Never a hand-rolled `<Button>` inside a `<p>`: it renders broken.
+  `<AffiliateButton href="..." label="Verb + thing" />` on its own line,
+  no disclosure line per link; never a hand-rolled `<Button>` in a `<p>`.
 
 ## Images
 
