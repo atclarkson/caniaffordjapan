@@ -27,26 +27,30 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
 2026-10-24 AL_Vault sweep provenance (now resolved) if it's needed again.
 
 ## Done
-- Moved the 2026-11-14 Nikko and 2026-11-15 digital luggage scale "Done"
-  entries out to `docs/blog-ideas-archive-15.md` to stay under the
-  house-lint 400-line cap (that archive file is now at 202 lines).
-- Moved the 2026-11-16 Park Front Hotel and Oriental Hotel Universal
-  City "Done" entries out to `docs/blog-ideas-archive-15.md` to stay
-  under the house-lint 400-line cap (that archive file is now at 286
-  lines).
-
-- Moved the 2026-11-17 Seven Bank ATM "Done" entry out to
-  `docs/blog-ideas-archive-15.md` to stay under the house-lint
-  400-line cap (that archive file is now at 315 lines).
-- **Klook Wednesday, 2026-11-18: Asakusa Sumo Club dinner show,
-  researched, resolves the long-standing Ginza sumo idea.** Full
-  provenance (why the Ginza lead got dropped for this doc's own
-  Asakusa fallback, the adamandlinds.com cross-check and its internal
-  inconsistency, the tournament-pricing comparison, the Annex upsell,
-  the cover-photo workaround) logged in
-  `docs/klook-priority-activities.md` rather than duplicated here.
-  Slug: `asakusa-sumo-club-chankonabe-klook-price`. Length tier 5
-  (1,343 words), format 14 (direct address). Topic `en/tokyo`.
+- **Day Trip Saturday, 2026-11-28: Himeji Castle, researched, new topic
+  for this column.** Hook is the real 2026-03-01 entrance-fee change
+  (non-resident adults 1,000 -> 2,500 yen, Himeji residents still
+  1,000, confirmed via multiple news sources and the castle's own
+  posted fee schedule), not just a generic "visit Himeji" post.
+  AL_Vault has no Himeji photos (checked, zero results), consistent
+  with no family visit to draw on, so written in the honest
+  no-visit-required register per the weekly-calendar honesty rule.
+  Train fares/times from Osaka and Kyoto (Shinkansen vs. JR Special
+  Rapid) cited with source-reported ranges rather than one invented
+  number, since sources disagree. Guided-tour section links a real
+  Klook search result (several real day tours pairing the castle with
+  Arima Onsen/Mt. Rokko or Kobe exist) rather than a specific activity
+  page, since the one specific Klook activity page found
+  (`94348-himeji-castle-arima-onse-mt-rokko-day-tour-osaka`) 403'd on
+  fetch, so its price/rating couldn't be verified and wasn't guessed.
+  Cover: Wikimedia Commons "Himeji Castle The Keep Towers.jpg" (public
+  domain, author Reggaeman via ja.wikipedia), confirmed via the API
+  after two earlier attempts were rate-limited. Length tier 3 (876
+  words), format 14 (direct address). Topic `en/day-trips`.
+  Slug: `himeji-castle-day-trip-osaka-kyoto-cost`.
+- Moved the 2026-11-14 through 2026-11-18 "Done"/meta-entries out to
+  `docs/blog-ideas-archive-15.md` (now 336 lines) to stay under the
+  house-lint cap; also cut a leftover "own" in the moved text.
 - **Throwback Thursday, 2026-11-19: Round1 karaoke, Osaka, resolves
   the open "149 | ROUND 1 in OSAKA" question from the 2026-10-24
   sweep.** That video (youtube_id `P-xzX74vqmY`, filmed sometime in

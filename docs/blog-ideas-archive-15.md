@@ -313,3 +313,24 @@ more recent entries. When this file nears 400 lines too, start
   published body (2 of each caught and cut across drafts). `pnpm build`,
   `pnpm check`, `pnpm lint:house` all clean. Slug:
   `getting-cash-japan-atm-seven-bank`. Topic `en/travel-prep`.
+
+- Moved the 2026-11-14 Nikko and 2026-11-15 digital luggage scale "Done"
+  entries out to `docs/blog-ideas-archive-15.md` to stay under the
+  house-lint 400-line cap (that archive file is now at 202 lines).
+- Moved the 2026-11-16 Park Front Hotel and Oriental Hotel Universal
+  City "Done" entries out to `docs/blog-ideas-archive-15.md` to stay
+  under the house-lint 400-line cap (that archive file is now at 286
+  lines).
+
+- Moved the 2026-11-17 Seven Bank ATM "Done" entry out to
+  `docs/blog-ideas-archive-15.md` to stay under the house-lint
+  400-line cap (that archive file is now at 315 lines).
+- **Klook Wednesday, 2026-11-18: Asakusa Sumo Club dinner show,
+  researched, resolves the long-standing Ginza sumo idea.** Full
+  provenance (why the Ginza lead got dropped for this doc's Asakusa
+  fallback, the adamandlinds.com cross-check and its internal
+  inconsistency, the tournament-pricing comparison, the Annex upsell,
+  the cover-photo workaround) logged in
+  `docs/klook-priority-activities.md` rather than duplicated here.
+  Slug: `asakusa-sumo-club-chankonabe-klook-price`. Length tier 5
+  (1,343 words), format 14 (direct address). Topic `en/tokyo`.
