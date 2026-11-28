@@ -356,3 +356,28 @@ firing" that resolved them were moved to `docs/site-audit-archive-1.md`
   into this commit; spot-checked several fixes directly in the built
   `dist/blog/<slug>/index.html` output. Next priority stays the same:
   keep working the list down.
+- **2026-11-28 (fourth and final pass): the real/really backlog is fully
+  cleared.** Fixed and individually re-verified the last 45 grandfathered
+  files, same editorial process as the first three passes (cut pure
+  filler, substitute "current," "actual," "genuine," "documented," or
+  restructure the clause; never "actually"/"genuinely" as the swap,
+  checked the combined count of those two words per file before and
+  after every edit; reworded idiom hits the same way, e.g. "in real
+  time" to "live"). Three filenames keep their established `-real-cost`/
+  `-real-visit` taxonomy on disk unchanged (breaking those slugs would
+  break the URL), but each one's cover image asset and frontmatter
+  `cover:` path were renamed to drop "real" (an internal asset filename,
+  not the public slug, so nothing SEO-relevant moved), since house.mjs
+  scans a post's whole raw file including frontmatter, not just the
+  rendered body. With the list at zero, removed the now-pointless
+  grandfather mechanism entirely: deleted `scripts/
+  real-debt-2026-11-28.json` and the `realDebtList()`/`crutch-real`
+  exemption code in `scripts/house.mjs` that read it, leaving the
+  `crutch-own` exemption (the held-back power-bank draft) as the only
+  remaining exemption in the file. `node scripts/house.mjs` now reports
+  zero real/really across every post with no exemption needed for that
+  rule at all, true zero tolerance. `pnpm build` (235 pages), `pnpm
+  check` (0 errors), and `house.mjs` all clean going into this commit;
+  spot-checked several fixes, including the three renamed cover images,
+  directly in the built `dist/blog/<slug>/index.html` output. No
+  priority item left behind for this backlog.

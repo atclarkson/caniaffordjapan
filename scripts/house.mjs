@@ -82,39 +82,18 @@ function exempt(rule, file) {
 }
 
 /**
- * Dette heritee au 2026-11-28 : ces articles contiennent encore "real"/
- * "really" en prose, en attendant le balayage complet du corpus annonce
- * dans docs/site-audit.md (deja note la-bas comme "priorite" avant que
- * cette liste existe). La liste elle-meme vit dans un fichier JSON a part,
- * pas ici, pour la meme raison que paletteFamilies() lit tokens.css plutot
- * que de recopier des noms : ce fichier reste lisible meme avec 150 noms
- * dedans. Un nom ne sort de la liste que lorsque son fichier a ete nettoye
- * ET reverifie par ce meme script, jamais parce que la liste genait.
+ * La dette heritee au 2026-11-28 (real/really dans 149 des 176 articles
+ * vivants) a ete entierement payee par quatre passes successives ; la
+ * liste JSON qui la grandfatherait et l'exemption "crutch-real" qui la
+ * lisait ont toutes les deux ete retirees le jour ou cette liste est
+ * tombee a zero. Il n'y a plus d'exemption pour cette regle : elle
+ * s'applique desormais sans aucune exception a tout article du corpus.
  */
-function realDebtList() {
-  try {
-    return JSON.parse(readFileSync(join(ROOT, "scripts/real-debt-2026-11-28.json"), "utf8"));
-  } catch {
-    return [];
-  }
-}
-const realDebtFiles = realDebtList();
-const REAL_DEBT_RE =
-  realDebtFiles.length > 0
-    ? new RegExp(`src/data/posts/en/(${realDebtFiles.map((f) => f.replace(/\./g, "\\.")).join("|")})$`)
-    : /$ne-matche-jamais^/;
-EXEMPTIONS.push(
-  {
-    rule: "crutch-real",
-    match: REAL_DEBT_RE,
-    why: "dette heritee (balayage pas encore fait, voir docs/site-audit.md 2026-11-28)",
-  },
-  {
-    rule: "crutch-own",
-    match: /power-bank-japan-flight-watt-hour-rules\.mdx$/,
-    why: "brouillon mis de cote sur demande explicite, jamais commit, pas encore nettoye",
-  },
-);
+EXEMPTIONS.push({
+  rule: "crutch-own",
+  match: /power-bank-japan-flight-watt-hour-rules\.mdx$/,
+  why: "brouillon mis de cote sur demande explicite, jamais commit, pas encore nettoye",
+});
 
 /* ------------------------------------------------------------------ */
 /* Le parcours                                                         */
