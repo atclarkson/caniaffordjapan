@@ -45,48 +45,23 @@ Nothing standing right now. See `docs/blog-ideas-archive-15.md` for the
   fetch, so its price/rating couldn't be verified and wasn't guessed.
   Cover: Wikimedia Commons "Himeji Castle The Keep Towers.jpg" (public
   domain, author Reggaeman via ja.wikipedia), confirmed via the API
-  after two earlier attempts were rate-limited. Length tier 3 (876
-  words), format 14 (direct address). Topic `en/day-trips`.
+  after two earlier attempts were rate-limited. Topic `en/day-trips`.
+  **2026-11-28 follow-up, site owner's request:** retitled to "...
+  Here's a Full-Day Cost Breakdown" and replaced the single "What a
+  DIY day totals" paragraph with explicit per-route itemized tables
+  (train + entrance + a casual-lunch estimate, labeled as an estimate
+  rather than a specific receipt, since no family visit exists to
+  cite one from), earning the jump from length tier 3 to tier 4
+  (1,014 words) legitimately per CLAUDE.md's "second real cost angle"
+  allowance, not padding. Format 14 still fits (title still speaks
+  direct to the reader's situation).
   Slug: `himeji-castle-day-trip-osaka-kyoto-cost`.
 - Moved the 2026-11-14 through 2026-11-18 "Done"/meta-entries out to
   `docs/blog-ideas-archive-15.md` (now 336 lines) to stay under the
   house-lint cap; also cut a leftover "own" in the moved text.
-- **Throwback Thursday, 2026-11-19: Round1 karaoke, Osaka, resolves
-  the open "149 | ROUND 1 in OSAKA" question from the 2026-10-24
-  sweep.** That video (youtube_id `P-xzX74vqmY`, filmed sometime in
-  the family's May 31-June 27 2023 Osaka/Fukuoka stretch, exact day
-  not pinned) was flagged back then as a real, distinct, unused visit
-  with "zero chapters, zero pricing, zero location detail" beyond the
-  venue tag, left unresolved rather than forced. Its own thumbnail
-  ("OSAKA, WE DID KARAOKE") answered the open question: not another
-  bowling visit, a separate parents-only karaoke night, genuinely
-  different from both existing Round1 posts (Lindsay's birthday
-  bowling, Harper's birthday vending-machine shoes). Confirmed via
-  `grep` that no post on the site had ever covered Round1's karaoke
-  floor specifically, only passing mentions in the existing bowling/
-  Spocha post's facility list. Wrote it from what's honestly knowable
-  without video-watching capability (real title, real thumbnail, real
-  description, no invented narrated beats), anchored in genuinely
-  researched facts about how Round1 actually prices karaoke: its own
-  page keeps base time-block rates in image graphics rather than
-  text, but states a real one-order-per-person minimum (440 yen+) in
-  plain text, contrasted against real named Big Echo branch rates (a
-  clean per-30-minute chain) and the general Japan karaoke range,
-  plus the cultural context (izakaya-style one-item-per-person norms)
-  that explains why the pricing model differs from what a Western
-  reader expects. Rolled length tier 5 (1,300-1,600 words) and format
-  10 (budget-tier framing, cheap-order-minimum vs splurge-nomihoudai);
-  the real material only honestly supported 1,235 words after four
-  genuine added sections (karaoke-room orientation, the one-item-per-
-  person cultural context, the Big Echo comparison, the general-range
-  section), landed short rather than padding further to clear the
-  floor, noted here per CLAUDE.md's own length-tier honesty guidance.
-  No AL_Vault photos exist for this video (checked, none), YouTube
-  thumbnail used as cover instead, no `mark_photo_used` call applies.
-  Zero "real"/"really" and zero "actually"/"genuinely" in the
-  published body (6 and 3 respectively caught and cut across drafts).
-  `pnpm build`, `pnpm check`, `pnpm lint:house` all clean. Slug:
-  `round1-karaoke-osaka-order-system-vs-drink-bar`. Topic `en/osaka`.
+- Moved the 2026-11-19 Round1 karaoke "Done" entry out to
+  `docs/blog-ideas-archive-15.md` to stay under the house-lint
+  400-line cap (that archive file is now at 372 lines).
 - **Food Friday, 2026-11-20: Osaka Namba bar-hopping tour, Klook,
   researched.** Owner feedback after yesterday's Round1 post (don't
   force a hard-to-find real-visit angle when there's a huge Klook

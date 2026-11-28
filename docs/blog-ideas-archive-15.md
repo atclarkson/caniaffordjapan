@@ -334,3 +334,39 @@ more recent entries. When this file nears 400 lines too, start
   `docs/klook-priority-activities.md` rather than duplicated here.
   Slug: `asakusa-sumo-club-chankonabe-klook-price`. Length tier 5
   (1,343 words), format 14 (direct address). Topic `en/tokyo`.
+- **Throwback Thursday, 2026-11-19: Round1 karaoke, Osaka, resolves
+  the open "149 | ROUND 1 in OSAKA" question from the 2026-10-24
+  sweep.** That video (youtube_id `P-xzX74vqmY`, filmed sometime in
+  the family's May 31-June 27 2023 Osaka/Fukuoka stretch, exact day
+  not pinned) was flagged back then as a real, distinct, unused visit
+  with "zero chapters, zero pricing, zero location detail" beyond the
+  venue tag, left unresolved rather than forced. Its own thumbnail
+  ("OSAKA, WE DID KARAOKE") answered the open question: not another
+  bowling visit, a separate parents-only karaoke night, genuinely
+  different from both existing Round1 posts (Lindsay's birthday
+  bowling, Harper's birthday vending-machine shoes). Confirmed via
+  `grep` that no post on the site had ever covered Round1's karaoke
+  floor specifically, only passing mentions in the existing bowling/
+  Spocha post's facility list. Wrote it from what's honestly knowable
+  without video-watching capability (real title, real thumbnail, real
+  description, no invented narrated beats), anchored in genuinely
+  researched facts about how Round1 actually prices karaoke: its own
+  page keeps base time-block rates in image graphics rather than
+  text, but states a real one-order-per-person minimum (440 yen+) in
+  plain text, contrasted against real named Big Echo branch rates (a
+  clean per-30-minute chain) and the general Japan karaoke range,
+  plus the cultural context (izakaya-style one-item-per-person norms)
+  that explains why the pricing model differs from what a Western
+  reader expects. Rolled length tier 5 (1,300-1,600 words) and format
+  10 (budget-tier framing, cheap-order-minimum vs splurge-nomihoudai);
+  the real material only honestly supported 1,235 words after four
+  genuine added sections (karaoke-room orientation, the one-item-per-
+  person cultural context, the Big Echo comparison, the general-range
+  section), landed short rather than padding further to clear the
+  floor, noted here per CLAUDE.md's own length-tier honesty guidance.
+  No AL_Vault photos exist for this video (checked, none), YouTube
+  thumbnail used as cover instead, no `mark_photo_used` call applies.
+  Zero "real"/"really" and zero "actually"/"genuinely" in the
+  published body (6 and 3 respectively caught and cut across drafts).
+  `pnpm build`, `pnpm check`, `pnpm lint:house` all clean. Slug:
+  `round1-karaoke-osaka-order-system-vs-drink-bar`. Topic `en/osaka`.
