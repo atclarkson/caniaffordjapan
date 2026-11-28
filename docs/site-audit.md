@@ -84,57 +84,10 @@ placeholder.
 
 ## Log
 
-The 2026-10-29/10-30 seed-item entries that used to open this log were
-moved to `docs/site-audit-archive-1.md` (2026-11-28) to stay under the
-house-lint 400-line cap; all three were already resolved in the first
-firing below.
+The 2026-10-29/10-30 seed-item entries and the 2026-10-31 "First real
+firing" that resolved them were moved to `docs/site-audit-archive-1.md`
+(2026-11-28) to stay under the house-lint 400-line cap.
 
-- **First real firing, 2026-10-31.** Worked all three queued seed items
-  above. (1) Fixed `/legal/`'s affiliate disclosure to name Hotels.com,
-  Viator, Amazon Associates, and the telecom affiliates alongside
-  Klook/GYG/Expedia, and softened "based on our own trips" to just
-  "we'd genuinely recommend," no longer accurate now that some columns
-  are honestly researched rather than visited. (2) Wired up
-  `faqPage()`: added an optional `faq` array to the posts content
-  schema (`src/content.config.ts`), rendered it in
-  `src/pages/[...locale]/blog/[id].astro` scoped so the schema only
-  ever appears when a post has a matching visible section, confirmed
-  via `grep` on the built HTML that it renders only on the one post
-  that opts in. First real use:
-  `travel-insurance-japan-trip-cost.mdx` got a visible "Quick answers"
-  section near the top with four genuine Q&A pairs pulled from facts
-  already in the post, also the post the Search Console data flagged
-  as the strongest ranking gap (real demand, near-zero position),
-  worth checking the next export for movement. (3) Fixed the optician
-  post's crutch-word title. While checking its sibling in the
-  zero-click finding, `kappabashi-knife-shop-price-cheap-vs-splurge-
-  cost`, for the same issue, found its title and description already
-  clean, left it alone rather than change something that wasn't
-  broken, per this routine's own "not cosmetic churn" rule.
-
-  Found a real, separate, bigger pattern while in the topic files:
-  `grep` across `src/data/topics/en/*.json` turned up "actually" in 7
-  of 20 descriptions, which render as both the visible topic-page lede
-  AND the page's meta description (confirmed in
-  `src/pages/[...locale]/topics/[topic]/[...page].astro`), a real
-  site-wide house-style violation, not isolated to posts. Fixed all 7
-  (day-trips, deals, hiroshima, museums, osaka, shopping, transit).
-  Also found and fixed the About page's closing paragraph, which used
-  "actually" three times in one sentence.
-
-  **Flagged, not changed:** the home page hero title,
-  `"Can we actually afford this trip?"` (`src/i18n/ui/en/pages.ts`,
-  `home.heroTitle`), also uses the word. Left it alone deliberately,
-  it's the single highest-visibility line on the site and arguably a
-  different register, a deliberate rhetorical hook tied to the site's
-  own name, not prose filler reaching for "actually" to signal
-  surprise the way the house rule targets. A voice call this routine
-  shouldn't make unilaterally; flagging for the site owner rather than
-  guessing.
-
-  All changes: `pnpm build`/`pnpm check` clean, `node scripts/house.mjs`
-  clean, `pnpm test` clean (touched `content.config.ts` and the blog
-  template). Pushed across three commits.
 - **Second real firing, 2026-11-07.** Checked `docs/search-console/`
   first for a fresher export, none since 2026-10-30, nothing new to
   analyze from that source this week. Checked `src/pages/robots.txt.ts`
@@ -389,3 +342,17 @@ firing below.
   `scripts/real-debt-2026-11-28.json`. 98 files remain on that list.
   `pnpm build`, `pnpm check`, and `house.mjs` all clean going into this
   commit. Next priority stays the same: keep working the list down.
+- **2026-11-28 (third pass): paid down another 53 files from the real/
+  really backlog.** Same process as the first two passes: cut the word
+  where it was pure filler, substituted "current," "actual," "genuine,"
+  "proper," "clear," or a restructure where the sentence needed it
+  (never "actually"/"genuinely" as the swap, checked the combined count
+  of those two words per file before and after every edit), and reworded
+  around idiom hits too ("real time" to "live"/"as it happens," "real
+  estate" to "land"). Each file individually re-verified clean via `node
+  scripts/house.mjs` before being removed from `scripts/
+  real-debt-2026-11-28.json`. 45 files remain on that list. `pnpm build`
+  (235 pages), `pnpm check` (0 errors), and `house.mjs` all clean going
+  into this commit; spot-checked several fixes directly in the built
+  `dist/blog/<slug>/index.html` output. Next priority stays the same:
+  keep working the list down.
