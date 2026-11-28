@@ -88,55 +88,9 @@ The 2026-10-29/10-30 seed-item entries and the 2026-10-31 "First real
 firing" that resolved them were moved to `docs/site-audit-archive-1.md`
 (2026-11-28) to stay under the house-lint 400-line cap.
 
-- **Second real firing, 2026-11-07.** Checked `docs/search-console/`
-  first for a fresher export, none since 2026-10-30, nothing new to
-  analyze from that source this week. Checked `src/pages/robots.txt.ts`
-  and `src/pages/llms.txt.ts`, both fully dynamic (robots.txt derives
-  its sitemap URL from site config, llms.txt pulls topics/posts live
-  from content collections), confirmed no staleness risk there, no
-  changes needed. Ran a sitewide internal-link check (every `/blog/
-  <slug>/` reference in every post's body against the real set of
-  published slugs): zero broken links found.
-
-  Continued the "actually"/"genuinely" sweep from the first firing,
-  this time at title/description scope rather than just topic
-  descriptions: a `grep` across every post's frontmatter turned up a
-  much bigger pattern than last week's, 27 published posts using
-  "Actually" as a literal repeated title template ("What X Actually
-  Costs," "Is X Actually Worth It," etc.), clearly a pre-dates-the-
-  house-rule content pattern from the site's early buildout rather
-  than isolated slips. Fixed all 27 (titles and/or descriptions,
-  exact list in the commit), preserving every real fact and number,
-  only removing the filler word, confirmed via a second `grep` pass
-  (zero remaining) and a built-HTML `<title>` check. Also found the
-  same word in the `esim-vs-sim-vs-pocket-wifi-japan` post's title,
-  description, and closing line while reviewing it for FAQ potential,
-  fixed there too. Did not touch the home hero title, same reasoning
-  as the first firing's flag still holds.
-
-  **Flagged, not actioned this firing:** a `grep` for "actually"/
-  "genuinely" in post *bodies* (not just frontmatter) found 38 posts
-  with at least one instance, a real, larger tail of the same pattern.
-  Didn't attempt all 38 in one sitting, body-prose fixes need real
-  per-sentence judgment rather than a safe mechanical string swap the
-  way the title/description fixes were. Worth the next firing's first
-  pass, or splitting across a few firings rather than rushing it.
-
-  Wired up `faqPage()` on two more posts with genuine, naturally-
-  occurring Q&A content (now 3 total, up from the 1 from the first
-  firing): `japan-plug-adapter-voltage-converter-guide` (do-I-need-an-
-  adapter is the post's entire premise) and
-  `esim-vs-sim-vs-pocket-wifi-japan` (eSIM-vs-SIM-vs-pocket-wifi is a
-  real, common traveler question this post already answers in full).
-  Both got a frontmatter `faq` array and a matching visible "Quick
-  answers" section, every answer restating a fact already stated
-  elsewhere in that same post, nothing invented. Confirmed via `grep`
-  on the built HTML that `FAQPage` JSON-LD renders only on the three
-  opted-in posts.
-
-  All changes: `pnpm build`/`pnpm check`/`node scripts/house.mjs`/
-  `pnpm test` all clean. Pushed in one commit (29 files: 27 title/
-  description fixes, 2 FAQ wire-ups).
+- Moved the 2026-11-07 "Second real firing" entry out to
+  `docs/site-audit-archive-1.md` to stay under the house-lint 400-line
+  cap (that archive file is now at 137 lines).
 - **Off-cycle fix, 2026-11-08, prompted directly by the site owner.**
   The owner spot-checked `zenni-glasses-before-trip-vs-japan-optician`
   and found the real Zenni affiliate link effectively invisible: a
@@ -381,3 +335,29 @@ firing" that resolved them were moved to `docs/site-audit-archive-1.md`
   spot-checked several fixes, including the three renamed cover images,
   directly in the built `dist/blog/<slug>/index.html` output. No
   priority item left behind for this backlog.
+- **Weekly audit, 2026-11-28.** With the real/really backlog closed
+  above, extended the same case-insensitive scan beyond posts to every
+  other reader-facing surface: topic descriptions (clean, 0 hits),
+  `/legal/`, `/about/`, i18n page strings (clean apart from one code
+  comment, not reader-facing), and site chrome. Found and fixed 6
+  genuine, high-visibility hits `scripts/house.mjs` doesn't scan
+  (scoped to post `.mdx` only): the site's own `<title>`/meta
+  description and OG image alt text (`src/config/siteData.json.ts`),
+  the generated default OG share-card's headline text (`scripts/
+  og.mjs`, regenerated via `pnpm og` and visually confirmed), the
+  footer tagline shown on every page (`src/i18n/ui/en/chrome.ts`), the
+  `KlookCodeBox` component's disclosure text shown on every Klook post
+  (`src/components/Post/KlookCodeBox.astro`), the all-posts archive's
+  meta description (`src/i18n/ui/en/reading.ts`), and `llms.txt`'s
+  `/about/` line (`src/pages/llms.txt.ts`). Checked the same surfaces
+  for the `'s own` disclaiming pattern too: all clean, no hits outside
+  code comments. Also checked for broken internal links across the
+  full built `dist/` output via a script comparing every `href` against
+  actual generated pages: zero genuine broken links (the 230 flagged
+  hits were all false positives from an incomplete first pass, either
+  intentional client-side `/search/?q=...` routes already disallowed
+  in `robots.txt`, or static assets like fonts/webmanifest my script
+  didn't check for outside `.html` files; confirmed each category
+  actually resolves). `pnpm build` (235 pages), `pnpm check` (0
+  errors), and `node scripts/house.mjs` ("Aucune violation") all clean
+  before this commit.

@@ -5,9 +5,9 @@ import type { SiteDataProps } from "./types/configDataTypes";
 // l'utilisateur edite, et le seul a editer pour changer de marque.
 const siteData: SiteDataProps = {
   name: "Can I Afford Japan?",
-  title: "Can I Afford Japan? - Real prices for an affordable Japan trip",
+  title: "Can I Afford Japan? - Prices for an affordable Japan trip",
   description:
-    "Honest, well-researched posts on what things really cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's trips and real research in between. Real pricing, never invented.",
+    "Honest, well-researched posts on what things cost in Japan: temples, food, transit, hotels, activities, and day trips, from the Clarkson family's trips and research in between. Never invented pricing.",
   useViewTransitions: true,
 
   demoNotice: "",
@@ -20,7 +20,7 @@ const siteData: SiteDataProps = {
 
   defaultImage: {
     src: "/og/default.png",
-    alt: "Can I Afford Japan? - real trip photos and honest prices from Japan",
+    alt: "Can I Afford Japan? - trip photos and honest prices from Japan",
   },
 };
 

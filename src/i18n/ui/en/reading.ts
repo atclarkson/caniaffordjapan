@@ -59,7 +59,7 @@ export const enReading = {
     /** The archive's <title> in search results; metaTitle stays the breadcrumb label. */
     seoTitle: "Japan Trip Costs: Every Post",
     metaDescription:
-      "Every post published on Can I Afford Japan?, newest first: real prices for temples, food, transit, and day trips in Japan.",
+      "Every post published on Can I Afford Japan?, newest first: prices for temples, food, transit, and day trips in Japan.",
     eyebrow: "Archive",
     title: "All posts",
     accent: "",

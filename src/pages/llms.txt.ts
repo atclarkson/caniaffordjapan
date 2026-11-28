@@ -33,7 +33,7 @@ export const GET: APIRoute = async ({ site, url }) => {
     ["/blog/", "every published post, newest first, paginated nine to a page"],
     ["/topics/", "the topic index; each topic has a paginated archive"],
     ["/authors/", "the family members who write here, one page per byline"],
-    ["/about/", "who the Clarkson family is and why real prices are published"],
+    ["/about/", "who the Clarkson family is and why honest prices are published"],
     ["/contact/", "how to reach the family"],
     ["/legal/", "privacy, terms, and affiliate disclosure in one page, plus how to reach us"],
   ];

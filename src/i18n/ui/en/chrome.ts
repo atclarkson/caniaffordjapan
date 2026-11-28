@@ -38,7 +38,7 @@ export const enChrome = {
   // qui aligne six colonnes copie un SaaS et sert d'egout a liens morts.
   footer: {
     tagline:
-      "Real Japan prices from the Clarkson family's trips, plus researched hotels, activities and gear.",
+      "Japan prices from the Clarkson family's trips, plus researched hotels, activities and gear.",
     colRead: "Read",
     colStudio: "About",
     colLegal: "Legal",

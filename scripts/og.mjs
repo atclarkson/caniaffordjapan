@@ -43,7 +43,7 @@ const ACCENT_2 = token("coral-400", "#ff7a59");
 // title: the big line. eyebrow: now the site name set beside the yen mark
 // at the bottom left (no longer a spaced-out caps line above the title).
 const PAGES = [
-  { slug: "default", eyebrow: "Can I Afford Japan?", title: "Real Japan prices from a family of five." },
+  { slug: "default", eyebrow: "Can I Afford Japan?", title: "Japan prices from a family of five." },
   { slug: "blog", eyebrow: "Can I Afford Japan?", title: "Every post, priced out." },
   { slug: "topics", eyebrow: "Can I Afford Japan?", title: "Japan travel costs by topic." },
   { slug: "about", eyebrow: "Can I Afford Japan?", title: "The family behind the posts." },
