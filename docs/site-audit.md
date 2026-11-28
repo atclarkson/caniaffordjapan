@@ -380,3 +380,12 @@ firing below.
   dedicated background sweep (same pattern as the 2026-11-25 "own"
   sweep), removing each from the JSON list only once `node
   scripts/house.mjs` confirms it clean.
+- **2026-11-28 (later): first paydown pass on the real/really backlog.**
+  Fixed and individually re-verified 51 of the 149 grandfathered files
+  (cut the word where it was pure filler, swapped in "current,"
+  "actual," "genuine," or a restructure where the sentence needed it;
+  never "actually"/"genuinely" as the substitute). Each file confirmed
+  clean via `node scripts/house.mjs` before being removed from
+  `scripts/real-debt-2026-11-28.json`. 98 files remain on that list.
+  `pnpm build`, `pnpm check`, and `house.mjs` all clean going into this
+  commit. Next priority stays the same: keep working the list down.
